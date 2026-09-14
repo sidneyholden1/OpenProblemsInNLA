@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "date_utc": "2026-09-14T16:25:49.316267+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original proof already exists upstream.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/SP-06/STATEMENT-REFEREE-1.md": "3489fe7ec21b23a4bd007538d445cd801d50c04682b36eda8e7416de94ef9105",
+    "docs/lean/reverification-2026-09-14/SP-06/STATEMENT-REFEREE-2.md": "e81a0cb8e75e9ced2ee3850f534abd216731768f08eccbdf7541091b645f49b2",
+    "eigenvalues-and-inverse-problems/SP-06/lean/Solution.lean": "4aa92168bf3dccc0a03180795c60b404a7e6b531b188eb4ab1d93cf109c3eb42",
+    "eigenvalues-and-inverse-problems/SP-06/lean/Challenge.lean": "cd75a8f37a174d7dfb68927f7e6aeb23cf0982eb3161d7d9e5a63a7583d73bef",
+    "eigenvalues-and-inverse-problems/SP-06/lean/NLA/SP06/Definitions.lean": "5f3e071b9aabbbda27a794f9396022e54585f5d2d254827e50ea90baf80e72b1",
+    "eigenvalues-and-inverse-problems/SP-06/lean/NLA/SP06/Numeric.lean": "16052a754e8680c587163e1a57d150094ae96a36464a56cc499ec09e9aa5b111",
+    "eigenvalues-and-inverse-problems/SP-06/lean/NLA/SP06/Proof.lean": "d22146a65804efd8ff5c7f7b81ddcd55af8dc1bab7a2518f4961d7699abc9b48",
+    "eigenvalues-and-inverse-problems/SP-06/lean/NLA/SP06/Curve.lean": "151ff3586667091b16eab3acf03aed32fa5c7db8422a4077095bf914c4392677"
+  }
+}
