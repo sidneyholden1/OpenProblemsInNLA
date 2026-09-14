@@ -58,48 +58,31 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Full local Lean 4.33.1 kernel build passes (3582 jobs), including all four export trust checks.
-    Both frozen-statement reviews passed. Independent final proof reviews and actual isolated Linux Comparator/default-kernel
-    replay with rejection controls are pending; canonical status unchanged.
-  sorry_count: 0
+  scope: Statement preparation and exact symbolic prechecking only; proof and all final verification gates
+    pending. Canonical status unchanged.
+  sorry_count: 4
   sorry_in_definitions: 0
   main_results:
   - declaration: NLA.IS02.witness_certificates
-    file: NLA/IS02/Proof.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
   - declaration: NLA.IS02.spectral_uniqueness
-    file: NLA/IS02/Proof.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
   - declaration: NLA.IS02.locus_exclusion
-    file: NLA/IS02/Proof.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
   - declaration: NLA.IS02.counterexample
-    file: NLA/IS02/Proof.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
 fidelity:
   divergences: Order four refutes the original all-dimensions implication. Equal actual characteristic
     polynomials encode equal eigenvalues with algebraic multiplicities; simultaneous Equiv.Perm submatrix
@@ -107,15 +90,10 @@ fidelity:
     and every vertex. The finite algebra proof replaces the source graph argument without restricting
     competing matrices.
 review:
-  status: statement-agent-reviewed; final-proof-review-pending
-  reviewers:
-  - OpenAI Codex agent /root/iv06_statement_referee_1
-  - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent statement referees approved the frozen boundary before proof implementation
-    at 4e9976ff. Original reviewed statement README and manifest retained in reviews/statement-review-snapshot.
-    Four intentional Challenge placeholders remain confined to the statement environment. All solution
-    exports pass local kernel trust checks with no proof-development holes. Two independent final reviews
-    and actual isolated Linux Comparator remain required before canonical promotion.
+  status: statement-review-pending
+  notes: Four intentional Challenge placeholders. Two independent frozen-statement reviews precede implementation;
+    two final reviews and actual isolated Linux Comparator/default-kernel replay with rejection controls
+    precede canonical promotion.
 alignment:
 - source: Exact source witness, characteristic polynomial and positive trace
   declarations:

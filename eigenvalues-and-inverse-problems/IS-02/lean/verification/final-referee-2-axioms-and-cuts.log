@@ -1,0 +1,7 @@
+'NLA.IS02.witness_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.spectral_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.locus_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+Actual proof dependency: LeanCert.Core.Expr.eval
+Actual proof dependency: LeanCert.Core.Expr.const
+Actual proof dependency: LeanCert.Validity.verify_strict_upper_bound_dyadic_checked

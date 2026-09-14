@@ -1,0 +1,4 @@
+'NLA.IS02.witness_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.spectral_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.locus_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
