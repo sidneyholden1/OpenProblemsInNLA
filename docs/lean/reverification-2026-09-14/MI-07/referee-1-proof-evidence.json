@@ -1,0 +1,141 @@
+{
+  "reviewer": "independent AI referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "source_base_is_not_latest_main": true,
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "candidate_commit": "dacf46260eaf39c833da5c0a3207c0349166459a",
+  "active_closure": {
+    "Solution": {
+      "path": "matrix-inequalities-and-norms/MI-07/lean/Solution.lean",
+      "sha256": "e460594ac018c8a1e966d88012b07c4ada8743957a414cbdfff8b790d54c07ee",
+      "lines": 99
+    },
+    "NLA.MI07.Proof": {
+      "path": "matrix-inequalities-and-norms/MI-07/lean/NLA/MI07/Proof.lean",
+      "sha256": "55f400e703994c3967a245495f6ad1ebc1999133cfd748185c81ef263178d8a3",
+      "lines": 342
+    },
+    "NLA.MI07.FunctionalCalculus": {
+      "path": "matrix-inequalities-and-norms/MI-07/lean/NLA/MI07/FunctionalCalculus.lean",
+      "sha256": "0963940bbed1818e7b8240129de01e832660f045dbfcabf578fb11d99949553a",
+      "lines": 82
+    },
+    "NLA.MI07.Definitions": {
+      "path": "matrix-inequalities-and-norms/MI-07/lean/NLA/MI07/Definitions.lean",
+      "sha256": "369e99eaf3df8a8bbfb214973129ab71fbc95445ba9d176e91d52bca3bc46bc5",
+      "lines": 67
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Projection",
+    "Mathlib.Analysis.Matrix.Order",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Continuity",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.UnitaryGroup",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.FunProp",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "source_scan": "All active executable code read by the scan: no sorry/admit/axiom/native_decide/unsafe/implemented_by. No Challenge import.",
+  "exports": [
+    "NLA.MI07.modulus_eq_sqrt",
+    "NLA.MI07.maximalModulus_eq_of_tendsto",
+    "NLA.MI07.root_limit_iff_spectralNorm",
+    "NLA.MI07.witness_moduli",
+    "NLA.MI07.witness_root_limits",
+    "NLA.MI07.counterexample",
+    "NLA.MI07.not_triangleConjecture"
+  ],
+  "evidence_hashes": {
+    "statement-gate.json": "040a7bd94f17486f207ebe8957ae9e62d964bf399079d122096d4387db444e36",
+    "STATEMENT-REFEREE-1.md": "a140ba712515b9e7ae53fe6b3b81372e8da0c0a4947a60e0ad65d4d7250837d6",
+    "referee-1-statement-evidence.json": "448b1a6155becf2225866a7881f9057cdb079e143d632bf8626bfc75449bdefa",
+    "solution-local.json": "069dbc2f15e7972f54c60c3be35b940802bcd72dbc553c8a4e5a1193b57fb087",
+    "solution-local.log": "c043027dc929d7caaa66edd25c4b3bbf53fd4842b5287014c568b6f5ccefcc87",
+    "referee-2-export-audit.lean": "618295246d102508d9b883dbab106ff21118ad2be7dd2460fbffdbd9787f430d",
+    "referee-2-export-audit.log": "31c1a1312c25ce6142968514de351684eecb536c8b982bd0facb144b2dba4224",
+    "referee-2-numerical-checker.lean": "ef60004f47f243c7ba636a01a2d9320d6560c4a21557d5105f5559e61759256d",
+    "referee-2-numerical-checker.log": "b09629c5ef8f943f409855b3b68dc53c825566c9ebba919dff1925c225c2413d",
+    "referee-2-consumer-exit.json": "ae63509fd505b4dee67723c500cac493ac5f910559280b9ede5c0dd37670f58f",
+    "referee-2-proof-checks.json": "d3775cb15d40ec31fdd9f264f8685620c90682329d960cbd062c0a378675b7a0"
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "62fee2804dc12a4ad7edecfa8c1dda2dc39acc2d94475d29805e8e55c3288a59",
+    "NUMERICAL_TARGETS.md": "70272f54de929a95347db186b09b66d534313eed87ab7daa8e7fe5c8aaa8bd1e",
+    "comparator.json": "2e9d5b3a4b0e29f0208a75b42e22fe28f2743a2e9c908d9fc1c451161e0b60b7",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "068377fdaf5079cfc3aea6cf0e8fc35a91ccd3da5b20670802a4df1d070bd073",
+    "lakefile.toml": "eb8266ae962777bdd0ec8208bb4611c1876bdcbb879602a41ff972c2b58a19ab"
+  },
+  "execution_limit": "Source and evidence inspection by this referee; fresh builds belong to coordinator, consumer/term inspections to referee 2. Actual Linux Comparator is separate.",
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi07/matrix-inequalities-and-norms/MI-07/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 68.106,
+    "log_sha256": "c043027dc929d7caaa66edd25c4b3bbf53fd4842b5287014c568b6f5ccefcc87"
+  },
+  "referee_2_consumer_execution": {
+    "exit_code": 0,
+    "names": [
+      "NLA.MI07.modulus_eq_sqrt",
+      "NLA.MI07.maximalModulus_eq_of_tendsto",
+      "NLA.MI07.root_limit_iff_spectralNorm",
+      "NLA.MI07.witness_moduli",
+      "NLA.MI07.witness_root_limits",
+      "NLA.MI07.counterexample",
+      "NLA.MI07.not_triangleConjecture"
+    ]
+  },
+  "export_axioms_read_from_referee_2_fresh_consumer": {
+    "NLA.MI07.modulus_eq_sqrt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI07.maximalModulus_eq_of_tendsto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI07.root_limit_iff_spectralNorm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI07.witness_moduli": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI07.witness_root_limits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI07.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI07.not_triangleConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

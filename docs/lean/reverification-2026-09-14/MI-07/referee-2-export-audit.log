@@ -1,0 +1,123 @@
+@NLA.MI07.modulus_eq_sqrt : ∀ {n : ℕ} (X : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+  Eq.{1} (NLA.MI07.matrixModulus X) (CFC.sqrt.{0} (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} X) X)) ∧
+    Matrix.PosSemidef.{0, 0} (NLA.MI07.matrixModulus X)
+'NLA.MI07.modulus_eq_sqrt' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.MI07.maximalModulus_eq_of_tendsto : ∀ {n : ℕ} (X L : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+  Filter.Tendsto.{0, 0} (NLA.MI07.rootSequence X) Filter.atTop.{0} (nhds.{0} L) → Eq.{1} (NLA.MI07.maximalModulus X) L
+'NLA.MI07.maximalModulus_eq_of_tendsto' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.MI07.root_limit_iff_spectralNorm : ∀ {n : ℕ} (X L : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+  Filter.Tendsto.{0, 0} (NLA.MI07.rootSequence X) Filter.atTop.{0} (nhds.{0} L) ↔
+    Filter.Tendsto.{0, 0} (fun r => NLA.MI07.spectralNorm (HSub.hSub.{0, 0, 0} (NLA.MI07.rootSequence X r) L))
+      Filter.atTop.{0} (nhds.{0} 0)
+'NLA.MI07.root_limit_iff_spectralNorm' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI07.witness_moduli : Matrix.PosSemidef.{0, 0} NLA.MI07.witnessA ∧
+  Matrix.PosSemidef.{0, 0} NLA.MI07.directionProjector ∧
+    Matrix.PosDef.{0, 0} NLA.MI07.spanningSum ∧
+      Eq.{1} (HPow.hPow.{0, 0, 0} NLA.MI07.witnessA 2) NLA.MI07.witnessA ∧
+        Eq.{1} (HPow.hPow.{0, 0, 0} NLA.MI07.directionProjector 2) NLA.MI07.directionProjector ∧
+          Eq.{1} (NLA.MI07.matrixModulus NLA.MI07.witnessA) NLA.MI07.witnessA ∧
+            Eq.{1} (NLA.MI07.matrixModulus (Matrix.conjTranspose.{0, 0, 0} NLA.MI07.witnessA)) NLA.MI07.witnessA ∧
+              Eq.{1} (NLA.MI07.matrixModulus NLA.MI07.witnessB)
+                  (HSMul.hSMul.{0, 0, 0} (5 / 12) (HSub.hSub.{0, 0, 0} 1 NLA.MI07.witnessA)) ∧
+                Eq.{1} (NLA.MI07.matrixModulus (Matrix.conjTranspose.{0, 0, 0} NLA.MI07.witnessB))
+                    (HSMul.hSMul.{0, 0, 0} (5 / 12) NLA.MI07.witnessA) ∧
+                  Eq.{1} (NLA.MI07.matrixModulus (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB))
+                      (HSMul.hSMul.{0, 0, 0} (13 / 12) NLA.MI07.directionProjector) ∧
+                    Eq.{1}
+                      (NLA.MI07.matrixModulus
+                        (Matrix.conjTranspose.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB)))
+                      (HSMul.hSMul.{0, 0, 0} (13 / 12) NLA.MI07.witnessA)
+'NLA.MI07.witness_moduli' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI07.witness_root_limits : Filter.Tendsto.{0, 0} (NLA.MI07.rootSequence NLA.MI07.witnessA) Filter.atTop.{0}
+    (nhds.{0} NLA.MI07.witnessA) ∧
+  Filter.Tendsto.{0, 0} (NLA.MI07.rootSequence NLA.MI07.witnessB) Filter.atTop.{0}
+      (nhds.{0} (HSMul.hSMul.{0, 0, 0} (5 / 12) 1)) ∧
+    Filter.Tendsto.{0, 0} (NLA.MI07.rootSequence (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB))
+      Filter.atTop.{0} (nhds.{0} (HSMul.hSMul.{0, 0, 0} (13 / 12) 1))
+'NLA.MI07.witness_root_limits' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI07.counterexample : Eq.{1} (NLA.MI07.maximalModulus NLA.MI07.witnessA) NLA.MI07.witnessA ∧
+  Eq.{1} (NLA.MI07.maximalModulus NLA.MI07.witnessB) (HSMul.hSMul.{0, 0, 0} (5 / 12) 1) ∧
+    Eq.{1} (NLA.MI07.maximalModulus (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB))
+        (HSMul.hSMul.{0, 0, 0} (13 / 12) 1) ∧
+      Eq.{1} (Matrix.trace.{0, 0} (NLA.MI07.maximalModulus (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB)))
+          (13 / 6) ∧
+        ∀ (U V : ↥(Matrix.unitaryGroup.{0, 0} (Fin 2) ℂ)),
+          Eq.{1}
+              (Matrix.trace.{0, 0}
+                (HAdd.hAdd.{0, 0, 0} (NLA.MI07.unitaryConjugate U (NLA.MI07.maximalModulus NLA.MI07.witnessA))
+                  (NLA.MI07.unitaryConjugate V (NLA.MI07.maximalModulus NLA.MI07.witnessB))))
+              (11 / 6) ∧
+            Eq.{1}
+                (Matrix.trace.{0, 0}
+                  (HSub.hSub.{0, 0, 0}
+                    (HAdd.hAdd.{0, 0, 0} (NLA.MI07.unitaryConjugate U (NLA.MI07.maximalModulus NLA.MI07.witnessA))
+                      (NLA.MI07.unitaryConjugate V (NLA.MI07.maximalModulus NLA.MI07.witnessB)))
+                    (NLA.MI07.maximalModulus (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB))))
+                (-1 / 3) ∧
+              ¬LE.le.{0} (NLA.MI07.maximalModulus (HAdd.hAdd.{0, 0, 0} NLA.MI07.witnessA NLA.MI07.witnessB))
+                  (HAdd.hAdd.{0, 0, 0} (NLA.MI07.unitaryConjugate U (NLA.MI07.maximalModulus NLA.MI07.witnessA))
+                    (NLA.MI07.unitaryConjugate V (NLA.MI07.maximalModulus NLA.MI07.witnessB)))
+'NLA.MI07.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI07.not_triangleConjecture : ¬NLA.MI07.TriangleConjecture
+'NLA.MI07.not_triangleConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MI07.scalar_gap_positive : LT.lt.{0} 0 (1 / 3) :=
+have h0 :=
+  LeanCert.Validity.verify_strict_upper_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 0 1))
+    (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl.{0} (Rat.divInt 0 1)) (Rat.divInt 1 3) (-53) 10
+    (of_decide_eq_true (id.{0} (Eq.refl.{1} true))) NLA.MI07.scalar_gap_positive._proof_1_7 ↑(Rat.divInt 0 1)
+    ⟨le_refl.{0} ↑(Rat.divInt 0 1), le_refl.{0} ↑(Rat.divInt 0 1)⟩;
+Eq.mpr.{0}
+  (eq_of_heq.{1}
+    ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+        Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+          Eq.{1} a' a_2 → HEq.{0} e'_3 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1)) e'_3
+          (fun h =>
+            Eq.ndrec.{0, 1} (motive := fun a' =>
+              ∀ (e_3 : Eq.{1} a a'), HEq.{0} e_3 (Eq.refl.{1} a) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1))
+              (fun e_3 h =>
+                Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+                  Eq.{1} a'_1 a_2 → HEq.{0} e'_4 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'_1)) e'_4
+                  (fun h =>
+                    Eq.ndrec.{0, 1} (motive := fun a' =>
+                      ∀ (e_4 : Eq.{1} a_1 a'),
+                        HEq.{0} e_4 (Eq.refl.{1} a_1) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'))
+                      (fun e_4 h => HEq.refl.{1} (LT.lt.{0} a a_1)) (Eq.symm.{1} h) e'_4)
+                  (Eq.refl.{1} a'_1) (HEq.refl.{0} e'_4))
+              (Eq.symm.{1} h) e'_3)
+          (Eq.refl.{1} a') (HEq.refl.{0} e'_3))
+      ℝ Real.instLT 0 (↑(HDiv.hDiv.{0, 0, 0} ↑0 ↑1))
+      (Mathlib.Meta.NormNum.isNat_eq_true.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_zero.{0})
+        (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+          (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+            (Mathlib.Meta.NormNum.isNNRat_div.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 0 0 (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 0)))
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                    (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                        (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                          (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                  (Eq.refl.{1} 0)))))))
+      (1 / 3) (↑(HDiv.hDiv.{0, 0, 0} ↑1 ↑3))
+      (Mathlib.Meta.NormNum.isNNRat_eq_true.{0}
+        (Mathlib.Meta.NormNum.isNNRat_div.{0}
+          (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+            (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_one.{0}))
+            (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 3))))
+            (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 3)))
+        (Mathlib.Meta.NormNum.isNNRat_ratCast.{0}
+          (Mathlib.Meta.NormNum.isNNRat_div.{0}
+            (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1 (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 3 3
+                    (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 3)))))
+              (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 3)))))))
+  (Eq.mp.{0}
+    (congr.{1, 1} (congrArg.{1, 1} LT.lt.{0} (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 0 1)))
+      (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 1 3)))
+    h0)
