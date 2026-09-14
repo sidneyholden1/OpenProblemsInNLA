@@ -1,0 +1,12 @@
+{
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "canonical_path": "randomized-and-low-rank-approximation/RA-20/README.md",
+  "preserved_readme_sha256": "a5ee7fe9418b277cad5b8e89cb12e0b1e6eedd6d9c0af679983355b40cce4056",
+  "observed_readme_sha256": null,
+  "canonical_exists_at_observed_main": false,
+  "preserved_target": "## Statement\n\nFor $`s\\in\\{1,2,3,4\\}`$ and $`n\\ge\\max\\{3,s\\}`$, define\n\n```math\nW_{n,s}=\\{X\\in\\mathbb C^{n\\times n}:X^{\\mathsf T}=X,\n\\ \\mathop{\\mathrm{rank}}\\nolimits X\\le2,\\ x_{11}=\\cdots=x_{ss}=0\\}.\n```\n\nFor generic symmetric $`U\\in\\mathbb C^{n\\times n}`$, let $`e_{n,s}`$ be the number of complex critical points on the smooth locus of $`W_{n,s}`$ of\n\n```math\nd_U(X)=\\sum_i(x_{ii}-u_{ii})^2+\n2\\sum_{i< j}(x_{ij}-u_{ij})^2.\n```\n\nGeneric means outside a proper algebraic exceptional set. A point is critical if the differential vanishes on its tangent space. Thus $`e_{n,s}`$ is the Euclidean distance degree for the bilinear extension of the **full Frobenius metric**; the off-diagonal terms have weight two, and complex conjugation is absent.\n\n**Conjecture (Kubjas\u2013Sodomaco\u2013Tsigaridas, Conjecture 5.6, $`n\\ge3`$).**\n\n```math\ne_{n,s}=\\begin{cases}\n3(n-1)-2,&s=1,\\\\\n9(n-2)-2,&s=2,\\\\\n27(n-3)+4,&s=3,\\\\\n81(n-4)+28,&s=4.\n\\end{cases}\n```\n\nAll four zero counts form one target. The explicit $`n\\ge3`$ restriction avoids a degenerate endpoint in the printed statement: when $`n=2`$, the rank bound is vacuous and both possible varieties are linear with ED degree one, whereas the displayed $`s=2`$ formula does not apply.\n\n",
+  "observed_target": null,
+  "semantic_review": "The canonical page is absent at the observed older upstream main. Review uses the permanent RA-20 page in the preserved authored snapshot, without substituting another ID or target.",
+  "reviewer": "/root"
+}

@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T21:47:14.200217+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/RA-20/STATEMENT-REFEREE-1.md": "0c1612049efbec1d596d4d3dc047d298cb58d5824358497254884025ef841b7a",
+    "docs/lean/reverification-2026-09-14/RA-20/STATEMENT-REFEREE-2.md": "73ba096aa23634c4ca06468f077a2483ac2f714242735c2fcb9c5277e52c4dec",
+    "randomized-and-low-rank-approximation/RA-20/lean/Solution.lean": "755a58cc081172804c644ea83518581235763a6ecefcbff6c92f131ca44c32b5",
+    "randomized-and-low-rank-approximation/RA-20/lean/Challenge.lean": "eb62545ea3e527c186b832a186fbaefa560409bf23be74486b9b00f04e00a2e9",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/SmoothTransport.lean": "0e7717ac9e55597ed69a816f44194af569ac7b092ceb4f9231ea86e4c7ad894f",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Count.lean": "99e44e2ec0d376cb346822c8f5a7edcc72c78448083361e5b4f2ea3aceb92c96",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Definitions.lean": "a649164ee7f11e88d8bfae4167ee0d9b9252a8683f253ab5a69981cde0e7cf94",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Critical.lean": "e8b2e3646d4b1f5e41e35ae4e23ba55d758cb6e48d125643d02eb1d51cab2040",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Tangent.lean": "b03b6a1112737372072832d89b17ff0e19e00f631a925252269b75af3c44e178",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Proof.lean": "d3cb0dab572eb54795e6568c717e9e6f8200eb20f299e319fc3be36bbe8aaea1",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Smooth.lean": "99ab24934f75382e9bad4a8e84945d0f1e14123804d5172a66b0da17a9eceb88",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Generic.lean": "47676372aa8e028a2c12bf6c23951b0edf5b7404a18abd24487d36399b7fb007",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Differential.lean": "8e24af9b30b668fd1c6bfc3799fe6d8771e4a6e96124087752a02f7b4d913ec7",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Algebra.lean": "67adf1643bd62089a62d857c404bdb5ee1bbbd192984ed5f1169b8c5ec71f5f1",
+    "randomized-and-low-rank-approximation/RA-20/lean/NUMERICAL_TARGETS.md": "49f21f2c6ab50b9f74b11cf0e37312dde08a4b7ddc62a17d37c6e3fb091f6e6d",
+    "randomized-and-low-rank-approximation/RA-20/lean/comparator.json": "6c2cdc312b67ae62ce0d453504f83b7bba392d4ef9c0dc21d35dbd20287089c2",
+    "randomized-and-low-rank-approximation/RA-20/lean/formalization.yaml": "368d4b1e3b0b7788a096e49440c6ee77c39d6e9b4e25dca09cd85d59d49bb112",
+    "randomized-and-low-rank-approximation/RA-20/README.md": "a5ee7fe9418b277cad5b8e89cb12e0b1e6eedd6d9c0af679983355b40cce4056"
+  }
+}
