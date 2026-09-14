@@ -1,0 +1,18 @@
+{
+  "NLA/IE17/Definitions.lean": "eda180881ac84c75c75735bc4e8525bdf326862bed550890efe6381a14f4c90b",
+  "Challenge.lean": "8c5aa2240fa18627857e190591374dd50066f2962aed5fab0c6591b3eec1537a",
+  "NUMERICAL_TARGETS.md": "767f706cbf630848334c82a5de73798ad0a6f5a11d16af4e3ac95e8c07dca516",
+  "NLA/IE17/Proof.lean": "324546012fd97f17309ef200ef9507a7f8f05567f692ff0f23f86cb7d3ffbc48",
+  "NLA/IE17/Certificates.lean": "a5788f6a4bcdba325f3f35e7ef379f66aeef05f85b72a77d5a42532d2a0cc49d",
+  "NLA/IE17/Approximation.lean": "fc00a9edd478153d9369f1546572a12f830a8621fce2ca421bf2b3fb89ed4b82",
+  "Solution.lean": "84551059f5a2eb78a918de92c6be4eef0a261e7f6854c4423210646ff3ed4d0a",
+  "comparator.json": "4be90034e97c30a2f3de0fb10e7cf2dc78eff13a3f9b2724e6419890b90ed72a",
+  "lakefile.toml": "81a5cc0af635d1692852d79634b0c272211f686b2d277214db4bf892eb38ca0e",
+  "lake-manifest.json": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "formalization.yaml": "56e705ab47e4d4e9431482c435256537dbfa556c376d4815ac798ad58ba14264",
+  "README.md": "d4bc3f990c33c07280caad981a45eb981d3f71ea578f538e84613c460ea2dc60",
+  "verification/final-build.log": "3824b32e87985ad76958cd45f285ef81894121da5be4bd787b35ebd99c26f809",
+  "verification/AxiomAudit.lean": "f78317053cf50b9022fcb65e7608064deb0408b6a9c05a851c8e8f1bcf59449d",
+  "verification/axioms.log": "0cddb5908028b77f6c758e3a77f847223c51262ee0f049172a715cb74a3ee5a9"
+}

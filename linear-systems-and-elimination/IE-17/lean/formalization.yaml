@@ -41,51 +41,62 @@ automation:
   methods:
   - method: agent
     framework: OpenAI Codex
-    tool_setup: Lean 4.33.1, pinned Mathlib, LeanCert kernel-trust audits, separate statement and solution
-      environments, and two independent statement referees before implementation. Local builds share a pinned
-      dependency cache; the committed project has only exact HTTPS git dependencies.
-    prompting_notes: Freeze the full statements after two independent reviews; minimize exact computations
-      with small weighted diagonal-dominance and rational LDL certificates. No proof body before statement
-      approval.
+    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust point inequalities and all-export trust
+      audits; separate statement and solution environments; two independent statement referees before implementation.
+      Local builds share a pinned dependency cache; committed dependencies are exact HTTPS git pins.
+    prompting_notes: Reviewed statement boundary frozen before proof. Exact rational LDL and weighted sum-of-squares
+      certificates avoid eigenvalue computation and interval subdivision; block-matrix identities reduce the
+      actual projector to three scalar rational terms. Study IE-23, MI-03 and MI-29 norms/order and trust examples.
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human peer
     review or source-author endorsement is claimed.
 status:
-  scope: Statement elaboration and numerical precheck complete. Both independent statement reviews passed; proof
-    implementation, final reviews and actual Linux Comparator verification pending. Canonical status unchanged.
-  sorry_count: 4
+  scope: Complete negative answer to both original LSMR backward-error monotonicity questions. Local Lean compilation,
+    actual LeanCert kernel-trust point inequalities, and all four exported axiom audits passed. Final independent
+    proof reviews and actual isolated Linux Comparator verification pending; canonical status unchanged.
+  sorry_count: 0
   sorry_in_definitions: 0
   main_results:
   - declaration: NLA.IE17.iterates
-    file: Challenge.lean
-    sorry_count: 1
+    file: Solution.lean
+    sorry_count: 0
     comparator_config: comparator.json
     literature_dependencies: []
+    axioms: &id001
+    - propext
+    - Classical.choice
+    - Quot.sound
   - declaration: NLA.IE17.backward_increase
-    file: Challenge.lean
-    sorry_count: 1
+    file: Solution.lean
+    sorry_count: 0
     comparator_config: comparator.json
     literature_dependencies: []
+    axioms: *id001
   - declaration: NLA.IE17.approximation_increase
-    file: Challenge.lean
-    sorry_count: 1
+    file: Solution.lean
+    sorry_count: 0
     comparator_config: comparator.json
     literature_dependencies: []
+    axioms: *id001
   - declaration: NLA.IE17.counterexample
-    file: Challenge.lean
-    sorry_count: 1
+    file: Solution.lean
+    sorry_count: 0
     comparator_config: comparator.json
     literature_dependencies: []
+    axioms: *id001
+  axioms: *id001
 fidelity:
   divergences: Exact real arithmetic, zero initial guess, no damping, minimum-length tie convention, fixed
     right-hand side, actual Euclidean operator norm. The spectral backward error is an actual infimum with
     explicit attainment targets. Moore–Penrose identities are explicit targets. A nonstrict lower bound at
     sqrt(99/100) suffices for the strict increase; no stronger source bound is claimed.
 review:
-  status: statement-agent-reviewed; proof-pending
+  status: statement-agent-reviewed; final-proof-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Four deliberate Challenge placeholders; no Solution exists yet and no completion is claimed.
+  notes: Both independent pre-proof statement approvals frozen at commit 0986a847 before implementation. Four
+    intentional Challenge placeholders are excluded from proof sorry counts and never imported by Solution.
+    Actual Linux Comparator, default-kernel replay and rejection controls are pending.
 alignment:
 - source: Exact successive nonzero LSMR iterates and full column rank
   declarations:
