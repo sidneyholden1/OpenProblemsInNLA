@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'MI-08: fixed pinching and exact dimensions 9–12'
+  description: Partial formalization of fixed-list sign-design correspondence and minimum 12 in dimensions
+    9 through 12.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: MI-08 — Minimum number of orthogonal conjugations for diagonal pinching
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-08/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'MI-08: fixed and adaptive orthogonal pinching have the same length'
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-08/solution.tex
+  type: manuscript
+  location: Theorem 1.1 and proof; fixed-list specialization and dimensions 9–12
+  relationship: formalizes
+  author_endorsement: not-contacted
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust numerical inequalities; separate
+      statement and solution environments. Exact HTTPS pins and shared local cache. Independent statement
+      and final reviews planned.
+    prompting_notes: Freeze statements after two independent reviews. Use exact sign and Gram certificates,
+      rank and divisibility and one order-twelve matrix; no interval search.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Statement draft with four intentional Challenge placeholders; no solution. Partial scope only;
+    canonical status unchanged. Both review phases and actual Linux Comparator pending.
+  sorry_count: 4
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.MI08.fixed_sign_equivalence
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MI08.design_obstructions
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MI08.hadamard_twelve
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MI08.finite_minimums
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: Fixed-list feasibility for every positive dimension and row count; exact minima only in
+    dimensions 9–12. Integer signs represent the same real ±1 values. Adaptive comparison excluded; no
+    all-dimension optimum claimed. Actual feasible-set nonemptiness and leastness prevent empty-infimum
+    artifacts.
+review:
+  status: statement-review-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: No solution proof implemented. Both independent statement reviews must pass before implementation;
+    both final reviews and actual isolated Linux Comparator required.
+alignment:
+- source: Fixed-list specialization of source Theorem 1.1, all real inputs
+  declarations:
+  - NLA.MI08.fixed_sign_equivalence
+- source: Rank and divisibility lower bounds
+  declarations:
+  - NLA.MI08.design_obstructions
+- source: Explicit Paley construction of order twelve
+  declarations:
+  - NLA.MI08.hadamard_twelve
+- source: Original minimum twelve in dimensions nine through twelve
+  declarations:
+  - NLA.MI08.finite_minimums
+acknowledgements: Mathematical partial result by Matthew J. Colbrook; original question by Jean-Christophe
+  Bourin and Eun-Young Lee. Formalization by Sidney Holden with OpenAI Codex assistance. Mathlib Hadamard
+  proof structure by Dennj Osele studied; Mathlib, LeanCert, Comparator and formalization.yaml retain
+  credit and licenses.
