@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 10370761636,
+      "node_id": "MDg6QXJ0aWZhY3QxMDM3MDc2MTYzNg==",
+      "name": "lean-IE-23",
+      "size_in_bytes": 32141,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10370761636",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10370761636/zip",
+      "expired": false,
+      "digest": "sha256:7e5a69aa5c20931e6c1595372605a404ec9021da6bd3b89819d71893f1363968",
+      "created_at": "2026-09-14T21:52:54Z",
+      "updated_at": "2026-09-14T21:52:54Z",
+      "expires_at": "2026-12-13T21:47:58Z",
+      "workflow_run": {
+        "id": 34900775452,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/reverify-ie23",
+        "head_sha": "4e07fd953ec0d53915af22cc0a30c821c207e3af"
+      }
+    }
+  ]
+}

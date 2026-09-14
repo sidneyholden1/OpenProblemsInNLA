@@ -1,0 +1,35 @@
+{
+  "id": "IE-23",
+  "verdict": "PASS",
+  "method": "Independent fresh exact Fraction/sparse-polynomial diagnostic, not a Lean proof",
+  "checks": {
+    "gram": [
+      [
+        "2",
+        "1"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "inverse_gram": [
+      [
+        "2/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "2/3"
+      ]
+    ],
+    "rank_two_minor": "1",
+    "right_inverses_distinct": true,
+    "complex_action_polynomial_identities": true,
+    "all_competitor_t_complex_identity": true,
+    "sum_of_squares_identity": true,
+    "norming_numerator_squared": 2,
+    "norming_denominator_fourth": 2,
+    "analytic_limit": "Actual roots, generic supremum, all competitors and norm inequalities remain Lean obligations."
+  }
+}
