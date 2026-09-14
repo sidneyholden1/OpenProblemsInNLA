@@ -1,0 +1,12 @@
+{
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "canonical_path": "linear-systems-and-elimination/IE-23/README.md",
+  "preserved_readme_sha256": "6a7730c3e21be039e80329e88a2c03904047200b836b4debce56b3c9aa851a8d",
+  "observed_readme_sha256": "ac9bea7d84341b515d8a2a50a8690b1700bce963c4a37aa64ec6ed1d62130889",
+  "canonical_exists_at_observed_main": true,
+  "preserved_target": "## Problem statement\n\nLet $`1\\le m< n`$, let $`A\\in\\mathbb C^{m\\times n}`$ have rank $`m`$, and let $`2< p<\\infty`$. For $`X\\in\\mathbb C^{n\\times m}`$ define the induced norm\n\n```math\n\\|X\\|_{p\\to2}=\\sup_{y\\in\\mathbb C^m\\setminus\\{0\\}}\n\\frac{\\|Xy\\|_2}{\\bigl(\\sum_{i=1}^m|y_i|^p\\bigr)^{1/p}}.\n```\n\nThe Moore\u2013Penrose inverse $`A^\\dagger=A^*(AA^*)^{-1}`$ minimizes this norm among the right inverses $`X`$ satisfying $`AX=I_m`$. Is it always the unique minimizer? Equivalently, must\n\n```math\nAX=I_m,\\quad X\\ne A^\\dagger\n\\quad\\Longrightarrow\\quad\n\\|X\\|_{p\\to2}>\\|A^\\dagger\\|_{p\\to2}\n```\n\nhold for every such $`A,p,X`$?\n\nThis is the direct-inverse uniqueness question in Dokmani\u0107\u2013Gribonval's Remark 4.1. The endpoints and the separate objective $`\\|XA\\|_{p\\to2}`$ are outside this statement.\n\n",
+  "observed_target": "## Problem statement\n\nLet $1\\le m<n$, let $A\\in\\mathbb C^{m\\times n}$ have rank $m$, and let $2<p<\\infty$. For $X\\in\\mathbb C^{n\\times m}$ define the induced norm\n\n$$\n\\|X\\|_{p\\to2}=\\sup_{y\\in\\mathbb C^m\\setminus\\{0\\}}\n\\frac{\\|Xy\\|_2}{\\bigl(\\sum_{i=1}^m|y_i|^p\\bigr)^{1/p}}.\n$$\n\nThe Moore\u2013Penrose inverse $A^\\dagger=A^*(AA^*)^{-1}$ minimizes this norm among the right inverses $X$ satisfying $AX=I_m$. Is it always the unique minimizer? Equivalently, must\n\n$$\nAX=I_m,\\quad X\\ne A^\\dagger\n\\quad\\Longrightarrow\\quad\n\\|X\\|_{p\\to2}>\\|A^\\dagger\\|_{p\\to2}\n$$\n\nhold for every such $A,p,X$?\n\nThis is the direct-inverse uniqueness question in Dokmani\u0107\u2013Gribonval's Remark 4.1. The endpoints and the separate objective $\\|XA\\|_{p\\to2}$ are outside this statement.\n\n",
+  "semantic_review": "Coordinator directly compared both complete Problem statement sections: mathematical quantifiers and target agree; differences are Markdown/math rendering and whitespace.",
+  "reviewer": "/root"
+}

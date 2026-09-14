@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T21:47:13.714443+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/IE-23/STATEMENT-REFEREE-1.md": "a7a57a948a3dbe5e1fe7477ca86c32f9827a5bda5a526eb0d3c56f0e3a6d6396",
+    "docs/lean/reverification-2026-09-14/IE-23/STATEMENT-REFEREE-2.md": "a5e3fe4696fbd6d30313500d3d61fa738b3698c2fc76168bab411d811a6d4a99",
+    "linear-systems-and-elimination/IE-23/lean/Solution.lean": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+    "linear-systems-and-elimination/IE-23/lean/Challenge.lean": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Minimizers.lean": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Definitions.lean": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Matrices.lean": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Actions.lean": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Proof.lean": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Norms.lean": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/FourthPower.lean": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6",
+    "linear-systems-and-elimination/IE-23/lean/NUMERICAL_TARGETS.md": "eb49c0b56617ab749184cef753d22ec461eef982a68d46b352187d1843b60d28",
+    "linear-systems-and-elimination/IE-23/lean/comparator.json": "8a02cee6a555e2bd658cb2daa22bfaba515027d787d570846aae21aaac2e26cb",
+    "linear-systems-and-elimination/IE-23/lean/formalization.yaml": "4de2f2d6a60d2d949ef3eeb5df003845e172adee3b171dd25ba35801e890b0b8",
+    "linear-systems-and-elimination/IE-23/README.md": "6a7730c3e21be039e80329e88a2c03904047200b836b4debce56b3c9aa851a8d"
+  }
+}
