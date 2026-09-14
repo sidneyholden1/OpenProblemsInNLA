@@ -176,7 +176,7 @@ The full clarified argument passed a separate [independent Codex-agent mathemati
 
 The complete analytic proof passed a separate [independent Codex-agent review](references/stepaniants-ie04-2026-09-11/verification/IE-04-independent-review.md). Finite exact interval and rational checks are supplementary. AI assistance and automated-review limits are disclosed; no external human peer review or formal certification is asserted. [Submission record and public eligibility audit](references/stepaniants-ie04-2026-09-11/README.md). All original target quantifiers, the permanent ID and historical ratings are retained.
 
-### ✅ IE-05 - the orthogonal partial-pivoting extremizer equality is false - George Stepaniants
+### 🏆 IE-05 - Lean-verified negative resolution - George Stepaniants
 
 **Author:** George Stepaniants, Department of Computing and Mathematical Sciences, California Institute of Technology, Pasadena, California, USA.
 
@@ -184,7 +184,11 @@ The complete analytic proof passed a separate [independent Codex-agent review](r
 
 The proof passed a separate [Codex-agent full-target review](references/stepaniants-ie05-2026-09-11/independent-review.md), including independently reconstructed exact orthogonality, QR signs, all pivots and all active maxima. Substantial AI assistance and the limits of automated review are explicit. This settles the finite-order extremizer equality and leaves the true supremum and the distinct asymptotic leading constant undetermined. Peca-Medlin's conjecture and prior element-growth analysis retain their attribution. [Submission record and public-source check](references/stepaniants-ie05-2026-09-11/README.md).
 
+**Lean verification — 14 September 2026.** The complete universal orthogonal extremizer equality is disproved at order eight. Four exports establish the actual positive-diagonal QR factors, first-available-row pivot paths, every Schur update along those paths and strict growth separation, and the original conjecture’s negation using a genuine nonempty bounded supremum over all orthogonal inputs and admissible paths. The true supremum is not determined. George Stepaniants retains mathematical authorship; Sidney Holden formalized the result with OpenAI Codex assistance. Both independent review phases, all-export standard-axiom audits, kernel-only LeanCert and [actual isolated Linux Comparator/kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862178699) passed at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/df2cf7a721843c0d674e8377d435eb5750f06fff/linear-systems-and-elimination/IE-05/lean). [Original evidence and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie05/linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md). No external human peer review or source-author endorsement is claimed.
+
 <a id="tr-01"></a>
+
+
 
 ### 🏆 TR-01 — optimal dimension for a rerandomized Hadamard embedding — Yuning Yang
 

@@ -51,13 +51,9 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: The complete universal orthogonal extremizer equality is disproved at order eight. Four exports
-    establish the actual positive-diagonal QR factors, first-available-row pivot paths, every Schur update
-    along those paths and strict growth separation, and the original conjecture’s negation using a genuine
-    nonempty bounded supremum over all orthogonal inputs and admissible paths. The true supremum is not
-    determined. All four exports passed fresh isolated Linux Comparator and default-kernel checks, rejection
-    controls, local kernel build, and both independent review phases. Original evidence and independent
-    operational audit retained.
+  scope: Full proof passes the local Lean 4.33.1 kernel build (3581 jobs) and all four export trust audits.
+    Both frozen-statement reviews passed. Independent final proof reviews and actual isolated Linux Comparator/default-kernel
+    replay remain pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -104,17 +100,14 @@ fidelity:
     admissible tie path is included in the actual real supremum, with explicit nonempty/bounded-above
     targets.
 review:
-  status: statement-and-proof-agent-reviewed; isolated-linux-verified
+  status: statement-agent-reviewed; final-proof-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent statement reviews passed before proof implementation; both independent final
-    reviewers replayed the proof and checked its full declared scope, source hashes and all four exported
-    axiom closures. Actual isolated Linux Comparator/default-kernel verification and rejection controls
-    passed at df2cf7a721843c0d674e8377d435eb5750f06fff in run 34862178699. The original artifact, exact
-    tested inputs and independent operational PASS report are retained in verification/linux-2026-09-14.
-    Historical statement and proof-review metadata remain unchanged in their archived snapshots. No human
-    review or author endorsement is asserted. The complete original target is covered.
+  notes: Both independent statement referees approved the hash-frozen boundary before implementation.
+    Four intentional Challenge placeholders are confined to the statement environment. All solution exports
+    pass local kernel trust checks with no proof-development holes. Independent final reviews and actual
+    isolated Linux Comparator are required before canonical promotion.
 alignment:
 - source: Actual positive-diagonal QR certificates
   declarations:

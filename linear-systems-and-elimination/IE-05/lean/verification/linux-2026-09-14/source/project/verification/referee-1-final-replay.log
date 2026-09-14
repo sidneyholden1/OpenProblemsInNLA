@@ -1,0 +1,21 @@
+INDEPENDENT REPLAY NLA/IE05/Bounds.lean
+RESULT NLA/IE05/Bounds.lean: exit=0; seconds=6.59
+INDEPENDENT REPLAY NLA/IE05/IntegerCertificates.lean
+RESULT NLA/IE05/IntegerCertificates.lean: exit=0; seconds=11.01
+INDEPENDENT REPLAY NLA/IE05/RealCertificates.lean
+RESULT NLA/IE05/RealCertificates.lean: exit=0; seconds=10.20
+INDEPENDENT REPLAY NLA/IE05/Proof.lean
+NLA/IE05/Proof.lean:86:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/IE05/Proof.lean:89:54: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+NLA/IE05/Proof.lean:90:50: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+RESULT NLA/IE05/Proof.lean: exit=0; seconds=9.75
+INDEPENDENT REPLAY Solution.lean
+RESULT Solution.lean: exit=0; seconds=7.05
+INDEPENDENT REPLAY verification/AxiomAudit.lean
+'NLA.IE05.qr_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE05.pivot_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE05.growth_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE05.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+RESULT verification/AxiomAudit.lean: exit=0; seconds=7.04

@@ -34,7 +34,7 @@ matrices},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IE-05}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-14}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,7 +51,7 @@ extremizers for partial pivoting on orthogonal matrices\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -71,11 +71,9 @@ proof}, \textbf{Theorem and Sections 1-4}. Let
 \(-1\) to \(0\), and take its positive-diagonal QR factor
 \(\widetilde Q\). Under the stipulated first-available-row tie rule,
 
-\[
-\rho_{\mathrm{PP}}(\widetilde Q)=\frac{5272}{63}
+\[\rho_{\mathrm{PP}}(\widetilde Q)=\frac{5272}{63}
 >\sqrt{\frac{17948132}{2601}}
-=\rho_{\mathrm{PP}}(Q_8).
-\]
+=\rho_{\mathrm{PP}}(Q_8).\]
 
 The proof prints exact integer-column descriptions of both orthogonal
 matrices and verifies all active Schur-complement maxima. This disproves
@@ -100,6 +98,43 @@ original ID, path, statement, historical ratings and earlier checks
 below are retained. Peca-Medlin retains credit for the conjecture and
 cited element-growth analysis.
 
+\subsection{Lean proof and verification evidence ---
+2026-09-14}\label{lean-proof-and-verification-evidence-2026-09-14}
+
+\textbf{The complete original extremizer conjecture has a Lean-verified
+negative answer.} The complete universal orthogonal extremizer equality
+is disproved at order eight. Four exports establish the actual
+positive-diagonal QR factors, first-available-row pivot paths, every
+Schur update along those paths and strict growth separation, and the
+original conjecture's negation using a genuine nonempty bounded supremum
+over all orthogonal inputs and admissible paths. The true supremum is
+not determined.
+
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/df2cf7a721843c0d674e8377d435eb5750f06fff/linear-systems-and-elimination/IE-05/lean}{Immutable
+formal proof}. The checked exports are
+\textit{NLA.\allowbreak{}IE05.\allowbreak{}qr\_\allowbreak{}certificates},
+\textit{NLA.\allowbreak{}IE05.\allowbreak{}pivot\_\allowbreak{}certificates},
+\textit{NLA.\allowbreak{}IE05.\allowbreak{}growth\_\allowbreak{}separation}, \textit{NLA.\allowbreak{}IE05.\allowbreak{}counterexample}.
+Lean 4.33.1 uses pinned Mathlib \textit{0df444a3} and LeanCert
+\textit{621a43d7};
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie05/linear-systems-and-elimination/IE-05/lean/README.md}{complete
+pins and reproduction instructions} are retained. All four exported
+transitive axiom closures contain only \textit{propext},
+\textit{Classical.choice} and \textit{Quot.sound}.
+
+\textbf{Formalization:} Sidney Holden, Center for Computational Biology,
+Flatiron Institute, Simons Foundation, with OpenAI Codex assistance.
+George Stepaniants retains mathematical authorship. Two independent
+statement reviews preceded implementation, and two independent final
+proof reviews passed. Kernel-only LeanCert and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862178699}{fresh
+isolated Linux Comparator and kernel verification} passed, including
+rejection controls.
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie05/linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md}{Original
+artifact, exact checked inputs and independent operational audit} are
+retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
+
 \newpage
 
 \subsection{Context and notation}\label{context-and-notation}
@@ -109,9 +144,7 @@ All elimination in this problem is in exact arithmetic. Write
 active Schur complements \(S_1=A,S_2,\ldots,S_n\), with row/column
 permutations as appropriate. Its element-growth factor is
 
-\[
-\rho(A)=\frac{\max_{1\leq j\leq n}\|S_j\|_{\max}}{\|A\|_{\max}}.
-\]
+\[\rho(A)=\frac{\max_{1\leq j\leq n}\|S_j\|_{\max}}{\|A\|_{\max}}.\]
 
 Partial pivoting chooses a largest-magnitude entry in the active first
 column; complete pivoting chooses one anywhere in the active matrix. If
@@ -128,11 +161,9 @@ QR factorization \(L_n=Q_nR_n\) with positive diagonal in \(R_n\). For
 \(Q_n\), use partial pivoting with the first available row chosen in a
 tie. Is it true that, for every \(n\geq2\),
 
-\[
-\sup_{Q\in O(n)}\rho_{\mathrm{PP}}(Q)
+\[\sup_{Q\in O(n)}\rho_{\mathrm{PP}}(Q)
 =\rho_{\mathrm{PP}}(Q_n),
-\qquad O(n)=\{Q\in\mathbb R^{n\times n}:Q^TQ=I\}?
-\]
+\qquad O(n)=\{Q\in\mathbb R^{n\times n}:Q^TQ=I\}?\]
 
 The supremum on the left includes all admissible partial-pivoting paths.
 The candidate is fully specified by \(L_n\), rather than by an

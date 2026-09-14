@@ -1,0 +1,9 @@
+✔ [3578/3581] Built NLA.IE05.RealCertificates (15s)
+⚠ [3579/3581] Built NLA.IE05.Proof (7.2s)
+warning: NLA/IE05/Proof.lean:86:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE05/Proof.lean:89:54: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: NLA/IE05/Proof.lean:90:50: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+✔ [3580/3581] Built Solution (5.5s)
+Build completed successfully (3581 jobs).
