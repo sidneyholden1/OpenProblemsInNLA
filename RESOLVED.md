@@ -665,11 +665,13 @@ Eight exact targets passed independent agent review. Author: **Matthew J. Colbro
 
 [Complete manuscript](references/colbrook-recovered-2026-09-11/manuscripts/IE-14.pdf); [independent review](references/colbrook-recovered-2026-09-11/verification/reviews/IE-14-review.md).
 
-### IE-17 - Negative resolution
+### 🏆 IE-17 - Lean-verified negative resolution
 
 [Original statement](linear-systems-and-elimination/IE-17/README.md). **Solved.** Sections 1-4 give one exact full-column-rank $4\times3$ LSMR example for which both displayed errors increase from the first to the second nonzero iterate. The matrix-only spectral backward error satisfies $\mu(x_1)^2\le1979/2000<99/100<\mu(x_2)^2$, and the specified approximation also strictly increases. The right-hand side stays fixed. This settles the canonical spectral-norm formulation; the cited SISC paper uses a different default norm convention, so no Frobenius-error conclusion is inferred.
 
 [Complete manuscript](references/colbrook-recovered-2026-09-11/manuscripts/IE-17.pdf); [independent review](references/colbrook-recovered-2026-09-11/verification/reviews/IE-17-review.md).
+
+**Lean verification — 14 September 2026.** The complete pair of monotonicity claims is disproved by the exact first two nonzero iterates of undamped, zero-initial-guess LSMR on a real 4-by-3 system. The formalization proves the genuine minimum-length normal-residual minimizers over the Krylov spaces, the matrix-only spectral backward-error infimum and attainment, and the prescribed Moore–Penrose projector approximation. Both errors strictly increase; the right-hand side remains fixed. Matthew J. Colbrook retains mathematical authorship; Sidney Holden formalized the result with OpenAI Codex assistance. Both independent review phases, all-export standard-axiom audits, kernel-only LeanCert and [actual isolated Linux Comparator/kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862174739) passed at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/d45afc8a197ffeeff94abfca59ef93acda22efa5/linear-systems-and-elimination/IE-17/lean). [Original evidence and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie17/linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md). No external human peer review or source-author endorsement is claimed.
 
 ### IE-18 — Negative resolution by Matthew J. Colbrook; Lean formalization by George Stepaniants
 

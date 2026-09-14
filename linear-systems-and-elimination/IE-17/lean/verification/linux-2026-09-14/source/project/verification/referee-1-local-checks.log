@@ -1,0 +1,30 @@
+Independent reviewer /root/iv06_statement_referee_1, 2026-09-14.
+Recorded transcript of independently executed checks.
+PATH prefix: /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin
+
+$ lake env lean NLA/IE17/Certificates.lean
+[No diagnostics; exit 0]
+
+$ lake env lean NLA/IE17/Proof.lean
+[No diagnostics; exit 0]
+
+$ lake env lean NLA/IE17/Approximation.lean
+NLA/IE17/Approximation.lean:104:4: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+NLA/IE17/Approximation.lean:107:4: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+[Exit 0]
+
+$ lake env lean Solution.lean
+[No diagnostics; exit 0]
+
+$ lake env lean /private/tmp/ie17-referee1-audit.lean
+[Exit 0; axiom output extracted in referee-1-axioms.log]
+Audit source:
+import Solution
+#print axioms NLA.IE17.iterates
+#print axioms NLA.IE17.backward_increase
+#print axioms NLA.IE17.approximation_increase
+#print axioms NLA.IE17.counterexample
+#print axioms NLA.IE17.backward_attained
+#print NLA.IE17.approximation_increase
+
+Additional independent byte check: Definitions.lean, Challenge.lean and NUMERICAL_TARGETS.md are unchanged from frozen Git revision 0986a847.

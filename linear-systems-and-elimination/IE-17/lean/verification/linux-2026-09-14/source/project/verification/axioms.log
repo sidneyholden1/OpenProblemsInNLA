@@ -1,0 +1,4 @@
+'NLA.IE17.iterates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.backward_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.approximation_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
