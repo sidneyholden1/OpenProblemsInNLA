@@ -1,0 +1,124 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'MI-03: sharp additive triangle constant for complex contractions'
+  description: Complete original odd-summand sharp-constant target, via exact upper bound and dimension-two
+    extremizers for every integer k≥2; actual Euclidean operator norm, positive-semidefinite order, continuous-functional-calculus
+    modulus and real infimum.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: MI-03 — Sharp additive triangle constant for an odd number of contractions
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-03/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Original question by Jean-Christophe Bourin and Eun-Young Lee; all odd integers k≥3.
+- title: The contraction constant is k/4 for every k≥2
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-03/solution.tex
+  type: manuscript
+  location: Theorem 1.1 and complete proof
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: 'Mathematical proof: Matthew J. Colbrook, University of Cambridge. Original source AI assistance
+    retained; known universal upper bound credited to Bourin and Lee.'
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib, LeanCert kernel-trust audits, separate statement and solution
+      environments, and two independent statement referees before implementation. Local builds share a
+      pinned dependency cache; the committed project has only exact HTTPS git dependencies.
+    prompting_notes: Freeze the full statement after two independent reviews; use exact positive matrix
+      identities and a zero-sum unit-phase family, avoiding numerical spectra or subdivisions.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Statement boundary successfully type-checked; independent statement reviews in progress. Proof
+    implementation and isolated Linux Comparator checks have not begun. Canonical status remains Solved.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+  main_results:
+  - declaration: NLA.MI03.upper_bound
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MI03.sharpness
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MI03.sharp_constant
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MI03.odd_sharp_constant
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  notes: No completed solution exists yet; listed declarations are planned exports and their axiom entries
+    are the required permitted set, not completed transitive audits.
+fidelity:
+  divergences: Stronger all-k≥2 equality implies complete original odd-k≥3 target. Zero-based finite indexing.
+    Genuine real infimum with separate nonempty and bounded-below assertions. Optional Hermitian 3×3 extremizers
+    are not advertised. Exact phase families with zero sum may replace exponential coordinates without
+    changing mathematical targets.
+review:
+  status: statement-review-in-progress
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: Two independent statement approvals required before any proof implementation. No final proof
+    or operational approval yet.
+alignment:
+- source: Universal upper bound in all complex matrix dimensions
+  declarations:
+  - NLA.MI03.upper_bound
+- source: Exact dimension-two extremizer for every k≥2
+  declarations:
+  - NLA.MI03.sharpness
+- source: Theorem 1.1 sharp constant, actual nonempty bounded infimum
+  declarations:
+  - NLA.MI03.sharp_constant
+- source: Complete original odd-summand question
+  declarations:
+  - NLA.MI03.odd_sharp_constant
+acknowledgements: Mathematical argument by Matthew J. Colbrook; original question and known upper bound
+  by Bourin and Lee. Formalization by Sidney Holden with OpenAI Codex assistance. Mathlib, LeanCert, Lean
+  Comparator and formalization.yaml retain implementation credit and licenses.
