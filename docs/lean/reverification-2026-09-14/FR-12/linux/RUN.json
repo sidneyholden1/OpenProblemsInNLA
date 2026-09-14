@@ -1,0 +1,31 @@
+{
+  "run_id": 34879610937,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879610937",
+  "verified_commit": "42818143f084791532e39ff56c13949bebd8d389",
+  "artifact_id": 10362044744,
+  "artifact_sha256": "a3a894fc165ab55b7f0de64a0d663e0a01f7120559064dd1c831aa2528740a6b",
+  "github_artifact_digest": "sha256:a3a894fc165ab55b7f0de64a0d663e0a01f7120559064dd1c831aa2528740a6b",
+  "all_input_hashes_match": true,
+  "input_count": 430,
+  "active_source_sha256": {
+    ".gitignore": "a0fb815fecafd1739b46d2b381c27acf366ce49e30459c0512f71814ce241fc8",
+    "Challenge.lean": "b7610d4a0b7416737dc9fdb3cbc24f7c154fe27bfd6b25986b7ed7b80dee28a7",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/FR12/Definitions.lean": "0c074289e7ee518876a36caf33f1b66a286ca46e7e520c083d07b9133779bf9c",
+    "NLA/FR12/Doubling.lean": "841cf24ebad19caf9fe6807a67079931b5bf2fafba01d19ca256bf4f393a081e",
+    "NLA/FR12/Growth.lean": "654930878291656c7f08fb285019d0033bc4c3e5ceebfac625ce676ce228fbaf",
+    "NLA/FR12/Proof.lean": "a75ef4a3567d641df84f7971c4d3f182b1ae73fb87cb70d474feda5c7af69df3",
+    "NLA/FR12/Semantics.lean": "6cba3023ab9f319ac4622a81c4bb7b0cca34da96933fc8e0507f31f6671341e7",
+    "NUMERICAL_TARGETS.md": "bedc45de378f2e7429e7214f572f466e9c806abb7f02ab9921aa50f6368c9da0",
+    "README.md": "6698734f06f6b658edf4fc21048c9d127b14466dfb8784aa893da5c53a0e171d",
+    "SOURCE_MAP.md": "b51b279533e68cdb4fc4e329ad7134d0b967e187df955d78291b8e3e0c62898c",
+    "Solution.lean": "c37bbf5bb1bab85816f6c343eb3ee7bbfdadec2f6ad4dc17d11348a041ab598a",
+    "comparator.json": "03d4d4ef6190299ee767f9c677c40d23bda8576ae35a6628fa022a0a679c1581",
+    "formalization.yaml": "76a17a4b58803dfd17384b5c6e45075b36c8cc3eda3cc79d71ec8cb4862d63f8",
+    "lake-manifest.json": "ef45e8c3dc558df93024d94b81f42ace998ddfacc8b7948905a4b90c548742cb",
+    "lakefile.toml": "b64736762c8980abbc71aa5a7dc5f34e502ec228cdb9773673d85662d8d318c7",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}
