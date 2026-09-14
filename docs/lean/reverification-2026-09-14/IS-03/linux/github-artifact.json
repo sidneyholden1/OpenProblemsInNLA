@@ -1,0 +1,20 @@
+{
+  "id": 10358557560,
+  "node_id": "MDg6QXJ0aWZhY3QxMDM1ODU1NzU2MA==",
+  "name": "lean-IS-03",
+  "size_in_bytes": 44863,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10358557560",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10358557560/zip",
+  "expired": false,
+  "digest": "sha256:25e249492179520af0cc719fc8f07a82e63719a55640144c9f95447e7326a85f",
+  "created_at": "2026-09-14T16:37:45Z",
+  "updated_at": "2026-09-14T16:37:45Z",
+  "expires_at": "2026-12-13T16:28:43Z",
+  "workflow_run": {
+    "id": 34868855287,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/reverify-is03",
+    "head_sha": "072fdd9c7eb819b557daec9ea77f081bff387786"
+  }
+}

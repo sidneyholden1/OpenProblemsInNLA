@@ -1,0 +1,160 @@
+{
+  "reviewer": "independent referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "072fdd9c7eb819b557daec9ea77f081bff387786",
+  "active_closure": {
+    "Solution": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/Solution.lean",
+      "sha256": "1b3d7ebe1fabc51a04c3012c694f4bd52efe654ebb933e273b87153b267d7508",
+      "lines": 71
+    },
+    "NLA.IS03.Proof": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Proof.lean",
+      "sha256": "39c6be952b030622404a216c625d86404a579dc8a6c992a268a7bdf10ea30c28",
+      "lines": 67
+    },
+    "NLA.IS03.Numerical": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Numerical.lean",
+      "sha256": "707f69cea0fe650904f016177b7906a6cec308b6a287005369295a133b54659d",
+      "lines": 25
+    },
+    "NLA.IS03.Definitions": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Definitions.lean",
+      "sha256": "8b4b581e9831b0438d0635b013a60df0cf0139fa9087850b842d8e58975ea1a9",
+      "lines": 62
+    },
+    "NLA.IS03.Newton": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Newton.lean",
+      "sha256": "451953080999a9b7aec73af27af178018fec6d340439c3b4081716165a7f1ddd",
+      "lines": 140
+    },
+    "NLA.IS03.Spectral": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Spectral.lean",
+      "sha256": "a4886a8bc7c00607bf2cb0209a5ee153e7661d4bd837e12658ee8e66c8322424",
+      "lines": 90
+    },
+    "NLA.IS03.Algebra": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Algebra.lean",
+      "sha256": "8578821ec515e8e11f3fa5fc94ae48ee0bd57b61338c501fd09e8ed1efad5125",
+      "lines": 54
+    },
+    "NLA.IS03.Witness": {
+      "path": "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Witness.lean",
+      "sha256": "b10da5ff41667f45ba6385edabc3fb2d74ede53b1b1208d0de2b3026ad879cfd",
+      "lines": 61
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "external_imports": [
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "LeanCert.Tactic.Verification",
+    "Mathlib.Algebra.Polynomial.Derivative",
+    "Mathlib.Analysis.Complex.Polynomial.Basic",
+    "Mathlib.Data.Real.Basic",
+    "Mathlib.FieldTheory.Separable",
+    "Mathlib.LinearAlgebra.Complex.Module",
+    "Mathlib.LinearAlgebra.Eigenspace.Charpoly",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Lemmas",
+    "Mathlib.LinearAlgebra.Matrix.Charpoly.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.Matrix.Trace",
+    "Mathlib.RingTheory.MvPolynomial.Symmetric.NewtonIdentities",
+    "Mathlib.RingTheory.Polynomial.Vieta",
+    "Mathlib.Tactic.ComputeDegree",
+    "Mathlib.Tactic.Convert",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_scan": "Executable active code: no sorry/admit/axiom/native_decide/unsafe/implemented_by; Challenge placeholders are outside Solution import closure.",
+  "exports": [
+    "NLA.IS03.nonnegative_power_trace",
+    "NLA.IS03.witness_admissible",
+    "NLA.IS03.witness_polynomials",
+    "NLA.IS03.trace_moment_certificate",
+    "NLA.IS03.negative_moment",
+    "NLA.IS03.counterexample",
+    "NLA.IS03.not_derivativeRealizabilityConjecture"
+  ],
+  "export_axioms_read_from_referee_2_fresh_consumer": {
+    "NLA.IS03.nonnegative_power_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.witness_admissible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.witness_polynomials": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.trace_moment_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.negative_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.not_derivativeRealizabilityConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-is03/eigenvalues-and-inverse-problems/IS-03/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 102.315,
+    "log_sha256": "a7939dbc9a3a4bc05298a09c53187a255d2564d08e77d61b891f18f043f36f33"
+  },
+  "evidence_hashes": {
+    "statement-gate.json": "f1d2650177853eabf16cd3b6c3cd9f2160dcbfa4713f4bc90d32f10e39ff17e0",
+    "solution-local.json": "3191bbff418ddd1c5d324558578bcdd7af3a528bbaf0fafbbbca7dd002acdc33",
+    "solution-local.log": "a7939dbc9a3a4bc05298a09c53187a255d2564d08e77d61b891f18f043f36f33",
+    "referee-2-export-audit.lean": "34026a4ab43089f3d923de1810b55141287d58871e559e4342f63eb651838e37",
+    "referee-2-export-audit.log": "e045517ee348106d0180b06971c68a70dcc1b82bb87cdc096eed3cb1640bec54",
+    "referee-2-numerical-checker.lean": "5987de6726d44cdc16a30fc14fa97fe32fb4eab6eaf2a9330c62a89dd9b7f58f",
+    "referee-2-numerical-checker.log": "5aea2e57c639d6047065747d2ddd44a8cccafbe44e445bd2e5a3751d370a94bd"
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "4a8817f7c983819fac0a9206092831e72709fcfdb73b0687350914162ef23440",
+    "NUMERICAL_TARGETS.md": "b1fe777e2d4853b4d60d75e4d0628939f19434434ca82ac4ffe2a3e5bdbf1787",
+    "comparator.json": "f1e84761b1175d1d638b6cc26c2c2797c7da64ca7dd73919594437388484bf0a",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "a1f35823a07db0ca2300cdfa6e0c9b9fee6acd2dfc30cbfc1f9ec5f61252251a",
+    "lakefile.toml": "d975145c9320218fb557dae7c190c4e5f44136f5bac419a5ebe07a4bede3f823"
+  },
+  "canonical_and_statement_read_hashes": {
+    "docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    "eigenvalues-and-inverse-problems/IS-03/README.md": "b993f8a77090f811ff68b06e1cad5da4b5fc979d9c482b1c82e25df7d84c65fe",
+    "eigenvalues-and-inverse-problems/IS-03/solution.tex": "564029a75736faf7a06d8f718e9f68773e97f250428435742aa15f2aeac208bb",
+    "eigenvalues-and-inverse-problems/IS-03/lean/NUMERICAL_TARGETS.md": "b1fe777e2d4853b4d60d75e4d0628939f19434434ca82ac4ffe2a3e5bdbf1787",
+    "eigenvalues-and-inverse-problems/IS-03/lean/NLA/IS03/Definitions.lean": "8b4b581e9831b0438d0635b013a60df0cf0139fa9087850b842d8e58975ea1a9",
+    "eigenvalues-and-inverse-problems/IS-03/lean/Challenge.lean": "4a8817f7c983819fac0a9206092831e72709fcfdb73b0687350914162ef23440",
+    "eigenvalues-and-inverse-problems/IS-03/lean/comparator.json": "f1e84761b1175d1d638b6cc26c2c2797c7da64ca7dd73919594437388484bf0a"
+  }
+}

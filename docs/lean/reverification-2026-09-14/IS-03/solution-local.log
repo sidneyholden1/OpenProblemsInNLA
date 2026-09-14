@@ -1,0 +1,26 @@
+✔ [3094/3101] Built NLA.IS03.Algebra (19s)
+ℹ [3095/3101] Built NLA.IS03.Numerical (18s)
+info: NLA/IS03/Numerical.lean:24:0: 'NLA.IS03.numerical_negative_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3096/3101] Built NLA.IS03.Newton (19s)
+info: NLA/IS03/Newton.lean:136:0: 'NLA.IS03.product_coeff_eq_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Newton.lean:137:0: 'NLA.IS03.powerMoments_newton' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Newton.lean:138:0: 'NLA.IS03.power_sums_of_derivative_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3097/3101] Built NLA.IS03.Witness (7.9s)
+✔ [3098/3101] Built NLA.IS03.Spectral (13s)
+ℹ [3099/3101] Built NLA.IS03.Proof (27s)
+info: NLA/IS03/Proof.lean:60:0: 'NLA.IS03.nonnegative_power_trace_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Proof.lean:61:0: 'NLA.IS03.witness_admissible_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Proof.lean:62:0: 'NLA.IS03.witness_polynomials_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Proof.lean:63:0: 'NLA.IS03.trace_moment_certificate_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Proof.lean:64:0: 'NLA.IS03.negative_moment_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Proof.lean:65:0: 'NLA.IS03.counterexample_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IS03/Proof.lean:66:0: 'NLA.IS03.not_derivativeRealizabilityConjecture_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3100/3101] Built Solution (30s)
+info: Solution.lean:64:0: 'NLA.IS03.nonnegative_power_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:65:0: 'NLA.IS03.witness_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:66:0: 'NLA.IS03.witness_polynomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:67:0: 'NLA.IS03.trace_moment_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:68:0: 'NLA.IS03.negative_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:69:0: 'NLA.IS03.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:70:0: 'NLA.IS03.not_derivativeRealizabilityConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3101 jobs).
