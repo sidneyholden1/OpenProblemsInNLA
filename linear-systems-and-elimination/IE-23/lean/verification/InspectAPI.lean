@@ -1,0 +1,16 @@
+import NLA.IE23.Definitions
+#check Real.rpow_inv_natCast_pow
+#check Real.rpow_pos_of_pos
+#check Real.rpow_nonneg
+#check pow_le_pow_iff_left₀
+#check csSup_le
+#check le_csSup
+#check Set.Nonempty.bddAbove
+#check Real.sqrt_le_sqrt
+#check Matrix.mulVec_mulVec
+#check Complex.normSq_apply
+#check Complex.sq_norm
+#check Real.rpow_add
+#check Real.sqrt_sq_eq_abs
+#check Real.sq_sqrt
+#check Complex.norm_real
