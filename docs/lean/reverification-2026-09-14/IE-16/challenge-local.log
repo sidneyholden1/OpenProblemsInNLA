@@ -1,0 +1,24 @@
+⚠ [1945/1947] Built NLA.IE16.Definitions (12s)
+warning: NLA/IE16/Definitions.lean:32:14: Variable name `L` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _L
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1946/1947] Built Challenge (9.9s)
+warning: Challenge.lean:12:8: declaration uses `sorry`
+warning: Challenge.lean:14:8: declaration uses `sorry`
+warning: Challenge.lean:16:8: declaration uses `sorry`
+warning: Challenge.lean:18:8: declaration uses `sorry`
+warning: Challenge.lean:21:8: declaration uses `sorry`
+warning: Challenge.lean:23:8: declaration uses `sorry`
+warning: Challenge.lean:26:8: declaration uses `sorry`
+warning: Challenge.lean:28:8: declaration uses `sorry`
+warning: Challenge.lean:32:8: declaration uses `sorry`
+warning: Challenge.lean:36:8: declaration uses `sorry`
+warning: Challenge.lean:38:8: declaration uses `sorry`
+warning: Challenge.lean:40:8: declaration uses `sorry`
+warning: Challenge.lean:43:8: declaration uses `sorry`
+warning: Challenge.lean:45:8: declaration uses `sorry`
+warning: Challenge.lean:49:8: declaration uses `sorry`
+Build completed successfully (1947 jobs).
