@@ -1,0 +1,203 @@
+{
+  "scope": [
+    "MI-03",
+    "IE-17",
+    "IE-05",
+    "IS-02",
+    "MI-08"
+  ],
+  "leave_unchanged": [
+    "IE-15"
+  ],
+  "status": "complete",
+  "publication_approval": "Explicit user yes to pushing these five branches and finishing checks/publication updates to sidneyholden1/OpenProblemsInNLA",
+  "projects": [
+    {
+      "id": "MI-03",
+      "root": "/private/tmp/nla-lean-mi03",
+      "project": "matrix-inequalities-and-norms/MI-03/lean",
+      "branch": "codex/lean-mi03",
+      "commit": "4602650e944c7221952554f495ff76c39c8b0708",
+      "partial": false,
+      "linux_status": "success; original artifact and exact inputs retained; independent operational review PASS",
+      "run_id": 34862171380,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862171380",
+      "artifact_id": 10355511804,
+      "artifact_sha256": "dc9194a3ef7c1ae3910c9c34810c5286bf277ea8ef73fb9404fd56af34ac725f",
+      "input_count": 29,
+      "linux_evidence": "/private/tmp/nla-lean-mi03/matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14",
+      "publication_commit": "43571bd63844c784dc4cf2998b4d367846bfb9b9",
+      "publication_status": "complete; pushed; final remote SHA verified; final Lean and permanent-ID/catalog/math CI PASS"
+    },
+    {
+      "id": "IE-17",
+      "root": "/private/tmp/nla-lean-ie17",
+      "project": "linear-systems-and-elimination/IE-17/lean",
+      "branch": "codex/lean-ie17",
+      "commit": "d45afc8a197ffeeff94abfca59ef93acda22efa5",
+      "partial": false,
+      "linux_status": "success; original artifact and exact inputs retained; independent operational review PASS",
+      "run_id": 34862174739,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862174739",
+      "artifact_id": 10355407347,
+      "artifact_sha256": "cabb0de314a49e4f9f427a754d77aad55f8a7d0bf375bbee48d40bba7b9b423a",
+      "input_count": 35,
+      "linux_evidence": "/private/tmp/nla-lean-ie17/linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14",
+      "publication_commit": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2",
+      "publication_status": "complete; pushed; final remote SHA verified; final Lean and permanent-ID/catalog/math CI PASS"
+    },
+    {
+      "id": "IE-05",
+      "root": "/private/tmp/nla-lean-ie05",
+      "project": "linear-systems-and-elimination/IE-05/lean",
+      "branch": "codex/lean-ie05",
+      "commit": "df2cf7a721843c0d674e8377d435eb5750f06fff",
+      "partial": false,
+      "linux_status": "success; original artifact and exact inputs retained; independent operational review PASS",
+      "run_id": 34862178699,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862178699",
+      "artifact_id": 10356022360,
+      "artifact_sha256": "9df0dab0d55d61c323a145b87c5f98b4b66dcc62ceeff1cee3eaa4f33b960bc5",
+      "input_count": 40,
+      "linux_evidence": "/private/tmp/nla-lean-ie05/linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14",
+      "publication_commit": "fc9ffa0f90e7fb59628c83674956a78bc7471584",
+      "publication_status": "complete; pushed; final remote SHA verified; final Lean and permanent-ID/catalog/math CI PASS"
+    },
+    {
+      "id": "IS-02",
+      "root": "/private/tmp/nla-lean-is02",
+      "project": "eigenvalues-and-inverse-problems/IS-02/lean",
+      "branch": "codex/lean-is02",
+      "commit": "b71728d93b1c376ee34a6fd04b4661c604704a14",
+      "partial": false,
+      "linux_status": "success; original artifact and exact inputs retained; independent operational review PASS",
+      "run_id": 34862184054,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862184054",
+      "artifact_id": 10355821669,
+      "artifact_sha256": "61a344ecb712303e0fe83c7abafcc82e087f3b04d2c91c00b9622bcb112d4485",
+      "input_count": 47,
+      "linux_evidence": "/private/tmp/nla-lean-is02/eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14",
+      "publication_commit": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5",
+      "publication_status": "complete; pushed; final remote SHA verified; final Lean and permanent-ID/catalog/math CI PASS"
+    },
+    {
+      "id": "MI-08",
+      "root": "/private/tmp/nla-lean-mi08",
+      "project": "matrix-inequalities-and-norms/MI-08/lean",
+      "branch": "codex/lean-mi08",
+      "commit": "a66e142cbe7907db6594ef57c7f542c3d33ad704",
+      "partial": true,
+      "linux_status": "success; original artifact and exact inputs retained; independent operational review PASS",
+      "run_id": 34862187226,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862187226",
+      "artifact_id": 10355937198,
+      "artifact_sha256": "db6d016b47dd8e8bcf81a64ad7faa01df7b270662702578fe9ed2fd89881e80a",
+      "input_count": 45,
+      "linux_evidence": "/private/tmp/nla-lean-mi08/matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14",
+      "publication_commit": "40c73a09af5480166e209e670e4f9fe0aad5a546",
+      "publication_status": "complete; pushed; final remote SHA verified; final Lean and permanent-ID/catalog/math CI PASS"
+    }
+  ],
+  "final_checks": [
+    {
+      "id": "MI-03",
+      "commit": "43571bd63844c784dc4cf2998b4d367846bfb9b9",
+      "runs": [
+        {
+          "id": 34864241655,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864241655"
+        },
+        {
+          "id": 34864241660,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864241660"
+        }
+      ]
+    },
+    {
+      "id": "IE-17",
+      "commit": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2",
+      "runs": [
+        {
+          "id": 34864246596,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864246596"
+        },
+        {
+          "id": 34864246550,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864246550"
+        }
+      ]
+    },
+    {
+      "id": "IE-05",
+      "commit": "fc9ffa0f90e7fb59628c83674956a78bc7471584",
+      "runs": [
+        {
+          "id": 34864251035,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864251035"
+        },
+        {
+          "id": 34864251012,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864251012"
+        }
+      ]
+    },
+    {
+      "id": "IS-02",
+      "commit": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5",
+      "runs": [
+        {
+          "id": 34864254785,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864254785"
+        },
+        {
+          "id": 34864254977,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864254977"
+        }
+      ]
+    },
+    {
+      "id": "MI-08",
+      "commit": "40c73a09af5480166e209e670e4f9fe0aad5a546",
+      "runs": [
+        {
+          "id": 34864258639,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864258639"
+        },
+        {
+          "id": 34864258666,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864258666"
+        }
+      ]
+    }
+  ]
+}
