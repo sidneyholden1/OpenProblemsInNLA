@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS",
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi23/docs/lean/reverification-2026-09-14/MI-23/referee-2-retention.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi23/matrix-inequalities-and-norms/MI-23/lean",
+  "root": "NLA.MI23.not_generalizedGeometricMeanConjecture",
+  "material_scalar": "NLA.MI23.scalar_gap_positive",
+  "script_sha256": "c92769a7ac3f17b0cc2124c41e186531c5ae682cbfbc7d9bf16314e9f4500683",
+  "log_sha256": "982b021677d68dc90d329398ae5fe835b1f98292233d406bf0201f8150afc309"
+}

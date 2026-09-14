@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi23/docs/lean/reverification-2026-09-14/MI-23/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi23/matrix-inequalities-and-norms/MI-23/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.MI23.positive_powers_and_means": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.product_eigenvalue_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.squared_product_largest": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.operator_norm_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.witness_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.witness_squared_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.not_generalizedGeometricMeanConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "scalar_gap_positive"
+  ],
+  "script_sha256": "33827eca02a1cb275b3d89b5a9bf21391b50da02ad4ba2360ca0d1d07fffe900",
+  "log_sha256": "3be08b2b4cc7615e172e2aa97bf4c40c79f1213358fbaa4209a103f4827c837b"
+}

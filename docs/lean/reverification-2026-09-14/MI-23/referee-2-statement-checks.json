@@ -1,0 +1,211 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only before proof inspection",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "matrix-inequalities-and-norms/MI-23/README.md": {
+      "sha256": "308ec2f9185aaa06e7c5807531047163caa249b8274a9df34704db7d86350502",
+      "bytes": 8138,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/README.md": {
+      "sha256": "9fd17b9f225383f50d1623ca511263737391dd5517539610b6a0bbc7efc2e918",
+      "bytes": 7213,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+      "bytes": 7459,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/Challenge.lean": {
+      "sha256": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+      "bytes": 4304,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/comparator.json": {
+      "sha256": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+      "bytes": 522,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/formalization.yaml": {
+      "sha256": "2c6b162572c774d28fd9a5302fd16f3939c5fb87007b124eb8071618932992d0",
+      "bytes": 12033,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/lake-manifest.json": {
+      "sha256": "10e87dfa3fc8ecfaf18277f1a0838a3a009979e43555fe97474618ac9af250ff",
+      "bytes": 3537,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/lakefile.toml": {
+      "sha256": "cb0ad4fd0b6a7b7b8a6e8307536c9e9505718c12b1089307561bf2355db301f8",
+      "bytes": 280,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Definitions.lean": {
+      "sha256": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+      "bytes": 5750,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/solution.md": {
+      "sha256": "b05bd263ae7f3b2925c157e32ec5d3ec82bf62c3e5e7217144fca1029faa79c1",
+      "bytes": 2628,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-23/solution.tex": {
+      "sha256": "a8eb6660e05afbafa9e376d1354d24f97cc0c25debd022e540e11859628b9552",
+      "bytes": 5435,
+      "read_method": "local source and immutable Git comparison"
+    }
+  },
+  "actual_imported_semantics_sha256": {
+    "Analysis/InnerProductSpace/SingularValues.lean": "ce8193fcd5d226845a71f66b8ca7ad385358916a6e0e688745410ac412ed5c81",
+    "Analysis/CStarAlgebra/Matrix.lean": "79518c9e51c4d0cf4083ab69a9ac7a2817305b48db1fe6f25ae1d678e12ce223",
+    "LinearAlgebra/Matrix/PosDef.lean": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+    "Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Basic.lean": "5c87ec96e95be9c21e52857acc4892f9a6b7e69d7358f8d6fbbef93b0d249ef7"
+  },
+  "exports": [
+    "NLA.MI23.positive_powers_and_means",
+    "NLA.MI23.product_eigenvalue_semantics",
+    "NLA.MI23.squared_product_largest",
+    "NLA.MI23.operator_norm_bounds",
+    "NLA.MI23.witness_data",
+    "NLA.MI23.witness_squared_gap",
+    "NLA.MI23.counterexample",
+    "NLA.MI23.not_generalizedGeometricMeanConjecture"
+  ],
+  "numerical_diagnostics": {
+    "verdict": "PASS",
+    "independent_diagnostic_not_Lean_proof": true,
+    "exact_LDL": true,
+    "T_leading_minors": [
+      "2",
+      "49",
+      "150"
+    ],
+    "B": [
+      [
+        "122603776",
+        "535444",
+        "12850656"
+      ],
+      [
+        "535444",
+        "262440168367/72",
+        "-65609831633/3"
+      ],
+      [
+        "12850656",
+        "-65609831633/3",
+        "131221346936"
+      ]
+    ],
+    "G": [
+      [
+        "512",
+        "4/3",
+        "32"
+      ],
+      [
+        "4/3",
+        "25/144",
+        "-5/6"
+      ],
+      [
+        "32",
+        "-5/6",
+        "10"
+      ]
+    ],
+    "H": [
+      [
+        "19798528",
+        "259396/3",
+        "2075168"
+      ],
+      [
+        "259396/3",
+        "17496054377/144",
+        "-4373945623/6"
+      ],
+      [
+        "2075168",
+        "-4373945623/6",
+        "4374217508"
+      ]
+    ],
+    "GH": [
+      [
+        "91830302992/9",
+        "-2497115437399/108",
+        "1260589125202/9"
+      ],
+      [
+        "2665844137/108",
+        "13036755347201/20736",
+        "-3256394652799/864"
+      ],
+      [
+        "5888092694/9",
+        "-6383571375469/864",
+        "1598978624531/36"
+      ]
+    ],
+    "AB": [
+      [
+        "31386566656",
+        "137073664",
+        "3289767936"
+      ],
+      [
+        "133861/36",
+        "262440168367/10368",
+        "-65609831633/432"
+      ],
+      [
+        "12850656",
+        "-65609831633/3",
+        "131221346936"
+      ]
+    ],
+    "entry_02": "1260589125202/9",
+    "frobenius_squared": "2009446159144992718181231562721/107495424",
+    "squared_gap": "99434824489435745411095588895/107495424",
+    "limitation": "Generic eigenvalue reality/order/multiplicity and CFC/norm identities remain Lean obligations; no numerical spectrum used."
+  },
+  "numerical_evidence_sha256": "4ff7e0c212ab036a8d937327a8941b8d92a4d5a946d450ac0c8af3c169d72755",
+  "numerical_log_sha256": "39d1c37164d5ca205e01ee810101021cea4dbb72ba81d7267c1222cbfc09afff",
+  "numerical_generator_sha256": "f45cc7bc6269a839d011114958c888167df489e27a8495d217e866407c021dda",
+  "coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi23/matrix-inequalities-and-norms/MI-23/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 39.545,
+    "log_sha256": "58ff5bed889a6d5c9433fb7ccf6eff70a18e2155e71d239f244ce2fb545cbfa4"
+  },
+  "coordinator_receipt_sha256": "9e9aa8bd238e4b62d1ae7e1e2335c8064c33a6392cd32723f74c361e00cf039c",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

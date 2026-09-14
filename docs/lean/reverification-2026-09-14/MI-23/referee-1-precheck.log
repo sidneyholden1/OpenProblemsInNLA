@@ -1,0 +1,18 @@
+{
+  "id": "MI-23",
+  "verdict": "PASS",
+  "method": "Independent fresh exact Fraction/sparse-polynomial diagnostic, not a Lean proof",
+  "checks": {
+    "pivots": [
+      "2",
+      "49/2",
+      "150/49"
+    ],
+    "GH_entry_0_2": "1260589125202/9",
+    "frobenius_AB_squared": "2009446159144992718181231562721/107495424",
+    "gap": "99434824489435745411095588895/107495424",
+    "parameter_region": true,
+    "outside_known_interior": true,
+    "analytic_limit": "Actual CFC powers, complete positive root lists and norm/eigenvalue identity remain Lean obligations."
+  }
+}
