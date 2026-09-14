@@ -1,0 +1,16 @@
+{
+  "target": "Solution",
+  "command": [
+    "lake",
+    "build",
+    "Solution"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ke04/eigenvalues-and-inverse-problems/KE-04/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "scope": "development/source-typecheck; not Linux Comparator verification",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "exit_code": 0,
+  "elapsed_seconds": 119.082,
+  "log_sha256": "d1deefd9f0cc0e377cd610774665d2f1ad40a2fda67c31c3ced24736d8c3ea97"
+}
