@@ -1,0 +1,14 @@
+{
+  "reviewer": "coordinator /root; not one of the two independent referees",
+  "phase": "statement only, before inspecting active proof bodies",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "reviewed_scope": "The finite recursive history law preserves joint entry sampling, recomputed conditional probabilities and zero absorption. Every-dimensional normalization and the actual Frobenius norm bridge are required. The witness must prove ordered actual singular values 3,1, all four residual outcomes and expected error18/5>2. No sharp-factor family or Cholesky claim.",
+  "source_review": "Reviewed both canonical target sections, complete informal manuscripts, Definitions, Challenge and numerical obligations. Targeted actual Mathlib CFC and singular-value definitions checked. No authored proof inspected at this phase.",
+  "status": "Boundary appears faithful; two independent statement approvals and their exact diagnostics still required before frozen gate.",
+  "files_sha256": {
+    "randomized-and-low-rank-approximation/RA-03/lean/Challenge.lean": "74a7c727e8cf2fa1ee26e78cfab812626b265abe8211e09f144a3c78fca5345e",
+    "randomized-and-low-rank-approximation/RA-03/lean/NUMERICAL_TARGETS.md": "91618c7848ad46931a8f59bad6ff2900bf53b1e1dde22f31383c4a3941eb4a94",
+    "randomized-and-low-rank-approximation/RA-03/lean/NLA/RA03/Definitions.lean": "de6509ef6b4a41db3e01fce7b77af4c7c338dbd61f8f135e956602d3b8b0980f",
+    "docs/lean/reverification-2026-09-14/RA-03/SOURCE-PROVENANCE.json": "11949e1f91c6725a203ebe558da6a91adebc2eec096645e91dcd67c1fc34033b"
+  }
+}
