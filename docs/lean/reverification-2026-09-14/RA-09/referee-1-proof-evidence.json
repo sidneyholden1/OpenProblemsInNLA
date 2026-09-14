@@ -1,0 +1,363 @@
+{
+  "reviewer": "independent AI referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "source_base_is_not_latest_main": true,
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "candidate_commit": "5c97ce17a14f0e84b05320131eb0af090776f582",
+  "active_closure": {
+    "Solution": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/Solution.lean",
+      "sha256": "fc80b094cc7c7cb519e5f812066a87e29e8283cd8f9858ef6f3d04c9f5e2bbbb",
+      "lines": 244
+    },
+    "NLA.RA09.Proof": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Proof.lean",
+      "sha256": "1661afe661293f8b19e83714b6bc25a076ce10109875d79e9c118f9291e565bd",
+      "lines": 52
+    },
+    "NLA.RA09.ZeroTail": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/ZeroTail.lean",
+      "sha256": "45ccfc67b7c59ce13d38d2822c69c36bd36519a9516798ca9d02074cb5e61dae",
+      "lines": 91
+    },
+    "NLA.RA09.Spectral": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Spectral.lean",
+      "sha256": "5a5cb2bb37b3c78f6e794420b9b54d7c97a94ad3824d7acdef61f17988969c45",
+      "lines": 162
+    },
+    "NLA.RA09.OrderedExistence": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/OrderedExistence.lean",
+      "sha256": "beca9c7b9ca9c4b4b467acbbbe13acd3e25507c4653a71ab9a480494726a1631",
+      "lines": 80
+    },
+    "NLA.RA09.Definitions": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Definitions.lean",
+      "sha256": "2a9b0d9d536bc2620fbe3814ed95640caeae8a49e8b13a9e2136b469ba09ece9",
+      "lines": 106
+    },
+    "NLA.RA09.SpectralCFC": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/SpectralCFC.lean",
+      "sha256": "b80049d98243a1cd19cac41ac28775f1e0f07ebb626963131f2e79ed257ab89d",
+      "lines": 125
+    },
+    "NLA.RA09.Frobenius": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Frobenius.lean",
+      "sha256": "f2d038d3d2f5195074ab5acc973771aaf57782d9ce9271c6fbc7132f8178c6ad",
+      "lines": 138
+    },
+    "NLA.RA09.Transfer": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Transfer.lean",
+      "sha256": "45eac6374a1c836b89e903f218a45c9f3857e3f502528cdb02fb64a8367c6292",
+      "lines": 125
+    },
+    "NLA.RA09.ZeroColumn": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/ZeroColumn.lean",
+      "sha256": "c5a21c431bc1118466097e9e761c9c95e113162c69379b397c8e76ec21038c00",
+      "lines": 41
+    },
+    "NLA.RA09.TailScale": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/TailScale.lean",
+      "sha256": "83b9619cadb1f02b19d38b3efce0cb0217a3c288796d492157a0bee629899729",
+      "lines": 79
+    },
+    "NLA.RA09.Scalar": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Scalar.lean",
+      "sha256": "be27edbd0f42e83fb825095bae65c48c8d90e8d1614ed90871abace1f55b6f17",
+      "lines": 238
+    },
+    "NLA.RA09.Averaging": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Averaging.lean",
+      "sha256": "1893a4f432261ead1efd291564ac1b3ba9a1be5cb59c74d755e01a9c5a5b2eb9",
+      "lines": 84
+    },
+    "NLA.RA09.OverlapOrder": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/OverlapOrder.lean",
+      "sha256": "be16577398f0dfbedcd41d5fa22b105f961dffccffe2aa8eda633f5ead72923c",
+      "lines": 105
+    },
+    "NLA.RA09.Harmonic": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Harmonic.lean",
+      "sha256": "629f355ef949d3f11acbba443fe1ba8a77d7ac89fb10e76f223ef5a47e7be91e",
+      "lines": 116
+    },
+    "NLA.RA09.Overlap": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Overlap.lean",
+      "sha256": "759490c0b1a3a17eff13a683fae049474913ed2eec03f5dfa1e9c6722e06c173",
+      "lines": 146
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.Verification",
+    "Mathlib.Analysis.Convex.Function",
+    "Mathlib.Analysis.InnerProductSpace.PiL2",
+    "Mathlib.Analysis.Matrix.HermitianFunctionalCalculus",
+    "Mathlib.Analysis.Matrix.Normed",
+    "Mathlib.Analysis.Matrix.Order",
+    "Mathlib.Analysis.Matrix.PosDef",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.UnitaryGroup",
+    "Mathlib.Order.Fin.Basic",
+    "Mathlib.Order.Interval.Finset.Fin",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FunProp",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_scan": "All active executable code read by the scan: no sorry/admit/axiom/native_decide/unsafe/implemented_by. No Challenge import.",
+  "exports": [
+    "NLA.RA09.frobenius_semantics",
+    "NLA.RA09.frobenius_orthogonal_invariance",
+    "NLA.RA09.orderedSpectral_exists",
+    "NLA.RA09.orderedSpectral_semantics",
+    "NLA.RA09.functionalCalculus_spectral",
+    "NLA.RA09.truncation_semantics",
+    "NLA.RA09.trace_deficit_reduction",
+    "NLA.RA09.admissible_scalar_consequences",
+    "NLA.RA09.scalar_branch_certificates",
+    "NLA.RA09.ordered_scalar_certificate",
+    "NLA.RA09.harmonic_constraint",
+    "NLA.RA09.overlap_semantics",
+    "NLA.RA09.overlap_error_expansions",
+    "NLA.RA09.zero_column_average",
+    "NLA.RA09.positive_tail_transfer",
+    "NLA.RA09.zero_tail_closure",
+    "NLA.RA09.concaveFrobeniusTransferConjecture"
+  ],
+  "evidence_hashes": {
+    "statement-gate.json": "3687604bf00dc42a2d846b758512a3202c60732b2714ef1de932adbf58069268",
+    "STATEMENT-REFEREE-1.md": "4bf9a7bef9a86673d2d01edd29fa9154a961d24d98e7c840d0d096651aa32846",
+    "referee-1-statement-evidence.json": "835639695977cddcaf03f868abf2ebe02e78a4985039677533fd25128434c895",
+    "solution-local.json": "cedba9b3bef619a02bb6ac4a2518f714343a0225bf7f35d9ecf2643e6eff2541",
+    "solution-local.log": "5353f5b3dab98ca23358e06efbb580d62c4f836eb9df51b6c35027a5e65d3468",
+    "referee-2-export-audit.lean": "5a1db15fa7e6630f485dde10a8857800796907976a260fe4dac19814e0d33235",
+    "referee-2-export-audit.log": "176cd55f09da78079b86addf0369bb2970dd083ccaa2facfd9ea6cf173ffaa8f",
+    "referee-2-consumer-exit.json": "912805f869129e2d23bc6d6f957dade85b307ce3f6d343effe2a214c472bd494",
+    "referee-2-proof-checks.json": "4e460186884a87d4ac2790667f3a7926da1b876acd949b57934240af5bed7ba8"
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "5b275a09558f3b03b67b4ef0c7764db854d9c516190f05135a426c14eb7b1e6e",
+    "NUMERICAL_TARGETS.md": "638e5a3c5c87bc284eee127ac11dde58fba9d9c705e40669efcd1dcb91ed52ee",
+    "comparator.json": "dc16c0577badd3cefa27669c7efd3bdf525a21e5f45516e8b1f2d32158cca6cd",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "0cfb66445be92ad7dd80b6f39972057e53aae2e11c9a5583d9058d82d72951b4",
+    "lakefile.toml": "e22cc04d28b9d3ac0f616eda4bc6bb498dfa48f2cd9323b3763bcb94ecfabbc4"
+  },
+  "execution_limit": "Source and evidence inspection by this referee; fresh builds belong to coordinator, consumer/term inspections to referee 2. Actual Linux Comparator is separate.",
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra09/randomized-and-low-rank-approximation/RA-09/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 100.129,
+    "log_sha256": "5353f5b3dab98ca23358e06efbb580d62c4f836eb9df51b6c35027a5e65d3468"
+  },
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.RA09.frobenius_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.frobenius_orthogonal_invariance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.orderedSpectral_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.orderedSpectral_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.functionalCalculus_spectral": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.truncation_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.trace_deficit_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.admissible_scalar_consequences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.scalar_branch_certificates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.ordered_scalar_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.harmonic_constraint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.overlap_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.overlap_error_expansions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.zero_column_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.positive_tail_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.zero_tail_closure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.concaveFrobeniusTransferConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "referee_2_consumer_execution": {
+    "exit_code": 0,
+    "names": [
+      "NLA.RA09.frobenius_semantics",
+      "NLA.RA09.frobenius_orthogonal_invariance",
+      "NLA.RA09.orderedSpectral_exists",
+      "NLA.RA09.orderedSpectral_semantics",
+      "NLA.RA09.functionalCalculus_spectral",
+      "NLA.RA09.truncation_semantics",
+      "NLA.RA09.trace_deficit_reduction",
+      "NLA.RA09.admissible_scalar_consequences",
+      "NLA.RA09.scalar_branch_certificates",
+      "NLA.RA09.ordered_scalar_certificate",
+      "NLA.RA09.harmonic_constraint",
+      "NLA.RA09.overlap_semantics",
+      "NLA.RA09.overlap_error_expansions",
+      "NLA.RA09.zero_column_average",
+      "NLA.RA09.positive_tail_transfer",
+      "NLA.RA09.zero_tail_closure",
+      "NLA.RA09.concaveFrobeniusTransferConjecture"
+    ]
+  },
+  "export_axioms_read_from_referee_2_fresh_consumer": {
+    "NLA.RA09.frobenius_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.frobenius_orthogonal_invariance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.orderedSpectral_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.orderedSpectral_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.functionalCalculus_spectral": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.truncation_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.trace_deficit_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.admissible_scalar_consequences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.scalar_branch_certificates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.ordered_scalar_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.harmonic_constraint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.overlap_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.overlap_error_expansions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.zero_column_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.positive_tail_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.zero_tail_closure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA09.concaveFrobeniusTransferConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "gate_comparison_timing": "All gate files matched before publication changes; active proof sources are unchanged and rechecked during finalization. Subsequent publication wrapper edits are outside these frozen source claims."
+}

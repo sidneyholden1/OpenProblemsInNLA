@@ -1,0 +1,276 @@
+@NLA.RA09.frobenius_semantics : ∀ {m n : ℕ} (M : Matrix.{0, 0, 0} (Fin m) (Fin n) ℝ),
+  Eq.{1} (NLA.RA09.frobeniusSquared M) (HPow.hPow.{0, 0, 0} (NLA.RA09.frobeniusNorm M) 2) ∧
+    Eq.{1} (NLA.RA09.frobeniusSquared M) (∑ i, ∑ j, HPow.hPow.{0, 0, 0} (abs.{0} (M i j)) 2) ∧
+      Eq.{1} (NLA.RA09.frobeniusSquared M)
+          (Matrix.trace.{0, 0} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} M) M)) ∧
+        LE.le.{0} 0 (NLA.RA09.frobeniusSquared M) ∧ (Eq.{1} (NLA.RA09.frobeniusSquared M) 0 ↔ Eq.{1} M 0)
+'NLA.RA09.frobenius_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.frobenius_orthogonal_invariance : ∀ {m n : ℕ} (M : Matrix.{0, 0, 0} (Fin m) (Fin n) ℝ)
+  (U : ↥(Matrix.unitaryGroup.{0, 0} (Fin m) ℝ)) (V : ↥(Matrix.unitaryGroup.{0, 0} (Fin n) ℝ)),
+  Eq.{1} (NLA.RA09.frobeniusSquared (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (↑U) M) ↑V)) (NLA.RA09.frobeniusSquared M)
+'NLA.RA09.frobenius_orthogonal_invariance' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.orderedSpectral_exists : ∀ {n : ℕ} (A : NLA.RA09.RealMatrix n),
+  Matrix.PosSemidef.{0, 0} A → Nonempty.{1} (NLA.RA09.OrderedSpectralData A)
+'NLA.RA09.orderedSpectral_exists' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.orderedSpectral_semantics : ∀ {n : ℕ} {A : NLA.RA09.RealMatrix n} (d : NLA.RA09.OrderedSpectralData A),
+  Matrix.PosSemidef.{0, 0} A ∧
+    Eq.{1} (NLA.RA09.spectralCombination d d.eigenvalues) A ∧
+      (∀ (i j : Fin n),
+          Eq.{1} (dotProduct.{0, 0} (fun r => ↑d.orthogonal r i) fun r => ↑d.orthogonal r j)
+            (ite.{1} (Eq.{1} i j) 1 0)) ∧
+        ∀ (i : Fin n),
+          Eq.{1} (Matrix.mulVec.{0, 0, 0} A fun r => ↑d.orthogonal r i)
+            (HSMul.hSMul.{0, 0, 0} (d.eigenvalues i) fun r => ↑d.orthogonal r i)
+'NLA.RA09.orderedSpectral_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.functionalCalculus_spectral : ∀ {n : ℕ} {A : NLA.RA09.RealMatrix n} (d : NLA.RA09.OrderedSpectralData A)
+  (f : ℝ → ℝ),
+  Eq.{1} (NLA.RA09.functionalCalculus f A) (NLA.RA09.spectralCombination d fun i => f (d.eigenvalues i)) ∧
+    ∀ (g : ℝ → ℝ),
+      Set.EqOn.{0, 0} f g (Set.Ici.{0} 0) → Eq.{1} (NLA.RA09.functionalCalculus f A) (NLA.RA09.functionalCalculus g A)
+'NLA.RA09.functionalCalculus_spectral' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.truncation_semantics : ∀ {n : ℕ} {A : NLA.RA09.RealMatrix n} (d : NLA.RA09.OrderedSpectralData A) (k : ℕ),
+  LE.le.{0} k n →
+    ∀ (f : ℝ → ℝ),
+      Matrix.PosSemidef.{0, 0} (NLA.RA09.truncation d k) ∧
+        LE.le.{0} (NLA.RA09.truncation d k) A ∧
+          Eq.{1} (NLA.RA09.frobeniusSquared (HSub.hSub.{0, 0, 0} A (NLA.RA09.truncation d k)))
+              (NLA.RA09.spectralTail d k) ∧
+            Eq.{1}
+                (NLA.RA09.frobeniusSquared
+                  (HSub.hSub.{0, 0, 0} (NLA.RA09.functionalCalculus f A) (NLA.RA09.functionTruncation d f k)))
+                (NLA.RA09.functionTail d f k) ∧
+              (Eq.{1} (NLA.RA09.truncation d k) A ↔ ∀ (i : Fin n), LE.le.{0} k ↑i → Eq.{1} (d.eigenvalues i) 0)
+'NLA.RA09.truncation_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.trace_deficit_reduction : ∀ {n : ℕ} (A B : NLA.RA09.RealMatrix n),
+  Matrix.PosSemidef.{0, 0} A →
+    Matrix.PosSemidef.{0, 0} B →
+      LE.le.{0} B A →
+        Eq.{1} (NLA.RA09.frobeniusSquared (HSub.hSub.{0, 0, 0} A B))
+            (HSub.hSub.{0, 0, 0} (HSub.hSub.{0, 0, 0} (NLA.RA09.frobeniusSquared A) (NLA.RA09.frobeniusSquared B))
+              (HMul.hMul.{0, 0, 0} 2 (Matrix.trace.{0, 0} (HMul.hMul.{0, 0, 0} B (HSub.hSub.{0, 0, 0} A B))))) ∧
+          LE.le.{0} 0 (Matrix.trace.{0, 0} (HMul.hMul.{0, 0, 0} B (HSub.hSub.{0, 0, 0} A B))) ∧
+            LE.le.{0} (NLA.RA09.frobeniusSquared (HSub.hSub.{0, 0, 0} A B))
+              (HSub.hSub.{0, 0, 0} (NLA.RA09.frobeniusSquared A) (NLA.RA09.frobeniusSquared B))
+'NLA.RA09.trace_deficit_reduction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA09.admissible_scalar_consequences : ∀ (f : ℝ → ℝ),
+  NLA.RA09.AdmissibleFunction f →
+    ∀ (τ : ℝ),
+      LT.lt.{0} 0 τ →
+        (∀ (x y : ℝ),
+            LT.lt.{0} 0 x → LE.le.{0} x y → LE.le.{0} (HDiv.hDiv.{0, 0, 0} (f y) y) (HDiv.hDiv.{0, 0, 0} (f x) x)) ∧
+          LE.le.{0} 0 (NLA.RA09.transferScale f τ) ∧
+            (∀ (x : ℝ),
+                LE.le.{0} 0 x → LE.le.{0} x τ → LE.le.{0} (HMul.hMul.{0, 0, 0} (NLA.RA09.transferScale f τ) x) (f x)) ∧
+              (∀ (x : ℝ), LE.le.{0} τ x → LE.le.{0} (f x) (HMul.hMul.{0, 0, 0} (NLA.RA09.transferScale f τ) x)) ∧
+                (∀ (x y : ℝ),
+                    LE.le.{0} 0 x →
+                      LE.le.{0} x y →
+                        LE.le.{0} τ y →
+                          LE.le.{0} 0 (HSub.hSub.{0, 0, 0} (f y) (f x)) ∧
+                            LE.le.{0} (HSub.hSub.{0, 0, 0} (f y) (f x))
+                              (HMul.hMul.{0, 0, 0} (NLA.RA09.transferScale f τ) (HSub.hSub.{0, 0, 0} y x))) ∧
+                  (Eq.{1} (f τ) 0 → ∀ (x : ℝ), LE.le.{0} 0 x → Eq.{1} (f x) 0)
+'NLA.RA09.admissible_scalar_consequences' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA09.scalar_branch_certificates : ∀ (d z : ℝ),
+  LE.le.{0} 1 d →
+    LT.lt.{0} 0 z →
+      Eq.{1} (NLA.RA09.branchQuadratic d z)
+          (HAdd.hAdd.{0, 0, 0}
+            (HAdd.hAdd.{0, 0, 0}
+              (HAdd.hAdd.{0, 0, 0}
+                (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 (HSub.hSub.{0, 0, 0} d 1))
+                  (HPow.hPow.{0, 0, 0} (HSub.hSub.{0, 0, 0} z (1 / 2)) 2))
+                (HDiv.hDiv.{0, 0, 0} (HSub.hSub.{0, 0, 0} d 1) 2))
+              (HMul.hMul.{0, 0, 0} 4 (HPow.hPow.{0, 0, 0} (HSub.hSub.{0, 0, 0} z (3 / 8)) 2)))
+            (7 / 16)) ∧
+        LT.lt.{0} 0 (NLA.RA09.branchQuadratic d z) ∧
+          (LE.le.{0} z 1 →
+              Eq.{1}
+                  (HSub.hSub.{0, 0, 0}
+                    (HAdd.hAdd.{0, 0, 0}
+                      (HSub.hSub.{0, 0, 0}
+                        (HSub.hSub.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 (HPow.hPow.{0, 0, 0} d 2)) z)
+                          (HMul.hMul.{0, 0, 0} 2 z))
+                        (HPow.hPow.{0, 0, 0} d 2))
+                      1)
+                    (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} d (HSub.hSub.{0, 0, 0} d 1))
+                      (HSub.hSub.{0, 0, 0} 1 (HDiv.hDiv.{0, 0, 0} 1 z))))
+                  (HMul.hMul.{0, 0, 0} (HDiv.hDiv.{0, 0, 0} (HSub.hSub.{0, 0, 0} d 1) z)
+                    (NLA.RA09.branchQuadratic d z)) ∧
+                LE.le.{0} 0
+                  (HMul.hMul.{0, 0, 0} (HDiv.hDiv.{0, 0, 0} (HSub.hSub.{0, 0, 0} d 1) z)
+                    (NLA.RA09.branchQuadratic d z))) ∧
+            (LE.le.{0} 1 z →
+                LE.le.{0} z d →
+                  Eq.{1}
+                      (HSub.hSub.{0, 0, 0}
+                        (HAdd.hAdd.{0, 0, 0}
+                          (HSub.hSub.{0, 0, 0}
+                            (HSub.hSub.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 (HPow.hPow.{0, 0, 0} d 2))
+                              (HMul.hMul.{0, 0, 0} 2 z))
+                            (HPow.hPow.{0, 0, 0} d 2))
+                          1)
+                        (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} d (HSub.hSub.{0, 0, 0} d 1))
+                          (HSub.hSub.{0, 0, 0} 1 (HDiv.hDiv.{0, 0, 0} 1 z))))
+                      (HDiv.hDiv.{0, 0, 0}
+                        (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} d z)
+                          (HSub.hSub.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 z) d) 1))
+                        z) ∧
+                    LE.le.{0} 0
+                      (HDiv.hDiv.{0, 0, 0}
+                        (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} d z)
+                          (HSub.hSub.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 z) d) 1))
+                        z)) ∧
+              (LE.le.{0} d z →
+                Eq.{1}
+                    (HSub.hSub.{0, 0, 0}
+                      (HAdd.hAdd.{0, 0, 0}
+                        (HSub.hSub.{0, 0, 0}
+                          (HSub.hSub.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 d) z)
+                            (HMul.hMul.{0, 0, 0} 2 z))
+                          (HPow.hPow.{0, 0, 0} d 2))
+                        1)
+                      (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} d (HSub.hSub.{0, 0, 0} d 1))
+                        (HSub.hSub.{0, 0, 0} 1 (HDiv.hDiv.{0, 0, 0} 1 z))))
+                    (HDiv.hDiv.{0, 0, 0}
+                      (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} d 1) (HSub.hSub.{0, 0, 0} z d))
+                        (HSub.hSub.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 z) 1))
+                      z) ∧
+                  LE.le.{0} 0
+                    (HDiv.hDiv.{0, 0, 0}
+                      (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} d 1) (HSub.hSub.{0, 0, 0} z d))
+                        (HSub.hSub.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 z) 1))
+                      z))
+'NLA.RA09.scalar_branch_certificates' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA09.ordered_scalar_certificate : ∀ (f : ℝ → ℝ),
+  NLA.RA09.AdmissibleFunction f →
+    ∀ (τ a b : ℝ),
+      LT.lt.{0} 0 τ →
+        LT.lt.{0} 0 (f τ) →
+          LT.lt.{0} 0 a →
+            LT.lt.{0} 0 b →
+              LE.le.{0}
+                (HMul.hMul.{0, 0, 0}
+                  (HMul.hMul.{0, 0, 0} (f b)
+                    (max.{0} (HSub.hSub.{0, 0, 0} (f b) (HMul.hMul.{0, 0, 0} (NLA.RA09.transferScale f τ) b)) 0))
+                  (HSub.hSub.{0, 0, 0} 1 (HDiv.hDiv.{0, 0, 0} b a)))
+                (HAdd.hAdd.{0, 0, 0}
+                  (HSub.hSub.{0, 0, 0}
+                    (HSub.hSub.{0, 0, 0}
+                      (HAdd.hAdd.{0, 0, 0} (NLA.RA09.scalarAuxiliary f τ a)
+                        (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 (f b)) (f a)))
+                      (HMul.hMul.{0, 0, 0}
+                        (HMul.hMul.{0, 0, 0}
+                          (HMul.hMul.{0, 0, 0} 2 (HPow.hPow.{0, 0, 0} (NLA.RA09.transferScale f τ) 2)) b)
+                        a))
+                    (HPow.hPow.{0, 0, 0} (f b) 2))
+                  (HMul.hMul.{0, 0, 0} (HPow.hPow.{0, 0, 0} (NLA.RA09.transferScale f τ) 2) (HPow.hPow.{0, 0, 0} b 2)))
+'NLA.RA09.ordered_scalar_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.harmonic_constraint : ∀ {n : ℕ} (a v : Fin n → ℝ) (b : ℝ),
+  (∀ (i : Fin n), LE.le.{0} 0 (a i)) →
+    Eq.{1} (∑ i, HPow.hPow.{0, 0, 0} (v i) 2) 1 →
+      LT.lt.{0} 0 b →
+        Matrix.PosSemidef.{0, 0}
+            (HSub.hSub.{0, 0, 0} (Matrix.diagonal.{0, 0} a) (HSMul.hSMul.{0, 0, 0} b (NLA.RA09.outerSquare v))) →
+          (∀ (i : Fin n), Eq.{1} (a i) 0 → Eq.{1} (v i) 0) ∧
+            LE.le.{0} (HMul.hMul.{0, 0, 0} b (∑ i, HDiv.hDiv.{0, 0, 0} (HPow.hPow.{0, 0, 0} (v i) 2) (a i))) 1
+'NLA.RA09.harmonic_constraint' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.overlap_semantics : ∀ {n : ℕ} {A Ahat : NLA.RA09.RealMatrix n} (dA : NLA.RA09.OrderedSpectralData A)
+  (dHat : NLA.RA09.OrderedSpectralData Ahat),
+  LE.le.{0} Ahat A →
+    ∀ (k : ℕ),
+      LE.le.{0} k n →
+        (∀ (i j : Fin n), LE.le.{0} 0 (NLA.RA09.overlapWeights dA dHat i j)) ∧
+          (∀ (j : Fin n), Eq.{1} (∑ i, NLA.RA09.overlapWeights dA dHat i j) 1) ∧
+            (∀ (i : Fin n), LE.le.{0} (∑ j with LT.lt.{0} (↑j) k, NLA.RA09.overlapWeights dA dHat i j) 1) ∧
+              ∀ (j : Fin n),
+                LT.lt.{0} 0 (dHat.eigenvalues j) →
+                  (∀ (i : Fin n), Eq.{1} (dA.eigenvalues i) 0 → Eq.{1} (NLA.RA09.overlapWeights dA dHat i j) 0) ∧
+                    LE.le.{0}
+                      (HMul.hMul.{0, 0, 0} (dHat.eigenvalues j)
+                        (∑ i, HDiv.hDiv.{0, 0, 0} (NLA.RA09.overlapWeights dA dHat i j) (dA.eigenvalues i)))
+                      1
+'NLA.RA09.overlap_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.overlap_error_expansions : ∀ {n : ℕ} {A Ahat : NLA.RA09.RealMatrix n} (dA : NLA.RA09.OrderedSpectralData A)
+  (dHat : NLA.RA09.OrderedSpectralData Ahat) (f : ℝ → ℝ) (k : ℕ),
+  LE.le.{0} k n →
+    Eq.{1} (NLA.RA09.frobeniusSquared (HSub.hSub.{0, 0, 0} A (NLA.RA09.truncation dHat k)))
+        (HSub.hSub.{0, 0, 0}
+          (HAdd.hAdd.{0, 0, 0} (∑ i, HPow.hPow.{0, 0, 0} (dA.eigenvalues i) 2)
+            (∑ j with LT.lt.{0} (↑j) k, HPow.hPow.{0, 0, 0} (dHat.eigenvalues j) 2))
+          (HMul.hMul.{0, 0, 0} 2
+            (∑ j with LT.lt.{0} (↑j) k,
+              HMul.hMul.{0, 0, 0} (dHat.eigenvalues j)
+                (∑ i, HMul.hMul.{0, 0, 0} (NLA.RA09.overlapWeights dA dHat i j) (dA.eigenvalues i))))) ∧
+      Eq.{1}
+        (NLA.RA09.frobeniusSquared
+          (HSub.hSub.{0, 0, 0} (NLA.RA09.functionalCalculus f A) (NLA.RA09.functionTruncation dHat f k)))
+        (HSub.hSub.{0, 0, 0}
+          (HAdd.hAdd.{0, 0, 0} (∑ i, HPow.hPow.{0, 0, 0} (f (dA.eigenvalues i)) 2)
+            (∑ j with LT.lt.{0} (↑j) k, HPow.hPow.{0, 0, 0} (f (dHat.eigenvalues j)) 2))
+          (HMul.hMul.{0, 0, 0} 2
+            (∑ j with LT.lt.{0} (↑j) k,
+              HMul.hMul.{0, 0, 0} (f (dHat.eigenvalues j))
+                (∑ i, HMul.hMul.{0, 0, 0} (NLA.RA09.overlapWeights dA dHat i j) (f (dA.eigenvalues i))))))
+'NLA.RA09.overlap_error_expansions' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.zero_column_average : ∀ {n : ℕ} (a p : Fin n → ℝ),
+  (∀ (i : Fin n), LE.le.{0} 0 (a i)) →
+    (∀ (i : Fin n), LE.le.{0} 0 (p i)) →
+      Eq.{1} (∑ i, p i) 1 →
+        ∀ (f : ℝ → ℝ),
+          NLA.RA09.AdmissibleFunction f →
+            ∀ (τ : ℝ),
+              LE.le.{0}
+                (HSub.hSub.{0, 0, 0} (HPow.hPow.{0, 0, 0} (f 0) 2)
+                  (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 (f 0)) (∑ i, HMul.hMul.{0, 0, 0} (p i) (f (a i)))))
+                (∑ i, HMul.hMul.{0, 0, 0} (p i) (NLA.RA09.scalarAuxiliary f τ (a i)))
+'NLA.RA09.zero_column_average' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.positive_tail_transfer : ∀ {n : ℕ} {A Ahat : NLA.RA09.RealMatrix n} (dA : NLA.RA09.OrderedSpectralData A)
+  (dHat : NLA.RA09.OrderedSpectralData Ahat),
+  LE.le.{0} Ahat A →
+    ∀ (f : ℝ → ℝ),
+      NLA.RA09.AdmissibleFunction f →
+        ∀ (k : ℕ) (hk : LT.lt.{0} k n),
+          LT.lt.{0} 0 (dA.eigenvalues ⟨k, hk⟩) →
+            LE.le.{0}
+                (HSub.hSub.{0, 0, 0}
+                  (NLA.RA09.frobeniusSquared
+                    (HSub.hSub.{0, 0, 0} (NLA.RA09.functionalCalculus f A) (NLA.RA09.functionTruncation dHat f k)))
+                  (NLA.RA09.functionTail dA f k))
+                (HMul.hMul.{0, 0, 0} (HPow.hPow.{0, 0, 0} (NLA.RA09.transferScale f (dA.eigenvalues ⟨k, hk⟩)) 2)
+                  (HSub.hSub.{0, 0, 0} (NLA.RA09.frobeniusSquared (HSub.hSub.{0, 0, 0} A (NLA.RA09.truncation dHat k)))
+                    (NLA.RA09.spectralTail dA k))) ∧
+              LE.le.{0}
+                (HMul.hMul.{0, 0, 0} (HPow.hPow.{0, 0, 0} (NLA.RA09.transferScale f (dA.eigenvalues ⟨k, hk⟩)) 2)
+                  (NLA.RA09.spectralTail dA k))
+                (NLA.RA09.functionTail dA f k)
+'NLA.RA09.positive_tail_transfer' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA09.zero_tail_closure : ∀ {n : ℕ} {A Ahat : NLA.RA09.RealMatrix n} (dA : NLA.RA09.OrderedSpectralData A)
+  (dHat : NLA.RA09.OrderedSpectralData Ahat),
+  LE.le.{0} Ahat A →
+    ∀ (f : ℝ → ℝ),
+      NLA.RA09.AdmissibleFunction f →
+        ∀ (k : ℕ) (hk : LT.lt.{0} k n),
+          Eq.{1} (dA.eigenvalues ⟨k, hk⟩) 0 →
+            ∀ (ε : ℝ),
+              LE.le.{0} 0 ε →
+                LE.le.{0}
+                    (HSub.hSub.{0, 0, 0} (NLA.RA09.frobeniusSquared A)
+                      (NLA.RA09.frobeniusSquared (NLA.RA09.truncation dHat k)))
+                    (HMul.hMul.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} 1 ε)
+                      (NLA.RA09.frobeniusSquared (HSub.hSub.{0, 0, 0} A (NLA.RA09.truncation dA k)))) →
+                  Eq.{1} A (NLA.RA09.truncation dHat k) ∧
+                    Eq.{1} Ahat A ∧
+                      Eq.{1}
+                          (NLA.RA09.frobeniusSquared
+                            (HSub.hSub.{0, 0, 0} (NLA.RA09.functionalCalculus f A)
+                              (NLA.RA09.functionTruncation dHat f k)))
+                          (HMul.hMul.{0, 0, 0} (↑(HSub.hSub.{0, 0, 0} n k)) (HPow.hPow.{0, 0, 0} (f 0) 2)) ∧
+                        Eq.{1}
+                          (NLA.RA09.frobeniusSquared
+                            (HSub.hSub.{0, 0, 0} (NLA.RA09.functionalCalculus f A)
+                              (NLA.RA09.functionTruncation dA f k)))
+                          (HMul.hMul.{0, 0, 0} (↑(HSub.hSub.{0, 0, 0} n k)) (HPow.hPow.{0, 0, 0} (f 0) 2))
+'NLA.RA09.zero_tail_closure' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA09.concaveFrobeniusTransferConjecture : NLA.RA09.ConcaveFrobeniusTransferConjecture
+'NLA.RA09.concaveFrobeniusTransferConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
