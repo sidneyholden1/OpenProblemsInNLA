@@ -38,71 +38,51 @@ automation:
   methods:
   - method: agent
     framework: OpenAI Codex
-    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust numerical inequality and all-export
-      audits; separate frozen statement and solution environments. Exact HTTPS pins and shared local cache.
-      Two independent statement reviews completed before implementation.
+    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust numerical inequalities; separate
+      statement and solution environments. Exact HTTPS pins and shared local cache. Independent statement
+      and final reviews planned.
     prompting_notes: Freeze statements after two independent reviews. Use exact sign and Gram certificates,
       rank and divisibility and one order-twelve matrix; no interval search.
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Complete local Lean 4.33.1 kernel build passes (3584 jobs), with all four exported trust audits.
-    Both statement referees PASS before implementation at 607a5e4a. Final independent reviews and actual
-    isolated Linux Comparator/default-kernel replay with rejection controls pending. Explicitly partial
-    mathematical scope; canonical status unchanged.
-  sorry_count: 0
+  scope: Statement draft with four intentional Challenge placeholders; no solution. Partial scope only;
+    canonical status unchanged. Both review phases and actual Linux Comparator pending.
+  sorry_count: 4
   sorry_in_definitions: 0
   main_results:
   - declaration: NLA.MI08.fixed_sign_equivalence
-    file: NLA/MI08/Correspondence.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
   - declaration: NLA.MI08.design_obstructions
-    file: NLA/MI08/Designs.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
   - declaration: NLA.MI08.hadamard_twelve
-    file: NLA/MI08/Designs.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
   - declaration: NLA.MI08.finite_minimums
-    file: NLA/MI08/Proof.lean
-    sorry_count: 0
+    file: Challenge.lean
+    sorry_count: 1
     comparator_config: comparator.json
     literature_dependencies: []
-    axioms:
-    - propext
-    - Classical.choice
-    - Quot.sound
 fidelity:
   divergences: Fixed-list feasibility for every positive dimension and row count; exact minima only in
     dimensions 9–12. Integer signs represent the same real ±1 values. Adaptive comparison excluded; no
     all-dimension optimum claimed. Actual feasible-set nonemptiness and leastness prevent empty-infimum
     artifacts.
 review:
-  status: statement-agent-reviewed; final-proof-review-pending
+  status: statement-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent statement reviews approved the frozen boundary at 607a5e4a before implementation.
-    Four intentional Challenge placeholders remain isolated from the solution. Full local proof build
-    and four exported axiom audits pass. Exact statement-review metadata remains in reviews/statement-review-snapshot.
-    Two independent final reviews and actual isolated Linux Comparator remain required.
+  notes: No solution proof implemented. Both independent statement reviews must pass before implementation;
+    both final reviews and actual isolated Linux Comparator required.
 alignment:
 - source: Fixed-list specialization of source Theorem 1.1, all real inputs
   declarations:
