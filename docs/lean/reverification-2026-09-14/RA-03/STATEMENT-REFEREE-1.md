@@ -1,0 +1,29 @@
+# RA-03 independent statement referee 1 — 2026-09-14
+
+PASS — explicit approval of the exact statement boundary recorded below. No blocking fidelity, scope, numerical, denominator or vacuity finding.
+
+This is an independent AI-agent review under `docs/lean/REVIEW.md`, covering the relevant Tau Ceti fidelity, correctness, scope, generality, computation, reuse/API, documentation and attribution angles. It is not an official Tau Ceti verdict or external human peer review. This phase reads statements and complete informal sources only; no active Proof or Solution body was inspected.
+
+## Source provenance and scope review
+
+The authored project is preserved from `deb549fa9ddd6b119e6c59016f268237e645dfa2`, deliberately not observed older upstream main `ab754fabe3d48dc8d6eab6bcffce583e46d2b88f`. Both source and formalization authorship remain unchanged. I read the complete canonical page, complete informal proof, Definitions, Challenge, numerical targets, project README, Comparator and formalization manifest. Historical completed-status prose refers to prior executions, and stage-one prose is historical; neither is evidence of completion of this fresh campaign. The recorded old and preserved canonical target sections have the same mathematics with rendering/whitespace differences. No permanent ID or target is changed.
+
+The four exports cover the full original negative target, preserving arbitrary complex rectangular inputs, positive dimensions and every 1≤k≤min(m,n). No positivity, nonsingularity, real-entry or nonzero-entry condition is added to the conjecture. The rank tail uses actual Euclidean singular values in decreasing order with multiplicity; the pinned definition takes square roots of the eigenvalues of the actual adjoint composition, then pads with zeros. The zero-based Ico k (min m n) therefore represents the original one-based j>k tail. No supplied spectral list or best-approximation candidate replaces it.
+
+The explicit sum of complex normSq values has the intended squared Frobenius meaning. The public norm bridge selects Mathlib's Frobenius scope, whose actual instance is nested L2, avoiding the default matrix norm. Option labels implement a genuine absorbing transition: none has mass one exactly at S=0, and all entry labels then have zero mass. For S≠0 the denominator is positive because some complex entry has positive normSq. At an entry of value zero the totalized update is unused because its mass is zero. At a nonzero entry the complex rank-one formula is exactly the source's unconjugated cross update; no Hermitian operation is inserted.
+
+Histories recursively recompute probabilities and residuals at each actual preceding state. Their product of conditional masses imposes no row/column or time independence. The expectation includes every history, and the required generic process_isProbability proves all masses nonnegative and normalized, for all k and even empty dimensions. This is a legitimate finite probability law rather than an arbitrary weighted table. Zero-mass impossible histories cannot change the expectation.
+
+My independent exact script computes all four full residual matrices, their masses 2/5,1/10,1/10,2/5 and errors 9/4,9,9,9/4. It verifies the actual Gram matrix and characteristic polynomial with squared singular values 9,1, and obtains expectation 18/5>2. Additional complete-history enumeration through length three checks normalization and absorption on the witness, zero, rank-one and rectangular examples; these finite diagnostics do not replace the generic normalization proof. Ordered singular-value identification and every probability/update bridge remain explicit Lean conclusions.
+
+A one-step n=2 witness refutes the entire universal assertion; the final theorem is its full negation. Exact finite algebra, actual spectral APIs and one rational point inequality avoid arbitrary-history enumeration in Lean. The complete 637-line shared manuscript was read, while its sharper all-rank 4^r, limiting-family, correlation-matrix and Cholesky results remain outside these exports. Colbrook's mathematical work and Stepaniants's formalization retain their original credits.
+
+## Evidence and approval limits
+
+The reproducible [referee-1-precheck.py](referee-1-precheck.py), run independently by this referee with argument `RA-03`, exited 0; [referee-1-precheck.log](referee-1-precheck.log) records exact results. The script does not inspect authored proof bodies and does not replace a Lean proof.
+
+The coordinator's fresh macOS aarch64 `lake build Challenge` exited 0. I inspected its log and verified the recorded log digest: exactly 4 deliberate Challenge placeholders were reported. This was the coordinator's execution, not a second rebuild by this reviewer. Challenge compilation proves well-formedness only. Comparator selects all 4 reviewed signatures, no definition holes and exactly the standard three permitted axioms.
+
+Every read authored file is byte-identical to the preserved source. Exact source, boundary, relevant pinned-library, script, result and execution hashes are retained in [referee-1-statement-evidence.json](referee-1-statement-evidence.json), SHA-256 `1fc4e176a8a541ebc5cc6cf5c9137fdba3ca0168a3c4c9b12492e04fb34c065a`. The inspected Mathlib definitions and example proofs justify the semantic/API choices; LeanCert's point tactic has multiple proof-producing routes, so the actual later term must be inspected before claiming a particular numerical backend. RA-07 has no numerical backend requirement.
+
+I approve these exact statements for the subsequent gated proof audit. Actual proof correctness, transitive axioms, material certificate terms, final independent proof reviews and fresh Linux Comparator/default-kernel/sandbox checks remain unreviewed at this phase. No authored source, metadata or historical evidence was changed.

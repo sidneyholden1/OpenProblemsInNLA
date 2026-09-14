@@ -1,0 +1,15 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "randomized-and-low-rank-approximation/RA-03/README.md",
+  "canonical_exists_at_observed_older_main": true,
+  "older_canonical_sha256": "b53df30ecf5166eeaae37603e593a7608a3594867c4813192eab131123158b0a",
+  "preserved_canonical_sha256": "4fdea20b0da0e74863ea1d2f999a1002a2eb3f1662cd68cca955790c32b892f9",
+  "canonical_target_section_byte_identical": false,
+  "older_target": "For $A\\in\\mathbb C^{m\\times n}$, define exact-arithmetic residuals\n$S_0=A$. At step $t$, choose $(i,j)$ with conditional probability\n$|(S_t)_{ij}|^2/\\|S_t\\|_F^2$ and update\n\n$$\nS_{t+1}=S_t-\\frac{S_t(:,j)S_t(i,:)}{(S_t)_{ij}}.\n$$\n\nAfter a zero residual, keep subsequent residuals zero. Prove or refute,\nfor every $m,n\\geq1$, every $A$, and every\n$1\\leq k\\leq\\min(m,n)$,\n\n$$\n\\mathbb E\\|S_k\\|_F^2\\leq2^k\n\\sum_{j>k}\\sigma_j(A)^2,\n$$\n\nwhere singular values decrease with $j$. The bound concerns the mean\nsquared Frobenius error of this specified algorithm.",
+  "preserved_target": "For $`A\\in\\mathbb C^{m\\times n}`$, define exact-arithmetic residuals\n$`S_0=A`$. At step $`t`$, choose $`(i,j)`$ with conditional probability\n$`|(S_t)_{ij}|^2/\\|S_t\\|_F^2`$ and update\n\n```math\nS_{t+1}=S_t-\\frac{S_t(:,j)S_t(i,:)}{(S_t)_{ij}}.\n```\n\nAfter a zero residual, keep subsequent residuals zero. Prove or refute,\nfor every $`m,n\\geq1`$, every $`A`$, and every\n$`1\\leq k\\leq\\min(m,n)`$,\n\n```math\n\\mathbb E\\|S_k\\|_F^2\\leq2^k\n\\sum_{j>k}\\sigma_j(A)^2,\n```\n\nwhere singular values decrease with $`j`$. The bound concerns the mean\nsquared Frobenius error of this specified algorithm.",
+  "provenance": "Preserved authored source, not current main. Original mathematical and formalization credits unchanged.",
+  "canonical_target_semantic_review": "Coordinator compared complete old and preserved target sections: identical mathematical targets, with Markdown/math-rendering and whitespace differences only.",
+  "canonical_target_mathematically_unchanged": true
+}
