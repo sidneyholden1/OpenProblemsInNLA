@@ -1,0 +1,10 @@
+{
+  "source_revision": "9777c86853b40206f70438c92a47a7dec9bc66ae",
+  "sha256": {
+    "NLA/IV06/Definitions.lean": "880ca2f1b14e420ccb613fa560668d9d560329f2901421772fbe68a765aab0f7",
+    "Challenge.lean": "b81665e31d3b971929e00d1096788accc9943ffd2c3bc947c0481460e9497ff1",
+    "NUMERICAL_TARGETS.md": "631d38fec203c0da5dc57be09320df336049362718c43903788fba8a9d13fc8d",
+    "../README.md": "05927abe987e01c08a3462b74223281106ddef0b8fb3f903c373510a06ba9ef9",
+    "../../../references/colbrook-intervals-2026-09-11/manuscripts/IV-06.tex": "659f073ef696d78c7a2f2a4c06dd8ac0523ed991007b5917d49ae5daca236174"
+  }
+}
