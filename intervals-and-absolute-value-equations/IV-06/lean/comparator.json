@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.IV06.included_points",
+    "NLA.IV06.excluded_separators",
+    "NLA.IV06.counterexample",
+    "NLA.IV06.not_componentBoundConjecture"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
