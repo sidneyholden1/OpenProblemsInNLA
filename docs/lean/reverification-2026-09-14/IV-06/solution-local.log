@@ -1,0 +1,20 @@
+ℹ [2916/2918] Built NLA.IV06.Proof (17s)
+info: NLA/IV06/Proof.lean:202:0: 'NLA.IV06.eigenvalue_determinant_semantics_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:203:0: 'NLA.IV06.family_and_determinant_semantics_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:204:0: 'NLA.IV06.witness_eigenpairs_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:205:0: 'NLA.IV06.numerical_separator_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:206:0: 'NLA.IV06.witness_separators_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:207:0: 'NLA.IV06.connected_component_intervals_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:208:0: 'NLA.IV06.four_components_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:209:0: 'NLA.IV06.counterexample_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IV06/Proof.lean:210:0: 'NLA.IV06.not_componentBoundConjecture_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2917/2918] Built Solution (17s)
+info: Solution.lean:74:0: 'NLA.IV06.eigenvalue_determinant_semantics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:76:0: 'NLA.IV06.family_and_determinant_semantics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:78:0: 'NLA.IV06.witness_eigenpairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:80:0: 'NLA.IV06.witness_separators' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:82:0: 'NLA.IV06.connected_component_intervals' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:84:0: 'NLA.IV06.four_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:86:0: 'NLA.IV06.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:88:0: 'NLA.IV06.not_componentBoundConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2918 jobs).

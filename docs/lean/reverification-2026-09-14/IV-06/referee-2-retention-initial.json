@@ -1,0 +1,15 @@
+{
+  "verdict": "FAIL",
+  "exit_code": 1,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-2-retention.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+  "root": "NLA.IV06.not_componentBoundConjecture",
+  "material_scalar": "NLA.IV06.numerical_separator_margin",
+  "script_sha256": "201174e334e8b7a99d8c20ccbdd8d6c5b0cc0c8d94f3add23de6ca642cb9edb7",
+  "log_sha256": "40e3b2bd67c8c7a4cb3048a50fe2badbe216d30b86d391c1f192d4032ebef41e"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "IV-06",
+  "verdict": "PASS",
+  "method": "Independent fresh exact Fraction/sparse-polynomial diagnostic, not a Lean proof",
+  "checks": {
+    "characteristic_polynomial": {
+      "constant": "25",
+      "0": "1",
+      "0,2": "-1",
+      "1": "-1",
+      "1,2": "-1",
+      "2": "-1",
+      "2,2": "-25",
+      "2,2,2": "1"
+    },
+    "four_eigenpairs_checked": true,
+    "separator_corner_bounds": [
+      [
+        "-332",
+        "-32"
+      ],
+      [
+        "-318",
+        "-18"
+      ],
+      [
+        "-3750",
+        "-150"
+      ]
+    ],
+    "six_separations": {
+      "(0, 1)": -1,
+      "(0, 2)": -1,
+      "(0, 3)": -1,
+      "(1, 2)": 1,
+      "(1, 3)": 1,
+      "(2, 3)": 12
+    },
+    "full_box": "Polynomial is affine in independent a,b with no mixed terms: extrema at corners; universal Lean inequalities still required.",
+    "analytic_limit": "Actual nonzero-vector/determinant, component quotient topology and Cardinal injection remain Lean obligations."
+  }
+}

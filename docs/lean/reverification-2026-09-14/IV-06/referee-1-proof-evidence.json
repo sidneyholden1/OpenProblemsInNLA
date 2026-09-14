@@ -1,0 +1,270 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "05dda9e7ac6c222910d7553694ff4b4551aaa2a6",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "intervals-and-absolute-value-equations/IV-06/lean/Solution.lean",
+      "sha256": "b4b9ab44b95accb5f4a0b677d417937cc0ca9ae6c9f08409b2c178ef0d8f699d",
+      "lines": 90
+    },
+    "NLA.IV06.Proof": {
+      "path": "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Proof.lean",
+      "sha256": "600311e699fecc178f921e8233a9c14d50774db5980ea63560040e578d896333",
+      "lines": 212
+    },
+    "NLA.IV06.Definitions": {
+      "path": "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Definitions.lean",
+      "sha256": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+      "lines": 79
+    }
+  },
+  "all_active_bytes_equal_base_candidate_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "Mathlib.LinearAlgebra.Matrix.Determinant.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.Matrix.ToLinearEquiv",
+    "Mathlib.SetTheory.Cardinal.Order",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Topology.Connected.Clopen",
+    "Mathlib.Topology.Order.IntermediateValue",
+    "Mathlib.Topology.UniformSpace.Real"
+  ],
+  "additional_mathlib_apis_read_sha256": {},
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.IV06.eigenvalue_determinant_semantics",
+    "NLA.IV06.family_and_determinant_semantics",
+    "NLA.IV06.witness_eigenpairs",
+    "NLA.IV06.witness_separators",
+    "NLA.IV06.connected_component_intervals",
+    "NLA.IV06.four_components",
+    "NLA.IV06.counterexample",
+    "NLA.IV06.not_componentBoundConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.IV06.eigenvalue_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.family_and_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_eigenpairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_separators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.connected_component_intervals": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.four_components": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.not_componentBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.IV06.eigenvalue_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.family_and_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_eigenpairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_separators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.connected_component_intervals": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.four_components": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.not_componentBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 49.538,
+    "log_sha256": "e2510cf654dae03c799bb9e52f46d4b2707832e1e12c367fa3c2525cb611c2ed"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.IV06.eigenvalue_determinant_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.family_and_determinant_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.witness_eigenpairs": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.witness_separators": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.connected_component_intervals": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.four_components": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IV06.not_componentBoundConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [
+      "numerical_separator_margin"
+    ],
+    "script_sha256": "99355e2d2df9d5dbade7bca490c7e4da77031473b3052168f33ba4e2b8d38bfb",
+    "log_sha256": "e2426840a5fb25560d11387a31f535b70c1dec86104bcb821c36d1751885bcf0"
+  },
+  "referee_2_numerical_execution": {
+    "route": "Actual printed term uses LeanCert.Validity.verify_strict_upper_bound_dyadic_checked for -18 < 0, expression neg(const 18) and upper bound 0 on [0,0], precision -53 and depth 10. The separately printed _proof_1_7 is of_decide_eq_true (id (Eq.refl true)). Cast normalization uses exact NormNum where needed; it does not replace the checked dyadic certificate.",
+    "receipts": {
+      "inspection": {
+        "route": "Actual printed term uses LeanCert.Validity.verify_strict_upper_bound_dyadic_checked for -18 < 0, expression neg(const 18) and upper bound 0 on [0,0], precision -53 and depth 10. The separately printed _proof_1_7 is of_decide_eq_true (id (Eq.refl true)). Cast normalization uses exact NormNum where needed; it does not replace the checked dyadic certificate.",
+        "attachments": [
+          "referee-2-numerical-terms.lean",
+          "referee-2-numerical-terms.log",
+          "referee-2-numerical-terms.json"
+        ]
+      },
+      "receipt": {
+        "verdict": "PASS",
+        "names": [
+          "NLA.IV06.numerical_separator_margin._proof_1_7"
+        ],
+        "exit_code": 0,
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-2-numerical-terms.lean"
+        ],
+        "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+        "script_sha256": "9e1d1cbced9ba79de7198b59fa6e0e7150391633abf5b128277aa8288d0ab71d",
+        "log_sha256": "0bed7736484b37d4f61c84e7c17263cd9390793081ee67d573bf2dd1d52d5df4"
+      }
+    },
+    "consumer_material_terms": [
+      "numerical_separator_margin"
+    ]
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "77be095dc706c901714caa68d3393bf95004fc5f9fee2fa43f7460dafa342b90",
+    "NUMERICAL_TARGETS.md": "f51f4118af540fa4d3c8e16b40d859ee730c40c8417c4e45f86dc0e5c58a04d9",
+    "comparator.json": "e84e8d1c516d1ecf17a838d49df61043e90a21a8e72108b285088c02bd35a1c2",
+    "formalization.yaml": "6aa472db72da76e3ffa2b23308b919fe3c4378b3266b607ac2f43bbf889fb1aa",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "05c42b3215c767aa2adb7c1b9af4fe0fbd96c81e29a66705e7c12875b0e023d3",
+    "lakefile.toml": "7c8786b1892806616674c65624a7ceb2029eaac75ecaf95afcefe3f1a5099b99"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "3f2d09b72783ea990e39609bc0491274cf66a7ce0dc22d1594930de6454fd3f0",
+    "solution-local.log": "e2510cf654dae03c799bb9e52f46d4b2707832e1e12c367fa3c2525cb611c2ed",
+    "referee-2-consumer.lean": "99355e2d2df9d5dbade7bca490c7e4da77031473b3052168f33ba4e2b8d38bfb",
+    "referee-2-consumer.log": "e2426840a5fb25560d11387a31f535b70c1dec86104bcb821c36d1751885bcf0",
+    "referee-2-consumer.json": "4693e9a031eb470f1d53fd6163e1fb71b1ad8ed032765544756722fb651c08a1",
+    "referee-2-numerical-terms.lean": "9e1d1cbced9ba79de7198b59fa6e0e7150391633abf5b128277aa8288d0ab71d",
+    "referee-2-numerical-terms.log": "0bed7736484b37d4f61c84e7c17263cd9390793081ee67d573bf2dd1d52d5df4",
+    "referee-2-numerical-terms.json": "33f72bdc70124a581b6afe6666bff058721c2a0b49b9269ff3a023b1b87963fb",
+    "statement-gate.json": "c0432c913d45a93cf90a4c8bc321bb547a9a38cee760a8b12c9aba418e313f93",
+    "STATEMENT-REFEREE-1.md": "88147712e238dc4475cc52d179f14532f3977cfccf39b4e1c0bf60a39e558904",
+    "referee-1-statement-evidence.json": "45831c210f9c6c6d03be4c7c169491fa296d8438af2c04e73b1304cd1c4a7a16",
+    "referee-1-precheck.py": "3bd093ba5b61869c1e5c5707138e22ac7c154e3477a861ecc6817cb20347f8b8",
+    "referee-1-precheck.log": "b129cc936b8da6c23516f90b58038b24c232bb19f959e1b89cc19c63b30c630f",
+    "SOURCE-PROVENANCE.json": "be16f7c7b7d21d4d94bbd441af0fdee72bea71618ff7a9773ecdcbea1dde2421"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}
