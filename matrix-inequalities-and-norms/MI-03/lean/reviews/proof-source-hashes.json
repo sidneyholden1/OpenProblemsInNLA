@@ -4,5 +4,6 @@
   "NUMERICAL_TARGETS.md": "6141b4786e29b2cfd4e6ee538df1f173ea2c4bf52f6972173ff460022fdd8b0b",
   "NLA/MI03/Proof.lean": "f263b1bd489fd0460deb7965ce1b9ca2a9abb00bc84f3ff6ad4f6495255b2183",
   "Solution.lean": "d0f871ddb83bb9f9397173d22c34b769861b38d470b2672ab4c7421798bb86ed",
-  "comparator.json": "6850e8bbfc1744dd8eb29b4336ecce6c7cff7ec2a4313dd49df129f60b6a0da0"
+  "comparator.json": "6850e8bbfc1744dd8eb29b4336ecce6c7cff7ec2a4313dd49df129f60b6a0da0",
+  "formalization.yaml": "51767a103f0e1ecef72481fa5813d2ab6f3607b6994fab844c15bec346c1db4d"
 }

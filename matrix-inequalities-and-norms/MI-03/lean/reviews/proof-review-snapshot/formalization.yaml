@@ -51,9 +51,9 @@ automation:
     peer review or source-author endorsement is claimed.
 status:
   scope: Complete original odd-summand target proved, via stronger equality for every integer k≥2. Local
-    Lean compilation, LeanCert kernel-trust checks, all four exported axiom audits and two independent
-    final AI proof reviews passed. Actual isolated Linux Comparator verification is pending. Canonical
-    status remains Solved.
+    Lean compilation, LeanCert kernel-trust checks and all four exported axiom audits passed. Independent
+    final reviews and actual isolated Linux Comparator verification are pending. Canonical status remains
+    Solved.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms:
@@ -103,16 +103,13 @@ fidelity:
     are not advertised. Exact phase families with zero sum may replace exponential coordinates without
     changing mathematical targets.
 review:
-  status: statement-and-proof-agent-reviewed; Linux-Comparator-pending
+  status: statement-agent-reviewed; final-proof-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Two independent statement approvals were frozen at commit 1546c3bf before implementation. Both
-    independent final referees re-elaborated the proof and checked all four exported axiom closures, finding
-    no defects. Actual isolated Linux Comparator replay remains pending. Four intentional Challenge placeholders
-    are excluded from proof sorry counts and never imported by Solution. Later README/metadata status
-    updates reflect the completed reviews; their exact pre-update reviewed bytes are retained in reviews/proof-review-snapshot.
-    Mathematical sources and configuration remain unchanged.
+  notes: Two independent statement approvals were frozen at commit1546c3bf before implementation. Final
+    proof reviews and actual isolated Linux Comparator replay remain pending. Four intentional Challenge
+    placeholders are excluded from proof sorry counts and never imported by Solution.
 alignment:
 - source: Universal upper bound in all complex matrix dimensions
   declarations:
