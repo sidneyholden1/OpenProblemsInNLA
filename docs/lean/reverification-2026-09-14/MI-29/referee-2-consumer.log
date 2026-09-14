@@ -1,0 +1,123 @@
+@NLA.MI29.spectralPower_natCast : ∀ {n : ℕ} (A : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+  Matrix.PosSemidef.{0, 0} A → ∀ (r : ℕ), Eq.{1} (NLA.MI29.spectralPower A ↑r) (HPow.hPow.{0, 0, 0} A r)
+'NLA.MI29.spectralPower_natCast' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.MI29.modulus_power_eight : ∀ {n : ℕ} (X : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+  Eq.{1} (NLA.MI29.matrixModulus X) (CFC.sqrt.{0} (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} X) X)) ∧
+    Matrix.PosSemidef.{0, 0} (NLA.MI29.matrixModulus X) ∧
+      Eq.{1} (NLA.MI29.spectralPower (NLA.MI29.matrixModulus X) 8)
+        (HPow.hPow.{0, 0, 0} (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} X) X) 4)
+'NLA.MI29.modulus_power_eight' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.MI29.comparison_positive_real : ∀ {n : ℕ},
+  LE.le.{0} 1 n →
+    ∀ (A B : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+      Matrix.PosDef.{0, 0} A →
+        Matrix.IsHermitian.{0, 0} B →
+          IsUnit.{0} B →
+            ∀ (k p : ℝ),
+              LE.le.{0} 0 k →
+                LE.le.{0} 0 p →
+                  Eq.{1} (NLA.MI29.leftDet A B k p).im 0 ∧
+                    LT.lt.{0} 0 (NLA.MI29.leftDet A B k p).re ∧
+                      Eq.{1} (NLA.MI29.rightDet A B k p).im 0 ∧ LT.lt.{0} 0 (NLA.MI29.rightDet A B k p).re
+'NLA.MI29.comparison_positive_real' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI29.counterexample : Matrix.PosDef.{0, 0} NLA.MI29.witnessA ∧
+  Matrix.IsHermitian.{0, 0} NLA.MI29.witnessB ∧
+    IsUnit.{0} NLA.MI29.witnessB ∧
+      Eq.{1} (Matrix.det.{0, 0} NLA.MI29.witnessB) (-1 / 125) ∧
+        ¬Matrix.PosSemidef.{0, 0} NLA.MI29.witnessB ∧
+          ¬Matrix.PosSemidef.{0, 0} (Neg.neg.{0} NLA.MI29.witnessB) ∧
+            Eq.{1} (NLA.MI29.spectralPower NLA.MI29.witnessA 6) (HPow.hPow.{0, 0, 0} NLA.MI29.witnessA 6) ∧
+              Eq.{1}
+                  (NLA.MI29.spectralPower
+                    (NLA.MI29.matrixModulus (HMul.hMul.{0, 0, 0} NLA.MI29.witnessA NLA.MI29.witnessB)) 8)
+                  (HPow.hPow.{0, 0, 0}
+                    (HMul.hMul.{0, 0, 0}
+                      (HMul.hMul.{0, 0, 0} NLA.MI29.witnessB (HPow.hPow.{0, 0, 0} NLA.MI29.witnessA 2))
+                      NLA.MI29.witnessB)
+                    4) ∧
+                Eq.{1}
+                    (NLA.MI29.spectralPower
+                      (NLA.MI29.matrixModulus (HMul.hMul.{0, 0, 0} NLA.MI29.witnessB NLA.MI29.witnessA)) 8)
+                    (HPow.hPow.{0, 0, 0}
+                      (HMul.hMul.{0, 0, 0}
+                        (HMul.hMul.{0, 0, 0} NLA.MI29.witnessA (HPow.hPow.{0, 0, 0} NLA.MI29.witnessB 2))
+                        NLA.MI29.witnessA)
+                      4) ∧
+                  Eq.{1} (NLA.MI29.leftDet NLA.MI29.witnessA NLA.MI29.witnessB 6 8)
+                      (136990346414301954149 / 61035156250000000000) ∧
+                    Eq.{1} (NLA.MI29.rightDet NLA.MI29.witnessA NLA.MI29.witnessB 6 8)
+                        (4537743716162890657 / 1907348632812500000) ∧
+                      Eq.{1}
+                          (HSub.hSub.{0, 0, 0} (NLA.MI29.rightDet NLA.MI29.witnessA NLA.MI29.witnessB 6 8)
+                            (NLA.MI29.leftDet NLA.MI29.witnessA NLA.MI29.witnessB 6 8))
+                          (21036678407451 / 156250000000000) ∧
+                        LT.lt.{0} (NLA.MI29.leftDet NLA.MI29.witnessA NLA.MI29.witnessB 6 8)
+                          (NLA.MI29.rightDet NLA.MI29.witnessA NLA.MI29.witnessB 6 8)
+'NLA.MI29.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI29.not_modulusDeterminantConjecture : ¬NLA.MI29.ModulusDeterminantConjecture
+'NLA.MI29.not_modulusDeterminantConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MI29.scalar_gap_positive : LT.lt.{0} 0 (21036678407451 / 156250000000000) :=
+have h0 :=
+  LeanCert.Validity.verify_strict_upper_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 0 1))
+    (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl.{0} (Rat.divInt 0 1)) (Rat.divInt 21036678407451 156250000000000) (-53)
+    10 (of_decide_eq_true (id.{0} (Eq.refl.{1} true))) NLA.MI29.scalar_gap_positive._proof_1_7 ↑(Rat.divInt 0 1)
+    ⟨le_refl.{0} ↑(Rat.divInt 0 1), le_refl.{0} ↑(Rat.divInt 0 1)⟩;
+Eq.mpr.{0}
+  (eq_of_heq.{1}
+    ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+        Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+          Eq.{1} a' a_2 → HEq.{0} e'_3 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1)) e'_3
+          (fun h =>
+            Eq.ndrec.{0, 1} (motive := fun a' =>
+              ∀ (e_3 : Eq.{1} a a'), HEq.{0} e_3 (Eq.refl.{1} a) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1))
+              (fun e_3 h =>
+                Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+                  Eq.{1} a'_1 a_2 → HEq.{0} e'_4 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'_1)) e'_4
+                  (fun h =>
+                    Eq.ndrec.{0, 1} (motive := fun a' =>
+                      ∀ (e_4 : Eq.{1} a_1 a'),
+                        HEq.{0} e_4 (Eq.refl.{1} a_1) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'))
+                      (fun e_4 h => HEq.refl.{1} (LT.lt.{0} a a_1)) (Eq.symm.{1} h) e'_4)
+                  (Eq.refl.{1} a'_1) (HEq.refl.{0} e'_4))
+              (Eq.symm.{1} h) e'_3)
+          (Eq.refl.{1} a') (HEq.refl.{0} e'_3))
+      ℝ Real.instLT 0 (↑(HDiv.hDiv.{0, 0, 0} ↑0 ↑1))
+      (Mathlib.Meta.NormNum.isNat_eq_true.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_zero.{0})
+        (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+          (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+            (Mathlib.Meta.NormNum.isNNRat_div.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 0 0 (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 0)))
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                    (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                        (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                          (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                  (Eq.refl.{1} 0)))))))
+      (21036678407451 / 156250000000000) (↑(HDiv.hDiv.{0, 0, 0} ↑21036678407451 ↑156250000000000))
+      (Mathlib.Meta.NormNum.isNNRat_eq_true.{0}
+        (Mathlib.Meta.NormNum.isNNRat_div.{0}
+          (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+            (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+              (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 21036678407451)))
+            (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 156250000000000))))
+            (Eq.refl.{1} (Nat.mul 21036678407451 1)) (Eq.refl.{1} 156250000000000)))
+        (Mathlib.Meta.NormNum.isNNRat_ratCast.{0}
+          (Mathlib.Meta.NormNum.isNNRat_div.{0}
+            (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_intCast.{0} 21036678407451 21036678407451
+                  (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 21036678407451))))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 156250000000000 156250000000000
+                    (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 156250000000000)))))
+              (Eq.refl.{1} (Nat.mul 21036678407451 1)) (Eq.refl.{1} 156250000000000)))))))
+  (Eq.mp.{0}
+    (congr.{1, 1} (congrArg.{1, 1} LT.lt.{0} (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 0 1)))
+      (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 21036678407451 156250000000000)))
+    h0)
+'NLA.MI29.scalar_gap_positive' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
