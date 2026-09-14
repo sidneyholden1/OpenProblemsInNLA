@@ -1,0 +1,5 @@
+PASS: p'(1) cofactor polynomial equals exactly four times 16 spanning-tree monomials.
+PASS: 64 independent connectivity support cases: {'isolated': 23, 'connected': 38, 'two_pairs': 3}
+PASS: witness symmetry/nonnegativity/row sums/trace and degree4 characteristic polynomial.
+PASS: distinct admissible midpoint endpoints; isolated-vertex forced matrix determinant=1/4.
+All calculations exact; diagnostic statement evidence only, not Lean proof.

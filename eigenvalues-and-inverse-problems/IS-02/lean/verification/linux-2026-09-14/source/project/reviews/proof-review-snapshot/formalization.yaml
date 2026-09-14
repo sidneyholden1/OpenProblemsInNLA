@@ -58,13 +58,9 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: The complete spectral-uniqueness locus implication is disproved at order four. The actual symmetric
-    stochastic witness has positive trace and the specified characteristic polynomial. Every admissible
-    isospectral competitor is proved permutation-similar to it, while the witness is excluded from every
-    proposed closed segment and from the actual extreme points. No competing matrix is restricted to a
-    preselected support pattern. All four exports passed fresh isolated Linux Comparator and default-kernel
-    checks, rejection controls, local kernel build, and both independent review phases. Original evidence
-    and independent operational audit retained.
+  scope: Full local Lean 4.33.1 kernel build passes (3582 jobs), including all four export trust checks.
+    Both frozen-statement reviews passed. Independent final proof reviews and actual isolated Linux Comparator/default-kernel
+    replay with rejection controls are pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -111,17 +107,15 @@ fidelity:
     and every vertex. The finite algebra proof replaces the source graph argument without restricting
     competing matrices.
 review:
-  status: statement-and-proof-agent-reviewed; isolated-linux-verified
+  status: statement-agent-reviewed; final-proof-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent statement reviews passed before proof implementation; both independent final
-    reviewers replayed the proof and checked its full declared scope, source hashes and all four exported
-    axiom closures. Actual isolated Linux Comparator/default-kernel verification and rejection controls
-    passed at b71728d93b1c376ee34a6fd04b4661c604704a14 in run 34862184054. The original artifact, exact
-    tested inputs and independent operational PASS report are retained in verification/linux-2026-09-14.
-    Historical statement and proof-review metadata remain unchanged in their archived snapshots. No human
-    review or author endorsement is asserted. The complete original target is covered.
+  notes: Both independent statement referees approved the frozen boundary before proof implementation
+    at 4e9976ff. Original reviewed statement README and manifest retained in reviews/statement-review-snapshot.
+    Four intentional Challenge placeholders remain confined to the statement environment. All solution
+    exports pass local kernel trust checks with no proof-development holes. Two independent final reviews
+    and actual isolated Linux Comparator remain required before canonical promotion.
 alignment:
 - source: Exact source witness, characteristic polynomial and positive trace
   declarations:
