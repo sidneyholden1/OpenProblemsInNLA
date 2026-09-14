@@ -1,0 +1,31 @@
+{
+  "verdict": "PASS",
+  "recurrence": "u0=0,u1=1,uk=s*u(k-1)-3*u(k-2)",
+  "linearCoefficient_ascending": [
+    0,
+    -1458,
+    0,
+    2835,
+    0,
+    -1512,
+    0,
+    324,
+    0,
+    -30,
+    0,
+    1
+  ],
+  "identityCoefficient_ascending": [
+    -729,
+    0,
+    3645,
+    0,
+    -2835,
+    0,
+    756,
+    0,
+    -81,
+    0,
+    3
+  ]
+}
