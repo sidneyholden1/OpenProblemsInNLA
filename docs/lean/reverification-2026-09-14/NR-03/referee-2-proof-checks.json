@@ -1,0 +1,84 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local consumer audit",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_module_count": 58,
+  "active_source_lines": 4513,
+  "active_sources_equal_frozen_gate_and_upstream": true,
+  "export_count": 10,
+  "export_axioms": {
+    "NLA.NR03.cMatrix_nonnegative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.boolVec_seven_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.nonnegative_rank_attained_minimal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.rank_le_of_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.scaled_certificate_gives_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.witness_scaled_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.witness_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.witness_rank_upper_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.witness_not_full_rank": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.NR03.not_targetStatement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-nr03/docs/lean/reverification-2026-09-14/NR-03/referee-2-export-audit.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-nr03/nonnegative-and-positive-factorizations/NR-03/lean",
+  "consumer_exit_code": 0,
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "coordinator_solution_build_exit_code": 0,
+  "evidence_sha256": {
+    "statement-gate.json": "1970f954cebfc9a07f9b695af6f045496fae9a3eb9325dac74afbcb1d6b00305",
+    "referee-2-active-inputs.json": "6ca85d955866e513e520e4c1825bc8f118b23a7643e5b54983961ea75301fbb0",
+    "referee-2-export-audit.lean": "7b793c35a28fa09d52ca1d57715ca807f84e499bfcfafb9aa5a7ab155fb714da",
+    "referee-2-export-audit.log": "332b888bd1ac82719888621cdeaa9c041144e7a0d63b8301bc542d1185089f7c",
+    "referee-2-consumer-exit.json": "6192da272a641c88b8ddf0c76aca9e792d4afeb7f76c36761bfac269353f892e",
+    "solution-local.json": "63b2b0f19b54dd4372389ad3b5fd584ef54e11f12e5dec6332d24082b15e2993",
+    "solution-local.log": "d1aaef11ebcab4b042b359088551a55ccc2702b274fdc142544e955d27df9424",
+    "referee-2-row-coverage.json": "cf4f37893e58a10b8b5dfeb46dfb3fcf5c1c67328069de7ef19b05b248a9d526"
+  },
+  "linux_status": "not reviewed in this proof report; separate actual Comparator/operational gate"
+}

@@ -1,0 +1,63 @@
+{
+  "reviewer": "independent AI referee 1",
+  "phase": "statement only; existing upstream proof not inspected",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "coordinator_observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    "nonnegative-and-positive-factorizations/NR-03/README.md": "8ec5b1fa32f457b09bf63ce14b17a527fcaafd29e068930b0fc5b2a5045435c2",
+    "nonnegative-and-positive-factorizations/NR-03/lean/NUMERICAL_TARGETS.md": "817a0978869dcaf2bb918d846e4143df480665e5db3bc841cf4070bd3f683c42",
+    "nonnegative-and-positive-factorizations/NR-03/lean/NLA/NR03/Definitions.lean": "5157fd499d2f63d218012f96bee43f30e5f57e5a2353fde13878af46d30fda04",
+    "nonnegative-and-positive-factorizations/NR-03/lean/Challenge.lean": "4f1764cf9c604f33ed6f285e83ca32ebd1ae1fb1fd8f763a1c4a719ef068c335",
+    "nonnegative-and-positive-factorizations/NR-03/lean/comparator.json": "ea1cea90b8e25535a31dca7fc620494ded851587609bb1473c651d07757f40bd",
+    "references/holden-nr03-2026-09-13/NR03_counterexample.tex": "26cac3ed5aa30226530bbf8562a626b6582444abcc8ef8e8e69ebde6160565a3",
+    "references/holden-nr03-2026-09-13/data/factors_n7.json": "fa515775f9c77e5dfe85109125d3f730c4b36684894730096247cd67fcc60bb9"
+  },
+  "source_access": {
+    "docs/lean/REVIEW.md": "working tree, byte-matched to base",
+    "nonnegative-and-positive-factorizations/NR-03/README.md": "working tree, byte-matched to base",
+    "nonnegative-and-positive-factorizations/NR-03/lean/NUMERICAL_TARGETS.md": "working tree, byte-matched to base",
+    "nonnegative-and-positive-factorizations/NR-03/lean/NLA/NR03/Definitions.lean": "working tree, byte-matched to base",
+    "nonnegative-and-positive-factorizations/NR-03/lean/Challenge.lean": "working tree, byte-matched to base",
+    "nonnegative-and-positive-factorizations/NR-03/lean/comparator.json": "working tree, byte-matched to base",
+    "references/holden-nr03-2026-09-13/NR03_counterexample.tex": "working tree, byte-matched to base",
+    "references/holden-nr03-2026-09-13/data/factors_n7.json": "working tree, byte-matched to base"
+  },
+  "pinned_mathlib_sources_sha256": {
+    "Mathlib/Data/Nat/Find.lean": "5f8e8754bcd02815a3c71abd7a6be1ca815a01c7f5d2eb28d6ab56391a409f81"
+  },
+  "exports": [
+    "NLA.NR03.cMatrix_nonnegative",
+    "NLA.NR03.boolVec_seven_card",
+    "NLA.NR03.nonnegative_rank_attained_minimal",
+    "NLA.NR03.rank_le_of_factorization",
+    "NLA.NR03.scaled_certificate_gives_factorization",
+    "NLA.NR03.witness_scaled_certificate",
+    "NLA.NR03.witness_factorization",
+    "NLA.NR03.witness_rank_upper_bound",
+    "NLA.NR03.witness_not_full_rank",
+    "NLA.NR03.not_targetStatement"
+  ],
+  "fresh_coordinator_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-nr03/nonnegative-and-positive-factorizations/NR-03/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 25.277,
+    "log_sha256": "5d21ee3d4141e01d38f8d723c5fc6c432679aa262032af3105ae5eaaa14ff22b"
+  },
+  "evidence_sha256": {
+    "challenge-local.json": "ec93fca66fc7d6d1a62caff28c617fa4a36fcda1a2b7c06981b8be793ea7c786",
+    "challenge-local.log": "5d21ee3d4141e01d38f8d723c5fc6c432679aa262032af3105ae5eaaa14ff22b",
+    "referee-1-precheck.py": "f345d71eda090363b741ac0a364cdf5ba5b22ff9ad5d372f7a1d768efaa717a5",
+    "referee-1-precheck.log": "ec25ba12aadc98159051cd34b87b683b5d84f74af8d395fe799f9b64a1d68bae"
+  }
+}

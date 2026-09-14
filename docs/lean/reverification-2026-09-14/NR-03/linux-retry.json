@@ -1,0 +1,9 @@
+{
+  "run_id": 34872729999,
+  "candidate_commit": "5237b5fb3a35eaf437fb5826d4ecde3e41dc9014",
+  "failed_attempt": 1,
+  "failure_stage": "bootstrap landrun build, before Lean proof execution",
+  "reason": "proxy.golang.org go-landlock v0.9.0 zip HTTP2 INTERNAL_ERROR",
+  "action": "Retry failed job at unchanged candidate commit",
+  "failure_log_sha256": "9f13301a736623f4d84bc58930e63fee95f1e663c4e8657898893558c72147a5"
+}

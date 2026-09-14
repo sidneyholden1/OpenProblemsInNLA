@@ -1,0 +1,106 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only",
+  "reviewer": "independent AI referee 2",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "nonnegative-and-positive-factorizations/NR-03/README.md": {
+      "sha256": "8ec5b1fa32f457b09bf63ce14b17a527fcaafd29e068930b0fc5b2a5045435c2",
+      "bytes": 9632,
+      "read_method": "local and immutable git comparison"
+    },
+    "nonnegative-and-positive-factorizations/NR-03/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "817a0978869dcaf2bb918d846e4143df480665e5db3bc841cf4070bd3f683c42",
+      "bytes": 4524,
+      "read_method": "local and immutable git comparison"
+    },
+    "nonnegative-and-positive-factorizations/NR-03/lean/Challenge.lean": {
+      "sha256": "4f1764cf9c604f33ed6f285e83ca32ebd1ae1fb1fd8f763a1c4a719ef068c335",
+      "bytes": 3619,
+      "read_method": "local and immutable git comparison"
+    },
+    "nonnegative-and-positive-factorizations/NR-03/lean/NLA/NR03/Definitions.lean": {
+      "sha256": "5157fd499d2f63d218012f96bee43f30e5f57e5a2353fde13878af46d30fda04",
+      "bytes": 3846,
+      "read_method": "local and immutable git comparison"
+    },
+    "nonnegative-and-positive-factorizations/NR-03/lean/comparator.json": {
+      "sha256": "ea1cea90b8e25535a31dca7fc620494ded851587609bb1473c651d07757f40bd",
+      "bytes": 620,
+      "read_method": "local and immutable git comparison"
+    },
+    "nonnegative-and-positive-factorizations/NR-03/lean/formalization.yaml": {
+      "sha256": "1ca07539879c80103c75bc05b452357e7c524cc26448e8da40c5360855eab265",
+      "bytes": 11025,
+      "read_method": "local and immutable git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local and immutable git comparison"
+    },
+    "references/holden-nr03-2026-09-13/NR03_counterexample.tex": {
+      "sha256": "26cac3ed5aa30226530bbf8562a626b6582444abcc8ef8e8e69ebde6160565a3",
+      "bytes": 15292,
+      "read_method": "local and immutable git comparison"
+    },
+    "references/holden-nr03-2026-09-13/data/factors_n7.json": {
+      "sha256": "fa515775f9c77e5dfe85109125d3f730c4b36684894730096247cd67fcc60bb9",
+      "bytes": 207141,
+      "read_method": "local and immutable git comparison"
+    }
+  },
+  "exports": [
+    "NLA.NR03.cMatrix_nonnegative",
+    "NLA.NR03.boolVec_seven_card",
+    "NLA.NR03.nonnegative_rank_attained_minimal",
+    "NLA.NR03.rank_le_of_factorization",
+    "NLA.NR03.scaled_certificate_gives_factorization",
+    "NLA.NR03.witness_scaled_certificate",
+    "NLA.NR03.witness_factorization",
+    "NLA.NR03.witness_rank_upper_bound",
+    "NLA.NR03.witness_not_full_rank",
+    "NLA.NR03.not_targetStatement"
+  ],
+  "exact_supplementary_checks": {
+    "full_prescribed_entries_checked": 16384,
+    "width": 127,
+    "positive_denominators": [
+      1,
+      4,
+      9,
+      16,
+      25,
+      36
+    ],
+    "minimum_semantics": "Nat.find with explicit factorization existence; no default branch at the witness",
+    "supplemental_only": true
+  },
+  "coordinator_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-nr03/nonnegative-and-positive-factorizations/NR-03/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 25.277,
+    "log_sha256": "5d21ee3d4141e01d38f8d723c5fc6c432679aa262032af3105ae5eaaa14ff22b"
+  },
+  "coordinator_build_receipt_sha256": "ec93fca66fc7d6d1a62caff28c617fa4a36fcda1a2b7c06981b8be793ea7c786",
+  "no_proof_implementation_inspected": true,
+  "inspected_mathlib": {
+    "Data/Nat/Find.lean": {
+      "sha256": "5f8e8754bcd02815a3c71abd7a6be1ca815a01c7f5d2eb28d6ab56391a409f81",
+      "inspected_definition_ranges": "Nat.find and attained/minimality API (lines 66\u201387)"
+    }
+  },
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "exact_check_script_sha256": "0590bc79892ee88fb57241097f29a2fe0d0170327ef33017daa6a73f7790f9f5"
+}
