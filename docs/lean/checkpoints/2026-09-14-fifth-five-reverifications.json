@@ -1,0 +1,440 @@
+{
+  "request": "do another 5 verifications",
+  "date": "2026-09-14",
+  "completed_at_utc": "2026-09-14T19:00:13.465418+00:00",
+  "status": "complete",
+  "scope": "Five independent reverifications of existing authored formalizations. Original George Stepaniants formalization credit and mathematical credits preserved.",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_provenance": "Current upstream main was observed at an older revision without these formalizations. This batch deliberately uses the preserved authored snapshot, not current main. All five canonical targets agree mathematically across the revisions.",
+  "exports": 20,
+  "verified_inputs": 1001,
+  "independent_statement_referees_per_project": 2,
+  "independent_proof_referees_per_project": 2,
+  "independent_operational_referees_per_project": 1,
+  "actual_fresh_linux_comparator_and_default_kernel": "PASS for all five exact candidate commits, including actual per-project sandbox and rejection controls",
+  "final_publication_ci": "All 12 final workflows PASS, including duplicate push-triggered runs. Publication changes only separate evidence outside the tested project; final workflows do not claim a second proof replay.",
+  "all_original_tracked_files_preserved": true,
+  "all_five_remote_heads_confirmed": true,
+  "excluded": "IE-15 untouched; no edits or branch publication for it.",
+  "projects": [
+    {
+      "id": "MI-19",
+      "root": "/private/tmp/nla-reverify-mi19",
+      "project": "matrix-inequalities-and-norms/MI-19/lean",
+      "branch": "codex/reverify-mi19",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "upstream_current_main_observed": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "6f4c39feaa5ae494168dcc55af250b2acf126a02",
+      "run_id": 34882693390,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882693390",
+      "linux_status": "complete; original artifact and all input hashes independently audited",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34882693295,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882693295"
+        },
+        {
+          "id": 34882693390,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882693390"
+        }
+      ],
+      "artifact_id": 10364211258,
+      "artifact_sha256": "11435b96e09e6305a123ef14d97c868a09fa2539c1adcfe4a73f230b5fa2ab92",
+      "input_count": 147,
+      "linux_evidence": "/private/tmp/nla-reverify-mi19/docs/lean/reverification-2026-09-14/MI-19/linux",
+      "publication_commit": "cb03b492fec480e9ac1a0228cfb72b89104e495a",
+      "new_evidence_files": 77,
+      "publication_runs": [
+        {
+          "id": 34883737325,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883737325"
+        },
+        {
+          "id": 34883737409,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883737409"
+        }
+      ],
+      "publication_checks_pass": true,
+      "linux_successful_attempt": 1,
+      "remote_head_confirmed": true,
+      "publication_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/cb03b492fec480e9ac1a0228cfb72b89104e495a/docs/lean/reverification-2026-09-14/MI-19",
+      "verified_mathematical_scope": "Negates the full complex PSD subset-preserving q-permanent conjecture using full-order inversions; no rank, all-q polynomial or positive-definite perturbation theorem claimed.",
+      "export_count": 2,
+      "evidence_manifest_sha256": "c5ec069d0b1a9397607c591b92fd44719bbdb506355aa5cdefa2f8e3c161239c",
+      "checkpoint_evidence_hashes": {
+        "SCOPE.md": "77b5e215c4deb1c4b7101b91046d5a6fc82c48dae2fc8c7adabfe12f466dcbdc",
+        "SOURCE-PROVENANCE.json": "0b06f97dcab5bd6b47ef96894e90a5f48cb7c6a2cc2fc5c1326b87922350a923",
+        "statement-gate.json": "1b7dcc247a96f58a85b8e19f8f50553335337da159f87a9c2ab0c5da262cb43d",
+        "PROOF-ACCEPTANCE.json": "9835fa4edf38e8f10883b1018ff171be1e01e95e56d81820f114dff60a18d8af",
+        "ROOT-LINUX-CHECKS.json": "c3a765f0caeb62f05ddd3379f22d1cfd897cc40ddd92cc528cbe10200a9df968",
+        "OPERATIONAL-REFEREE-2.md": "595d9f5ec77b3d7be3e295b8ebd6e34f7bdb4f9ae146d415957eccbb00cf44c0",
+        "linux/RUN.json": "05c95db0272607ef084c170d80aebee1dc9cf08a99bc021fbbd33f8b873e86ca"
+      }
+    },
+    {
+      "id": "MI-21",
+      "root": "/private/tmp/nla-reverify-mi21",
+      "project": "matrix-inequalities-and-norms/MI-21/lean",
+      "branch": "codex/reverify-mi21",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "upstream_current_main_observed": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "e43421af3d19dac5fc2cb6304affba66e7ddae24",
+      "run_id": 34882702068,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882702068",
+      "linux_status": "complete; original artifact and all input hashes independently audited",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34882702028,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882702028"
+        },
+        {
+          "id": 34882702068,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882702068"
+        }
+      ],
+      "artifact_id": 10363981410,
+      "artifact_sha256": "73eab499aa6b4f7994ec2b0fd5904ed022cb21fda946ae19b80e86fabca0a9a9",
+      "input_count": 158,
+      "linux_evidence": "/private/tmp/nla-reverify-mi21/docs/lean/reverification-2026-09-14/MI-21/linux",
+      "publication_commit": "5be149f92bb34e56e0d18a1f0e80664ad75c1296",
+      "new_evidence_files": 80,
+      "publication_runs": [
+        {
+          "id": 34884044247,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34884044247"
+        },
+        {
+          "id": 34884044439,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34884044439"
+        }
+      ],
+      "publication_checks_pass": true,
+      "linux_successful_attempt": 1,
+      "remote_head_confirmed": true,
+      "publication_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/5be149f92bb34e56e0d18a1f0e80664ad75c1296/docs/lean/reverification-2026-09-14/MI-21",
+      "verified_mathematical_scope": "Negates the full complex positive definite weighted geometric-mean norm conjecture; the genuine operator norm witness works for every positive outer parameter, with all norm axioms and CFC bridges proved.",
+      "export_count": 3,
+      "evidence_manifest_sha256": "81a853f1958c1c8ac0ecaa63a3028e915c2d3bdbcdcb3be368d54d9a291e464b",
+      "checkpoint_evidence_hashes": {
+        "SCOPE.md": "9a621b4569c77591a49f078a42e61689ffeb46983a272903297dc8916b3695c9",
+        "SOURCE-PROVENANCE.json": "fd6613801edcfbbf53522742d061bb514b29396f935806272c3b838d26a604f0",
+        "statement-gate.json": "2c87748158d8e253d49737cc91dc62ea3d6059b5b638294f5cd914bc9bcc442d",
+        "PROOF-ACCEPTANCE.json": "5ab4ba74d982f73161a8f32f8a5fa0988d51254651d97a115022cb24643419b0",
+        "ROOT-LINUX-CHECKS.json": "7a28deeb4b5b231f1fce989ebeb2254697d57ca7609497a8d0fcc96fd812bc81",
+        "OPERATIONAL-REFEREE-2.md": "b3e448573d8d9d111e811623c07c898ebac6fdf30255130df86841309addebf6",
+        "linux/RUN.json": "190803004e8a7aded82e50bd256f62e216e24342817b6a12674917e68ab8a5c1"
+      }
+    },
+    {
+      "id": "MI-29",
+      "root": "/private/tmp/nla-reverify-mi29",
+      "project": "matrix-inequalities-and-norms/MI-29/lean",
+      "branch": "codex/reverify-mi29",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "upstream_current_main_observed": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "312c879a41904f9b4c6f127546e032a74b3c971f",
+      "run_id": 34882707036,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882707036",
+      "linux_status": "complete; original artifact and all input hashes independently audited",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34882707072,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882707072"
+        },
+        {
+          "id": 34882707036,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882707036"
+        }
+      ],
+      "artifact_id": 10363756629,
+      "artifact_sha256": "aeb3a3211153d4ecff67c3436730327a67050c290f5603b9aa54c401f713558a",
+      "input_count": 170,
+      "linux_evidence": "/private/tmp/nla-reverify-mi29/docs/lean/reverification-2026-09-14/MI-29/linux",
+      "publication_commit": "2f1885215346622844df91056cb6dcf9425f10d9",
+      "new_evidence_files": 77,
+      "publication_runs": [
+        {
+          "id": 34883943255,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883943255"
+        },
+        {
+          "id": 34883941767,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883941767"
+        },
+        {
+          "id": 34883943174,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883943174"
+        },
+        {
+          "id": 34883941682,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883941682"
+        }
+      ],
+      "publication_checks_pass": true,
+      "linux_successful_attempt": 1,
+      "remote_head_confirmed": true,
+      "publication_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/2f1885215346622844df91056cb6dcf9425f10d9/docs/lean/reverification-2026-09-14/MI-29",
+      "verified_mathematical_scope": "Negates the full arbitrary nonnegative real-exponent determinant conjecture for positive definite A and invertible Hermitian B; no positive-B or singular-input extension claimed.",
+      "export_count": 5,
+      "evidence_manifest_sha256": "564dfbf4439b12c0080fc0f853c34335836074c248d013f276b50d6c7d7613e9",
+      "checkpoint_evidence_hashes": {
+        "SCOPE.md": "80cae589dcf70daf7bcf4da2e35e540b73f90ccdb81c554911a81c9fdd0dea98",
+        "SOURCE-PROVENANCE.json": "96e166c187e02a624a8e5df96c4132a0d9cc6ae015ee88347b6ed47735d22ec8",
+        "statement-gate.json": "8d263f6449262bf5e79c837ebd391d9ed2d6d81deda5287c71afff64d0dfdf88",
+        "PROOF-ACCEPTANCE.json": "b03c5890f82378484e000d3110393ccff11c9fc53752246862759dd10336bd82",
+        "ROOT-LINUX-CHECKS.json": "ebd5836899cdebe9447f76ecd023e6629d22a8a777b844c89d3ec970afff63fe",
+        "OPERATIONAL-REFEREE-2.md": "2e66cf56794dc85eb1bc0c07acffa9aadd2f20d53e21ef085e2b960bf8589d50",
+        "linux/RUN.json": "ff8f3455e115648f5bbe1126a07d5e3eea9a92b05475398003592492b66cd97b"
+      }
+    },
+    {
+      "id": "RA-03",
+      "root": "/private/tmp/nla-reverify-ra03",
+      "project": "randomized-and-low-rank-approximation/RA-03/lean",
+      "branch": "codex/reverify-ra03",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "upstream_current_main_observed": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "ad84edf4a36673eef141c12bface0802188ef540",
+      "run_id": 34882712010,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882712010",
+      "linux_status": "complete; original artifact and all input hashes independently audited",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34882712027,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882712027"
+        },
+        {
+          "id": 34882712010,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882712010"
+        }
+      ],
+      "artifact_id": 10363741494,
+      "artifact_sha256": "5b6c04acf56556b6c2017ecb4f60a388d777a81d960b34b35b16ad4d33035d90",
+      "input_count": 132,
+      "linux_evidence": "/private/tmp/nla-reverify-ra03/docs/lean/reverification-2026-09-14/RA-03/linux",
+      "publication_commit": "2dd167bd17bfa7c3d3515124b17521bc3c6cc416",
+      "new_evidence_files": 78,
+      "publication_runs": [
+        {
+          "id": 34883848482,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883848482"
+        },
+        {
+          "id": 34883848474,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883848474"
+        }
+      ],
+      "publication_checks_pass": true,
+      "linux_successful_attempt": 1,
+      "remote_head_confirmed": true,
+      "publication_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/2dd167bd17bfa7c3d3515124b17521bc3c6cc416/docs/lean/reverification-2026-09-14/RA-03",
+      "verified_mathematical_scope": "Negates the full complex rectangular random-entry-pivot expected squared Frobenius error conjecture, with actual conditional/history probabilities and ordered singular values; no sharp-factor or asymptotic family theorem claimed.",
+      "export_count": 4,
+      "evidence_manifest_sha256": "28d23834af01d3e85cdd948bda86404eedd8b8fa8dcd6781c1221a1143f157b7",
+      "checkpoint_evidence_hashes": {
+        "SCOPE.md": "a276f964428d02a1299fa96818fb803fc0774633acb11b8b9d56f90569bd3520",
+        "SOURCE-PROVENANCE.json": "11949e1f91c6725a203ebe558da6a91adebc2eec096645e91dcd67c1fc34033b",
+        "statement-gate.json": "082290daf8031b997fc9265b1d41bedc84161d176f77cfe03770d87ee96ad7a7",
+        "PROOF-ACCEPTANCE.json": "963c66d276f780317f95f8ae6e850daa563e536fa57c8cfdaedf45928bf79534",
+        "ROOT-LINUX-CHECKS.json": "6473bc8f7f17483acd218fbe237dd67a14ecb31a48c4b7d749da476101f7dfc6",
+        "OPERATIONAL-REFEREE-2.md": "102ce18a22f103ffe7c56d425c82c0c977206c4d4f16b18f2a7e9c784953ac14",
+        "linux/RUN.json": "f6301a355fb9f69bc4aa46e7580b3bf25a9398b1c1edf88ca8cc65531c1c0989"
+      }
+    },
+    {
+      "id": "RA-07",
+      "root": "/private/tmp/nla-reverify-ra07",
+      "project": "randomized-and-low-rank-approximation/RA-07/lean",
+      "branch": "codex/reverify-ra07",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "upstream_current_main_observed": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+      "run_id": 34882717127,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127",
+      "linux_status": "complete; original artifact and all input hashes independently audited",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34882717027,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717027"
+        },
+        {
+          "id": 34882717127,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127"
+        }
+      ],
+      "artifact_id": 10364325707,
+      "artifact_sha256": "d365921c38f17c0d735fd4feab4e95782502f9822dfda3e1eead48fc2ac9e0a4",
+      "input_count": 394,
+      "linux_evidence": "/private/tmp/nla-reverify-ra07/docs/lean/reverification-2026-09-14/RA-07/linux",
+      "publication_commit": "06028f2be9ad2a3abca4b448c370e38f224acb62",
+      "new_evidence_files": 77,
+      "publication_runs": [
+        {
+          "id": 34883625962,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883625962"
+        },
+        {
+          "id": 34883625967,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883625967"
+        }
+      ],
+      "publication_checks_pass": true,
+      "linux_successful_attempt": 1,
+      "remote_head_confirmed": true,
+      "publication_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/06028f2be9ad2a3abca4b448c370e38f224acb62/docs/lean/reverification-2026-09-14/RA-07",
+      "verified_mathematical_scope": "Proves the full positive-spectrum discrete-convexity conjecture in every dimension and canonical index, including repeated roots and endpoints; no extra monotonicity, sampling expectation or application theorem claimed.",
+      "export_count": 6,
+      "evidence_manifest_sha256": "2c0d108d05bc5a6cca16215cde0a807b0a17c2e1700c2229cece0b8451c534d6",
+      "checkpoint_evidence_hashes": {
+        "SCOPE.md": "3734d274a2593eb45e99032ff32910127c33bc66894e42f4e28da47fb0618404",
+        "SOURCE-PROVENANCE.json": "9737d81fdbc0a408d7b555359c752c85169c18138bd40e6cc81591aa929d72cc",
+        "statement-gate.json": "29c1d5cca69bb491453169386aea930652810b9126fe0b5532c8f34ef2701f4b",
+        "PROOF-ACCEPTANCE.json": "04fb573900ad3712f0033f71c8f2df74c7887f8566eb19495b00fd30310be862",
+        "ROOT-LINUX-CHECKS.json": "a00793bcd69f1f6766a10e063425bbefe50f568e11e9c40c4a9946c674379d13",
+        "OPERATIONAL-REFEREE-2.md": "a6ae5f269c1541eecf9ea0826cdd7e9c5f537669b1a593687741bdc4a77cbb58",
+        "linux/RUN.json": "08e58373df3d0f0ee14368015837956efabe3216b35e1bb8bce6b0cf9483410c"
+      }
+    }
+  ],
+  "remote_heads": {
+    "MI-19": {
+      "ref": "refs/heads/codex/reverify-mi19",
+      "node_id": "REF_kwDOUYMQAr5yZWZzL2hlYWRzL2NvZGV4L3JldmVyaWZ5LW1pMTk",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/refs/heads/codex/reverify-mi19",
+      "object": {
+        "sha": "cb03b492fec480e9ac1a0228cfb72b89104e495a",
+        "type": "commit",
+        "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/commits/cb03b492fec480e9ac1a0228cfb72b89104e495a"
+      }
+    },
+    "MI-21": {
+      "ref": "refs/heads/codex/reverify-mi21",
+      "node_id": "REF_kwDOUYMQAr5yZWZzL2hlYWRzL2NvZGV4L3JldmVyaWZ5LW1pMjE",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/refs/heads/codex/reverify-mi21",
+      "object": {
+        "sha": "5be149f92bb34e56e0d18a1f0e80664ad75c1296",
+        "type": "commit",
+        "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/commits/5be149f92bb34e56e0d18a1f0e80664ad75c1296"
+      }
+    },
+    "MI-29": {
+      "ref": "refs/heads/codex/reverify-mi29",
+      "node_id": "REF_kwDOUYMQAr5yZWZzL2hlYWRzL2NvZGV4L3JldmVyaWZ5LW1pMjk",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/refs/heads/codex/reverify-mi29",
+      "object": {
+        "sha": "2f1885215346622844df91056cb6dcf9425f10d9",
+        "type": "commit",
+        "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/commits/2f1885215346622844df91056cb6dcf9425f10d9"
+      }
+    },
+    "RA-03": {
+      "ref": "refs/heads/codex/reverify-ra03",
+      "node_id": "REF_kwDOUYMQAr5yZWZzL2hlYWRzL2NvZGV4L3JldmVyaWZ5LXJhMDM",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/refs/heads/codex/reverify-ra03",
+      "object": {
+        "sha": "2dd167bd17bfa7c3d3515124b17521bc3c6cc416",
+        "type": "commit",
+        "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/commits/2dd167bd17bfa7c3d3515124b17521bc3c6cc416"
+      }
+    },
+    "RA-07": {
+      "ref": "refs/heads/codex/reverify-ra07",
+      "node_id": "REF_kwDOUYMQAr5yZWZzL2hlYWRzL2NvZGV4L3JldmVyaWZ5LXJhMDc",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/refs/heads/codex/reverify-ra07",
+      "object": {
+        "sha": "06028f2be9ad2a3abca4b448c370e38f224acb62",
+        "type": "commit",
+        "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/git/commits/06028f2be9ad2a3abca4b448c370e38f224acb62"
+      }
+    }
+  }
+}
