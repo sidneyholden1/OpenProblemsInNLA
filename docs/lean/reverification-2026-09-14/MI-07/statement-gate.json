@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T17:05:22.411728+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/MI-07/STATEMENT-REFEREE-1.md": "a140ba712515b9e7ae53fe6b3b81372e8da0c0a4947a60e0ad65d4d7250837d6",
+    "docs/lean/reverification-2026-09-14/MI-07/STATEMENT-REFEREE-2.md": "c774e97b0733a0bbfe8cf30cb79a0c62e6d537cd274acc5ca4f5ceb6b696cb03",
+    "matrix-inequalities-and-norms/MI-07/lean/Solution.lean": "e460594ac018c8a1e966d88012b07c4ada8743957a414cbdfff8b790d54c07ee",
+    "matrix-inequalities-and-norms/MI-07/lean/Challenge.lean": "62fee2804dc12a4ad7edecfa8c1dda2dc39acc2d94475d29805e8e55c3288a59",
+    "matrix-inequalities-and-norms/MI-07/lean/NLA/MI07/Definitions.lean": "369e99eaf3df8a8bbfb214973129ab71fbc95445ba9d176e91d52bca3bc46bc5",
+    "matrix-inequalities-and-norms/MI-07/lean/NLA/MI07/Proof.lean": "55f400e703994c3967a245495f6ad1ebc1999133cfd748185c81ef263178d8a3",
+    "matrix-inequalities-and-norms/MI-07/lean/NLA/MI07/FunctionalCalculus.lean": "0963940bbed1818e7b8240129de01e832660f045dbfcabf578fb11d99949553a",
+    "matrix-inequalities-and-norms/MI-07/lean/NUMERICAL_TARGETS.md": "70272f54de929a95347db186b09b66d534313eed87ab7daa8e7fe5c8aaa8bd1e",
+    "matrix-inequalities-and-norms/MI-07/lean/comparator.json": "2e9d5b3a4b0e29f0208a75b42e22fe28f2743a2e9c908d9fc1c451161e0b60b7",
+    "matrix-inequalities-and-norms/MI-07/lean/formalization.yaml": "a83751a905c3f603631a4d2f880fb0679a2092d6b72eadc5c565b7291c7fa28e",
+    "matrix-inequalities-and-norms/MI-07/README.md": "72115f553928a5ec56ed87362f852b4c081e8a083f3061126423f9bbf2dd3aba"
+  }
+}
