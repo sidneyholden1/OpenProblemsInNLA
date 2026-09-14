@@ -1,0 +1,10 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "reason": "Current upstream main points to an older revision without Lean projects. Reuse the immutable authored snapshot preserved in previous batch branch ancestry; no claim that it is current upstream main.",
+  "canonical_path": "matrix-inequalities-and-norms/MI-26/README.md",
+  "older_canonical_sha256": "24adfee53ac36df21317e5631d6a352a9e359a3668aec4a6634e5ea566efc24c",
+  "reviewed_canonical_sha256": "b0b24fc96ce9105d9e0428c886877ee412cf88f4ba10ea0c1e204f74540f9f8c",
+  "coordinator_comparison": "Read both canonical mathematical targets; dimensions, fields, hypotheses, operations and requested conclusions are unchanged. Later status/evidence and math rendering differ.",
+  "no_current_literature_or_priority_claim": true
+}
