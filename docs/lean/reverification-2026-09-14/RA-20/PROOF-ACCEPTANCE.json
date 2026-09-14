@@ -1,0 +1,34 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "0c1612049efbec1d596d4d3dc047d298cb58d5824358497254884025ef841b7a",
+    "STATEMENT-REFEREE-2.md": "73ba096aa23634c4ca06468f077a2483ac2f714242735c2fcb9c5277e52c4dec",
+    "PROOF-REFEREE-1.md": "029c81bb056a9d994843ddd6e5d10758e1b2910a6644d480e95d9fe58c39e6c5",
+    "PROOF-REFEREE-2.md": "82212784230f348115e2c09cf87510f40167a9c12c3323e5215588d7d94159b3",
+    "referee-1-proof-evidence.json": "37893ca46a71726cfb3276f5864ecf350f515a2ed84af5b6e624a7094b9969fe",
+    "referee-2-proof-checks.json": "002030ce01b79127a1ad76a3bd9dc890dff5cf0169d835d45f86b87c4e343462",
+    "ROOT-LOCAL-CHECKS.json": "a013c43288860e10cd6c4c2466ddeb09b585ff079827fe10c092d5ac5258d29f",
+    "statement-gate.json": "3db0ab7f633474e9055574b14d15fc95b94dfbf682687038addde7373e4221a9",
+    "preflight.json": "423f971461013d8a59da555068be533bccf858a2a9c065437b50d28726f557d3"
+  },
+  "exports": [
+    "NLA.RA20.hollow_variety_semantics",
+    "NLA.RA20.reduced_coordinate_ring",
+    "NLA.RA20.algebraic_smooth_locus",
+    "NLA.RA20.algebraic_tangent_space",
+    "NLA.RA20.full_frobenius_differential",
+    "NLA.RA20.hollow_distance_semantics",
+    "NLA.RA20.generic_critical_locus",
+    "NLA.RA20.component_hessians",
+    "NLA.RA20.generic_data_intersection",
+    "NLA.RA20.generic_count_three",
+    "NLA.RA20.generic_count_not_four",
+    "NLA.RA20.not_criticalCountConjecture"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "32e8d9416e0f6ae1735d4ea410113c0724afa102",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}

@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS for coordinator mathematical source inspection",
+  "role": "Coordinator review; not counted as an independent referee",
+  "review": "Read all active source and twelve wrappers. Actual rank variety and full vanishing ideal are transported using radical abc and a coordinate-preserving quotient equivalence. Singular localizations fail square-zero lifting; smooth charts supply retractions. Entire-ideal tangent, genuine complex bilinear full-entry derivative and nondegenerate chart Hessians exhaust three actual critical points. Six free symmetric-data coordinates prove intersection with every nonempty principal open set, excluding a competing generic count four. Full conjunction is refuted at n=s=3. The abcLocalChart comment says complete local ring although the actual type is Localization.AtPrime; this is nonblocking wording, recorded without changing authored proof.",
+  "active_source_sha256": {
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Algebra.lean": "67adf1643bd62089a62d857c404bdb5ee1bbbd192984ed5f1169b8c5ec71f5f1",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Count.lean": "99e44e2ec0d376cb346822c8f5a7edcc72c78448083361e5b4f2ea3aceb92c96",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Critical.lean": "e8b2e3646d4b1f5e41e35ae4e23ba55d758cb6e48d125643d02eb1d51cab2040",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Definitions.lean": "a649164ee7f11e88d8bfae4167ee0d9b9252a8683f253ab5a69981cde0e7cf94",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Differential.lean": "8e24af9b30b668fd1c6bfc3799fe6d8771e4a6e96124087752a02f7b4d913ec7",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Generic.lean": "47676372aa8e028a2c12bf6c23951b0edf5b7404a18abd24487d36399b7fb007",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Proof.lean": "d3cb0dab572eb54795e6568c717e9e6f8200eb20f299e319fc3be36bbe8aaea1",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Smooth.lean": "99ab24934f75382e9bad4a8e84945d0f1e14123804d5172a66b0da17a9eceb88",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/SmoothTransport.lean": "0e7717ac9e55597ed69a816f44194af569ac7b092ceb4f9231ea86e4c7ad894f",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Tangent.lean": "b03b6a1112737372072832d89b17ff0e19e00f631a925252269b75af3c44e178",
+    "randomized-and-low-rank-approximation/RA-20/lean/Solution.lean": "755a58cc081172804c644ea83518581235763a6ecefcbff6c92f131ca44c32b5"
+  },
+  "separate_execution_evidence": "ROOT-LOCAL-CHECKS.json; independent consumer and Linux evidence recorded separately"
+}

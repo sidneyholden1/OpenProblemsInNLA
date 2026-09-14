@@ -1,0 +1,77 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ra20/docs/lean/reverification-2026-09-14/RA-20/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ra20/randomized-and-low-rank-approximation/RA-20/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.RA20.hollow_variety_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.reduced_coordinate_ring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_smooth_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_tangent_space": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.full_frobenius_differential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.hollow_distance_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_critical_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.component_hessians": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_data_intersection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_not_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.not_criticalCountConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [],
+  "script_sha256": "308b6a192e81922309904073e22daf773e5075a147208c71f996d65b3032baa9",
+  "log_sha256": "990d8f4b93a0bd420f3f311eac7a9835d6be1877f942f7e4eb67721f66e6de10"
+}

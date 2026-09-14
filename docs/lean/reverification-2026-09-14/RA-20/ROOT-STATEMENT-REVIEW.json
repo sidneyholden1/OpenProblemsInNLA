@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root coordinator, not an independent referee",
+  "verdict": "Statement boundary accepted by coordinator pending two independent reviews",
+  "scope": "All four formulas on original n>=3 and 1<=s<=4<=domain constraints retained (precisely s<=n). Whole actual vanishing ideal/reduced coordinate ring, genuine localized formal smoothness, every-polynomial tangent, complex bilinear full-entry distance and actual Frechet derivatives. Generic principal opens require nonempty symmetric restriction; arbitrary-open intersection prevents default generic-count choice. Finite cardinal equality, not Nat.card. Automated maintainer-audit mathematical credit preserved.",
+  "reviewed_boundary_sha256": {
+    "randomized-and-low-rank-approximation/RA-20/lean/NUMERICAL_TARGETS.md": "49f21f2c6ab50b9f74b11cf0e37312dde08a4b7ddc62a17d37c6e3fb091f6e6d",
+    "randomized-and-low-rank-approximation/RA-20/lean/Challenge.lean": "eb62545ea3e527c186b832a186fbaefa560409bf23be74486b9b00f04e00a2e9",
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Definitions.lean": "a649164ee7f11e88d8bfae4167ee0d9b9252a8683f253ab5a69981cde0e7cf94",
+    "randomized-and-low-rank-approximation/RA-20/lean/formalization.yaml": "368d4b1e3b0b7788a096e49440c6ee77c39d6e9b4e25dca09cd85d59d49bb112",
+    "randomized-and-low-rank-approximation/RA-20/lean/comparator.json": "6c2cdc312b67ae62ce0d453504f83b7bba392d4ef9c0dc21d35dbd20287089c2",
+    "randomized-and-low-rank-approximation/RA-20/README.md": "a5ee7fe9418b277cad5b8e89cb12e0b1e6eedd6d9c0af679983355b40cce4056"
+  },
+  "original_full_manuscript_read": true,
+  "proof_inspection_started": false
+}

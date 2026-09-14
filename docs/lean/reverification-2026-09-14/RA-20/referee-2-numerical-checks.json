@@ -1,0 +1,83 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "determinant_polynomial": {
+    "1,1,1,0,0,0,0,0,0": "2"
+  },
+  "gradient_abc": [
+    {
+      "0,1,1,0,0,0,0,0,0": "1"
+    },
+    {
+      "1,0,1,0,0,0,0,0,0": "1"
+    },
+    {
+      "1,1,0,0,0,0,0,0,0": "1"
+    }
+  ],
+  "full_metric_polynomial_identity": true,
+  "gradient_coefficients": 4,
+  "Hessian": "4 I_2 on each of the three plane charts",
+  "Hessian_det": 16,
+  "example_candidates": [
+    [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ]
+  ],
+  "example_distances": [
+    "16",
+    "22",
+    "32"
+  ],
+  "predicted_3_3": 4,
+  "actual_candidate_count": 3,
+  "limitation": "Reduced whole vanishing ideal, genuine smooth locus/tangents and generic-open intersection/exhaustion/cardinality require universal Lean proof. Optional rational data is not genericity evidence."
+}
