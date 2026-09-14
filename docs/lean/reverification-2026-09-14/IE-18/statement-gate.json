@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T18:13:10.705055+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/IE-18/STATEMENT-REFEREE-1.md": "95f85e34b27744ae0c9d1b573f3e50b754805a8e82cd16c436b51bc994690fa9",
+    "docs/lean/reverification-2026-09-14/IE-18/STATEMENT-REFEREE-2.md": "9fe6238706e7b4b3275d0a44a7077c981ffc779d8e7189cdd3c858e03c958dc8",
+    "linear-systems-and-elimination/IE-18/lean/Solution.lean": "d257fd0b3def07c4503f2e084407116661cac5e556d7fe46573c9f7f78c7c0c3",
+    "linear-systems-and-elimination/IE-18/lean/Challenge.lean": "97ad7cf8e2c3077d4cc52f587c9702627f06c8d915005804f044fd60c66ffd59",
+    "linear-systems-and-elimination/IE-18/lean/NLA/IE18/Definitions.lean": "dc32a03d0ab95a1b3f41f864f90d30d56c3dd041330015caa059e253ff47b28d",
+    "linear-systems-and-elimination/IE-18/lean/NLA/IE18/Proof.lean": "0244e39c88101ab7a998bb0c5da56549d668d46ae068e4fc2ef5067fabdf4f73",
+    "linear-systems-and-elimination/IE-18/lean/NUMERICAL_TARGETS.md": "318f34ec1f88f111a83c1a6c869735ac2cc5640b5bdb34f89201e97607e9e890",
+    "linear-systems-and-elimination/IE-18/lean/comparator.json": "7fd64ea1eb36dd9d29ae5888b0aeeb39fb96bd4bc12db7712cb6347098fcc1b6",
+    "linear-systems-and-elimination/IE-18/lean/formalization.yaml": "a9bdf9f78bf428a92ba6f6a89bee4b30df95a004e75d77b9694e3ee9dba60ff6",
+    "linear-systems-and-elimination/IE-18/README.md": "682354cc164216c838aac0124770f13d0921078f17ca797b76358c85054bf10b"
+  }
+}
