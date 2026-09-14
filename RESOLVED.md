@@ -527,9 +527,11 @@ controls were verified. No external human peer review is claimed.
 
 These three entries remain in the open count.
 
-#### MI-08 — partial result
+#### MI-08 — partial result with Lean-verified fixed-list specialization
 
 [Canonical entry](matrix-inequalities-and-norms/MI-08/README.md) · [Complete proof](matrix-inequalities-and-norms/MI-08/solution.pdf) · [Independent review](references/colbrook-matrix-2026-09-11/verification/reviews/MI-08-review.md). **Theorem 1.1 and its proof.** The fixed and adaptive orthogonal pinching lengths both equal the least row count $h(d)$ of a sign matrix $H$ with $H^TH=h(d)I_d$. In particular, the exact length is 12 for $9\le d\le12$. The general value of $h(d)$ is undetermined; the all-dimension optimization remains open and includes Hadamard-order existence questions.
+
+**Lean verification — 14 September 2026.** The fixed-list feasibility characterization by rectangular sign matrices is proved for every positive dimension and row count. The rank and divisibility obstructions and an explicit order-twelve sign matrix establish that the actual minimum fixed pinching length is 12 for every dimension from 9 through 12. The source’s adaptive comparison is not formalized, and the all-dimension optimum remains open. Matthew J. Colbrook retains mathematical authorship; Sidney Holden formalized the result with OpenAI Codex assistance. Both independent review phases, all-export standard-axiom audits, kernel-only LeanCert and [actual isolated Linux Comparator/kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862187226) passed at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/a66e142cbe7907db6594ef57c7f542c3d33ad704/matrix-inequalities-and-norms/MI-08/lean). [Original evidence and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi08/matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md). No external human peer review or source-author endorsement is claimed.
 
 #### MI-09 — partial result
 

@@ -1,0 +1,19 @@
+{
+  "hashes": {
+    "NLA/MI08/Definitions.lean": "3d239b1379ea53cead7b54a06ed8ae92e2d191420f45a39b5466dcd6380c3965",
+    "Challenge.lean": "7ef811f91e89621f606400fb76756068f941c30f94ac4d9135bb6111d115413e",
+    "NUMERICAL_TARGETS.md": "c8bf9ab6782e2bec826664fe69cd09a523e495cedadbee64ada5f4eca6d25832",
+    "comparator.json": "18928dd61159e774c47a220a825f4666881e2a89fa825514bd800a91463bf465",
+    "formalization.yaml": "5a5e7b8ddc58f8eba0ddfbe8a865f65089503de2edc9e04ddc6d02c51f3264ac",
+    "README.md": "1a55dbd03860837653a88abe2d3d017ecf0537d6b885315704cb2066687166c0",
+    "../README.md": "814804db20ca8a73366cced2a5de00f8f01261f13d05d5bae1eaa1a1124289e2",
+    "../solution.md": "854a282d60852a4a15a91bcc8a2889d69a1268124faca6cbd92d40e4e547cd99",
+    "../solution.tex": "c15abfde319610c212c0e021531fd7a89640fb39fb39ef1c112c0cd64827f404"
+  },
+  "all_hashes_and_base_match": true,
+  "source_residues_match": true,
+  "actual_natural_subtraction_formula_matches_precheck": true,
+  "column_grams_9_through_12": true,
+  "rank_divisibility_lower_bounds": true,
+  "status": "independent exact integer diagnostic, not Lean proof"
+}

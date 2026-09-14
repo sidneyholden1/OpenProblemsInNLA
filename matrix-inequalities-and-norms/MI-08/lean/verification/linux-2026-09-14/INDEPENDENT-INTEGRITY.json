@@ -1,0 +1,481 @@
+{
+  "run": 34862187226,
+  "attempt": 1,
+  "commit": "a66e142cbe7907db6594ef57c7f542c3d33ad704",
+  "artifact": 10355937198,
+  "zip_sha256": "db6d016b47dd8e8bcf81a64ad7faa01df7b270662702578fe9ed2fd89881e80a",
+  "archive_entries": [
+    {
+      "path": "bootstrap/elan.log",
+      "sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f"
+    },
+    {
+      "path": "bootstrap/comparator-build.log",
+      "sha256": "bf2d16c894a3a97c4fcec87c69d24b589f2b4b8d5b8b17608fcdbf587c2b8f2d"
+    },
+    {
+      "path": "bootstrap/landrun-build.log",
+      "sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/comparator-controls.log",
+      "sha256": "bbb47df1786a00af9fa612926dd8727edc89ca26081cd96f16051cbdf189902b"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/comparator.log",
+      "sha256": "0192245a19d6dfeb19e6cbec90d3c0d6e3adf0ae8ac0cf6d8368f9403bef0659"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/dependencies.log",
+      "sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/kernel-controls.log",
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/mathlib-cache.log",
+      "sha256": "b0d7afe7adb400993fe4517ab4f81b828792cac432574460092b0f34166c66d0"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/negative-native.log",
+      "sha256": "7c13dfef99cce647f5042d4e878c97cf007153fc3c811b634abb4dc3f9663aca"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/negative-sorry.log",
+      "sha256": "03e1c308b43e5a5fc4a03e948a611915a0c02998615617859d10ff1b7ed33535"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/result.json",
+      "sha256": "31935e7601267f899b0fa959cff170addf6bcdeb11ee5f6b17d3a93700d1343b"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/sandbox.log",
+      "sha256": "2f0222199e2e3a0b0914563cc415bad2d0d9e240625185a26e2e85f076bcc738"
+    },
+    {
+      "path": "verify-20260914T152834Z-3966/user-service.log",
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a"
+    }
+  ],
+  "inputs": [
+    {
+      "path": ".gitignore",
+      "sha256": "fde850d24186b6e99c8c0debd641fb3ab85198b109eb66f71a1fea02bd6ea1b3",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "Challenge.lean",
+      "sha256": "7ef811f91e89621f606400fb76756068f941c30f94ac4d9135bb6111d115413e",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/MI08/Correspondence.lean",
+      "sha256": "3bf9263dcc6726a08b4cfd31aa9386c872c38ba58cb607de184ee78a8e143741",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/MI08/Definitions.lean",
+      "sha256": "3d239b1379ea53cead7b54a06ed8ae92e2d191420f45a39b5466dcd6380c3965",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/MI08/Designs.lean",
+      "sha256": "a3d875b90fee6e891d9a1af914ac1d2a60002a28aca3f8f6aa325e2ff5742a5f",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/MI08/Proof.lean",
+      "sha256": "b78a5e6dc64f679329fa5fbb05ece206d161f503578d4b50b72a8ebd23f156e7",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NUMERICAL_TARGETS.md",
+      "sha256": "c8bf9ab6782e2bec826664fe69cd09a523e495cedadbee64ada5f4eca6d25832",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "8afc22d5f76d15de871a2105c4871740747475bba6bf4075b3c903b5967ce046",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "Solution.lean",
+      "sha256": "bf8b01921469343f9a3acd5f2fe875e9530de4c69024af8b0fd2b409fd401950",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "comparator.json",
+      "sha256": "18928dd61159e774c47a220a825f4666881e2a89fa825514bd800a91463bf465",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "formalization.yaml",
+      "sha256": "91356395a4eaa5c66722414eff54bc4111f8cf28c92811d157e5b6e9bae9c60e",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "0ba5280ec9dd388e19ebb4b09e1257f4f8851b72da6ed8a3432a647eed9720b4",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/final-referee-1.md",
+      "sha256": "799d34666518369cc89844559ebaa09552393780dcd2452a07841bb14b41cf2b",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/final-referee-2.md",
+      "sha256": "f819c57c881f609448e4b369de818257846d8adb82834063f564e1d173ec031e",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/proof-review-snapshot/README.md",
+      "sha256": "6cf0b930926a7fab68bef677494a6764c8ca797f338e673fb3ff8167261af564",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/proof-review-snapshot/formalization.yaml",
+      "sha256": "5772fa9a218b656e5a20483b6ff0172b6c4a5c7f742e2f39162823082d8fe7b3",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/proof-source-hashes.json",
+      "sha256": "ea72bd40f46e812b2f242e107dfed6cbfdc1c212ff81160454e2aa11d1a7119f",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-referee-1.md",
+      "sha256": "418decfaaeb78c8b1af9b8d9b6b8f00bdb03164edc1c56775df7d58414b5dad6",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-referee-2.md",
+      "sha256": "60b1747e827f895e56307d22e5eba9d5ccd2e43798770bcd3226b6a3e910d03d",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-review-snapshot/README.md",
+      "sha256": "1a55dbd03860837653a88abe2d3d017ecf0537d6b885315704cb2066687166c0",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-review-snapshot/formalization.yaml",
+      "sha256": "5a5e7b8ddc58f8eba0ddfbe8a865f65089503de2edc9e04ddc6d02c51f3264ac",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-source-hashes.json",
+      "sha256": "690a10fef480e3e7a18ce2e04c38db7b04184f564a8c02725fa909a20f782ca0",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/AxiomAudit.lean",
+      "sha256": "b1ab427ee49ed7941c6fcdcee8f872cc2f70bf7e281772d136cd1f9c8e198c32",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/FinalReferee2Audit.lean",
+      "sha256": "52c068305a14b08648fa5239ae66a298ba0318832c9329c70fbf46e063c46a8f",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/Referee1FinalAudit.lean",
+      "sha256": "53aa9f3db5a7df8342cc8595e0db7e177ce38ee55c0e2c59b8b0904fd19c2a57",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/axioms.log",
+      "sha256": "1dcbbca3ec0905bb7404494e4f06f9edec7bad84454ce396f0cd64c301be74a3",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-build.log",
+      "sha256": "c17c819aedabeb1abaeecd3694c5c2b4e1cac5443879933eccefcff0a5154aa3",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-axioms-and-cuts.log",
+      "sha256": "18a5c3487232c5ef059184da4f93e1e19c31c12b8b682004aaf436c7428089ad",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-elaboration.log",
+      "sha256": "c6f4acb3acf6f9a7ec5765913a146d298a41b3a710c512ff0e9ddec231259ca5",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-source-check.json",
+      "sha256": "48d5a45a875770face62948607e796288086cfe0152eb780390c92cd2fbecf9f",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/numerical-precheck.json",
+      "sha256": "f100927d3e4e2a1b7d4f4a5cd17f9a3d423d471d73e0dac829386a2538f74715",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/numerical_precheck.py",
+      "sha256": "4fbacd2db7e41356c2c493d9f4fcd256a81c2622840f2d563d2756ae755aef23",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-final-axioms-and-terms.log",
+      "sha256": "051853185483ab7b546457f9486ee864128eebb5d28119cdb62af2fe9969ef2e",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-final-hashes.log",
+      "sha256": "cbe0ffc9f73b9b916ccdfd1b962363e5380ceac44b5236979e23def224d5dae5",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-final-replay.log",
+      "sha256": "d7a9cf8f661ee831af356cf65790eef552640de029c955cd20530ac56f8c7405",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-statement-build.log",
+      "sha256": "9597e8ada96e505a10703118c86d02bf0759e20fcaf920f40445b97aa7bc2b96",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-statement-hashes.log",
+      "sha256": "36469add7e9d0f8ab7cd7f08aeeb32ac16ebaf0c40cbb26c476945da99cfdbc9",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-statement-precheck.log",
+      "sha256": "af8b24e3ad5a4b0b1bc2487fac57bceb355bc443e7ce1f419b283ee1b776f232",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-2-independent-check.json",
+      "sha256": "f7401c0f319622347a9ed93a28efc7b394dc93a5e0c4eca5d8736e89d408748f",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-2-statement-elaboration.log",
+      "sha256": "9597e8ada96e505a10703118c86d02bf0759e20fcaf920f40445b97aa7bc2b96",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee_1_statement_check.py",
+      "sha256": "15178a2d4fd5671ab6e02c39133338f4ad5aca3becfe0c9fc5c72c671042b5d8",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/statement-build.log",
+      "sha256": "f2908c8c15f9069ec8c86d4d6034ff73aa7ff41c3488389bb3e8e0ba7431b543",
+      "immutable_git_matches": true,
+      "retained_snapshot_matches": true,
+      "current_project_matches": true
+    }
+  ],
+  "complete_tracked_project_roster": true,
+  "immutable_harness_sha256": {
+    ".github/workflows/lean-verification.yml": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c",
+    "tools/lean/source-lock.json": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "tools/lean/harness.py": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+    "tools/lean/bootstrap.sh": "4cb4d6e09ca5d186e1911e51160286fef20fb4d7f61180e07ed684a03d36de8c",
+    "tools/lean/verify.sh": "fb97ffb467b0e9acac302b2bdfc418da12b88e4ae307fb0d580c96fd6b63e997"
+  },
+  "jobs": [
+    {
+      "name": "select",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install metadata validators",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test project selection and metadata gates",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test pinned harness gates",
+          "conclusion": "success"
+        },
+        {
+          "name": "Select changed projects",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "verify (MI-08, matrix-inequalities-and-norms/MI-08/lean)",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate formalization manifest",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433",
+          "conclusion": "success"
+        },
+        {
+          "name": "Prepare unprivileged Linux isolation",
+          "conclusion": "success"
+        },
+        {
+          "name": "Fresh sandboxed statement, axiom and kernel verification",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain verification logs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "checker-controls",
+      "conclusion": "skipped",
+      "steps": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+PASS: residues derived by squaring; exact encoded 12×12 matrix matches precheck.
+PASS: actual integer column Gram equals 12 I; all 144 entries are signs.
+PASS: all matrix-unit pinching coefficients for each 9≤d≤12 equal the target.
+PASS: all 8 triple-sign divisibility identities; no q<12 meets d≤q and 4|q for d≥9.
+Diagnostics only; universal equivalence, rank, divisibility, and leastness still need Lean proofs.

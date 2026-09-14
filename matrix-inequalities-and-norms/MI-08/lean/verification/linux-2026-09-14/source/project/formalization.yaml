@@ -46,13 +46,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: The fixed-list feasibility characterization by rectangular sign matrices is proved for every
-    positive dimension and row count. The rank and divisibility obstructions and an explicit order-twelve
-    sign matrix establish that the actual minimum fixed pinching length is 12 for every dimension from
-    9 through 12. The source’s adaptive comparison is not formalized, and the all-dimension optimum remains
-    open. All four exports passed fresh isolated Linux Comparator and default-kernel checks, rejection
-    controls, local kernel build, and both independent review phases. Original evidence and independent
-    operational audit retained.
+  scope: Complete local Lean 4.33.1 kernel build passes (3584 jobs), with all four exported trust audits.
+    Both statement and both final proof reviews PASS, including independent replays and actual LeanCert
+    term inspection. Actual isolated Linux Comparator/default-kernel replay with rejection controls pending.
+    Explicitly partial mathematical scope; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -98,18 +95,17 @@ fidelity:
     all-dimension optimum claimed. Actual feasible-set nonemptiness and leastness prevent empty-infimum
     artifacts.
 review:
-  status: statement-and-proof-agent-reviewed; isolated-linux-verified
+  status: statement-and-proof-agent-reviewed; isolated-linux-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent statement reviews passed before proof implementation; both independent final
-    reviewers replayed the proof and checked its full declared scope, source hashes and all four exported
-    axiom closures. Actual isolated Linux Comparator/default-kernel verification and rejection controls
-    passed at a66e142cbe7907db6594ef57c7f542c3d33ad704 in run 34862187226. The original artifact, exact
-    tested inputs and independent operational PASS report are retained in verification/linux-2026-09-14.
-    Historical statement and proof-review metadata remain unchanged in their archived snapshots. No human
-    review or author endorsement is asserted. The verified scope is explicitly partial; adaptive comparison
-    and the all-dimension optimum are excluded.
+  notes: 'Both independent statement reviews approved freeze 607a5e4a before implementation. Both final
+    reviewers independently replayed all proof modules and Solution, audited all four exported axiom closures,
+    checked source hashes and actual LeanCert terms; PASS reports and uniquely named evidence retained.
+    Reviewed proof revision: 987612e5. Statement and final-reviewed metadata are preserved in reviews/statement-review-snapshot
+    and reviews/proof-review-snapshot. Four intentional Challenge placeholders remain isolated. Actual
+    isolated Linux Comparator is pending. Scope is partial; adaptive comparison and the all-dimension
+    optimum remain excluded.'
 alignment:
 - source: Fixed-list specialization of source Theorem 1.1, all real inputs
   declarations:

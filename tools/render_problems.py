@@ -35,6 +35,10 @@ def restore_pdf_layout(identifier, body):
     if identifier in {"RA-12", "RA-13"}:
         heading = "## Problem statement\n"
         body = body.replace(heading, "\\newpage\n\n" + heading, 1)
+    if identifier in {"MI-03", "IS-02", "MI-08"}:
+        body = body.replace("## Problem statement\n", "\\newpage\n\n## Problem statement\n", 1)
+    if identifier == "IE-17":
+        body = body.replace("Let $`A\\in\\mathbb R^{m\\times n}`$", "\\newpage\n\nLet $`A\\in\\mathbb R^{m\\times n}`$", 1)
     return body
 
 
@@ -81,10 +85,14 @@ def render(source):
         # The code spans in this catalog are literal search phrases. Set them
         # in italics with ordinary spaces so long queries wrap naturally.
         tex = re.sub(r"(\\texttt\{[^{}]*)", lambda m: m[0].replace(r"\texttt", r"\textit").replace(r"\ ", " "), tex)
+        if identifier in {"MI-03", "IE-17", "IE-05", "IS-02", "MI-08"}:
+            # Formal declaration names may wrap at namespace/word separators.
+            tex = re.sub(r"\\textit\{NLA\.[^{}]+\}",
+                         lambda m: m[0].replace(".", r".\allowbreak{}").replace(r"\_", r"\_\allowbreak{}"), tex)
         tex = tex.replace("₃", r"\textsubscript{3}")
         # Keep references with the dated evidence in entries that otherwise
         # leave only a few lines on a second page after the status audit.
-        if identifier in {
+        if identifier not in {"MI-03", "IE-17", "IS-02", "MI-08"} and identifier in {
             'AA-01', 'AC-13', 'AV-01', 'AV-02', 'AV-03', 'FR-01', 'FR-02', 'FR-04',
             'FR-10', 'FR-11', 'FR-12', 'IE-01', 'IE-02', 'IE-03', 'IE-04', 'IE-06', 'IE-08', 'IE-10', 'IE-11', 'IE-13',
             'IE-14', 'IE-15', 'IE-17', 'IE-18', 'IE-19', 'IE-21', 'IE-22', 'IE-23',
