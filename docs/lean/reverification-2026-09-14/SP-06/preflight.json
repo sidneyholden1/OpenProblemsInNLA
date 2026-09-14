@@ -1,0 +1,39 @@
+[
+  {
+    "command": [
+      "/private/tmp/nla-lean-metadata314/bin/python",
+      "tools/lean/validate_manifest.py",
+      "eigenvalues-and-inverse-problems/SP-06/lean"
+    ],
+    "exit_code": 0,
+    "log": "preflight-0.log",
+    "sha256": "11f793657df0ee89f2657f769a8400a912a4bf8b24c294cac4fa8fe21992c666"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/validate_problem_ids.py",
+      "--base-ref",
+      "origin/main"
+    ],
+    "exit_code": 0,
+    "log": "preflight-1.log",
+    "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_problem_ids.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "log": "preflight-2.log",
+    "sha256": "7cd559d0a4e79b87b83cab6f94d37b7f4b05534c76bcd5c3a767d50295b8f0f5"
+  }
+]
