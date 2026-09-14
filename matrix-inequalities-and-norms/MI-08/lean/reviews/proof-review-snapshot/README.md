@@ -14,10 +14,8 @@ open. NUMERICAL_TARGETS.md fixes the mathematical boundary.
 Status: complete local Lean 4.33.1 kernel build PASS (3584 jobs), with all four
 exports using only propext, Classical.choice and Quot.sound. Both independent
 statement reviews passed before implementation; frozen revision 607a5e4a.
-Both independent final proof reviews PASS, including separate replays, axiom
-audits and actual LeanCert term inspection. Reviewed proof revision: 987612e5.
-Actual isolated Linux Comparator/default-kernel replay with rejection controls
-remains pending. Canonical status remains
+Independent final proof reviews and actual isolated Linux Comparator/default-
+kernel replay with rejection controls remain pending. Canonical status remains
 Partially resolved.
 
 The fixed-list proof applies matrix units to the actual averaging identity;
@@ -30,7 +28,6 @@ export passes LeanCert trust audits. No interval search or subdivision.
 
 The official v0.4 manifest and Comparator configuration select all four targets,
 with no definition replacements. Exact statement-reviewed metadata remains in
-reviews/statement-review-snapshot; exact final-reviewed wrappers remain in
-reviews/proof-review-snapshot, preserving the original hash record. Dependency and toolchain pins are retained;
+reviews/statement-review-snapshot. Dependency and toolchain pins are retained;
 local builds share a pinned cache. Shared workflow provenance is recorded in
 tools/lean/NOTICE.md. The project retains the Apache-2.0 license.

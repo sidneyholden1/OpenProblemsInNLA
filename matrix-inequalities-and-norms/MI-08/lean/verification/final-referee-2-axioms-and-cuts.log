@@ -1,0 +1,7 @@
+'NLA.MI08.fixed_sign_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI08.design_obstructions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI08.hadamard_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI08.finite_minimums' depends on axioms: [propext, Classical.choice, Quot.sound]
+Actual proof dependency: LeanCert.Core.Expr.eval
+Actual proof dependency: LeanCert.Core.Expr.const
+Actual proof dependency: LeanCert.Validity.verify_strict_upper_bound_dyadic_checked
