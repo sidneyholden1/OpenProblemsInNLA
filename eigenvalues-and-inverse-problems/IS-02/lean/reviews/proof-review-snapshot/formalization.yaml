@@ -58,9 +58,9 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Complete local Lean 4.33.1 kernel build passes (3582 jobs), including all four export trust checks.
-    Both independent frozen-statement reviews and both independent final proof reviews PASS. Actual isolated
-    Linux Comparator/default-kernel replay with rejection controls remains pending; canonical status unchanged.
+  scope: Full local Lean 4.33.1 kernel build passes (3582 jobs), including all four export trust checks.
+    Both frozen-statement reviews passed. Independent final proof reviews and actual isolated Linux Comparator/default-kernel
+    replay with rejection controls are pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -107,17 +107,15 @@ fidelity:
     and every vertex. The finite algebra proof replaces the source graph argument without restricting
     competing matrices.
 review:
-  status: statement-and-proof-agent-reviewed; isolated-linux-pending
+  status: statement-agent-reviewed; final-proof-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: 'Both independent statement referees approved the frozen boundary before implementation at 4e9976ff.
-    Both final referees independently replayed the completed proof and audited all four exported axiom
-    closures; PASS reports and evidence are retained. Reviewed proof revision: 4beade02. Original statement
-    metadata and final-review metadata are preserved in reviews/statement-review-snapshot and reviews/proof-review-snapshot
-    respectively, so the original hash manifests remain reproducible. Four intentional Challenge placeholders
-    remain confined to the statement environment. Actual isolated Linux Comparator remains required before
-    canonical promotion.'
+  notes: Both independent statement referees approved the frozen boundary before proof implementation
+    at 4e9976ff. Original reviewed statement README and manifest retained in reviews/statement-review-snapshot.
+    Four intentional Challenge placeholders remain confined to the statement environment. All solution
+    exports pass local kernel trust checks with no proof-development holes. Two independent final reviews
+    and actual isolated Linux Comparator remain required before canonical promotion.
 alignment:
 - source: Exact source witness, characteristic polynomial and positive trace
   declarations:

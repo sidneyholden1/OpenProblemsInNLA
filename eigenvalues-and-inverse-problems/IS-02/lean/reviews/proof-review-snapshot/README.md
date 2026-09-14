@@ -13,9 +13,8 @@ See NUMERICAL_TARGETS.md for the exact boundary and computation reductions.
 
 Status: complete local Lean 4.33.1 kernel build passes (3582 jobs), with
 all four exports carrying only the three standard axioms. Both independent
-frozen-statement reviews passed before implementation. Both independent final proof reviews also PASS, including separate proof
-replays and all-export axiom audits. Actual isolated Linux verification remains
-pending. Reviewed proof revision: `4beade02`.
+frozen-statement reviews passed before implementation. Independent final proof
+reviews and actual isolated Linux verification remain pending.
 
 The proof uses exact characteristic-polynomial identities in six real variables,
 a pruned exhaustive support proof, and elementary algebra to identify all six
@@ -28,8 +27,6 @@ The pinned official v0.4 formalization manifest and Comparator configuration
 advertise all four targets with no replaceable definition holes. Reviewed
 statement metadata is preserved in reviews/statement-review-snapshot.
 Actual isolated Linux Comparator/default-kernel verification with rejection
-controls is required before promotion. The exact final-reviewed README and
-manifest are retained in reviews/proof-review-snapshot; original proof hashes
-remain reproducible through that snapshot.
+controls and two independent final reviews are required before promotion.
 Toolchain and dependencies are pinned; local builds share a pinned cache.
 Shared workflow provenance: tools/lean/NOTICE.md. Canonical status is unchanged.
