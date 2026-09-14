@@ -1,0 +1,27 @@
+{
+  "run_id": 34879640648,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879640648",
+  "verified_commit": "82aee43d2dd0b1ef201134ed8d066b62b7fca890",
+  "artifact_id": 10362628484,
+  "artifact_sha256": "1f8ee221efab4a544d97ba18cb194c3e244dce60ef1ec8469ae42a0f2fe37706",
+  "github_artifact_digest": "sha256:1f8ee221efab4a544d97ba18cb194c3e244dce60ef1ec8469ae42a0f2fe37706",
+  "all_input_hashes_match": true,
+  "input_count": 197,
+  "active_source_sha256": {
+    ".gitignore": "c1fdb398c89f28d92c8614a890c6a7d636a5aceb44249a5b6677deb83ab339ec",
+    "Challenge.lean": "c79e602bde37c5395eda1376635054776c72c1d803737e1dbfe0a963899627bb",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/IE19/Definitions.lean": "32dc631cd600154948963a875559cd610d974764fc77f13ab242a573c6dd22b3",
+    "NLA/IE19/Proof.lean": "06a534c417911f7db8aca8310699c3862eaf535f8b34ec20b5551218c20a5460",
+    "NUMERICAL_TARGETS.md": "71bab6295627b5d68e63a41bfae8a5e82ce11900d334846636f85cf454814c24",
+    "README.md": "d7388e96f98ea7ad6d3b00a6f9f43310d93c679c5d803dead8d967096cb2cd3d",
+    "Solution.lean": "72fa6092d37c32eb453af0ba83974cc541cb15730080c96dfbaa9226a6f6f658",
+    "comparator.json": "6b02baa6e01466ddde5188c32c90c1063d2ed5163f852b37f0ae776795eec27d",
+    "formalization.yaml": "bd55b7d5ef2b850578dd143bd757a168b2e4b0143ff74be16af991fe777ab433",
+    "lake-manifest.json": "0b2982e346ad245431120cb2eeafa466c9336f1e8bf11525312c0982cb840cb3",
+    "lakefile.toml": "10d0c9c9dc8b8ac29e372807b94ca53b644aa5c032e6c4b7eb32c90736be66ef",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

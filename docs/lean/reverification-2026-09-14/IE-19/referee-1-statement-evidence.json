@@ -1,0 +1,162 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI statement referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "source_inputs": {
+    "linear-systems-and-elimination/IE-19/README.md": {
+      "sha256": "e665e2d1f11510a9f62d4ffd8c6547cd43aeb09576286b7e7ff22f8cdc61697d",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/NLA/IE19/Definitions.lean": {
+      "sha256": "32dc631cd600154948963a875559cd610d974764fc77f13ab242a573c6dd22b3",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/Challenge.lean": {
+      "sha256": "c79e602bde37c5395eda1376635054776c72c1d803737e1dbfe0a963899627bb",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "71bab6295627b5d68e63a41bfae8a5e82ce11900d334846636f85cf454814c24",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/comparator.json": {
+      "sha256": "6b02baa6e01466ddde5188c32c90c1063d2ed5163f852b37f0ae776795eec27d",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/formalization.yaml": {
+      "sha256": "bd55b7d5ef2b850578dd143bd757a168b2e4b0143ff74be16af991fe777ab433",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/lakefile.toml": {
+      "sha256": "10d0c9c9dc8b8ac29e372807b94ca53b644aa5c032e6c4b7eb32c90736be66ef",
+      "read_as": "working-tree source"
+    },
+    "linear-systems-and-elimination/IE-19/lean/lake-manifest.json": {
+      "sha256": "0b2982e346ad245431120cb2eeafa466c9336f1e8bf11525312c0982cb840cb3",
+      "read_as": "working-tree source"
+    },
+    "references/colbrook-recovered-2026-09-11/manuscripts/IE-19.tex": {
+      "sha256": "4c50113b3ca261779be36a0058e6b79cb594225098268cd8cc815e6b87b905a4",
+      "read_as": "working-tree source"
+    }
+  },
+  "all_present_inputs_equal_preserved_base": true,
+  "exports": [
+    "NLA.IE19.counterexample",
+    "NLA.IE19.not_lowerBoundConjecture",
+    "NLA.IE19.not_sharpConjecture"
+  ],
+  "intentional_Challenge_placeholders": 3,
+  "active_Proof_or_Solution_inspected": false,
+  "library_semantics": {
+    "mathlib/Mathlib/LinearAlgebra/Matrix/HadamardMatrix.lean": {
+      "sha256": "b04b0656bc502d39b1c7d238afe6152428778f59411a7ef9753c81565b231c31",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/SetTheory/Cardinal/Finite.lean": {
+      "sha256": "b113177c5ed00662c73a8f3b04002b399c19f0d008920e52c1a6b6c7f16713bf",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Analysis/Matrix/Spectrum.lean": {
+      "sha256": "1ad47effa0a5fbc373ebb6cf52a6b85a66b25d3c5a86394f3dd5932ffbfc3afe",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/LinearAlgebra/Matrix/PosDef.lean": {
+      "sha256": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": {
+      "sha256": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": {
+      "sha256": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Order/Bounds/Defs.lean": {
+      "sha256": "e5a38e3cf5b12a87a53bbd64d4d458bacb2f707aa75e1b3dca1c33014aa23c2d",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Topology/Order/IntermediateValue.lean": {
+      "sha256": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Analysis/Normed/Group/Basic.lean": {
+      "sha256": "85d307e042cb03073a2e9160c52adbfcef85c921d2f9b17584b13597d8a5c7bc",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "leancert/LeanCert/Engine/RootFinding/Krawczyk.lean": {
+      "sha256": "8df9943a4e8d185164bbb86e93892f97f0596d2fcba88e48f5ea068628b7f283",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "leancert/LeanCert/Examples/Krawczyk.lean": {
+      "sha256": "ea60a81297b09936de7e7d0cc4331cd71162a34d40e208aca5614b373d5891fb",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    }
+  },
+  "coordinator_fresh_Challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ie19/linear-systems-and-elimination/IE-19/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 38.429,
+    "log_sha256": "f180c9df44a4ea86499cc51e130f24b1a32683ca045f87559382fbebaea2424d"
+  },
+  "independent_diagnostic": {
+    "command": [
+      "python3",
+      "referee-1-precheck.py",
+      "IE-19"
+    ],
+    "exit_code": 0,
+    "result": {
+      "determinants": [
+        "27/4",
+        "4"
+      ],
+      "row_norms": [
+        "7/9",
+        "5/4"
+      ],
+      "gap": "17/36",
+      "both_sided_inverse_identities": true,
+      "all_nine_entry_bounds_and_dominance": true
+    },
+    "limits": "Diagnostics support statement data and do not establish Lean proofs or universal conclusions."
+  },
+  "evidence_hashes": {
+    "referee-1-precheck.py": "5474834732e451bee2a6c6a7664f829ba134d49d2b1164d981384b0058958451",
+    "referee-1-precheck.log": "93182013ee399579a68783a85bd7fe77c5153165250e3ec9d1a6de511b59f1ef",
+    "challenge-local.json": "4dc564f580a4d1aa23b73851835e8a402518cdaafbd9198e23a14254995bef96",
+    "challenge-local.log": "f180c9df44a4ea86499cc51e130f24b1a32683ca045f87559382fbebaea2424d",
+    "SOURCE-PROVENANCE.json": "8166896a414d4dec6aaa8c41f6fe0a6942617cfea60e695eb1149fb8d399f59d"
+  },
+  "coordinator_source_provenance": {
+    "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+    "source_is_current_main": false,
+    "canonical_path": "linear-systems-and-elimination/IE-19/README.md",
+    "canonical_exists_at_observed_older_main": true,
+    "older_canonical_sha256": "cccb294c755e75790a5d4516924c307399f0d5169ce155796222a04bd4f06d5c",
+    "preserved_canonical_sha256": "e665e2d1f11510a9f62d4ffd8c6547cd43aeb09576286b7e7ff22f8cdc61697d",
+    "canonical_target_section_byte_identical": false,
+    "provenance": "Use existing authored snapshot preserved in earlier published branch ancestry, not current main. Where the older main has no canonical page, no cross-revision target equality is claimed. Original mathematical and formalization credits unchanged.",
+    "coordinator_target_review": "Coordinator read both complete target sections; only Markdown/LaTeX rendering or whitespace changed. Mathematical fields, quantifiers, hypotheses and conclusions agree.",
+    "mathematical_target_equivalent_across_revisions": true
+  }
+}
