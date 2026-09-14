@@ -51,8 +51,8 @@ automation:
     review or source-author endorsement is claimed.
 status:
   scope: Complete negative answer to both original LSMR backward-error monotonicity questions. Local Lean compilation,
-    actual LeanCert kernel-trust point inequalities, all four exported axiom audits and both independent final
-    proof reviews passed. Actual isolated Linux Comparator verification pending; canonical status unchanged.
+    actual LeanCert kernel-trust point inequalities, and all four exported axiom audits passed. Final independent
+    proof reviews and actual isolated Linux Comparator verification pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -90,15 +90,12 @@ fidelity:
     explicit attainment targets. Moore–Penrose identities are explicit targets. A nonstrict lower bound at
     sqrt(99/100) suffices for the strict increase; no stronger source bound is claimed.
 review:
-  status: statement-and-proof-agent-reviewed; Linux-Comparator-pending
+  status: statement-agent-reviewed; final-proof-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent pre-proof statement approvals frozen at commit 0986a847 before implementation. Both
-    final referees independently re-elaborated all proof modules and audited all four exported axiom closures,
-    returning PASS. Reviewed proof committed at 024fa03f. Exact reviewed README and metadata bytes are retained
-    in reviews/proof-review-snapshot; later changes only update status, not mathematical sources or configuration.
-    Four intentional Challenge placeholders are excluded from proof sorry counts and never imported by Solution.
+  notes: Both independent pre-proof statement approvals frozen at commit 0986a847 before implementation. Four
+    intentional Challenge placeholders are excluded from proof sorry counts and never imported by Solution.
     Actual Linux Comparator, default-kernel replay and rejection controls are pending.
 alignment:
 - source: Exact successive nonzero LSMR iterates and full column rank

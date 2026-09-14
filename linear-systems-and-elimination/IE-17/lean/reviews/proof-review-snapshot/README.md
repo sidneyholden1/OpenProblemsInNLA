@@ -40,12 +40,8 @@ audits pass. Two warnings originate inside LeanCert's point tactic, using a
 deprecated Mathlib set-membership name; they do not change the proof or trust
 closure. See `verification/final-build.log` and `verification/axioms.log`.
 
-Both independent final proof reviews passed, including independent re-elaboration
-and axiom audits. Reviewed proof checkpoint: `024fa03f`. The exact prior reviewed
-README and metadata are retained in `reviews/proof-review-snapshot`.
-
-Actual isolated Linux Comparator/default-kernel replay with rejection controls
-remains pending. Canonical status remains
+Final independent proof review and actual isolated Linux Comparator/default
+kernel replay with rejection controls remain pending. Canonical status remains
 Solved; this local checkpoint is not a completed publication as Lean verified.
 
 `formalization.yaml` follows the pinned official v0.4 schema. Comparator checks
