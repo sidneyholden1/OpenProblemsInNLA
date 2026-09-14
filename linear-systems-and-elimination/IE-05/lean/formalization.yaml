@@ -1,0 +1,106 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-05: counterexample to the orthogonal GEPP extremizer conjecture'
+  description: Exact order-eight positive-diagonal QR and first-tie GEPP witnesses disprove the original universal
+    growth supremum equality.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-05 — Exact extremizers for partial pivoting on orthogonal matrices
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-05/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: 'Original conjecture and earlier element-growth analysis: John Peca-Medlin.'
+- title: 'IE-05: An order-eight counterexample to the orthogonal extremizer conjecture'
+  authors:
+  - George Stepaniants
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-05/solution.md
+  type: manuscript
+  location: Theorem and Sections 1–4
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: 'Mathematical counterexample: George Stepaniants, California Institute of Technology; source AI-assistance
+    disclosures retained.'
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied. Toolchain
+    and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust point inequalities and all-export trust
+      audits; separate statement and solution environments; two independent statement referees before implementation.
+      Local builds share a pinned dependency cache; committed dependencies are exact HTTPS git pins.
+    prompting_notes: Freeze independently reviewed statements before proof. Factor positive column square roots;
+      use integer QR/LU identities and only one-sided max-entry bounds needed for strict growth separation.
+      No interval subdivision.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human peer
+    review or source-author endorsement is claimed.
+status:
+  scope: Statement elaboration, exact prechecks and both independent statement reviews passed. Proof implementation
+    and actual isolated Linux Comparator verification pending; canonical status unchanged.
+  sorry_count: 4
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IE05.qr_certificates
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE05.pivot_certificates
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE05.growth_separation
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE05.counterexample
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: Original all-dimensions claim is negated by order eight. One-sided candidate upper and witness
+    lower growth bounds suffice; exact source stage-table values and the true orthogonal supremum are not advertised.
+    Positive QR and first-tie paths are encoded by their defining properties. Every admissible tie path is
+    included in the actual real supremum, with explicit nonempty/bounded-above targets.
+review:
+  status: statement-agent-reviewed; proof-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: Both independent statement referees approved the hash-frozen boundary before proof implementation.
+    Four intentional Challenge placeholders. Independent final reviews and actual isolated Linux Comparator
+    required before canonical promotion.
+alignment:
+- source: Actual positive-diagonal QR certificates
+  declarations:
+  - NLA.IE05.qr_certificates
+- source: Actual no-exchange first-tie GEPP paths
+  declarations:
+  - NLA.IE05.pivot_certificates
+- source: Strict actual growth separation and supremum nondegeneracy
+  declarations:
+  - NLA.IE05.growth_separation
+- source: Full universal extremizer equality is false
+  declarations:
+  - NLA.IE05.counterexample
+acknowledgements: Mathematical counterexample by George Stepaniants; original conjecture by John Peca-Medlin.
+  Formalization by Sidney Holden with OpenAI Codex assistance. Mathlib, LeanCert, Comparator and formalization.yaml
+  retain credit and licenses.

@@ -1,0 +1,4 @@
+Independent referee 1 exact rational precheck; diagnostic only, not Lean proof evidence.
+candidate: Gram/positive QR algebra, LU factorization, all 8 exact Schur states, nonzero first-row pivots PASS; ties=[8, 7, 6, 5, 4, 3, 2, 1]; input²=2601/3286; peak²=5462; growth²=17948132/2601
+witness: Gram/positive QR algebra, LU factorization, all 8 exact Schur states, nonzero first-row pivots PASS; ties=[8, 6, 6, 5, 4, 3, 2, 1]; input²=3969/5272; peak²=5272; growth²=27793984/3969
+Exact separator: candidate growth² < (167/2)² < witness growth²; gap=117335164/1147041; PASS.
