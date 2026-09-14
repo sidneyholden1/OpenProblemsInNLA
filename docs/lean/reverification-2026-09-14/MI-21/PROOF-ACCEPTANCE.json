@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "da572e195357239ba28deaa3c6ff5fa5a52b668644cefc7c2590e92658280c61",
+    "STATEMENT-REFEREE-2.md": "8a4b17ffc3abaa541f5c3466b56b37c8ac86b27573115016be9100fb406ad96d",
+    "PROOF-REFEREE-1.md": "fd77ce59a255a6701945d4fcdcd46ce82f9ca4b7c9481e87faca8d606cfc1f55",
+    "PROOF-REFEREE-2.md": "526daf94e99fbab00b280a9af152ec40d00e20f5b5a8fb87f5311ed1bbeb1b27",
+    "referee-1-proof-evidence.json": "cc3f6523f96390ffaf08cb9b92b155a355fe0c2dbb22ff4da467384c6d23fde6",
+    "referee-2-proof-checks.json": "f002d5507952d8b4f6f90a1d43d5aa0163af679c3214d77b2a35776ec578d8b5",
+    "ROOT-LOCAL-CHECKS.json": "a6cc4dcadcec532b21b8670276a0f163206392ea34bb0eef976e715af5de853e",
+    "statement-gate.json": "2c87748158d8e253d49737cc91dc62ea3d6059b5b638294f5cd914bc9bcc442d",
+    "preflight.json": "f387c69dc2fc8d0c41557d00d1db1fea801a6b87f195de145ed97f067d22e16b"
+  },
+  "exports": [
+    "NLA.MI21.operatorNorm_isUnitaryInvariant",
+    "NLA.MI21.counterexample",
+    "NLA.MI21.not_geometricMeanNormConjecture"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "e43421af3d19dac5fc2cb6304affba66e7ddae24",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}
