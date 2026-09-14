@@ -1,0 +1,14 @@
+{
+  "reviewer": "coordinator /root; not one of the two independent referees",
+  "phase": "statement only, before inspecting active proof bodies",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "reviewed_scope": "Actual subset sums, polynomial derivatives and factorization with multiplicity must yield the full all-positive-spectrum convexity theorem, without distinctness or factorization premises. The derivative order is j-1, number of factors n-j+1\u22652. Denominator positivity, repeated roots, d=n and j=n-1 endpoints are included. Sampling and monotonicity extras are excluded.",
+  "source_review": "Reviewed both canonical target sections, complete informal manuscripts, Definitions, Challenge and numerical obligations. Targeted actual Mathlib CFC and singular-value definitions checked. No authored proof inspected at this phase.",
+  "status": "Boundary appears faithful; two independent statement approvals and their exact diagnostics still required before frozen gate.",
+  "files_sha256": {
+    "randomized-and-low-rank-approximation/RA-07/lean/Challenge.lean": "013fe0fd10b21a4e09260ea07477f8b6314e36df8cad9863274b486115de20cf",
+    "randomized-and-low-rank-approximation/RA-07/lean/NUMERICAL_TARGETS.md": "d608c6dd1b09a0c3425c740ca159bb317a4b5079dd4d128ad52239af6f8b4dcc",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Definitions.lean": "5eb47e2450eefe5a83e583173ac1de48c67be502a73f52cb4856a26c3fffb9ff",
+    "docs/lean/reverification-2026-09-14/RA-07/SOURCE-PROVENANCE.json": "9737d81fdbc0a408d7b555359c752c85169c18138bd40e6cc81591aa929d72cc"
+  }
+}

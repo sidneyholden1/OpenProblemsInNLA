@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 10364325707,
+      "node_id": "MDg6QXJ0aWZhY3QxMDM2NDMyNTcwNw==",
+      "name": "lean-RA-07",
+      "size_in_bytes": 26548,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10364325707",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10364325707/zip",
+      "expired": false,
+      "digest": "sha256:d365921c38f17c0d735fd4feab4e95782502f9822dfda3e1eead48fc2ac9e0a4",
+      "created_at": "2026-09-14T18:52:05Z",
+      "updated_at": "2026-09-14T18:52:05Z",
+      "expires_at": "2026-12-13T18:45:10Z",
+      "workflow_run": {
+        "id": 34882717127,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/reverify-ra07",
+        "head_sha": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe"
+      }
+    }
+  ]
+}

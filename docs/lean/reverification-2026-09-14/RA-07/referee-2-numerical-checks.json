@@ -1,0 +1,136 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "exact_grid_values": [
+    "1/2",
+    "1",
+    "3"
+  ],
+  "dimensions_checked": "0 through 6",
+  "canonical_second_differences_checked": 3834,
+  "generic_certificate_samples": "positive denominator and exact s1*s3-s2^2 unordered pair identity at every sampled tuple of length >=2",
+  "endpoint_and_equal_tuple_examples": [
+    {
+      "lam": [],
+      "elementary": [
+        "1",
+        0
+      ],
+      "sequence": [
+        "0"
+      ]
+    },
+    {
+      "lam": [
+        "1/2",
+        "1/2"
+      ],
+      "elementary": [
+        "1",
+        "1",
+        "1/4",
+        0
+      ],
+      "sequence": [
+        "1",
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "lam": [
+        "1",
+        "1"
+      ],
+      "elementary": [
+        "1",
+        "2",
+        "1",
+        0
+      ],
+      "sequence": [
+        "2",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "lam": [
+        "3",
+        "3"
+      ],
+      "elementary": [
+        "1",
+        "6",
+        "9",
+        0
+      ],
+      "sequence": [
+        "6",
+        "3",
+        "0"
+      ]
+    },
+    {
+      "lam": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "elementary": [
+        "1",
+        "3/2",
+        "3/4",
+        "1/8",
+        0
+      ],
+      "sequence": [
+        "3/2",
+        "1",
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "lam": [
+        "1",
+        "1",
+        "1"
+      ],
+      "elementary": [
+        "1",
+        "3",
+        "3",
+        "1",
+        0
+      ],
+      "sequence": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "lam": [
+        "3",
+        "3",
+        "3"
+      ],
+      "elementary": [
+        "1",
+        "9",
+        "27",
+        "27",
+        0
+      ],
+      "sequence": [
+        "9",
+        "6",
+        "3",
+        "0"
+      ]
+    }
+  ],
+  "limitation": "finite diagnostics are not universal proofs or evidence for derivative splitting; the full actual factorization is an unconditional Challenge obligation"
+}

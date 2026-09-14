@@ -1,0 +1,226 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "randomized-and-low-rank-approximation/RA-07/lean/Solution.lean",
+      "sha256": "55ea9b34825481eb10fefc6409eab16db61849663849f2ca09f6ceb8a1857114",
+      "lines": 84
+    },
+    "NLA.RA07.Proof": {
+      "path": "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Proof.lean",
+      "sha256": "20c4d2a1078495b442f74126b42e0960462a1e82e3c5aec0b2c09065921dd21d",
+      "lines": 113
+    },
+    "NLA.RA07.Sums": {
+      "path": "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Sums.lean",
+      "sha256": "6a1410ed2efe6155f2f27c22b8afe37ffd0110812850f0d336c9ffee2dd8050b",
+      "lines": 163
+    },
+    "NLA.RA07.Algebra": {
+      "path": "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Algebra.lean",
+      "sha256": "1be33b680d0f66d793a564ec22aae8996474aa85f7699f4d1dff6639903cf013",
+      "lines": 63
+    },
+    "NLA.RA07.Definitions": {
+      "path": "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Definitions.lean",
+      "sha256": "5eb47e2450eefe5a83e583173ac1de48c67be502a73f52cb4856a26c3fffb9ff",
+      "lines": 56
+    },
+    "NLA.RA07.Roots": {
+      "path": "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Roots.lean",
+      "sha256": "ccbb931696ed1fafcda2518daaccee8eacb201a10eaedefd694f573b44adecde",
+      "lines": 187
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.Verification",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Polynomial.BigOperators",
+    "Mathlib.Algebra.Polynomial.Derivative",
+    "Mathlib.Analysis.Complex.Convex",
+    "Mathlib.Analysis.Complex.Polynomial.GaussLucas",
+    "Mathlib.Data.List.OfFn",
+    "Mathlib.Data.Real.Basic",
+    "Mathlib.RingTheory.MvPolynomial.Symmetric.Defs",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring"
+  ],
+  "additional_mathlib_apis_read_sha256": {
+    "Mathlib/Algebra/Polynomial/Splits.lean": "09540ced6c5feebb7f9cddc7c01f1ae7f4102a147e2242ebec12378c43701713"
+  },
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.RA07.elementary_values",
+    "NLA.RA07.generating_derivative_values",
+    "NLA.RA07.positive_derivative_factorization",
+    "NLA.RA07.power_sum_certificate",
+    "NLA.RA07.second_difference_certificate",
+    "NLA.RA07.errorSequence_convex"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.RA07.elementary_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.generating_derivative_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.positive_derivative_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.power_sum_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.second_difference_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.errorSequence_convex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.RA07.elementary_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.generating_derivative_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.positive_derivative_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.power_sum_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.second_difference_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.errorSequence_convex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra07/randomized-and-low-rank-approximation/RA-07/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 56.41,
+    "log_sha256": "db313c3aefe0a7c0200acb0e4cec4c508968aefccfb22da83ae122f98a997670"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-ra07/docs/lean/reverification-2026-09-14/RA-07/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra07/randomized-and-low-rank-approximation/RA-07/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.RA07.elementary_values": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA07.generating_derivative_values": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA07.positive_derivative_factorization": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA07.power_sum_certificate": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA07.second_difference_certificate": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA07.errorSequence_convex": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [],
+    "script_sha256": "004b07c8046bd2ca8ab35f8b0aceb78400fd2b8ad7fe347d8c2a89f4f6ac33e1",
+    "log_sha256": "65893ee7dfc3c7c6d040cee26ee113cfdc4258dcc720a390a3529ef1b4bd4853"
+  },
+  "referee_2_numerical_execution": {
+    "route": "Kernel trust auditing only; no numerical theorem.",
+    "receipts": {},
+    "consumer_material_terms": []
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "013fe0fd10b21a4e09260ea07477f8b6314e36df8cad9863274b486115de20cf",
+    "NUMERICAL_TARGETS.md": "d608c6dd1b09a0c3425c740ca159bb317a4b5079dd4d128ad52239af6f8b4dcc",
+    "comparator.json": "0f67b955d83b24f1b61c6a94dba831e4f5983f015441f1a87870e69a345514f4",
+    "formalization.yaml": "eb6e7476c4a7af7fb3ab8d0ee1dc3c53613cd58bfdca74bd8cffe66f1e1a2115",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "290573ff8a547f02c5c87c593252c3883f4b59556b3a02400212f857c3c2f924",
+    "lakefile.toml": "d47fda9861f0b1c86a144280ed31eac9c12334617f8e6e43035798cf97b7d384"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "a5fab6b7aa9d6d7f481c39a223cc511b1a15ed7528895b898e3e56343c13c2ab",
+    "solution-local.log": "db313c3aefe0a7c0200acb0e4cec4c508968aefccfb22da83ae122f98a997670",
+    "referee-2-consumer.lean": "004b07c8046bd2ca8ab35f8b0aceb78400fd2b8ad7fe347d8c2a89f4f6ac33e1",
+    "referee-2-consumer.log": "65893ee7dfc3c7c6d040cee26ee113cfdc4258dcc720a390a3529ef1b4bd4853",
+    "referee-2-consumer.json": "04ac9f89b65eb0fc97df023018d0cc1831b76d45e5006f41150c5cb91ad1c57f",
+    "statement-gate.json": "29c1d5cca69bb491453169386aea930652810b9126fe0b5532c8f34ef2701f4b",
+    "STATEMENT-REFEREE-1.md": "74004581955cfce83e14d65cf4a73afb913aa57ff0435f0cf02d1103d6f1cc1b",
+    "referee-1-statement-evidence.json": "fbec39c7e5d4f754107b9849799bb07a7ebfdbac1b5da1a91c945163e183998b",
+    "referee-1-precheck.py": "d8d5494b2aae3ff10ee322ca1e328b8430d0a72506fe0d45d5aa435425cd4702",
+    "referee-1-precheck.log": "1bde4fd131358d830c744f6de5c91ce32fa8314e2dbbde90a9083f9e213f412b"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}
