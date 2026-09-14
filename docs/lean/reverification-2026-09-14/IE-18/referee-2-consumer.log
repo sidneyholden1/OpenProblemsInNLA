@@ -1,0 +1,92 @@
+NLA.IE18.residual_certificate : Ne.{1} NLA.IE18.witnessInitial 0 ∧
+  Eq.{1}
+      (NLA.IE18.squaredNorm
+        (Matrix.mulVec.{0, 0, 0} (HSub.hSub.{0, 0, 0} 1 NLA.IE18.witnessMatrix) NLA.IE18.witnessInitial))
+      (61 / 50) ∧
+    Eq.{1} (NLA.IE18.residualCoefficient NLA.IE18.witnessMatrix NLA.IE18.witnessInitial) (90 / 61) ∧
+      Eq.{1} (NLA.IE18.residualMap NLA.IE18.witnessMatrix NLA.IE18.witnessInitial) NLA.IE18.witnessFirst ∧
+        Ne.{1} NLA.IE18.witnessFirst 0 ∧
+          Eq.{1}
+              (NLA.IE18.squaredNorm
+                (Matrix.mulVec.{0, 0, 0} (HSub.hSub.{0, 0, 0} 1 NLA.IE18.witnessMatrix) NLA.IE18.witnessFirst))
+              (1381 / 93025) ∧
+            Eq.{1} (NLA.IE18.residualCoefficient NLA.IE18.witnessMatrix NLA.IE18.witnessFirst) (3140 / 1381) ∧
+              Eq.{1} (NLA.IE18.fourStepResidual NLA.IE18.witnessMatrix NLA.IE18.witnessInitial) NLA.IE18.witnessSecond ∧
+                Eq.{1}
+                  (HDiv.hDiv.{0, 0, 0}
+                    (NLA.IE18.squaredNorm (NLA.IE18.fourStepResidual NLA.IE18.witnessMatrix NLA.IE18.witnessInitial))
+                    (NLA.IE18.squaredNorm NLA.IE18.witnessInitial))
+                  (1920682 / 21289638243)
+'NLA.IE18.residual_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE18.counterexample : ∃ (hM : Matrix.IsHermitian.{0, 0} NLA.IE18.witnessMatrix),
+  Ne.{1} NLA.IE18.witnessMatrix 0 ∧
+    1 ∉ spectrum.{0, 0} ℝ NLA.IE18.witnessMatrix ∧
+      Matrix.PosDef.{0, 0} NLA.IE18.witnessMatrix ∧
+        Matrix.PosDef.{0, 0} (HSub.hSub.{0, 0, 0} 1 NLA.IE18.witnessMatrix) ∧
+          Eq.{1} (spectrum.{0, 0} ℝ NLA.IE18.witnessMatrix) (Set.range.{0, 1} NLA.IE18.witnessEigenvalues) ∧
+            Ne.{1} NLA.IE18.witnessInitial 0 ∧
+              Eq.{1} (NLA.IE18.pairMaximum hM) (1 / 121) ∧
+                LT.lt.{0} (NLA.IE18.pairMaximum hM)
+                    (NLA.IE18.amplification NLA.IE18.witnessMatrix NLA.IE18.witnessInitial) ∧
+                  ¬IsGreatest.{0} (NLA.IE18.amplificationSet NLA.IE18.witnessMatrix) (NLA.IE18.pairMaximum hM)
+'NLA.IE18.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE18.not_fourStepConjecture : ¬NLA.IE18.FourStepConjecture
+'NLA.IE18.not_fourStepConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.IE18.strict_scalar_gap : LT.lt.{0} (1 / 14641) (1920682 / 21289638243) :=
+Mathlib.Meta.NormNum.isNNRat_lt_true.{0}
+  (Mathlib.Meta.NormNum.isNNRat_div.{0}
+    (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_one.{0}))
+      (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+        (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 14641))))
+      (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 14641)))
+  (Mathlib.Meta.NormNum.isNNRat_div.{0}
+    (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 1920682)))
+      (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+        (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 21289638243))))
+      (Eq.refl.{1} (Nat.mul 1920682 1)) (Eq.refl.{1} 21289638243)))
+  (Eq.refl.{1} true)
+'NLA.IE18.strict_scalar_gap' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.IE18.strict_amplification_gap : LT.lt.{0} (1 / 121)
+  (NLA.IE18.amplification NLA.IE18.witnessMatrix NLA.IE18.witnessInitial) :=
+have hn :=
+  div_nonneg.{0}
+    (Real.sqrt_nonneg (NLA.IE18.squaredNorm (NLA.IE18.fourStepResidual NLA.IE18.witnessMatrix NLA.IE18.witnessInitial)))
+    (Real.sqrt_nonneg (NLA.IE18.squaredNorm NLA.IE18.witnessInitial));
+(sq_lt_sq₀.{0}
+      (Mathlib.Meta.NormNum.isRat_le_true.{0}
+        (Mathlib.Meta.NormNum.IsNNRat.to_isRat.{0}
+          (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_zero.{0})))
+        (Mathlib.Meta.NormNum.IsNNRat.to_isRat.{0}
+          (Mathlib.Meta.NormNum.isNNRat_div.{0}
+            (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_one.{0}))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 121))))
+              (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 121))))
+        (Eq.refl.{1} true))
+      hn).mp
+  (Eq.mpr.{0}
+    (id.{0}
+      (congrArg.{1, 1} (fun _a => LT.lt.{0} (HPow.hPow.{0, 0, 0} (1 / 121) 2) _a) NLA.IE18.actual_amplification_sq))
+    (have hs :=
+      Mathlib.Meta.NormNum.isNNRat_eq_true.{0}
+        (Mathlib.Meta.NormNum.isNNRat_pow.{0} (Eq.refl.{1} HPow.hPow.{0, 0, 0})
+          (Mathlib.Meta.NormNum.isNNRat_div.{0}
+            (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_one.{0}))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 121))))
+              (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 121)))
+          (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℕ (Eq.refl.{1} 2)) Mathlib.Meta.NormNum.one_natPow
+          (Mathlib.Meta.NormNum.IsNatPowT.run Mathlib.Meta.NormNum.IsNatPowT.bit0))
+        (Mathlib.Meta.NormNum.isNNRat_div.{0}
+          (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+            (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_one.{0}))
+            (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 14641))))
+            (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 14641)));
+    Eq.mpr.{0} (id.{0} (congrArg.{1, 1} (fun _a => LT.lt.{0} _a (1920682 / 21289638243)) hs))
+      NLA.IE18.strict_scalar_gap))
+'NLA.IE18.strict_amplification_gap' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

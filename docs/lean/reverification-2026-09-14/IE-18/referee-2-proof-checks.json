@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "3f48f1610726bc183fc71e0b1f4597dacba588e9",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 3,
+  "export_count": 3,
+  "export_axioms": {
+    "NLA.IE18.residual_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE18.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE18.not_fourStepConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ie18/docs/lean/reverification-2026-09-14/IE-18/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-ie18/linear-systems-and-elimination/IE-18/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/Analysis/Matrix/Spectrum.lean": "1ad47effa0a5fbc373ebb6cf52a6b85a66b25d3c5a86394f3dd5932ffbfc3afe"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "8e51a1deb84da7b093ad052166936ff416e1b625faf214cea8be276d9c88ae75",
+    "referee-2-active-inputs.json": "cd7dac4c63fae487c024bde0ddb683599732c2ca10bac7b3ef51cf2c42a0607c",
+    "referee-2-consumer.lean": "6916a0f081e77e06ec3b3facaa7b398f0102c7210da68ebe1737d828458a3dd8",
+    "referee-2-consumer.log": "31903993ce9efce35f1caeb7c418b691aa427d8351ea9dad09e541338bb834c5",
+    "referee-2-consumer.json": "576547042f257bba07c1f3ee43ba011f351b2a3c813c30684faec31280224a9d",
+    "solution-local.json": "acbb9c6bd08f0591ef6c40f2de5454fbf9fd2015006b3a577789aec8cdf84beb",
+    "solution-local.log": "23d3072059006f08e76a59f71ede7528b4ce9583c2832ef1a63c76d012adbf14",
+    "referee-2-numerical-checks.json": "eee797d1295747a1422d1299c5dca0aec7c9f8b12d95fcf99c34427326b4a48b",
+    "referee2_numerics.py": "32c630ce40f80b4b534bc5e68bca1eedfd7ba82c9ff1b489e27ed2a8ef2babad",
+    "referee2_statements.py": "d45611012e7d45ab68d8c62a20e2094bfa4c26e094ac86a4f507dd437b6a32ce",
+    "referee2_consume.py": "860b17c2f5d3d6e6e5e50fd52c5847ba90823b319a9894b6ba37744ca0b46c72",
+    "referee-2-numerical-terms.lean": "a4003069f68c18453ddccbbdab3c0fd87374f0797109f99cdc912c7bfdea0daf",
+    "referee-2-numerical-terms.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "referee-2-numerical-terms.json": "f6d9280139af015cb1389d79fe364f587e88b9f4b32580b291688a9ca3543588",
+    "referee2_terms.py": "10346e5f8bd727918531205bbc91600286e15d5bf244479107441ce6b7489ee5"
+  },
+  "linux_status": "separate pending operational review, not inferred from historical PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "denominators": [
+    "61/50",
+    "1381/93025"
+  ],
+  "coefficients": [
+    "90/61",
+    "3140/1381"
+  ],
+  "residuals": [
+    [
+      "-2/61",
+      "8/61",
+      "15/61"
+    ],
+    [
+      "289/84241",
+      "-756/84241",
+      "1125/84241"
+    ]
+  ],
+  "squared_ratio": "1920682/21289638243",
+  "all_six_ordered_pairs": {
+    "(0, 1)": "1/289",
+    "(0, 2)": "1/121",
+    "(1, 0)": "1/289",
+    "(1, 2)": "9/2401",
+    "(2, 0)": "1/121",
+    "(2, 1)": "9/2401"
+  },
+  "squared_gap": "6831066919/311701593515763",
+  "scope": "Exact diagonal witness only; genuine full eigenvalue-list bridge is a Lean obligation."
+}
