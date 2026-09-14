@@ -1,0 +1,67 @@
+{
+  "repository_commit": "23dd1e1727494efac35743826c0725ebc71942c6",
+  "project": "intervals-and-absolute-value-equations/IV-06/lean",
+  "config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Solution",
+    "theorem_names": [
+      "NLA.IV06.included_points",
+      "NLA.IV06.excluded_separators",
+      "NLA.IV06.counterexample",
+      "NLA.IV06.not_componentBoundConjecture"
+    ],
+    "definition_names": [],
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "input_sha256": {
+    ".gitignore": "fde850d24186b6e99c8c0debd641fb3ab85198b109eb66f71a1fea02bd6ea1b3",
+    "Challenge.lean": "b81665e31d3b971929e00d1096788accc9943ffd2c3bc947c0481460e9497ff1",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/IV06/Definitions.lean": "880ca2f1b14e420ccb613fa560668d9d560329f2901421772fbe68a765aab0f7",
+    "NLA/IV06/Proof.lean": "965874d9b3311ec29edc9d6f79e92df950c4e66a072b7d88351adc3648aa4e36",
+    "NUMERICAL_TARGETS.md": "631d38fec203c0da5dc57be09320df336049362718c43903788fba8a9d13fc8d",
+    "README.md": "e3381f392c0a582fc955c6ca526702285a5fea2d05a850f8637d3c054dffcbac",
+    "Solution.lean": "0ec0a35417c1ad929087daaabdf39b6a9f54235fcbc166cdf7d9b12e392dd421",
+    "comparator.json": "a4b755670a708d19c49160a3687d44620eb309d2c8c10528ad3f7ca805e86ff1",
+    "formalization.yaml": "e00b1687fd3e7d9da9e1e86153c8c8d3b81bbd343ba4aa26bf26ecdd43eb92cb",
+    "lake-manifest.json": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+    "lakefile.toml": "dbf2f6562944c0730e262b80bea86abf6e5950684fe093af984cfbeab0a1029a",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "reviews/proof-referee-1.md": "5d75548f10e2c9ba32d0ab7196f4c831a2debcb2d0054ac9a4b99eb08f9fd96c",
+    "reviews/proof-referee-2.md": "76bdd1aa6cd1ec69dcdcde108faf877492b1c3d720cf1c1f0ea7b4cd709235c8",
+    "reviews/proof-source-hashes.json": "a200052a024e406541e00d67848c11f48b70839f5f279593b2a2d1af3e180c38",
+    "reviews/statement-referee-1.md": "79371ce8d32e6be12ad46ab8305c0e305336516787c3b36ca78f672b4df6082c",
+    "reviews/statement-referee-2.md": "df4ebfb5cca27dbce4927186391bd669b47eef45874bdb801e4c2d79e5c15af7",
+    "reviews/statement-source-hashes.json": "4cfaf3c4fcd7bda44aab9d1e5a8114b30c3e0f192d33538a5698f09f222c5b38",
+    "verification/InspectProof.lean": "65d9f5f39ef12f28d4c53319b562e94ae5bb0ebea89aada07739b80d724d9077",
+    "verification/axioms.log": "11a52688bf246527f1d449d18bb9fedca63b9b7d8a2d8304bbdd9ca03979b192",
+    "verification/leancert-build.log": "2c6fd2c16396292471bd09a460b66db9700746cae36e509df332a793ebb74198",
+    "verification/proof-build.log": "ba7e88022604b2a9400dec95732b7f5961e452a3a8e83caf5430e88733dfc2cb",
+    "verification/referee-2-axioms-and-margin.log": "16ff646cd1d0dc83eb6e74ee52ebff1c9e4864e70765109fb169a713429f9fb3",
+    "verification/referee-2-proof-elaboration.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/statement-build.log": "c9c3394f329e860c761e307414bc8efdcbfaa7870bebebac93a426653776361a"
+  },
+  "source_lock_sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+  "tool_receipt": {
+    "source_lock_sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "forsythe_commit": "8d1b0c0545a77b40245e84705aa7d273e6c81e62",
+    "ci_sandbox_probe_sha256": "31057195baf238807cacbb4126c5b07f02cec55a4e4437de5f3a755b3fada803",
+    "lean_toolchain": "leanprover/lean4:v4.33.1",
+    "lean_prefix": "/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1",
+    "lean_version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+    "go_version": "go version go1.27.1 linux/amd64",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "executables": {
+      ".tools/comparator/.lake/build/bin/comparator": "189e88f1a3cb68130b581905f7a5d3bde47eb0578904c0ca6fb235a53d0e8bdc",
+      ".tools/lean4export/.lake/build/bin/lean4export": "46f6a14f0f4a364d7698229130d103b67855be42f96cc5ef93929288072f1fa1",
+      ".tools/bin/landrun": "6531f6c9bc99313170e29c4c65bf09a414741093c587389315eb81a0a31e45d7"
+    },
+    "env_sha256": "7554076d35dcb2dc98bdc8f9adfd3a6a65b08b89c05695efe9e194df542e149a"
+  },
+  "result": "comparator-accepted",
+  "semantic_review": "not-performed-by-this-command"
+}

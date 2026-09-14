@@ -6,7 +6,7 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved
+**Status:** Lean verified
 **Last checked:** 2026-09-11
 
 **Rating rationale:** Controlling the topology of the real spectrum for nonsymmetric uncertain matrices appears to require new analysis, warranting challenging. The component-count bound primarily advances specialist interval spectral enclosure theory.
@@ -22,6 +22,26 @@
 
 The difficulty, importance and rating rationale below are historical assessments of the original open target. The original statement and dated audits are preserved.
 <!-- /colbrook-intervals -->
+
+## Lean verification — 2026-09-14
+
+**The complete original conjecture has a Lean-verified negative answer.**
+[The formal proof](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/23dd1e1727494efac35743826c0725ebc71942c6/intervals-and-absolute-value-equations/IV-06/lean) uses actual nonzero real eigenvectors and actual
+connected components of the real eigenvalue set. Four exact eigenpairs and
+three excluded separators give at least four components in dimension three.
+The topological component-count argument is formally proved.
+
+**Formalization:** Sidney Holden, Center for Computational Biology, Flatiron
+Institute, Simons Foundation, with OpenAI Codex assistance. Matthew J. Colbrook
+retains authorship of the mathematical counterexample. Two independent AI
+statement reviews preceded implementation, and two independent final proof
+reviews approved the complete formalization. Kernel-only LeanCert, all four
+exported axiom audits, and [isolated Linux Comparator and kernel checks](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34805467886)
+passed at the immutable revision linked above. [Original evidence and operational
+audit](lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md) retain the exact
+26 checked inputs and original logs. The first Linux attempt failed during a
+checker download; the unchanged proof passed on retry. No external human peer
+review or source-author endorsement is asserted.
 
 ## Problem statement
 

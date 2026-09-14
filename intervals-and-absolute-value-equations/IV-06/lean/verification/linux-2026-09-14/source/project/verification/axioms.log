@@ -1,0 +1,5 @@
+'NLA.IV06.included_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IV06.excluded_separators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IV06.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IV06.not_componentBoundConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IV06.separator_margin' depends on axioms: [propext, Classical.choice, Quot.sound]

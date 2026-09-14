@@ -18,13 +18,8 @@ The reviews retain and resolve a corrected explanation of which parameter
 bounds supply the margin at 12. The solution never imports Challenge.
 
 Local Lean compilation, transitive axiom audits of all four exports, and two
-independent final AI proof reviews passed. Actual isolated Linux Comparator and default-kernel replay passed on
-14 September 2026 in [run 34805467886](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34805467886) at [proof revision 23dd1e17](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/23dd1e1727494efac35743826c0725ebc71942c6/intervals-and-absolute-value-equations/IV-06/lean).
-The canonical problem is Lean verified. The first run failed during a checker
-download; the unchanged proof passed on retry. [Original artifact, all 26
-checked inputs and operational audit](verification/linux-2026-09-14/OPERATIONAL-REVIEW.md)
-are retained. Publication changes only README and formalization metadata among
-the checked inputs; mathematical source and frozen statements are unchanged. No external human peer
+independent final AI proof reviews passed. Actual isolated Linux Comparator
+checks are pending; the canonical problem remains Solved. No external human peer
 review or source-author endorsement is claimed.
 
 See [NUMERICAL_TARGETS.md](NUMERICAL_TARGETS.md), [formalization.yaml](formalization.yaml),

@@ -51,7 +51,7 @@ of components of a real interval eigenvalue set\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -88,32 +88,55 @@ The difficulty, importance and rating rationale below are historical
 assessments of the original open target. The original statement and
 dated audits are preserved.
 
+\subsection{Lean verification ---
+2026-09-14}\label{lean-verification-2026-09-14}
+
+\textbf{The complete original conjecture has a Lean-verified negative
+answer.}
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/23dd1e1727494efac35743826c0725ebc71942c6/intervals-and-absolute-value-equations/IV-06/lean}{The
+formal proof} uses actual nonzero real eigenvectors and actual connected
+components of the real eigenvalue set. Four exact eigenpairs and three
+excluded separators give at least four components in dimension three.
+The topological component-count argument is formally proved.
+
+\textbf{Formalization:} Sidney Holden, Center for Computational Biology,
+Flatiron Institute, Simons Foundation, with OpenAI Codex assistance.
+Matthew J. Colbrook retains authorship of the mathematical
+counterexample. Two independent AI statement reviews preceded
+implementation, and two independent final proof reviews approved the
+complete formalization. Kernel-only LeanCert, all four exported axiom
+audits, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34805467886}{isolated
+Linux Comparator and kernel checks} passed at the immutable revision
+linked above.
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/intervals-and-absolute-value-equations/IV-06/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md}{Original
+evidence and operational audit} retain the exact 26 checked inputs and
+original logs. The first Linux attempt failed during a checker download;
+the unchanged proof passed on retry. No external human peer review or
+source-author endorsement is asserted.
+
+\newpage
+
 \subsection{Problem statement}\label{problem-statement}
 
 For every integer \(n\ge1\) and real matrices
 \(L,U\in\mathbb R^{n\times n}\) with \(L\le U\) entrywise, form the
 interval matrix family
 
-\[
-\mathcal A=\{A\in\mathbb R^{n\times n}:L\le A\le U\}.
-\]
+\[\mathcal A=\{A\in\mathbb R^{n\times n}:L\le A\le U\}.\]
 
 Each entry varies independently in its prescribed closed interval;
 singleton intervals are allowed. Define the set of all real eigenvalues
 attained by the family by
 
-\[
-\Lambda_{\mathbb R}(\mathcal A)
-=\{\lambda\in\mathbb R:\exists A\in\mathcal A,\ \exists x\in\mathbb R^n\setminus\{0\},\ Ax=\lambda x\}.
-\]
+\[\Lambda_{\mathbb R}(\mathcal A)
+=\{\lambda\in\mathbb R:\exists A\in\mathcal A,\ \exists x\in\mathbb R^n\setminus\{0\},\ Ax=\lambda x\}.\]
 
 Must \(\Lambda_{\mathbb R}(\mathcal A)\) have at most \(n\) connected
 components? Equivalently, must there exist \(0\le m\le n\) and real
 numbers \(a_r\le b_r\), \(1\le r\le m\), such that
 
-\[
-\Lambda_{\mathbb R}(\mathcal A)=\bigcup_{r=1}^{m}[a_r,b_r]?
-\]
+\[\Lambda_{\mathbb R}(\mathcal A)=\bigcup_{r=1}^{m}[a_r,b_r]?\]
 
 The empty set corresponds to \(m=0\), and a singleton eigenvalue
 component counts as one interval. No symmetry, diagonalizability, or

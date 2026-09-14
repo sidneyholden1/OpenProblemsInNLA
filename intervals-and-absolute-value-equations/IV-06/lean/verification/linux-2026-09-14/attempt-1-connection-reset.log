@@ -1,0 +1,439 @@
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	﻿2026-09-14T04:18:03.6415720Z Current runner version: '2.337.0'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6434862Z ##[group]Runner Image Provisioner
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6435492Z Hosted Compute Agent
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6435912Z Version: 20260828.587
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6436358Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6436855Z Build Date: 2026-08-28T16:44:25Z
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6437645Z Worker ID: {3ce82b29-a7ff-40bd-82ac-800d83dc6e16}
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6438143Z Azure Region: centralus
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6438542Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6439459Z ##[group]Operating System
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6439879Z Ubuntu
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6440266Z 24.04.5
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6440614Z LTS
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6440959Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6441364Z ##[group]Runner Image
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6441795Z Image: ubuntu-24.04
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6442378Z Version: 20260907.300.1
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6443254Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6444379Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6445032Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6445806Z ##[group]GITHUB_TOKEN Permissions
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6447582Z Contents: read
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6448019Z Metadata: read
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6448398Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6449831Z Secret source: Actions
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6450501Z Cache mode: write
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6450956Z Prepare workflow directory
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6674729Z Prepare all required actions
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.6709809Z Getting action download info
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:03.9265138Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:04.2529970Z Download action repository 'actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16' (SHA:924ae3a1cded613372ab5595356fb5720e22ba16)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:04.8764737Z Download action repository 'leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433' (SHA:96e06131c0e9943c780388fd166f55d1e2fa0433)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.0657707Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.3325613Z Getting action download info
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.4220587Z Download action repository 'actions/cache@v5' (SHA:caa296126883cff596d87d8935842f9db880ef25)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.7541187Z Complete job name: verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8158568Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8166873Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8168029Z with:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8168697Z   persist-credentials: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8169533Z   repository: sidneyholden1/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8175181Z   token: ***
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8175856Z   ssh-strict: true
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8176515Z   ssh-user: git
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8177170Z   clean: true
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8177849Z   sparse-checkout-cone-mode: true
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8178601Z   fetch-depth: 1
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8179288Z   fetch-tags: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8179945Z   show-progress: true
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8180733Z   lfs: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8181357Z   submodules: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8182103Z   set-safe-directory: true
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8182868Z   allow-unsafe-pr-checkout: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8183762Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8946306Z Syncing repository: sidneyholden1/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8948596Z ##[group]Getting Git version info
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8949867Z Working directory is '/home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8952308Z [command]/usr/bin/git version
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.8994331Z git version 2.55.0
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9018883Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9026402Z Temporarily overriding HOME='/home/runner/work/_temp/58a181a4-63ad-49c2-857e-5adc9d61f928' before making global git config changes
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9029913Z Adding repository directory to the temporary git global config as a safe directory
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9033626Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9064061Z Deleting the contents of '/home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9067402Z ##[group]Initializing the repository
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9070125Z [command]/usr/bin/git init /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9156679Z hint: Using 'master' as the name for the initial branch. This default branch name
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9158808Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9161047Z hint: to use in all of your new repositories, which will suppress this warning,
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9162960Z hint: call:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9163915Z hint:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9165013Z hint: 	git config --global init.defaultBranch <name>
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9166418Z hint:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9167713Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9169763Z hint: 'development'. The just-created branch can be renamed via this command:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9171298Z hint:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9172457Z hint: 	git branch -m <name>
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9173618Z hint:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9174920Z hint: Disable this message with "git config set advice.defaultBranchName false"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9177241Z Initialized empty Git repository in /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA/.git/
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9193632Z [command]/usr/bin/git remote add origin https://github.com/sidneyholden1/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9226090Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9227815Z ##[group]Disabling automatic garbage collection
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9229479Z [command]/usr/bin/git config --local gc.auto 0
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9250818Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9252755Z ##[group]Setting up auth
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9255481Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:05.9279646Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.1202327Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.1227762Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.1384883Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.1411196Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.1558951Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.2514163Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.2515455Z ##[group]Fetching the repository
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:06.2522504Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +23dd1e1727494efac35743826c0725ebc71942c6:refs/remotes/origin/codex/lean-iv06
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5012867Z From https://github.com/sidneyholden1/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5014308Z  * [new ref]         23dd1e1727494efac35743826c0725ebc71942c6 -> origin/codex/lean-iv06
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5016593Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5017263Z ##[group]Determining the checkout info
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5018480Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5022608Z [command]/usr/bin/git sparse-checkout disable
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5065931Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5088954Z ##[group]Checking out the ref
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.5092272Z [command]/usr/bin/git checkout --progress --force -B codex/lean-iv06 refs/remotes/origin/codex/lean-iv06
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9899900Z Switched to a new branch 'codex/lean-iv06'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9903275Z branch 'codex/lean-iv06' set up to track 'origin/codex/lean-iv06'.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9919017Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9955134Z [command]/usr/bin/git log -1 --format=%H
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9973534Z 23dd1e1727494efac35743826c0725ebc71942c6
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9980311Z ##[group]Removing auth
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:08.9983099Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0007104Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0165814Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0185067Z http.https://github.com/.extraheader
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0190167Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0212309Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0362750Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0381828Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0527596Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0673390Z ##[group]Run python3 -m pip install -r tools/lean/requirements.txt
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0673842Z ^[[36;1mpython3 -m pip install -r tools/lean/requirements.txt^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0674253Z ^[[36;1mpython3 tools/lean/validate_manifest.py "$LEAN_PROJECT"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0697949Z shell: /usr/bin/bash -e {0}
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0698255Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0698585Z   LEAN_PROJECT: intervals-and-absolute-value-equations/IV-06/lean
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:09.0698955Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:12.1211339Z Defaulting to user installation because normal site-packages is not writeable
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.0149900Z Collecting PyYAML==6.0.3 (from -r tools/lean/requirements.txt (line 1))
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.0865451Z   Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.1285616Z Collecting jsonschema==4.26.0 (from -r tools/lean/requirements.txt (line 2))
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.1462632Z   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.1589900Z Requirement already satisfied: attrs>=22.2.0 in /usr/lib/python3/dist-packages (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2)) (23.2.0)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.1874853Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2))
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.2025367Z   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.2422553Z Collecting referencing>=0.28.4 (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2))
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.2575643Z   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.5055797Z Collecting rpds-py>=0.25.0 (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2))
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.5212224Z   Downloading rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.5428390Z Requirement already satisfied: typing-extensions>=4.4.0 in /usr/lib/python3/dist-packages (from referencing>=0.28.4->jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2)) (4.10.0)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.5605813Z Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.6565573Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 8.6 MB/s eta 0:00:00
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.6719061Z Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.6843593Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 7.4 MB/s eta 0:00:00
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.6999410Z Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.7175032Z Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.7355592Z Downloading rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (366 kB)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.7443662Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 366.2/366.2 kB 49.2 MB/s eta 0:00:00
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:14.9402011Z Installing collected packages: rpds-py, PyYAML, referencing, jsonschema-specifications, jsonschema
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.0590330Z Successfully installed PyYAML-6.0.3 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 referencing-0.37.0 rpds-py-2026.6.3
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2420041Z Manifest schema and comparator coverage: PASS (4 declarations)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2613200Z ##[group]Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2613586Z with:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2613847Z   go-version: 1.27.1
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2614084Z   cache: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2614311Z   check-latest: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2616067Z   token: ***
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.2616283Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.3521603Z Setup go version spec 1.27.1
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:15.3529243Z Attempting to download 1.27.1...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:16.0679732Z matching 1.27.1...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:16.0699184Z Acquiring 1.27.1 from https://github.com/actions/go-versions/releases/download/1.27.1-33583469715/go-1.27.1-linux-x64.tar.gz
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:16.6095282Z Extracting Go...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:16.6170507Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/a1123289-6be5-41cd-b434-115c4e67f7e4 -f /home/runner/work/_temp/02633c20-ed78-487f-b1cb-2b8cdbc8939f
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:17.8812644Z Successfully extracted go to /home/runner/work/_temp/a1123289-6be5-41cd-b434-115c4e67f7e4
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:17.8813108Z Adding to the cache ...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:23.3174441Z Successfully cached go to /opt/hostedtoolcache/go/1.27.1/x64
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:23.3175074Z Added go to the path
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:23.3192049Z Successfully set up Go version 1.27.1
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:23.3330299Z go version go1.27.1 linux/amd64
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:23.3330565Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:23.3330908Z ##[group]go env
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4286896Z AR='ar'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4287446Z CC='gcc'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4287774Z CGO_CFLAGS='-O2 -g'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4288145Z CGO_CPPFLAGS=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4288462Z CGO_CXXFLAGS='-O2 -g'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4288856Z CGO_ENABLED='1'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4289172Z CGO_FFLAGS='-O2 -g'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4289454Z CGO_LDFLAGS='-O2 -g'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4289766Z CXX='g++'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4290045Z GCCGO='gccgo'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4290297Z GO111MODULE=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4290635Z GOAMD64='v1'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4290882Z GOARCH='amd64'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4291253Z GOAUTH='netrc'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4291539Z GOBIN='/home/runner/go/bin'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4292026Z GOCACHE='/home/runner/.cache/go-build'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4293510Z GOCACHEPROG=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4293793Z GODEBUG=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4294101Z GOENV='/home/runner/.config/go/env'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4294455Z GOEXE=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4294719Z GOEXPERIMENT=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4295022Z GOFIPS140='off'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4295299Z GOFLAGS=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4296102Z GOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build4134681652=/tmp/go-build -gno-record-gcc-switches'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4297098Z GOHOSTARCH='amd64'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4297369Z GOHOSTOS='linux'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4297672Z GOINSECURE=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4297934Z GOMOD='/dev/null'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4298218Z GOMODCACHE='/home/runner/go/pkg/mod'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4298580Z GONOPROXY=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4298844Z GONOSUMDB=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4299135Z GOOS='linux'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4299406Z GOPACKAGESDRIVER=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4299694Z GOPATH='/home/runner/go'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4300027Z GOPRIVATE=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4300368Z GOPROXY='https://proxy.golang.org,direct'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4300786Z GOROOT='/opt/hostedtoolcache/go/1.27.1/x64'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4301158Z GOSUMDB='sum.golang.org'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4301462Z GOTELEMETRY='local'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4301825Z GOTELEMETRYDIR='/home/runner/.config/go/telemetry'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4302440Z GOTMPDIR=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4302712Z GOTOOLCHAIN='local'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4303117Z GOTOOLDIR='/opt/hostedtoolcache/go/1.27.1/x64/pkg/tool/linux_amd64'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4303554Z GOVCS=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4303839Z GOVERSION='go1.27.1'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4304126Z GOWORK=''
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4304406Z PKG_CONFIG='pkg-config'
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4304586Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4305061Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4585263Z ##[group]Run leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4585693Z with:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4586059Z   lake-package-directory: intervals-and-absolute-value-equations/IV-06/lean
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4586476Z   auto-config: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4586762Z   build: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4587008Z   test: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4587255Z   lint: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4587506Z   use-mathlib-cache: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4587769Z   use-github-cache: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4588105Z   mk_all-check: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4588384Z   check-reservoir-eligibility: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4588691Z   leanchecker: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4588944Z   lean4checker: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4589194Z   nanoda: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4589489Z   nanoda-allow-sorry: true
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4589759Z   axiom-audit: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4590072Z   axiom-audit-allow: propext,Classical.choice,Quot.sound
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4590628Z   reinstall-transient-toolchain: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4591005Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4591237Z   GOTOOLCHAIN: local
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4591470Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4654565Z ##[start-action display=install elan;id=__leanprover_lean-action.__run]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4675996Z ##[group]Run : Install Elan
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4676304Z ^[[36;1m: Install Elan^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4676588Z ^[[36;1m${GITHUB_ACTION_PATH}/scripts/install_elan.sh^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4700009Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4700413Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4700650Z   GOTOOLCHAIN: local
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4700946Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.4794495Z ##[group]Elan Installation Output
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:24.6997508Z info: downloading installer
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:26.0034376Z info: downloading https://releases.lean-lang.org/lean4/v4.33.1/lean-4.33.1-linux.tar.zst
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:31.7703970Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.33.1
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.2986813Z Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3297207Z Lake version 5.0.0-src+819816b (Lean version 4.33.1)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3315083Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3315478Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3334319Z ##[end-action id=__leanprover_lean-action.__run;outcome=success;conclusion=success;duration_ms=15867]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3338996Z ##[start-action display=configure `lean-action`;id=__leanprover_lean-action.config]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3353422Z ##[group]Run : Configure Lean Action
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3353762Z ^[[36;1m: Configure Lean Action^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3354066Z ^[[36;1m${GITHUB_ACTION_PATH}/scripts/config.sh^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3374390Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3374722Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3374943Z   GOTOOLCHAIN: local
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3375192Z   AUTO_CONFIG: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3375436Z   BUILD: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3375653Z   TEST: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3375916Z   LINT: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3376125Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3728031Z ##[group]Configure lean-action
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3766057Z ##[end-action id=__leanprover_lean-action.config;outcome=success;conclusion=success;duration_ms=42]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3770145Z ##[start-action display=reinstall transient toolchain;id=__leanprover_lean-action.__run_2]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3775746Z ##[end-action id=__leanprover_lean-action.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3778255Z ##[start-action display=ensure all files are imported;id=__leanprover_lean-action.mk_all]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3781778Z ##[end-action id=__leanprover_lean-action.mk_all;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3783919Z ##[start-action display=Run actions/cache/restore@v5;id=__leanprover_lean-action.__actions_cache]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3787336Z ##[end-action id=__leanprover_lean-action.__actions_cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3788865Z ##[start-action display=detect mathlib;id=__leanprover_lean-action.detect-mathlib]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3792135Z ##[end-action id=__leanprover_lean-action.detect-mathlib;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3793829Z ##[start-action display=get mathlib cache;id=__leanprover_lean-action.__run_3]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3812517Z ##[end-action id=__leanprover_lean-action.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3831526Z ##[start-action display=build sidneyholden1/OpenProblemsInNLA;id=__leanprover_lean-action.build]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3836453Z ##[end-action id=__leanprover_lean-action.build;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3838157Z ##[start-action display=Run actions/cache/save@v5;id=__leanprover_lean-action.__actions_cache_2]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3841224Z ##[end-action id=__leanprover_lean-action.__actions_cache_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3844186Z ##[start-action display=test sidneyholden1/OpenProblemsInNLA;id=__leanprover_lean-action.test]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3848179Z ##[end-action id=__leanprover_lean-action.test;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3850302Z ##[start-action display=lint sidneyholden1/OpenProblemsInNLA;id=__leanprover_lean-action.lint]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3854625Z ##[end-action id=__leanprover_lean-action.lint;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3856204Z ##[start-action display=check reservoir eligibility;id=__leanprover_lean-action.__run_4]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3859353Z ##[end-action id=__leanprover_lean-action.__run_4;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3861498Z ##[start-action display=check environment with leanchecker;id=__leanprover_lean-action.__run_5]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3866231Z ##[end-action id=__leanprover_lean-action.__run_5;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3868116Z ##[start-action display=check environment with nanoda;id=__leanprover_lean-action.nanoda]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3871105Z ##[end-action id=__leanprover_lean-action.nanoda;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3873411Z ##[start-action display=audit axioms with axiom-audit;id=__leanprover_lean-action.axiom-audit]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3876465Z ##[end-action id=__leanprover_lean-action.axiom-audit;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3918653Z ##[group]Run sudo apt-get update
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3918991Z ^[[36;1msudo apt-get update^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3919296Z ^[[36;1msudo apt-get install -y bubblewrap dbus-user-session^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3919657Z ^[[36;1msudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3920180Z ^[[36;1msudo loginctl enable-linger "$(id -un)"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3920527Z ^[[36;1msudo systemctl start "user@$(id -u).service"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3920885Z ^[[36;1mecho "XDG_RUNTIME_DIR=/run/user/$(id -u)" >> "$GITHUB_ENV"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3921399Z ^[[36;1mecho "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus" >> "$GITHUB_ENV"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3936515Z shell: /usr/bin/bash -e {0}
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3936810Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3937033Z   GOTOOLCHAIN: local
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.3937266Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.6863493Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.7595752Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.7612765Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.8102184Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.8121319Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.8122244Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.8799060Z Get:7 https://dl.google.com/linux/chrome-stable/deb stable InRelease [2548 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:40.9451469Z Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1263 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.0224527Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.0360764Z Get:19 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [414 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.1125424Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.1240652Z Get:28 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [463 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.1474401Z Get:29 https://dl.google.com/linux/chrome-stable/deb stable/main amd64 Packages [1413 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.1674184Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1691 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.3484526Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [339 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.3555361Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.3852453Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1544 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.4598931Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [354 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.4619263Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.4652210Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5772 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.5166299Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.5350574Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1006 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.5549386Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [213 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.5653637Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.5773796Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1206 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.6860171Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [242 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.6950805Z Get:25 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.6983928Z Get:26 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1445 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:41.7154981Z Get:27 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [336 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:49.3515604Z Fetched 11.9 MB in 1s (8455 kB/s)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:49.9602656Z Reading package lists...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:49.9848014Z Reading package lists...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.1129082Z Building dependency tree...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.1135364Z Reading state information...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3120807Z dbus-user-session is already the newest version (1.14.10-4ubuntu4.1).
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3121585Z dbus-user-session set to manually installed.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3122185Z The following NEW packages will be installed:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3126881Z   bubblewrap
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3271372Z 0 upgraded, 1 newly installed, 0 to remove and 50 not upgraded.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3272017Z Need to get 50.2 kB of archives.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3274078Z After this operation, 133 kB of additional disk space will be used.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3274510Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.3879406Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 bubblewrap amd64 0.9.0-1ubuntu0.1 [50.2 kB]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:50.7343429Z Fetched 50.2 kB in 0s (574 kB/s)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.0728169Z Selecting previously unselected package bubblewrap.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3633034Z (Reading database ... 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3633399Z (Reading database ... 5%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3633745Z (Reading database ... 10%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3634116Z (Reading database ... 15%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3634478Z (Reading database ... 20%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3634838Z (Reading database ... 25%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3635147Z (Reading database ... 30%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3635436Z (Reading database ... 35%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3635772Z (Reading database ... 40%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3636093Z (Reading database ... 45%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.3636394Z (Reading database ... 50%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:51.4197911Z (Reading database ... 55%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:52.1843267Z (Reading database ... 60%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:52.6419150Z (Reading database ... 65%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:52.9849511Z (Reading database ... 70%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:53.7466390Z (Reading database ... 75%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:54.7497341Z (Reading database ... 80%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:55.7011083Z (Reading database ... 85%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.2200983Z (Reading database ... 90%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.6321348Z (Reading database ... 95%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.6322127Z (Reading database ... 100%
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.6322469Z (Reading database ... 201818 files and directories currently installed.)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.6363577Z Preparing to unpack .../bubblewrap_0.9.0-1ubuntu0.1_amd64.deb ...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.6484102Z Unpacking bubblewrap (0.9.0-1ubuntu0.1) ...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.8708667Z Setting up bubblewrap (0.9.0-1ubuntu0.1) ...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.9520652Z Processing triggers for man-db (2.12.0-4build2) ...
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:56.9548913Z Not building database; man-db/auto-update is not 'true'.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4054171Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4055097Z Running kernel seems to be up-to-date.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4055579Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4055728Z No services need to be restarted.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4055948Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4056089Z No containers need to be restarted.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4056332Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4056472Z No user sessions are running outdated binaries.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4056767Z 
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:18:59.4057045Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.0860021Z kernel.apparmor_restrict_unprivileged_userns = 0
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1091183Z ##[group]Run ulimit -n 65536
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1091587Z ^[[36;1mulimit -n 65536^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1092708Z ^[[36;1mtools/lean/bootstrap.sh "$RUNNER_TEMP/nla-lean-tools"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1093208Z ^[[36;1mtools/lean/verify.sh "$LEAN_PROJECT" "$RUNNER_TEMP/nla-lean-tools"^[[0m
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1113767Z shell: /usr/bin/bash -e {0}
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1114053Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1114307Z   GOTOOLCHAIN: local
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1114567Z   XDG_RUNTIME_DIR: /run/user/1001
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1114866Z   DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1001/bus
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1115248Z   LEAN_PROJECT: intervals-and-absolute-value-equations/IV-06/lean
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.1115701Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4588926Z Lean verification precondition/check failed: <urlopen error [Errno 104] Connection reset by peer>
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4749103Z ##[error]Process completed with exit code 2.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4807722Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4808804Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4809157Z with:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4809400Z   name: lean-IV-06
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4809696Z   path: /home/runner/work/_temp/nla-lean-tools/logs/
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4810043Z   if-no-files-found: warn
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4810303Z   compression-level: 6
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4810554Z   overwrite: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4810825Z   include-hidden-files: false
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4811079Z env:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4811328Z   GOTOOLCHAIN: local
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4811573Z   XDG_RUNTIME_DIR: /run/user/1001
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4812208Z   DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1001/bus
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.4812554Z ##[endgroup]
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6077923Z (node:2756) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6078564Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6104293Z ##[warning]No files were found with the provided path: /home/runner/work/_temp/nla-lean-tools/logs/. No artifacts will be uploaded.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6244584Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6245620Z Post job cleanup.
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6920046Z [command]/usr/bin/git version
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6955904Z git version 2.55.0
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6987174Z Temporarily overriding HOME='/home/runner/work/_temp/b3135ef4-19da-4a63-b643-48da5a0eb9db' before making global git config changes
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6987759Z Adding repository directory to the temporary git global config as a safe directory
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.6992107Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7023318Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7049960Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7228874Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7269835Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7442302Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7463370Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7750953Z Cleaning up orphan processes
+verify (IV-06, intervals-and-absolute-value-equations/IV-06/lean)	UNKNOWN STEP	2026-09-14T04:19:00.7940463Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

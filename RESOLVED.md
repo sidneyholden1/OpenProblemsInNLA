@@ -635,13 +635,18 @@ Seven exact targets are classified below. Independent agent review is not extern
 
 [Complete manuscript](references/colbrook-intervals-2026-09-11/manuscripts/IV-05.pdf); [full independent agent review](references/colbrook-intervals-2026-09-11/verification/reviews/IV-05-review.md).
 
-### IV-06 - Negative resolution
+### 🏆 IV-06 - Lean-verified negative resolution
 
 [Original statement](intervals-and-absolute-value-equations/IV-06/README.md). **Solved, recorded 2026-09-11.** Matthew J. Colbrook (University of Cambridge). Theorem 1 gives a $3\times3$ independent-entry interval matrix with at least four components in its real eigenvalue set. Four exact integer eigenpairs at $-3,0,3,25$ and excluded separators $-1,1,12$ refute the universal at-most-$n$ conjecture. No symmetry assumption is introduced, and locating every component endpoint is unnecessary.
 
 [Complete manuscript](references/colbrook-intervals-2026-09-11/manuscripts/IV-06.pdf); [full independent agent review](references/colbrook-intervals-2026-09-11/verification/reviews/IV-06-review.md).
 
+**Lean verification — 14 September 2026.** Sidney Holden, with OpenAI Codex assistance, formalized the complete original counterexample; Matthew J. Colbrook retains mathematical authorship. Four exports prove exact real eigenvalue inclusions, separator exclusions, at least four actual connected components, and negation of the universal bound. Two independent statement and two independent proof reviews, kernel-only LeanCert, standard-axiom audits, and [isolated Linux Comparator/kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34805467886) passed at [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/23dd1e1727494efac35743826c0725ebc71942c6/intervals-and-absolute-value-equations/IV-06/lean). [Original artifact, checked inputs and independent operational audit](intervals-and-absolute-value-equations/IV-06/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md). No external human peer review or source-author endorsement is claimed.
+
 ## Reviewed discrepancy submission - 2026-09-11
+
+
+
 
 ### MD-06 - negative resolution by Matthew J. Colbrook
 

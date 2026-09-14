@@ -50,12 +50,9 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external
     human peer review or source-author endorsement is claimed.
 status:
-  scope: Complete original negative answer Lean verified. Local compilation, all four standard-axiom
-    audits, two independent statement reviews and two independent final proof reviews passed. Actual
-    isolated Linux Comparator and default-kernel replay, including per-project sandbox and rejection
-    controls, passed in run 34805467886 attempt 2 at proof commit 23dd1e1727494efac35743826c0725ebc71942c6.
-    Original 26 checked inputs and artifact are retained in verification/linux-2026-09-14. The first
-    attempt failed on a checker-download connection reset before proof execution.
+  scope: Complete original negative answer proved. Local Lean compilation, all four exported transitive
+    axiom audits and two independent final AI proof reviews passed. Actual isolated Linux Comparator
+    execution is pending; canonical status remains Solved.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms:
@@ -106,7 +103,7 @@ fidelity:
     same parameter bounds and separators. No symmetry or spectral assumption is added. At least four
     components are proved; exact endpoints and exact component count are not asserted.
 review:
-  status: agent-reviewed; Linux-Comparator-passed
+  status: statement-and-proof-agent-reviewed; Linux-Comparator-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
@@ -115,12 +112,7 @@ review:
     re-elaborated the proof and inspected actual axiom closure and the LeanCert proof term; no proof
     defects found. All four exports use only propext, Classical.choice and Quot.sound. Four intentional
     Challenge placeholders are excluded from proof sorry counts and are never imported by Solution.
-    Actual isolated Linux Comparator and default-kernel replay passed on attempt 2. Publication updates
-    README and this manifest; proof sources, frozen definitions and Challenge remain unchanged from
-    the verified revision.
-  verification_run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34805467886
-  verified_proof_commit: 23dd1e1727494efac35743826c0725ebc71942c6
-  evidence: verification/linux-2026-09-14/OPERATIONAL-REVIEW.md
+    Actual isolated Linux Comparator remains pending.
 alignment:
 - source: Four integer eigenpairs from the source table
   declarations:

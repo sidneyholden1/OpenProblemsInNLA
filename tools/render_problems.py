@@ -58,6 +58,9 @@ def render(source):
         # Keep the unchanged original target together after its resolution notice.
         # This PDF-only layout instruction should not appear on the GitHub page.
         body = body.replace("## Context and notation\n", "\\newpage\n\n## Context and notation\n", 1)
+    if identifier == "IV-06":
+        # Keep the retained interval-family target together after the verification notice.
+        body = body.replace("## Problem statement\n", "\\newpage\n\n## Problem statement\n", 1)
     if identifier in {"SP-13", "IE-26"}:
         # Keep the complete retained target together after its resolution notice.
         body = body.replace("## Statement\n", "\\newpage\n\n## Statement\n", 1)
