@@ -1,0 +1,13 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "tensor-computations/TR-15/README.md",
+  "canonical_exists_at_observed_older_main": true,
+  "older_canonical_sha256": "669a0c7f53e5b94fc20d2cb1a8ebaf8c4b7071e38d2a33d78b3f693229cd5a1e",
+  "preserved_canonical_sha256": "7979d193949dd8ef3545e55a1c9535bfdaaefac91f435b5066c23e83c4e4cf50",
+  "canonical_target_section_byte_identical": false,
+  "provenance": "Use existing authored snapshot preserved in earlier published branch ancestry, not current main. Where the older main has no canonical page, no cross-revision target equality is claimed. Original mathematical and formalization credits unchanged.",
+  "coordinator_target_review": "Coordinator read both complete target sections; only Markdown/LaTeX rendering or whitespace changed. Mathematical fields, quantifiers, hypotheses and conclusions agree.",
+  "mathematical_target_equivalent_across_revisions": true
+}
