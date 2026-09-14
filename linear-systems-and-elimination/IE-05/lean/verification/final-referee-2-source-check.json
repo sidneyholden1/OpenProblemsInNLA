@@ -1,0 +1,81 @@
+{
+  "NLA/IE05/Definitions.lean": {
+    "sha256": "39e5c319afb8d8b18b4c60518a3be0f79381416b2e5340b18cf3485a7b0528e6",
+    "snapshot_matches": true,
+    "frozen_matches": true
+  },
+  "Challenge.lean": {
+    "sha256": "d9ee825a21016cd86c1d507e32f117bfd3039e6bb94e84597d35ec74f8911a0a",
+    "snapshot_matches": true,
+    "frozen_matches": true
+  },
+  "NUMERICAL_TARGETS.md": {
+    "sha256": "349088fa17814d5122d1bcd9769adb9dfbd67b7424f59ab869a73100658c4241",
+    "snapshot_matches": true,
+    "frozen_matches": true
+  },
+  "NLA/IE05/Bounds.lean": {
+    "sha256": "5372fb039987ccb138b944e02789f0ac8904f34ad8f4b8419edd953eb20a6e60",
+    "snapshot_matches": true
+  },
+  "NLA/IE05/IntegerCertificates.lean": {
+    "sha256": "73b7db5e17bd3cf3851b02d74b22742d78a6bcc0d2a7a8177d75c397fbd9c39f",
+    "snapshot_matches": true
+  },
+  "NLA/IE05/RealCertificates.lean": {
+    "sha256": "324d36d1ae11af5c611970b85ee4e50a064d835a73f1623f8adbc3c21a13c4f3",
+    "snapshot_matches": true
+  },
+  "NLA/IE05/Proof.lean": {
+    "sha256": "e7b19bce4ab022283190239bf489d6346a7f018a23fbe8876fd7fdfcd06f20bb",
+    "snapshot_matches": true
+  },
+  "Solution.lean": {
+    "sha256": "24c59beb585cf9ac0b8d4614773b4a9b0ed6dbb0f20c24bf9105c9ad750d07ed",
+    "snapshot_matches": true
+  },
+  "comparator.json": {
+    "sha256": "26518dfeeefdf7a8a293eaf5ad06b2cec04789e8cd6f82a2c9f9e104915109f8",
+    "snapshot_matches": true
+  },
+  "lakefile.toml": {
+    "sha256": "eddadc9ee1b75205a57c70e03e8a1a9ddcaab15a0ff50335445446f9c7add352",
+    "snapshot_matches": true
+  },
+  "lake-manifest.json": {
+    "sha256": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+    "snapshot_matches": true
+  },
+  "lean-toolchain": {
+    "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "snapshot_matches": true
+  },
+  "formalization.yaml": {
+    "sha256": "9ce0fd1b574b07266dce5ef5cd34445bbdc42875812792ffbd28087077fa222b",
+    "snapshot_matches": true
+  },
+  "README.md": {
+    "sha256": "51b81f694395f036b3b58f94409cd8f42547edf5317da70a9c4b7aa1ba17a568",
+    "snapshot_matches": true
+  },
+  "verification/final-build.log": {
+    "sha256": "f8aba8e4bb64f11855d9150fda8cf8152cd1037495d4bc8f562bb801ed0779a0",
+    "snapshot_matches": true
+  },
+  "verification/AxiomAudit.lean": {
+    "sha256": "f21c603a53f2836a14b7e5eb05e8d5666cbfbdd80877d6bb84f2d0ed9289150c",
+    "snapshot_matches": true
+  },
+  "verification/axioms.log": {
+    "sha256": "f6d37b8de9f73484a5b3601552aebb013de1ab2bbae98bef8f9ac3140c8a7739",
+    "snapshot_matches": true
+  },
+  "canonical/README.md": {
+    "sha256": "b5e980fa1f171ac540465212341dfc589d4f34d33c0b59d54a520dd3b0a4f1f5",
+    "base_matches": true
+  },
+  "canonical/solution.md": {
+    "sha256": "1b94eda6df18066f2f09b66b8b28a18ca071c0c2fb070b536dc8c798992ae434",
+    "base_matches": true
+  }
+}

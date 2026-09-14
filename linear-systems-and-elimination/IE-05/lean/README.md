@@ -11,9 +11,17 @@ positive-diagonal QR factors, actual GEPP row swaps and Schur recurrences, the
 first-available tie rule for the displayed paths, and the genuine growth
 supremum over every orthogonal input and admissible tie path.
 
-Status: statements elaborate (2380 jobs), exact integer/Fraction prechecks pass;
-both independent statement reviews passed. No proof body or completed verification
-is claimed. See `NUMERICAL_TARGETS.md` for scope and computation reductions.
+Status: the full local Lean 4.33.1 build passes (3581 jobs); all four exports
+pass kernel trust checks with only the three standard axioms. Exact prechecks
+and both independent frozen-statement reviews passed. Independent final proof
+reviews and actual isolated Linux Comparator verification are pending.
+See `NUMERICAL_TARGETS.md` for scope and computation reductions.
+
+The proof factors all square roots by column, checks integer Gram/QR/LU
+certificates in Lean’s kernel, and bounds only the entries needed for a strict
+growth gap. Two rational point inequalities use LeanCert with kernel trust.
+A general GEPP growth bound proves the actual supremum bounded; the explicit
+orthogonal witness proves nonemptiness. No numerical oracle is assumed.
 
 `formalization.yaml` follows the pinned official v0.4 schema. Comparator selects
 all four targets, no definition holes, only the three standard Lean axioms.
