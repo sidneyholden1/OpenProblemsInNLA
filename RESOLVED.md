@@ -457,9 +457,11 @@ historical and the entry no longer contributes to the open count.
 
 **Author:** Matthew J. Colbrook, Department of Applied Mathematics and Theoretical Physics, University of Cambridge. Three independent Codex agents reviewed thirteen complete arguments, with one PASS report per argument. Ten resolve their exact targets and three establish the partial results below. [Authorship, exact scopes, original proofs and reviews](references/colbrook-matrix-2026-09-11/README.md). Verification is independent agent review; the original drafts were AI-assisted.
 
-#### MI-03 — affirmative result
+#### 🏆 MI-03 — Lean-verified affirmative result
 
-[Canonical entry](matrix-inequalities-and-norms/MI-03/README.md) · [Complete proof](matrix-inequalities-and-norms/MI-03/solution.pdf) · [Independent review](references/colbrook-matrix-2026-09-11/verification/reviews/MI-03-review.md). **Theorem 1.1 and its proof.** The sharp additive contraction constant is $c_k=k/4$ for every $k\ge2$, including every odd summand count. Exact dimension-two extremizers match the universal upper bound. 
+[Canonical entry](matrix-inequalities-and-norms/MI-03/README.md) · [Complete proof](matrix-inequalities-and-norms/MI-03/solution.pdf) · [Independent review](references/colbrook-matrix-2026-09-11/verification/reviews/MI-03-review.md). **Theorem 1.1 and its proof.** The sharp additive contraction constant is $c_k=k/4$ for every $k\ge2$, including every odd summand count. Exact dimension-two extremizers match the universal upper bound.
+
+**Lean verification — 14 September 2026.** The complete original odd-summand conjecture is proved and, more strongly, the sharp additive contraction constant is k/4 for every k≥2. The formalization uses the actual complex Euclidean operator norm, positive square-root matrix modulus and positive-semidefinite order, with genuine infima of nonempty sets bounded below and exact dimension-two extremizers. Matthew J. Colbrook retains mathematical authorship; Sidney Holden formalized the result with OpenAI Codex assistance. Both independent review phases, all-export standard-axiom audits, kernel-only LeanCert and [actual isolated Linux Comparator/kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862171380) passed at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/4602650e944c7221952554f495ff76c39c8b0708/matrix-inequalities-and-norms/MI-03/lean). [Original evidence and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi03/matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md). No external human peer review or source-author endorsement is claimed.
 
 #### MI-04 — affirmative result
 

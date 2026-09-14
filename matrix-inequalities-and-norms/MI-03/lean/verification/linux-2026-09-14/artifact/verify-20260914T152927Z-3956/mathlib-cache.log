@@ -1,0 +1,122 @@
+$ lake exe cache get
+✔ [4/26] Built Cache.Cli (344ms)
+✔ [5/26] Built Cache.Lean (370ms)
+✔ [6/26] Built Cache.Cli:c.o (161ms)
+✔ [7/26] Built Cache.Lean:c.o (159ms)
+✔ [8/26] Built Cache.Infra (444ms)
+✔ [9/26] Built Cache.Infra:c.o (162ms)
+✔ [10/26] Built Batteries.Tactic.OpenPrivate (810ms)
+✔ [11/26] Built Batteries.Tactic.OpenPrivate:c.o (986ms)
+✔ [12/26] Built Cache.IO (1.1s)
+✔ [13/26] Built Cache.Hashing (662ms)
+✔ [14/26] Built Cache.Hashing:c.o (361ms)
+✔ [15/26] Built Cache.IO:c.o (1.3s)
+✔ [16/26] Built Cache.Requests (1.6s)
+✔ [17/26] Built Cache.Marker (514ms)
+✔ [18/26] Built Cache.Marker:c.o (146ms)
+✔ [19/26] Built Cache.Query (625ms)
+✔ [20/26] Built Cache.Query:c.o (240ms)
+✔ [21/26] Built Cache.Warning (701ms)
+✔ [22/26] Built Cache.Warning:c.o (282ms)
+✔ [23/26] Built Cache.Requests:c.o (2.3s)
+✔ [24/26] Built Cache.Main (999ms)
+✔ [25/26] Built Cache.Main:c.o (706ms)
+✔ [26/26] Built cache:exe (627ms)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Attempting to download 8690 file(s) from leanprover-community/mathlib4 cache at https://lakecache.blob.core.windows.net/mathlib4-master
+
+Downloaded: 1 file(s) [attempted 1/8690 = 0%, 19 KB/s], Decompressed: 0
+Downloaded: 71 file(s) [attempted 71/8690 = 0%, 424 KB/s], Decompressed: 29
+Downloaded: 147 file(s) [attempted 147/8690 = 1%, 149 KB/s], Decompressed: 78
+Downloaded: 239 file(s) [attempted 239/8690 = 2%, 1573 KB/s], Decompressed: 78
+Downloaded: 335 file(s) [attempted 335/8690 = 3%, 849 KB/s], Decompressed: 145
+Downloaded: 438 file(s) [attempted 438/8690 = 5%, 338 KB/s], Decompressed: 145
+Downloaded: 537 file(s) [attempted 537/8690 = 6%, 638 KB/s], Decompressed: 145
+Downloaded: 636 file(s) [attempted 636/8690 = 7%, 224 KB/s], Decompressed: 145
+Downloaded: 741 file(s) [attempted 741/8690 = 8%, 247 KB/s], Decompressed: 292
+Downloaded: 846 file(s) [attempted 846/8690 = 9%, 1362 KB/s], Decompressed: 292
+Downloaded: 958 file(s) [attempted 958/8690 = 11%, 85 KB/s], Decompressed: 292
+Downloaded: 1053 file(s) [attempted 1053/8690 = 12%, 493 KB/s], Decompressed: 292
+Downloaded: 1163 file(s) [attempted 1163/8690 = 13%, 1320 KB/s], Decompressed: 292
+Downloaded: 1259 file(s) [attempted 1259/8690 = 14%, 798 KB/s], Decompressed: 292
+Downloaded: 1359 file(s) [attempted 1359/8690 = 15%, 3105 KB/s], Decompressed: 292
+Downloaded: 1467 file(s) [attempted 1467/8690 = 16%, 518 KB/s], Decompressed: 292
+Downloaded: 1568 file(s) [attempted 1568/8690 = 18%, 386 KB/s], Decompressed: 292
+Downloaded: 1671 file(s) [attempted 1671/8690 = 19%, 139 KB/s], Decompressed: 686
+Downloaded: 1776 file(s) [attempted 1776/8690 = 20%, 1002 KB/s], Decompressed: 686
+Downloaded: 1884 file(s) [attempted 1884/8690 = 21%, 619 KB/s], Decompressed: 686
+Downloaded: 1987 file(s) [attempted 1987/8690 = 22%, 675 KB/s], Decompressed: 686
+Downloaded: 2081 file(s) [attempted 2081/8690 = 23%, 467 KB/s], Decompressed: 686
+Downloaded: 2188 file(s) [attempted 2188/8690 = 25%, 219 KB/s], Decompressed: 686
+Downloaded: 2296 file(s) [attempted 2296/8690 = 26%, 1504 KB/s], Decompressed: 686
+Downloaded: 2408 file(s) [attempted 2408/8690 = 27%, 1037 KB/s], Decompressed: 686
+Downloaded: 2509 file(s) [attempted 2509/8690 = 28%, 139 KB/s], Decompressed: 686
+Downloaded: 2612 file(s) [attempted 2612/8690 = 30%, 863 KB/s], Decompressed: 686
+Downloaded: 2717 file(s) [attempted 2717/8690 = 31%, 348 KB/s], Decompressed: 686
+Downloaded: 2822 file(s) [attempted 2822/8690 = 32%, 779 KB/s], Decompressed: 686
+Downloaded: 2930 file(s) [attempted 2930/8690 = 33%, 570 KB/s], Decompressed: 686
+Downloaded: 3035 file(s) [attempted 3035/8690 = 34%, 426 KB/s], Decompressed: 686
+Downloaded: 3141 file(s) [attempted 3141/8690 = 36%, 318 KB/s], Decompressed: 686
+Downloaded: 3212 file(s) [attempted 3212/8690 = 36%, 283 KB/s], Decompressed: 686
+Downloaded: 3315 file(s) [attempted 3315/8690 = 38%, 624 KB/s], Decompressed: 686
+Downloaded: 3429 file(s) [attempted 3429/8690 = 39%, 1187 KB/s], Decompressed: 686
+Downloaded: 3532 file(s) [attempted 3532/8690 = 40%, 1160 KB/s], Decompressed: 686
+Downloaded: 3635 file(s) [attempted 3635/8690 = 41%, 660 KB/s], Decompressed: 686
+Downloaded: 3743 file(s) [attempted 3743/8690 = 43%, 711 KB/s], Decompressed: 686
+Downloaded: 3848 file(s) [attempted 3848/8690 = 44%, 557 KB/s], Decompressed: 686
+Downloaded: 3946 file(s) [attempted 3946/8690 = 45%, 1077 KB/s], Decompressed: 686
+Downloaded: 4059 file(s) [attempted 4059/8690 = 46%, 969 KB/s], Decompressed: 686
+Downloaded: 4162 file(s) [attempted 4162/8690 = 47%, 146 KB/s], Decompressed: 1652
+Downloaded: 4269 file(s) [attempted 4269/8690 = 49%, 700 KB/s], Decompressed: 1652
+Downloaded: 4375 file(s) [attempted 4375/8690 = 50%, 966 KB/s], Decompressed: 1652
+Downloaded: 4491 file(s) [attempted 4491/8690 = 51%, 567 KB/s], Decompressed: 1652
+Downloaded: 4597 file(s) [attempted 4597/8690 = 52%, 523 KB/s], Decompressed: 1652
+Downloaded: 4704 file(s) [attempted 4704/8690 = 54%, 1922 KB/s], Decompressed: 1652
+Downloaded: 4768 file(s) [attempted 4768/8690 = 54%, 331 KB/s], Decompressed: 1652
+Downloaded: 4871 file(s) [attempted 4871/8690 = 56%, 1241 KB/s], Decompressed: 1652
+Downloaded: 4929 file(s) [attempted 4929/8690 = 56%, 680 KB/s], Decompressed: 1652
+Downloaded: 5041 file(s) [attempted 5041/8690 = 58%, 554 KB/s], Decompressed: 1652
+Downloaded: 5146 file(s) [attempted 5146/8690 = 59%, 411 KB/s], Decompressed: 1652
+Downloaded: 5247 file(s) [attempted 5247/8690 = 60%, 996 KB/s], Decompressed: 1652
+Downloaded: 5354 file(s) [attempted 5354/8690 = 61%, 491 KB/s], Decompressed: 1652
+Downloaded: 5471 file(s) [attempted 5471/8690 = 62%, 2010 KB/s], Decompressed: 1652
+Downloaded: 5588 file(s) [attempted 5588/8690 = 64%, 68 KB/s], Decompressed: 1652
+Downloaded: 5686 file(s) [attempted 5686/8690 = 65%, 1616 KB/s], Decompressed: 1652
+Downloaded: 5780 file(s) [attempted 5780/8690 = 66%, 470 KB/s], Decompressed: 1652
+Downloaded: 5865 file(s) [attempted 5865/8690 = 67%, 1218 KB/s], Decompressed: 1652
+Downloaded: 5963 file(s) [attempted 5963/8690 = 68%, 1349 KB/s], Decompressed: 1652
+Downloaded: 6062 file(s) [attempted 6062/8690 = 69%, 370 KB/s], Decompressed: 1652
+Downloaded: 6170 file(s) [attempted 6170/8690 = 71%, 667 KB/s], Decompressed: 1652
+Downloaded: 6270 file(s) [attempted 6270/8690 = 72%, 107 KB/s], Decompressed: 1652
+Downloaded: 6332 file(s) [attempted 6332/8690 = 72%, 129 KB/s], Decompressed: 1652
+Downloaded: 6429 file(s) [attempted 6429/8690 = 73%, 626 KB/s], Decompressed: 1652
+Downloaded: 6529 file(s) [attempted 6529/8690 = 75%, 301 KB/s], Decompressed: 1652
+Downloaded: 6621 file(s) [attempted 6621/8690 = 76%, 3525 KB/s], Decompressed: 1652
+Downloaded: 6721 file(s) [attempted 6721/8690 = 77%, 243 KB/s], Decompressed: 1652
+Downloaded: 6820 file(s) [attempted 6820/8690 = 78%, 1212 KB/s], Decompressed: 1652
+Downloaded: 6918 file(s) [attempted 6918/8690 = 79%, 3146 KB/s], Decompressed: 1652
+Downloaded: 6982 file(s) [attempted 6982/8690 = 80%, 859 KB/s], Decompressed: 1652
+Downloaded: 7085 file(s) [attempted 7085/8690 = 81%, 156 KB/s], Decompressed: 1652
+Downloaded: 7191 file(s) [attempted 7191/8690 = 82%, 586 KB/s], Decompressed: 1652
+Downloaded: 7291 file(s) [attempted 7291/8690 = 83%, 564 KB/s], Decompressed: 1652
+Downloaded: 7401 file(s) [attempted 7401/8690 = 85%, 404 KB/s], Decompressed: 1652
+Downloaded: 7461 file(s) [attempted 7461/8690 = 85%, 576 KB/s], Decompressed: 1652
+Downloaded: 7559 file(s) [attempted 7559/8690 = 86%, 139 KB/s], Decompressed: 1652
+Downloaded: 7671 file(s) [attempted 7671/8690 = 88%, 870 KB/s], Decompressed: 1652
+Downloaded: 7776 file(s) [attempted 7776/8690 = 89%, 3503 KB/s], Decompressed: 1652
+Downloaded: 7852 file(s) [attempted 7852/8690 = 90%, 754 KB/s], Decompressed: 1652
+Downloaded: 7951 file(s) [attempted 7951/8690 = 91%, 562 KB/s], Decompressed: 1652
+Downloaded: 8051 file(s) [attempted 8051/8690 = 92%, 1864 KB/s], Decompressed: 1652
+Downloaded: 8157 file(s) [attempted 8157/8690 = 93%, 647 KB/s], Decompressed: 1652
+Downloaded: 8251 file(s) [attempted 8251/8690 = 94%, 771 KB/s], Decompressed: 1652
+Downloaded: 8351 file(s) [attempted 8351/8690 = 96%, 1380 KB/s], Decompressed: 1652
+Downloaded: 8454 file(s) [attempted 8454/8690 = 97%, 1446 KB/s], Decompressed: 1652
+Downloaded: 8553 file(s) [attempted 8553/8690 = 98%, 1240 KB/s], Decompressed: 1652
+Downloaded: 8622 file(s) [attempted 8622/8690 = 99%, 798 KB/s], Decompressed: 1652
+Downloaded: 8688 file(s) [attempted 8688/8690 = 99%, 771 KB/s], Decompressed: 1652
+Downloaded: 8690 file(s) [attempted 8690/8690 = 100%, 771 KB/s], Decompressed: 1652
+Decompressed 8690 file(s)
+Already decompressed 8690 file(s)
+
+EXIT_STATUS=0

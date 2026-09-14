@@ -1,22 +1,44 @@
-# MI-03 Lean formalization
+# MI-03 Lean proof and verification evidence
 
-Local proof complete. Two independent statement approvals were frozen at
-`1546c3bf` before implementation. Solution compiles and all four exports pass
-LeanCert kernel-trust and standard-axiom audits. Both independent final proof reviews passed; actual isolated Linux Comparator
-verification remains pending.
-The canonical status remains Solved.
+The complete original target is Lean verified. The complete original odd-summand conjecture is proved and, more strongly, the sharp additive contraction constant is k/4 for every k≥2. The formalization uses the actual complex Euclidean operator norm, positive square-root matrix modulus and positive-semidefinite order, with genuine infima of nonempty sets bounded below and exact dimension-two extremizers.
 
-The target is the complete sharp additive triangle constant for all odd k≥3;
-the proof establishes k/4 for all k≥2 and genuine nonempty bounded
-infima. Norms use the actual Euclidean operator norm, modulus is the positive
-square root of AᴴA, and order is positive-semidefinite matrix order.
+Mathematical result: Matthew J. Colbrook. Formalization: Sidney Holden, Center for
+Computational Biology, Flatiron Institute, Simons Foundation, with OpenAI Codex
+assistance. Original source authors and library credits remain in formalization.yaml,
+NUMERICAL_TARGETS.md and the canonical page. No external human review or
+source-author endorsement is claimed.
 
-Mathematical proof: Matthew J. Colbrook. Original question and known upper
-bound: Bourin and Lee. Formalization: Sidney Holden with OpenAI Codex assistance.
-See NUMERICAL_TARGETS.md and the independent statement reviews. The optional
-Hermitian extremizer assertion is outside this formalization.
+The four checked exports are `NLA.MI03.upper_bound`, `NLA.MI03.sharpness`, `NLA.MI03.sharp_constant`, `NLA.MI03.odd_sharp_constant`.
+Both independent statement reviews preceded implementation, both final proof
+reviews PASS, and all exported transitive axiom closures contain only propext,
+Classical.choice and Quot.sound. LeanCert uses kernel trust. Exact algebra and
+finite certificates avoid unnecessary interval computation.
 
-Local compilation shares a pinned dependency cache. Authoritative verification
-requires a fresh isolated Linux Comparator run, kernel replay and rejection
-controls, as documented in tools/lean/HARNESS.md. No external human review,
-source-author endorsement or priority claim is asserted.
+## Reproduce the actual Linux verification
+
+The successful [Linux run](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862171380) checked immutable revision
+`4602650e944c7221952554f495ff76c39c8b0708`. Use non-root Linux with the documented isolation prerequisites
+in tools/lean/HARNESS.md, check out that revision, and run from the repository root:
+
+```sh
+tools/lean/bootstrap.sh /absolute/path/to/nla-lean-tools
+tools/lean/verify.sh matrix-inequalities-and-norms/MI-03/lean /absolute/path/to/nla-lean-tools
+```
+
+The verifier includes actual sandbox, raw-kernel and Comparator rejection
+controls before checking all four declarations. The original artifact, all
+29 exact checked inputs, receipt and independent operational audit are in
+verification/linux-2026-09-14. Local macOS builds are separate development checks.
+Later publication metadata is not represented as the original checked input.
+
+Toolchain: Lean 4.33.1. Mathlib is pinned at
+`0df444a360eaa60ab8c11dca51a86af692955474`; LeanCert at
+`621a43d7cf21f87872392a01e874f2f1dbddc926`. Comparator and its exporter follow
+the hash-locked shared tools/lean/source-lock.json. Exact HTTPS dependencies
+are committed in lake-manifest.json. Local development shares a pinned cache.
+
+The official v0.4 formalization.yaml and comparator.json select all four results
+with no replaceable definitions. Original statement and proof-review wrappers
+are preserved in reviews/statement-review-snapshot and reviews/proof-review-snapshot
+where applicable; original hash manifests remain unchanged. Shared provenance
+and licenses: tools/lean/NOTICE.md and the project LICENSE.

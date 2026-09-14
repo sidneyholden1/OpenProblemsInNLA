@@ -50,12 +50,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: The complete original odd-summand conjecture is proved and, more strongly, the sharp additive
-    contraction constant is k/4 for every k≥2. The formalization uses the actual complex Euclidean operator
-    norm, positive square-root matrix modulus and positive-semidefinite order, with genuine infima of
-    nonempty sets bounded below and exact dimension-two extremizers. All four exports passed fresh isolated
-    Linux Comparator and default-kernel checks, rejection controls, local kernel build, and both independent
-    review phases. Original evidence and independent operational audit retained.
+  scope: Complete original odd-summand target proved, via stronger equality for every integer k≥2. Local
+    Lean compilation, LeanCert kernel-trust checks, all four exported axiom audits and two independent
+    final AI proof reviews passed. Actual isolated Linux Comparator verification is pending. Canonical
+    status remains Solved.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms:
@@ -105,17 +103,16 @@ fidelity:
     are not advertised. Exact phase families with zero sum may replace exponential coordinates without
     changing mathematical targets.
 review:
-  status: statement-and-proof-agent-reviewed; isolated-linux-verified
+  status: statement-and-proof-agent-reviewed; Linux-Comparator-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Both independent statement reviews passed before proof implementation; both independent final
-    reviewers replayed the proof and checked its full declared scope, source hashes and all four exported
-    axiom closures. Actual isolated Linux Comparator/default-kernel verification and rejection controls
-    passed at 4602650e944c7221952554f495ff76c39c8b0708 in run 34862171380. The original artifact, exact
-    tested inputs and independent operational PASS report are retained in verification/linux-2026-09-14.
-    Historical statement and proof-review metadata remain unchanged in their archived snapshots. No human
-    review or author endorsement is asserted. The complete original target is covered.
+  notes: Two independent statement approvals were frozen at commit 1546c3bf before implementation. Both
+    independent final referees re-elaborated the proof and checked all four exported axiom closures, finding
+    no defects. Actual isolated Linux Comparator replay remains pending. Four intentional Challenge placeholders
+    are excluded from proof sorry counts and never imported by Solution. Later README/metadata status
+    updates reflect the completed reviews; their exact pre-update reviewed bytes are retained in reviews/proof-review-snapshot.
+    Mathematical sources and configuration remain unchanged.
 alignment:
 - source: Universal upper bound in all complex matrix dimensions
   declarations:

@@ -1,0 +1,68 @@
+NLA/MI03/Proof.lean:60:64: warning: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hsq, sq, sub_mul, mul_sub, mul_smul_comm, smul_mul_assoc, mul_one, one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:83:85: warning: This simp argument is unused:
+  star_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [phaseMatrix, E, Matrix.mul_apply, Fin.sum_univ_two, Matrix.star_eq_conjTranspose,
+    Matrix.conjTranspose_apply, map_mul, map_div₀, map_ofNat, ← starRingEnd_apply, Complex.star_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:83:97: warning: This simp argument is unused:
+  Complex.star_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [phaseMatrix, E, Matrix.mul_apply, Fin.sum_univ_two, Matrix.star_eq_conjTranspose,
+    Matrix.conjTranspose_apply, map_mul, map_div₀, map_ofNat, ← starRingEnd_apply, star_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:95:45: warning: This simp argument is unused:
+  Matrix.star_eq_conjTranspose
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [E, Matrix.conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:95:75: warning: This simp argument is unused:
+  Matrix.conjTranspose_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [E, Matrix.star_eq_conjTranspose]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:123:85: warning: This simp argument is unused:
+  star_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [phaseMatrix, Matrix.mul_apply, Fin.sum_univ_two, Matrix.star_eq_conjTranspose,
+    Matrix.conjTranspose_apply, map_mul, map_div₀, map_ofNat, ← starRingEnd_apply, Complex.star_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:123:97: warning: This simp argument is unused:
+  Complex.star_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [phaseMatrix, Matrix.mul_apply, Fin.sum_univ_two, Matrix.star_eq_conjTranspose,
+    Matrix.conjTranspose_apply, map_mul, map_div₀, map_ofNat, ← starRingEnd_apply, star_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI03/Proof.lean:145:82: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI03/Proof.lean:167:4: error: Type mismatch: After simplification, term
+  hd
+ has type
+  @Nat.cast ℂ Complex.instNatCast k / 4 ≤ ↑c
+but is expected to have type
+  @Nat.cast ℝ Real.instNatCast k / 4 ≤ c
+NLA/MI03/Proof.lean:187:21: error: #assert_trust: 'NLA.MI03.sharp_constant' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+NLA/MI03/Proof.lean:188:21: error: #assert_trust: 'NLA.MI03.odd_sharp_constant' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
