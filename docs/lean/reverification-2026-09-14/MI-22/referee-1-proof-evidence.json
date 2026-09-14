@@ -1,0 +1,298 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "c08c30f050524f79ef2cdbb001babcd0e93876ba",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/Solution.lean",
+      "sha256": "6b37f8df6544f93df123dc746db24c3b3ccd4c6a3e318732ef09946d639e556c",
+      "lines": 109
+    },
+    "NLA.MI22.Proof": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/Proof.lean",
+      "sha256": "9d5140c36dd23c4d726e1f2855cfe4ade18999f868c2df7e7f784eab2bc08c9c",
+      "lines": 138
+    },
+    "NLA.MI22.SingularValues": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/SingularValues.lean",
+      "sha256": "c942fff572f2dc939348499e0b515d93d25abe11b5d589e76af5577d98bc542f",
+      "lines": 80
+    },
+    "NLA.MI22.Norms": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/Norms.lean",
+      "sha256": "1c83c4e72f57ee06fc74ef0265e5b3947ed9af8dececd52b8809fcb919f9835f",
+      "lines": 88
+    },
+    "NLA.MI22.FunctionalCalculus": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/FunctionalCalculus.lean",
+      "sha256": "6141b8c119733278b6834d04a91a7b2ba5d35530c229fbc269b4189eed15e62d",
+      "lines": 69
+    },
+    "NLA.MI22.Definitions": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/Definitions.lean",
+      "sha256": "3a9398c2da3be1c71fd59de483042153cae1af55226f4b61ca9d7bd977ffd8f8",
+      "lines": 119
+    },
+    "NLA.MI22.ExactData": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/ExactData.lean",
+      "sha256": "9ca45e5514696f97481169d2c2ac2f4dafd7a1d572a71a0f74e648783c9b1873",
+      "lines": 120
+    },
+    "NLA.MI22.Witness": {
+      "path": "matrix-inequalities-and-norms/MI-22/lean/NLA/MI22/Witness.lean",
+      "sha256": "378a5be902ff4cd0a59555de93b3315da9a49c72f69250d9294860d110ca1ff9",
+      "lines": 169
+    }
+  },
+  "all_active_bytes_equal_base_candidate_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "Mathlib.Analysis.CStarAlgebra.Matrix",
+    "Mathlib.Analysis.InnerProductSpace.SingularValues",
+    "Mathlib.Analysis.Matrix.Normed",
+    "Mathlib.Analysis.Matrix.Order",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring"
+  ],
+  "additional_mathlib_apis_read_sha256": {
+    "Mathlib/Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Basic.lean": "5c87ec96e95be9c21e52857acc4892f9a6b7e69d7358f8d6fbbef93b0d249ef7",
+    "Mathlib/Analysis/CStarAlgebra/Basic.lean": "b794153a478961a702212ea09d8eb777f44b07bf80fb8dc901ce850e058ba575"
+  },
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.MI22.singular_values_semantics",
+    "NLA.MI22.spectral_power_semantics",
+    "NLA.MI22.euclidean_norm_bounds",
+    "NLA.MI22.witness_rational_data",
+    "NLA.MI22.witness_principal_powers",
+    "NLA.MI22.witness_operator_gap",
+    "NLA.MI22.counterexample",
+    "NLA.MI22.not_weightedLogMajorizationConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.MI22.singular_values_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.spectral_power_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.euclidean_norm_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_rational_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_principal_powers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_operator_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.not_weightedLogMajorizationConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.MI22.singular_values_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.spectral_power_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.euclidean_norm_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_rational_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_principal_powers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_operator_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.not_weightedLogMajorizationConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi22/matrix-inequalities-and-norms/MI-22/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 90.652,
+    "log_sha256": "15560b27ef5813830bad6dcbb97042c32b953f04ee25fb89b252cc8787633054"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-mi22/docs/lean/reverification-2026-09-14/MI-22/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi22/matrix-inequalities-and-norms/MI-22/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.MI22.singular_values_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.spectral_power_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.euclidean_norm_bounds": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.witness_rational_data": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.witness_principal_powers": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.witness_operator_gap": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI22.not_weightedLogMajorizationConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [
+      "numerical_separation"
+    ],
+    "script_sha256": "9dc8a066615ad646e723309649232904259834d62dbdf10727599c3940e6147d",
+    "log_sha256": "d9ca3646a964c39076de7d0e95ba11fbe06384007627543ed37dfe3e507cd5cc"
+  },
+  "referee_2_numerical_execution": {
+    "route": "Actual printed term uses LeanCert.Validity.verify_strict_upper_bound_dyadic_checked for 10500 < 11000, constant expression 10500 and upper bound 11000 on [0,0], precision -53 and depth 10. The separately printed _proof_1_7 is of_decide_eq_true (id (Eq.refl true)). Cast normalization uses exact NormNum where needed; it does not replace the checked dyadic certificate.",
+    "receipts": {
+      "inspection": {
+        "route": "Actual printed term uses LeanCert.Validity.verify_strict_upper_bound_dyadic_checked for 10500 < 11000, constant expression 10500 and upper bound 11000 on [0,0], precision -53 and depth 10. The separately printed _proof_1_7 is of_decide_eq_true (id (Eq.refl true)). Cast normalization uses exact NormNum where needed; it does not replace the checked dyadic certificate.",
+        "attachments": [
+          "referee-2-numerical-terms.lean",
+          "referee-2-numerical-terms.log",
+          "referee-2-numerical-terms.json"
+        ]
+      },
+      "receipt": {
+        "verdict": "PASS",
+        "names": [
+          "NLA.MI22.numerical_separation._proof_1_7"
+        ],
+        "exit_code": 0,
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "/private/tmp/nla-reverify-mi22/docs/lean/reverification-2026-09-14/MI-22/referee-2-numerical-terms.lean"
+        ],
+        "cwd": "/private/tmp/nla-reverify-mi22/matrix-inequalities-and-norms/MI-22/lean",
+        "script_sha256": "b71b1576a6f1972f09adcce581d473f9c640e7f3acb0171f142118d723ed211c",
+        "log_sha256": "c79aadbd44f4dd0af10c8edcc2691beb13a0303950ae0933cc43ef5b7f2b11c4"
+      }
+    },
+    "consumer_material_terms": [
+      "numerical_separation"
+    ]
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "503cc7280458d3a1dcc4c3a03b91bcb3ae7e7940961dcd12d86736a133923179",
+    "NUMERICAL_TARGETS.md": "3798f0d25414815e683cabfc77ab776a2a22e4929c1fab0ea4f49fbde8187c66",
+    "comparator.json": "c388b280ae7f5b5ce037bda2ccfec4c833b48c954c2d77d09d3143beaff2d961",
+    "formalization.yaml": "fab68766e10e7171ccea7b7cb8d6bf4f1ad510149696bbc23251a4bc6461db42",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "71e8401646a361d36b841337a9e08cbe0633fbbbce8e5ce9b5db0e10dfefbb5c",
+    "lakefile.toml": "750d9ab9828e30c33cee900858a13da3aa6906cd87f84cb757851866db62f5dd"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "a9b4d1865bff1eea893156e8626ed4b0b55315dc5284ffd68cc8a74622d0f037",
+    "solution-local.log": "15560b27ef5813830bad6dcbb97042c32b953f04ee25fb89b252cc8787633054",
+    "referee-2-consumer.lean": "9dc8a066615ad646e723309649232904259834d62dbdf10727599c3940e6147d",
+    "referee-2-consumer.log": "d9ca3646a964c39076de7d0e95ba11fbe06384007627543ed37dfe3e507cd5cc",
+    "referee-2-consumer.json": "60c97ab0d5b05c39f40c16b360ab06cf9ffd7d825fdc206006248dfc94784a40",
+    "referee-2-numerical-terms.lean": "b71b1576a6f1972f09adcce581d473f9c640e7f3acb0171f142118d723ed211c",
+    "referee-2-numerical-terms.log": "c79aadbd44f4dd0af10c8edcc2691beb13a0303950ae0933cc43ef5b7f2b11c4",
+    "referee-2-numerical-terms.json": "dde938475a6e51a5893d657d915069ffccb72b1c55bf847588fb807b0e2aa35a",
+    "statement-gate.json": "ea119abb3be4b02302a6b10018fd88b4862075fdfa6d4880196044145f84842b",
+    "STATEMENT-REFEREE-1.md": "76fac29e39f8caae4f3132b5e0e53f803bb95addcfec8186a78c8dc3b756d7f2",
+    "referee-1-statement-evidence.json": "378d65716ac417c785873f7172f995d1182ecc8f1db8950fd8dbb8571495fb7e",
+    "referee-1-precheck.py": "3bd093ba5b61869c1e5c5707138e22ac7c154e3477a861ecc6817cb20347f8b8",
+    "referee-1-precheck.log": "a0cb34db75bbd3db6a2dc5fa7c544f78d100bc6888e8619ac449b0a540ae3718",
+    "SOURCE-PROVENANCE.json": "abc53479e61811d221273938e83738835167961f746e0826c9dae748febfa15b"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

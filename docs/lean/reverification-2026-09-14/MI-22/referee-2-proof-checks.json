@@ -1,0 +1,95 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "c08c30f050524f79ef2cdbb001babcd0e93876ba",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 8,
+  "export_count": 8,
+  "export_axioms": {
+    "NLA.MI22.singular_values_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.spectral_power_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.euclidean_norm_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_rational_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_principal_powers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.witness_operator_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI22.not_weightedLogMajorizationConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi22/docs/lean/reverification-2026-09-14/MI-22/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-mi22/matrix-inequalities-and-norms/MI-22/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Basic.lean": "5c87ec96e95be9c21e52857acc4892f9a6b7e69d7358f8d6fbbef93b0d249ef7",
+    "LeanCert/LeanCert/Validity/DyadicBounds.lean": "6f1cdbc11f32e425ef5e9f4a22966d64ff0d11614ec9453ed7dde498e31a7c47",
+    "mathlib/Mathlib/Analysis/InnerProductSpace/SingularValues.lean": "ce8193fcd5d226845a71f66b8ca7ad385358916a6e0e688745410ac412ed5c81"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "ea119abb3be4b02302a6b10018fd88b4862075fdfa6d4880196044145f84842b",
+    "referee-2-active-inputs.json": "6231dee96077fd625b83fb205bdd4cf281951b15789ed4a798334cc035e242df",
+    "referee-2-consumer.lean": "9dc8a066615ad646e723309649232904259834d62dbdf10727599c3940e6147d",
+    "referee-2-consumer.log": "d9ca3646a964c39076de7d0e95ba11fbe06384007627543ed37dfe3e507cd5cc",
+    "referee-2-consumer.json": "60c97ab0d5b05c39f40c16b360ab06cf9ffd7d825fdc206006248dfc94784a40",
+    "solution-local.json": "a9b4d1865bff1eea893156e8626ed4b0b55315dc5284ffd68cc8a74622d0f037",
+    "solution-local.log": "15560b27ef5813830bad6dcbb97042c32b953f04ee25fb89b252cc8787633054",
+    "referee-2-numerical-checks.json": "141da8356225d552d11595996c6c4caf52a9f4420422c74e5de4f5c4d8d7c53f",
+    "referee2_numerics.py": "f45cc7bc6269a839d011114958c888167df489e27a8495d217e866407c021dda",
+    "referee2_statements.py": "af9930b95db91b15ab2c3cd9a984d9e116a2a2a3f78abed392a267caa151b44b",
+    "referee2_consume.py": "29db27a8b0d7babd6331ac8217151e60d662ddcc478343b5c97064c33aa2a42b",
+    "referee-2-numerical-terms.lean": "b71b1576a6f1972f09adcce581d473f9c640e7f3acb0171f142118d723ed211c",
+    "referee-2-numerical-terms.log": "c79aadbd44f4dd0af10c8edcc2691beb13a0303950ae0933cc43ef5b7f2b11c4",
+    "referee-2-numerical-terms.json": "dde938475a6e51a5893d657d915069ffccb72b1c55bf847588fb807b0e2aa35a",
+    "referee-2-retention.lean": "aeaad394b0772369f643e5dffe0a61f8659f3aac6b70f22ab5fc1e9df493da29",
+    "referee-2-retention.log": "8a63c4ec8be3f8299aa85eb2c87b113c132139d5c97ff5a39c9bb6215b7600d4",
+    "referee-2-retention.json": "2f435f46acc867660c7a145bdc93101c979851e32aba11f9a6e6b515be8f3e48",
+    "referee2_terms.py": "9dbb6fa9482041e7e9dba99a4665c84189240efff7c47d0f3e2dfc81ab5a6270",
+    "referee2_retention.py": "83be6fed4ba6e43bcb36fc7273c950114c96539211d531f8b47acb33c90191ce",
+    "referee-2-retention-initial.lean": "3ab3c99c28ac51aa3728e3c547847d1e83f20265b2eaaab9390a7a2af75f0837",
+    "referee-2-retention-initial.log": "0eff41418d91e1c6793a0d8536721c4e62735dafdfda55ce136ea7f5d6ab8e98",
+    "referee-2-retention-initial.json": "02f39b1c9f00fb04ee77a56be237b0cc582416bca2e49c60adf8eece349ea6c6",
+    "referee2_proof_notes.json": "275abab14669253b7e5e804fe4ddf0f78b01b74c8f25208bedd5cdeb0f7a6c84",
+    "referee2_write_proofs.py": "dc8b4a79e3fed7be9c7523401310f41dd64bdcfbad7a6b356104fe550df32492"
+  },
+  "linux_status": "separate operational review required, not inferred from historical PASS"
+}
