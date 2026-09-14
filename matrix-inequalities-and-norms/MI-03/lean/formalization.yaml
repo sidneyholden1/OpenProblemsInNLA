@@ -50,11 +50,16 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Statement boundary successfully type-checked; independent statement reviews in progress. Proof
-    implementation and isolated Linux Comparator checks have not begun. Canonical status remains Solved.
+  scope: Complete original odd-summand target proved, via stronger equality for every integer k≥2. Local
+    Lean compilation, LeanCert kernel-trust checks and all four exported axiom audits passed. Independent
+    final reviews and actual isolated Linux Comparator verification are pending. Canonical status remains
+    Solved.
   sorry_count: 0
   sorry_in_definitions: 0
-  axioms: []
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
   main_results:
   - declaration: NLA.MI03.upper_bound
     file: Solution.lean
@@ -92,20 +97,19 @@ status:
     - Quot.sound
     comparator_config: comparator.json
     literature_dependencies: []
-  notes: No completed solution exists yet; listed declarations are planned exports and their axiom entries
-    are the required permitted set, not completed transitive audits.
 fidelity:
   divergences: Stronger all-k≥2 equality implies complete original odd-k≥3 target. Zero-based finite indexing.
     Genuine real infimum with separate nonempty and bounded-below assertions. Optional Hermitian 3×3 extremizers
     are not advertised. Exact phase families with zero sum may replace exponential coordinates without
     changing mathematical targets.
 review:
-  status: statement-review-in-progress
+  status: statement-and-proof-agent-reviewed; Linux-Comparator-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/iv06_statement_referee_2
-  notes: Two independent statement approvals required before any proof implementation. No final proof
-    or operational approval yet.
+  notes: Two independent statement approvals were frozen at commit1546c3bf before implementation. Final
+    proof reviews and actual isolated Linux Comparator replay remain pending. Four intentional Challenge
+    placeholders are excluded from proof sorry counts and never imported by Solution.
 alignment:
 - source: Universal upper bound in all complex matrix dimensions
   declarations:

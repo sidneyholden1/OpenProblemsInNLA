@@ -1,11 +1,13 @@
 # MI-03 Lean formalization
 
-Work in progress. The statement boundary has type-checked and is undergoing
-two independent AI statement reviews. Proof implementation has not begun.
+Local proof complete. Two independent statement approvals were frozen at
+`1546c3bf` before implementation. Solution compiles and all four exports pass
+LeanCert kernel-trust and standard-axiom audits. Both independent final proof reviews passed; actual isolated Linux Comparator
+verification remains pending.
 The canonical status remains Solved.
 
 The target is the complete sharp additive triangle constant for all odd k≥3;
-the planned proof establishes k/4 for all k≥2 and genuine nonempty bounded
+the proof establishes k/4 for all k≥2 and genuine nonempty bounded
 infima. Norms use the actual Euclidean operator norm, modulus is the positive
 square root of AᴴA, and order is positive-semidefinite matrix order.
 
