@@ -1,0 +1,293 @@
+{
+  "request": "do another 5 verifications",
+  "date": "2026-09-14",
+  "status": "complete",
+  "scope": "Independent reverification of five existing authored upstream formalizations, not five newly authored proofs. Original formalization credit George Stepaniants and original mathematical credits preserved.",
+  "exports": 80,
+  "verified_inputs": 7052,
+  "independent_statement_referees_per_project": 2,
+  "independent_proof_referees_per_project": 2,
+  "independent_operational_referee_per_project": 1,
+  "actual_fresh_linux_comparator_and_default_kernel": "PASS for all five candidate commits, including per-project real controls",
+  "final_publication_ci": "All 10 final workflows PASS. Publication adds separate evidence outside tested project; project bytes identical, so these final workflow passes do not claim another proof replay.",
+  "all_original_tracked_files_preserved": true,
+  "all_five_remote_heads_confirmed": true,
+  "excluded": "IE-15 left untouched; no branch push or source edit for it.",
+  "projects": [
+    {
+      "id": "IS-03",
+      "project": "eigenvalues-and-inverse-problems/IS-03/lean",
+      "root": "/private/tmp/nla-reverify-is03",
+      "branch": "codex/reverify-is03",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "072fdd9c7eb819b557daec9ea77f081bff387786",
+      "run_id": 34868855287,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868855287",
+      "linux_status": "success; retained original archive and verified every input; operational review pending",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34868855247,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868855247"
+        },
+        {
+          "id": 34868855287,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868855287"
+        }
+      ],
+      "artifact_id": 10358557560,
+      "artifact_sha256": "25e249492179520af0cc719fc8f07a82e63719a55640144c9f95447e7326a85f",
+      "input_count": 820,
+      "linux_evidence": "/private/tmp/nla-reverify-is03/docs/lean/reverification-2026-09-14/IS-03/linux",
+      "publication_commit": "c87e62f7f3e3d21fde7536ec84982b1a83bd074d",
+      "new_evidence_files": 65,
+      "publication_runs": [
+        {
+          "id": 34870160931,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870160931"
+        },
+        {
+          "id": 34870160923,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870160923"
+        }
+      ],
+      "publication_checks_pass": true,
+      "audit_directory": "/private/tmp/nla-reverify-is03/docs/lean/reverification-2026-09-14/IS-03",
+      "evidence_manifest_sha256": "2a47839eaed794d18515e0cf6938143bd976700ad0453e98a55f91ef81ca41df",
+      "published_audit_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/c87e62f7f3e3d21fde7536ec84982b1a83bd074d/docs/lean/reverification-2026-09-14/IS-03"
+    },
+    {
+      "id": "KE-04",
+      "project": "eigenvalues-and-inverse-problems/KE-04/lean",
+      "root": "/private/tmp/nla-reverify-ke04",
+      "branch": "codex/reverify-ke04",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "367acf8ecb423c609d501ccfea910de91ed4c82e",
+      "run_id": 34868858154,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868858154",
+      "linux_status": "completed",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34868858199,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868858199"
+        },
+        {
+          "id": 34868858154,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868858154"
+        }
+      ],
+      "artifact_id": 10357834395,
+      "artifact_sha256": "b9a27c1ed9dc4af54fa134cf90a1c41da440314a792aad78fbafb5941ba9fb5e",
+      "input_count": 4285,
+      "linux_evidence": "/private/tmp/nla-reverify-ke04/docs/lean/reverification-2026-09-14/KE-04/linux",
+      "publication_commit": "db954c792a45db8eddb196b3c2e283ba6ba27007",
+      "new_evidence_files": 67,
+      "publication_runs": [
+        {
+          "id": 34870247935,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870247935"
+        },
+        {
+          "id": 34870247934,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870247934"
+        }
+      ],
+      "publication_checks_pass": true,
+      "audit_directory": "/private/tmp/nla-reverify-ke04/docs/lean/reverification-2026-09-14/KE-04",
+      "evidence_manifest_sha256": "31bfa96567e3da592cc910ccf4b993f32479ba1203cf9cc4b153e764e1494471",
+      "published_audit_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/db954c792a45db8eddb196b3c2e283ba6ba27007/docs/lean/reverification-2026-09-14/KE-04"
+    },
+    {
+      "id": "SP-06",
+      "project": "eigenvalues-and-inverse-problems/SP-06/lean",
+      "root": "/private/tmp/nla-reverify-sp06",
+      "branch": "codex/reverify-sp06",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "6725a6f00b141b7b854518cdc93331372bdf539e",
+      "run_id": 34868861247,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868861247",
+      "linux_status": "completed",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34868861525,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868861525"
+        },
+        {
+          "id": 34868861247,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868861247"
+        }
+      ],
+      "artifact_id": 10358182545,
+      "artifact_sha256": "9e37769852c3fa961a38d5acdaf82ce5a516588a94b39055f3eeeb80cdc1fc83",
+      "input_count": 101,
+      "linux_evidence": "/private/tmp/nla-reverify-sp06/docs/lean/reverification-2026-09-14/SP-06/linux",
+      "publication_commit": "ff5b3e2f6e96c51e3c46925ae87ad2c9dfb7f6d6",
+      "new_evidence_files": 58,
+      "publication_runs": [
+        {
+          "id": 34870251286,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870251286"
+        },
+        {
+          "id": 34870251334,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870251334"
+        }
+      ],
+      "publication_checks_pass": true,
+      "audit_directory": "/private/tmp/nla-reverify-sp06/docs/lean/reverification-2026-09-14/SP-06",
+      "evidence_manifest_sha256": "fc6b719b04b5f73b3c01f0350e1c3f9a00f3241cfd7761961011acd40cb1034d",
+      "published_audit_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/ff5b3e2f6e96c51e3c46925ae87ad2c9dfb7f6d6/docs/lean/reverification-2026-09-14/SP-06"
+    },
+    {
+      "id": "IE-16",
+      "project": "linear-systems-and-elimination/IE-16/lean",
+      "root": "/private/tmp/nla-reverify-ie16",
+      "branch": "codex/reverify-ie16",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "bea9efc9d9345c7f2f47b4926cd1968f47b7cff9",
+      "run_id": 34868873200,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868873200",
+      "linux_status": "completed",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34868873217,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868873217"
+        },
+        {
+          "id": 34868873200,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868873200"
+        }
+      ],
+      "artifact_id": 10358222626,
+      "artifact_sha256": "b5cae437ac708ed29b6f49e02b80b75330c99b1f3e0cce026352fb09c682a936",
+      "input_count": 347,
+      "linux_evidence": "/private/tmp/nla-reverify-ie16/docs/lean/reverification-2026-09-14/IE-16/linux",
+      "publication_commit": "90e88460a52fa69657f5107c2cd6f5dde7c6826c",
+      "new_evidence_files": 67,
+      "publication_runs": [
+        {
+          "id": 34870252954,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870252954"
+        },
+        {
+          "id": 34870252880,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870252880"
+        }
+      ],
+      "publication_checks_pass": true,
+      "audit_directory": "/private/tmp/nla-reverify-ie16/docs/lean/reverification-2026-09-14/IE-16",
+      "evidence_manifest_sha256": "ddede53e1aa77b69acbc9dfc405773e4bd5eb38cbbd006f41d8414ae8a830fe9",
+      "published_audit_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/90e88460a52fa69657f5107c2cd6f5dde7c6826c/docs/lean/reverification-2026-09-14/IE-16"
+    },
+    {
+      "id": "RA-08",
+      "project": "randomized-and-low-rank-approximation/RA-08/lean",
+      "root": "/private/tmp/nla-reverify-ra08",
+      "branch": "codex/reverify-ra08",
+      "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+      "status": "complete; fresh Linux verification and independent audits passed; evidence published and final workflows passed",
+      "commit": "5e1e682e0559800d1f0619553bf385c88eec2330",
+      "run_id": 34868868786,
+      "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868868786",
+      "linux_status": "success; retained original archive and verified every input; operational review pending",
+      "linux_conclusion": "success",
+      "candidate_runs": [
+        {
+          "id": 34868868779,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868868779"
+        },
+        {
+          "id": 34868868786,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868868786"
+        }
+      ],
+      "artifact_id": 10357889825,
+      "artifact_sha256": "c2642f81486f21592ab4e1f351a97f1aa4a12e7d1e6b571237ef304feec79a7e",
+      "input_count": 1499,
+      "linux_evidence": "/private/tmp/nla-reverify-ra08/docs/lean/reverification-2026-09-14/RA-08/linux",
+      "publication_commit": "bf767d73ce068cef081407f28e2530f8b16d8ebd",
+      "new_evidence_files": 75,
+      "publication_runs": [
+        {
+          "id": 34870256038,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870256038"
+        },
+        {
+          "id": 34870256031,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870256031"
+        }
+      ],
+      "publication_checks_pass": true,
+      "audit_directory": "/private/tmp/nla-reverify-ra08/docs/lean/reverification-2026-09-14/RA-08",
+      "evidence_manifest_sha256": "eeb989568e64645180a9de46ca965f71db0223f8ba540664d7ad58c2cff59ace",
+      "published_audit_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/tree/bf767d73ce068cef081407f28e2530f8b16d8ebd/docs/lean/reverification-2026-09-14/RA-08"
+    }
+  ]
+}
