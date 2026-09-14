@@ -1,0 +1,13 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "matrix-functions-and-stability/MF-16/README.md",
+  "canonical_exists_at_observed_older_main": true,
+  "older_canonical_sha256": "9ed176fb493632a01eba419792904c51fc8dafd88f1023c6a479b5c7af91c90a",
+  "preserved_canonical_sha256": "b69bf5038340ff27e10ed0c629a76cc1182eea72aaaf73f4aec881ecc1c84ac1",
+  "canonical_target_section_byte_identical": false,
+  "provenance": "Use existing authored snapshot preserved in earlier published branch ancestry, not current main. Where the older main has no canonical page, no cross-revision target equality is claimed. Original mathematical and formalization credits unchanged.",
+  "coordinator_target_review": "Coordinator read both complete target sections; only Markdown/LaTeX rendering or whitespace changed. Mathematical fields, quantifiers, hypotheses and conclusions agree.",
+  "mathematical_target_equivalent_across_revisions": true
+}
