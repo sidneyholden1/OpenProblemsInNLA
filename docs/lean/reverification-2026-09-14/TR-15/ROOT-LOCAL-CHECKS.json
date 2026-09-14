@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS for local source build and byte preservation",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "26d7d0ac7fd14d3f8d527977db3b50c948a77f39",
+  "all_active_files_unchanged_from_base": true,
+  "active_source_sha256": {
+    "tensor-computations/TR-15/lean/Solution.lean": "dc31d2a6a1ef891bbdc9b6781a7a250c6751d539b7cd95c4a59d08638a8faeb1",
+    "tensor-computations/TR-15/lean/NLA/TR15/Definitions.lean": "63b8767fd19148b269f6e4041d464f0de5dc64cac82e1448fee43115bed55379",
+    "tensor-computations/TR-15/lean/NLA/TR15/Proof.lean": "795f3b1305dfae77fe71ec1927b7d72e9d913a2ffd0475879880f33e55c959be"
+  },
+  "export_count": 7,
+  "printed_axiom_reports": 15,
+  "nonstandard_axioms": {},
+  "exports_without_printed_axioms_in_build_log": [],
+  "limitation": "Local pinned cached dependency build; fresh independent consumer and Linux Comparator required separately."
+}

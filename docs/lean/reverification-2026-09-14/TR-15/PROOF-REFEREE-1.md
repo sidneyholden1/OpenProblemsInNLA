@@ -1,0 +1,25 @@
+# TR-15 independent proof referee 1 — 2026-09-14
+
+PASS — complete mathematical/source proof review and fresh local execution evidence. No blocking correctness, full-scope or attribution finding.
+
+This independent AI review applies `docs/lean/REVIEW.md` and the relevant adapted Tau Ceti angles; it is not official Tau Ceti or external human peer review. Both statement reviews and the coordinator's gate preceded this proof inspection. Existing authored source is preserved at `deb549fa9ddd6b119e6c59016f268237e645dfa2`; it is deliberately not the observed older upstream main `ab754fabe3d48dc8d6eab6bcffce583e46d2b88f`. Candidate revision: `26d7d0ac7fd14d3f8d527977db3b50c948a77f39`. The statement report retains the precise source provenance, including FR-12's absence at older main; no new proof authorship is claimed.
+
+## Mathematical proof and frozen scope
+
+I read all three active modules. `sum_ordered_pairs` proves a genuine equivalence between all contracted two-coordinate functions and the Cartesian product, so the lower polynomial coefficients come from every ordered tuple. The resulting three polynomial contractions hold for every real vector. In the upper contraction, the proof shows that any tuple other than the all-one tuple contains a zero coordinate and hence a zero vector factor. The finite sum therefore has exactly its correct surviving term; no tensor entry or multiplicity is assumed.
+
+`first_slice_pos` proves strict positivity of the exact sum of four squares at every nonzero real vector. If that sum were nonpositive, all three coordinates would be zero. The first genuine H-eigenpair equation therefore rules out every nonpositive real eigenvalue, including vectors whose first coordinate might initially be zero. There is no spectrum enumeration or extra eigenvector restriction.
+
+The separate nonvacuity proof establishes continuity of the actual rootPolynomial and uses Mathlib's intermediate_value_Ioo with its exact endpoint signs to obtain t strictly in (0,1). The vector (1,0,t) is nonzero, and all three actual contraction equations follow from the polynomial root. The upper pair (-1,(0,1)) also has a proved nonzero vector and every signed fifth-power equation. Its strict negative sign is the material explicit-kernel LeanCert point; the same fact is used in the failed-upper-premise contradiction and universal negation.
+
+All seven exports preserve the approved full scope. Parameter admissibility is proved at m=3,q=2,n=2 and the actual shared generator instantiates the universal target. No positivity of an associated Hankel matrix or existence assumption narrows that target. Exact first-component algebra and IVT avoid eigenvalue solvers and numerical root isolation. Colbrook's counterexample and full nonvacuity argument, and Stepaniants's formalization attribution, are preserved. Even-lower-order and stronger-Hankel hypotheses remain outside the claim.
+
+## Exact evidence and execution limits
+
+I independently read all 3 active project modules, including definitions and public exports. The full import closure and every registered export were checked. All active bytes match both the preserved commit and the frozen statement gate, and all gate files matched during this review. A comment-aware executable-source scan found no sorry, admit, custom axiom, native_decide, unsafe or implemented_by. Intentional Challenge placeholders are outside the Solution import graph. All 7 public declarations have actual kernel trust commands.
+
+The coordinator's fresh macOS aarch64 `lake build Solution` completed with exit code 0. I checked its successful log and recorded digest. Referee 2's separate fresh all-export consumer exited 0; I inspected every printed export type and axiom closure. Both fresh logs report only propext, Classical.choice and Quot.sound for all exports. These are their executions, not an additional rebuild by this reviewer. I inspected referee 2’s fresh numerical proof-term output as recorded in the evidence JSON, together with the source-level material dependency described above; that execution belongs to referee 2. The actual body applies verify_strict_upper_bound_dyadic_checked; its Boolean auxiliary is of_decide_eq_true (id (Eq.refl true)). Prior diagnostics and historical PASS records are not substituted for current evidence.
+
+All exact active source paths/hashes, boundary hashes, registered exports, actual axiom lists, fresh execution provenance and evidence digests are retained in [referee-1-proof-evidence.json](referee-1-proof-evidence.json), SHA-256 `b2931d4ee12d9cfe496871773f1f73af86dd2986e357bd37e49bfe6ba0f48e43`. My earlier exact diagnostic remains independently recorded but is not part of a Lean proof. No authored source, metadata or statement was edited by this reviewer.
+
+Actual Linux Comparator statement identity, default-kernel replay, sandbox/rejection controls and original artifact integrity are separate operational gates. This proof report makes no claim that those fresh Linux gates have passed and does not replace their review.

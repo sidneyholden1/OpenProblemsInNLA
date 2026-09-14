@@ -1,0 +1,29 @@
+{
+  "all_lower_ordered_tuple_coefficients": [
+    {
+      "(2, 0, 0)": 2,
+      "(1, 0, 1)": 2,
+      "(0, 2, 0)": 1,
+      "(0, 0, 2)": 2
+    },
+    {
+      "(1, 1, 0)": 2,
+      "(0, 1, 1)": 4
+    },
+    {
+      "(2, 0, 0)": 1,
+      "(1, 0, 1)": 4,
+      "(0, 2, 0)": 2,
+      "(0, 0, 2)": -1
+    }
+  ],
+  "upper_all_32_tuples_per_coordinate": [
+    0,
+    -1
+  ],
+  "IVT_endpoints": [
+    -1,
+    2
+  ],
+  "limit": "Exact finite contraction and polynomial checks; universal eigenpair positivity and IVT existence remain proof obligations."
+}

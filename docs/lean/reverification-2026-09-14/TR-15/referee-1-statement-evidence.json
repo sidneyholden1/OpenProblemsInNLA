@@ -1,0 +1,182 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI statement referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "source_inputs": {
+    "tensor-computations/TR-15/README.md": {
+      "sha256": "7979d193949dd8ef3545e55a1c9535bfdaaefac91f435b5066c23e83c4e4cf50",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/NLA/TR15/Definitions.lean": {
+      "sha256": "63b8767fd19148b269f6e4041d464f0de5dc64cac82e1448fee43115bed55379",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/Challenge.lean": {
+      "sha256": "6778940f8f0f645fc6be0c57f1fb8f67791e0c67c896074651bca9cada491428",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "6851bb94fb8f6049980113b4df9a1346bd3ed9549f66dd74b2b1f6a5ee947cd6",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/comparator.json": {
+      "sha256": "80d0148e7ddf0a431d6833c3e464cf15424c94767394dd1a0fe93366c8bbb45f",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/formalization.yaml": {
+      "sha256": "bb92a8ca1192e224b00d273d8ac658f9cac191336ee06f922ec73a0dbc6e93bb",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/lakefile.toml": {
+      "sha256": "247a1ea746bb54d8adfb18fdce81669f85de63d5d9dfe8998eb255f54002181d",
+      "read_as": "working-tree source"
+    },
+    "tensor-computations/TR-15/lean/lake-manifest.json": {
+      "sha256": "8d71288432949937d6c64f1175c7a9c7c5389bc261d79dad512ba4c385e97127",
+      "read_as": "working-tree source"
+    },
+    "references/colbrook-unclaimed-2026-09-11/manuscripts/TR-15.md": {
+      "sha256": "31aaf87084303a6de0ef380270c973719efa027c6131c76b27a02cb489a1fa74",
+      "read_as": "complete immutable git-show source"
+    }
+  },
+  "all_present_inputs_equal_preserved_base": true,
+  "exports": [
+    "NLA.TR15.lower_contractions",
+    "NLA.TR15.upper_contraction",
+    "NLA.TR15.lower_eigenvalues_pos",
+    "NLA.TR15.lower_eigenpair_exists",
+    "NLA.TR15.upper_negative_eigenpair",
+    "NLA.TR15.counterexample",
+    "NLA.TR15.not_inheritanceConjecture"
+  ],
+  "intentional_Challenge_placeholders": 7,
+  "active_Proof_or_Solution_inspected": false,
+  "library_semantics": {
+    "mathlib/Mathlib/LinearAlgebra/Matrix/HadamardMatrix.lean": {
+      "sha256": "b04b0656bc502d39b1c7d238afe6152428778f59411a7ef9753c81565b231c31",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/SetTheory/Cardinal/Finite.lean": {
+      "sha256": "b113177c5ed00662c73a8f3b04002b399c19f0d008920e52c1a6b6c7f16713bf",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Analysis/Matrix/Spectrum.lean": {
+      "sha256": "1ad47effa0a5fbc373ebb6cf52a6b85a66b25d3c5a86394f3dd5932ffbfc3afe",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/LinearAlgebra/Matrix/PosDef.lean": {
+      "sha256": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": {
+      "sha256": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": {
+      "sha256": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Order/Bounds/Defs.lean": {
+      "sha256": "e5a38e3cf5b12a87a53bbd64d4d458bacb2f707aa75e1b3dca1c33014aa23c2d",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Topology/Order/IntermediateValue.lean": {
+      "sha256": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Analysis/Normed/Group/Basic.lean": {
+      "sha256": "85d307e042cb03073a2e9160c52adbfcef85c921d2f9b17584b13597d8a5c7bc",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "leancert/LeanCert/Engine/RootFinding/Krawczyk.lean": {
+      "sha256": "8df9943a4e8d185164bbb86e93892f97f0596d2fcba88e48f5ea068628b7f283",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "leancert/LeanCert/Examples/Krawczyk.lean": {
+      "sha256": "ea60a81297b09936de7e7d0cc4331cd71162a34d40e208aca5614b373d5891fb",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    }
+  },
+  "coordinator_fresh_Challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 33.06,
+    "log_sha256": "8e5e2ba5a178e90731df78b691faf1f1e8c914152e1566ca55030fbce5b5c86d"
+  },
+  "independent_diagnostic": {
+    "command": [
+      "python3",
+      "referee-1-precheck.py",
+      "TR-15"
+    ],
+    "exit_code": 0,
+    "result": {
+      "all_lower_ordered_tuple_coefficients": [
+        {
+          "(2, 0, 0)": 2,
+          "(1, 0, 1)": 2,
+          "(0, 2, 0)": 1,
+          "(0, 0, 2)": 2
+        },
+        {
+          "(1, 1, 0)": 2,
+          "(0, 1, 1)": 4
+        },
+        {
+          "(2, 0, 0)": 1,
+          "(1, 0, 1)": 4,
+          "(0, 2, 0)": 2,
+          "(0, 0, 2)": -1
+        }
+      ],
+      "upper_all_32_tuples_per_coordinate": [
+        0,
+        -1
+      ],
+      "IVT_endpoints": [
+        -1,
+        2
+      ],
+      "limit": "Exact finite contraction and polynomial checks; universal eigenpair positivity and IVT existence remain proof obligations."
+    },
+    "limits": "Diagnostics support statement data and do not establish Lean proofs or universal conclusions."
+  },
+  "evidence_hashes": {
+    "referee-1-precheck.py": "5474834732e451bee2a6c6a7664f829ba134d49d2b1164d981384b0058958451",
+    "referee-1-precheck.log": "c9cf7a7984c024fa8ee9c35dd8ab7841057b322d164e0ecb364bfd9535e558f4",
+    "challenge-local.json": "f329017dd7c27ddc071242aec1f44c0f29dedad2ee9cb7ec5c3fce8033523ddf",
+    "challenge-local.log": "8e5e2ba5a178e90731df78b691faf1f1e8c914152e1566ca55030fbce5b5c86d",
+    "SOURCE-PROVENANCE.json": "9e61276bf77c7df9538622d8206e9ef582b976cabb8d969c1cb9c6a05c2ef55e"
+  },
+  "coordinator_source_provenance": {
+    "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+    "source_is_current_main": false,
+    "canonical_path": "tensor-computations/TR-15/README.md",
+    "canonical_exists_at_observed_older_main": true,
+    "older_canonical_sha256": "669a0c7f53e5b94fc20d2cb1a8ebaf8c4b7071e38d2a33d78b3f693229cd5a1e",
+    "preserved_canonical_sha256": "7979d193949dd8ef3545e55a1c9535bfdaaefac91f435b5066c23e83c4e4cf50",
+    "canonical_target_section_byte_identical": false,
+    "provenance": "Use existing authored snapshot preserved in earlier published branch ancestry, not current main. Where the older main has no canonical page, no cross-revision target equality is claimed. Original mathematical and formalization credits unchanged.",
+    "coordinator_target_review": "Coordinator read both complete target sections; only Markdown/LaTeX rendering or whitespace changed. Mathematical fields, quantifiers, hypotheses and conclusions agree.",
+    "mathematical_target_equivalent_across_revisions": true
+  }
+}
