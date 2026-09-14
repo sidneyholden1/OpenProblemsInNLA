@@ -1,0 +1,37 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "a407b2c38cccc19a5f5d50a9efb5f0bd4084275cc608249e563cb7e454edbca7",
+    "STATEMENT-REFEREE-2.md": "90cad8d2002b7886bd8cf19a853ccfd703a51252cb5f4016346d271d8e2643ad",
+    "PROOF-REFEREE-1.md": "76000c779366876918e823765d04eaf03a4ffeb487336915909d10137f97ea8e",
+    "PROOF-REFEREE-2.md": "8feede6503d2c5ae62804beb0695bf1b80e85e150dff370effcec14c6a1b5ae7",
+    "referee-1-proof-evidence.json": "7abf6c15021757d9c8f7c2d6ca31d605e20a72755fb4941cccef5fdd412a7530",
+    "referee-2-proof-checks.json": "094c4c5785756922b95df7f3fc835c6ec64f32e916ddcf0aba054f15bcee9702",
+    "ROOT-LOCAL-CHECKS.json": "ac50eecc0a88eeb15d6b2f9eeb81016da294444b1d09bcee7b983a1e55c3f4f5",
+    "statement-gate.json": "fc66a0c8ecde6babddb4fd99ee5e6a550d8e7fcc054a56af4c9d30dbd577fbd5",
+    "preflight.json": "165b46e7b3d52b11e9d3b5a2553c4093e245707a28bd3de2817da195140873cb"
+  },
+  "exports": [
+    "NLA.IE16.explicitL_card",
+    "NLA.IE16.explicitL_admissible",
+    "NLA.IE16.witness_feasible",
+    "NLA.IE16.witness_objective",
+    "NLA.IE16.full_minimum_exact",
+    "NLA.IE16.full_minimum_isLeast",
+    "NLA.IE16.full_lower_bound",
+    "NLA.IE16.every_five_point_subset_upper",
+    "NLA.IE16.every_five_point_subset_minimum_isLeast",
+    "NLA.IE16.subset_max_upper",
+    "NLA.IE16.subset_max_positive",
+    "NLA.IE16.ratio_lower_bound",
+    "NLA.IE16.ratio_exceeds_candidate",
+    "NLA.IE16.counterexample",
+    "NLA.IE16.not_IE16Conjecture"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "bea9efc9d9345c7f2f47b4926cd1968f47b7cff9",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}

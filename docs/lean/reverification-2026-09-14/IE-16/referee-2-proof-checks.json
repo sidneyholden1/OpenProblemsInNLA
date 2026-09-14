@@ -1,0 +1,106 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local consumer audit",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "active_module_count": 10,
+  "active_source_lines": 1683,
+  "active_sources_equal_frozen_gate_and_upstream": true,
+  "export_count": 15,
+  "export_axioms": {
+    "NLA.IE16.explicitL_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.explicitL_admissible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.witness_feasible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.witness_objective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.full_minimum_exact": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.full_minimum_isLeast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.full_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.every_five_point_subset_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.every_five_point_subset_minimum_isLeast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.subset_max_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.subset_max_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.ratio_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.ratio_exceeds_candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE16.not_IE16Conjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ie16/docs/lean/reverification-2026-09-14/IE-16/referee-2-export-audit.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-ie16/linear-systems-and-elimination/IE-16/lean",
+  "consumer_exit_code": 0,
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "coordinator_solution_build_exit_code": 0,
+  "evidence_sha256": {
+    "statement-gate.json": "fc66a0c8ecde6babddb4fd99ee5e6a550d8e7fcc054a56af4c9d30dbd577fbd5",
+    "referee-2-active-inputs.json": "5fd81033670b2971b558deeb84eae217c3cf72b07b9ca44466d160c367632b0d",
+    "referee-2-export-audit.lean": "e99646bfb1bf997329dafe0ff809fd6c8fb533c80fbd537138534e6b2bfbfbb9",
+    "referee-2-export-audit.log": "e32cf3c563a4e2d4d77f00f8de45bef3dd9c94de8b5c8ac022dee2ac0f6c30f6",
+    "solution-local.json": "6e6b4594525ab56dc781ea57329aa7ea2aa9e573ddb8f49821544e74ddeefa95",
+    "solution-local.log": "b49ba770b92f861ae542ee1614cfa9f0a9f16e44a7e3a6f883c27c3202cf4c21"
+  },
+  "linux_status": "not reviewed in this proof report; separate actual Comparator/operational gate"
+}
