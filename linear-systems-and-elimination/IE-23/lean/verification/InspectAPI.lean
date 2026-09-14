@@ -5,7 +5,6 @@ import NLA.IE23.Definitions
 #check pow_le_pow_iff_left₀
 #check csSup_le
 #check le_csSup
-#check Set.Nonempty.bddAbove
 #check Real.sqrt_le_sqrt
 #check Matrix.mulVec_mulVec
 #check Complex.normSq_apply

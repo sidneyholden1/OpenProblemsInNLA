@@ -1,0 +1,23 @@
+Independent reviewer: /root/iv06_statement_referee_1
+Date: 2026-09-14
+Recorded transcript of independently executed local checks.
+Runtime PATH prefix: /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin
+
+$ lake env lean NLA/IE23/Proof.lean
+[No diagnostics; exit 0]
+
+$ lake env lean Solution.lean
+[No diagnostics; exit 0]
+
+$ lake env lean /private/tmp/ie23-referee1-audit.lean
+Audit source:
+import Solution
+#print axioms NLA.IE23.witness_algebra
+#print axioms NLA.IE23.norm_certificates
+#print axioms NLA.IE23.not_uniquenessConjecture
+
+Output:
+'NLA.IE23.witness_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE23.norm_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE23.not_uniquenessConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+[Exit 0]

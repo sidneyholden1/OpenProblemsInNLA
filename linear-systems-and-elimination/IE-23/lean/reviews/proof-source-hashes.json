@@ -1,0 +1,11 @@
+{
+  "NLA/IE23/Definitions.lean": "2ee00cdcdd36e75c481798c1522f899520790dfbbaa9e1ad831acbea14a89e81",
+  "NLA/IE23/Proof.lean": "4fbbefca10f57a04bd3523c5a5354703e31a698dc889d0123d0db425abf9c690",
+  "Challenge.lean": "145a96587f1d3026ef61af600254fd68f2a56a31d757905593a77829a80fb5e3",
+  "Solution.lean": "c4e4c6fe4d34afe2ca368e38fb8705e6b08980bcd282cf06c813b10c9d3c43db",
+  "NUMERICAL_TARGETS.md": "448fc539461059b80ce656251ccd8bd2a96e492e9c1f4ad3e564a62211c478a5",
+  "comparator.json": "d81e1cbaa7c789b1bd33e2ddf1bcad9cd3219d807b5c4aacf1f147f46972d908",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "lakefile.toml": "456a1e544f2a108bb73bffaf0aacfd3a5f76d00ba171e0d5ac1504887302c6f2",
+  "lake-manifest.json": "52b144f9ffbaa26d0d21dd3b279e16eb102b720774ebe2d5a9e41170bab0d73f"
+}

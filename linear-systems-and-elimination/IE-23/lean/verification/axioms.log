@@ -1,0 +1,3 @@
+'NLA.IE23.witness_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE23.norm_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE23.not_uniquenessConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]

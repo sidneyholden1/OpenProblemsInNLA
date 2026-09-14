@@ -1,0 +1,117 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-23: distinct right inverses with equal induced 4-to-2 norm'
+  description: Negates the full complex direct-inverse uniqueness conjecture using an exact 2×3 matrix
+    at the allowed exponent p=4. Proves the actual pseudoinverse, right-inverse identities, full
+    row rank, and genuine induced-norm supremum equalities.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-23 — Uniqueness of the right inverse minimizing an induced p-to-2 norm
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-23/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Original uniqueness question by Ivan Dokmanić and Rémi Gribonval, finite real p>2 and full-row-rank
+    complex matrices.
+- title: Nonuniqueness of induced-norm-minimizing right inverses
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.tex
+  type: manuscript
+  location: Smallest counterexample, Theorem 1 and proof
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Colbrook’s submitted all-p extension of the Dokmanić–Gribonval spectral-norm example. Formalization
+    specializes to p=4, sufficient for the full original negation. Source credits and AI-assisted
+    reconstruction are retained.
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib, LeanCert kernel-trust audits, separate statement and
+      solution environments, and two independent statement referees before implementation. Local
+      builds share a pinned dependency cache; the committed project has only exact HTTPS git dependencies.
+    prompting_notes: Prove genuine supremum nonemptiness, boundedness and attainment; use exact matrix
+      and real/imaginary-coordinate algebra. No artificial interval arithmetic for an entirely algebraic
+      proof.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external
+    human peer review or source-author endorsement is claimed.
+status:
+  scope: Complete original negative answer proved at p=4. Local Lean compilation, all three exported
+    axiom audits and two independent final AI proof reviews passed. Actual isolated Linux Comparator
+    checks are pending; canonical status remains Solved.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+  main_results:
+  - declaration: NLA.IE23.witness_algebra
+    file: Solution.lean
+    sorry_count: 0
+    axioms: &id001
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE23.norm_certificates
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE23.not_uniquenessConjecture
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: Uses the original complex field and actual conjugate transpose and matrix inverse.
+    Full row rank is expressed by surjectivity of the matrix map. Actual real supremum ranges over
+    all nonzero complex inputs; nonempty and bounded ratio sets are separately proved. The exponent
+    p=4 lies in the original open finite range and refutes the full universally quantified implication.
+    The source’s stronger all-p norm formula and complete minimizer classification are outside scope.
+    No product-objective substitution or endpoint exponent is used.
+review:
+  status: statement-and-proof-agent-reviewed; Linux-Comparator-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: Two independent statement approvals at frozen revision 881f8871 precede implementation.
+    Both independent final proof referees re-elaborated mathematical source and audited all exported
+    axioms, finding no defects. A header-only attribution clarification was reviewed separately and
+    exact hashes retained. Three deliberate Challenge placeholders are excluded from proof sorry
+    counts and never imported by Solution. Actual isolated Linux Comparator checks remain pending.
+alignment:
+- source: Theorem 1 exact matrix, full row rank, pseudoinverse and distinct right inverses
+  declarations:
+  - NLA.IE23.witness_algebra
+- source: Theorem 1 norm equality specialized to p=4 with actual nonempty bounded ratio suprema
+  declarations:
+  - NLA.IE23.norm_certificates
+- source: Full original uniqueness implication, negated by the allowed complex p=4 example
+  declarations:
+  - NLA.IE23.not_uniquenessConjecture
+acknowledgements: Matthew J. Colbrook’s mathematical argument; Dokmanić and Gribonval’s original
+  spectral-norm example and uniqueness question. Formalization by Sidney Holden with OpenAI Codex
+  assistance. Mathlib, LeanCert, Lean Comparator and formalization.yaml retain implementation credit
+  and licenses.
