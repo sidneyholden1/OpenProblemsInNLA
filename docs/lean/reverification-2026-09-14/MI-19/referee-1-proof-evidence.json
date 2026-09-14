@@ -1,0 +1,138 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "6f4c39feaa5ae494168dcc55af250b2acf126a02",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "matrix-inequalities-and-norms/MI-19/lean/Solution.lean",
+      "sha256": "18bf53ea1d745b4488718297559c3c77e3bcb902596b9c9aae5f448bdcb800c4",
+      "lines": 35
+    },
+    "NLA.MI19.Proof": {
+      "path": "matrix-inequalities-and-norms/MI-19/lean/NLA/MI19/Proof.lean",
+      "sha256": "53ab38bfef6e52f6c039eba5056659be43f9b8e7a7b3453a62769dc3f0ef3c37",
+      "lines": 170
+    },
+    "NLA.MI19.Definitions": {
+      "path": "matrix-inequalities-and-norms/MI-19/lean/NLA/MI19/Definitions.lean",
+      "sha256": "170e406d1f6bf0ca60e5b65998308b030cf08cc0def51c25c9860524ad3441ac",
+      "lines": 70
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic",
+    "Mathlib.Analysis.Complex.Basic",
+    "Mathlib.GroupTheory.Perm.Fin",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.Matrix.PosDef"
+  ],
+  "additional_mathlib_apis_read_sha256": {},
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.MI19.counterexample",
+    "NLA.MI19.not_subsetConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.MI19.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI19.not_subsetConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.MI19.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI19.not_subsetConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi19/matrix-inequalities-and-norms/MI-19/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 54.276,
+    "log_sha256": "59fa748284d53e13ded61bd5ad87faafd7c605bba98376e42e7a8cedfb33b97b"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-mi19/docs/lean/reverification-2026-09-14/MI-19/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi19/matrix-inequalities-and-norms/MI-19/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.MI19.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI19.not_subsetConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [
+      "strict_scalar_gap"
+    ],
+    "script_sha256": "a93be7fa9855cf2bdecdaa6c3c600045c93a919381fbaaa4cbd44881a187e38c",
+    "log_sha256": "245b9f1f07ec7210404672a8311b5e8d8e8cbed0317512cf6127ec727f608a72"
+  },
+  "referee_2_numerical_execution": {
+    "route": "The printed strict_scalar_gap body uses Mathlib.Meta.NormNum.isRat_lt_true and exact rational arithmetic ending in Eq.refl true. This is a kernel-checked signed rational comparison, not a dyadic interval checker.",
+    "receipts": {},
+    "consumer_material_terms": [
+      "strict_scalar_gap"
+    ]
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "9c838a34cbff20eceb5e842eeca77c310bccb442843925343a7827a1020063cb",
+    "NUMERICAL_TARGETS.md": "cd93a4cefb529b69755c10bae600718442e0e6b8749c37df87c6dabec9b751aa",
+    "comparator.json": "11fdab27c092b2f77486078bd40eb33b4ad439d6ca8e9ca38941b5882854b194",
+    "formalization.yaml": "405396f05327bc5b6578f8fe1a98c77baadc17fc8f4b75b4c25766d77472c957",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "ee137a71fd2761e4d1e9d927307b7debb4dbdad6795ee2584e279904ccdd0b95",
+    "lakefile.toml": "7c7fe4c51422471af021e2266593c6c163c41067b8a06c2694c00afd6ac37230"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "0f60ab982e1ab4b471e495a6d3e15bab1447f3b1c5965422c7d3408fcf8c47d9",
+    "solution-local.log": "59fa748284d53e13ded61bd5ad87faafd7c605bba98376e42e7a8cedfb33b97b",
+    "referee-2-consumer.lean": "a93be7fa9855cf2bdecdaa6c3c600045c93a919381fbaaa4cbd44881a187e38c",
+    "referee-2-consumer.log": "245b9f1f07ec7210404672a8311b5e8d8e8cbed0317512cf6127ec727f608a72",
+    "referee-2-consumer.json": "8d9f2eb4fce166010506e4dc1f90490356a2ca0898a630ba8c281e7fbeb3dde2",
+    "statement-gate.json": "1b7dcc247a96f58a85b8e19f8f50553335337da159f87a9c2ab0c5da262cb43d",
+    "STATEMENT-REFEREE-1.md": "2bd2d8a0d6ae6363483a3f4c5062803f97d62d6cfd523432298c83a657611e3b",
+    "referee-1-statement-evidence.json": "f6af70e437a209b21bd5062e3b8eebb4d1cc0b94f331fd8b51733c502bf0adb1",
+    "referee-1-precheck.py": "d8d5494b2aae3ff10ee322ca1e328b8430d0a72506fe0d45d5aa435425cd4702",
+    "referee-1-precheck.log": "22c62c9a1677b9aa012bc0813625e8f76090e5a479590679f093e49582d44a1b"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

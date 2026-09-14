@@ -1,0 +1,39 @@
+[
+  {
+    "command": [
+      "/private/tmp/nla-lean-metadata314/bin/python",
+      "tools/lean/validate_manifest.py",
+      "matrix-inequalities-and-norms/MI-19/lean"
+    ],
+    "exit_code": 0,
+    "log": "preflight-0.log",
+    "sha256": "610e0a45145607bd7488cfc6447db041a6be011ce0512067f442725b555ca48f"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/validate_problem_ids.py",
+      "--base-ref",
+      "origin/main"
+    ],
+    "exit_code": 0,
+    "log": "preflight-1.log",
+    "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_problem_ids.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "log": "preflight-2.log",
+    "sha256": "bf34bc0f545e852c45bc83fed9f4bcb69a7264dea39de816e8d3318400357f51"
+  }
+]
