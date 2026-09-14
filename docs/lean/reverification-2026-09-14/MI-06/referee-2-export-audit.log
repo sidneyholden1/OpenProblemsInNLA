@@ -1,0 +1,57 @@
+@NLA.MI06.modulus_eq_sqrt : ∀ {n : ℕ} (X : Matrix.{0, 0, 0} (Fin n) (Fin n) ℂ),
+  Eq.{1} (NLA.MI06.matrixModulus X) (CFC.sqrt.{0} (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} X) X)) ∧
+    Matrix.PosSemidef.{0, 0} (NLA.MI06.matrixModulus X)
+'NLA.MI06.modulus_eq_sqrt' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI06.witness_moduli : Eq.{1} (NLA.MI06.matrixModulus NLA.MI06.witnessA) NLA.MI06.rightModulusA ∧
+  Eq.{1} (NLA.MI06.matrixModulus (Matrix.conjTranspose.{0, 0, 0} NLA.MI06.witnessA)) NLA.MI06.axialModulus ∧
+    Eq.{1} (NLA.MI06.matrixModulus NLA.MI06.witnessB) NLA.MI06.axialModulus ∧
+      Eq.{1} (NLA.MI06.matrixModulus (Matrix.conjTranspose.{0, 0, 0} NLA.MI06.witnessB)) NLA.MI06.leftModulusB ∧
+        Eq.{1} (NLA.MI06.matrixModulus (HAdd.hAdd.{0, 0, 0} NLA.MI06.witnessA NLA.MI06.witnessB))
+            NLA.MI06.rightModulusSum ∧
+          Eq.{1}
+              (NLA.MI06.matrixModulus
+                (Matrix.conjTranspose.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} NLA.MI06.witnessA NLA.MI06.witnessB)))
+              NLA.MI06.leftModulusSum ∧
+            Eq.{1} (NLA.MI06.symmetricModulus NLA.MI06.witnessA) NLA.MI06.symmetricA ∧
+              Eq.{1} (NLA.MI06.symmetricModulus NLA.MI06.witnessB) NLA.MI06.symmetricB ∧
+                Eq.{1} (NLA.MI06.symmetricModulus (HAdd.hAdd.{0, 0, 0} NLA.MI06.witnessA NLA.MI06.witnessB))
+                    NLA.MI06.symmetricSum ∧
+                  Eq.{1} NLA.MI06.symmetricA
+                      (HSub.hSub.{0, 0, 0}
+                        (HAdd.hAdd.{0, 0, 0} (HSMul.hSMul.{0, 0, 0} (1 / 8) 1)
+                          (HSMul.hSMul.{0, 0, 0} (1 / 10) (NLA.MI06.rankOne NLA.MI06.directionA)))
+                        (HSMul.hSMul.{0, 0, 0} (1 / 8) NLA.MI06.missingA)) ∧
+                    Eq.{1} NLA.MI06.symmetricB
+                      (HSub.hSub.{0, 0, 0}
+                        (HAdd.hAdd.{0, 0, 0} (HSMul.hSMul.{0, 0, 0} (1 / 8) 1)
+                          (HSMul.hSMul.{0, 0, 0} (1 / 10) (NLA.MI06.rankOne NLA.MI06.directionB)))
+                        (HSMul.hSMul.{0, 0, 0} (1 / 8) NLA.MI06.missingB))
+'NLA.MI06.witness_moduli' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI06.two_vector_orthogonal : ∀ (a b : Fin 3 → ℂ),
+  ∃ w,
+    LT.lt.{0} 0 (NLA.MI06.squaredLength w) ∧
+      Eq.{1} (dotProduct.{0, 0} (star.{0} a) w) 0 ∧ Eq.{1} (dotProduct.{0, 0} (star.{0} b) w) 0
+'NLA.MI06.two_vector_orthogonal' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI06.witness_quadratic_bounds : ∀ (U V : ↥(Matrix.unitaryGroup.{0, 0} (Fin 3) ℂ)),
+  ∃ w,
+    LT.lt.{0} 0 (NLA.MI06.squaredLength w) ∧
+      Eq.{1} (dotProduct.{0, 0} (star.{0} (Matrix.mulVec.{0, 0, 0} (↑U) NLA.MI06.directionA)) w) 0 ∧
+        Eq.{1} (dotProduct.{0, 0} (star.{0} (Matrix.mulVec.{0, 0, 0} (↑V) NLA.MI06.directionB)) w) 0 ∧
+          LE.le.{0} (HMul.hMul.{0, 0, 0} (3 / 8) (NLA.MI06.squaredLength w))
+              (NLA.MI06.quadraticForm
+                (NLA.MI06.symmetricModulus (HAdd.hAdd.{0, 0, 0} NLA.MI06.witnessA NLA.MI06.witnessB)) w) ∧
+            LE.le.{0}
+                (NLA.MI06.quadraticForm (NLA.MI06.unitaryConjugate U (NLA.MI06.symmetricModulus NLA.MI06.witnessA)) w)
+                (HMul.hMul.{0, 0, 0} (1 / 8) (NLA.MI06.squaredLength w)) ∧
+              LE.le.{0}
+                (NLA.MI06.quadraticForm (NLA.MI06.unitaryConjugate V (NLA.MI06.symmetricModulus NLA.MI06.witnessB)) w)
+                (HMul.hMul.{0, 0, 0} (1 / 8) (NLA.MI06.squaredLength w))
+'NLA.MI06.witness_quadratic_bounds' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI06.counterexample : ∀ (U V : ↥(Matrix.unitaryGroup.{0, 0} (Fin 3) ℂ)),
+  ¬LE.le.{0} (NLA.MI06.symmetricModulus (HAdd.hAdd.{0, 0, 0} NLA.MI06.witnessA NLA.MI06.witnessB))
+      (HSMul.hSMul.{0, 0, 0} (↑√2)
+        (HAdd.hAdd.{0, 0, 0} (NLA.MI06.unitaryConjugate U (NLA.MI06.symmetricModulus NLA.MI06.witnessA))
+          (NLA.MI06.unitaryConjugate V (NLA.MI06.symmetricModulus NLA.MI06.witnessB))))
+'NLA.MI06.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI06.not_dominationConjecture : ¬NLA.MI06.DominationConjecture
+'NLA.MI06.not_dominationConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

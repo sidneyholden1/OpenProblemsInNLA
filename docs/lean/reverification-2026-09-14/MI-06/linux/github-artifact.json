@@ -1,0 +1,20 @@
+{
+  "id": 10359514732,
+  "node_id": "MDg6QXJ0aWZhY3QxMDM1OTUxNDczMg==",
+  "name": "lean-MI-06",
+  "size_in_bytes": 22320,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10359514732",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10359514732/zip",
+  "expired": false,
+  "digest": "sha256:4d4921067f5963b0dce52b7d353c6f8ba4c003adb45c99499cebee829f76017c",
+  "created_at": "2026-09-14T17:16:08Z",
+  "updated_at": "2026-09-14T17:16:08Z",
+  "expires_at": "2026-12-13T17:06:28Z",
+  "workflow_run": {
+    "id": 34872712273,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/reverify-mi06",
+    "head_sha": "9c6526ef5a657e0306f13e325143dbd1c4f1ad90"
+  }
+}

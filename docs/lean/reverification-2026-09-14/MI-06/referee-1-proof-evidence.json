@@ -1,0 +1,195 @@
+{
+  "reviewer": "independent AI referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "source_base_is_not_latest_main": true,
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "candidate_commit": "9c6526ef5a657e0306f13e325143dbd1c4f1ad90",
+  "active_closure": {
+    "Solution": {
+      "path": "matrix-inequalities-and-norms/MI-06/lean/Solution.lean",
+      "sha256": "389fac775519a84b79b68811e141df5f466e9818469efca889c550e3110b806a",
+      "lines": 88
+    },
+    "NLA.MI06.Proof": {
+      "path": "matrix-inequalities-and-norms/MI-06/lean/NLA/MI06/Proof.lean",
+      "sha256": "3c1fdf9ba68e850d26d1307ce6ac2a1e9a1037aba5645bda10aa68e7c3d44145",
+      "lines": 482
+    },
+    "NLA.MI06.Definitions": {
+      "path": "matrix-inequalities-and-norms/MI-06/lean/NLA/MI06/Definitions.lean",
+      "sha256": "a89c6604d36aec8ae3428df7663a2dbb6f2f923b13ca5f7746aaf4f424cb29d2",
+      "lines": 101
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "Mathlib.Analysis.Matrix.Order",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Abs",
+    "Mathlib.LinearAlgebra.Dimension.Constructions",
+    "Mathlib.LinearAlgebra.Dimension.StrongRankCondition",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.UnitaryGroup",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "source_scan": "All active executable code read by the scan: no sorry/admit/axiom/native_decide/unsafe/implemented_by. No Challenge import.",
+  "exports": [
+    "NLA.MI06.modulus_eq_sqrt",
+    "NLA.MI06.witness_moduli",
+    "NLA.MI06.two_vector_orthogonal",
+    "NLA.MI06.witness_quadratic_bounds",
+    "NLA.MI06.counterexample",
+    "NLA.MI06.not_dominationConjecture"
+  ],
+  "evidence_hashes": {
+    "referee-2-numerical-checker-opaque-attempt.lean": "b1923dddeb6844a31946cc9b73e6c26432143108fe7c417ef701b003c7e30ac1",
+    "referee-2-numerical-checker-escaped-name-attempt.log": "fc80ed818e0556010f96c1f20529e581d1a6a77e39b31d0222a75db4f0027117",
+    "referee-2-numerical-checker-module-attempt.log": "c9d51383c2880fe176f09cba024b2d418a03efe33f80484e3f78ee1afcaf8421",
+    "referee-2-numerical-checker-nonmodule-attempt.lean": "e15d02d551f3e6c673d60fb6c48bd16f44476a6a57aacf7ff2475379af1ff75d",
+    "referee-2-export-audit-escaped-name-attempt.lean": "1cded504294e37d652e8d581334ceadb234a730702fe9a296387647a29d61ac4",
+    "referee-2-numerical-checker-opaque-attempt.log": "2ccb9b9a6011c1db78e78dd0e13a92c64b218583cf7689971648e20f1ed69199",
+    "referee-2-numerical-checker-module-attempt.lean": "664fd17ef446c50da4ed72f6f891870bfc5b83851db4d264944cc1b3bd5a8ab1",
+    "referee-2-numerical-checker-nonmodule-attempt.log": "a043da536c7354072aa4ff523c032285c11f95efdde4021979721389a243ce2e",
+    "referee-2-export-audit-escaped-name-attempt.log": "81e8f9c6004ec14157a5ac7bd59a6e8d658b437c7375e0dc326a8910f15f338e",
+    "referee-2-numerical-checker-escaped-name-attempt.lean": "e638248fe21dd1ba05ad9b158751f9b0857328f7e330c17f8aec35a240e6f7f5",
+    "referee-2-export-audit-initial.log": "652ae50ec5e656b207a50dd457b598233a975c660001a89b649562bdb4bd1cc6",
+    "referee-2-export-audit-initial.lean": "4f297b9b68fb7fd25e02fcefe9da68d5c2d88d1d9f13232e443983eccc9dcd9c",
+    "statement-gate.json": "27c82f8fd69a4d92db15e220407e97b4ad3414d9189e81ebb7a3088c3e1e754b",
+    "STATEMENT-REFEREE-1.md": "fd48ca5df70a64c8147d581c4da1ba5c3f5c88addbb3304f1fb34284971880b7",
+    "referee-1-statement-evidence.json": "db91ccfa7404c4d9ff93c6175bc1d2ec51e607615c37ff36f65b3efcade43b4c",
+    "solution-local.json": "8877bbb45cc0238bee5b669613ae019ff39a5a1fd46370548763e502c438a4b4",
+    "solution-local.log": "ab9a9c91f33efcf87fb988d3a73903cd0f6f579ce03cd3be2741a9938dc60462",
+    "referee-2-export-audit.lean": "968d415f159e068b9a823d4286d64aded17fde7dbe22aa26c69b3dffbf2e692f",
+    "referee-2-export-audit.log": "fc381dc375acc5c0d78aefbd0ac09eafa498a40911301c4b246878d438d95d45",
+    "referee-2-numerical-checker.lean": "f12c5b2c065d372758742aedd186a9dd3b10b05ce308dc1a33225af4eea57f25",
+    "referee-2-numerical-checker.log": "029cd4dc0c797be5ce72021188129b10c09e158d11ff878a60aaaf0d784efce1",
+    "referee-2-consumer-exit.json": "42ed7c229a00e3548445d6273393f41d503b3d4c8add2c02ebed7c47e9bbb7b6",
+    "referee-2-proof-checks.json": "12fedbee1f401e9a270fca776545d6c91396ddd28669d0d63cb31d392fa04daf",
+    "referee-2-numerical-exit.json": "cd6223a96b84497c57b2262bb50b76da5982fa0d6cc7f32330699e7f915b99cd"
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "7774d76c9e362c0f808ee4c1fec3b5607359048d5af82d0e99f60b74c52326dc",
+    "NUMERICAL_TARGETS.md": "792aa98aa94d18d7b49e4e4b66edca89881f1e38cf51c3aacfed8525644509a4",
+    "comparator.json": "1fe56d984d534e7daa8e8eeaacca0543a8be5404f1dc513bf635afb7e54a5dfc",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "ff63846f9c3bc57299e95cff597225fb1d99747ab48dad419f97767359b9b102",
+    "lakefile.toml": "94b9d948fbdcfb7cec4b7ae36dff6c5e0cf2927f215d1b7597634ed19961ee09"
+  },
+  "execution_limit": "Source and evidence inspection by this referee; fresh builds belong to coordinator, consumer/term inspections to referee 2. Actual Linux Comparator is separate.",
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi06/matrix-inequalities-and-norms/MI-06/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 57.234,
+    "log_sha256": "ab9a9c91f33efcf87fb988d3a73903cd0f6f579ce03cd3be2741a9938dc60462"
+  },
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.MI06.modulus_eq_sqrt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.witness_moduli": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.two_vector_orthogonal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.witness_quadratic_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.not_dominationConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "referee_2_consumer_execution": {
+    "exit_code": 0,
+    "names": [
+      "NLA.MI06.modulus_eq_sqrt",
+      "NLA.MI06.witness_moduli",
+      "NLA.MI06.two_vector_orthogonal",
+      "NLA.MI06.witness_quadratic_bounds",
+      "NLA.MI06.counterexample",
+      "NLA.MI06.not_dominationConjecture"
+    ],
+    "initial_failures": "direct private-name diagnostics retained; final consumer has no diagnostic query"
+  },
+  "export_axioms_read_from_referee_2_fresh_consumer": {
+    "NLA.MI06.modulus_eq_sqrt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.witness_moduli": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.two_vector_orthogonal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.witness_quadratic_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI06.not_dominationConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "MI06_numerical_replay_inspection": {
+    "executor": "independent referee 2",
+    "reported_exit_code": 0,
+    "active_Proof_exact_prefix_bytes": 21382,
+    "diagnostic_appendix_only": true,
+    "actual_verifier": "LeanCert.Validity.verify_strict_upper_bound_dyadic_checked",
+    "actual_kernel_checker": "of_decide_eq_true (id (Eq.refl true))",
+    "material_target": "(2 : Real) < 9/4",
+    "initial_diagnostic_failures_retained": true
+  },
+  "gate_comparison_timing": "All gate files matched before publication changes; active proof sources are unchanged and rechecked during finalization. Subsequent publication wrapper edits are outside these frozen source claims.",
+  "referee_2_numerical_execution": {
+    "numerical_inspection_exit_code": 0,
+    "numerical_inspection_command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-mi06/docs/lean/reverification-2026-09-14/MI-06/referee-2-numerical-checker.lean"
+    ]
+  }
+}
