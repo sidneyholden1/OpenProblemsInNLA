@@ -21,8 +21,8 @@
     }
   },
   "publication_files_sha256": {
-    "intervals-and-absolute-value-equations/IV-03/README.md": "0479cfa42e61963fbfa2cef77de2cd230b3d3e458d453efd414134306660e177",
-    "intervals-and-absolute-value-equations/IV-03/problem.pdf": "309bf50fe65587266c290b59aeafa030c35251a1bd359933a2ed17f71b53fd96",
+    "intervals-and-absolute-value-equations/IV-03/README.md": "aa54b708c4832df3a2a2507364b260cd568c9c6db5cba840477a16c748da429b",
+    "intervals-and-absolute-value-equations/IV-03/problem.pdf": "8b10eaf43ce2043cea257f1b9e239a4d4b3eff2126ef7454bcae1eedfd8e49c0",
     "intervals-and-absolute-value-equations/IV-03/problem.tex": "22012f539321bd4531fae3ee88e31df4d2bbb26015552ad929d4cbc6e42a2723",
     "intervals-and-absolute-value-equations/IV-03/lean/README.md": "984cb85bec12bbbca78a9fe0ec495fef020d8cb7c0773882888ca2a2b093e6f1",
     "intervals-and-absolute-value-equations/IV-03/lean/formalization.yaml": "29a4f890ff0eebb935c796dacb299ff3639553f8630efaed042993a52d3bdacb",
@@ -32,5 +32,6 @@
     "intervals-and-absolute-value-equations/README.md": "7fb50bce8380daa6134523704fb511af2d3971eec9d87054efdc8f9600d5b8b1",
     "tools/render_problems.py": "dc0fbbe3c49bc3a651508b21c09d4278eaafda42c3466ea53c30e04de3264901"
   },
-  "final_publication_ci": "Will be checked after commit/push; proof Linux gate already passed"
+  "final_publication_ci": "Will be checked after commit/push; proof Linux gate already passed",
+  "formatting_revision": "Initial publication96cd8486 failed only GitHub math formatting in the added notice; existing formatter corrected it. Original target and TeX content remain unchanged. Format checker passes all217 pages,16 formatter tests and11 render-math tests pass."
 }

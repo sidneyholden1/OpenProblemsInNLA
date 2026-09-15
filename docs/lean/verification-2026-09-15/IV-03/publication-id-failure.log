@@ -1,0 +1,8 @@
+Validate permanent problem IDs	Check GitHub mathematics formatting	﻿2026-09-15T03:59:29.8562131Z ##[group]Run python3 tools/format_math.py --check
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:29.8562587Z ^[[36;1mpython3 tools/format_math.py --check^[[0m
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:29.8563015Z ^[[36;1mpython3 -m unittest discover -s tests -p 'test_format_math.py' -v^[[0m
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:29.8563695Z ^[[36;1mpython3 -m unittest discover -s tests -p 'test_render_math.py' -v^[[0m
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:29.8599652Z shell: /usr/bin/bash -e {0}
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:29.8599926Z ##[endgroup]
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:30.1474981Z Need formatting: 1 pages: IV-03
+Validate permanent problem IDs	Check GitHub mathematics formatting	2026-09-15T03:59:30.1559145Z ##[error]Process completed with exit code 1.

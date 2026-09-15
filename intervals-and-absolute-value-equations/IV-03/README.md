@@ -25,7 +25,7 @@ The difficulty, importance and rating rationale below are historical assessments
 
 ## Lean verification — 15 September 2026
 
-The complete original question has a formally verified affirmative answer: for every positive dimension and every ordered pair of real entrywise interval endpoints, the $n^2$ negative-sign vertices characterize the entire interval consisting of inverse M-matrices. This proves the full original two-sign criterion. Zero widths, zero entries and reducible matrices are included; no interval regularity or nonsingularity assumption is added. The manuscript's arithmetic and bit-complexity claims are outside this formalization.
+The complete original question has a formally verified affirmative answer: for every positive dimension and every ordered pair of real entrywise interval endpoints, the $`n^2`$ negative-sign vertices characterize the entire interval consisting of inverse M-matrices. This proves the full original two-sign criterion. Zero widths, zero entries and reducible matrices are included; no interval regularity or nonsingularity assumption is added. The manuscript's arithmetic and bit-complexity claims are outside this formalization.
 
 All four reviewed statements passed LeanCert kernel trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean). Two independent statement reviews preceded implementation and two independent nonauthor final code reviews passed. Actual rejection and sandbox controls passed.
 
