@@ -1,0 +1,29 @@
+{
+  "result": "local-build-and-LeanCert-kernel-trust-pass",
+  "platform": "macOS aarch64; not isolated Linux",
+  "exports": [
+    "NLA.PF02.psd_rank_semantics",
+    "NLA.PF02.congruence_quotient_semantics",
+    "NLA.PF02.witness_exact_data",
+    "NLA.PF02.trace_coordinate_bridge",
+    "NLA.PF02.congruence_coordinate_identity",
+    "NLA.PF02.orientation_invariant",
+    "NLA.PF02.quotient_orientation",
+    "NLA.PF02.disconnected_counterexample",
+    "NLA.PF02.not_connectedOrbitConjecture"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "statement_freeze_unchanged": true,
+  "sha256": {
+    "NLA/PF02/Definitions.lean": "8ec6b4b58a99eb5e4554ebe7807619665c52deb83405083ba40b224a935b1f1d",
+    "NLA/PF02/Numeric.lean": "647842caf04abde095886828e36b049806559c903ce1b704c0bf46063707b4fb",
+    "NLA/PF02/Structural.lean": "8f5c29c475cdc30317ceacab53204a117432ee4584bf9a642715cbd00f97b006",
+    "NLA/PF02/StructuralBase.lean": "4d462aa86dbbfca6e59f2ff71ab20fd29840400b9fe164c8829d4e9b5dd8c3d7",
+    "Solution.lean": "6748db358bded3e18e451c3760dc4bea619a21ab4a9a623239e759500d3998a5",
+    "verification/solution-local.log": "6f7b95747ab71392468ec5a774d2f02a3cc1e7bf488f392c284eb6856f2b4d24"
+  }
+}
