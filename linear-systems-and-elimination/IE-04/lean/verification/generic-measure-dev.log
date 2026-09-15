@@ -1,0 +1,3 @@
+NLA/IE04/GenericMeasure.lean:18:8: error: `fun_prop` was unable to prove `AEMeasurable (fun G ij => G ij.1 ij.2) (gaussianMatrix n)`
+
+Issues:

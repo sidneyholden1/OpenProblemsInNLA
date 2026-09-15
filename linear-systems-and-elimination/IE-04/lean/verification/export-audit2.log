@@ -1,0 +1,64 @@
+NLA.IE04.gaussian_model (n : ℕ) :
+  MeasureTheory.IsProbabilityMeasure (NLA.IE04.gaussianMatrix n) ∧
+    ProbabilityTheory.iIndepFun (fun ij G => G ij.1 ij.2) (NLA.IE04.gaussianMatrix n) ∧
+      ∀ (i j : Fin n),
+        MeasureTheory.Measure.map (fun G => G i j) (NLA.IE04.gaussianMatrix n) = ProbabilityTheory.gaussianReal 0 1
+'NLA.IE04.gaussian_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.growth_semantics {n : ℕ} (hn : 1 ≤ n) (A : NLA.IE04.Mat n) (hA : Matrix.det A ≠ 0) :
+  0 < NLA.IE04.entryMax A ∧
+    (NLA.IE04.growthValues A).Nonempty ∧
+      (NLA.IE04.growthValues A).Finite ∧
+        BddAbove (NLA.IE04.growthValues A) ∧
+          IsGreatest (NLA.IE04.growthValues A) (NLA.IE04.ppGrowth A) ∧
+            1 ≤ NLA.IE04.ppGrowth A ∧
+              (∃! π, NLA.IE04.IsFirstLegal A π) ∧
+                ∀ (t : ℝ), t < NLA.IE04.ppGrowth A ↔ ∃ π, NLA.IE04.IsLegal A π ∧ t < NLA.IE04.pathGrowth A π
+'NLA.IE04.growth_semantics' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.gaussian_generic {n : ℕ} (hn : 1 ≤ n) (center : NLA.IE04.Mat n) (σ : ℝ) (hσ : 0 < σ) :
+  ∀ᵐ (G : NLA.IE04.Mat n) ∂NLA.IE04.gaussianMatrix n,
+    Matrix.det (NLA.IE04.perturb center σ G) ≠ 0 ∧ ∃! π, NLA.IE04.IsLegal (NLA.IE04.perturb center σ G) π
+'NLA.IE04.gaussian_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.measurable_tail {n : ℕ} (center : NLA.IE04.Mat n) (σ t : ℝ) : MeasurableSet (NLA.IE04.tailEvent center σ t)
+'NLA.IE04.measurable_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.exact_wilkinson (n : ℕ) (hn : 2 ≤ n) :
+  Matrix.det (NLA.IE04.wilkinson n) ≠ 0 ∧
+    NLA.IE04.entryMax (NLA.IE04.wilkinson n) = 1 ∧
+      NLA.IE04.IsLegal (NLA.IE04.wilkinson n) id ∧
+        (∀ (π : NLA.IE04.Schedule n), NLA.IE04.IsLegal (NLA.IE04.wilkinson n) π → π = id) ∧
+          (∀ k ≤ n, NLA.IE04.states (NLA.IE04.wilkinson n) id k = NLA.IE04.referenceStates n k) ∧
+            NLA.IE04.ppGrowth (NLA.IE04.wilkinson n) = NLA.IE04.highGrowth n ∧
+              NLA.IE04.amplification n ^ (n - 1) * NLA.IE04.boxRadius n = 1 / 8 ∧ NLA.IE04.exponentCost n ≤ 3 * n ^ 4
+'NLA.IE04.exact_wilkinson' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.full_box_robustness (n : ℕ) (hn : 2 ≤ n) (A : NLA.IE04.Mat n) (hA : A ∈ NLA.IE04.inputBox n) :
+  Matrix.det A ≠ 0 ∧
+    NLA.IE04.IsLegal A id ∧
+      (∀ (π : NLA.IE04.Schedule n), NLA.IE04.IsLegal A π → π = id) ∧
+        (∀ (k i : Fin n), k < i → |NLA.IE04.states A id (↑k) i k| < |NLA.IE04.states A id (↑k) k k|) ∧
+          (∀ k < n,
+              NLA.IE04.entryMax (NLA.IE04.states A id k - NLA.IE04.referenceStates n k) ≤
+                NLA.IE04.amplification n ^ k * NLA.IE04.boxRadius n) ∧
+            NLA.IE04.highGrowth n / 2 < NLA.IE04.ppGrowth A
+'NLA.IE04.full_box_robustness' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.gaussian_density_lower (x : ℝ) (hx : x ∈ Set.Icc (-2) 2) : 1 / 32 < ProbabilityTheory.gaussianPDFReal 0 1 x
+'NLA.IE04.gaussian_density_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.gaussian_box_lower (n : ℕ) (hn : 2 ≤ n) :
+  MeasurableSet (NLA.IE04.noiseBox n) ∧
+    Real.rpow 2 (-↑(NLA.IE04.exponentCost n)) ≤ (NLA.IE04.gaussianMatrix n).real (NLA.IE04.noiseBox n)
+'NLA.IE04.gaussian_box_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.gaussian_tail_lower (n : ℕ) (hn : 2 ≤ n) :
+  Real.rpow 2 (-↑(NLA.IE04.exponentCost n)) ≤ NLA.IE04.tailProbability 1 1 (NLA.IE04.highGrowth n / 2)
+'NLA.IE04.gaussian_tail_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.asymptotic_escape (c₁ c₂ : ℝ) (h₁ : 0 < c₁) (h₂ : 0 < c₂) :
+  ∃ N,
+    ∀ (n : ℕ), N ≤ n → 2 ≤ n ∧ 1 ≤ NLA.IE04.threshold n c₁ ∧ ↑(NLA.IE04.exponentCost n) < c₂ * NLA.IE04.threshold n c₁
+'NLA.IE04.asymptotic_escape' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.every_pair_violated (c₁ c₂ : ℝ) (h₁ : 0 < c₁) (h₂ : 0 < c₂) :
+  ∃ n,
+    2 ≤ n ∧
+      NLA.IE04.spectralNorm 1 = 1 ∧
+        1 ≤ NLA.IE04.threshold n c₁ ∧
+          Real.rpow 2 (-c₂ * NLA.IE04.threshold n c₁) <
+            NLA.IE04.tailProbability 1 1 (NLA.IE04.threshold n c₁ * (↑n).rpow c₁)
+'NLA.IE04.every_pair_violated' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.IE04.not_exponentialTailConjecture : ¬NLA.IE04.ExponentialTailConjecture
+'NLA.IE04.not_exponentialTailConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]

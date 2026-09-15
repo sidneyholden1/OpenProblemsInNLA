@@ -1,0 +1,16 @@
+{
+  "theorem": "NLA.IE04.measurable_tail_proved",
+  "build_exit": 0,
+  "kernel_audit_exit": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sha256": {
+    "NLA/IE04/Measurability.lean": "35ae0b00394840375e40e0b61524e15bc171fda1e3b46f044dc5636f291248a6",
+    "verification/measurability-build.log": "3cd8903461aa312cefd6e242f9fdbf87aabc4478c68b43a150f59a0238ef7dd2",
+    "verification/measurability-audit.log": "472f4a03ccd94d2564e1f371ed54e564de1f4380ae1b0bbfa85c34181244d85c"
+  },
+  "scope": "Exact frozen measurable_tail signature, including n=0, arbitrary centers and real sigma/t; actual finite legal schedules, recursive states and finite maxima."
+}

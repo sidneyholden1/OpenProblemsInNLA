@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-04: a rare-event obstruction to the uniform exponential GEPP tail'
+  description: Statements-only preparation for a complete negative answer, retaining actual Gaussian matrix probabilities and all GEPP tie paths.
+  authors: [Sidney Holden]
+  responsible_maintainers: [Sidney Holden]
+  license: Apache-2.0
+sources:
+- title: 'IE-04 — Exponential smoothed tail bounds for partial pivoting'
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/linear-systems-and-elimination/IE-04/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Original conjecture by Spielman and Teng; canonical full target retained.
+- title: 'IE-04: A rare-event obstruction to the uniform exponential GEPP tail'
+  authors: [George Stepaniants]
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/linear-systems-and-elimination/IE-04/solution.md
+  type: manuscript
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: George Stepaniants, California Institute of Technology. The identity-centered example suffices for the full negative answer; the additional zero-centered statement is not advertised.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    prompting_notes: Full statements before proofs; separate independent referee gates, material LeanCert kernel inspection and actual Linux Comparator required.
+  notes: Draft prepared at Sidney Holden's request; no source-author endorsement or human peer review claimed.
+status:
+  scope: Statement preparation only. Proof implementation and formal verification are not complete.
+review:
+  status: pending
+fidelity:
+  divergences: No original quantifier is dropped. Singular-input and tie conventions require explicit Gaussian almost-sure semantic bridges.
+acknowledgements: Mathematical proof by George Stepaniants. Reused GEPP definition patterns from the IE-05 formalization by Sidney Holden with Codex assistance. Mathlib, LeanCert and formalization.yaml retain their credits and licenses.

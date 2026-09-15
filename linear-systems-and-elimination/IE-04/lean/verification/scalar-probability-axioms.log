@@ -1,0 +1,70 @@
+'NLA.IE04.gaussian_polynomial_ae_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE04.gaussian_density_lower_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE04.asymptotic_escape_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.IE04.exp_neg_two_lower : 1 / 8 < Real.exp (-2) :=
+have h0 :=
+  LeanCert.Validity.verify_strict_lower_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 2 1)).neg.exp
+    (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl (Rat.divInt 0 1)) (Rat.divInt 1 8) (-53) 10
+    (of_decide_eq_true (id (Eq.refl true))) NLA.IE04.exp_neg_two_lower._proof_1_7 ↑(Rat.divInt 0 1)
+    ⟨le_refl ↑(Rat.divInt 0 1), le_refl ↑(Rat.divInt 0 1)⟩;
+Eq.mpr
+  (eq_of_heq
+    ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+        Eq.casesOn (motive := fun a_2 x => a' = a_2 → e'_3 ≍ x → (a < a_1) ≍ (a' < a'_1)) e'_3
+          (fun h =>
+            Eq.ndrec (motive := fun a' => ∀ (e_3 : a = a'), e_3 ≍ Eq.refl a → (a < a_1) ≍ (a' < a'_1))
+              (fun e_3 h =>
+                Eq.casesOn (motive := fun a_2 x => a'_1 = a_2 → e'_4 ≍ x → (a < a_1) ≍ (a < a'_1)) e'_4
+                  (fun h =>
+                    Eq.ndrec (motive := fun a' => ∀ (e_4 : a_1 = a'), e_4 ≍ Eq.refl a_1 → (a < a_1) ≍ (a < a'))
+                      (fun e_4 h => HEq.refl (a < a_1)) (Eq.symm h) e'_4)
+                  (Eq.refl a'_1) (HEq.refl e'_4))
+              (Eq.symm h) e'_3)
+          (Eq.refl a') (HEq.refl e'_3))
+      ℝ Real.instLT (1 / 8) (↑(↑1 / ↑8))
+      (Mathlib.Meta.NormNum.isNNRat_eq_true
+        (Mathlib.Meta.NormNum.isNNRat_div
+          (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+            (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+            (Mathlib.Meta.NormNum.isNNRat_inv_pos
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 8))))
+            (Eq.refl (Nat.mul 1 1)) (Eq.refl 8)))
+        (Mathlib.Meta.NormNum.isNNRat_ratCast
+          (Mathlib.Meta.NormNum.isNNRat_div
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_intCast 8 8 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 8)))))
+              (Eq.refl (Nat.mul 1 1)) (Eq.refl 8)))))
+      (Real.exp (-2)) (Real.exp (-↑(↑2 / ↑1)))
+      (of_eq_true
+        (Eq.trans
+          (Eq.trans
+            (congrArg (Eq (Real.exp (-2)))
+              (congrArg Real.exp
+                (Mathlib.Meta.NormNum.IsInt.neg_to_eq
+                  (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt
+                      (Mathlib.Meta.NormNum.isNat_ratCast
+                        (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                          (Mathlib.Meta.NormNum.isNNRat_div
+                            (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                              (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                (Mathlib.Meta.NormNum.isNat_intCast 2 2
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2)))
+                                (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                                  (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                      (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                        (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                                (Eq.refl 2)))))))
+                    (Eq.refl (Int.negOfNat 2)))
+                  (Eq.refl 2))))
+            (eq_self (Real.exp (-2))))
+          (eq_true True.intro)))))
+  (Eq.mp
+    (congr (congrArg LT.lt (congrArg Rat.cast (Rat.divInt_eq_div 1 8)))
+      (congrArg Real.exp (congrArg Neg.neg (congrArg Rat.cast (Rat.divInt_eq_div 2 1)))))
+    h0)

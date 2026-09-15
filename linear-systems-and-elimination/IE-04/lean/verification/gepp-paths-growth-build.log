@@ -1,0 +1,14 @@
+⚠ [8707/8709] Replayed NLA.IE04.GEPPKernel
+warning: NLA/IE04/GEPPKernel.lean:90:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE04/GEPPKernel.lean:108:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8708/8709] Built NLA.IE04.GEPPPaths (101s)
+⚠ [8709/8709] Built NLA.IE04.Growth (10s)
+warning: NLA/IE04/Growth.lean:58:29: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: NLA/IE04/Growth.lean:81:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Build completed successfully (8709 jobs).

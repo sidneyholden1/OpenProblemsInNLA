@@ -1,0 +1,8 @@
+⚠ [8707/8707] Built NLA.IE04.GEPPKernel (157s)
+warning: NLA/IE04/GEPPKernel.lean:90:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE04/GEPPKernel.lean:108:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (8707 jobs).

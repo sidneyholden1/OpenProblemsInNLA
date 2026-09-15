@@ -1,0 +1,7 @@
+NLA/IE04/Realize.lean:47:12: warning: This simp argument is unused:
+  hjk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

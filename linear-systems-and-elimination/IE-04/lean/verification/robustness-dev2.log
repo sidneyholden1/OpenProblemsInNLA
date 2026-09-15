@@ -1,0 +1,9 @@
+NLA/IE04/Robustness.lean:41:63: error: Application type mismatch: The argument
+  add_le_add_right (abs_sub ?m.899 ?m.900) ?m.901
+has type
+  ?m.901 + |?m.899 - ?m.900| ≤ ?m.901 + (|?m.899| + |?m.900|)
+but is expected to have type
+  |a - A - b / c * (d - D)| + |(b / c + 1 / 2) * D| ≤ |a - A| + |b / c * (d - D)| + |(b / c + 1 / 2) * D|
+in the application
+  LE.le.trans (abs_sub (a - A - b / c * (d - D)) ((b / c + 1 / 2) * D))
+    (add_le_add_right (abs_sub ?m.899 ?m.900) ?m.901)

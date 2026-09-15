@@ -1,0 +1,20 @@
+{
+  "status": "Root probability helper modules compile; full Solution and Linux still pending",
+  "source_sha256": {
+    "NLA/IE04/GaussianModel.lean": "d2016c8069cdf52c4c641bc3ad3b054d2da913dcfb2b40c534731fd995d3066c",
+    "NLA/IE04/GaussianBox.lean": "4bbcd4c7edd085fa70767e631856659050ac18b95e2175d14cc4d1eb1fc8c47a",
+    "NLA/IE04/GaussianProduct.lean": "1cea4ddd8fafb69f16e2377697bab0a3abc1a4036d5f3e6a75b24f51537f87cd",
+    "NLA/IE04/GaussianBounds.lean": "b903ce44af7867a68a237179c01610882110900facde01e4a1864d90ad51b2d6",
+    "NLA/IE04/Asymptotic.lean": "c4e1856d4bdd07ab584f5aee0e19f5d740347fe6fb54d43251308f5859fab90f",
+    "NLA/IE04/PolynomialNull.lean": "8a71c18867fcb82d3c263f7ae1393c74e4aaf109232e0decc4215a0941bf33bd"
+  },
+  "logs_sha256": {
+    "gaussian-model-direct2.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "gaussian-box-dev3.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "gaussian-product-dev2.log": "dc4be5bf6a9d5ecb6ad8bd9d9e229b5ac66c2117312ba76d3bed3a3bc1ee999c",
+    "scalar-probability-axioms.log": "e9f1098c2000074b1edef471ebc3e9072ab696243d34b69f826c251c0e3b9641",
+    "asymptotic-build3.log": "bfeb2bdabdd5e1dc609be70b1c0d195d9beb5d15027dd61e97b20551469bf354",
+    "gaussian-foundations-build.log": "fd10203815090bfd35964d4bc689a0c6e160f883bf79382a47c342e875343df1"
+  },
+  "scope": "Actual nested product Gaussian, all scalar intervals in [-2,2], full n-by-n noise box and exponent for all n>=2. No sampled or coordinate-restricted substitute."
+}

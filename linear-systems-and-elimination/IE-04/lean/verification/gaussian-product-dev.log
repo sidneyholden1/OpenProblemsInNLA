@@ -1,0 +1,76 @@
+NLA/IE04/GaussianProduct.lean:17:56: error: Application type mismatch: The argument
+  j
+has type
+  i ∈ Set.univ
+of sort `Prop` but is expected to have type
+  Fin n
+of sort `Type` in the application
+  h i j
+NLA/IE04/GaussianProduct.lean:17:56: error: Application type mismatch: The argument
+  j
+has type
+  Fin n
+of sort `Type` but is expected to have type
+  i ∈ Set.univ
+of sort `Prop` in the application
+  h i j
+NLA/IE04/GaussianProduct.lean:17:41: error: Tactic `rcases` failed: `x✝ : ∀ i_1 ∈ Set.univ,
+  G i i_1 ∈
+    (fun j => Set.Icc (wilkinson n i j - 1 i j - boxRadius n) (wilkinson n i j - 1 i j + boxRadius n))
+      i_1` is not an inductive datatype
+NLA/IE04/GaussianProduct.lean:9:6: error: (kernel) declaration has metavariables 'NLA.IE04.noiseBox_rectangle'
+NLA/IE04/GaussianProduct.lean:15:13: warning: This simp argument is unused:
+  Set.mem_pi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_univ, forall_true_left, Set.mem_Icc, Matrix.add_apply, Matrix.smul_apply, one_smul, abs_le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/GaussianProduct.lean:15:25: warning: This simp argument is unused:
+  Set.mem_univ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_pi, forall_true_left, Set.mem_Icc, Matrix.add_apply, Matrix.smul_apply, one_smul, abs_le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/GaussianProduct.lean:15:39: warning: This simp argument is unused:
+  forall_true_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_pi, Set.mem_univ, Set.mem_Icc, Matrix.add_apply, Matrix.smul_apply, one_smul, abs_le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/GaussianProduct.lean:15:57: warning: This simp argument is unused:
+  Set.mem_Icc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_pi, Set.mem_univ, forall_true_left, Matrix.add_apply, Matrix.smul_apply, one_smul, abs_le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/GaussianProduct.lean:16:4: warning: This simp argument is unused:
+  Matrix.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_pi, Set.mem_univ, forall_true_left, Set.mem_Icc, Matrix.add_apply, one_smul, abs_le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/GaussianProduct.lean:36:83: error: unsolved goals
+n : ℕ
+hn : 2 ≤ n
+⊢ ((boxRadius n / 16) ^ n) ^ n = (boxRadius n ^ n) ^ n / (16 ^ n) ^ n
+NLA/IE04/GaussianProduct.lean:39:43: error: failed to prove positivity/nonnegativity/nonzeroness
+NLA/IE04/GaussianProduct.lean:41:43: error: failed to prove positivity/nonnegativity/nonzeroness
+NLA/IE04/GaussianProduct.lean:57:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?m.147 ^ (-?y)
+in the target expression
+  Real.rpow 2 (-↑(exponentCost n)) = (boxRadius n / 16) ^ (n * n)
+
+n : ℕ
+hn : 2 ≤ n
+hr : boxRadius n / 16 = (2 ^ (n ^ 2 + n + 5))⁻¹
+⊢ Real.rpow 2 (-↑(exponentCost n)) = (boxRadius n / 16) ^ (n * n)
+NLA/IE04/GaussianProduct.lean:57:23: error: unsolved goals
+n : ℕ
+hn : 2 ≤ n
+hr : boxRadius n / 16 = (2 ^ (n ^ 2 + n + 5))⁻¹
+⊢ 0 ≤ ?m.147

@@ -1,0 +1,5 @@
+theorem NLA.IE04.exp_neg_two_lower._proof_1_7 : LeanCert.Validity.checkStrictLowerBoundDyadicChecked
+    (LeanCert.Core.Expr.const (Rat.divInt 2 1)).neg.exp (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl (Rat.divInt 0 1))
+    (Rat.divInt 1 8) (-53) 10 =
+  true :=
+of_decide_eq_true (id (Eq.refl true))
