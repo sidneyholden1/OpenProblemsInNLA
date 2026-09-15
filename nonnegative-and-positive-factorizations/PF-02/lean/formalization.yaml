@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'PF-02: disconnected minimal PSD factorization orbits'
+  description: >-
+    Work in progress toward the complete negative answer using the explicit
+    six-by-six matrix and genuine real congruence quotient at factor size three.
+    No completed proof or successful verification is claimed.
+  authors: [Sidney Holden]
+  responsible_maintainers: [Sidney Holden]
+  license: Apache-2.0
+sources:
+- title: 'PF-02 — Connectedness of minimal positive semidefinite factorization orbits'
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/nonnegative-and-positive-factorizations/PF-02/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Original question by Fawzi, Gouveia, Parrilo, Robinson and Thomas.
+- title: An orientation obstruction to connectedness of minimal positive semidefinite factorization orbits
+  authors: [Matthew J. Colbrook]
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex
+  type: manuscript
+  location: Theorem 1 and its complete proof in Sections 1–2
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Mathematical proof author Matthew J. Colbrook, University of Cambridge. The stronger all-size extension is unnecessary for negating the universal question.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    prompting_notes: Statements before proofs; exact certificates; two independent statement and final referees; LeanCert kernel trust audit and actual Lean Comparator required.
+  notes: AI-assisted work at Sidney Holden's request. No human peer review or source-author endorsement asserted.
+status:
+  scope: Statement preparation only. Proof, referee approval and Comparator verification are pending. The original problem status is unchanged.
+review:
+  status: pending
+fidelity:
+  divergences: Fixed size three suffices to refute the universally quantified original question. No disconnectedness claim is made until the orbit topology argument is proved.
+acknowledgements: Original mathematical argument by Matthew J. Colbrook. Mathlib, LeanCert, Lean Comparator and formalization.yaml retain their implementation credit and licenses.

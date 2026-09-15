@@ -1,0 +1,18 @@
+✔ [2395/2397] Built NLA.PF02.Definitions (3.7s)
+✖ [2396/2397] Building Challenge (3.7s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean/.lake/build/lib/lean /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean/Challenge.lean -o /private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean/.lake/build/lib/lean/Challenge.olean -i /private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean/.lake/build/lib/lean/Challenge.ilean -c /private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean/.lake/build/ir/Challenge.c --setup /private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean/.lake/build/ir/Challenge.setup.json --json
+warning: Challenge.lean:12:8: declaration uses `sorry`
+error: Challenge.lean:21:4: Unknown identifier `IsQuotientMap`
+
+Note: It is not possible to treat `IsQuotientMap` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+warning: Challenge.lean:25:8: declaration uses `sorry`
+warning: Challenge.lean:36:8: declaration uses `sorry`
+warning: Challenge.lean:44:8: declaration uses `sorry`
+warning: Challenge.lean:52:8: declaration uses `sorry`
+warning: Challenge.lean:60:8: declaration uses `sorry`
+warning: Challenge.lean:68:8: declaration uses `sorry`
+warning: Challenge.lean:75:8: declaration uses `sorry`
+error: Lean exited with code 1
+Some required targets logged failures:
+- Challenge
+error: build failed

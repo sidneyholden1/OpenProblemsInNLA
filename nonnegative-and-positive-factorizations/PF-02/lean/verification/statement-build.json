@@ -1,0 +1,16 @@
+{
+  "stage": "statement typecheck only; no proofs",
+  "command": [
+    "lake",
+    "build",
+    "Challenge"
+  ],
+  "cwd": "/private/tmp/nla-lean-pf02/nonnegative-and-positive-factorizations/PF-02/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "exit_code": 0,
+  "jobs": 2397,
+  "intentional_placeholders": 9,
+  "log_sha256": "245ecb83e0d9871551620a796b3a650da7f562c3f21d35ca6548abe1599a3732",
+  "initial_failure": "Unqualified IsQuotientMap; initial log retained; corrected to Topology.IsQuotientMap."
+}
