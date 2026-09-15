@@ -34,10 +34,10 @@ automation:
   notes: AI-assisted formalization prepared at Sidney Holden's request. No source-author endorsement or
     human peer review asserted.
 status:
-  scope: 'Complete original negative answer with literal recurrence, all root orderings, actual norms
-    and Gaussian law. All ten exports pass LeanCert kernel audits and isolated Linux Comparator/default-kernel
-    at 9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6; actual sandbox and rejection controls pass. Two independent
-    statement and two independent nonauthor final reviews passed. Linux: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927150695'
+  scope: All ten full-target Solution exports pass the pinned local Lean elaboration and LeanCert kernel
+    trust audit with only the standard three axioms. Normal build receipt is retained separately. Independent
+    nonauthor final code reviews and actual isolated Linux Comparator remain pending; canonical status
+    unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -136,7 +136,7 @@ status:
   - Classical.choice
   - Quot.sound
 review:
-  status: independent-agent-code-reviewed; isolated-Linux-verified
+  status: independent-agent-code-reviewed; isolated-Linux-pending
   notes: Two independent nonauthor statement approvals preceded implementation. Frozen mathematical statements
     and dependency pins are unchanged. The build-only addition of the Solution library is recorded in
     verification/build-config-revision.json. Ten deliberate Challenge placeholders establish no result

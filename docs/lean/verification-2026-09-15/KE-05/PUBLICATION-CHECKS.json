@@ -1,0 +1,34 @@
+{
+  "verdict": "PASS",
+  "scope": "publication preparation and local validation; exact publication-head CI is a separate completion gate",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_1",
+  "verified_proof_commit": "9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6",
+  "source_preservation": "28 active proof/boundary/configuration files byte-identical to tested proof commit; full original canonical target and informal sources unchanged",
+  "manifest_exports": 10,
+  "permanent_ids": 217,
+  "permanent_id_tests": 17,
+  "format_check": "0 pages need formatting",
+  "pdf_visual_review": {
+    "verdict": "PASS",
+    "pages": 3,
+    "review": "All three final page images visually inspected: legible equations, no clipping/overlap, original target and references start on fresh pages",
+    "file": "randomized-and-low-rank-approximation/KE-05/problem.pdf",
+    "sha256": "2764b004671ca6800929354998515a990ec468cd56409c36e65ebba4a2fd6e04"
+  },
+  "evidence_sha256": {
+    "publication-checks/KE-05-publication-ids.log": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+    "publication-checks/KE-05-publication-catalog.log": "84d292e7d1d0202df8e9e8db6815c8a7d9ebdbf9da7578b4f2cb0606f91fbc44",
+    "publication-checks/KE-05-publication-manifest.log": "2deb501e68d8d20806d3ef22cde77bb6a46529b913fb57cca54b71036180f1ee",
+    "publication-checks/KE-05-publication-proofbytes.log": "324677a5edee62ce8651f4a3624aed21f4546861bdb0a5f9d4b3a70d71dc1f00",
+    "publication-checks/KE-05-publication-tests-preflight.log": "1806d5c2ad9a435c0780ac7416a0526d805958693b7e6e339bb69533c34597f3",
+    "publication-checks/KE-05-publication-format-tests.log": "aafe4b94782900c54c8bfdc427778084c7371d29b350c1aa819434f90cdafe59",
+    "publication-checks/KE-05-publication-render-tests-final.log": "85b8ca3022d00b5b700898339fa37644cac267330110e5efa7b5ecabe7687bf2",
+    "publication-checks/KE-05-pdf-render-final.log": "56e4c87cd7ad921b0c00f358da9dceacd340b24c2c342150035137c73a76af74",
+    "publication-checks/KE-05-pdf-preview-final.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "publication-checks/KE-05-collection.log": "e7de3e70d5acf0cb25cc71bdc77bd87dd9536839eb0bc5280a171cb51db7307b",
+    "publication-checks/KE-05-operational-check.log": "b0fed2e7b3a4b3abc2698a35a05d44a6791257201bf11aca6344a75bdaa6ad98",
+    "publication-checks/check_ke05_publication.py": "36763d7e35cf038e42cecd7e91beef7c842528b27d8e8d1c2d94a6d37073f0fb"
+  },
+  "renderer_change": "KE-05-only page breaks; rendering tests pass; no Lean tooling change",
+  "final_ci": "pending commit/push; tracked separately in batch inventory"
+}

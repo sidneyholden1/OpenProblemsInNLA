@@ -2,7 +2,7 @@
 
 **124 problems with open targets:** 52 open and 72 partially resolved. **93 other retained entries**, excluded from the open count.
 
-**Resolution evidence:** 76 solved (published or independently audited); 17 Lean verified.
+**Resolution evidence:** 75 solved (published or independently audited); 18 Lean verified.
 
 Each entry records its own literature-check date. Literature checks are bounded; ratings are editorial. “Impact” uses the canonical `Importance` field.
 
@@ -142,7 +142,7 @@ Retained entries outside the open count:
 
 | ID | Problem | Status | Difficulty | Impact | Read / source |
 | --- | --- | --- | --- | --- | --- |
-| [KE-05](randomized-and-low-rank-approximation/KE-05/README.md) | Spectral-gap-independent constants for randomized block polynomial interpolation | **✅ SOLVED** | challenging | interesting to the community | [PDF](randomized-and-low-rank-approximation/KE-05/problem.pdf) · [TeX](randomized-and-low-rank-approximation/KE-05/problem.tex) |
+| [KE-05](randomized-and-low-rank-approximation/KE-05/README.md) | Spectral-gap-independent constants for randomized block polynomial interpolation | **🏆 LEAN VERIFIED** | challenging | interesting to the community | [PDF](randomized-and-low-rank-approximation/KE-05/problem.pdf) · [TeX](randomized-and-low-rank-approximation/KE-05/problem.tex) |
 | [RA-02](randomized-and-low-rank-approximation/RA-02/README.md) | Polynomial trace-error factor after exactly the target rank of pivots | **✅ SOLVED** | challenging | interesting to the community | [PDF](randomized-and-low-rank-approximation/RA-02/problem.pdf) · [TeX](randomized-and-low-rank-approximation/RA-02/problem.tex) |
 | [RA-03](randomized-and-low-rank-approximation/RA-03/README.md) | Improve the randomized LU squared-error factor to $`2^k`$ | **🏆 LEAN VERIFIED** | challenging | interesting to specialist | [PDF](randomized-and-low-rank-approximation/RA-03/problem.pdf) · [TeX](randomized-and-low-rank-approximation/RA-03/problem.tex) |
 | [RA-07](randomized-and-low-rank-approximation/RA-07/README.md) | Convexity of the expected error of volume-sampled column subsets | **🏆 LEAN VERIFIED** | challenging | interesting to the community | [PDF](randomized-and-low-rank-approximation/RA-07/problem.pdf) · [TeX](randomized-and-low-rank-approximation/RA-07/problem.tex) |

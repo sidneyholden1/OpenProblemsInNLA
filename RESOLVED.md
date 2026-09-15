@@ -120,6 +120,12 @@ The entire argument passed a separate [independent Codex-agent audit](references
 
 ### ✅ KE-05 - spectrum-uniform interpolation constants are unbounded - George Stepaniants
 
+**Lean verified — 15 September 2026.** The complete original uniform-probability conjecture has a formally verified negative answer. The proof retains the literal descending recurrence, all root orderings, actual Euclidean operator and coefficient norms, and the full independent Gaussian law. A deterministic two-by-two, three-block family makes the actual interpolation constant diverge almost surely along a fixed sequence, and its probability of lying below any finite constant tends to zero. All ten reviewed statements passed LeanCert kernel trust audits, standard-axiom checks and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927150695) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6/randomized-and-low-rank-approximation/KE-05/lean).
+
+Mathematical proof: George Stepaniants. Original interpolation framework and conjecture: Nian Shao. Formalization: Sidney Holden, with OpenAI Codex assistance. Two independent statement reviews preceded implementation, and two independent nonauthor final reviews passed. Actual sandbox and rejection controls passed. AI-agent review is not external human peer review or official Tau Ceti endorsement.
+
+[Retained formal verification evidence](docs/lean/verification-2026-09-15/KE-05/README.md).
+
 **Author:** George Stepaniants, Department of Computing and Mathematical Sciences, California Institute of Technology, Pasadena, California, USA.
 
 **Negative resolution recorded 2026-09-12 (UTC).** The [exact target and Sections 1-5](randomized-and-low-rank-approximation/KE-05/solution.md) exhibit admissible deterministic $2\times2$ blocks with $d=3$ for which $\chi_{\rm mono}\chi_{\rm coef}$ diverges in probability as two eigenvalues approach zero. Hence no finite uniform constant exists even for failure probability $1/2$. [Proof PDF](randomized-and-low-rank-approximation/KE-05/solution.pdf) · [Original canonical target](randomized-and-low-rank-approximation/KE-05/README.md).
