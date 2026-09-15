@@ -1,0 +1,50 @@
+REELABORATE NLA/SP04/Definitions.lean
+EXIT 0
+REELABORATE NLA/SP04/MatrixOrbit.lean
+EXIT 0
+REELABORATE NLA/SP04/MatrixProof.lean
+EXIT 0
+REELABORATE NLA/SP04/MatrixReduction.lean
+EXIT 0
+REELABORATE NLA/SP04/PolynomialProof.lean
+EXIT 0
+REELABORATE NLA/SP04/Scalar.lean
+NLA/SP04/Scalar.lean:14:2: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+NLA/SP04/Scalar.lean:17:2: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+EXIT 0
+REELABORATE NLA/SP04/TopologyProof.lean
+NLA/SP04/TopologyProof.lean:15:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:19:15: warning: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:16:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/SP04/TopologyProof.lean:26:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:30:15: warning: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:27:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+EXIT 0

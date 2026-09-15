@@ -1,0 +1,9 @@
+Material local dependency: NLA.SP04.low_product_margin
+Material local dependency: NLA.SP04.high_product_margin
+Material local dependency: NLA.SP04.diagonal_stationary_reduction_proved
+Material local dependency: NLA.SP04.scalar_unique_least
+Material local dependency: NLA.SP04.distanceSq_orthogonalTransform
+Material local dependency: NLA.SP04.localOrbit_derivative
+Material local dependency: NLA.SP04.orbitDerivative_injective
+Material local dependency: NLA.SP04.nonzero_polynomial_avoids_open
+verification/final-referee-1-dependencies.lean:3:0: error: Missing certificate body

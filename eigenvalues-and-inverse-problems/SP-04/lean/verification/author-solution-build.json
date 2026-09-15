@@ -1,0 +1,41 @@
+{
+  "status": "PASS local only; final nonauthor reviews and actual Linux Comparator pending",
+  "command": [
+    "lake",
+    "build",
+    "Solution"
+  ],
+  "exit_code": 0,
+  "jobs": 8799,
+  "log_sha256": "61a9cd8cde93824f1e1eff344aa531ac69065f5081156fcd5cbbdafdb37790e9",
+  "exports": [
+    "NLA.SP04.positive_multiplier_exclusion",
+    "NLA.SP04.selected_negative_root",
+    "NLA.SP04.diagonal_stationary_reduction",
+    "NLA.SP04.diagonal_unique_failure",
+    "NLA.SP04.orbit_unique_failure",
+    "NLA.SP04.open_counterexample_family",
+    "NLA.SP04.avoids_every_proper_algebraic_exception",
+    "NLA.SP04.generic_counterexample",
+    "NLA.SP04.not_generic_smallest_multiplier"
+  ],
+  "all_assert_trust_kernel_pass": true,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "active_source_sha256": {
+    "NLA/SP04/Definitions.lean": "54a1ab62f1e32e1913ee87600a98fb1f942f4acf6e55f777b6be3cb25b3825d5",
+    "NLA/SP04/MatrixOrbit.lean": "87466976c00277df848be716749f838166ffdee1ffc9c8129a8d459fdb4829ae",
+    "NLA/SP04/MatrixProof.lean": "fc388ff5c1f86cc08346b3a8c4452e6a3ca3b27cf0645ad4d4126f501d57f01b",
+    "NLA/SP04/MatrixReduction.lean": "c9a1b2cc4435a701ed9f593cd56ad1a6f85c570e0f36dffaaff663a2ad545211",
+    "NLA/SP04/PolynomialProof.lean": "633b1f923bd5c7ee95f239510f6babbb0b0dd1cff49f29dec44a0347da2ab9d3",
+    "NLA/SP04/Scalar.lean": "40168bb227aa6f027186917b65f099ca8e0540de81fc9f7139f9a4bd844e7460",
+    "NLA/SP04/TopologyProof.lean": "92f356340475f05d7b99d631097acc5273bc8c155aa438bde551e867a91bccb8",
+    "Solution.lean": "79ca08076b83585023c8e354000b7c336733d98a0d141254d1fd046791e8a39c"
+  },
+  "frozen_mathematical_statement_bytes_match": true,
+  "author": "/root/iv06_statement_referee_1 coauthored Scalar and PolynomialProof; other modules by coordinator and sibling",
+  "warnings": "Nonmaterial linter warnings in TopologyProof and upstream LeanCert Set.mem_setOf deprecation emitted through Scalar point checks; not warning-free."
+}

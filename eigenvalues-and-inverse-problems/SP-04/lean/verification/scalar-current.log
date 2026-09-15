@@ -1,0 +1,24 @@
+✖ [8792/8792] Building NLA.SP04.Scalar (30s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/lib/lean /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/NLA/SP04/Scalar.lean -o /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/lib/lean/NLA/SP04/Scalar.olean -i /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/lib/lean/NLA/SP04/Scalar.ilean -c /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/ir/NLA/SP04/Scalar.c --setup /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/ir/NLA/SP04/Scalar.setup.json --json
+warning: NLA/SP04/Scalar.lean:19:42: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+error: NLA/SP04/Scalar.lean:49:6: Type mismatch: After simplification, term
+  hh
+ has type
+  x ⟨1, ⋯⟩ * (x 0 * x 2) < a * (B * B)
+but is expected to have type
+  x 0 * (x 1 * x 2) < a * (B * B)
+error: NLA/SP04/Scalar.lean:51:6: Type mismatch: After simplification, term
+  hh
+ has type
+  x ⟨2, ⋯⟩ * (x 0 * x 1) < a * (B * B)
+but is expected to have type
+  x 0 * (x 1 * x 2) < a * (B * B)
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP04.Scalar
+error: build failed
