@@ -1,0 +1,11 @@
+{
+  "actual_base": "32f1f799219fbcaf4c66bfaa4edb8a0c591e79e9",
+  "preserved_read_source": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "canonical_source_bytes_equal": true,
+  "sources": {
+    "linear-systems-and-elimination/IE-04/README.md": "f689c04a0dddf05075a7c1afa4861bb03513cdecbe8970ac64deaf5b893fe27c",
+    "linear-systems-and-elimination/IE-04/solution.md": "5418bb8fa765313d2e4dcbd85a78558e244fc6207b165b511a2b03532f34199e"
+  },
+  "reviewed_mathematical_bytes_unchanged": true,
+  "wrapper_delta": "Default Lake target switched from Challenge to future Solution and lean_lib Solution registered. Pins, Definitions, Challenge and numerical targets unchanged. No proof implementation exists."
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "statement typecheck only; no proofs",
+  "command": [
+    "lake",
+    "build",
+    "Challenge"
+  ],
+  "cwd": "/private/tmp/nla-seventh-five/ie04-statement",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "exit_code": 0,
+  "jobs": 3106,
+  "intentional_placeholders": 12,
+  "log_sha256": "0c546573a6ceadbb1cd7b45b65e158807472d6dd7be478919a36f5bbae1d5b2e",
+  "initial_failure": "Missing explicit parameters for Matrix.toEuclideanCLM and missing Matrix measurable-space instance; original failure log retained. Corrected by explicit parameters and the standard Pi measurable-space instance.",
+  "independent_reviews": "pending; drafting agent not independent"
+}

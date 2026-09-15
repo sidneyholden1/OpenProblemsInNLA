@@ -1,0 +1,37 @@
+{
+  "stage": "draft awaiting two independent statement approvals",
+  "exports": [
+    "gaussian_model",
+    "growth_semantics",
+    "gaussian_generic",
+    "measurable_tail",
+    "exact_wilkinson",
+    "full_box_robustness",
+    "gaussian_density_lower",
+    "gaussian_box_lower",
+    "gaussian_tail_lower",
+    "asymptotic_escape",
+    "every_pair_violated",
+    "not_exponentialTailConjecture"
+  ],
+  "files_sha256": {
+    "NLA/IE04/Definitions.lean": "c78a3813feb30befee926d4ad94aed7456567db670b4eede249516c06bbd4edf",
+    "Challenge.lean": "0e84dc20ac0311e4abb143735298439030a5b9573b90b084398dc67a5f3ed28f",
+    "NUMERICAL_TARGETS.md": "9fc5e9071df313497a615f30f7946769e4160029e84c3005c7c892b1c9ab17b2",
+    "README.md": "efb6024a676be9a08e1eb333110f0c6af03616558d40cab8e9788b82cecd0ad8",
+    "formalization.yaml": "c719e7dc1aa04d67d5c57f0d59392e70d7e6e0c53eabcb45f95d5fc99b486fcc",
+    "comparator.json": "5f9886dda49574e09e13b5fa6f906ea20e55803b24233df0ae3892a52d6bf641",
+    "lakefile.toml": "42c64a00a316fe47ed4ac3f60a87c141862e05058d4079df358b47d0134a0322",
+    "lake-manifest.json": "9492763774b7794de2b88d000461651ba152d0ac84d55996f33548f41ed40430",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "SOURCE_PROVENANCE.json": "a22bb1fec5a717a1bca13627ed967a677a1e584a7194db6d4c334910890750c3",
+    "sources/README.md": "f689c04a0dddf05075a7c1afa4861bb03513cdecbe8970ac64deaf5b893fe27c",
+    "sources/solution.md": "5418bb8fa765313d2e4dcbd85a78558e244fc6207b165b511a2b03532f34199e",
+    "verification/exact-precheck.py": "3d5a48ff88b1372e164d7be9e731c6a0aea452afff3c0c87e4d1370ad6486830",
+    "verification/exact-precheck.json": "512ae9d1651bac5d09bbb10f900c9c462b8e830848cfdc5ba75cbbe65563d6e4",
+    "verification/statement-build.log": "0c546573a6ceadbb1cd7b45b65e158807472d6dd7be478919a36f5bbae1d5b2e",
+    "verification/statement-build-initial.log": "334b8ca5efde80db4a5d5bbf73b4aaf2d64d9fc9349e1585cd8296369fbf3338",
+    "verification/statement-build.json": "1b97fa725b8748542974edd5ca86276d9e4570e3d412275ead2994702619eb31"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "mathematical_author": "George Stepaniants, California Institute of Technology",
+  "formalization_status": "Statement draft only, no new mathematical proof or verification claimed",
+  "sources": [
+    {
+      "path": "linear-systems-and-elimination/IE-04/README.md",
+      "sha256": "f689c04a0dddf05075a7c1afa4861bb03513cdecbe8970ac64deaf5b893fe27c"
+    },
+    {
+      "path": "linear-systems-and-elimination/IE-04/solution.md",
+      "sha256": "5418bb8fa765313d2e4dcbd85a78558e244fc6207b165b511a2b03532f34199e"
+    }
+  ]
+}
