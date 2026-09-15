@@ -12,6 +12,3 @@ name = "NLA"
 
 [[lean_lib]]
 name = "Challenge"
-
-[[lean_lib]]
-name = "Solution"
