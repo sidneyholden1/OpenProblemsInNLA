@@ -1,0 +1,30 @@
+version: v0.4
+project:
+  name: 'SP-04: failure of the generic smallest-multiplier rule'
+  description: Statements-only draft toward a complete negative answer. No proof or successful verification claimed.
+  authors: [Sidney Holden]
+  responsible_maintainers: [Sidney Holden]
+  license: Apache-2.0
+sources:
+- title: 'SP-04 canonical problem'
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/eigenvalues-and-inverse-problems/SP-04/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'SP-04 complete informal solution'
+  authors: [Matthew J. Colbrook]
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/eigenvalues-and-inverse-problems/SP-04/solution.tex
+  type: manuscript
+  relationship: formalizes
+  author_endorsement: not-contacted
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+  notes: AI-assisted statement preparation at Sidney Holden's request. No human peer review or author endorsement asserted.
+status:
+  scope: Statement draft typechecked in its original scratch environment; independent statement reviews, all proofs, LeanCert audits and actual Comparator verification remain pending. Published problem status unchanged.
+fidelity:
+  divergences: Retains the full generic negation through an open set of dimension-three counterexamples, not merely one diagonal matrix or a scalar inequality.
+review:
+  status: pending

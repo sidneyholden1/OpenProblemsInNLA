@@ -1,0 +1,17 @@
+{
+  "stage": "FROZEN before proof implementation",
+  "frozen_at_utc": "2026-09-15T02:20:42.456977+00:00",
+  "sha256": {
+    "NLA/SP04/Definitions.lean": "54a1ab62f1e32e1913ee87600a98fb1f942f4acf6e55f777b6be3cb25b3825d5",
+    "Challenge.lean": "99e61e62c3ea8e5911e7765850735515cca4f896c3593001215dd703585c0506",
+    "NUMERICAL_TARGETS.md": "6a32b2cc5d14e9f062e5ec09bac8471f91eb269054b9a0241d590c47b1649a63",
+    "comparator.json": "583cad865ecdc647f71544a4cdd62dd8473fb436242240c56e89ba9f00ddf6f9",
+    "lakefile.toml": "752b51f88c9dfcc5a21ca5008fcad5d615779c55f41d210ecb5806cf5ce73e0d",
+    "lake-manifest.json": "0b777416633b6ab6cecb4b739da1148251ec285a20225da94da6f72b56bddcab",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "reports": {
+    "reviews/statement-referee-1.md": "7953259c195303890f5b366c1a36696272fbc691c6bd649c6b28de4d531fc57b",
+    "reviews/statement-referee-2.md": "b2ecb3c92dc9d1aec8d13c24bcd683eb823bdeb8cb0854c69ab4c37e2ac1a09b"
+  }
+}

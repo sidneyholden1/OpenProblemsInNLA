@@ -1,0 +1,13 @@
+{
+  "stage": "statements-only typecheck, not proof verification",
+  "exit_code": 0,
+  "utc": "2026-09-15T01:59:21.291250+00:00",
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "files": {
+    "NLA/SP04/Definitions.lean": "54a1ab62f1e32e1913ee87600a98fb1f942f4acf6e55f777b6be3cb25b3825d5",
+    "Challenge.lean": "99e61e62c3ea8e5911e7765850735515cca4f896c3593001215dd703585c0506",
+    "NUMERICAL_TARGETS.md": "6a32b2cc5d14e9f062e5ec09bac8471f91eb269054b9a0241d590c47b1649a63",
+    "SOURCE_PROVENANCE.json": "bf48973ee63563d93e1f4a8d575422d3e4e603703ea4fc4be20f7ad5828cca9e"
+  }
+}
