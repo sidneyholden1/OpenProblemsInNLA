@@ -1,0 +1,31 @@
+version: v0.4
+project:
+  name: 'IV-03: full inverse-M interval vertex criterion'
+  description: Statement preparation for the all-dimensional interval equivalence, including singularity exclusion. No proof verification claimed.
+  authors: [Sidney Holden]
+  responsible_maintainers: [Sidney Holden]
+  license: Apache-2.0
+sources:
+- title: 'IV-03 canonical question'
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/intervals-and-absolute-value-equations/IV-03/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: An n-squared-vertex characterization of inverse-M interval matrices
+  authors: [Matthew J. Colbrook]
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/references/colbrook-intervals-2026-09-11/manuscripts/IV-03.tex
+  type: manuscript
+  location: Theorem 1 and complete proof
+  relationship: formalizes
+  author_endorsement: not-contacted
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+  notes: AI-assisted statement drafting and independent agent reviews. No human peer review or source-author endorsement claimed.
+status:
+  scope: Four complete-target statement contracts typechecked and approved by two independent nonauthor agents. Proof implementation, final code review and actual Linux Comparator remain pending. Canonical status unchanged.
+review:
+  status: statement-approved; proof-pending
+fidelity:
+  divergences: Exact pointwise vertex formula is connected to matrix multiplication by an explicit contract. The source's stronger negative-sign criterion implies the entire original two-sign family, with all original domains retained.
