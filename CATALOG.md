@@ -2,7 +2,7 @@
 
 **124 problems with open targets:** 52 open and 72 partially resolved. **93 other retained entries**, excluded from the open count.
 
-**Resolution evidence:** 76 solved (published or independently audited); 17 Lean verified.
+**Resolution evidence:** 75 solved (published or independently audited); 18 Lean verified.
 
 Each entry records its own literature-check date. Literature checks are bounded; ratings are editorial. “Impact” uses the canonical `Importance` field.
 
@@ -215,7 +215,7 @@ Retained entries outside the open count:
 | [NM-03](nonnegative-and-positive-factorizations/NM-03/README.md) | Complexity of globally optimal nonnegative rank-two approximation | **✅ SOLVED** | challenging | interesting to the community | [PDF](nonnegative-and-positive-factorizations/NM-03/problem.pdf) · [TeX](nonnegative-and-positive-factorizations/NM-03/problem.tex) |
 | [NM-04](nonnegative-and-positive-factorizations/NM-04/README.md) | The Rowland–Wu polynomial identity for Sinkhorn limits | **✅ SOLVED** | challenging | interesting to the community | [PDF](nonnegative-and-positive-factorizations/NM-04/problem.pdf) · [TeX](nonnegative-and-positive-factorizations/NM-04/problem.tex) |
 | [NR-04](nonnegative-and-positive-factorizations/NR-04/README.md) | The nonnegative rank of the nine-point distance matrix | **✅ SOLVED** | hard | interesting to specialist | [PDF](nonnegative-and-positive-factorizations/NR-04/problem.pdf) · [TeX](nonnegative-and-positive-factorizations/NR-04/problem.tex) |
-| [PF-02](nonnegative-and-positive-factorizations/PF-02/README.md) | Connectedness of minimal positive semidefinite factorization orbits | **✅ SOLVED** | challenging | interesting to the community | [PDF](nonnegative-and-positive-factorizations/PF-02/problem.pdf) · [TeX](nonnegative-and-positive-factorizations/PF-02/problem.tex) |
+| [PF-02](nonnegative-and-positive-factorizations/PF-02/README.md) | Connectedness of minimal positive semidefinite factorization orbits | **🏆 LEAN VERIFIED** | challenging | interesting to the community | [PDF](nonnegative-and-positive-factorizations/PF-02/problem.pdf) · [TeX](nonnegative-and-positive-factorizations/PF-02/problem.tex) |
 | [PF-05](nonnegative-and-positive-factorizations/PF-05/README.md) | Infinitesimal rigidity detects unique size-two factors in the presence of zeros | **✅ SOLVED** | challenging | interesting to specialist | [PDF](nonnegative-and-positive-factorizations/PF-05/problem.pdf) · [TeX](nonnegative-and-positive-factorizations/PF-05/problem.tex) |
 
 

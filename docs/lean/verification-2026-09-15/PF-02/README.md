@@ -1,0 +1,11 @@
+# PF-02: complete Lean verification
+
+The complete original negative answer passed [fresh isolated Ubuntu verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34921326342) at `61dae15457a532be05a9a54d8e1e4040fbefddbd`. Sidney Holden prepared the formalization with AI assistance; Matthew J. Colbrook retains authorship of the mathematical argument. This record concerns the size-three counterexample sufficient to refute the full universal question, not the manuscript's optional all-size extensions.
+
+All nine exported statements passed Comparator statement identity, permitted-axiom checks and Lean's default kernel. Only `propext`, `Classical.choice` and `Quot.sound` are permitted; no definition exceptions are allowed. Actual per-project isolation, raw-kernel and Comparator controls passed, including rejected sorry and native-compiler axioms. The separate shared-tooling control job was skipped because tooling did not change; all controls ran within the PF-02 job.
+
+[Original artifact and exact input receipt](linux/RUN.json) bind all **57** tested files to the immutable Git objects and the original ZIP digest to GitHub's artifact digest. [Coordinator operational checks](ROOT-LINUX-CHECKS.json) and the [additional operational referee](linux/OPERATIONAL-REFEREE-1.md) retain exact log hashes and independently checked source correspondence. Pinned public dependencies and the official Mathlib cache were used; a full dependency-source rebuild is not claimed.
+
+[Statement freeze](../../../../nonnegative-and-positive-factorizations/PF-02/lean/verification/statement-freeze.json), both independent statement reports and both independent final code reports are retained in [the project](../../../../nonnegative-and-positive-factorizations/PF-02/lean/README.md). Reviews apply the repository's Tau Ceti adaptation and are AI-agent reviews, not human peer review, official Tau Ceti endorsement or source-author endorsement. Final mathematical code was reviewed by agents other than its authors.
+
+Publication updates metadata and the canonical page after the immutable proof run. The mathematical definitions, Challenge, Solution and all proof modules are unchanged. The original pending-status files in the retained artifact describe their earlier phase; they are not the current status.

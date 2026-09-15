@@ -7,9 +7,9 @@
 **Difficulty:** challenging  
 **Importance:** interesting to the community  
 **Rating rationale:** Challenging because topology of optimal PSD factorizations must be controlled beyond size two; community importance concerns nonuniqueness and separated solution families in constrained factorization algorithms.  
-**Status:** Solved  
+**Status:** Lean verified  
 **Area:** geometry of constrained matrix factorizations  
-**Last checked:** 2026-09-11  
+**Last checked:** 2026-09-15  
 
 <!-- colbrook-factorization -->
 ## Resolution — 2026-09-11
@@ -20,9 +20,17 @@ A strictly positive integer $`6\times6`$ matrix has ordinary rank six and real p
 
 The complete target is resolved. Its former difficulty rating is historical; the original statement, references and dated audits remain below.
 
-**Primary reference:** [complete authored PDF](../../references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.pdf), [standalone TeX](../../references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex), **Theorem 1; Theorem 4 extends the counterexamples to every factor size**. [Independent proof review](../../references/colbrook-factorization-2026-09-11/verification/reviews/PF-02-review.md) · [Authorship and submission record](../../references/colbrook-factorization-2026-09-11/README.md). Verification is independent agent review, not external human peer review or formal certification.
+**Primary reference:** [complete authored PDF](../../references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.pdf), [standalone TeX](../../references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex), **Theorem 1; Theorem 4 extends the counterexamples to every factor size**. [Independent proof review](../../references/colbrook-factorization-2026-09-11/verification/reviews/PF-02-review.md) · [Authorship and submission record](../../references/colbrook-factorization-2026-09-11/README.md). This dated informal review is independent agent review, not external human peer review. The subsequent formal verification is recorded below.
 
 <!-- /colbrook-factorization -->
+
+## Lean verification — 15 September 2026
+
+**Formalization:** Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains authorship of the mathematical argument.
+
+The complete original question has a formally verified negative answer: the explicit positive six-by-six matrix has ordinary rank six and minimal real PSD factor size three, and its entire congruence quotient is disconnected in the specified topology. All nine reviewed statements passed kernel-only LeanCert trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34921326342) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/61dae15457a532be05a9a54d8e1e4040fbefddbd/nonnegative-and-positive-factorizations/PF-02/lean). The optional all-size extensions are not part of this formalization.
+
+Two independent statement reviews preceded proof implementation; two independent final code reviews passed. [Proof, reviews and metadata](lean/README.md) · [retained Linux evidence](../../docs/lean/verification-2026-09-15/PF-02/README.md). Rejection and sandbox controls passed; no external human peer review, official Tau Ceti endorsement or source-author endorsement is claimed.
 
 ## Context and notation
 

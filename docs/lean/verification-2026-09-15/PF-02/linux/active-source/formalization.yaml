@@ -35,11 +35,10 @@ automation:
   notes: AI-assisted work at Sidney Holden's request. No human peer review or source-author endorsement
     asserted.
 status:
-  scope: 'Complete original negative answer. All nine exports pass kernel-only LeanCert and isolated Linux
-    Comparator/default-kernel replay at 61dae15457a532be05a9a54d8e1e4040fbefddbd; actual rejection and
-    sandbox controls pass. Two independent statement approvals preceded proof implementation and two independent
-    final code reviews passed. Linux run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34921326342.
-    No optional all-size extension is claimed.'
+  scope: Complete original negative answer proved locally. All nine exports compile and pass LeanCert
+    kernel trust audits with only the three standard axioms. Two independent statement reviews preceded
+    proof implementation at c342dad3; two independent final code reviews passed. Actual isolated Linux
+    Comparator/default-kernel replay and controls remain pending; no Linux success is claimed.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: &id001
@@ -102,7 +101,7 @@ status:
     comparator_config: comparator.json
     literature_dependencies: []
 review:
-  status: independent-agent-code-reviewed; isolated-Linux-verified
+  status: independent-agent-code-reviewed; Linux-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_2
   - OpenAI Codex agent /root/new_target_screen
