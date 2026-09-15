@@ -2,8 +2,8 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified  
+**Last checked:** 2026-09-15  
 
 **Rating rationale:** Challenging reflects a global root-selection rule across all dimensions and singular-value data; specialist impact is the exact projection onto a specific determinant constraint.
 
@@ -14,6 +14,14 @@
 The stationary pair with uniquely smallest absolute multiplier fails to minimize the Frobenius distance on a nonempty open set of real $`3\times3`$ data matrices with distinct singular values in $`(7/4,44/25)`$. Both determinant signs are allowed, and the open-set argument refutes the algebraic-generic formulation.
 
 The original proof draft was generated in a ChatGPT conversation. A separate Codex agent independently verified the full proof and its match to the exact target on 11 September 2026: [detailed PASS review](../../references/colbrook-2026-09-11/verification/reviews/SP-04-review.md). The review records a hash of the unchanged proof text. This is independent agent verification, not external human peer review or formal certification. [The submission history and diagnostic record](../../references/colbrook-2026-09-11/README.md) preserve the initial solution claim. The ratings above are historical, and the earlier literature checks below are retained.
+
+## Lean verification — 15 September 2026
+
+The complete original question has a formally verified negative answer: on a nonempty open subset of the full space of real three-by-three matrices, the unique least absolute stationary multiplier selects a feasible matrix that is not nearest. This family meets the complement of every proper algebraic exception, refuting the generic rule. All nine reviewed statements passed kernel-only LeanCert trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1/eigenvalues-and-inverse-problems/SP-04/lean).
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains mathematical authorship. Two independent statement reviews preceded implementation, and two independent final code reviews passed. Actual rejection and sandbox controls passed. Reviews are AI-agent reviews, not external human peer review or official Tau Ceti endorsement.
+
+[Proof and reviews](lean/README.md) · [Retained Linux evidence](../../docs/lean/verification-2026-09-15/SP-04/README.md).
 
 ## Original problem statement
 

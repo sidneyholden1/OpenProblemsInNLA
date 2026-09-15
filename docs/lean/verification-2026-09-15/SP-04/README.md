@@ -1,0 +1,11 @@
+# SP-04: complete Lean verification
+
+The complete original question has a formally verified negative answer: on a nonempty open subset of the full space of real three-by-three matrices, the unique least absolute stationary multiplier selects a feasible matrix that is not nearest. This family meets the complement of every proper algebraic exception, refuting the generic rule. All nine reviewed statements passed kernel-only LeanCert trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1/eigenvalues-and-inverse-problems/SP-04/lean).
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains mathematical authorship. Two independent statement reviews preceded implementation, and two independent final code reviews passed. Actual rejection and sandbox controls passed. Reviews are AI-agent reviews, not external human peer review or official Tau Ceti endorsement.
+
+[Original artifact and exact input receipt](linux/RUN.json) bind all **75** tested files to immutable Git objects and the original ZIP digest to GitHub's artifact digest. [Coordinator operational audit](ROOT-LINUX-CHECKS.json) records all nine exports and controls. [Final code hash gate](FINAL-CODE-GATE.json) confirms both independent final reports cover the exact proof bytes.
+
+Only `propext`, `Classical.choice` and `Quot.sound` are permitted; no definition exceptions are allowed. Actual per-project isolation, raw-kernel and Comparator controls passed, including rejected sorry and native-compiler axioms. The separate shared-tooling control job was skipped because tooling did not change; controls ran inside the project job. Pinned dependencies and the official Mathlib cache were used; a dependency-source rebuild is not claimed.
+
+[Project and reviews](../../../../eigenvalues-and-inverse-problems/SP-04/lean/README.md). Publication changes status and documentation after the immutable proof run. Mathematical definitions, Challenge, Solution and proof modules remain unchanged. Pending-status prose in the retained snapshot describes an earlier phase, not the current result.

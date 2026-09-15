@@ -419,7 +419,13 @@ historical and the entry no longer contributes to the open count.
 
 [Original statement and resolution](eigenvalues-and-inverse-problems/IS-02/README.md) · [Complete manuscript](eigenvalues-and-inverse-problems/IS-02/solution.md) · [Manuscript PDF](eigenvalues-and-inverse-problems/IS-02/solution.pdf) · [Independent review](references/colbrook-2026-09-11/verification/reviews/IS-02-review.md). **Theorem IS-02, sections 1–2.** The order-four counterexample is real symmetric, nonnegative and stochastic, has spectrum $\{1,1,0,-1\}$ and positive trace, and is spectrally unique up to permutation. It lies outside every segment in the proposed locus, disproving the universal necessary condition at an allowed dimension.
 
-#### SP-04 — negative resolution
+#### SP-04 — negative resolution; Lean verified
+
+The complete original question has a formally verified negative answer: on a nonempty open subset of the full space of real three-by-three matrices, the unique least absolute stationary multiplier selects a feasible matrix that is not nearest. This family meets the complement of every proper algebraic exception, refuting the generic rule. All nine reviewed statements passed kernel-only LeanCert trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1/eigenvalues-and-inverse-problems/SP-04/lean).
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains mathematical authorship. Two independent statement reviews preceded implementation, and two independent final code reviews passed. Actual rejection and sandbox controls passed. Reviews are AI-agent reviews, not external human peer review or official Tau Ceti endorsement.
+
+[Retained formal verification evidence](docs/lean/verification-2026-09-15/SP-04/README.md).
 
 [Original statement and resolution](eigenvalues-and-inverse-problems/SP-04/README.md) · [Complete manuscript](eigenvalues-and-inverse-problems/SP-04/solution.md) · [Manuscript PDF](eigenvalues-and-inverse-problems/SP-04/solution.pdf) · [Independent review](references/colbrook-2026-09-11/verification/reviews/SP-04-review.md). **Theorem SP-04, sections 1–4.** The stationary pair with uniquely smallest absolute multiplier fails to minimize the Frobenius distance on a nonempty open set of real $3\times3$ data matrices with distinct singular values in $(7/4,44/25)$. Both determinant signs are allowed, and the open-set argument refutes the algebraic-generic formulation.
 

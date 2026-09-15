@@ -31,10 +31,10 @@ automation:
     function theorem and analytic identity theorem. Two point interval certificates use LeanCert kernel
     mode and feed the full exclusion proof.
 status:
-  scope: 'Complete original negative answer, including the full-dimensional open family and every proper
-    algebraic exception. All nine exports pass kernel-only LeanCert and isolated Linux Comparator/default-kernel
-    replay at e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1; actual rejection and sandbox controls pass. Two
-    independent statement and two independent final code reviews passed. Linux run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695.'
+  scope: Complete original negative answer proved locally. All nine exports pass LeanCert kernel trust
+    audits and have only the standard three axioms. Two independent statement approvals preceded implementation
+    at03b0c979. Independent final code reviews and isolated Linux Comparator/default-kernel replay are
+    pending.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: &id001
@@ -104,7 +104,7 @@ fidelity:
     domains. Both determinant signs, every real stationary matrix and arbitrary nonzero polynomial exceptions
     are retained.
 review:
-  status: independent-agent-code-reviewed; isolated-Linux-verified
+  status: independent-statements-approved; final-code-and-Linux-pending
   notes: AI-agent reviews applying the repository Tau Ceti adaptation; no external human peer review,
     official Tau Ceti endorsement or source-author endorsement. Nine intentional Challenge placeholders
     are excluded from proof counts and never imported by Solution.

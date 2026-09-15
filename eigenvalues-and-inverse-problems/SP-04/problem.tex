@@ -34,7 +34,7 @@ matrices},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}SP-04}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-15}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -52,7 +52,7 @@ matrices\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -90,20 +90,53 @@ submission history and diagnostic record} preserve the initial solution
 claim. The ratings above are historical, and the earlier literature
 checks below are retained.
 
+\subsection{Lean verification --- 15 September
+2026}\label{lean-verification-15-september-2026}
+
+The complete original question has a formally verified negative answer:
+on a nonempty open subset of the full space of real three-by-three
+matrices, the unique least absolute stationary multiplier selects a
+feasible matrix that is not nearest. This family meets the complement of
+every proper algebraic exception, refuting the generic rule. All nine
+reviewed statements passed kernel-only LeanCert trust audits,
+standard-axiom checks, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695}{fresh
+isolated Linux Comparator/default-kernel verification} at the
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1/eigenvalues-and-inverse-problems/SP-04/lean}{immutable
+proof revision}.
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J.
+Colbrook retains mathematical authorship. Two independent statement
+reviews preceded implementation, and two independent final code reviews
+passed. Actual rejection and sandbox controls passed. Reviews are
+AI-agent reviews, not external human peer review or official Tau Ceti
+endorsement.
+
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/eigenvalues-and-inverse-problems/SP-04/lean/README.md}{Proof
+and reviews} ·
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-15/SP-04/README.md}{Retained
+Linux evidence}.
+
 \subsection{Original problem
 statement}\label{original-problem-statement}
 
-For \(n\ge2\), define \[
-\mathcal G_n=\{X\in\mathbb R^{n\times n}:\det X\in\{-1,1\}\},
+For \(n\ge2\), define
+
+\[\mathcal G_n=\{X\in\mathbb R^{n\times n}:\det X\in\{-1,1\}\},
 \qquad
-\|Y\|_F^2=\sum_{i,j}y_{ij}^2.
-\] For a real data matrix \(U\), consider the real stationary pairs \[
-\mathcal C(U)=
-\{(X,c)\in\mathcal G_n\times\mathbb R:X^T(U-X)=cI_n\}.
-\] For generic \(U\), this set is finite. Choose a pair \((X_*,c_*)\)
-whose multiplier has minimum absolute value. Does \[
-\|U-X_*\|_F=\min_{X\in\mathcal G_n}\|U-X\|_F
-\] hold for every \(n\ge2\) and generic real \(U\)?
+\|Y\|_F^2=\sum_{i,j}y_{ij}^2.\]
+
+For a real data matrix \(U\), consider the real stationary pairs
+
+\[\mathcal C(U)=
+\{(X,c)\in\mathcal G_n\times\mathbb R:X^T(U-X)=cI_n\}.\]
+
+For generic \(U\), this set is finite. Choose a pair \((X_*,c_*)\) whose
+multiplier has minimum absolute value. Does
+
+\[\|U-X_*\|_F=\min_{X\in\mathcal G_n}\|U-X\|_F\]
+
+hold for every \(n\ge2\) and generic real \(U\)?
 
 Here generic means outside an exceptional proper real algebraic set; in
 particular \(U\) is invertible and its squared singular values are
@@ -119,8 +152,8 @@ This is a concrete question about selecting the global nearest matrix
 from the stationary solutions of a structured matrix nearness problem. A
 positive answer would supply a scalar criterion for identifying the
 global solution. Both determinant signs are allowed; this must not be
-silently replaced by projection onto \(\operatorname{SL}_n(\mathbb R)\)
-alone.
+silently replaced by projection onto
+\(\mathop{\mathrm{SL}}\nolimits_n(\mathbb R)\) alone.
 
 \newpage
 \subsection{References}\label{references}
