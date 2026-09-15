@@ -1,0 +1,13 @@
+# IV-03: complete Lean verification
+
+The complete original question has a formally verified affirmative answer: for every positive dimension and every ordered pair of real entrywise interval endpoints, the $n^2$ negative-sign vertices characterize the entire interval consisting of inverse M-matrices. This proves the full original two-sign criterion. Zero widths, zero entries and reducible matrices are included; no interval regularity or nonsingularity assumption is added. The manuscript's arithmetic and bit-complexity claims are outside this formalization.
+
+All four reviewed statements passed LeanCert kernel trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean). Two independent statement reviews preceded implementation and two independent nonauthor final code reviews passed. Actual rejection and sandbox controls passed.
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains mathematical authorship as recorded in the source. Reviews are AI-agent reviews, not external human peer review or official Tau Ceti endorsement; no source-author endorsement of the formalization is asserted.
+
+[Original artifact and exact input receipt](linux/RUN.json) bind all **75** tested files to immutable Git objects and the original ZIP digest to GitHub's artifact digest. [Operational checks](ROOT-LINUX-CHECKS.json) record all four exports and controls. [Independent operational review](OPERATIONAL-REVIEW.md) identifies the evidence inspected. [Final code hash gate](FINAL-CODE-GATE.json) binds both independent final reports to the exact proof bytes.
+
+Only `propext`, `Classical.choice` and `Quot.sound` are permitted; no definition exceptions are allowed. Actual per-project isolation, raw-kernel and Comparator controls passed, including rejection of sorry and native-compiler axioms. The separate shared-tooling control job was skipped because tooling did not change; all controls executed inside this project job. Pinned dependencies and the official Mathlib cache were used; a dependency-source rebuild is not claimed.
+
+[Project and reviews](../../../../intervals-and-absolute-value-equations/IV-03/lean/README.md). Publication changes status and documentation after the immutable proof run. Mathematical definitions, Challenge, Solution and proof modules remain unchanged. Pending-status prose in retained snapshots describes earlier phases, not the current result.

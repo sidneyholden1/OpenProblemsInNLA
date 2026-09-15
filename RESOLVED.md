@@ -617,7 +617,15 @@ Seven exact targets are classified below. Independent agent review is not extern
 
 [Complete manuscript](references/colbrook-intervals-2026-09-11/manuscripts/IV-02_IV-04.pdf); [full independent agent review](references/colbrook-intervals-2026-09-11/verification/reviews/IV-02_IV-04-review.md).
 
-### IV-03 - Affirmative resolution
+### IV-03 - Affirmative resolution; Lean verified
+
+The complete original question has a formally verified affirmative answer: for every positive dimension and every ordered pair of real entrywise interval endpoints, the $n^2$ negative-sign vertices characterize the entire interval consisting of inverse M-matrices. This proves the full original two-sign criterion. Zero widths, zero entries and reducible matrices are included; no interval regularity or nonsingularity assumption is added. The manuscript's arithmetic and bit-complexity claims are outside this formalization.
+
+All four reviewed statements passed LeanCert kernel trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean). Two independent statement reviews preceded implementation and two independent nonauthor final code reviews passed. Actual rejection and sandbox controls passed.
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains mathematical authorship as recorded in the source. Reviews are AI-agent reviews, not external human peer review or official Tau Ceti endorsement; no source-author endorsement of the formalization is asserted.
+
+[Retained formal verification evidence](docs/lean/verification-2026-09-15/IV-03/README.md).
 
 [Original statement](intervals-and-absolute-value-equations/IV-03/README.md). **Solved, recorded 2026-09-11.** Matthew J. Colbrook (University of Cambridge). Theorem 1 proves that every interval member is inverse-M if and only if the $n^2$ vertices $C-D_iRD_j$ are inverse-M. These are contained in the displayed two-sign family, so the original $2n^2$ equivalence follows. The proof covers all real endpoints, every dimension, zero widths, zero entries and reducible matrices without assuming regularity.
 

@@ -31,12 +31,8 @@ automation:
     statements before proofs. No human peer review, official Tau Ceti endorsement or source-author endorsement
     claimed.
 status:
-  scope: 'Complete original affirmative answer in every positive dimension and for all closed entrywise
-    intervals, including zero widths and reducible matrices; no interval regularity premise. All four
-    exports pass LeanCert kernel trust and isolated Linux Comparator/default-kernel replay at 516ad4a0e85c21c7ef34507db9ab3b68b393bb90;
-    actual rejection and sandbox controls pass. Two independent statement and two independent nonauthor
-    final code reviews passed. Linux run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380.
-    Complexity bounds are not claimed formally.'
+  scope: All four complete-target exports pass pinned local Lean and LeanCert kernel trust audits. Independent
+    final code reviews and isolated Linux Comparator remain pending; canonical publication status is unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms:
@@ -81,7 +77,7 @@ status:
     comparator_config: comparator.json
     literature_dependencies: []
 review:
-  status: independent-agent-code-reviewed; isolated-Linux-verified
+  status: independent-agent-code-reviewed; isolated-Linux-pending
   notes: Two independent statement approvals and frozen byte hashes are retained. Four deliberate Challenge
     placeholders establish no mathematics and are excluded from proof-development counts. Solution never
     imports Challenge.
