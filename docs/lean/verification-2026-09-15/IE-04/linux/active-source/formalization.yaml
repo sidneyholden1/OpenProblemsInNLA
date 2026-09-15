@@ -35,12 +35,8 @@ automation:
     statements before proof implementation. No human peer review, official Tau Ceti review or source-author
     endorsement is claimed.
 status:
-  scope: 'Complete original quantified negative answer. All twelve exports pass LeanCert kernel trust
-    audits and isolated Linux Comparator/default-kernel replay at 82c0d620db7369a546071a13088ebb095368c262,
-    with actual rejection and sandbox controls. Two independent statement approvals preceded proofs; two
-    fresh independent nonauthor final source reviews passed, with the evidence-packaging follow-up resolved
-    by final-code-gate.json. Run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926830831.
-    Optional zero-centered extension not claimed.'
+  scope: All twelve complete-target exports pass pinned local Lean and LeanCert kernel trust audits. Independent
+    final code reviews and isolated Linux Comparator remain pending; canonical publication status is unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms:
@@ -157,7 +153,7 @@ status:
     comparator_config: comparator.json
     literature_dependencies: []
 review:
-  status: independent-agent-code-reviewed; isolated-Linux-verified
+  status: independent-agent-code-reviewed; isolated-Linux-pending
   notes: The two nonauthor statement approvals and frozen byte hashes are retained. Twelve deliberate
     Challenge placeholders establish no mathematics and are excluded from proof-development counts. Solution
     never imports Challenge. Statement-reviewed draft README and metadata are preserved under reviews/statement-review-snapshot.
