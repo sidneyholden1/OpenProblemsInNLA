@@ -1,0 +1,18 @@
+NLA.IE13.upper_bound (p q n : ℕ) (hn : 1 + max p q ≤ n) (A : NLA.IE13.Mat n) (S : ℕ → NLA.IE13.Mat n)
+  (r : Fin n → Fin n) (hA : NLA.IE13.IsBanded p q A) (hpath : NLA.IE13.isPath A S r) :
+  NLA.IE13.growth A S ≤ NLA.IE13.sharpGrowth p q
+NLA.IE13.rational_attainment (p q : ℕ) :
+  1 + max p q ≤ NLA.IE13.witnessSize p q ∧
+    NLA.IE13.IsBanded p q (NLA.IE13.witness p q) ∧
+      NLA.IE13.entryMax (NLA.IE13.witness p q) = 1 ∧
+        NLA.IE13.isPath (NLA.IE13.witness p q) (NLA.IE13.witnessStates p q) (NLA.IE13.witnessPivot p q) ∧
+          NLA.IE13.growth (NLA.IE13.witness p q) (NLA.IE13.witnessStates p q) = NLA.IE13.sharpGrowth p q
+NLA.IE13.sharp_maximum (p q : ℕ) : IsGreatest (NLA.IE13.bandGrowths p q) (NLA.IE13.sharpGrowth p q)
+NLA.IE13.original_target (p q : ℕ) :
+  (NLA.IE13.bandGrowths p q).Nonempty ∧
+    BddAbove (NLA.IE13.bandGrowths p q) ∧
+      sSup (NLA.IE13.bandGrowths p q) = if p = 0 then 1 else ↑(NLA.IE13.bandRec p (p + q))
+'NLA.IE13.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE13.rational_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE13.sharp_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE13.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]

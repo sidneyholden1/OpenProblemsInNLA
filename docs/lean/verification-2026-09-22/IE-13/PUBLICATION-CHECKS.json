@@ -1,0 +1,49 @@
+{
+  "verdict": "PASS",
+  "phase": "publication local checks",
+  "date_utc": "2026-09-22T08:21:22.925046+00:00",
+  "proof_head": "e8acacba4964ae8c103e808174cc6630d9bd00a1",
+  "proof_linux_run": 35703222111,
+  "tests": {
+    "repository": 77,
+    "permanent_ids": 17,
+    "render_after_layout_adjustment": 11
+  },
+  "permanent_ids": 217,
+  "catalog_counts": {
+    "total": 217,
+    "Lean verified": 42,
+    "Solved": 49,
+    "Open": 57,
+    "Partially resolved": 69
+  },
+  "source_manuscript_and_target_unchanged": true,
+  "all36_reviewed_inputs_preserved": true,
+  "visual_pdf_review": {
+    "reviewer": "OpenAI Codex /root",
+    "pages": 2,
+    "both_pages_rendered_and_inspected": true,
+    "result": "PASS; complete original target, references and historical audits together on page2; no clipping, missing symbols or overlap. IE13-specific page-break adjustment removes the largely blank intermediate page."
+  },
+  "file_sha256": {
+    "linear-systems-and-elimination/IE-13/README.md": "1e697b8fb73800eeb1450c15065c002b08f4ea1011fad5cca5bfa9d7e181414e",
+    "linear-systems-and-elimination/IE-13/problem.pdf": "6dc00b8c8872eaa70805fdcad88a90873181d1a6b2c04da2eeb66c7ac314600f",
+    "linear-systems-and-elimination/IE-13/problem.tex": "bed55705c383980d2bf230971f8f28b06813a3052c0ae0667c7d76ba93d366fa",
+    "tools/render_problems.py": "d27c85993d3ed082eb5dbc13ad39428a0c7ae582224ca1f22f6dad8aa17af552",
+    "docs/lean/verification-2026-09-22/IE-13/publication-checks/RESULTS.json": "13c64479493c16b65aae14c7cee65621047f6d2dbb8e2962478e0f10592a60df",
+    "docs/lean/verification-2026-09-22/IE-13/publication-checks/ie13-render-final.log": "7a1fc95df25cac50f13ee56bb7edbd930f312ed38bcb385dd585c0be31369aec",
+    "docs/lean/verification-2026-09-22/IE-13/publication-checks/ie13-render-tests.log": "d4ceea52d18666d87de4b9864228087bdef6d745900f022ae05b5a89d9698223",
+    "docs/lean/verification-2026-09-22/IE-13/publication-checks/pdf-page-1.png": "e37479e06b668941ce23c2c77ff18f42cdaaeb1e6619968a7934a11ec80c1457",
+    "docs/lean/verification-2026-09-22/IE-13/publication-checks/pdf-page-2.png": "99316846be7e0b56695ba6d6a62660ba883f4331a04c31b26b71c589323804d4"
+  },
+  "publication_head_linux": {
+    "verdict": "PASS",
+    "run_id": 35704459118,
+    "run_attempt": 1,
+    "event_head": "b2464aed6bb40a0f22f9b38c0969ae48c0a0eb57",
+    "tested_pr_merge": "4392c483796c504672e5ed8ae473a468d85c0563",
+    "tracked_inputs": 110,
+    "exports": 4,
+    "audit": "publication-linux/AUDIT-RESULTS.json"
+  }
+}

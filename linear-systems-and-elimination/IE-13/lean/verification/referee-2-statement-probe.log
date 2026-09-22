@@ -1,0 +1,18 @@
+Complex.norm_def (z : ℂ) : ‖z‖ = √(Complex.normSq z)
+Finset.sup_le.{u_2, u_3} {α : Type u_2} {β : Type u_3} [SemilatticeSup α] [OrderBot α] {s : Finset β} {f : β → α}
+  {a : α} : (∀ b ∈ s, f b ≤ a) → s.sup f ≤ a
+Finset.le_sup.{u_2, u_3} {α : Type u_2} {β : Type u_3} [SemilatticeSup α] [OrderBot α] {s : Finset β} {f : β → α}
+  {b : β} (hb : b ∈ s) : f b ≤ s.sup f
+IsGreatest.{u_1} {α : Type u_1} [LE α] (s : Set α) (a : α) : Prop
+IsGreatest.csSup_eq.{u_1} {α : Type u_1} [ConditionallyCompletePartialOrderSup α] {s : Set α} {a : α}
+  (H : IsGreatest s a) : sSup s = a
+def NLA.IE13.bandGrowths : ℕ → ℕ → Set ℝ :=
+fun p q => {t | ∃ n, 1 + max p q ≤ n ∧ ∃ A S r, IsBanded p q A ∧ isPath A S r ∧ t = growth A S}
+def NLA.IE13.isPath : {n : ℕ} → Mat n → (ℕ → Mat n) → (Fin n → Fin n) → Prop :=
+fun {n} A S r =>
+  S 0 = A ∧
+    ∀ (k : Fin n),
+      k ≤ r k ∧
+        S (↑k) (r k) k ≠ 0 ∧
+          (∀ (i : Fin n), k ≤ i → ‖S (↑k) i k‖ ≤ ‖S (↑k) (r k) k‖) ∧
+            (↑k + 1 < n → S (↑k + 1) = schurStep (S ↑k) k (r k))

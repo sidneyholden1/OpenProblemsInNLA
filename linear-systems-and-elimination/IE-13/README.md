@@ -6,8 +6,16 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved
-**Last checked:** 2026-09-11
+**Status:** Lean verified
+**Last checked:** 2026-09-22
+
+## Lean verification — 22 September 2026
+
+The complete original unequal-bandwidth target is formally proved, strengthened to every $`p,q\ge0`$. The sharp growth is $`G(0,q)=1`$ and $`G(p,q)=h_{p+q}`$ for $`p>0`$, where $`h_t=0`$ for $`t\le0`$ and $`h_t=1+\sum_{r=1}^p h_{t-r}`$ otherwise. The universal upper bound covers every nonsingular complex input with bandwidths at most $`p,q`$ in its original ordering, every $`n\ge1+\max(p,q)`$, every permitted GEPP tie path, and every intermediate entry. An explicit rational matrix of order $`2p+q+1`$ attains the bound along its actual full row-swap path, including both zero-bandwidth endpoints. The entire growth set is nonempty and bounded, has the stated greatest element, and has that genuine real supremum.
+
+All four exports passed LeanCert kernel audits, two independent nonauthor final reviews, and [isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35703222111) with actual rejection and sandbox controls. [Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-13/lean/README.md) · [Immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/e8acacba4964ae8c103e808174cc6630d9bd00a1/linear-systems-and-elimination/IE-13/lean) · [Retained evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/IE-13/README.md).
+
+Mathematics: Matthew J. Colbrook; Higham retains original-problem credit. Formalization: Sidney Holden with OpenAI Codex assistance. No normalization, assumed front invariant, real-only restriction, preliminary reordering or deterministic tie rule is substituted. No novelty, source-author endorsement or external human peer review is claimed. The complete original target and earlier source record remain below.
 
 <!-- colbrook-recovered -->
 ## Independently reviewed resolution - 2026-09-11

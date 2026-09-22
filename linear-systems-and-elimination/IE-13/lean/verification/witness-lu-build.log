@@ -1,0 +1,10 @@
+NLA/IE13/WitnessLU.lean:124:32: warning: This simp argument is unused:
+  hfuture
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, hij, luStage]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE13/WitnessLU.lean:121:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

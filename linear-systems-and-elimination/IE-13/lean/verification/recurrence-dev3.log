@@ -1,0 +1,7 @@
+NLA/IE13/Recurrence.lean:93:37: error: Type mismatch: After simplification, term
+  hn
+ has type
+  r < p → k < r
+but is expected to have type
+  p ≤ r ∨ k < r
+NLA/IE13/Recurrence.lean:125:33: error: unexpected token 'then'; expected term

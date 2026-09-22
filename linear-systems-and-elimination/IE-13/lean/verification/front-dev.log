@@ -1,0 +1,129 @@
+NLA/IE13/Front.lean:31:18: error: unexpected token ':='; expected term
+NLA/IE13/Front.lean:14:32: error: Type mismatch
+  k + p
+has type
+  ℕ
+of sort `Type` but is expected to have type
+  Type ?u.23
+of sort `Type (?u.23 + 1)`
+NLA/IE13/Front.lean:14:37: error(lean.invalidDottedIdent): Invalid dotted identifier notation: Not supported on type universe
+  Sort ?u.27
+NLA/IE13/Front.lean:17:25: error: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+case zero
+n p q : ℕ
+A : Mat n
+hA : IsBanded p q A
+S : ℕ → Mat n
+r : Fin n → Fin n
+hp : isPath A S r
+hk : 0 < n
+i j : Fin n
+⊢ InitialSeg (fun x1 x2 => sorry) fun x1 x2 => sorry
+NLA/IE13/Front.lean:19:17: error: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+case succ
+n p q : ℕ
+A : Mat n
+hA : IsBanded p q A
+S : ℕ → Mat n
+r : Fin n → Fin n
+hp : isPath A S r
+k : ℕ
+ih : k < n → Fin n → Fin n → InitialSeg (fun x1 x2 => sorry) fun x1 x2 => sorry
+hk : k + 1 < n
+i j : Fin n
+⊢ InitialSeg (fun x1 x2 => sorry) fun x1 x2 => sorry
+NLA/IE13/Front.lean:44:60: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  b ≥ 0
+  b - d ≤ -1
+  a ≥ 0
+  a - b - c ≥ 1
+  a - d ≤ -1
+where
+ a := ↑↑(r k)
+ b := ↑↑k
+ c := ↑p
+ d := ↑n
+NLA/IE13/Front.lean:64:26: error: unexpected token '∧'; expected term
+NLA/IE13/Front.lean:59:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  l ≥ 0
+  h ≥ 0
+  g ≥ 0
+  e ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - e - g ≥ 1
+  c - e - l ≤ 0
+  b ≥ 0
+  b - c + d + e ≤ -1
+  b + d - h ≥ 0
+  a ≥ 0
+  a - b ≥ 2
+  a - c ≥ 1
+  a - g ≥ 1
+  a - h ≥ 1
+  a - l ≥ 1
+where
+ a := ↑n
+ b := ↑k
+ c := ↑↑j
+ d := ↑p
+ e := ↑q
+ g := ↑↑i
+ h := ↑↑(r ⟨k, ⋯⟩)
+ l := ↑↑(r f)
+NLA/IE13/Front.lean:64:23: error: Application type mismatch: The argument
+  f
+has type
+  Fin n
+of sort `Type` but is expected to have type
+  Type ?u.58
+of sort `Type (?u.58 + 1)` in the application
+  @PrincipalSeg f
+NLA/IE13/Front.lean:55:14: error: unsolved goals
+case pos
+n p q : ℕ
+A : Mat n
+hA : IsBanded p q A
+S : ℕ → Mat n
+r : Fin n → Fin n
+hp : isPath A S r
+k : ℕ
+ih : k < n → ∀ (i j : Fin n), k + p + q ≤ ↑j → ↑i + q < ↑j → S k i j = 0
+hk : k + 1 < n
+i j : Fin n
+hj : k + 1 + p + q ≤ ↑j
+hi : ↑i + q < ↑j
+f : Fin n := ⟨k, ⋯⟩
+hr : ↑(r f) ≤ ↑f + p
+hrj : ↑(r f) + q < ↑j
+hpzero : S k (r f) j = 0
+he : S (k + 1) = schurStep (S ↑f) f (r f)
+hactive : sorry
+⊢ schurStep (S ↑f) f (r f) i j = 0
+
+case neg
+n p q : ℕ
+A : Mat n
+hA : IsBanded p q A
+S : ℕ → Mat n
+r : Fin n → Fin n
+hp : isPath A S r
+k : ℕ
+ih : k < n → ∀ (i j : Fin n), k + p + q ≤ ↑j → ↑i + q < ↑j → S k i j = 0
+hk : k + 1 < n
+i j : Fin n
+hj : k + 1 + p + q ≤ ↑j
+hi : ↑i + q < ↑j
+f : Fin n := ⟨k, ⋯⟩
+hr : ↑(r f) ≤ ↑f + p
+hrj : ↑(r f) + q < ↑j
+hpzero : S k (r f) j = 0
+he : S (k + 1) = schurStep (S ↑f) f (r f)
+hactive : ¬sorry
+⊢ schurStep (S ↑f) f (r f) i j = 0

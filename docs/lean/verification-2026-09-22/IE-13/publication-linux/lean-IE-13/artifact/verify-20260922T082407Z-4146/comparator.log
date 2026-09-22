@@ -1,0 +1,95 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-59orqt7o/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2378/2380] Built NLA.IE13.Definitions (2.2s)
+⚠ [2379/2380] Built Challenge (1.9s)
+warning: Challenge.lean:6:8: declaration uses `sorry`
+warning: Challenge.lean:11:8: declaration uses `sorry`
+warning: Challenge.lean:17:8: declaration uses `sorry`
+warning: Challenge.lean:20:8: declaration uses `sorry`
+Build completed successfully (2380 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.IE13.upper_bound, NLA.IE13.rational_attainment, NLA.IE13.sharp_maximum, NLA.IE13.original_target, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3076/3096] Built LeanCert.Tactic.Verification (2.3s)
+✔ [3077/3096] Built NLA.IE13.Recurrence (4.3s)
+⚠ [3078/3096] Built NLA.IE13.Base (4.5s)
+warning: NLA/IE13/Base.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3079/3096] Built NLA.IE13.WitnessLU (4.8s)
+warning: NLA/IE13/WitnessLU.lean:124:32: This simp argument is unused:
+  hfuture
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, hij, luStage]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE13/WitnessLU.lean:121:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3080/3096] Built NLA.IE13.Profiles (3.7s)
+⚠ [3081/3096] Built NLA.IE13.WitnessOrder (3.3s)
+warning: NLA/IE13/WitnessOrder.lean:65:55: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3082/3096] Built NLA.IE13.WitnessScalar (3.1s)
+✔ [3083/3096] Built NLA.IE13.Budgets (3.6s)
+✔ [3084/3096] Built NLA.IE13.Front (2.9s)
+✔ [3085/3096] Built NLA.IE13.WitnessAlgebra (3.6s)
+✔ [3086/3096] Built NLA.IE13.PathBudget (3.4s)
+⚠ [3087/3096] Built NLA.IE13.WitnessBounds (3.3s)
+warning: NLA/IE13/WitnessBounds.lean:62:30: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witness, witnessQ, hp, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3088/3096] Built NLA.IE13.WitnessZero (2.9s)
+✔ [3089/3096] Built NLA.IE13.Upper (4.1s)
+⚠ [3090/3096] Built NLA.IE13.WitnessFactors (4.0s)
+warning: NLA/IE13/WitnessFactors.lean:44:41: This simp argument is unused:
+  ite_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, le_refl, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3091/3096] Built NLA.IE13.WitnessProduct (3.1s)
+warning: NLA/IE13/WitnessProduct.lean:59:60: This simp argument is unused:
+  eq_self_iff_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, hj, lt_self_iff_false, if_false, if_true, haj.le, lowerQ, hai.ne', hae, ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE13/WitnessProduct.lean:92:16: This simp argument is unused:
+  show i.val + 1 ≠ 0 by omega
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [he, hi, show ¬p < i.val + 1 by omega, show ¬p ≤ i.val by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3092/3096] Built NLA.IE13.WitnessPositive (2.7s)
+✔ [3093/3096] Built NLA.IE13.Witness (2.5s)
+✔ [3094/3096] Built NLA.IE13.Proof (2.5s)
+ℹ [3095/3096] Built Solution (2.5s)
+info: Solution.lean:31:0: 'NLA.IE13.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:32:0: 'NLA.IE13.rational_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:33:0: 'NLA.IE13.sharp_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:34:0: 'NLA.IE13.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3096 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.IE13.upper_bound, NLA.IE13.rational_attainment, NLA.IE13.sharp_maximum, NLA.IE13.original_target, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0

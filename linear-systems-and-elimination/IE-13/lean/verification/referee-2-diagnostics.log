@@ -1,0 +1,1 @@
+PASS: all20 frozen hashes;30 pairs including p=0,q=0; all structural zeros, initial maximum1, every full-path pivot, nonsingularity via nonzero elimination pivots, sharp recurrence growth.

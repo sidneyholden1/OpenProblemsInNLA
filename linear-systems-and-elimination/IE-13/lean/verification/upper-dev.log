@@ -1,0 +1,8 @@
+NLA/IE13/Upper.lean:88:63: error: Application type mismatch: The argument
+  k.isLt
+has type
+  ↑k < n
+but is expected to have type
+  0 + ↑k < n
+in the application
+  path_budget_iterate A hA S r hp j 0 1 hb0 (↑k) k.isLt

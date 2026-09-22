@@ -1,0 +1,16 @@
+⚠ [3077/3083] Built NLA.IE13.Base (5.6s)
+warning: NLA/IE13/Base.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3078/3083] Built NLA.IE13.Recurrence (5.7s)
+✔ [3079/3083] Built NLA.IE13.Profiles (5.1s)
+✔ [3080/3083] Built NLA.IE13.Budgets (5.1s)
+✔ [3081/3083] Built NLA.IE13.Front (4.8s)
+✔ [3082/3083] Built NLA.IE13.PathBudget (4.9s)
+✔ [3083/3083] Built NLA.IE13.Upper (4.0s)
+Build completed successfully (3083 jobs).

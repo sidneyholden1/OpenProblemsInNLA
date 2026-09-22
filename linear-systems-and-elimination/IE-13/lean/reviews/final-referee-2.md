@@ -1,0 +1,47 @@
+# IE-13 independent final review — referee 2
+
+**Verdict: PASS / APPROVE for the complete local mathematical proof.** No material correction requested. Actual isolated Linux Comparator and sandbox evidence remains a separate pending gate; this report alone does not publish a Lean-verified status.
+
+Reviewer: OpenAI Codex agent `/root/iv06_statement_referee_2`, an AI agent and nonauthor of the IE-13 definitions and proof. I previously independently reviewed its statement boundary. Root and agent 1 authored this implementation. Earlier generic IE-14 code that I helped author was adapted with explicit credit; I did not implement or repair the IE-13 recurrence, envelope, witness, or assembly. This review covers fidelity, correctness, computation reduction, imported semantics, reuse/API, clarity, and attribution under `docs/lean/REVIEW.md` (the repository's adaptation of Tau Ceti criteria, not an official Tau Ceti or external human review).
+
+## Exact reviewed revision and execution
+
+I read the complete canonical README, complete Colbrook manuscript and its retained informal review, frozen Definitions/Challenge/NUMERICAL_TARGETS, and every active Lean module: Base, Recurrence, Profiles, Budgets, Front, PathBudget, Upper, WitnessLU, WitnessOrder, WitnessScalar, WitnessAlgebra, WitnessBounds, WitnessFactors, WitnessProduct, WitnessPositive, WitnessZero, Witness, Proof, and Solution. Definitions brings the active Lean-file total to 20. I also read current metadata, project README, comparator configuration, upper-proof notes, and actual relevant imported Mathlib/LeanCert definitions.
+
+The 36-file final snapshot is `reviews/proof-source-hashes.json`, SHA256 `663ae8b76b57fdf41f3f8f59976f2de1c7ac46f2e5cf8dff7363b857898d9c55`. The author receipt `verification/local-proof-20260922.json` is SHA256 `0255c6465852291b5c82f68624afc7134621d9c828d58fc77030fd1d0598b79b`. I independently recomputed all 36 hashes and all 20 original statement hashes, including the unchanged canonical/source and byte-preserved original README/YAML in `reviews/statement-original/`. Both pre-proof review attachments still match the statement gate.
+
+My independent `verification/Referee2FinalConsumer.lean` repeats the four full Challenge signatures, imports the actual Solution, prints actual exported types and axiom closures, and runs four `#assert_trust kernel` checks. The pinned Lean 4.33.1 command exited 0. Each export has exactly `propext`, `Classical.choice`, and `Quot.sound`. Its final log is `verification/referee-2-final-consumer.log`. My first consumer reversed the command's two arguments; its four statement checks and axiom queries passed, but the four trust commands failed with unknown `kernel`. That unsuccessful diagnostic script/log is retained with `-initial` filenames. I changed only my consumer syntax and reran successfully; no candidate source changed.
+
+Exact per-file source, library, consumer, log and receipt hashes and commands are recorded in `reviews/referee-2-final-evidence.json`, SHA256 `b76d4d2e14284350ae05a4c4fb07d33ddecff19a2e931e2b10407eed75701df3`. `verification/referee_2_final_hash_check.py` reproduces hash and log checks; its successful output is retained. The normal Solution build log independently inspected records 3096 successful jobs. That full build and the official schema/four-export coverage run were performed by the authors/coordinator; my consumer execution is separate.
+
+## Full target and nonvacuity
+
+The proof retains arbitrary complex nonsingular inputs, bandwidths at most p and q in original ordering, every n ≥ 1 + max(p,q), every allowed column-maximal row-pivot tie, and all intermediate entries. It strengthens the original unequal-bandwidth request to every natural pair p,q, including both zero endpoints and p=q. The source recurrence is zero-extended via truncated natural indices, and the result is 1 when p=0 and h(p,p+q) otherwise. No normalized input, front invariant, convenient pivot order, or desired growth inequality is a universal hypothesis.
+
+The literal padded Schur recurrence swaps only rows and preserves the original column order. Padding removed rows/columns by zero does not discard an active large entry because the growth definition takes the actual finite maximum across every stage. `entryMax` uses the genuine finite supremum of entry norms. Nonsingularity and the admissible positive dimension establish its strict positivity before division. Complex norm and rational casts use Mathlib's actual complex modulus, rather than a coordinate proxy.
+
+The rational witness has admissible order 2p+q+1 and initial entry maximum exactly 1. The full output includes structural zeros, nonzero determinant, every actual nonzero maximal pivot, the complete path (including its tail), and equality of actual growth with the sharp constant. Consequently `IsGreatest` proves membership as well as the universal upper bound. The last theorem obtains nonemptiness and boundedness and uses Mathlib's actual `IsGreatest.csSup_eq`; no empty or unbounded real-supremum convention supplies the conclusion.
+
+## Universal upper proof
+
+Front proves future original rows remain untouched and forces each nonzero chosen pivot into the finite front directly from the original band zeros and actual swaps. The distant-column zero induction gives its exact arrival time. No source front assertion is imported as an assumption.
+
+Profiles and Budgets replace sorting by a stronger finite-subset sum invariant. In the survivor step the swapped subset is injective and excludes the pivot, so adjoining it contributes exactly one new member. The pivot singleton bound and the larger prefix bound give the next prefix formula. The fresh row has original norm at most the initial maximum. PathBudget identifies auxiliary natural-index zero padding and swaps with the actual in-range matrix entries, rather than proving a different algorithm.
+
+Upper handles early and distant columns with their respective all-ones and single-arrival profiles. The profile head is the exact source recurrence, with time bounded by p+q; untouched rows and padded zeros are separately covered. The p=0 case remains valid. Taking the finite maximum and dividing by the proven positive initial maximum yields the exact universal export.
+
+## Attainment and assembly
+
+The generic residual LU sum in WitnessLU is tied to the actual row-swap Schur step; cancellation occurs only after proving a nonzero diagonal pivot. WitnessOrder derives the current-position label transport, actual pivot labels, and next-state equality. Its determinant argument uses a genuine bijective row permutation and triangular factors with nonzero diagonal.
+
+The scalar and algebra modules prove the exact early-column powers, sliding recurrences, cancellations and rational entry bounds. The completed factors retain the target column and full identity tail. The target-column lower multiplier is a positive tail sum divided by the positive recurrence value, with the required ≤1 bound proved. WitnessProduct checks every column of the actual rational input against the full factor product, not merely the attaining column. Rational-to-complex transport preserves those equalities.
+
+WitnessPositive supplies the entire witness conjunction and the attaining entry at the actual target stage. WitnessZero separately verifies the identity input and complete path for p=0. The upper theorem and that entry lower bound imply exact growth equality; Proof then assembles the genuine maximum and supremum. All four exported wrappers preserve their frozen signatures. No active module imports Challenge, contains a proof hole/custom axiom, or uses native numerical decision machinery.
+
+## Trust, reuse, documentation and limits
+
+I inspected actual finite-supremum, triangular determinant, permutation determinant, complex norm, order-bound and conditional-supremum APIs, as well as LeanCert's transitive axiom classification and kernel assertion implementation. The latter rejects sorry, custom axioms and native compiler reduction dependencies. Here LeanCert's substantive role is auditing the actual final proof closures. There is no artificial numerical interval certificate: exact finite sums, algebra and norm inequalities suffice. Earlier independent rational examples remain transcription diagnostics only, not evidence for unbounded parameters.
+
+The decomposition makes the delicate finite-front and witness-position arguments inspectable; the sorting-free subset invariant avoids unnecessary combinatorial sorting infrastructure and computation. Standard Mathlib finite sums, matrix determinant/norm/order APIs are reused. Local abstractions represent actual algorithm states and finite envelopes and are discharged before the public results. Comments, upper-proof notes and metadata explain this route and preserve original Higham problem credit, the source's attribution to Matthew J. Colbrook, source AI/reconstruction disclosures, Sidney Holden/Codex formalization credit, adapted IE-14/IE-15 patterns, and dependency/workflow licensing. Optional closed-form specializations are not falsely advertised as extra exports.
+
+Current README/YAML accurately claim complete local proof while leaving independent final review and isolated Linux verification pending. This approval covers the exact bytes above and local evidence only. It makes no Linux sandbox/Comparator claim, no source-author endorsement, and no external human peer-review claim.

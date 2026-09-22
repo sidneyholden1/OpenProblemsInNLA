@@ -1,0 +1,109 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-13: sharp complex GEPP growth for arbitrary bandwidths'
+  description: Full dimension-independent sharp growth for every unequal bandwidth pair, strengthened
+    to all p,q≥0; complex all-tie paths, exact rational attainment and genuine real supremum.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-13 — Sharp growth for unequal lower and upper bandwidths
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/85490781eb0ca01c4545ded776117d7cb4cf9f52/linear-systems-and-elimination/IE-13/README.md
+  type: web-post
+  location: Complete canonical problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: Sharp partial-pivoting growth for unequal bandwidths
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/85490781eb0ca01c4545ded776117d7cb4cf9f52/references/colbrook-recovered-2026-09-11/manuscripts/IE-13.tex
+  type: manuscript
+  location: Theorem 1 and complete Sections 2–4
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Source attributes mathematics to Matthew J. Colbrook, Cambridge; substantial AI assistance and
+    reconstruction disclosed. Higham retains original-target credit.
+related_formalizations:
+- id: https://github.com/sidneyholden1/OpenProblemsInNLA/tree/736845bc/linear-systems-and-elimination/IE-15/lean
+  relationship: other
+  note: Padded active-state and exact Schur layout studied. The separately reviewed IE-14 complex column-only
+    GEPP boundary is adapted locally; no IE-14 proof result or cross-project import is assumed. IE-15
+    itself is real rook pivoting and its bound is not substituted.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Separate trusted Challenge and planned Solution,
+      kernel trust only, exact HTTPS dependency pins, shared local cache.
+    prompting_notes: Full all-parameter numerical statements first, two independent nonauthor approvals
+      before proof; derive the p-row original-label front and sorted envelope from actual complex GEPP.
+      Exact finite sums and algebra, LeanCert kernel audits; no unnecessary interval calculations.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Statements only; four deliberate Challenge placeholders. Full original target strengthened to
+    all p,q≥0, including zero bandwidths; no mathematical proof or Solution implementation. Independent
+    statement approvals, full proof, final reviews and Linux Comparator pending; canonical status unchanged.
+  sorry_count: 4
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IE13.upper_bound
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE13.rational_attainment
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE13.sharp_maximum
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE13.original_target
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: The complete canonical unequal-bandwidth target is strengthened to all p,q≥0. Arbitrary
+    complex nonsingular matrices, bandwidths at most p,q in the original ordering, all n≥1+max(p,q), all
+    actual GEPP ties and all active entries are retained. The sharp value is 1 if p=0 and h(p,p+q) otherwise,
+    with the exact source zero-extended recurrence. Actual full rational witness paths and genuine nonempty
+    bounded real suprema are conclusions. No front invariant, normalization, pivot admissibility or desired
+    scalar bound is assumed. Optional closed-form specializations are not separate advertised results.
+review:
+  status: statement-review-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  - OpenAI Codex agent /root/new_target_screen
+  notes: Statement/proof authors /root and /root/iv06_statement_referee_1 do not count as independent
+    referees. Two nonauthor statement approvals and successful Challenge elaboration required before proof;
+    final reviews and actual isolated Linux Comparator remain pending.
+alignment:
+- source: Universal complex all-dimension all-path upper bound
+  declarations:
+  - NLA.IE13.upper_bound
+- source: Actual rational attainment at admissible order
+  declarations:
+  - NLA.IE13.rational_attainment
+- source: Greatest element of the entire growth set
+  declarations:
+  - NLA.IE13.sharp_maximum
+- source: Complete canonical genuine-supremum classification
+  declarations:
+  - NLA.IE13.original_target
+acknowledgements: 'Mathematics attributed in the source to Matthew J. Colbrook, Cambridge; Higham retains
+  the original problem and tridiagonal comparison credit. Formalization: Sidney Holden with OpenAI Codex
+  assistance. Mathlib, LeanCert, Comparator and formalization.yaml retain licenses and credit. No novelty,
+  external human review or author endorsement claimed.'

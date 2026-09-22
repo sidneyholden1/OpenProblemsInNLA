@@ -1,0 +1,7 @@
+NLA/IE13/PathBudget.lean:76:12: error: Type mismatch: After simplification, term
+  hkj
+ has type
+  k < ↑j
+but is expected to have type
+  ⟨k, ⋯⟩ < j
+NLA/IE13/PathBudget.lean:81:76: error: No goals to be solved

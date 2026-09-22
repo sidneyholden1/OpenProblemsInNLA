@@ -1,0 +1,69 @@
+⚠ [3077/3096] Replayed NLA.IE13.Base
+warning: NLA/IE13/Base.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3081/3096] Replayed NLA.IE13.WitnessLU
+warning: NLA/IE13/WitnessLU.lean:124:32: This simp argument is unused:
+  hfuture
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, hij, luStage]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE13/WitnessLU.lean:121:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3082/3096] Replayed NLA.IE13.WitnessOrder
+warning: NLA/IE13/WitnessOrder.lean:65:55: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3088/3096] Replayed NLA.IE13.WitnessBounds
+warning: NLA/IE13/WitnessBounds.lean:62:30: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witness, witnessQ, hp, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3089/3096] Replayed NLA.IE13.WitnessFactors
+warning: NLA/IE13/WitnessFactors.lean:44:41: This simp argument is unused:
+  ite_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, le_refl, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3090/3096] Built NLA.IE13.WitnessZero (5.5s)
+⚠ [3091/3096] Built NLA.IE13.WitnessProduct (5.7s)
+warning: NLA/IE13/WitnessProduct.lean:59:60: This simp argument is unused:
+  eq_self_iff_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, hj, lt_self_iff_false, if_false, if_true, haj.le, lowerQ, hai.ne', hae, ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE13/WitnessProduct.lean:92:16: This simp argument is unused:
+  show i.val + 1 ≠ 0 by omega
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [he, hi, show ¬p < i.val + 1 by omega, show ¬p ≤ i.val by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3092/3096] Built NLA.IE13.WitnessPositive (4.8s)
+✔ [3093/3096] Built NLA.IE13.Witness (4.8s)
+✔ [3094/3096] Built NLA.IE13.Proof (4.8s)
+ℹ [3095/3096] Built Solution (4.8s)
+info: Solution.lean:31:0: 'NLA.IE13.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:32:0: 'NLA.IE13.rational_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:33:0: 'NLA.IE13.sharp_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:34:0: 'NLA.IE13.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3096 jobs).

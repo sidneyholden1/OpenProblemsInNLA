@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "build_jobs": 2380,
+  "intentional_placeholders": 4,
+  "log": "verification/statement-build-final.log",
+  "log_sha256": "6a52d16402ada4880d2be043caad196ea2748d247bf977e45e1b73bbcda374fd",
+  "base": "85490781eb0ca01c4545ded776117d7cb4cf9f52",
+  "proof_implementation_present": false,
+  "earlier_diagnostic": "statement-build.log records one solved-goal sequencing error in a Fin index bound, fixed before final snapshot; no mathematical statement change."
+}

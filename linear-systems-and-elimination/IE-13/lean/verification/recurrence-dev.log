@@ -1,0 +1,19 @@
+NLA/IE13/Recurrence.lean:60:2: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 0
+  e ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  c ≥ 0
+  c + d - e - f ≥ 1
+  b ≥ 0
+  a ≥ 0
+  a - b ≥ 0
+where
+ a := ↑k
+ b := ↑(k - s)
+ c := ↑(bandRec (s + 1) (k + 1))
+ d := ↑(bandRec (s + 1) (k - s))
+ e := ↑(bandRec (s + 1) (k + 1 - 0))
+ f := ↑(bandRec s.succ (k - s))

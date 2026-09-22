@@ -1,0 +1,7 @@
+NLA/IE13/WitnessFactors.lean:44:41: warning: This simp argument is unused:
+  ite_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, le_refl, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

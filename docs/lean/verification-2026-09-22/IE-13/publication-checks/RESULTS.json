@@ -1,0 +1,84 @@
+{
+  "verdict": "PASS",
+  "date_utc": "2026-09-22T08:18:39.252641+00:00",
+  "checks": {
+    "ids.log": {
+      "exit_code": 0,
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "command": [
+        "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+        "tools/validate_problem_ids.py",
+        "--base-ref",
+        "origin/main"
+      ]
+    },
+    "catalog.log": {
+      "exit_code": 0,
+      "sha256": "2c60245fd4f72cc7dbbb8a50eccfbde7eccf585c4a521209ff9fbacbc766c698",
+      "command": [
+        "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+        "tools/update_catalog.py",
+        "--base-ref",
+        "origin/main"
+      ]
+    },
+    "id-tests.log": {
+      "exit_code": 0,
+      "sha256": "31f63e890ffa6db2ea64534a4862b18c54635d4347a8e525c039b34201977405",
+      "command": [
+        "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_problem_ids.py",
+        "-v"
+      ]
+    },
+    "repository-tests.log": {
+      "exit_code": 0,
+      "sha256": "ed377538ee2a98fa90e86f849f5520356674d16cf788ad22823e7c1ba2c5601b",
+      "command": [
+        "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    },
+    "manifest.log": {
+      "exit_code": 0,
+      "sha256": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+      "command": [
+        "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+        "tools/lean/validate_manifest.py",
+        "linear-systems-and-elimination/IE-13/lean"
+      ]
+    },
+    "math-format.log": {
+      "command": [
+        "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+        "tools/format_math.py",
+        "--check",
+        "IE-13"
+      ],
+      "exit_code": 0,
+      "sha256": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c"
+    }
+  },
+  "limits": "Local publication checks; visual PDF review and exact publication-head Linux acceptance are separate.",
+  "initial_command_error": {
+    "command": [
+      "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+      "tools/normalize_math_format.py",
+      "--check",
+      "linear-systems-and-elimination/IE-13/README.md"
+    ],
+    "exit_code": 2,
+    "reason": "Coordinator used nonexistent formatter filename; original failed log retained. Correct existing tools/format_math.py invoked below."
+  }
+}

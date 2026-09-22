@@ -1,0 +1,173 @@
+{
+  "verdict": "PASS",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_2; AI nonauthor of IE-13",
+  "phase": "independent local final proof review; isolated Linux Comparator pending",
+  "consumer_exit_code": 0,
+  "consumer_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee2FinalConsumer.lean",
+  "initial_consumer_exit_code": 1,
+  "initial_consumer_limitation": "The referee initially reversed #assert_trust arguments; four exact signatures and axiom queries succeeded, four audit commands failed to parse kernel as theorem. Initial script/log preserved. Only referee consumer syntax changed before successful repeat.",
+  "proof_input_count": 36,
+  "active_lean_file_count": 20,
+  "statement_input_count": 20,
+  "proof_inputs": {
+    "NLA/IE13/Base.lean": "a97c9b60b937d443208493e3815c04f22a4bcced4143635f10e08200d5e44512",
+    "NLA/IE13/Budgets.lean": "69d76b760ebd2852d72882458c5575d384c78f902e18e074ee9d7a7eb9137b68",
+    "NLA/IE13/Definitions.lean": "149b0af13eebe254c3857c4bf971ece1428829e4cd251b92bf8f3170db6ea626",
+    "NLA/IE13/Front.lean": "5dd2081fae1ad93c43f687092b8588808a11ed4e35b78ea1b1735e47377aa23a",
+    "NLA/IE13/PathBudget.lean": "554a812b05fe9be99cc0f98d96593f64d8fcde47d2b8901fa2dedf71e999eed0",
+    "NLA/IE13/Profiles.lean": "193486136fa8ef766474285f747fca767ae9857200eee0fc9723229a5477cc50",
+    "NLA/IE13/Proof.lean": "153c329ae83704bc660502a867e3f6e3b9d12270445634207441c5b107047572",
+    "NLA/IE13/Recurrence.lean": "7c04702a1f261d978326e968b7f60eb88386cba41ab108862a7699cf055f21a7",
+    "NLA/IE13/Upper.lean": "d15795e79b7c1840d89cf1c16b79c263ca323b68ee37b99816b57b4206b362ca",
+    "NLA/IE13/Witness.lean": "75f2ee55aaa54390331f5837c0db70c3bbbc915d7ce62abda3fdfcf4952cc357",
+    "NLA/IE13/WitnessAlgebra.lean": "dbc21f89530fa7347b87785a1d33bf86b9be50ce13af97a5e7d8cba0032d60aa",
+    "NLA/IE13/WitnessBounds.lean": "c6df67c29b9f2c0b9ae0ed97a0ea91ae58a2216e5cd16fc816be22710be0b84e",
+    "NLA/IE13/WitnessFactors.lean": "c994b8a3b9741f7a979bea9be854c36dff0d2d244c65ed90af7e1745d7382837",
+    "NLA/IE13/WitnessLU.lean": "c549f0c19b3d54df39b3eab89fe29e36e6ef10d194ed02cb5688a890ea2c77c4",
+    "NLA/IE13/WitnessOrder.lean": "79112b4ff4f3dbca4b21eb7002f88d664e5272e1539040cddcfae98264066d83",
+    "NLA/IE13/WitnessPositive.lean": "77235fb878bfb59178781200c84192228cf29f9371d974a464909bc2d2a7e4d5",
+    "NLA/IE13/WitnessProduct.lean": "f4ae8116e58699f6d6330ba7d2997e54ee29e53cf773dfc4c699af1a3599e81a",
+    "NLA/IE13/WitnessScalar.lean": "5955e8d3a74465e0b3062c9e03145d0a3e92c46fcec51c1771f7f34cb10244f9",
+    "NLA/IE13/WitnessZero.lean": "f5607a63d8ce19f563e1a0a51a1f2866508a30a303bd4cfe80f0001190c3f7af",
+    "Solution.lean": "7bb70c64c76d23a593489f8462b62eae5433b13aa424248d6100ec3e177c5abf",
+    "Challenge.lean": "9665e96c67176aa4ffe168aaab092ebc800baf773645c30babe14596e0f1e305",
+    "NUMERICAL_TARGETS.md": "c44500bba494f2381ca93b367312851b098883c96f86660b97fa350fb59e156e",
+    "README.md": "312106f72bd11732743eb284810b68c3fad6105e76563e26f1ef60fa3b5630b8",
+    "formalization.yaml": "9017cd15301618ef95a94e5d2110d1de027063a5d6a338623c106eabbb14397b",
+    "UPPER_PROOF_NOTES.md": "7b7109e4a0dfe84ca4ab907fed3d20afd7698a9dcc28553813e5b9be54667d2d",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "8b615129bb888a6f7e2cbe2fffe0601955c02a5c3770824dc9424d3f1b8348c2",
+    "lake-manifest.json": "55717fab833a468f9b9971b29a171b5a4098fafb7437b93641f357b45c8ec795",
+    "comparator.json": "e1d2c993108a5abedaf90be8aab8381dc503d7f8ff45785a5ca735e54e16c30b",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "verification/solution-build-final.log": "449eb9e805ae2f9293b5a44fdf0aa466fe766ab4e88e61a9ce951d0054deeee7",
+    "verification/AuthorAudit.lean": "82b1407cc5fa9d2fbef0e6ea33cc35ef7b168fb69b6092bb179d249530053543",
+    "verification/axioms.log": "32ff66149dc0996d2018a8eceaaf4c655c1460b3b6104861bec818f9d720e279",
+    "verification/metadata-local-complete.log": "c3898ac46effe73d6ff6a9682f6c95ed00975bc96a53cdfc6da0fb1603ac837c",
+    "verification/metadata-local-complete.json": "adaa251f87edb90cafbd9258209047ef8aae0f04c18c6a718bfb2ed44c960a51",
+    "verification/finish_local_proof.py": "b3319b474fa48d898351c2c9262b58a52910c87805708b8cbf9ad488e040a9b6"
+  },
+  "preserved_statement_inputs": {
+    "NLA/IE13/Definitions.lean": {
+      "location": "NLA/IE13/Definitions.lean",
+      "sha256": "149b0af13eebe254c3857c4bf971ece1428829e4cd251b92bf8f3170db6ea626"
+    },
+    "Challenge.lean": {
+      "location": "Challenge.lean",
+      "sha256": "9665e96c67176aa4ffe168aaab092ebc800baf773645c30babe14596e0f1e305"
+    },
+    "NUMERICAL_TARGETS.md": {
+      "location": "NUMERICAL_TARGETS.md",
+      "sha256": "c44500bba494f2381ca93b367312851b098883c96f86660b97fa350fb59e156e"
+    },
+    "README.md": {
+      "location": "reviews/statement-original/README.md",
+      "sha256": "d2a80dc113c46bd23434c8d0ccdff848997bdc41f5abe9e5466fee6b5b3acb7b"
+    },
+    "formalization.yaml": {
+      "location": "reviews/statement-original/formalization.yaml",
+      "sha256": "b937e4b0f61025c98e6651ea2d81fe2ef45a422f092e976bea9d492d397b1e3b"
+    },
+    "comparator.json": {
+      "location": "comparator.json",
+      "sha256": "e1d2c993108a5abedaf90be8aab8381dc503d7f8ff45785a5ca735e54e16c30b"
+    },
+    "lean-toolchain": {
+      "location": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    "lakefile.toml": {
+      "location": "lakefile.toml",
+      "sha256": "8b615129bb888a6f7e2cbe2fffe0601955c02a5c3770824dc9424d3f1b8348c2"
+    },
+    "lake-manifest.json": {
+      "location": "lake-manifest.json",
+      "sha256": "55717fab833a468f9b9971b29a171b5a4098fafb7437b93641f357b45c8ec795"
+    },
+    "LICENSE": {
+      "location": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "../README.md": {
+      "location": "../README.md",
+      "sha256": "2977da8c5a1144e8bec75b77eeb6df1ed9ac49ffc3ab741a3f278e6310088d6b"
+    },
+    "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-13.tex": {
+      "location": "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-13.tex",
+      "sha256": "cc2fd88017d3f372cd41682d3ea06b390786a39cc0552267c77a3211250b485a"
+    },
+    "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-13-review.md": {
+      "location": "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-13-review.md",
+      "sha256": "8889beae66533947ac1828b3abd1aafb1c11a431d1dd2cf23ad91665007a611e"
+    },
+    "verification/statement-build-final.log": {
+      "location": "verification/statement-build-final.log",
+      "sha256": "6a52d16402ada4880d2be043caad196ea2748d247bf977e45e1b73bbcda374fd"
+    },
+    "verification/statement-local.json": {
+      "location": "verification/statement-local.json",
+      "sha256": "e4e0787779aa6a0f99c2d67f1ed0ab1cce736a0b0e5a31c574a8a2612e2b6d26"
+    },
+    "verification/check_draft_metadata.py": {
+      "location": "verification/check_draft_metadata.py",
+      "sha256": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4"
+    },
+    "verification/metadata-draft.log": {
+      "location": "verification/metadata-draft.log",
+      "sha256": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8"
+    },
+    "verification/check_witness.py": {
+      "location": "verification/check_witness.py",
+      "sha256": "84f4591ce2d9b1a9423ae6d3a259140a6525541e46c3ae55c5240802a4a965cb"
+    },
+    "verification/witness-precheck.json": {
+      "location": "verification/witness-precheck.json",
+      "sha256": "b43d9347de57d2eec5f5be0936c8510efe7c548887d51a7c2c14223d0cd269d1"
+    },
+    "verification/source-witness-diagnostics.json": {
+      "location": "verification/source-witness-diagnostics.json",
+      "sha256": "f7df43d3e7ce16442e945b6dc5b03d7652381a5f9b1fb68b6de5d5bc0f7f2b3d"
+    }
+  },
+  "evidence_sha256": {
+    "reviews/proof-source-hashes.json": "663ae8b76b57fdf41f3f8f59976f2de1c7ac46f2e5cf8dff7363b857898d9c55",
+    "reviews/statement-source-hashes.json": "3c259b331adb200b83499d6ca2787a009565911cb7cf7fae40cec57834716d3f",
+    "reviews/statement-gate.json": "0faf5813bdefb5269871fc1ae4d3e246f92f2dfddd689db1fe1e051df33e4694",
+    "verification/local-proof-20260922.json": "0255c6465852291b5c82f68624afc7134621d9c828d58fc77030fd1d0598b79b",
+    "verification/Referee2FinalConsumer.lean": "afda4bdcb780afaa0ad89fe3c1835808c367a82c5d21b57e77b358ec620387d7",
+    "verification/referee-2-final-consumer.log": "bcfd2bc92af69859c96a210ab357de7c007476f892cd953c57423951fd0393f3",
+    "verification/Referee2FinalConsumer-initial.lean": "404263b5ae39049ec577ca93da819f4811d4ea378fd31b87fab1c7943b7a7bf0",
+    "verification/referee-2-final-consumer-initial.log": "6953a374ce8a463464fd09a91acf1770d3245fd2e6212c7a6ed580f1f2becd9e",
+    "verification/referee_2_final_hash_check.py": "0ab49a52fccfe74a6ecefccfdeead44d36303458cbc63c526466f3d2bac0a0db",
+    "../../../docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    ".lake/packages/mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+    ".lake/packages/mathlib/Mathlib/LinearAlgebra/Matrix/Block.lean": "67732b3a0aecc12968edfc5333d5da4d723f8888541427a6d833f57301599ae3",
+    ".lake/packages/mathlib/Mathlib/LinearAlgebra/Matrix/Determinant/Basic.lean": "37646a248748fd65e37c20a21b4a20fea11539d4312aae4f277e4faef8ed2b87",
+    ".lake/packages/mathlib/Mathlib/Analysis/Complex/Norm.lean": "815efa05d2282b0b234139eac16d614f1128d69e39cf02249df887934ccc9741",
+    ".lake/packages/mathlib/Mathlib/Order/Bounds/Defs.lean": "e5a38e3cf5b12a87a53bbd64d4d458bacb2f707aa75e1b3dca1c33014aa23c2d",
+    ".lake/packages/mathlib/Mathlib/Order/ConditionallyCompletePartialOrder/Basic.lean": "3b3a64216facdcda59b00c464ecdca7d82ceb8d87afc21f21d2dfd7760e50352",
+    ".lake/packages/LeanCert/LeanCert/Tactic/Verification.lean": "2c576708b528acdde17796b0b715b83079f9cad377182dbd87c248323ff0a58c"
+  },
+  "exports": [
+    "NLA.IE13.upper_bound",
+    "NLA.IE13.rational_attainment",
+    "NLA.IE13.sharp_maximum",
+    "NLA.IE13.original_target"
+  ],
+  "actual_export_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LeanCert_role": "Actual transitive kernel trust assertions for every export; no interval numerical certificates needed by these exact finite proofs.",
+  "author_build": {
+    "jobs": 3096,
+    "exit_code": 0,
+    "attribution": "Coordinator/author build, log independently inspected; not claimed as referee-run build."
+  },
+  "limitations": [
+    "Independent exact-signature consumer is local macOS; isolated Linux Comparator/default-kernel sandbox not yet reviewed.",
+    "No external human review or source-author endorsement claimed.",
+    "Finite rational diagnostics are transcription checks, not universal proof."
+  ]
+}

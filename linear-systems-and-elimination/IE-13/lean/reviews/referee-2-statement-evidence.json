@@ -1,0 +1,52 @@
+{
+  "verdict": "APPROVE",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_2",
+  "nonauthor": true,
+  "phase": "statements only",
+  "statement_snapshot_sha256": "3c259b331adb200b83499d6ca2787a009565911cb7cf7fae40cec57834716d3f",
+  "source_hashes": {
+    "NLA/IE13/Definitions.lean": "149b0af13eebe254c3857c4bf971ece1428829e4cd251b92bf8f3170db6ea626",
+    "Challenge.lean": "9665e96c67176aa4ffe168aaab092ebc800baf773645c30babe14596e0f1e305",
+    "NUMERICAL_TARGETS.md": "c44500bba494f2381ca93b367312851b098883c96f86660b97fa350fb59e156e",
+    "README.md": "d2a80dc113c46bd23434c8d0ccdff848997bdc41f5abe9e5466fee6b5b3acb7b",
+    "formalization.yaml": "b937e4b0f61025c98e6651ea2d81fe2ef45a422f092e976bea9d492d397b1e3b",
+    "comparator.json": "e1d2c993108a5abedaf90be8aab8381dc503d7f8ff45785a5ca735e54e16c30b",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "8b615129bb888a6f7e2cbe2fffe0601955c02a5c3770824dc9424d3f1b8348c2",
+    "lake-manifest.json": "55717fab833a468f9b9971b29a171b5a4098fafb7437b93641f357b45c8ec795",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "../README.md": "2977da8c5a1144e8bec75b77eeb6df1ed9ac49ffc3ab741a3f278e6310088d6b",
+    "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-13.tex": "cc2fd88017d3f372cd41682d3ea06b390786a39cc0552267c77a3211250b485a",
+    "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-13-review.md": "8889beae66533947ac1828b3abd1aafb1c11a431d1dd2cf23ad91665007a611e",
+    "verification/statement-build-final.log": "6a52d16402ada4880d2be043caad196ea2748d247bf977e45e1b73bbcda374fd",
+    "verification/statement-local.json": "e4e0787779aa6a0f99c2d67f1ed0ab1cce736a0b0e5a31c574a8a2612e2b6d26",
+    "verification/check_draft_metadata.py": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4",
+    "verification/metadata-draft.log": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8",
+    "verification/check_witness.py": "84f4591ce2d9b1a9423ae6d3a259140a6525541e46c3ae55c5240802a4a965cb",
+    "verification/witness-precheck.json": "b43d9347de57d2eec5f5be0936c8510efe7c548887d51a7c2c14223d0cd269d1",
+    "verification/source-witness-diagnostics.json": "f7df43d3e7ce16442e945b6dc5b03d7652381a5f9b1fb68b6de5d5bc0f7f2b3d"
+  },
+  "additional_source_sha256": {
+    "../../../docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    ".lake/packages/mathlib/Mathlib/Analysis/Complex/Norm.lean": "815efa05d2282b0b234139eac16d614f1128d69e39cf02249df887934ccc9741",
+    ".lake/packages/mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+    ".lake/packages/mathlib/Mathlib/Order/Bounds/Defs.lean": "e5a38e3cf5b12a87a53bbd64d4d458bacb2f707aa75e1b3dca1c33014aa23c2d"
+  },
+  "evidence_sha256": {
+    "verification/Referee2Statement.lean": "6e7d627400e65df80d5f5b8deb218a8ab5dd95a4b879c5a4c8f900847f2cf866",
+    "verification/referee-2-statement-probe.log": "6caa9caaed214e2cb0333a8155b842df12c24a67d19c23b60906b6f9501ad052",
+    "verification/referee-2-statement-probe-initial.log": "b1c0fbe1f34897c50c5644656b34dc9102d484f9e9f7b42ec9c789a3eaeb91ba",
+    "verification/referee_2_diagnostics.py": "c9842a06ba8c82b4e67cfde0e2859073ce8a8b81722c1d1c5ca41ad545b9caf7",
+    "verification/referee-2-diagnostics.json": "285b2e9d2b49d8234720c910c590d611a79329dd435706c61c2f584a605d1df4",
+    "verification/referee-2-diagnostics.log": "759636aaf994a11e50ed8b85bac0030c3ac098419759adb17677085ec63d022c",
+    "verification/write_referee_2_statement_report.py": "5679af709799c814da145b9cf87542de566d7afd150a43f85b299a833a5b21ca"
+  },
+  "probe_exit_code": 0,
+  "diagnostic_pairs": 30,
+  "coordinator_challenge_exit_code": 0,
+  "limitations": [
+    "Challenge intentionally has four placeholders; no theorem proof inspected or certified",
+    "Original failed diagnostic probe retained; final probe succeeds",
+    "Finite exact diagnostics do not prove universal bounds; isolated Linux Comparator pending"
+  ]
+}

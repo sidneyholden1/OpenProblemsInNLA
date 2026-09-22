@@ -1,0 +1,14 @@
+NLA/IE13/WitnessProduct.lean:59:60: warning: This simp argument is unused:
+  eq_self_iff_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, hj, lt_self_iff_false, if_false, if_true, haj.le, lowerQ, hai.ne', hae, ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE13/WitnessProduct.lean:92:16: warning: This simp argument is unused:
+  show i.val + 1 ≠ 0 by omega
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [he, hi, show ¬p < i.val + 1 by omega, show ¬p ≤ i.val by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

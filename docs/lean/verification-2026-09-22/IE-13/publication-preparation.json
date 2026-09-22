@@ -1,0 +1,22 @@
+{
+  "phase": "publication preparation, not final publication CI",
+  "verdict": "PASS",
+  "proof_head": "e8acacba4964ae8c103e808174cc6630d9bd00a1",
+  "proof_run_id": 35703222111,
+  "proof_run_attempt": 1,
+  "proof_exports": 4,
+  "preserved_review_snapshot_inputs": 36,
+  "preserved_statement_input_count": 20,
+  "original_canonical_sha256": "2977da8c5a1144e8bec75b77eeb6df1ed9ac49ffc3ab741a3f278e6310088d6b",
+  "source_manuscript_sha256": "cc2fd88017d3f372cd41682d3ea06b390786a39cc0552267c77a3211250b485a",
+  "audit_sha256": "e8fcdb45880d467c32e88c725d7916641b4555845dfcb010aa2729258af71793",
+  "operational_auditor_role": "Coordinator, mathematical proof coauthor; independent final mathematical referees are agents 2+3",
+  "next_required": [
+    "PDF marker and rendering",
+    "visual PDF review",
+    "math formatting check",
+    "permanent-ID validation and catalog generation",
+    "publication tests and check receipt",
+    "authorized commit/push and exact-head final CI"
+  ]
+}
