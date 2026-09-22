@@ -1,0 +1,1 @@
+'NLA.MF22.spectral_decomposition_of_identities' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS; independent final mathematical reviews complete; actual Linux pending",
+  "date_utc": "2026-09-22T08:57:44.123582+00:00",
+  "coordinator": "OpenAI Codex /root, MF-22 nonauthor",
+  "frozen_input_count": 45,
+  "proof_snapshot_sha256": "16f5cf856c99687db4bab3cca8414d98b2bb62f9262cb745d810de25f9a40608",
+  "all_hashes_recomputed": true,
+  "both_actual_reports_read_in_full": true,
+  "independent_nonauthor_referees": [
+    "OpenAI Codex /root",
+    "OpenAI Codex /root/iv06_statement_referee_1"
+  ],
+  "excluded_authors": [
+    "OpenAI Codex /root/iv06_statement_referee_2",
+    "OpenAI Codex /root/new_target_screen"
+  ],
+  "reports_and_evidence_sha256": {
+    "final-referee-root.md": "afbe400a08586c9f8c9ae3ab25d8ef753219db88c25cd1b5485bdfe490214a3b",
+    "final-referee-1.md": "88b66d744351fc409bd62c57f7151f98d547b20ac0b64fb085bed2713a850bfe",
+    "root-final-evidence.json": "af6a9e3cad1472310be09e0f015b383705d9d204b0f42ede2f790932f67ae5ab",
+    "referee-1-proof-evidence.json": "b8d4c97a08e1610a6a5a271b1813b3f4c9b8aa0823e81a6571a92a3b3240d7d1"
+  },
+  "actual_linux_comparator": "pending",
+  "canonical_status": "unchanged; Solved"
+}

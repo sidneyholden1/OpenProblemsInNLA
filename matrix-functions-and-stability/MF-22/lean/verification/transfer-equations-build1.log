@@ -1,0 +1,61 @@
+⚠ [3403/3405] Replayed NLA.MF22.Scalar
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3404/3405] Replayed NLA.MF22.Transfer
+warning: NLA/MF22/Transfer.lean:35:30: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF22/Transfer.lean:78:17: This simp argument is unused:
+  sD
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sA, sB, sC, sE, sF, numerator, coefA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Transfer.lean:78:23: This simp argument is unused:
+  sF
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sA, sB, sC, sD, sE, numerator, coefA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3405/3405] Built NLA.MF22.TransferEquations (5.6s)
+warning: NLA/MF22/TransferEquations.lean:13:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/TransferEquations.lean:25:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/TransferEquations.lean:34:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/TransferEquations.lean:37:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3405 jobs).

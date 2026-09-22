@@ -1,0 +1,52 @@
+✖ [3104/3105] Building NLA.MF22.SpectralBasis (4.8s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/SpectralBasis.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/SpectralBasis.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/SpectralBasis.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/SpectralBasis.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/SpectralBasis.setup.json --json
+error: NLA/MF22/SpectralBasis.lean:17:70: unsolved goals
+T : Matrix (Fin 4) (Fin 4) ℂ
+ev : Fin 4 → ℂ
+hi : Function.Injective ev
+he : ∀ (i : Fin 4), T.charpoly.IsRoot (ev i)
+i : Fin 4
+⊢ Module.End.HasEigenvalue (Matrix.toLin' T) (ev i)
+error: NLA/MF22/SpectralBasis.lean:19:8: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Module.End.HasEigenvalue ?f ?μ
+in the target expression
+  ∃ b, ∀ (i : Fin 4), T *ᵥ b i = ev i • b i
+
+T : Matrix (Fin 4) (Fin 4) ℂ
+ev : Fin 4 → ℂ
+hi : Function.Injective ev
+he : ∀ (i : Fin 4), T.charpoly.IsRoot (ev i)
+hv : ∀ (i : Fin 4), Module.End.HasEigenvalue (Matrix.toLin' T) (ev i)
+⊢ ∃ b, ∀ (i : Fin 4), T *ᵥ b i = ev i • b i
+error: NLA/MF22/SpectralBasis.lean:39:63: unsolved goals
+T : Matrix (Fin 4) (Fin 4) ℂ
+ev : Fin 4 → ℂ
+b : Module.Basis (Fin 4) ℂ (Fin 4 → ℂ)
+he : ∀ (a : Fin 4), T *ᵥ b a = ev a • b a
+k : ℕ
+i j : Fin 4
+m : ℕ
+a : Fin 4
+⊢ T ^ m *ᵥ b a = ev a ^ m • b a
+error: NLA/MF22/SpectralBasis.lean:41:14: Unknown identifier `m`
+error: NLA/MF22/SpectralBasis.lean:41:4: Tactic `induction` failed: major premise type is not an inductive type
+  ?m.79
+
+Explanation: the `induction` tactic is for constructor-based reasoning as well as for applying custom induction principles with a 'using' clause or a registered '@[induction_eliminator]' theorem. The above type neither is an inductive type nor has a registered theorem.
+
+T : Matrix (Fin 4) (Fin 4) ℂ
+ev : Fin 4 → ℂ
+b : Module.Basis (Fin 4) ℂ (Fin 4 → ℂ)
+he : ∀ (a : Fin 4), T *ᵥ b a = ev a • b a
+k : ℕ
+i j : Fin 4
+hp : ∀ (m : ℕ) (a : Fin 4), T ^ m *ᵥ b a = ev a ^ m • b a
+x✝ : ?m.79
+⊢ (T ^ k) i j = ∑ a, ev a ^ k * basisProjector b a i j
+error: NLA/MF22/SpectralBasis.lean:63:21: #assert_trust: 'NLA.MF22.eigenbasis_exists' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.SpectralBasis
+error: build failed

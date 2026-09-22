@@ -1,0 +1,54 @@
+⚠ [3403/3405] Replayed NLA.MF22.Scalar
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3404/3405] Replayed NLA.MF22.Transfer
+warning: NLA/MF22/Transfer.lean:35:30: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF22/Transfer.lean:78:17: This simp argument is unused:
+  sD
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sA, sB, sC, sE, sF, numerator, coefA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Transfer.lean:78:23: This simp argument is unused:
+  sF
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sA, sB, sC, sD, sE, numerator, coefA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [3405/3405] Building NLA.MF22.ToeplitzRows (16s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/ToeplitzRows.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/ToeplitzRows.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/ToeplitzRows.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/ToeplitzRows.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/ToeplitzRows.setup.json --json
+error: NLA/MF22/ToeplitzRows.lean:32:45: unexpected token '('; expected 'else'
+error: NLA/MF22/ToeplitzRows.lean:84:11: `simp` made no progress
+warning: NLA/MF22/ToeplitzRows.lean:83:21: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/MF22/ToeplitzRows.lean:98:11: `simp` made no progress
+warning: NLA/MF22/ToeplitzRows.lean:97:21: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.ToeplitzRows
+error: build failed

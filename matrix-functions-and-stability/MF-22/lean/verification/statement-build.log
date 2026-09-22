@@ -1,0 +1,18 @@
+✖ [2399/2401] Building NLA.MF22.Definitions (6.9s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/Definitions.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Definitions.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Definitions.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Definitions.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Definitions.setup.json --json
+error: NLA/MF22/Definitions.lean:37:41: expected token
+error: NLA/MF22/Definitions.lean:37:38: failed to synthesize instance of type class
+  LE Type
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: NLA/MF22/Definitions.lean:37:40: failed to synthesize instance of type class
+  OfNat Type 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Type
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.Definitions
+error: build failed

@@ -1,0 +1,58 @@
+⚠ [3403/3405] Replayed NLA.MF22.Scalar
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✖ [3404/3405] Building NLA.MF22.CubicRoots (6.4s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/CubicRoots.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/CubicRoots.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/CubicRoots.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/CubicRoots.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/CubicRoots.setup.json --json
+warning: NLA/MF22/CubicRoots.lean:14:14: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+error: NLA/MF22/CubicRoots.lean:59:35: linarith failed to find a contradiction
+case h1
+P : Cubic ℝ
+ha : P.a ≠ 0
+hd : P.discr < 0
+x y z : ℂ
+h3 : (Cubic.map ofRealHom P).roots = {x, y, z}
+hn : x ≠ y ∧ x ≠ z ∧ y ≠ z
+hnot : ¬(x.im = 0 ∧ y.im = 0 ∧ z.im = 0)
+u v w✝ : ℂ
+he : (Cubic.map ofRealHom P).roots = {u, v, w✝}
+hu : u.im ≠ 0
+huconj : star u ≠ u
+hc : star u ∈ {u, v, w✝}
+hne : u ≠ v ∧ u ≠ w✝ ∧ v ≠ w✝
+w : ℂ
+hv : (Cubic.map ofRealHom P).roots = {u, star u, w}
+hneq : u ≠ star u ∧ u ≠ w ∧ star u ≠ w
+hb : ofRealHom P.b = ofRealHom P.a * -(u + star u + w)
+hi : P.a = 0 ∨ w.im = 0
+a✝ : P.a * w.im < 0
+⊢ False
+failed
+error: NLA/MF22/CubicRoots.lean:62:6: Type mismatch: After simplification, term
+  hv
+ has type
+  (Cubic.map ofRealHom P).roots = u ::ₘ (starRingEnd ℂ) u ::ₘ {w}
+but is expected to have type
+  (Cubic.map ofRealHom P).roots = u ::ₘ w ::ₘ {(starRingEnd ℂ) u}
+error: NLA/MF22/CubicRoots.lean:63:19: Tactic `cases` failed with a nested error:
+Dependent elimination failed: Failed to solve equation
+  u = star u
+error: NLA/MF22/CubicRoots.lean:73:8: Type mismatch: After simplification, term
+  h3
+ has type
+  (Cubic.map ofRealHom P).roots = x ::ₘ y ::ₘ {z}
+but is expected to have type
+  (Cubic.map ofRealHom P).roots = x ::ₘ z ::ₘ {y}
+error: Lean exited with code 1
+✔ [3405/3405] Built NLA.MF22.Cayley (6.4s)
+Some required targets logged failures:
+- NLA.MF22.CubicRoots
+error: build failed

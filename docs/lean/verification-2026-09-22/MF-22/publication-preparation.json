@@ -1,0 +1,48 @@
+{
+  "phase": "publication preparation, not final publication CI",
+  "verdict": "PASS",
+  "proof_head": "5596784dc81e22ed625650bca71d4a1435896cef",
+  "proof_run_id": 35707732163,
+  "proof_run_attempt": 1,
+  "proof_exports": 4,
+  "reviewed_inputs_preserved": 45,
+  "statement_inputs_preserved": 23,
+  "independent_final_reports": [
+    "final-referee-root.md",
+    "final-referee-1.md"
+  ],
+  "audit_sha256": "53be0c82277771f8ff66971c696711edad53f78e7f799f252f194fadec734a19",
+  "canonical_before_sha256": "1e47aed8795445d4b2fd7736d4ec0420dee5460f1fd12de37097f58d3d752eda",
+  "original_sources_sha256": {
+    "matrix-functions-and-stability/MF-22/solution.md": "a274a6401b27037bb5034cbffe87f02204fdcb663c40a9a7adfe033a19283edb",
+    "matrix-functions-and-stability/MF-22/solution.tex": "1456bf2df421bb039f33bf32a6f7670975e724a89dd3e885dc946ffe024dd5b7",
+    "matrix-functions-and-stability/MF-22/solution.pdf": "de27f0a606bb1415470a6cf3c1cedd4ea5fab6c1075aa7d1e536ffb8b4ae51e9",
+    "references/stepaniants-mf22-2026-09-11/README.md": "19658bacb9a5ec7dab4168c85c30f13bde43fb906fd800412df2563fa15e5662",
+    "references/stepaniants-mf22-2026-09-11/verification/MF-22-independent-review.md": "256c61373b594db549bf5aef4c62a0f996b3d812d4b797cb47a7a8122e5fd1d8",
+    "references/stepaniants-mf22-2026-09-11/verification/MF-22-packaging-review.md": "9bb9566f9acc3a077b49bee6fe7d66af92b10331a43cd2c8a20bddf14dc575ae",
+    "references/stepaniants-mf22-2026-09-11/verification/check_submission.py": "4d35719e533698caf4b69c6412164136301abe7a8a31e687c9007709da88499d",
+    "references/stepaniants-mf22-2026-09-11/verification/document-checks.json": "aba8c0788ea2fc159ff6974976ad133d78cf7a7b9f20d376346f1f148bb2c323",
+    "references/stepaniants-mf22-2026-09-11/verification/exact-verification.json": "64531bd6bb557062fd11f6269350f202faeba055d9356239401304a12f0bd774",
+    "references/stepaniants-mf22-2026-09-11/verification/exact_identity_check.json": "057c0228efb25734d2006bc8bbaeff3900858a0c64425ab71df99aaa795089d5",
+    "references/stepaniants-mf22-2026-09-11/verification/independent_exact_check.py": "0f1128af72db7a0332f88c86784b5eb3f43cfa20875d4c27572fe91c95778d1b",
+    "references/stepaniants-mf22-2026-09-11/verification/network-before-push.json": "b8733c24c175a6f67d1575f3a2c68ee7c4c66a18cb1ef20d72c77b408bbb1230",
+    "references/stepaniants-mf22-2026-09-11/verification/network-check.json": "f63cd3bf990576ab149964c0edb7324952f035d9a9949910d69d0ce50d2cb07a",
+    "references/stepaniants-mf22-2026-09-11/verification/network_check.py": "f1209dcfc7aee21ba53c21f33f564ebfb3e390ca2b71687848bc1658190d653e",
+    "references/stepaniants-mf22-2026-09-11/verification/original-exact-verification.json": "64531bd6bb557062fd11f6269350f202faeba055d9356239401304a12f0bd774",
+    "references/stepaniants-mf22-2026-09-11/verification/reviewed-proof.md": "4b2b030d0284014d2eabfc79ce56c4293bc83be7cb80f86deda31d3dddab5f4f",
+    "references/stepaniants-mf22-2026-09-11/verification/verify_exact_algebra.py": "7bdc0bbb0d371891726eb70f872c42b76c8eabe61b9f9411345ba23c64649e8b"
+  },
+  "catalog_counts_from_current_canonical_pages": {
+    "Solved": 48,
+    "Open": 57,
+    "Partially resolved": 69,
+    "Lean verified": 43
+  },
+  "next_required": [
+    "math formatting",
+    "PDF marker/render and visual review",
+    "permanent-ID validation and catalog generation",
+    "publication tests and check receipt",
+    "authorized commit/push and exact-head final CI"
+  ]
+}

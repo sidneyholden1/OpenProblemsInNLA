@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.MF22.uniform_norm_bound",
+    "NLA.MF22.eventual_inverse_entry_bound",
+    "NLA.MF22.linear_condition_bound",
+    "NLA.MF22.original_target"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

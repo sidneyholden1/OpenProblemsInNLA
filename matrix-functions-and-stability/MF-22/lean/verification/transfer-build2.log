@@ -1,0 +1,405 @@
+⚠ [3403/3404] Replayed NLA.MF22.Scalar
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✖ [3404/3404] Building NLA.MF22.Transfer (11s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/Transfer.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Transfer.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Transfer.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Transfer.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Transfer.setup.json --json
+warning: NLA/MF22/Transfer.lean:35:30: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+error: NLA/MF22/Transfer.lean:40:58: unsolved goals
+r : ℝ
+hr : 0 < r
+z : ℂ
+ha : coefA r ≠ 0
+⊢ (((((((((((⋯ + ⋯ + ⋯ * 11179524096 + if 3 = ⋯ then -⋯ else 0) + -(⋯ * ⋯ * 11179524096) +
+                                                                                                ⋯ * ⋯ *
+                                                                                                      ![1, 0, 0, 0] ⋯ *
+                                                                                                    ![0, 1, 0, 0]
+                                                                                                      (Fin.succAbove ⋯
+                                                                                                        ⋯) *
+                                                                                                  11179524096 +
+                                                                                              -(↑r ^ 6 * z ^ 4 * ⋯⁻¹ *
+                                                                                                    ![0, 1, 0, 0]
+                                                                                                      (Fin.succAbove 3
+                                                                                                        ⋯) *
+                                                                                                  1325776896) +
+                                                                                            (↑r ^ 6 * z ^ 2 *
+                                                                                                  (720 - ↑r * I * 240 -
+                                                                                                      ↑r ^ 2 * 24)⁻¹ *
+                                                                                                if
+                                                                                                    2 =
+                                                                                                      (Fin.succAbove ⋯
+                                                                                                          ⋯).succ then
+                                                                                                  1
+                                                                                                else 0) *
+                                                                                              27648 -
+                                                                                          if 3 = Fin.succAbove 2 2 then
+                                                                                            if
+                                                                                                1 =
+                                                                                                  Fin.succAbove 2 1 then
+                                                                                              ↑r ^ 6 * z ^ 2 *
+                                                                                                  (720 - ↑r * I * 240 -
+                                                                                                      ↑r ^ 2 * 24)⁻¹ *
+                                                                                                331776
+                                                                                            else 0
+                                                                                          else 0) +
+                                                                                        if 1 = Fin.succAbove 2 2 then
+                                                                                          (↑r ^ 6 * z ^ 2 *
+                                                                                                (720 - ↑r * I * 240 -
+                                                                                                    ↑r ^ 2 * 24)⁻¹ *
+                                                                                              if
+                                                                                                  3 =
+                                                                                                    Fin.succAbove 2
+                                                                                                      (Fin.succAbove 2
+                                                                                                        1) then
+                                                                                                1
+                                                                                              else 0) *
+                                                                                            331776
+                                                                                        else 0) +
+                                                                                      ↑r ^ 6 * z ^ 3 *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        677376 -
+                                                                                    (↑r ^ 6 * z ^ 3 *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        if
+                                                                                            2 =
+                                                                                              (Fin.succAbove 2
+                                                                                                  1).succ then
+                                                                                          1
+                                                                                        else 0) *
+                                                                                      691200 -
+                                                                                  ↑r ^ 6 * z ^ 3 *
+                                                                                        (720 - ↑r * I * 240 -
+                                                                                            ↑r ^ 2 * 24)⁻¹ *
+                                                                                      ![0, 0, 0] (Fin.succAbove 2 1) *
+                                                                                    27648 +
+                                                                                if 3 = Fin.succAbove 1 2 then
+                                                                                  ↑r ^ 6 * z ^ 3 *
+                                                                                      (720 - ↑r * I * 240 -
+                                                                                          ↑r ^ 2 * 24)⁻¹ *
+                                                                                    677376
+                                                                                else 0) +
+                                                                              if 1 = Fin.succAbove 2 1 then
+                                                                                ↑r ^ 6 * z ^ 3 *
+                                                                                      (720 - ↑r * I * 240 -
+                                                                                          ↑r ^ 2 * 24)⁻¹ *
+                                                                                    ![0, 1, 0, 0] (Fin.succAbove 2 2) *
+                                                                                  331776
+                                                                              else 0) +
+                                                                            if 3 = Fin.succAbove 2 2 then
+                                                                              ↑r ^ 6 * z ^ 3 *
+                                                                                    (720 - ↑r * I * 240 -
+                                                                                        ↑r ^ 2 * 24)⁻¹ *
+                                                                                  ![↑r * I *
+                                                                                              (720 - ↑r * I * 240 -
+                                                                                                  ↑r ^ 2 * 24)⁻¹ *
+                                                                                            816 +
+                                                                                          ↑r ^ 2 *
+                                                                                              (720 - ↑r * I * 240 -
+                                                                                                  ↑r ^ 2 * 24)⁻¹ *
+                                                                                            168 +
+                                                                                        -((720 - ↑r * I * 240 -
+                                                                                                ↑r ^ 2 * 24)⁻¹ *
+                                                                                            576),
+                                                                                      -(↑r * I *
+                                                                                                (720 - ↑r * I * 240 -
+                                                                                                    ↑r ^ 2 * 24)⁻¹ *
+                                                                                              528) +
+                                                                                          ↑r ^ 2 *
+                                                                                              (720 - ↑r * I * 240 -
+                                                                                                  ↑r ^ 2 * 24)⁻¹ *
+                                                                                            24 +
+                                                                                        (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                          2880,
+                                                                                      -(↑r * I *
+                                                                                                (720 - ↑r * I * 240 -
+                                                                                                    ↑r ^ 2 * 24)⁻¹ *
+                                                                                              528) -
+                                                                                          ↑r ^ 2 *
+                                                                                              (720 - ↑r * I * 240 -
+                                                                                                  ↑r ^ 2 * 24)⁻¹ *
+                                                                                            168 +
+                                                                                        -((720 - ↑r * I * 240 -
+                                                                                                ↑r ^ 2 * 24)⁻¹ *
+                                                                                            720),
+                                                                                      -(↑r ^ 2 *
+                                                                                              (720 - ↑r * I * 240 -
+                                                                                                  ↑r ^ 2 * 24)⁻¹ *
+                                                                                            48) +
+                                                                                        -((720 - ↑r * I * 240 -
+                                                                                                ↑r ^ 2 * 24)⁻¹ *
+                                                                                            864)]
+                                                                                    (Fin.succAbove 2 1) *
+                                                                                331776
+                                                                            else 0) -
+                                                                          if 1 = Fin.succAbove 2 2 then
+                                                                            ↑r ^ 6 * z ^ 3 *
+                                                                                  (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                                ![0, 1, 0, 0]
+                                                                                  (Fin.succAbove 2
+                                                                                    (Fin.succAbove 2 1)) *
+                                                                              331776
+                                                                          else 0) -
+                                                                        (↑r ^ 6 * z ^ 3 *
+                                                                                (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                              ![↑r * I *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        816 +
+                                                                                      ↑r ^ 2 *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        168 +
+                                                                                    -((720 - ↑r * I * 240 -
+                                                                                            ↑r ^ 2 * 24)⁻¹ *
+                                                                                        576),
+                                                                                  -(↑r * I *
+                                                                                            (720 - ↑r * I * 240 -
+                                                                                                ↑r ^ 2 * 24)⁻¹ *
+                                                                                          528) +
+                                                                                      ↑r ^ 2 *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        24 +
+                                                                                    (720 - ↑r * I * 240 -
+                                                                                          ↑r ^ 2 * 24)⁻¹ *
+                                                                                      2880,
+                                                                                  -(↑r * I *
+                                                                                            (720 - ↑r * I * 240 -
+                                                                                                ↑r ^ 2 * 24)⁻¹ *
+                                                                                          528) -
+                                                                                      ↑r ^ 2 *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        168 +
+                                                                                    -((720 - ↑r * I * 240 -
+                                                                                            ↑r ^ 2 * 24)⁻¹ *
+                                                                                        720),
+                                                                                  -(↑r ^ 2 *
+                                                                                          (720 - ↑r * I * 240 -
+                                                                                              ↑r ^ 2 * 24)⁻¹ *
+                                                                                        48) +
+                                                                                    -((720 - ↑r * I * 240 -
+                                                                                            ↑r ^ 2 * 24)⁻¹ *
+                                                                                        864)]
+                                                                                (Fin.succAbove 2 2) *
+                                                                            if
+                                                                                3 =
+                                                                                  Fin.succAbove 2
+                                                                                    (Fin.succAbove 2 1) then
+                                                                              1
+                                                                            else 0) *
+                                                                          331776 +
+                                                                      (↑r ^ 6 * z ^ 3 *
+                                                                              ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^
+                                                                                  2)⁻¹ *
+                                                                            ![1, 0, 0, 0] (Fin.succAbove 2 1) *
+                                                                          if 3 = Fin.succAbove 2 2 then 1 else 0) *
+                                                                        3344302080 -
+                                                                    if 3 = Fin.succAbove 2 1 then
+                                                                      ↑r ^ 6 * z ^ 3 *
+                                                                            ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                                          ![1, 0, 0, 0] (Fin.succAbove 2 2) *
+                                                                        3344302080
+                                                                    else 0) +
+                                                                  ↑r ^ 6 * z ^ 4 *
+                                                                        (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                      ![0, 0, 0] (Fin.succAbove 2 1) *
+                                                                    691200 -
+                                                                ↑r ^ 6 * z ^ 4 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                    ![0, 1, 0, 0] (Fin.succAbove 1 2) *
+                                                                  677376 -
+                                                              ↑r ^ 6 * z ^ 4 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                    ![0, 1, 0, 0] (Fin.succAbove 2 2) *
+                                                                  ![↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            816 +
+                                                                          ↑r ^ 2 *
+                                                                              (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            168 +
+                                                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 576),
+                                                                      -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                              528) +
+                                                                          ↑r ^ 2 *
+                                                                              (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            24 +
+                                                                        (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 2880,
+                                                                      -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                              528) -
+                                                                          ↑r ^ 2 *
+                                                                              (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            168 +
+                                                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 720),
+                                                                      -(↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            48) +
+                                                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 864)]
+                                                                    (Fin.succAbove 2 1) *
+                                                                331776 +
+                                                            ↑r ^ 6 * z ^ 4 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                  ![↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            816 +
+                                                                          ↑r ^ 2 *
+                                                                              (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            168 +
+                                                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 576),
+                                                                      -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                              528) +
+                                                                          ↑r ^ 2 *
+                                                                              (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            24 +
+                                                                        (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 2880,
+                                                                      -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                              528) -
+                                                                          ↑r ^ 2 *
+                                                                              (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            168 +
+                                                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 720),
+                                                                      -(↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                                                            48) +
+                                                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 864)]
+                                                                    (Fin.succAbove 2 2) *
+                                                                ![0, 1, 0, 0] (Fin.succAbove 2 (Fin.succAbove 2 1)) *
+                                                              331776 -
+                                                          ↑r ^ 6 * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                                ![1, 0, 0, 0] (Fin.succAbove 2 1) *
+                                                              ![0, 1, 0, 0] (Fin.succAbove 2 2) *
+                                                            3344302080 +
+                                                        ↑r ^ 6 * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                              ![1, 0, 0, 0] (Fin.succAbove 2 2) *
+                                                            ![0, 1, 0, 0] (Fin.succAbove 2 1) *
+                                                          3344302080 -
+                                                      ↑r ^ 6 * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                          ![0, 1, 0, 0] (Fin.succAbove 3 (Fin.succAbove 2 1)) *
+                                                        975421440 -
+                                                    (↑r ^ 7 * I * z ^ 3 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                          ![1, 0, 0, 0] (Fin.succAbove 2 1) *
+                                                        if 3 = Fin.succAbove 2 2 then 1 else 0) *
+                                                      1385496576 +
+                                                  if 3 = Fin.succAbove 2 1 then
+                                                    ↑r ^ 7 * I * z ^ 3 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                        ![1, 0, 0, 0] (Fin.succAbove 2 2) *
+                                                      1385496576
+                                                  else 0) +
+                                                ↑r ^ 7 * I * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                      ![1, 0, 0, 0] (Fin.succAbove 2 1) *
+                                                    ![0, 1, 0, 0] (Fin.succAbove 2 2) *
+                                                  1385496576 -
+                                              ↑r ^ 7 * I * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                    ![1, 0, 0, 0] (Fin.succAbove 2 2) *
+                                                  ![0, 1, 0, 0] (Fin.succAbove 2 1) *
+                                                1385496576 +
+                                            ↑r ^ 7 * I * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                ![0, 1, 0, 0] (Fin.succAbove 3 (Fin.succAbove 2 1)) *
+                                              325140480 -
+                                          (↑r ^ 8 * z ^ 3 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                                ![1, 0, 0, 0] (Fin.succAbove 2 1) *
+                                              if 3 = Fin.succAbove 2 2 then 1 else 0) *
+                                            55738368 +
+                                        if 3 = Fin.succAbove 2 1 then
+                                          ↑r ^ 8 * z ^ 3 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                              ![1, 0, 0, 0] (Fin.succAbove 2 2) *
+                                            55738368
+                                        else 0) +
+                                      ↑r ^ 8 * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                            ![1, 0, 0, 0] (Fin.succAbove 2 1) *
+                                          ![0, 1, 0, 0] (Fin.succAbove 2 2) *
+                                        55738368 -
+                                    ↑r ^ 8 * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                          ![1, 0, 0, 0] (Fin.succAbove 2 2) *
+                                        ![0, 1, 0, 0] (Fin.succAbove 2 1) *
+                                      55738368 +
+                                  ↑r ^ 8 * z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ *
+                                      ![0, 1, 0, 0] (Fin.succAbove 3 (Fin.succAbove 2 1)) *
+                                    16257024 +
+                                -(z * 4147200) +
+                              (z ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ *
+                                  if 2 = (Fin.succAbove 2 1).succ then 1 else 0) *
+                                447897600 +
+                            -(z ^ 3 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * ![0, 0, 0] (Fin.succAbove 2 1) *
+                                447897600) +
+                          -((z ^ 3 *
+                                  ![↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 816 +
+                                          ↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 168 +
+                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 576),
+                                      -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 528) +
+                                          ↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 24 +
+                                        (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 2880,
+                                      -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 528) -
+                                          ↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 168 +
+                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 720),
+                                      -(↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 48) +
+                                        -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 864)]
+                                    (Fin.succAbove 1 2) *
+                                if 3 = Fin.succAbove 1 (Fin.succAbove 2 1) then 1 else 0) *
+                              2073600) +
+                        z ^ 4 *
+                              ![↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 816 +
+                                      ↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 168 +
+                                    -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 576),
+                                  -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 528) +
+                                      ↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 24 +
+                                    (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 2880,
+                                  -(↑r * I * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 528) -
+                                      ↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 168 +
+                                    -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 720),
+                                  -(↑r ^ 2 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 48) +
+                                    -((720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 864)]
+                                (Fin.succAbove 1 2) *
+                            ![0, 1, 0, 0] (Fin.succAbove 1 (Fin.succAbove 2 1)) *
+                          2073600 +
+                      z ^ 2 * 8294400 -
+                    (z ^ 2 * if 3 = Fin.succAbove 1 2 then 1 else 0) * 1658880 +
+                  z ^ 3 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 298598400 -
+                (z ^ 3 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * if 2 = (Fin.succAbove 2 1).succ then 1 else 0) *
+                  1791590400 -
+              if 3 = Fin.succAbove 1 2 then z ^ 3 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * 1492992000 else 0) +
+            z ^ 3 * ![0, 1, 0, 0] (Fin.succAbove 1 2) * 1658880 +
+          z ^ 4 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * ![0, 0, 0] (Fin.succAbove 2 1) * 1791590400 +
+        z ^ 4 * (720 - ↑r * I * 240 - ↑r ^ 2 * 24)⁻¹ * ![0, 1, 0, 0] (Fin.succAbove 1 2) * 1492992000 +
+      z ^ 4 * ((720 - ↑r * I * 240 - ↑r ^ 2 * 24) ^ 2)⁻¹ * ![0, 1, 0, 0] (Fin.succAbove 3 (Fin.succAbove 2 1)) *
+        268738560000 =
+    518400 - ↑r * I * 345600 + ↑r * I * z * 2764800 - ↑r * I * z ^ 2 * 2419200 - ↑r ^ 2 * 34560 + -(↑r ^ 2 * 57600) +
+                                            ↑r ^ 2 * z * 460800 +
+                                          -(↑r ^ 2 * z ^ 3 * 460800) +
+                                        ↑r ^ 2 * z ^ 4 * 57600 +
+                                      ↑r ^ 2 * z * 552960 -
+                                    ↑r ^ 2 * z ^ 2 * 1036800 +
+                                  ↑r ^ 2 * z ^ 3 * 552960 -
+                                ↑r ^ 2 * z ^ 4 * 34560 +
+                              ↑r ^ 3 * I * 11520 -
+                            ↑r ^ 3 * I * z * 184320 +
+                          ↑r ^ 3 * I * z ^ 2 * 264960 -
+                        ↑r ^ 3 * I * z ^ 3 * 92160 +
+                      ↑r ^ 4 * 576 -
+                    ↑r ^ 4 * z * 13824 +
+                  ↑r ^ 4 * z ^ 2 * 26496 -
+                ↑r ^ 4 * z ^ 3 * 13824 +
+              ↑r ^ 4 * z ^ 4 * 576 -
+            z * 4147200 +
+          z ^ 2 * 7257600 -
+        z ^ 3 * 4147200 +
+      z ^ 4 * 518400
+warning: NLA/MF22/Transfer.lean:42:49: This simp argument is unused:
+  Matrix.det_fin_three
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [transfer, Matrix.det_succ_row_zero, Fin.sum_univ_succ, Matrix.sub_apply, Matrix.one_apply,
+    Matrix.smul_apply, smul_eq_mul, Matrix.submatrix_apply, Matrix.of_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.Transfer
+error: build failed

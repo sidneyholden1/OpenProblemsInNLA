@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_1, independent nonauthor AI agent",
+  "command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee1FinalConsumer.lean",
+  "exit_code": 0,
+  "exports": [
+    "NLA.MF22.uniform_norm_bound",
+    "NLA.MF22.eventual_inverse_entry_bound",
+    "NLA.MF22.linear_condition_bound",
+    "NLA.MF22.original_target"
+  ],
+  "checks": "Four literal approved signatures consumed, four LeanCert kernel assertions, actual four axiom closures printed, actual L2 forward/inverse norm equalities by rfl, singular condition equals infinity.",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "consumer_sha256": "e6f08dd839b9a4629e5fc4ed0e0cbd0c0ecfa97bf1553f84902cbd4230fffcbe",
+  "log_sha256": "b88fa5ffec85960f83b36d7823a761b2ade5315edb3d7d0de7ca632525a6a0ea"
+}

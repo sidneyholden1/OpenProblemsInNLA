@@ -1,0 +1,134 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'MF-22: eventual linear spectral conditioning of the exact spline Toeplitz family'
+  description: Full positive-real-parameter eventual nonsingularity and spectral 2 condition bound, including
+    the exceptional parameter and all sufficiently large sizes.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: MF-22 — Polynomial conditioning of the cubic C1 spline Schrödinger Toeplitz family
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/45c59bce549bbd90aef325901a9ebeefc270a1c0/matrix-functions-and-stability/MF-22/README.md
+  type: web-post
+  location: Complete canonical original statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'MF-22: An eventual linear condition-number bound'
+  authors:
+  - George Stepaniants
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/45c59bce549bbd90aef325901a9ebeefc270a1c0/matrix-functions-and-stability/MF-22/solution.md
+  type: manuscript
+  location: Theorem in Section 1 and complete Sections 2–4
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: George Stepaniants, Caltech. Substantial ChatGPT/Codex assistance and automated-agent review disclosed
+    in the source. Bogoya, Böttcher, Ferrari, Grudsky and Serra-Capizzano retain original family/question
+    credit.
+related_formalizations:
+- id: https://github.com/sidneyholden1/OpenProblemsInNLA/tree/45c59bce549bbd90aef325901a9ebeefc270a1c0/matrix-functions-and-stability/MF-12/lean
+  relationship: other
+  note: Pinned project layout and actual L2 matrix norm usage studied; no cross-project mathematical theorem
+    imported.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared Comparator reproduction workflow; credit retained in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, exact pinned Mathlib/LeanCert HTTPS dependencies, separate trusted Challenge
+      and complete Solution; actual exported proof closures checked in kernel mode.
+    prompting_notes: Full all-parameter statements first and two independent nonauthor approvals before
+      proof. Derive exact finite transfer, all-parameter root classification and actual inverse Green
+      bound. Exact symbolic algebra and kernel trust audits; avoid unnecessary interval grids.
+  notes: AI-assisted formalization requested by Sidney Holden. No measured monetary cost, external human
+    review or source-author endorsement claimed.
+status:
+  scope: Complete original polynomial-conditioning target and stronger eventual linear spectral bound
+    for every fixed real rho>0, including rho²=10, on the exact uncorrected complex Toeplitz family. Eventual
+    nonsingularity, uniformly bounded actual inverse entries and genuine induced Euclidean norms are proved.
+    All four exports accepted by actual isolated Linux Comparator/default-kernel with rejection and isolation
+    controls.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.MF22.uniform_norm_bound
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF22.eventual_inverse_entry_bound
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF22.linear_condition_bound
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF22.original_target
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+fidelity:
+  divergences: No target weakening. Fin n × Fin 2 indexes the exact 2n coordinates (j,a) ↔ 2j+a. Both
+    matrix norms are genuine induced Euclidean norms; inverse is the actual matrix inverse. The extended
+    condition number is infinity for singular matrices. All rho>0, including rho=sqrt(10), and all sufficiently
+    large integer n are retained. Constants may depend on rho but not n; no uniform-in-rho or small-size
+    assertion. The source linear bound strengthens the original unspecified polynomial exponent. Root/spectral/transfer
+    assertions are obligations, not public assumptions.
+review:
+  status: Two independent nonauthor final reviews passed; Linux acceptance complete
+  reviewers:
+  - OpenAI Codex agent /root
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  notes: 'Two independent hash-bound statement approvals preceded proof. Independent nonauthor final reports:
+    final-referee-root.md, final-referee-1.md. Immutable proof 5596784dc81e22ed625650bca71d4a1435896cef;
+    actual Linux run 35707732163, attempt 1, original artifact/API/input-hash audit and actual default-kernel/rejection/isolation
+    controls passed. Authors /root/iv06_statement_referee_2 and /root/new_target_screen are not counted
+    as independent mathematical referees. Statement and proof-review metadata snapshots retained. No external
+    human review or source-author endorsement claimed.'
+alignment:
+- source: Dimension-independent spectral norm of the exact Toeplitz matrices
+  declarations:
+  - NLA.MF22.uniform_norm_bound
+- source: Eventual nonsingularity and actual inverse entry bound
+  declarations:
+  - NLA.MF22.eventual_inverse_entry_bound
+- source: Stronger source linear spectral condition bound
+  declarations:
+  - NLA.MF22.linear_condition_bound
+- source: Original extended condition-number polynomial-growth question
+  declarations:
+  - NLA.MF22.original_target
+acknowledgements: 'Mathematics: George Stepaniants, Caltech, with source-disclosed AI assistance. Original
+  family/question: Bogoya, Böttcher, Ferrari, Grudsky and Serra-Capizzano. Formalization: Sidney Holden
+  with OpenAI Codex assistance. Mathlib, LeanCert, Comparator and formalization.yaml licenses and credit
+  retained; no novelty, external human review or author endorsement claimed.'

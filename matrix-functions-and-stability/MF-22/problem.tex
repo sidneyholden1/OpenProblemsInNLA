@@ -34,7 +34,7 @@ family},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}MF-22}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-22}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,7 +51,7 @@ conditioning of the cubic C1 spline Schrödinger Toeplitz family\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} hard\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -63,6 +63,39 @@ available symbol criteria leave the relevant regime undecided; its
 immediate importance is to specialists in structured discretization
 stability.
 
+\subsection{Lean verification --- 22 September
+2026}\label{lean-verification-22-september-2026}
+
+For every fixed real \(\rho>0\), the exact uncorrected complex
+\(2n\times2n\) Toeplitz family is nonsingular for all sufficiently large
+integer sizes and satisfies \(\kappa_2(H_n)\le K_\rho n\). Constants and
+the size threshold may depend on the parameter, but not on the size. The
+exceptional parameter \(\rho^2=10\) is included. Norms are the genuine
+induced Euclidean operator norms, and the inverse is the actual matrix
+inverse; singular matrices have infinite extended condition number. This
+proves the complete original polynomial-growth target with exponent one.
+The proof also establishes a dimension-independent forward norm bound
+and eventual uniform bounds on every inverse entry.
+
+All four exports passed LeanCert kernel audits, two independent
+nonauthor final reviews and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35707732163}{actual
+isolated Linux Comparator/default-kernel verification}, including
+rejection and sandbox controls.
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/matrix-functions-and-stability/MF-22/lean/README.md}{Proof
+and reviews} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/5596784dc81e22ed625650bca71d4a1435896cef/matrix-functions-and-stability/MF-22/lean}{Immutable
+proof revision} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/MF-22/README.md}{Retained
+evidence}.
+
+Mathematics: George Stepaniants, Caltech, with source-disclosed AI
+assistance. Bogoya, Böttcher, Ferrari, Grudsky and Serra-Capizzano
+retain original family/question credit. Formalization: Sidney Holden
+with OpenAI Codex assistance. No novelty, source-author endorsement or
+external human peer review is claimed. The complete original statement,
+earlier resolution and source record remain below unchanged.
+
 \pagestyle{plain}
 
 \subsection{Resolution: affirmative, 11 September
@@ -72,9 +105,7 @@ stability.
 Sciences, California Institute of Technology}, proves that for every
 fixed \(\rho>0\) there are \(K_\rho>0\) and \(n_\rho\) such that
 
-\[
-\kappa_2(H_n(\rho))\le K_\rho n\qquad(n\ge n_\rho).
-\]
+\[\kappa_2(H_n(\rho))\le K_\rho n\qquad(n\ge n_\rho).\]
 
 Thus the original question is answered affirmatively with exponent
 \(\alpha_\rho=1\). The result includes eventual invertibility, the
@@ -108,8 +139,7 @@ family, the root classification and the question.
 
 Define real \(2\times2\) matrices by
 
-\[
-\begin{aligned}
+\[\begin{aligned}
 B_{-1}&=\frac3{40}\begin{pmatrix}-1&0\\-5&0\end{pmatrix},&
 B_0&=\frac3{40}\begin{pmatrix}0&-5\\16&-5\end{pmatrix},\\
 B_1&=\frac3{40}\begin{pmatrix}-5&16\\-5&0\end{pmatrix},&
@@ -118,17 +148,14 @@ C_{-1}&=\frac1{80}\begin{pmatrix}1&0\\7&0\end{pmatrix},&
 C_0&=\frac1{80}\begin{pmatrix}24&7\\0&25\end{pmatrix},\\
 C_1&=\frac1{80}\begin{pmatrix}-25&0\\-7&-24\end{pmatrix},&
 C_2&=\frac1{80}\begin{pmatrix}0&-7\\0&-1\end{pmatrix}.
-\end{aligned}
-\]
+\end{aligned}\]
 
 Set \(B_k=C_k=0\) for all other integer indices. For a real parameter
 \(\rho>0\) and \(n\ge1\), form the \(2n\times2n\) complex block Toeplitz
 matrix
 
-\[
-H_n(\rho)=\bigl(iB_{j-k}-\rho C_{j-k}\bigr)_{j,k=0}^{n-1},
-\qquad i^2=-1.
-\]
+\[H_n(\rho)=\bigl(iB_{j-k}-\rho C_{j-k}\bigr)_{j,k=0}^{n-1},
+\qquad i^2=-1.\]
 
 Use the spectral condition number \(\kappa_2(H)=\|H\|_2\|H^{-1}\|_2\)
 for nonsingular \(H\) and \(\kappa_2(H)=+\infty\) for singular \(H\).
@@ -138,10 +165,8 @@ polynomial-growth question).} For every fixed \(\rho>0\), do there exist
 constants \(K_\rho>0\), \(\alpha_\rho\ge0\), and \(n_\rho\in\mathbb N\),
 independent of \(n\), such that
 
-\[
-\kappa_2(H_n(\rho))\le K_\rho n^{\alpha_\rho}
-\qquad\text{for every }n\ge n_\rho?
-\]
+\[\kappa_2(H_n(\rho))\le K_\rho n^{\alpha_\rho}
+\qquad\text{for every }n\ge n_\rho?\]
 
 The parameter remains fixed as \(n\to\infty\); no uniform-in-\(\rho\)
 bound or particular exponent is asserted. Eventual invertibility is part

@@ -1,0 +1,46 @@
+✔ [3098/3099] Built NLA.MF22.NormBounds (12s)
+✖ [3099/3099] Building NLA.MF22.UniformNorm (5.2s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/UniformNorm.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/UniformNorm.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/UniformNorm.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/UniformNorm.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/UniformNorm.setup.json --json
+error: NLA/MF22/UniformNorm.lean:34:13: don't know how to synthesize implicit argument `f`
+  @Finset.single_le_sum (Fin 2) ℝ Real.instAddCommMonoid Real.instPreorder
+    (fun a => ∑ i ∈ ?m.128 a, ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) a i‖) Finset.univ IsOrderedAddMonoid.toAddLeftMono
+    (fun a x => Finset.sum_nonneg fun b x => norm_nonneg (blockEntry ρ (↑↑j.1 - ↑↑k.1) a b)) j.2 (Finset.mem_univ j.2)
+context:
+ρ : ℝ
+n : ℕ
+j k : Ix n
+hz : ¬H ρ n j k = 0
+hm : ↑↑j.1 - ↑↑k.1 ∈ Finset.Icc (-1) 2
+h1 : ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) j.2 k.2‖ ≤ ∑ x, ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) j.2 x‖
+⊢ Fin 2 → ℝ
+error: NLA/MF22/UniformNorm.lean:35:4: don't know how to synthesize implicit argument `s`
+  @Finset.sum_nonneg (Fin 2) ℝ Real.instAddCommMonoid Real.instPreorder (fun b => ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) a b‖)
+    (?m.128 a) IsOrderedAddMonoid.toAddLeftMono fun b x => norm_nonneg (blockEntry ρ (↑↑j.1 - ↑↑k.1) a b)
+context:
+ρ : ℝ
+n : ℕ
+j k : Ix n
+hz : ¬H ρ n j k = 0
+hm : ↑↑j.1 - ↑↑k.1 ∈ Finset.Icc (-1) 2
+h1 : ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) j.2 k.2‖ ≤ ∑ x, ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) j.2 x‖
+a : Fin 2
+x✝ : a ∈ Finset.univ
+⊢ Finset (Fin 2)
+error: NLA/MF22/UniformNorm.lean:35:28: Failed to infer binder type
+error: NLA/MF22/UniformNorm.lean:34:7: failed to infer `have` declaration type
+error: NLA/MF22/UniformNorm.lean:28:40: unsolved goals
+case neg
+ρ : ℝ
+n : ℕ
+j k : Ix n
+hz : ¬H ρ n j k = 0
+hm : ↑↑j.1 - ↑↑k.1 ∈ Finset.Icc (-1) 2
+h1 : ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) j.2 k.2‖ ≤ ∑ x, ‖blockEntry ρ (↑↑j.1 - ↑↑k.1) j.2 x‖
+⊢ ‖H ρ n j k‖ ≤ coefficientBound ρ
+error: NLA/MF22/UniformNorm.lean:84:21: #assert_trust: 'NLA.MF22.uniform_norm_bound_proved' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.UniformNorm
+error: build failed

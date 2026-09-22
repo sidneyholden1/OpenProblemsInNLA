@@ -1,0 +1,62 @@
+⚠ [3104/3109] Replayed NLA.MF22.SpectralBasis
+warning: NLA/MF22/SpectralBasis.lean:46:51: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mulVec_sum, Matrix.mulVec_smul, hp, Finset.sum_apply, Pi.smul_apply, smul_eq_mul,
+    Matrix.mulVec_single] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3105/3109] Replayed NLA.MF22.SpectralAdjugate
+warning: NLA/MF22/SpectralAdjugate.lean:57:33: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.one_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/SpectralAdjugate.lean:57:55: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3106/3109] Replayed NLA.MF22.Decomposition
+warning: NLA/MF22/Decomposition.lean:24:15: This simp argument is unused:
+  Matrix.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Decomposition.lean:24:32: This simp argument is unused:
+  Matrix.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply, smul_eq_mul, R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Decomposition.lean:24:50: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply, Matrix.smul_apply, R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3107/3109] Replayed NLA.MF22.GrowthDenominator
+warning: NLA/MF22/GrowthDenominator.lean:10:13: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3109/3109] Built NLA.MF22.BoundaryGreen (18s)
+warning: NLA/MF22/BoundaryGreen.lean:49:19: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [greenEntry, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3109 jobs).

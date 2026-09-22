@@ -1,0 +1,60 @@
+{
+  "verdict": "APPROVE",
+  "phase": "statement review before mathematical proof implementation",
+  "reviewer": "OpenAI Codex /root, AI agent and nonauthor of MF22 statement/proof",
+  "date_utc": "2026-09-22T08:16:21.045479+00:00",
+  "snapshot_sha256": "4cea46439c2562c3ffa1387e88ba2e0f03f0cd8b6a467ef2ee3ea917b94ff975",
+  "all23_frozen_inputs_recomputed": true,
+  "frozen_inputs": {
+    "NLA/MF22/Definitions.lean": "98133016660b6feba3877f0765a7d9cab04aebe6d97bc3bf4c2dcb413302fe7a",
+    "Challenge.lean": "3a244f409ad58bc4bb6ccfa23b2cf4a6d2eb2acc9680b16b82aacc91e079f4dd",
+    "NUMERICAL_TARGETS.md": "d5a9a7ab670ff5840f5f9072a29674baed1f0bc5179422c5daccae9b4ef85c91",
+    "README.md": "2c904e3f141aeb32c33e5b41d1ce7e52e9c52ba638db4231a437fb9e8081da6d",
+    "formalization.yaml": "f2860f0f81e1e208b66c33d4a343435fea62fc23899d9010736e8d07c8595e74",
+    "comparator.json": "31e8f527df59cae0fb7a4a59db55a64f63a743ec47460616ec2035fe498ff182",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "fb18e7627e77ce25f39f8338156645cfc227ec7d2741a8e576c789162e3cf297",
+    "lake-manifest.json": "4c7c3442ac169d85bec540343b63bc31425f9aa750757608102d2d6fc8e536f3",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "../README.md": "1e47aed8795445d4b2fd7736d4ec0420dee5460f1fd12de37097f58d3d752eda",
+    "../solution.md": "a274a6401b27037bb5034cbffe87f02204fdcb663c40a9a7adfe033a19283edb",
+    "../solution.tex": "1456bf2df421bb039f33bf32a6f7670975e724a89dd3e885dc946ffe024dd5b7",
+    "../../../references/stepaniants-mf22-2026-09-11/verification/MF-22-independent-review.md": "256c61373b594db549bf5aef4c62a0f996b3d812d4b797cb47a7a8122e5fd1d8",
+    "verification/statement-build-final.log": "0f757960675277c1750bd526e10f21cd7e0acecc2ff952326f4e6131fed2d009",
+    "verification/statement-local.json": "d4b983dfe27eb7fc3226f6f648fab3d0bec1106a44768fedf8f6f84b26ab1c36",
+    "verification/DefinitionsProbe.lean": "88111453d492b28d4723b9cebd3ecd1335f882e36b26c6df8dde612c1a299b66",
+    "verification/definitions-probe.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/check_draft_metadata.py": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4",
+    "verification/metadata-draft.log": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8",
+    "verification/source_exact_check.py": "d3fb077f0562a75efc7aeab8c974fe64f2739b08bf52cbee93dbd5bfb21946a6",
+    "verification/source-exact-check.json": "6241d238f0535d7279f6415212b761b3fd3cbf7267ba846c5f9d03d4badb0553",
+    "verification/source-exact-check.log": "1d15868e91eb8338150c2e8b179a64d566b542b3da4e2a4c88060bda0fdb8285"
+  },
+  "independent_consumer_exit_code": 0,
+  "consumer_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/RootStatementConsumer.lean",
+  "consumer_and_diagnostic_sha256": {
+    "verification/RootStatementConsumer.lean": "f22404a6e03ac49a5f1edfbb6212da0c9a2db40ed1a94e303e4c5d3c8bba4d1a",
+    "verification/root-statement-consumer.log": "6964eaee6a07ccd03eb3f792e6d9338e2bbcda3c5b92788d0fab0bb5f05b7bed",
+    "verification/root-statement-boundary.json": "bf9aeed76f574e3e1306c37dc2577758d7d16cd499578679fc821fd6f2a6ba3e"
+  },
+  "imported_semantics_sha256": {
+    ".lake/packages/mathlib/Mathlib/Analysis/CStarAlgebra/Matrix.lean": "79518c9e51c4d0cf4083ab69a9ac7a2817305b48db1fe6f25ae1d678e12ce223",
+    ".lake/packages/mathlib/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880"
+  },
+  "numerical_diagnostic": {
+    "exact_integer_symbolic_entries": 816,
+    "orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "scope": "transcription and finite-boundary diagnostic only"
+  },
+  "candidate_Solution_absent": true,
+  "limits": "Challenge has four intentional placeholders; approval certifies statement fidelity and type semantics, not mathematical correctness of an as-yet absent proof. Actual proof, two final nonauthor reviews, Linux Comparator/default-kernel and controls remain mandatory."
+}

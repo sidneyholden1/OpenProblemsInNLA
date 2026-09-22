@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 10685963120,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY4NTk2MzEyMA==",
+      "name": "lean-MF-22",
+      "size_in_bytes": 19699,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10685963120",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10685963120/zip",
+      "expired": false,
+      "digest": "sha256:9e34bfa8401825e47b656fa3e6293047434cc650612fa642398e9387b510dbda",
+      "created_at": "2026-09-22T09:16:29Z",
+      "updated_at": "2026-09-22T09:16:29Z",
+      "expires_at": "2026-12-21T09:10:07Z",
+      "workflow_run": {
+        "id": 35708841195,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/lean-mf22",
+        "head_sha": "fbdd37e625c6d9c60c7cc1a487f14c10e6608034"
+      }
+    }
+  ]
+}

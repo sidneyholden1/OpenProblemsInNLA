@@ -1,0 +1,21 @@
+'NLA.MF22.uniform_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF22.uniform_norm_bound : ∀ (ρ : ℝ), 0 < ρ → ∃ D, 0 < D ∧ ∀ (n : ℕ), 1 ≤ n → ‖NLA.MF22.H ρ n‖ ≤ D
+'NLA.MF22.eventual_inverse_entry_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF22.eventual_inverse_entry_bound : ∀ (ρ : ℝ),
+  0 < ρ →
+    ∃ C,
+      0 < C ∧
+        ∃ N,
+          1 ≤ N ∧
+            ∀ (n : ℕ), N ≤ n → Matrix.det (NLA.MF22.H ρ n) ≠ 0 ∧ ∀ (i j : NLA.MF22.Ix n), ‖(NLA.MF22.H ρ n)⁻¹ i j‖ ≤ C
+'NLA.MF22.linear_condition_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF22.linear_condition_bound : ∀ (ρ : ℝ),
+  0 < ρ →
+    ∃ K,
+      0 < K ∧
+        ∃ N,
+          1 ≤ N ∧ ∀ (n : ℕ), N ≤ n → Matrix.det (NLA.MF22.H ρ n) ≠ 0 ∧ ‖NLA.MF22.H ρ n‖ * ‖(NLA.MF22.H ρ n)⁻¹‖ ≤ K * ↑n
+'NLA.MF22.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF22.original_target : ∀ (ρ : ℝ),
+  0 < ρ →
+    ∃ K α, 0 < K ∧ 0 ≤ α ∧ ∃ N, 1 ≤ N ∧ ∀ (n : ℕ), N ≤ n → NLA.MF22.conditionNumber ρ n ≤ ENNReal.ofReal (K * ↑n ^ α)

@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS",
+  "phase": "pre-integration repository operations, not independent proof review or Linux verification",
+  "branch_head": "45c59bce549bbd90aef325901a9ebeefc270a1c0",
+  "tested_published_base": "3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0",
+  "counts": {
+    "permanent_ids": 217,
+    "manifest_exports": 4,
+    "harness_tests": 12,
+    "repository_tests": 77
+  },
+  "exit_codes": {
+    "ids": 0,
+    "manifest": 0,
+    "format": 0,
+    "harness": 0,
+    "repository-tests": 0
+  },
+  "sha256": {
+    "ids.log": "3a15fa8a15c67a554e7ca860180178a9fb5fa376969fc725df1c5713aa411e2d",
+    "manifest.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+    "format.log": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c",
+    "harness.log": "e96e38af6db846e169fd4a7e43a14d90b59c7a8f1f48c5dd12997043fb670e93",
+    "repository-tests.log": "5fa728318fff5632535eaaf29148f742809b2ec7db417c3e3c759717e5cf351b",
+    "branch-provenance.json": "8be4033337d1d4f1a26ac985e98f85a53c81238464ffece6afda828ca77224b1"
+  },
+  "frozen_snapshot_sha256": "16f5cf856c99687db4bab3cca8414d98b2bb62f9262cb745d810de25f9a40608",
+  "integration_plan": "Fast-forward branch from45c59bce to fetched main3212647d before proof commit. This changes no MF22 path: incoming commits add IE13 and update repository catalogs/render tool only. The untracked frozen MF22 project can remain in place; verify all45 hashes again after fast-forward and rerun repository tests because tools/render_problems.py changes. No commit, merge, catalog regeneration or push performed by this preflight."
+}
