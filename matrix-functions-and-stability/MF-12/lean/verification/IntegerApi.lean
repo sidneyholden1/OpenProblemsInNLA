@@ -1,0 +1,9 @@
+import NLA.MF12.Geometry
+#check finProdFinEquiv
+#check Matrix.reindex_apply
+#check Matrix.reindexRingEquiv
+#check Matrix.mul_kronecker_mul
+#check Matrix.kronecker_apply
+#check Nat.floor_le
+#check Nat.lt_floor_add_one
+#check Nat.cast_floor_add

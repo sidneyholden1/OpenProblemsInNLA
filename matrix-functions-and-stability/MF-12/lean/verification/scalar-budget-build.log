@@ -1,0 +1,8 @@
+⚠ [3098/3098] Built NLA.MF12.ScalarBudget (5.8s)
+warning: NLA/MF12/ScalarBudget.lean:114:47: Variable name `ha1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (3098 jobs).

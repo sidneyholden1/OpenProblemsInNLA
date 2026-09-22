@@ -1,0 +1,94 @@
+⚠ [3099/3110] Replayed NLA.MF12.Geometry
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3100/3110] Replayed NLA.MF12.Growth
+info: NLA/MF12/Growth.lean:74:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [3101/3110] Replayed NLA.MF12.ScalarBudget
+warning: NLA/MF12/ScalarBudget.lean:114:47: Variable name `ha1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3103/3110] Replayed NLA.MF12.WordBounds
+warning: NLA/MF12/WordBounds.lean:11:32: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF12/WordBounds.lean:38:57: This simp argument is unused:
+  abs_of_nonneg hl0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [seedPower, abs_of_nonneg hp0, abs_of_nonneg hqp0,
+    abs_of_nonneg (pow_nonneg (by norm_num : (0 : ℝ) ≤ 1 / 4) q)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/WordBounds.lean:39:6: This simp argument is unused:
+  abs_of_nonneg (pow_nonneg (by norm_num : (0 : ℝ) ≤ 1 / 4) q)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [seedPower, abs_of_nonneg hp0, abs_of_nonneg hqp0, abs_of_nonneg hl0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/WordBounds.lean:79:96: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF12/WordBounds.lean:79:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF12/WordBounds.lean:79:96: Unused tactic linter: `exact ht` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: NLA/MF12/WordBounds.lean:79:107: Unused tactic linter: `positivity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3104/3110] Replayed NLA.MF12.ScalarLower
+warning: NLA/MF12/ScalarLower.lean:11:32: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF12/ScalarLower.lean:52:52: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ell]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/ScalarLower.lean:85:12: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3106/3110] Replayed NLA.MF12.IntegerGeometry
+warning: NLA/MF12/IntegerGeometry.lean:25:19: This simp argument is unused:
+  Matrix.one_kronecker_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [liftTensor]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/IntegerGeometry.lean:32:109: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3107/3110] Replayed NLA.MF12.IntegerLift
+warning: NLA/MF12/IntegerLift.lean:72:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF12/IntegerLift.lean:72:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3108/3110] Built NLA.MF12.Proof (8.4s)
+✔ [3109/3110] Built Solution (5.3s)
+Build completed successfully (3110 jobs).

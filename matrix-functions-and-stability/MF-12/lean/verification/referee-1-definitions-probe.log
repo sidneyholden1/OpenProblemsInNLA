@@ -1,0 +1,51 @@
+def NLA.MF12.productNorms : {d : Nat} → (M : Set.{0} (NLA.MF12.Mat d)) → (k : Nat) → Set.{0} Real :=
+fun {d : Nat} (M : Set.{0} (NLA.MF12.Mat d)) (k : Nat) =>
+  @Set.ofPred.{0} Real fun (t : Real) =>
+    @Exists.{1} (Fin k → NLA.MF12.Mat d) fun (w : Fin k → NLA.MF12.Mat d) =>
+      And
+        (∀ (i : Fin k),
+          @Membership.mem.{0, 0} (NLA.MF12.Mat d) (Set.{0} (NLA.MF12.Mat d)) (@Set.instMembership.{0} (NLA.MF12.Mat d))
+            M (w i))
+        (@Eq.{1} Real t
+          (@Norm.norm.{0} (NLA.MF12.Mat d)
+            (@NormedRing.toNorm.{0} (NLA.MF12.Mat d)
+              (@Matrix.instL2OpNormedRing.{0, 0} Real (Fin d) Real.instRCLike (Fin.fintype d) (instDecidableEqFin d)))
+            (@NLA.MF12.wordProduct d k w)))
+def NLA.MF12.RealizesExponent : {d : Nat} → (M : Set.{0} (NLA.MF12.Mat d)) → (γ : Real) → Prop :=
+fun {d : Nat} (M : Set.{0} (NLA.MF12.Mat d)) (γ : Real) =>
+  And (@Set.Finite.{0} (NLA.MF12.Mat d) M)
+    (And (@Set.Nonempty.{0} (NLA.MF12.Mat d) M)
+      (@Exists.{1} Real fun (c : Real) =>
+        @Exists.{1} Real fun (C : Real) =>
+          And
+            (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+            (And (@LE.le.{0} Real Real.instLE c C)
+              (And
+                (∀ (k : Nat),
+                  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) k →
+                    And
+                      (@IsGreatest.{0} Real Real.instLE (@NLA.MF12.productNorms d M k)
+                        (@NLA.MF12.maximalProductNorm d M k))
+                      (And
+                        (@LE.le.{0} Real Real.instLE
+                          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c
+                            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                              (@Nat.cast.{0} Real Real.instNatCast k) γ))
+                          (@NLA.MF12.maximalProductNorm d M k))
+                        (@LE.le.{0} Real Real.instLE (@NLA.MF12.maximalProductNorm d M k)
+                          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                              (@Nat.cast.{0} Real Real.instNatCast k) γ)))))
+                (@Filter.Tendsto.{0, 0} Nat Real
+                  (fun (k : Nat) =>
+                    @HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                      (@NLA.MF12.maximalProductNorm d M k)
+                      (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                        (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                        (@Nat.cast.{0} Real Real.instNatCast k)))
+                  (@Filter.atTop.{0} Nat Nat.instPreorder)
+                  (@nhds.{0} Real
+                    (@UniformSpace.toTopologicalSpace.{0} Real
+                      (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))))))

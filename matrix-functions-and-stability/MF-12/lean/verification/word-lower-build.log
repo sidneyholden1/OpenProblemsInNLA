@@ -1,0 +1,145 @@
+⚠ [3099/3104] Replayed NLA.MF12.Geometry
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3100/3104] Replayed NLA.MF12.Growth
+info: NLA/MF12/Growth.lean:74:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [3101/3104] Replayed NLA.MF12.ScalarBudget
+warning: NLA/MF12/ScalarBudget.lean:114:47: Variable name `ha1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3103/3104] Replayed NLA.MF12.ScalarLower
+warning: NLA/MF12/ScalarLower.lean:11:32: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF12/ScalarLower.lean:52:52: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ell]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/ScalarLower.lean:85:12: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [3104/3104] Building NLA.MF12.WordLower (5.8s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/WordLower.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/WordLower.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/WordLower.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/WordLower.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/WordLower.setup.json --json
+error: NLA/MF12/WordLower.lean:21:57: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?L * (?M * ?N)
+in the target expression
+  reset * seed (fractionalParameter α) ^ q * embedV * compressed α q ^ k = embedV * compressed α q ^ (k + 1)
+
+case succ
+α : ℝ
+q k : ℕ
+ih : (reset * seed (fractionalParameter α) ^ q) ^ k * embedV = embedV * compressed α q ^ k
+⊢ reset * seed (fractionalParameter α) ^ q * embedV * compressed α q ^ k = embedV * compressed α q ^ (k + 1)
+error: NLA/MF12/WordLower.lean:35:16: unsolved goals
+case succ
+α : ℝ
+n q : ℕ
+block : List Bool := false :: List.replicate q true
+k : ℕ
+ih :
+  k * (q + 1) ≤ n →
+    let tailword := (List.replicate k block).flatten;
+    let w := List.replicate (n - k * (q + 1)) true ++ tailword;
+    binaryProduct (seed (fractionalParameter α)) reset (List.replicate k block).flatten =
+      (reset * seed (fractionalParameter α) ^ q) ^ k
+hk : (k + 1) * (q + 1) ≤ n
+tailword : List Bool := (List.replicate (k + 1) block).flatten
+w : List Bool := List.replicate (n - (k + 1) * (q + 1)) true ++ tailword
+⊢ reset * seed (fractionalParameter α) ^ q *
+      binaryProduct (seed (fractionalParameter α)) reset (List.replicate k (false :: List.replicate q true)).flatten =
+    reset * seed (fractionalParameter α) ^ q * (reset * seed (fractionalParameter α) ^ q) ^ k
+warning: NLA/MF12/WordLower.lean:36:69: This simp argument is unused:
+  ih
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.replicate_succ, List.flatten_cons, binary_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/MF12/WordLower.lean:75:47: Type mismatch
+  Real.div_rpow ?m.180 ?m.181
+has type
+  ∀ (z : ℝ), (?m.178 / ?m.179) ^ z = ?m.178 ^ z / ?m.179 ^ z
+but is expected to have type
+  (↑n / 4) ^ α = ↑n ^ α / 4 ^ α
+error: NLA/MF12/WordLower.lean:75:78: unsolved goals
+α : ℝ
+ha : 0 < α
+ha1 : α < 1
+c : ℝ := 1 / 10 / 4 ^ α
+n : ℕ
+hn : 1 ≤ n
+hn4 : 4 ≤ n
+q : ℕ := Nat.log 4 n
+k : ℕ := n / (q + 1)
+hk : k * (q + 1) ≤ n
+w : List Bool
+hw : w.length = n
+hh : (compressed α q ^ k) 0 1 ≤ 2 * ‖binaryProduct (seed (fractionalParameter α)) reset w‖
+hl : 1 / 5 * (↑n / 4) ^ α ≤ (compressed α (Nat.log 4 n) ^ (n / (Nat.log 4 n + 1))) 0 1
+h4 : 0 < 4 ^ α
+⊢ 0 ≤ ?m.179
+error: NLA/MF12/WordLower.lean:79:4: linarith failed to find a contradiction
+case pos
+α : ℝ
+ha : 0 < α
+ha1 : α < 1
+c : ℝ := 1 / 10 / 4 ^ α
+n : ℕ
+hn : 1 ≤ n
+hn4 : 4 ≤ n
+q : ℕ := Nat.log 4 n
+k : ℕ := n / (q + 1)
+hk : k * (q + 1) ≤ n
+w : List Bool
+hw : w.length = n
+hh : (compressed α q ^ k) 0 1 ≤ 2 * ‖binaryProduct (seed (fractionalParameter α)) reset w‖
+h4 : 0 < 4 ^ α
+hr : (↑n / 4) ^ α = ↑n ^ α / 4 ^ α
+hl : 1 / 5 * (↑n ^ α / 4 ^ α) ≤ (compressed α q ^ k) 0 1
+a✝ : ‖binaryProduct (seed (fractionalParameter α)) reset w‖ < 1 / 10 / 4 ^ α * ↑n ^ α
+⊢ False
+failed
+error: NLA/MF12/WordLower.lean:91:4: Tactic `apply` failed: could not unify the conclusion of `(div_le_iff₀ h4).mpr`
+  ?m.354 / 4 ^ α ≤ ?m.353
+with the goal
+  1 / 10 / 4 ^ α * ↑n ^ α ≤ 1
+
+Note: The full type of `(div_le_iff₀ h4).mpr` is
+  ?m.354 ≤ ?m.353 * 4 ^ α → ?m.354 / 4 ^ α ≤ ?m.353
+
+α : ℝ
+ha : 0 < α
+ha1 : α < 1
+c : ℝ := 1 / 10 / 4 ^ α
+n : ℕ
+hn : 1 ≤ n
+hn4 : ¬4 ≤ n
+hentry : |seedPower (fractionalParameter α) n 0 0| ≤ ‖seedPower (fractionalParameter α) n‖
+hnorm : 1 ≤ ‖seed (fractionalParameter α) ^ n‖
+hn4' : ↑n ≤ 4
+hp : ↑n ^ α ≤ 4 ^ α
+h4 : 0 < 4 ^ α
+⊢ 1 / 10 / 4 ^ α * ↑n ^ α ≤ 1
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.WordLower
+error: build failed

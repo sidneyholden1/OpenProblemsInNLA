@@ -1,0 +1,2 @@
+'NLA.MF12.compressed_product_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF12.compressed_every_length_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

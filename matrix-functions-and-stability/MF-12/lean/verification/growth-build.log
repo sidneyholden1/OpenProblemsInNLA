@@ -1,0 +1,55 @@
+⚠ [3098/3099] Replayed NLA.MF12.Geometry
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✖ [3099/3099] Building NLA.MF12.Growth (5.2s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/Growth.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Growth.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Growth.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Growth.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Growth.setup.json --json
+error: NLA/MF12/Growth.lean:29:58: unsolved goals
+case inr
+d : ℕ
+A B : Mat d
+k : ℕ
+w : Fin k → Mat d
+hw : ∀ (i : Fin k), w i ∈ {A, B}
+v : Fin k → Bool := fun i => decide (w i = A)
+i : Fin k
+h : w i = B
+⊢ B = A → A = B
+error: NLA/MF12/Growth.lean:39:4: unsolved goals
+case mpr.refine_1.false
+d : ℕ
+A B : Mat d
+k : ℕ
+w : Fin k → Bool
+i : Fin k
+⊢ (w i = false → B = A) ∨ (w i = true → A = B)
+
+case mpr.refine_1.true
+d : ℕ
+A B : Mat d
+k : ℕ
+w : Fin k → Bool
+i : Fin k
+⊢ (w i = false → B = A) ∨ (w i = true → A = B)
+error: NLA/MF12/Growth.lean:40:4: unsolved goals
+case mpr.refine_2
+d : ℕ
+A B : Mat d
+k : ℕ
+w : Fin k → Bool
+⊢ ‖(List.ofFn ((fun b => if b = true then A else B) ∘ w)).prod‖ =
+    ‖(List.ofFn fun i => if w i = true then A else B).prod‖
+error: NLA/MF12/Growth.lean:59:42: Invalid field `rpow`: The environment does not contain `Function.rpow`, so it is not possible to project the field `rpow` from an expression
+  tendsto_const_nhds
+of type
+  ?m.83 ∈ nhds a → ?m.83 ∈ map (fun x => a) ?m.82
+error: NLA/MF12/Growth.lean:55:67: unsolved goals
+a γ : ℝ
+ha : 0 < a
+hn : Tendsto (fun k => ↑k) atTop atTop
+hi : Tendsto (fun k => 1 / ↑k) atTop (nhds 0)
+⊢ Tendsto (fun k => (a * ↑k ^ γ) ^ (1 / ↑k)) atTop (nhds 1)
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.Growth
+error: build failed

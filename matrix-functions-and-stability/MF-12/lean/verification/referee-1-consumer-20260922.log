@@ -1,0 +1,4 @@
+'NLA.MF12.compressed_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF12.fractional_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF12.arbitrary_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF12.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
