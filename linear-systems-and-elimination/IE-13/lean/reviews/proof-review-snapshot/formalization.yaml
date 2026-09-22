@@ -49,11 +49,11 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: 'Complete original unequal-bandwidth complex GEPP target, strengthened to every p,q≥0: every
-    nonsingular original-order input of bandwidths at most p,q, all n≥1+max(p,q), every maximal column-pivot
-    tie, all intermediate entries, actual full rational attainment at order 2p+q+1, and genuine nonempty
-    bounded sharp supremum 1 if p=0 and h(p,p+q) otherwise. Four exports accepted by actual isolated Linux
-    Comparator/default-kernel with rejection and isolation controls.'
+  scope: Complete local kernel proof of the original unequal-bandwidth target, strengthened to all p,q≥0,
+    with arbitrary complex nonsingular inputs, all admissible dimensions and pivot ties, all intermediate
+    entries, exact rational attainment and the genuine nonempty bounded growth supremum. Both independent
+    statement approvals preceded proof; independent final reviews and actual isolated Linux Comparator
+    remain pending. Canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -105,17 +105,14 @@ fidelity:
     bounded real suprema are conclusions. No front invariant, normalization, pivot admissibility or desired
     scalar bound is assumed. Optional closed-form specializations are not separate advertised results.
 review:
-  status: Two independent nonauthor final reviews passed; Linux acceptance complete
+  status: final-review-pending
   reviewers:
   - OpenAI Codex agent /root/iv06_statement_referee_2
   - OpenAI Codex agent /root/new_target_screen
-  notes: Two hash-bound nonauthor statement approvals preceded proof. Both final exact-four-signature
-    consumers and LeanCert kernel checks pass. Immutable proof e8acacba4964ae8c103e808174cc6630d9bd00a1;
-    Linux run 35703222111, attempt 1. Authors /root and /root/iv06_statement_referee_1 are excluded as
-    independent mathematical referees. The coordinator operational auditor is a proof coauthor; that audit
-    verifies original archive/API digests, all tracked inputs and actual default-kernel/rejection/sandbox
-    controls. Original statement and final-review metadata snapshots retained. No external human review
-    or source-author endorsement claimed.
+  notes: Two independent nonauthor statement approvals were frozen before proof. Authors /root and /root/iv06_statement_referee_1
+    do not count as independent final referees. Local Solution build and all four exact exported kernel
+    trust/standard-three axiom audits passed; independent final reviews and actual isolated Linux Comparator
+    remain pending.
 alignment:
 - source: Universal complex all-dimension all-path upper bound
   declarations:

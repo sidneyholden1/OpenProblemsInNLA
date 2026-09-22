@@ -1,0 +1,49 @@
+{
+  "verdict": "PASS",
+  "run_id": 35703222111,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35703222111",
+  "head_sha": "e8acacba4964ae8c103e808174cc6630d9bd00a1",
+  "run_attempt": 1,
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-13/lean",
+      "repository_commit": "6a71953014ec41ecc78b9a4fdbf08cb7eac6aa3e",
+      "head_sha": "e8acacba4964ae8c103e808174cc6630d9bd00a1",
+      "input_count": 108,
+      "export_count": 4,
+      "theorems": [
+        "NLA.IE13.upper_bound",
+        "NLA.IE13.rational_attainment",
+        "NLA.IE13.sharp_maximum",
+        "NLA.IE13.original_target"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-13",
+        "artifact_id": 10683402352,
+        "sha256": "c94f3da9141ba59975d0fd0041fa8886461edd37a819e451b7723126a396c596",
+        "bytes": 17610
+      },
+      "result_sha256": "7a2494af6819c666d9b6879b183bb5bda88f14dc7a48454836631e61683126e2",
+      "log_sha256": {
+        "comparator.log": "c57e4ed1574ddaf2eb5ef145ce34bd687acf775d72ac1ae19072e104c9d17e44",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "80c8fafa04857bd720979e96d188677d1c3aef9605617e7dfe0e62eb5b4071bc",
+        "negative-sorry.log": "35bfb74ada8968cfbe98e7581a6cacd5196ddfa6abe5a5da21f7cb939321bced",
+        "negative-native.log": "9a0a884bf4e5a64277de30edde5ee21f1534faccae11f45cf393e28055dc1d6d",
+        "sandbox.log": "7eee20fdc08dd60db004f8002abfe0bbf8414c6bcf76b532210c026afb591493",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "4f916d6cc7df967a8077d4011832e15e903e120174d1e75b18b8fa40d6585a0f"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 4,
+  "total_inputs": 108,
+  "unique_git_blobs_hashed": 101,
+  "limits": "Operational evidence audit adapted, executed and reviewed by coordinator /root, a coauthor of IE13 proofs, from the previously used campaign collector. Separate from the two mathematical source reviews. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}

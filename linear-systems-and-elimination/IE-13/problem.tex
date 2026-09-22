@@ -34,7 +34,7 @@ bandwidths},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IE-13}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-22}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,10 +51,45 @@ growth for unequal lower and upper bandwidths\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
+\subsection{Lean verification --- 22 September
+2026}\label{lean-verification-22-september-2026}
+
+The complete original unequal-bandwidth target is formally proved,
+strengthened to every \(p,q\ge0\). The sharp growth is \(G(0,q)=1\) and
+\(G(p,q)=h_{p+q}\) for \(p>0\), where \(h_t=0\) for \(t\le0\) and
+\(h_t=1+\sum_{r=1}^p h_{t-r}\) otherwise. The universal upper bound
+covers every nonsingular complex input with bandwidths at most \(p,q\)
+in its original ordering, every \(n\ge1+\max(p,q)\), every permitted
+GEPP tie path, and every intermediate entry. An explicit rational matrix
+of order \(2p+q+1\) attains the bound along its actual full row-swap
+path, including both zero-bandwidth endpoints. The entire growth set is
+nonempty and bounded, has the stated greatest element, and has that
+genuine real supremum.
+
+All four exports passed LeanCert kernel audits, two independent
+nonauthor final reviews, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35703222111}{isolated
+Linux Comparator/default-kernel verification} with actual rejection and
+sandbox controls.
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-13/lean/README.md}{Proof
+and reviews} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/e8acacba4964ae8c103e808174cc6630d9bd00a1/linear-systems-and-elimination/IE-13/lean}{Immutable
+proof revision} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/IE-13/README.md}{Retained
+evidence}.
+
+Mathematics: Matthew J. Colbrook; Higham retains original-problem
+credit. Formalization: Sidney Holden with OpenAI Codex assistance. No
+normalization, assumed front invariant, real-only restriction,
+preliminary reordering or deterministic tie rule is substituted. No
+novelty, source-author endorsement or external human peer review is
+claimed. The complete original target and earlier source record remain
+below.
+
 \subsection{Independently reviewed resolution -
 2026-09-11}\label{independently-reviewed-resolution---2026-09-11}
 
@@ -85,32 +120,27 @@ and dated audits are preserved.
 pivot choices across arbitrary unequal bandwidths; specialist impact is
 a sharp stability classification for banded elimination.
 
+\newpage
 \subsection{Problem statement}\label{problem-statement}
 
 Work in exact arithmetic over \(\mathbb C\). For integers \(p,q\ge0\),
 define
 
-\[
-\mathcal B_n(p,q)=\{A\in\mathbb C^{n\times n}:\det A\ne0,\quad
-a_{ij}=0\text{ if }i-j>p\text{ or }j-i>q\}.
-\]
+\[\mathcal B_n(p,q)=\{A\in\mathbb C^{n\times n}:\det A\ne0,\quad
+a_{ij}=0\text{ if }i-j>p\text{ or }j-i>q\}.\]
 
 Gaussian elimination with partial pivoting (GEPP) chooses a
 largest-modulus entry in the active first column, moves its row to the
 first position, and forms the trailing Schur complement. For a permitted
 path \(\pi\), let \(S_1=A,\ldots,S_n\) be its active matrices and define
 
-\[
-\rho(A,\pi)=\frac{\max_{1\le k\le n}\|S_k\|_{\max}}{\|A\|_{\max}},
-\qquad \|M\|_{\max}=\max_{i,j}|m_{ij}|.
-\]
+\[\rho(A,\pi)=\frac{\max_{1\le k\le n}\|S_k\|_{\max}}{\|A\|_{\max}},
+\qquad \|M\|_{\max}=\max_{i,j}|m_{ij}|.\]
 
 Determine, for all \(p\ne q\), the sharp bound independent of dimension,
 
-\[
-G(p,q)=\sup_{n\ge1+\max(p,q)}\ \sup_{A\in\mathcal B_n(p,q)}\
-\sup_{\pi\text{ permitted by GEPP}}\rho(A,\pi).
-\]
+\[G(p,q)=\sup_{n\ge1+\max(p,q)}\ \sup_{A\in\mathcal B_n(p,q)}\
+\sup_{\pi\text{ permitted by GEPP}}\rho(A,\pi).\]
 
 Identify the least universal upper bound and matching examples
 approaching it. All tie choices are included. The bandwidth restrictions
@@ -124,7 +154,6 @@ known:
 This asks how unequal bandwidths affect worst-case element growth in
 banded linear solves. All unequal pairs constitute one problem.
 
-\newpage
 \subsection{References}\label{references}
 
 N. J. Higham,
