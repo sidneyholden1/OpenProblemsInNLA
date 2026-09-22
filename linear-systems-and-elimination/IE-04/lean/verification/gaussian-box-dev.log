@@ -1,0 +1,10 @@
+NLA/IE04/GaussianBox.lean:13:23: error: Application type mismatch: The argument
+  measure_Icc_lt_top
+has type
+  ?m.89 (Set.Icc ?m.91 ?m.92) < ⊤
+but is expected to have type
+  autoParam (ℙ (Set.Icc (a - r) (a + r)) ≠ ⊤) integrableOn_const._auto_1
+in the application
+  @integrableOn_const ℝ ℝ Real.measureSpace.toMeasurableSpace (Set.Icc (a - r) (a + r)) ℙ
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace NormedAddCommGroup.toENormedAddCommMonoid.toESeminormedAddMonoid
+    (1 / 32) measure_Icc_lt_top

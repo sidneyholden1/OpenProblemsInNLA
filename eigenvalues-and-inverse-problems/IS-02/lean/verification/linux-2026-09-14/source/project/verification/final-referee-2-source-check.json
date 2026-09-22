@@ -1,0 +1,89 @@
+{
+  "NLA/IS02/Definitions.lean": {
+    "sha256": "4194087b7690e047dc1eae2964f43c476b2164a4105bee5113dc7e1dfe0efd16",
+    "snapshot_matches": true,
+    "frozen_matches": true
+  },
+  "Challenge.lean": {
+    "sha256": "c80c3fe17912547c415735bbca1568360a625c323f946e4ef6bb93e6124918a3",
+    "snapshot_matches": true,
+    "frozen_matches": true
+  },
+  "NUMERICAL_TARGETS.md": {
+    "sha256": "2e0dd8ca18cc61cce5224d61e2aa11f85f6c7308e250526f5a1fa711693614cd",
+    "snapshot_matches": true,
+    "frozen_matches": true
+  },
+  "NLA/IS02/Algebra.lean": {
+    "sha256": "586d36609e870520127bb9c4aa295fa9083f31f2b60dabbe115ad0fe836e0379",
+    "snapshot_matches": true
+  },
+  "NLA/IS02/Support.lean": {
+    "sha256": "8bbfbd59a4fc234000b690516f1e670e5df41e9a8d95e6d2b8d5d3a4daaa566f",
+    "snapshot_matches": true
+  },
+  "NLA/IS02/Classification.lean": {
+    "sha256": "3bee9f0d0c2cb5d1b873c3f9faeae469f0797c60974f01fb73df7451618d8860",
+    "snapshot_matches": true
+  },
+  "NLA/IS02/Proof.lean": {
+    "sha256": "c39ce54b49ac58b00fb6bfa239bbd9085f2147a830af887a4e2750da9954e919",
+    "snapshot_matches": true
+  },
+  "Solution.lean": {
+    "sha256": "86949f0c5712d52ab026ac22bec706c6938dcebf155539d7837dda4f1bc2eb29",
+    "snapshot_matches": true
+  },
+  "comparator.json": {
+    "sha256": "64f8b6a88c039b0ff1cbd574673af132ba1e76cb1f8fb52a751368fc9ef60aef",
+    "snapshot_matches": true
+  },
+  "lakefile.toml": {
+    "sha256": "c7dab59556c63adeb79fa9814e35ec43edb004160d8d79c314a1760c66b046ca",
+    "snapshot_matches": true
+  },
+  "lake-manifest.json": {
+    "sha256": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+    "snapshot_matches": true
+  },
+  "lean-toolchain": {
+    "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "snapshot_matches": true
+  },
+  "formalization.yaml": {
+    "sha256": "50b203dabab86243d05b3a61dea16640bebfef1348e0b5a25b0e036fb6ff6fb3",
+    "snapshot_matches": true
+  },
+  "README.md": {
+    "sha256": "b912021dad087ed98775fabcd118cf7220b19ef54dcb67c2a09a98227a478cef",
+    "snapshot_matches": true
+  },
+  "verification/final-build.log": {
+    "sha256": "343c10f323bca5be5cc9b128a90d6a24616ae9d6b029dd948230c507982e1170",
+    "snapshot_matches": true
+  },
+  "verification/AxiomAudit.lean": {
+    "sha256": "83d2504c923307a3f4393ac828fb01aaf8eec35729698140ece20987984ab120",
+    "snapshot_matches": true
+  },
+  "verification/axioms.log": {
+    "sha256": "971e80367aacf039541bf88d725d1c86fc94387ad128c325ffaf9043335fbe76",
+    "snapshot_matches": true
+  },
+  "canonical/README.md": {
+    "sha256": "92f7c04c5ac0be67a7f6a4efd0d2439caaf000295fa27d259e01a22368f7ae24",
+    "base_matches": true
+  },
+  "canonical/solution.md": {
+    "sha256": "ae29570308b2a78678875c5e56076ce09e65cea732ce6b51142399a4b234577f",
+    "base_matches": true
+  },
+  "reviews/statement-review-snapshot/README.md": {
+    "sha256": "c3d896c0c4a07d56273a2bfec5785dac92aa8b94118487a57c227cfa19b0c067",
+    "statement_snapshot_matches": true
+  },
+  "reviews/statement-review-snapshot/formalization.yaml": {
+    "sha256": "2221aba42ed16680fc8cc18339fc0bf28bdba032dc278f435bbf06fb0157833c",
+    "statement_snapshot_matches": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "4bf9a7bef9a86673d2d01edd29fa9154a961d24d98e7c840d0d096651aa32846",
+    "STATEMENT-REFEREE-2.md": "d5e094d31705783661c44f97e8f5c0e8872f0aef53f88f26f62e3e042ea998b3",
+    "PROOF-REFEREE-1.md": "cc9bccf2cf86943e15a079140281d46fc06bcc34cf958eab1ee4e627fb16551f",
+    "PROOF-REFEREE-2.md": "f900d5146953feee6ee8394965183f1745b8e286f5245f617f77d740f9f0fb73",
+    "referee-1-proof-evidence.json": "80603c6e6408db454260c46a15b9db4ebd94e66a3e84b5df07ca6a45dc12139e",
+    "referee-2-proof-checks.json": "4e460186884a87d4ac2790667f3a7926da1b876acd949b57934240af5bed7ba8",
+    "ROOT-LOCAL-CHECKS.json": "d9e9f6c149ae72acb743f0ee6d015bb59259520be8ed47b0d7172f61185bc1f1",
+    "statement-gate.json": "3687604bf00dc42a2d846b758512a3202c60732b2714ef1de932adbf58069268",
+    "preflight.json": "96b7003a995ea847ea90c51ae5353fdfd59406004a2ed86ac531fe1d1a9cf4cd"
+  },
+  "exports": [
+    "NLA.RA09.frobenius_semantics",
+    "NLA.RA09.frobenius_orthogonal_invariance",
+    "NLA.RA09.orderedSpectral_exists",
+    "NLA.RA09.orderedSpectral_semantics",
+    "NLA.RA09.functionalCalculus_spectral",
+    "NLA.RA09.truncation_semantics",
+    "NLA.RA09.trace_deficit_reduction",
+    "NLA.RA09.admissible_scalar_consequences",
+    "NLA.RA09.scalar_branch_certificates",
+    "NLA.RA09.ordered_scalar_certificate",
+    "NLA.RA09.harmonic_constraint",
+    "NLA.RA09.overlap_semantics",
+    "NLA.RA09.overlap_error_expansions",
+    "NLA.RA09.zero_column_average",
+    "NLA.RA09.positive_tail_transfer",
+    "NLA.RA09.zero_tail_closure",
+    "NLA.RA09.concaveFrobeniusTransferConjecture"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "5c97ce17a14f0e84b05320131eb0af090776f582",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}

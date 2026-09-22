@@ -1,0 +1,15 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "matrix-inequalities-and-norms/MI-19/README.md",
+  "canonical_exists_at_observed_older_main": true,
+  "older_canonical_sha256": "6102736589b7b36c1dd3579cb48cfba58ec07ac708c4ce0b9c50409e6172b77b",
+  "preserved_canonical_sha256": "2482f86898a8338ab742bc252b47add72a03cb56e0843bdd7547cb7694042336",
+  "canonical_target_section_byte_identical": false,
+  "older_target": "Let $n\\ge2$, let $A=(a_{ij})\\in\\mathbb C^{n\\times n}$ be Hermitian positive semidefinite, and let $q\\in[0,1]$. Define\n$$\n\\operatorname{inv}(\\sigma)=\\#\\{(i,j):i<j,\\ \\sigma(i)>\\sigma(j)\\},\\qquad\nP_q(A)=\\sum_{\\sigma\\in S_n}q^{\\operatorname{inv}(\\sigma)}\n\\prod_{i=1}^n a_{i,\\sigma(i)},\n$$\nwith $0^0=1$. Is it true that every nonempty proper subset $S\\subset\\{1,\\ldots,n\\}$ satisfies\n$$\nP_q(A)\\ge\n\\sum_{\\substack{\\sigma\\in S_n\\\\ \\sigma(S)=S}}\nq^{\\operatorname{inv}(\\sigma)}\\prod_{i=1}^n a_{i,\\sigma(i)}?\n$$\nHere $\\sigma(S)=S$ means setwise preservation. The inversion counts on the right are taken in the full ordering $1,\\ldots,n$.",
+  "preserved_target": "Let $`n\\ge2`$, let $`A=(a_{ij})\\in\\mathbb C^{n\\times n}`$ be Hermitian positive semidefinite, and let $`q\\in[0,1]`$. Define\n\n```math\n\\mathop{\\mathrm{inv}}\\nolimits(\\sigma)=\\#\\{(i,j):i< j,\\ \\sigma(i)>\\sigma(j)\\},\\qquad\nP_q(A)=\\sum_{\\sigma\\in S_n}q^{\\mathop{\\mathrm{inv}}\\nolimits(\\sigma)}\n\\prod_{i=1}^n a_{i,\\sigma(i)},\n```\n\nwith $`0^0=1`$. Is it true that every nonempty proper subset $`S\\subset\\{1,\\ldots,n\\}`$ satisfies\n\n```math\nP_q(A)\\ge\n\\sum_{\\substack{\\sigma\\in S_n\\\\ \\sigma(S)=S}}\nq^{\\mathop{\\mathrm{inv}}\\nolimits(\\sigma)}\\prod_{i=1}^n a_{i,\\sigma(i)}?\n```\n\nHere $`\\sigma(S)=S`$ means setwise preservation. The inversion counts on the right are taken in the full ordering $`1,\\ldots,n`$.",
+  "provenance": "Preserved authored source, not current main. Original mathematical and formalization credits unchanged.",
+  "canonical_target_semantic_review": "Coordinator compared complete old and preserved target sections: identical mathematical targets, with Markdown/math-rendering and whitespace differences only.",
+  "canonical_target_mathematically_unchanged": true
+}

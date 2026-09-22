@@ -1,0 +1,41 @@
+NLA/IE04/Generic.lean:30:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/IE04/Generic.lean:46:8: error: Type mismatch: After simplification, term
+  RegularAt.sub (hi ((Equiv.swap f (π f)) i) j)
+    (RegularAt.mul
+      (RegularAt.mul (hi ((Equiv.swap f (π f)) i) f)
+        (RegularAt.inv (hi (π f) f)
+          (hp f
+            (of_eq_true (Eq.trans (lt_add_iff_pos_right._simp_1 k) (Eq.trans Order.lt_one_iff._simp_1 (eq_self 0)))))))
+      (hi (π f) j))
+ has type
+  @RegularAt (Fin n × Fin n) a fun x =>
+    states (F x) π k ((Equiv.swap f (π f)) i) j -
+      states (F x) π k ((Equiv.swap f (π f)) i) f * (states (F x) π k (π f) f)⁻¹ * states (F x) π k (π f) j
+but is expected to have type
+  @RegularAt (Fin n × Fin n) a fun x =>
+    if True ∧ True then
+      states (F x) π k ((Equiv.swap f (π f)) i) j -
+        states (F x) π k ((Equiv.swap f (π f)) i) f * (states (F x) π k (π f) f)⁻¹ * states (F x) π k (π f) j
+    else 0
+NLA/IE04/Generic.lean:45:35: warning: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [schurStep, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Generic.lean:62:17: error(lean.unknownIdentifier): Unknown identifier `k.val`
+NLA/IE04/Generic.lean:62:28: error(lean.unknownIdentifier): Unknown identifier `k`
+NLA/IE04/Generic.lean:62:41: error(lean.unknownIdentifier): Unknown identifier `k`
+NLA/IE04/Generic.lean:83:18: error(lean.unknownIdentifier): Unknown identifier `k.val`
+NLA/IE04/Generic.lean:83:26: error(lean.unknownIdentifier): Unknown identifier `i.val`
+NLA/IE04/Generic.lean:142:13: error: Application type mismatch: The argument
+  htx π (fun j => (hπ.left j).left) k i hi hik
+has type
+  |states (flatPerturb center σ x) π (↑k) i k| ≠ |states (flatPerturb center σ x) π (↑k) (π k) k|
+but is expected to have type
+  |states (flatPerturb center σ x) π (↑k) (π k) k| ≠ |states (flatPerturb center σ x) π (↑k) i k|
+in the application
+  Ne.symm (htx π (fun j => (hπ.left j).left) k i hi hik)

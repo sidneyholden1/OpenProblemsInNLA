@@ -1,0 +1,95 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "05dda9e7ac6c222910d7553694ff4b4551aaa2a6",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 3,
+  "export_count": 8,
+  "export_axioms": {
+    "NLA.IV06.eigenvalue_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.family_and_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_eigenpairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_separators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.connected_component_intervals": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.four_components": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.not_componentBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "LeanCert/LeanCert/Validity/DyadicBounds.lean": "6f1cdbc11f32e425ef5e9f4a22966d64ff0d11614ec9453ed7dde498e31a7c47",
+    "mathlib/Mathlib/Topology/Connected/Clopen.lean": "d8aefb3a1a679ee5aab60540b6e77971071c0b8a62afe09c9529a16b62010813",
+    "mathlib/Mathlib/Topology/Order/IntermediateValue.lean": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "c0432c913d45a93cf90a4c8bc321bb547a9a38cee760a8b12c9aba418e313f93",
+    "referee-2-active-inputs.json": "04c59365399bba2de444889662a6561d837d4ecc73ca0e42968cbe05103e5148",
+    "referee-2-consumer.lean": "99355e2d2df9d5dbade7bca490c7e4da77031473b3052168f33ba4e2b8d38bfb",
+    "referee-2-consumer.log": "e2426840a5fb25560d11387a31f535b70c1dec86104bcb821c36d1751885bcf0",
+    "referee-2-consumer.json": "4693e9a031eb470f1d53fd6163e1fb71b1ad8ed032765544756722fb651c08a1",
+    "solution-local.json": "3f2d09b72783ea990e39609bc0491274cf66a7ce0dc22d1594930de6454fd3f0",
+    "solution-local.log": "e2510cf654dae03c799bb9e52f46d4b2707832e1e12c367fa3c2525cb611c2ed",
+    "referee-2-numerical-checks.json": "a41b9239447db6732005db06ac82205cac6e0688aa9bb236b1a34cb2b1505458",
+    "referee2_numerics.py": "f45cc7bc6269a839d011114958c888167df489e27a8495d217e866407c021dda",
+    "referee2_statements.py": "af9930b95db91b15ab2c3cd9a984d9e116a2a2a3f78abed392a267caa151b44b",
+    "referee2_consume.py": "29db27a8b0d7babd6331ac8217151e60d662ddcc478343b5c97064c33aa2a42b",
+    "referee-2-numerical-terms.lean": "9e1d1cbced9ba79de7198b59fa6e0e7150391633abf5b128277aa8288d0ab71d",
+    "referee-2-numerical-terms.log": "0bed7736484b37d4f61c84e7c17263cd9390793081ee67d573bf2dd1d52d5df4",
+    "referee-2-numerical-terms.json": "33f72bdc70124a581b6afe6666bff058721c2a0b49b9269ff3a023b1b87963fb",
+    "referee-2-retention.lean": "d597362dc2d43a039e3e03a759beb1a3be06fd736ef535b5dda5de54024bf661",
+    "referee-2-retention.log": "e7c9cb6003ef549d187cd69627c990bd374bb9b05602d1c5f62e7f13c3d6c21e",
+    "referee-2-retention.json": "d111e56ac596af97381b9257e72aacc8d5734e4fe4a3e9bd7f447ca41bc1d7a2",
+    "referee2_terms.py": "9dbb6fa9482041e7e9dba99a4665c84189240efff7c47d0f3e2dfc81ab5a6270",
+    "referee2_retention.py": "83be6fed4ba6e43bcb36fc7273c950114c96539211d531f8b47acb33c90191ce",
+    "referee-2-retention-initial.lean": "201174e334e8b7a99d8c20ccbdd8d6c5b0cc0c8d94f3add23de6ca642cb9edb7",
+    "referee-2-retention-initial.log": "40e3b2bd67c8c7a4cb3048a50fe2badbe216d30b86d391c1f192d4032ebef41e",
+    "referee-2-retention-initial.json": "a4d4619b87688d3723dad56a454b7e488a260189758bc7db50f1a38889e3977c",
+    "referee2_proof_notes.json": "275abab14669253b7e5e804fe4ddf0f78b01b74c8f25208bedd5cdeb0f7a6c84",
+    "referee2_write_proofs.py": "dc8b4a79e3fed7be9c7523401310f41dd64bdcfbad7a6b356104fe550df32492"
+  },
+  "linux_status": "separate operational review required, not inferred from historical PASS"
+}

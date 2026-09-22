@@ -1,0 +1,496 @@
+{
+  "run": 34862184054,
+  "attempt": 1,
+  "commit": "b71728d93b1c376ee34a6fd04b4661c604704a14",
+  "artifact": 10355821669,
+  "zip_sha256": "61a344ecb712303e0fe83c7abafcc82e087f3b04d2c91c00b9622bcb112d4485",
+  "archive_entries": [
+    {
+      "path": "bootstrap/comparator-build.log",
+      "sha256": "5b2c5a5aa731968ef35bf6711b41c475da786af015c14c462837cfe9b4e50a42"
+    },
+    {
+      "path": "bootstrap/landrun-build.log",
+      "sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302"
+    },
+    {
+      "path": "bootstrap/elan.log",
+      "sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/comparator-controls.log",
+      "sha256": "1e8fabd00742deefbfd9ad4d8835c97a1c4e2c3ac2af4a8688692e3839c51a71"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/comparator.log",
+      "sha256": "844a2d45c0ae6f1db54c0ed807b96961d93e9c64ed1562e1416697725d2c1c64"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/dependencies.log",
+      "sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/kernel-controls.log",
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/mathlib-cache.log",
+      "sha256": "5b27adebd6c4d23a59f377ee8d124ca0fb17cb652afbd5274fed8468673c4704"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/negative-native.log",
+      "sha256": "72b022e6b9ef7efdfadee829591a72b39fdeb397e930d91ba2606a5327cd10ab"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/negative-sorry.log",
+      "sha256": "0422117e18eeda8d775cccae90e55116aceb01dcc9241577a99d6de8863e448c"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/result.json",
+      "sha256": "7d82a7b87f570fe909c6a0eb863b482c2351183f6997ffa6ae863ae3ee3825f4"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/sandbox.log",
+      "sha256": "b46ed4e53d4d59e249ecf8deb212e83a31ee5e7f94b58fd4de19f664044bd4a0"
+    },
+    {
+      "path": "verify-20260914T152929Z-4140/user-service.log",
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a"
+    }
+  ],
+  "inputs": [
+    {
+      "path": ".gitignore",
+      "sha256": "fde850d24186b6e99c8c0debd641fb3ab85198b109eb66f71a1fea02bd6ea1b3",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "Challenge.lean",
+      "sha256": "c80c3fe17912547c415735bbca1568360a625c323f946e4ef6bb93e6124918a3",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/IS02/Algebra.lean",
+      "sha256": "586d36609e870520127bb9c4aa295fa9083f31f2b60dabbe115ad0fe836e0379",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/IS02/Classification.lean",
+      "sha256": "3bee9f0d0c2cb5d1b873c3f9faeae469f0797c60974f01fb73df7451618d8860",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/IS02/Definitions.lean",
+      "sha256": "4194087b7690e047dc1eae2964f43c476b2164a4105bee5113dc7e1dfe0efd16",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/IS02/Proof.lean",
+      "sha256": "c39ce54b49ac58b00fb6bfa239bbd9085f2147a830af887a4e2750da9954e919",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NLA/IS02/Support.lean",
+      "sha256": "8bbfbd59a4fc234000b690516f1e670e5df41e9a8d95e6d2b8d5d3a4daaa566f",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "NUMERICAL_TARGETS.md",
+      "sha256": "2e0dd8ca18cc61cce5224d61e2aa11f85f6c7308e250526f5a1fa711693614cd",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "1419297271487a47108752d0e41e5df0890b41769b90699e183d95708b013328",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "Solution.lean",
+      "sha256": "86949f0c5712d52ab026ac22bec706c6938dcebf155539d7837dda4f1bc2eb29",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "comparator.json",
+      "sha256": "64f8b6a88c039b0ff1cbd574673af132ba1e76cb1f8fb52a751368fc9ef60aef",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "formalization.yaml",
+      "sha256": "546c97d7d33dc1f2c826ec16199b1be1082db1e6aac167d1477ca093c7b9b25d",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "c7dab59556c63adeb79fa9814e35ec43edb004160d8d79c314a1760c66b046ca",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/final-referee-1.md",
+      "sha256": "1b9581f44de8843d15c8edad465c55e95377b2818d2bb582b6f28d8cd9815213",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/final-referee-2.md",
+      "sha256": "cae95ee17d9738fbb4b1d6dbe87d93e20731bfa570ba8c479031479771b8ec21",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/proof-review-snapshot/README.md",
+      "sha256": "b912021dad087ed98775fabcd118cf7220b19ef54dcb67c2a09a98227a478cef",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/proof-review-snapshot/formalization.yaml",
+      "sha256": "50b203dabab86243d05b3a61dea16640bebfef1348e0b5a25b0e036fb6ff6fb3",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/proof-source-hashes.json",
+      "sha256": "63f3a1e84041209f372655ad1418fd628396d2e8d142356532a06dd8cb87ae21",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-referee-1.md",
+      "sha256": "ebc79615619d0f30058d191fba9a0ae715aa3bbe80804ee432fa592f06a396e1",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-referee-2.md",
+      "sha256": "721724efef9a030b9a40f887f56a83bd1938ef0377cb998f504cc88922b8eebb",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-review-snapshot/README.md",
+      "sha256": "c3d896c0c4a07d56273a2bfec5785dac92aa8b94118487a57c227cfa19b0c067",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-review-snapshot/formalization.yaml",
+      "sha256": "2221aba42ed16680fc8cc18339fc0bf28bdba032dc278f435bbf06fb0157833c",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "reviews/statement-source-hashes.json",
+      "sha256": "46ae06c437547d440f6f858acf400e1e9a7abb1004a2268e533becd526fecd54",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/AxiomAudit.lean",
+      "sha256": "83d2504c923307a3f4393ac828fb01aaf8eec35729698140ece20987984ab120",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/FinalReferee2Audit.lean",
+      "sha256": "515d3c18ed717d52a9ae9d9d1a022a8223c5d5b1ef76ecdbd0b7346ceb878695",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/Referee1FinalAudit.lean",
+      "sha256": "4b142fac8449aab7767bd75d4bbcdedb395f06da6b9521d3cf50a1ba5fa36547",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/Referee2Precheck.py",
+      "sha256": "e9a2fbc5ccbe96e567f915207961d5a2db32ba3eb700a596ce6cfd4b585c8202",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/axioms.log",
+      "sha256": "971e80367aacf039541bf88d725d1c86fc94387ad128c325ffaf9043335fbe76",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-build.log",
+      "sha256": "343c10f323bca5be5cc9b128a90d6a24616ae9d6b029dd948230c507982e1170",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-axioms-and-cuts.log",
+      "sha256": "46a3853c3d98e815454fbe25fc420297247ffbc57d9f6882431b51730f29566f",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-elaboration.log",
+      "sha256": "30537829729595d2b4a1195da0f41922e1305ed30b8fd86c74ca1f14920bcfee",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-permutations.json",
+      "sha256": "ec3924751d9367d87e01e4f3c47e8d4f9201e59d6c9ce5ce009ad04024e0f577",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/final-referee-2-source-check.json",
+      "sha256": "bd1f7061591547c7470dae2808d6c783eefeeca4d05f0f2879e59985bfcdfcda",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/numerical-precheck.json",
+      "sha256": "5a2caf9b941153850d6aa95410afe5b93e808d3fa68dacbf39d1af77844bb218",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/numerical_precheck.py",
+      "sha256": "4fcbad9ab8ff565f7f478721808e92ef21f9f6240d07d9bdb3cbc20c1ebb6cd4",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-final-axioms-and-terms.log",
+      "sha256": "6348a3aeca03f29e52360489b1fd02a286a52aa63fb9524efa183edb1bfbbc62",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-final-hashes.log",
+      "sha256": "c0b0dbf0d8da29ab44d2d1d548a539357604d6db4915e6c9c10421a38e4c8398",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-final-replay.log",
+      "sha256": "9ad6cb37b9a65d7fdf289b0aab6e5c4e12c802fa1141621b7943bbaa2d478ad9",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-statement-build.log",
+      "sha256": "0a8afda01773ace51522ea9c91e9ed6ddae22cf6fd42620b58dcabfa9e9f2256",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-1-statement-precheck.log",
+      "sha256": "8b47192646b3496c55fb3d7a6fbb8325a683faebf39132001c4c2706f47d294d",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-2-independent-precheck.json",
+      "sha256": "5e7726dc165126d68ed45fb8934a8940c703e82ada531b550ea48b41ae071ff1",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee-2-statement-elaboration.log",
+      "sha256": "0a8afda01773ace51522ea9c91e9ed6ddae22cf6fd42620b58dcabfa9e9f2256",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/referee_1_statement_check.py",
+      "sha256": "a9ec6574ccdae1ee45307b43ef6f2e145c301f0601c17d340bb6fe44f3adf28a",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    },
+    {
+      "path": "verification/statement-build.log",
+      "sha256": "aa76e688884e5dcf685c29a309217265ca707a89b7d11ef5bd96048be2e53a35",
+      "immutable_git_matches": true,
+      "retained_matches": true,
+      "current_project_matches": true
+    }
+  ],
+  "complete_tracked_project_roster": true,
+  "immutable_harness_sha256": {
+    ".github/workflows/lean-verification.yml": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c",
+    "tools/lean/source-lock.json": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "tools/lean/harness.py": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+    "tools/lean/bootstrap.sh": "4cb4d6e09ca5d186e1911e51160286fef20fb4d7f61180e07ed684a03d36de8c",
+    "tools/lean/verify.sh": "fb97ffb467b0e9acac302b2bdfc418da12b88e4ae307fb0d580c96fd6b63e997"
+  },
+  "harness_identical_to_independently_inspected_MI08_harness": true,
+  "jobs": [
+    {
+      "name": "select",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install metadata validators",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test project selection and metadata gates",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test pinned harness gates",
+          "conclusion": "success"
+        },
+        {
+          "name": "Select changed projects",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "verify (IS-02, eigenvalues-and-inverse-problems/IS-02/lean)",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate formalization manifest",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433",
+          "conclusion": "success"
+        },
+        {
+          "name": "Prepare unprivileged Linux isolation",
+          "conclusion": "success"
+        },
+        {
+          "name": "Fresh sandboxed statement, axiom and kernel verification",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain verification logs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "checker-controls",
+      "conclusion": "skipped",
+      "steps": []
+    }
+  ]
+}

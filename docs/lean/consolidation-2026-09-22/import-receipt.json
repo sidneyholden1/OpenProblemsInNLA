@@ -1,0 +1,389 @@
+[
+  {
+    "id": "PF-02",
+    "source_commit": "b4aa9e57056d0a01e5573287d96e7e1da8db090d",
+    "imported_paths": [
+      "nonnegative-and-positive-factorizations/PF-02",
+      "docs/lean/verification-2026-09-15/PF-02"
+    ],
+    "exact_project_files": 57,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "SP-04",
+    "source_commit": "97a0d55640c0d28482edce49b88e60b48bc9ade1",
+    "imported_paths": [
+      "eigenvalues-and-inverse-problems/SP-04",
+      "docs/lean/verification-2026-09-15/SP-04"
+    ],
+    "exact_project_files": 75,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IV-03",
+    "source_commit": "281f440650d174602120ca9b2b930d38f9fef205",
+    "imported_paths": [
+      "intervals-and-absolute-value-equations/IV-03",
+      "docs/lean/verification-2026-09-15/IV-03"
+    ],
+    "exact_project_files": 75,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-04",
+    "source_commit": "61b8562ba49c5fe2146885b905f94df593c8ec49",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-04",
+      "docs/lean/verification-2026-09-15/IE-04"
+    ],
+    "exact_project_files": 110,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "KE-05",
+    "source_commit": "04f3f39beb69d77dbc4a8eadee70259eb89a591a",
+    "imported_paths": [
+      "randomized-and-low-rank-approximation/KE-05",
+      "docs/lean/verification-2026-09-15/KE-05"
+    ],
+    "exact_project_files": 93,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-03",
+    "source_commit": "43571bd63844c784dc4cf2998b4d367846bfb9b9",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-03",
+      "matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14"
+    ],
+    "exact_project_files": 76,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-17",
+    "source_commit": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-17",
+      "linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14"
+    ],
+    "exact_project_files": 88,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-05",
+    "source_commit": "fc9ffa0f90e7fb59628c83674956a78bc7471584",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-05",
+      "linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14"
+    ],
+    "exact_project_files": 98,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IS-02",
+    "source_commit": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5",
+    "imported_paths": [
+      "eigenvalues-and-inverse-problems/IS-02",
+      "eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14"
+    ],
+    "exact_project_files": 121,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-08",
+    "source_commit": "40c73a09af5480166e209e670e4f9fe0aad5a546",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-08",
+      "matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14"
+    ],
+    "exact_project_files": 117,
+    "scope": "verified fixed-list partial result; adaptive comparison and general optimum excluded",
+    "status": "Partially resolved"
+  },
+  {
+    "id": "IS-03",
+    "source_commit": "c87e62f7f3e3d21fde7536ec84982b1a83bd074d",
+    "imported_paths": [
+      "eigenvalues-and-inverse-problems/IS-03",
+      "docs/lean/reverification-2026-09-14/IS-03"
+    ],
+    "exact_project_files": 820,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "KE-04",
+    "source_commit": "db954c792a45db8eddb196b3c2e283ba6ba27007",
+    "imported_paths": [
+      "eigenvalues-and-inverse-problems/KE-04",
+      "docs/lean/reverification-2026-09-14/KE-04"
+    ],
+    "exact_project_files": 4285,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "SP-06",
+    "source_commit": "ff5b3e2f6e96c51e3c46925ae87ad2c9dfb7f6d6",
+    "imported_paths": [
+      "eigenvalues-and-inverse-problems/SP-06",
+      "docs/lean/reverification-2026-09-14/SP-06"
+    ],
+    "exact_project_files": 101,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-16",
+    "source_commit": "90e88460a52fa69657f5107c2cd6f5dde7c6826c",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-16",
+      "docs/lean/reverification-2026-09-14/IE-16",
+      "references/holden-ie16-2026-09-12"
+    ],
+    "exact_project_files": 347,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "RA-08",
+    "source_commit": "bf767d73ce068cef081407f28e2530f8b16d8ebd",
+    "imported_paths": [
+      "randomized-and-low-rank-approximation/RA-08",
+      "docs/lean/reverification-2026-09-14/RA-08"
+    ],
+    "exact_project_files": 1499,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-06",
+    "source_commit": "26d38e1629f04b2ba4f3d3a60455c6d624c1e8bc",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-06",
+      "docs/lean/reverification-2026-09-14/MI-06"
+    ],
+    "exact_project_files": 198,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-07",
+    "source_commit": "5b167ea67372836f8dde9674d566ccc23916f222",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-07",
+      "docs/lean/reverification-2026-09-14/MI-07"
+    ],
+    "exact_project_files": 213,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-26",
+    "source_commit": "eee3283eb87dc85cfe961d3a136944d40c05c586",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-26",
+      "docs/lean/reverification-2026-09-14/MI-26"
+    ],
+    "exact_project_files": 367,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "NR-03",
+    "source_commit": "210aa7685875ac826b78cfada8e0d722a11bafa1",
+    "imported_paths": [
+      "nonnegative-and-positive-factorizations/NR-03",
+      "docs/lean/reverification-2026-09-14/NR-03",
+      "references/holden-nr03-2026-09-13"
+    ],
+    "exact_project_files": 172,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "RA-09",
+    "source_commit": "0b4af13839e9938dea35a6e63b3ea662b9084f30",
+    "imported_paths": [
+      "randomized-and-low-rank-approximation/RA-09",
+      "docs/lean/reverification-2026-09-14/RA-09"
+    ],
+    "exact_project_files": 1300,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "FR-12",
+    "source_commit": "82422c24435fee9ec7468030663dd88949d62723",
+    "imported_paths": [
+      "frames-and-matrix-designs/FR-12",
+      "docs/lean/reverification-2026-09-14/FR-12"
+    ],
+    "exact_project_files": 430,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MF-16",
+    "source_commit": "6170f84bd20782f07508eb1eeec1f719222e1fde",
+    "imported_paths": [
+      "matrix-functions-and-stability/MF-16",
+      "docs/lean/reverification-2026-09-14/MF-16"
+    ],
+    "exact_project_files": 863,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "TR-15",
+    "source_commit": "48a7500a2ec7821ec2abf050764274974c332a50",
+    "imported_paths": [
+      "tensor-computations/TR-15",
+      "docs/lean/reverification-2026-09-14/TR-15"
+    ],
+    "exact_project_files": 427,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-18",
+    "source_commit": "06c5f229670d2260d07cccb86203821a8318d1e8",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-18",
+      "docs/lean/reverification-2026-09-14/IE-18"
+    ],
+    "exact_project_files": 92,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-19",
+    "source_commit": "4f9bfdd171c052955de8b334f08c1ee747371de6",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-19",
+      "docs/lean/reverification-2026-09-14/IE-19"
+    ],
+    "exact_project_files": 197,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-19",
+    "source_commit": "cb03b492fec480e9ac1a0228cfb72b89104e495a",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-19",
+      "docs/lean/reverification-2026-09-14/MI-19"
+    ],
+    "exact_project_files": 147,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-21",
+    "source_commit": "5be149f92bb34e56e0d18a1f0e80664ad75c1296",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-21",
+      "docs/lean/reverification-2026-09-14/MI-21"
+    ],
+    "exact_project_files": 158,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-29",
+    "source_commit": "2f1885215346622844df91056cb6dcf9425f10d9",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-29",
+      "docs/lean/reverification-2026-09-14/MI-29"
+    ],
+    "exact_project_files": 170,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "RA-03",
+    "source_commit": "2dd167bd17bfa7c3d3515124b17521bc3c6cc416",
+    "imported_paths": [
+      "randomized-and-low-rank-approximation/RA-03",
+      "docs/lean/reverification-2026-09-14/RA-03"
+    ],
+    "exact_project_files": 132,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "RA-07",
+    "source_commit": "06028f2be9ad2a3abca4b448c370e38f224acb62",
+    "imported_paths": [
+      "randomized-and-low-rank-approximation/RA-07",
+      "docs/lean/reverification-2026-09-14/RA-07"
+    ],
+    "exact_project_files": 394,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IE-23",
+    "source_commit": "36aa473b8407b828d5429e5e9e39e70e8eb9e55f",
+    "imported_paths": [
+      "linear-systems-and-elimination/IE-23",
+      "docs/lean/reverification-2026-09-14/IE-23"
+    ],
+    "exact_project_files": 570,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-22",
+    "source_commit": "0e3646718358ed232b28a817c83ce80ce4b1ae59",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-22",
+      "docs/lean/reverification-2026-09-14/MI-22"
+    ],
+    "exact_project_files": 514,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "MI-23",
+    "source_commit": "596b09fcc078cdce90b8002cb362cd1433fabff6",
+    "imported_paths": [
+      "matrix-inequalities-and-norms/MI-23",
+      "docs/lean/reverification-2026-09-14/MI-23"
+    ],
+    "exact_project_files": 415,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "RA-20",
+    "source_commit": "8a229bdbb3d35c2b309ed3f48e7dc098902c28db",
+    "imported_paths": [
+      "randomized-and-low-rank-approximation/RA-20",
+      "docs/lean/reverification-2026-09-14/RA-20"
+    ],
+    "exact_project_files": 1841,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  },
+  {
+    "id": "IV-06",
+    "source_commit": "836287852cbb66e59a8b8395b796f810bbb40917",
+    "imported_paths": [
+      "intervals-and-absolute-value-equations/IV-06",
+      "docs/lean/reverification-2026-09-14/IV-06"
+    ],
+    "exact_project_files": 597,
+    "scope": "complete original target",
+    "status": "Lean verified"
+  }
+]

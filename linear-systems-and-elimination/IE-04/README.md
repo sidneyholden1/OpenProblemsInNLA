@@ -6,8 +6,8 @@
 
 **Difficulty:** extreme  
 **Importance:** broadly interesting  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified  
+**Last checked:** 2026-09-15  
 
 **Rating rationale:** Extreme reflects a uniform tail bound over adversarial matrix centers, beyond current average-case analysis; broad impact is justified by explaining the stability of a standard dense solver.
 
@@ -23,6 +23,16 @@
 For any proposed $`c_1,c_2>0`$, take $`\bar A=I_n`$, $`\sigma=1`$ and $`x=(3/2)^{n-1}/(2n^{c_1})`$. Sufficiently large $`n`$ give an admissible $`x\ge1`$ and violate the proposed upper bound. This covers the exact real Gaussian model and every proposed universal pair; the event has strict pivot choices and nonsingular matrices. The conclusion uses the unrestricted range of $`x`$ and does not address a different tail restricted to smaller $`x`$.
 
 [Proof PDF](solution.pdf) · [Standalone source](solution.tex) · [Independent complete-proof review](../../references/stepaniants-ie04-2026-09-11/verification/IE-04-independent-review.md) · [Submission and verification record](../../references/stepaniants-ie04-2026-09-11/README.md). AI assistance and automated-review limits are disclosed. The permanent ID, original statement, and historical ratings below are retained.
+
+## Lean verification - 15 September 2026
+
+**Formalization:** Sidney Holden, with OpenAI Codex assistance. George Stepaniants retains authorship of the mathematical argument; Spielman and Teng retain attribution for the original conjecture.
+
+The complete original universally quantified exponential-tail conjecture is formally refuted. The proof uses actual GEPP states and every legal largest-magnitude pivot schedule, their finite growth maxima, the Euclidean operator norm, and the full independent real Gaussian matrix law. The identity-centered counterexample violates every proposed positive pair of constants for sufficiently large admissible dimension and threshold. The full entrywise robustness box and its Gaussian probability lower bound are proved; no sampled-grid substitute is used. The manuscript's additional zero-centered result is not claimed here.
+
+All twelve reviewed exports passed LeanCert kernel trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926830831) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/82c0d620db7369a546071a13088ebb095368c262/linear-systems-and-elimination/IE-04/lean). Two independent statement reviews preceded proofs, and two fresh independent nonauthor final source reviews passed. Their evidence-packaging follow-up is resolved in the retained final code gate.
+
+[Proof, reviews and metadata](lean/README.md) · [Retained Linux evidence](../../docs/lean/verification-2026-09-15/IE-04/README.md). Actual rejection and sandbox controls passed. These are AI-agent reviews, not human peer review, official Tau Ceti endorsement or source-author endorsement. The permanent ID, original target and historical ratings remain unchanged.
 
 ## Context and notation
 

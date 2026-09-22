@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "two_independent_nonauthor_source_reviews": {
+    "reviews/final-referee-1.md": "1c7a45ad3647ecde81c9959e9ce1f38e612cc1a14ce24ffd36a7575d3467656b",
+    "reviews/final-referee-2.md": "cfd9926181d0b4a978f99ad0c52367a9ad965e5af7c305124c1ee6c5ab4789f7"
+  },
+  "reviewed_lean_file_count": 21,
+  "all_reviewed_proof_hashes_match": true,
+  "final_local_receipt_sha256": "21858f8518198f825c74caa793d962dbd1df3ae00962e3941bedb7d0a7366b99",
+  "all_local_source_and_log_hashes_match": true,
+  "evidence_findings_resolved": "Both reports approved mathematics but observed final receipt/export evidence before completion. Current local-proof.json exists; its actual fullbuild8811 success and export-audit2.log for all12 standard-three exports were checked and all recorded source/log hashes match. Earlier failure logs remain explicitly historical diagnostics. No mathematical change was required. Fresh Linux remains pending.",
+  "review_execution": "Two separate ephemeral read-only Codex sessions; both exited0. Original reports retained verbatim."
+}

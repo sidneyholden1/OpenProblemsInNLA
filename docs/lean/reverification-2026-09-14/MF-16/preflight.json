@@ -1,0 +1,39 @@
+[
+  {
+    "command": [
+      "/private/tmp/nla-lean-metadata314/bin/python",
+      "tools/lean/validate_manifest.py",
+      "matrix-functions-and-stability/MF-16/lean"
+    ],
+    "exit_code": 0,
+    "log": "preflight-0.log",
+    "sha256": "98289b3f6fc0122de1bc81497c891bca3632953ddba0cd52194002d9fbce2664"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/validate_problem_ids.py",
+      "--base-ref",
+      "origin/main"
+    ],
+    "exit_code": 0,
+    "log": "preflight-1.log",
+    "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_problem_ids.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "log": "preflight-2.log",
+    "sha256": "6c6b5bedada7e9b162286c3d3c1d081ea2e18755049da563a0b670e3278543e8"
+  }
+]

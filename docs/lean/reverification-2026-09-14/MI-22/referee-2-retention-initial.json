@@ -1,0 +1,15 @@
+{
+  "verdict": "FAIL",
+  "exit_code": 1,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi22/docs/lean/reverification-2026-09-14/MI-22/referee-2-retention.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi22/matrix-inequalities-and-norms/MI-22/lean",
+  "root": "NLA.MI22.not_weightedLogMajorizationConjecture",
+  "material_scalar": "NLA.MI22.numerical_separation",
+  "script_sha256": "3ab3c99c28ac51aa3728e3c547847d1e83f20265b2eaaab9390a7a2af75f0837",
+  "log_sha256": "0eff41418d91e1c6793a0d8536721c4e62735dafdfda55ce136ea7f5d6ab8e98"
+}

@@ -1,0 +1,98 @@
+⚠ [1969/2032] Replayed NLA.IE16.Definitions
+warning: NLA/IE16/Definitions.lean:32:14: Variable name `L` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _L
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3127/3136] Built NLA.IE16.Minimax (18s)
+warning: NLA/IE16/Minimax.lean:29:5: Variable name `hz` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3128/3136] Built NLA.IE16.Numeric (37s)
+warning: NLA/IE16/Numeric.lean:75:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE16/Numeric.lean:102:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE16/Numeric.lean:181:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/IE16/Numeric.lean:181:4: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: NLA/IE16/Numeric.lean:245:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/IE16/Numeric.lean:245:4: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3129/3136] Built NLA.IE16.WeightedDraft (29s)
+warning: NLA/IE16/WeightedDraft.lean:26:5: Variable name `hS` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hS
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/IE16/WeightedDraft.lean:27:5: Variable name `hweights` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hweights
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/IE16/WeightedDraft.lean:122:16: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3130/3136] Built NLA.IE16.SubsetBoundsDraft (29s)
+⚠ [3131/3136] Built NLA.IE16.WeightedBridgeDraft (31s)
+warning: NLA/IE16/WeightedBridgeDraft.lean:25:5: Variable name `hweights` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hweights
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/IE16/WeightedBridgeDraft.lean:123:16: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/IE16/WeightedBridgeDraft.lean:199:42: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/IE16/WeightedBridgeDraft.lean:199:42: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3132/3136] Built NLA.IE16.SubsetGeometryDraft (31s)
+warning: NLA/IE16/SubsetGeometryDraft.lean:26:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE16/SubsetGeometryDraft.lean:27:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3133/3136] Built NLA.IE16.FullMinimumDraft (15s)
+✔ [3134/3136] Built NLA.IE16.FinalContractsDraft (12s)
+ℹ [3135/3136] Built Solution (2.0s)
+info: Solution.lean:57:0: 'NLA.IE16.explicitL_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:59:0: 'NLA.IE16.explicitL_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:61:0: 'NLA.IE16.witness_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:63:0: 'NLA.IE16.witness_objective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:65:0: 'NLA.IE16.full_minimum_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:67:0: 'NLA.IE16.full_minimum_isLeast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:69:0: 'NLA.IE16.full_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:71:0: 'NLA.IE16.every_five_point_subset_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:73:0: 'NLA.IE16.every_five_point_subset_minimum_isLeast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:75:0: 'NLA.IE16.subset_max_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:77:0: 'NLA.IE16.subset_max_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:79:0: 'NLA.IE16.ratio_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:81:0: 'NLA.IE16.ratio_exceeds_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:83:0: 'NLA.IE16.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:85:0: 'NLA.IE16.not_IE16Conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3136 jobs).

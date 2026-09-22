@@ -1,0 +1,240 @@
+{
+  "total_count": 3,
+  "jobs": [
+    {
+      "id": 104105676606,
+      "run_id": 34882717127,
+      "workflow_name": "Lean verification",
+      "head_branch": "codex/reverify-ra07",
+      "run_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOUYMQAs8AAAAYPS6PPg",
+      "head_sha": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/jobs/104105676606",
+      "html_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127/job/104105676606",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-09-14T18:45:11Z",
+      "started_at": "2026-09-14T18:45:13Z",
+      "completed_at": "2026-09-14T18:45:29Z",
+      "name": "select",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-14T18:45:13Z",
+          "completed_at": "2026-09-14T18:45:14Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-14T18:45:14Z",
+          "completed_at": "2026-09-14T18:45:22Z"
+        },
+        {
+          "name": "Install metadata validators",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-14T18:45:22Z",
+          "completed_at": "2026-09-14T18:45:25Z"
+        },
+        {
+          "name": "Test project selection and metadata gates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-14T18:45:25Z",
+          "completed_at": "2026-09-14T18:45:26Z"
+        },
+        {
+          "name": "Test pinned harness gates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-09-14T18:45:26Z",
+          "completed_at": "2026-09-14T18:45:27Z"
+        },
+        {
+          "name": "Select changed projects",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-09-14T18:45:27Z",
+          "completed_at": "2026-09-14T18:45:27Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-09-14T18:45:27Z",
+          "completed_at": "2026-09-14T18:45:27Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-09-14T18:45:27Z",
+          "completed_at": "2026-09-14T18:45:27Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/check-runs/104105676606",
+      "labels": [
+        "ubuntu-24.04"
+      ],
+      "runner_id": 1000000365,
+      "runner_name": "GitHub Actions 1000000365",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 104105782946,
+      "run_id": 34882717127,
+      "workflow_name": "Lean verification",
+      "head_branch": "codex/reverify-ra07",
+      "run_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOUYMQAs8AAAAYPTAuog",
+      "head_sha": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/jobs/104105782946",
+      "html_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127/job/104105782946",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-09-14T18:45:29Z",
+      "started_at": "2026-09-14T18:45:32Z",
+      "completed_at": "2026-09-14T18:52:09Z",
+      "name": "verify (RA-07, randomized-and-low-rank-approximation/RA-07/lean)",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-14T18:45:33Z",
+          "completed_at": "2026-09-14T18:45:35Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-14T18:45:35Z",
+          "completed_at": "2026-09-14T18:45:46Z"
+        },
+        {
+          "name": "Validate formalization manifest",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-14T18:45:46Z",
+          "completed_at": "2026-09-14T18:45:49Z"
+        },
+        {
+          "name": "Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-14T18:45:49Z",
+          "completed_at": "2026-09-14T18:45:58Z"
+        },
+        {
+          "name": "Run leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-09-14T18:45:58Z",
+          "completed_at": "2026-09-14T18:46:11Z"
+        },
+        {
+          "name": "Prepare unprivileged Linux isolation",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-09-14T18:46:11Z",
+          "completed_at": "2026-09-14T18:46:23Z"
+        },
+        {
+          "name": "Fresh sandboxed statement, axiom and kernel verification",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-09-14T18:46:23Z",
+          "completed_at": "2026-09-14T18:52:04Z"
+        },
+        {
+          "name": "Retain verification logs",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-09-14T18:52:04Z",
+          "completed_at": "2026-09-14T18:52:05Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-09-14T18:52:05Z",
+          "completed_at": "2026-09-14T18:52:05Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-09-14T18:52:05Z",
+          "completed_at": "2026-09-14T18:52:06Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-09-14T18:52:06Z",
+          "completed_at": "2026-09-14T18:52:06Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/check-runs/104105782946",
+      "labels": [
+        "ubuntu-24.04"
+      ],
+      "runner_id": 1000000379,
+      "runner_name": "GitHub Actions 1000000379",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 104105784973,
+      "run_id": 34882717127,
+      "workflow_name": "Lean verification",
+      "head_branch": "codex/reverify-ra07",
+      "run_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOUYMQAs8AAAAYPTA2jQ",
+      "head_sha": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/jobs/104105784973",
+      "html_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127/job/104105784973",
+      "status": "completed",
+      "conclusion": "skipped",
+      "created_at": "2026-09-14T18:45:30Z",
+      "started_at": "2026-09-14T18:45:30Z",
+      "completed_at": "2026-09-14T18:45:29Z",
+      "name": "checker-controls",
+      "steps": [],
+      "check_run_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/check-runs/104105784973",
+      "labels": [
+        "ubuntu-24.04"
+      ],
+      "runner_id": null,
+      "runner_name": null,
+      "runner_group_id": null,
+      "runner_group_name": null
+    }
+  ]
+}

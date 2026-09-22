@@ -1,0 +1,6 @@
+{
+  "source": "KE-05 new AI-assisted proof by Sidney Holden with Codex agents",
+  "source_sha256": "b0e02c54bec09875e3f69b937de1543c5f79be563abfb07003ffaba2ca843e82",
+  "adaptation": "Same general proof, namespace/import adaptation only. Mathlib implementation credit retained.",
+  "status": "Source built and passed four kernel/axiom audits in KE05; IE04 adaptation build pending"
+}

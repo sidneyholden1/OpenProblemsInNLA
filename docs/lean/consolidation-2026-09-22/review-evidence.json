@@ -1,0 +1,627 @@
+{
+  "verdict": "PASS",
+  "scope": "exact published subtree consolidation; no new Lean proof execution claimed",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_1",
+  "main_base": "587bd896f0e1006f4a4b7f38555e3a523ef85176",
+  "permanent_ids": 217,
+  "completed_imports": 35,
+  "full_target_imports": 34,
+  "verified_partial": [
+    "MI-08"
+  ],
+  "projects": [
+    {
+      "id": "PF-02",
+      "source_commit": "b4aa9e57056d0a01e5573287d96e7e1da8db090d",
+      "canonical_sha256": "d7790c505113a3681b099b2463c8b5271630d91bae979cd74020440639c9498c",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "nonnegative-and-positive-factorizations/PF-02",
+        "docs/lean/verification-2026-09-15/PF-02"
+      ]
+    },
+    {
+      "id": "SP-04",
+      "source_commit": "97a0d55640c0d28482edce49b88e60b48bc9ade1",
+      "canonical_sha256": "e495f8eb23f5298339ec7e3eb2407799eb71d8b87c83d4283f2cb532a28698f8",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "eigenvalues-and-inverse-problems/SP-04",
+        "docs/lean/verification-2026-09-15/SP-04"
+      ]
+    },
+    {
+      "id": "IV-03",
+      "source_commit": "281f440650d174602120ca9b2b930d38f9fef205",
+      "canonical_sha256": "aa54b708c4832df3a2a2507364b260cd568c9c6db5cba840477a16c748da429b",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "intervals-and-absolute-value-equations/IV-03",
+        "docs/lean/verification-2026-09-15/IV-03"
+      ]
+    },
+    {
+      "id": "IE-04",
+      "source_commit": "61b8562ba49c5fe2146885b905f94df593c8ec49",
+      "canonical_sha256": "02253670b0277d9d1e34cd4e5a04e85f179ec58f77bb1bf30f4f8aa6f312db26",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-04",
+        "docs/lean/verification-2026-09-15/IE-04"
+      ]
+    },
+    {
+      "id": "KE-05",
+      "source_commit": "04f3f39beb69d77dbc4a8eadee70259eb89a591a",
+      "canonical_sha256": "27ec36bf55c7bd0c2ab7d90434de8f52c2b0f8308a43eeb6532e37a7cedd82d6",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "randomized-and-low-rank-approximation/KE-05",
+        "docs/lean/verification-2026-09-15/KE-05"
+      ]
+    },
+    {
+      "id": "MI-03",
+      "source_commit": "43571bd63844c784dc4cf2998b4d367846bfb9b9",
+      "canonical_sha256": "0a5cf2eac1b216a02e644885690869b1153f62c57a4804b7ca6ffb5fb6bd4489",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-03",
+        "matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14"
+      ]
+    },
+    {
+      "id": "IE-17",
+      "source_commit": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2",
+      "canonical_sha256": "2975d950cb37ae631a6d80a1331a30eb66c9caec46f6960d848289cdd611b170",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-17",
+        "linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14"
+      ]
+    },
+    {
+      "id": "IE-05",
+      "source_commit": "fc9ffa0f90e7fb59628c83674956a78bc7471584",
+      "canonical_sha256": "ab710602dd00fa5282c5b45ef419a706698713074081265d7a64363ad2b3bb51",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-05",
+        "linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14"
+      ]
+    },
+    {
+      "id": "IS-02",
+      "source_commit": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5",
+      "canonical_sha256": "d83e32d01a86a42c11945a3a4d386db317e20f2e3cddfbc18dc5faeb306d0a0b",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "eigenvalues-and-inverse-problems/IS-02",
+        "eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14"
+      ]
+    },
+    {
+      "id": "MI-08",
+      "source_commit": "40c73a09af5480166e209e670e4f9fe0aad5a546",
+      "canonical_sha256": "d1ce03f60207b8b9328b77721202a620b3a0b075e4b572c02d1e1fc14161591f",
+      "status": "Partially resolved",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-08",
+        "matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14"
+      ]
+    },
+    {
+      "id": "IS-03",
+      "source_commit": "c87e62f7f3e3d21fde7536ec84982b1a83bd074d",
+      "canonical_sha256": "b993f8a77090f811ff68b06e1cad5da4b5fc979d9c482b1c82e25df7d84c65fe",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "eigenvalues-and-inverse-problems/IS-03",
+        "docs/lean/reverification-2026-09-14/IS-03"
+      ]
+    },
+    {
+      "id": "KE-04",
+      "source_commit": "db954c792a45db8eddb196b3c2e283ba6ba27007",
+      "canonical_sha256": "00f696298022dadf0aaf3e97e943682fcb9457b82b41a2d1e86331c6885f678d",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "eigenvalues-and-inverse-problems/KE-04",
+        "docs/lean/reverification-2026-09-14/KE-04"
+      ]
+    },
+    {
+      "id": "SP-06",
+      "source_commit": "ff5b3e2f6e96c51e3c46925ae87ad2c9dfb7f6d6",
+      "canonical_sha256": "192cf2a4e40cc05b579248a5e9693d48f6727fedb054d98eafc8af97274b5077",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "eigenvalues-and-inverse-problems/SP-06",
+        "docs/lean/reverification-2026-09-14/SP-06"
+      ]
+    },
+    {
+      "id": "IE-16",
+      "source_commit": "90e88460a52fa69657f5107c2cd6f5dde7c6826c",
+      "canonical_sha256": "203371c8dcf675a94ab5bd5d59f0f566725e6a7611f2ba525651222bb5875c59",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-16",
+        "docs/lean/reverification-2026-09-14/IE-16",
+        "references/holden-ie16-2026-09-12"
+      ]
+    },
+    {
+      "id": "RA-08",
+      "source_commit": "bf767d73ce068cef081407f28e2530f8b16d8ebd",
+      "canonical_sha256": "2f3af42c63b5726e4360b496ed13a077ff418d47e62962df4ede44b929a067d6",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "randomized-and-low-rank-approximation/RA-08",
+        "docs/lean/reverification-2026-09-14/RA-08"
+      ]
+    },
+    {
+      "id": "MI-06",
+      "source_commit": "26d38e1629f04b2ba4f3d3a60455c6d624c1e8bc",
+      "canonical_sha256": "475c228e3f6b57ed8e667dcf44fd44a47564b8b2cd06660e5ccc069b18f8ba53",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-06",
+        "docs/lean/reverification-2026-09-14/MI-06"
+      ]
+    },
+    {
+      "id": "MI-07",
+      "source_commit": "5b167ea67372836f8dde9674d566ccc23916f222",
+      "canonical_sha256": "72115f553928a5ec56ed87362f852b4c081e8a083f3061126423f9bbf2dd3aba",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-07",
+        "docs/lean/reverification-2026-09-14/MI-07"
+      ]
+    },
+    {
+      "id": "MI-26",
+      "source_commit": "eee3283eb87dc85cfe961d3a136944d40c05c586",
+      "canonical_sha256": "b0b24fc96ce9105d9e0428c886877ee412cf88f4ba10ea0c1e204f74540f9f8c",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-26",
+        "docs/lean/reverification-2026-09-14/MI-26"
+      ]
+    },
+    {
+      "id": "NR-03",
+      "source_commit": "210aa7685875ac826b78cfada8e0d722a11bafa1",
+      "canonical_sha256": "8ec5b1fa32f457b09bf63ce14b17a527fcaafd29e068930b0fc5b2a5045435c2",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "nonnegative-and-positive-factorizations/NR-03",
+        "docs/lean/reverification-2026-09-14/NR-03",
+        "references/holden-nr03-2026-09-13"
+      ]
+    },
+    {
+      "id": "RA-09",
+      "source_commit": "0b4af13839e9938dea35a6e63b3ea662b9084f30",
+      "canonical_sha256": "9917498babd69d603087c02f5858261978d13be602a99a76830d4a067eb62b57",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "randomized-and-low-rank-approximation/RA-09",
+        "docs/lean/reverification-2026-09-14/RA-09"
+      ]
+    },
+    {
+      "id": "FR-12",
+      "source_commit": "82422c24435fee9ec7468030663dd88949d62723",
+      "canonical_sha256": "db0a3714e6ba316e9c24a43f56a61fb36b068fe40f279a15d0415bc85279d1fc",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "frames-and-matrix-designs/FR-12",
+        "docs/lean/reverification-2026-09-14/FR-12"
+      ]
+    },
+    {
+      "id": "MF-16",
+      "source_commit": "6170f84bd20782f07508eb1eeec1f719222e1fde",
+      "canonical_sha256": "b69bf5038340ff27e10ed0c629a76cc1182eea72aaaf73f4aec881ecc1c84ac1",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-functions-and-stability/MF-16",
+        "docs/lean/reverification-2026-09-14/MF-16"
+      ]
+    },
+    {
+      "id": "TR-15",
+      "source_commit": "48a7500a2ec7821ec2abf050764274974c332a50",
+      "canonical_sha256": "7979d193949dd8ef3545e55a1c9535bfdaaefac91f435b5066c23e83c4e4cf50",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "tensor-computations/TR-15",
+        "docs/lean/reverification-2026-09-14/TR-15"
+      ]
+    },
+    {
+      "id": "IE-18",
+      "source_commit": "06c5f229670d2260d07cccb86203821a8318d1e8",
+      "canonical_sha256": "682354cc164216c838aac0124770f13d0921078f17ca797b76358c85054bf10b",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-18",
+        "docs/lean/reverification-2026-09-14/IE-18"
+      ]
+    },
+    {
+      "id": "IE-19",
+      "source_commit": "4f9bfdd171c052955de8b334f08c1ee747371de6",
+      "canonical_sha256": "e665e2d1f11510a9f62d4ffd8c6547cd43aeb09576286b7e7ff22f8cdc61697d",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-19",
+        "docs/lean/reverification-2026-09-14/IE-19"
+      ]
+    },
+    {
+      "id": "MI-19",
+      "source_commit": "cb03b492fec480e9ac1a0228cfb72b89104e495a",
+      "canonical_sha256": "2482f86898a8338ab742bc252b47add72a03cb56e0843bdd7547cb7694042336",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-19",
+        "docs/lean/reverification-2026-09-14/MI-19"
+      ]
+    },
+    {
+      "id": "MI-21",
+      "source_commit": "5be149f92bb34e56e0d18a1f0e80664ad75c1296",
+      "canonical_sha256": "357d4cddbb6507c539ede99ff4b1aca092eec2fe020a90a11f2bd278bf320d97",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-21",
+        "docs/lean/reverification-2026-09-14/MI-21"
+      ]
+    },
+    {
+      "id": "MI-29",
+      "source_commit": "2f1885215346622844df91056cb6dcf9425f10d9",
+      "canonical_sha256": "40a7e20b089d85d74eb6f94f0d75a7d35c86b89f65c0675353ebc3c0d68f4496",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-29",
+        "docs/lean/reverification-2026-09-14/MI-29"
+      ]
+    },
+    {
+      "id": "RA-03",
+      "source_commit": "2dd167bd17bfa7c3d3515124b17521bc3c6cc416",
+      "canonical_sha256": "4fdea20b0da0e74863ea1d2f999a1002a2eb3f1662cd68cca955790c32b892f9",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "randomized-and-low-rank-approximation/RA-03",
+        "docs/lean/reverification-2026-09-14/RA-03"
+      ]
+    },
+    {
+      "id": "RA-07",
+      "source_commit": "06028f2be9ad2a3abca4b448c370e38f224acb62",
+      "canonical_sha256": "e4755c9dbf782088b57304489560483e6d5dd296758c6cc28aa4cffe9e273c33",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "randomized-and-low-rank-approximation/RA-07",
+        "docs/lean/reverification-2026-09-14/RA-07"
+      ]
+    },
+    {
+      "id": "IE-23",
+      "source_commit": "36aa473b8407b828d5429e5e9e39e70e8eb9e55f",
+      "canonical_sha256": "6a7730c3e21be039e80329e88a2c03904047200b836b4debce56b3c9aa851a8d",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "linear-systems-and-elimination/IE-23",
+        "docs/lean/reverification-2026-09-14/IE-23"
+      ]
+    },
+    {
+      "id": "MI-22",
+      "source_commit": "0e3646718358ed232b28a817c83ce80ce4b1ae59",
+      "canonical_sha256": "2217dcbc57fdd71c2be806b9d49f92abc40da45e22a4deb34ec4d0756cf0a976",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-22",
+        "docs/lean/reverification-2026-09-14/MI-22"
+      ]
+    },
+    {
+      "id": "MI-23",
+      "source_commit": "596b09fcc078cdce90b8002cb362cd1433fabff6",
+      "canonical_sha256": "308ec2f9185aaa06e7c5807531047163caa249b8274a9df34704db7d86350502",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "matrix-inequalities-and-norms/MI-23",
+        "docs/lean/reverification-2026-09-14/MI-23"
+      ]
+    },
+    {
+      "id": "RA-20",
+      "source_commit": "8a229bdbb3d35c2b309ed3f48e7dc098902c28db",
+      "canonical_sha256": "a5ee7fe9418b277cad5b8e89cb12e0b1e6eedd6d9c0af679983355b40cce4056",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "randomized-and-low-rank-approximation/RA-20",
+        "docs/lean/reverification-2026-09-14/RA-20"
+      ]
+    },
+    {
+      "id": "IV-06",
+      "source_commit": "836287852cbb66e59a8b8395b796f810bbb40917",
+      "canonical_sha256": "650080d722c2e05388a72ad1642c0eaae878425c105403bccd61ebaf363d34d3",
+      "status": "Lean verified",
+      "exact_subtrees": [
+        "intervals-and-absolute-value-equations/IV-06",
+        "docs/lean/reverification-2026-09-14/IV-06"
+      ]
+    }
+  ],
+  "relative_link_documents_checked": 257,
+  "missing_relative_links": [],
+  "read_documents": [
+    "nonnegative-and-positive-factorizations/PF-02/README.md",
+    "nonnegative-and-positive-factorizations/PF-02/lean/README.md",
+    "docs/lean/verification-2026-09-15/PF-02/README.md",
+    "eigenvalues-and-inverse-problems/SP-04/README.md",
+    "eigenvalues-and-inverse-problems/SP-04/lean/README.md",
+    "docs/lean/verification-2026-09-15/SP-04/README.md",
+    "intervals-and-absolute-value-equations/IV-03/README.md",
+    "intervals-and-absolute-value-equations/IV-03/lean/README.md",
+    "docs/lean/verification-2026-09-15/IV-03/README.md",
+    "docs/lean/verification-2026-09-15/IV-03/OPERATIONAL-REVIEW.md",
+    "linear-systems-and-elimination/IE-04/README.md",
+    "linear-systems-and-elimination/IE-04/lean/README.md",
+    "docs/lean/verification-2026-09-15/IE-04/README.md",
+    "randomized-and-low-rank-approximation/KE-05/README.md",
+    "randomized-and-low-rank-approximation/KE-05/lean/README.md",
+    "docs/lean/verification-2026-09-15/KE-05/README.md",
+    "matrix-inequalities-and-norms/MI-03/README.md",
+    "matrix-inequalities-and-norms/MI-03/lean/README.md",
+    "matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md",
+    "linear-systems-and-elimination/IE-17/README.md",
+    "linear-systems-and-elimination/IE-17/lean/README.md",
+    "linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md",
+    "linear-systems-and-elimination/IE-05/README.md",
+    "linear-systems-and-elimination/IE-05/lean/README.md",
+    "linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md",
+    "eigenvalues-and-inverse-problems/IS-02/README.md",
+    "eigenvalues-and-inverse-problems/IS-02/lean/README.md",
+    "eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md",
+    "matrix-inequalities-and-norms/MI-08/README.md",
+    "matrix-inequalities-and-norms/MI-08/lean/README.md",
+    "matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md",
+    "eigenvalues-and-inverse-problems/IS-03/README.md",
+    "eigenvalues-and-inverse-problems/IS-03/lean/README.md",
+    "docs/lean/reverification-2026-09-14/IS-03/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IS-03/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IS-03/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/IS-03/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IS-03/README.md",
+    "docs/lean/reverification-2026-09-14/IS-03/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/IS-03/PROOF-REFEREE-1.md",
+    "eigenvalues-and-inverse-problems/KE-04/README.md",
+    "eigenvalues-and-inverse-problems/KE-04/lean/README.md",
+    "docs/lean/reverification-2026-09-14/KE-04/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/KE-04/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/KE-04/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/KE-04/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/KE-04/README.md",
+    "docs/lean/reverification-2026-09-14/KE-04/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/KE-04/PROOF-REFEREE-1.md",
+    "eigenvalues-and-inverse-problems/SP-06/README.md",
+    "eigenvalues-and-inverse-problems/SP-06/lean/README.md",
+    "docs/lean/reverification-2026-09-14/SP-06/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/SP-06/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/SP-06/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/SP-06/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/SP-06/README.md",
+    "docs/lean/reverification-2026-09-14/SP-06/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/SP-06/PROOF-REFEREE-1.md",
+    "linear-systems-and-elimination/IE-16/README.md",
+    "linear-systems-and-elimination/IE-16/lean/README.md",
+    "docs/lean/reverification-2026-09-14/IE-16/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-16/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-16/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/IE-16/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-16/README.md",
+    "docs/lean/reverification-2026-09-14/IE-16/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/IE-16/PROOF-REFEREE-1.md",
+    "randomized-and-low-rank-approximation/RA-08/README.md",
+    "randomized-and-low-rank-approximation/RA-08/lean/README.md",
+    "docs/lean/reverification-2026-09-14/RA-08/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-08/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-08/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/RA-08/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-08/README.md",
+    "docs/lean/reverification-2026-09-14/RA-08/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/RA-08/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-06/README.md",
+    "matrix-inequalities-and-norms/MI-06/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-06/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-06/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-06/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-06/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-06/README.md",
+    "docs/lean/reverification-2026-09-14/MI-06/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-06/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-07/README.md",
+    "matrix-inequalities-and-norms/MI-07/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-07/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-07/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-07/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-07/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-07/README.md",
+    "docs/lean/reverification-2026-09-14/MI-07/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-07/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-26/README.md",
+    "matrix-inequalities-and-norms/MI-26/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-26/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-26/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-26/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-26/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-26/README.md",
+    "docs/lean/reverification-2026-09-14/MI-26/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-26/PROOF-REFEREE-1.md",
+    "nonnegative-and-positive-factorizations/NR-03/README.md",
+    "nonnegative-and-positive-factorizations/NR-03/lean/README.md",
+    "docs/lean/reverification-2026-09-14/NR-03/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/NR-03/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/NR-03/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/NR-03/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/NR-03/README.md",
+    "docs/lean/reverification-2026-09-14/NR-03/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/NR-03/PROOF-REFEREE-1.md",
+    "randomized-and-low-rank-approximation/RA-09/README.md",
+    "randomized-and-low-rank-approximation/RA-09/lean/README.md",
+    "docs/lean/reverification-2026-09-14/RA-09/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-09/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-09/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/RA-09/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-09/README.md",
+    "docs/lean/reverification-2026-09-14/RA-09/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/RA-09/PROOF-REFEREE-1.md",
+    "frames-and-matrix-designs/FR-12/README.md",
+    "frames-and-matrix-designs/FR-12/lean/README.md",
+    "docs/lean/reverification-2026-09-14/FR-12/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/FR-12/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/FR-12/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/FR-12/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/FR-12/README.md",
+    "docs/lean/reverification-2026-09-14/FR-12/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/FR-12/PROOF-REFEREE-1.md",
+    "matrix-functions-and-stability/MF-16/README.md",
+    "matrix-functions-and-stability/MF-16/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MF-16/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MF-16/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MF-16/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MF-16/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MF-16/README.md",
+    "docs/lean/reverification-2026-09-14/MF-16/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MF-16/PROOF-REFEREE-1.md",
+    "tensor-computations/TR-15/README.md",
+    "tensor-computations/TR-15/lean/README.md",
+    "docs/lean/reverification-2026-09-14/TR-15/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/TR-15/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/TR-15/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/TR-15/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/TR-15/referee-1-source-TR-15.md",
+    "docs/lean/reverification-2026-09-14/TR-15/README.md",
+    "docs/lean/reverification-2026-09-14/TR-15/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/TR-15/PROOF-REFEREE-1.md",
+    "linear-systems-and-elimination/IE-18/README.md",
+    "linear-systems-and-elimination/IE-18/lean/README.md",
+    "docs/lean/reverification-2026-09-14/IE-18/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-18/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-18/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/IE-18/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-18/README.md",
+    "docs/lean/reverification-2026-09-14/IE-18/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/IE-18/PROOF-REFEREE-1.md",
+    "linear-systems-and-elimination/IE-19/README.md",
+    "linear-systems-and-elimination/IE-19/lean/README.md",
+    "docs/lean/reverification-2026-09-14/IE-19/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-19/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-19/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/IE-19/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-19/README.md",
+    "docs/lean/reverification-2026-09-14/IE-19/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/IE-19/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-19/README.md",
+    "matrix-inequalities-and-norms/MI-19/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-19/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-19/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-19/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-19/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-19/README.md",
+    "docs/lean/reverification-2026-09-14/MI-19/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-19/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-21/README.md",
+    "matrix-inequalities-and-norms/MI-21/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-21/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-21/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-21/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-21/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-21/README.md",
+    "docs/lean/reverification-2026-09-14/MI-21/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-21/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-29/README.md",
+    "matrix-inequalities-and-norms/MI-29/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-29/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-29/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-29/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-29/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-29/README.md",
+    "docs/lean/reverification-2026-09-14/MI-29/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-29/PROOF-REFEREE-1.md",
+    "randomized-and-low-rank-approximation/RA-03/README.md",
+    "randomized-and-low-rank-approximation/RA-03/lean/README.md",
+    "docs/lean/reverification-2026-09-14/RA-03/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-03/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-03/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/RA-03/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-03/README.md",
+    "docs/lean/reverification-2026-09-14/RA-03/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/RA-03/PROOF-REFEREE-1.md",
+    "randomized-and-low-rank-approximation/RA-07/README.md",
+    "randomized-and-low-rank-approximation/RA-07/lean/README.md",
+    "docs/lean/reverification-2026-09-14/RA-07/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-07/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-07/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/RA-07/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-07/README.md",
+    "docs/lean/reverification-2026-09-14/RA-07/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/RA-07/PROOF-REFEREE-1.md",
+    "linear-systems-and-elimination/IE-23/README.md",
+    "linear-systems-and-elimination/IE-23/lean/README.md",
+    "docs/lean/reverification-2026-09-14/IE-23/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-23/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-23/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/IE-23/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IE-23/README.md",
+    "docs/lean/reverification-2026-09-14/IE-23/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/IE-23/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-22/README.md",
+    "matrix-inequalities-and-norms/MI-22/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-22/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-22/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-22/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-22/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-22/README.md",
+    "docs/lean/reverification-2026-09-14/MI-22/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-22/PROOF-REFEREE-1.md",
+    "matrix-inequalities-and-norms/MI-23/README.md",
+    "matrix-inequalities-and-norms/MI-23/lean/README.md",
+    "docs/lean/reverification-2026-09-14/MI-23/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-23/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-23/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/MI-23/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/MI-23/README.md",
+    "docs/lean/reverification-2026-09-14/MI-23/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/MI-23/PROOF-REFEREE-1.md",
+    "randomized-and-low-rank-approximation/RA-20/README.md",
+    "randomized-and-low-rank-approximation/RA-20/lean/README.md",
+    "docs/lean/reverification-2026-09-14/RA-20/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-20/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-20/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/RA-20/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/RA-20/README.md",
+    "docs/lean/reverification-2026-09-14/RA-20/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/RA-20/PROOF-REFEREE-1.md",
+    "intervals-and-absolute-value-equations/IV-06/README.md",
+    "intervals-and-absolute-value-equations/IV-06/lean/README.md",
+    "docs/lean/reverification-2026-09-14/IV-06/OPERATIONAL-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IV-06/PROOF-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IV-06/SCOPE.md",
+    "docs/lean/reverification-2026-09-14/IV-06/STATEMENT-REFEREE-2.md",
+    "docs/lean/reverification-2026-09-14/IV-06/README.md",
+    "docs/lean/reverification-2026-09-14/IV-06/STATEMENT-REFEREE-1.md",
+    "docs/lean/reverification-2026-09-14/IV-06/PROOF-REFEREE-1.md"
+  ]
+}

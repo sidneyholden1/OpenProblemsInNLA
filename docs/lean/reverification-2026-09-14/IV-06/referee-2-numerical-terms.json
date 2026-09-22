@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "names": [
+    "NLA.IV06.numerical_separator_margin._proof_1_7"
+  ],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+  "script_sha256": "9e1d1cbced9ba79de7198b59fa6e0e7150391633abf5b128277aa8288d0ab71d",
+  "log_sha256": "0bed7736484b37d4f61c84e7c17263cd9390793081ee67d573bf2dd1d52d5df4"
+}

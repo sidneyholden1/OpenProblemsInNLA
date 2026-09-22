@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "26d7d0ac7fd14d3f8d527977db3b50c948a77f39",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "tensor-computations/TR-15/lean/Solution.lean": {
+      "sha256": "dc31d2a6a1ef891bbdc9b6781a7a250c6751d539b7cd95c4a59d08638a8faeb1",
+      "bytes": 2777
+    },
+    "tensor-computations/TR-15/lean/NLA/TR15/Definitions.lean": {
+      "sha256": "63b8767fd19148b269f6e4041d464f0de5dc64cac82e1448fee43115bed55379",
+      "bytes": 4947
+    },
+    "tensor-computations/TR-15/lean/NLA/TR15/Proof.lean": {
+      "sha256": "795f3b1305dfae77fe71ec1927b7d72e9d913a2ffd0475879880f33e55c959be",
+      "bytes": 6884
+    },
+    "tensor-computations/TR-15/lean/Challenge.lean": {
+      "sha256": "6778940f8f0f645fc6be0c57f1fb8f67791e0c67c896074651bca9cada491428",
+      "bytes": 1935
+    },
+    "tensor-computations/TR-15/lean/comparator.json": {
+      "sha256": "80d0148e7ddf0a431d6833c3e464cf15424c94767394dd1a0fe93366c8bbb45f",
+      "bytes": 467
+    },
+    "tensor-computations/TR-15/lean/lake-manifest.json": {
+      "sha256": "8d71288432949937d6c64f1175c7a9c7c5389bc261d79dad512ba4c385e97127",
+      "bytes": 3537
+    },
+    "tensor-computations/TR-15/lean/lakefile.toml": {
+      "sha256": "247a1ea746bb54d8adfb18fdce81669f85de63d5d9dfe8998eb255f54002181d",
+      "bytes": 280
+    },
+    "tensor-computations/TR-15/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

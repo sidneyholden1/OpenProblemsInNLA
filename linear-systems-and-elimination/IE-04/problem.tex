@@ -34,7 +34,7 @@ pivoting},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IE-04}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-15}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,7 +51,7 @@ smoothed tail bounds for partial pivoting\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} extreme\quad\textbf{Importance:} broadly
 interesting\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -71,10 +71,8 @@ exponential tail. The
 proof's theorem, equation (2), and robustness lemma} show that, for
 every \(n\ge2\),
 
-\[
-\Pr\!\left\{\rho_{\mathrm{PP}}(I_n+G)>\tfrac12(3/2)^{n-1}\right\}
-\ge 2^{-n^2(n^2+n+5)}.
-\]
+\[\Pr\!\left\{\rho_{\mathrm{PP}}(I_n+G)>\tfrac12(3/2)^{n-1}\right\}
+\ge 2^{-n^2(n^2+n+5)}.\]
 
 For any proposed \(c_1,c_2>0\), take \(\bar A=I_n\), \(\sigma=1\) and
 \(x=(3/2)^{n-1}/(2n^{c_1})\). Sufficiently large \(n\) give an
@@ -95,6 +93,41 @@ and verification record}. AI assistance and automated-review limits are
 disclosed. The permanent ID, original statement, and historical ratings
 below are retained.
 
+\subsection{Lean verification - 15 September
+2026}\label{lean-verification---15-september-2026}
+
+\textbf{Formalization:} Sidney Holden, with OpenAI Codex assistance.
+George Stepaniants retains authorship of the mathematical argument;
+Spielman and Teng retain attribution for the original conjecture.
+
+The complete original universally quantified exponential-tail conjecture
+is formally refuted. The proof uses actual GEPP states and every legal
+largest-magnitude pivot schedule, their finite growth maxima, the
+Euclidean operator norm, and the full independent real Gaussian matrix
+law. The identity-centered counterexample violates every proposed
+positive pair of constants for sufficiently large admissible dimension
+and threshold. The full entrywise robustness box and its Gaussian
+probability lower bound are proved; no sampled-grid substitute is used.
+The manuscript's additional zero-centered result is not claimed here.
+
+All twelve reviewed exports passed LeanCert kernel trust audits,
+standard-axiom checks, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926830831}{fresh
+isolated Linux Comparator/default-kernel verification} at the
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/82c0d620db7369a546071a13088ebb095368c262/linear-systems-and-elimination/IE-04/lean}{immutable
+proof revision}. Two independent statement reviews preceded proofs, and
+two fresh independent nonauthor final source reviews passed. Their
+evidence-packaging follow-up is resolved in the retained final code
+gate.
+
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-04/lean/README.md}{Proof,
+reviews and metadata} ·
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-15/IE-04/README.md}{Retained
+Linux evidence}. Actual rejection and sandbox controls passed. These are
+AI-agent reviews, not human peer review, official Tau Ceti endorsement
+or source-author endorsement. The permanent ID, original target and
+historical ratings remain unchanged.
+
 \subsection{Context and notation}\label{context-and-notation}
 
 All elimination in this problem is in exact arithmetic. Write
@@ -102,9 +135,7 @@ All elimination in this problem is in exact arithmetic. Write
 active Schur complements \(S_1=A,S_2,\ldots,S_n\), with row/column
 permutations as appropriate. Its element-growth factor is
 
-\[
-\rho(A)=\frac{\max_{1\leq j\leq n}\|S_j\|_{\max}}{\|A\|_{\max}}.
-\]
+\[\rho(A)=\frac{\max_{1\leq j\leq n}\|S_j\|_{\max}}{\|A\|_{\max}}.\]
 
 Partial pivoting chooses a largest-magnitude entry in the active first
 column; complete pivoting chooses one anywhere in the active matrix. If
@@ -121,10 +152,8 @@ Do universal constants \(c_1,c_2>0\) exist such that, for every
 \(A=\bar A+\sigma G\), with independent standard normal entries in
 \(G\), satisfies
 
-\[
-\Pr\!\left\{\rho_{\mathrm{PP}}(A)>x(n/\sigma)^{c_1}\right\}
-\leq 2^{-c_2x}?
-\]
+\[\Pr\!\left\{\rho_{\mathrm{PP}}(A)>x(n/\sigma)^{c_1}\right\}
+\leq 2^{-c_2x}?\]
 
 This is a uniform smoothed-analysis question: the deterministic center
 may itself be a worst-case input. Almost surely the perturbed matrix is

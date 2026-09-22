@@ -1,0 +1,16 @@
+{
+  "target": "Solution",
+  "command": [
+    "lake",
+    "build",
+    "Solution"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi19/matrix-inequalities-and-norms/MI-19/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "scope": "development/source-typecheck; not Linux Comparator verification",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "exit_code": 0,
+  "elapsed_seconds": 54.276,
+  "log_sha256": "59fa748284d53e13ded61bd5ad87faafd7c605bba98376e42e7a8cedfb33b97b"
+}

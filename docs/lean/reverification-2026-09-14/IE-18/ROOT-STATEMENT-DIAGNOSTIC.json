@@ -1,0 +1,28 @@
+{
+  "kind": "Independent exact rational diagnostic only, not Lean proof",
+  "denominators": [
+    "61/50",
+    "1381/93025"
+  ],
+  "coefficients": [
+    "90/61",
+    "3140/1381"
+  ],
+  "first": [
+    "-2/61",
+    "8/61",
+    "15/61"
+  ],
+  "second": [
+    "289/84241",
+    "-756/84241",
+    "1125/84241"
+  ],
+  "squared_ratio": "1920682/21289638243",
+  "pair_values": [
+    "1/289",
+    "1/121",
+    "9/2401"
+  ],
+  "gap": "6831066919/311701593515763"
+}

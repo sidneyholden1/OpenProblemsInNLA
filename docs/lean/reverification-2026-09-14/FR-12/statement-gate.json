@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T18:13:10.337471+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/FR-12/STATEMENT-REFEREE-1.md": "4f19206a6f22d01784b9c44e94caa1e978aacf17ee550ab22e4edb95494eafb9",
+    "docs/lean/reverification-2026-09-14/FR-12/STATEMENT-REFEREE-2.md": "0b9982ce5bf325c7eb96956af7b2ccf3e6bfb38f498953e5179b647783a5548e",
+    "frames-and-matrix-designs/FR-12/lean/Solution.lean": "c37bbf5bb1bab85816f6c343eb3ee7bbfdadec2f6ad4dc17d11348a041ab598a",
+    "frames-and-matrix-designs/FR-12/lean/Challenge.lean": "b7610d4a0b7416737dc9fdb3cbc24f7c154fe27bfd6b25986b7ed7b80dee28a7",
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Doubling.lean": "841cf24ebad19caf9fe6807a67079931b5bf2fafba01d19ca256bf4f393a081e",
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Definitions.lean": "0c074289e7ee518876a36caf33f1b66a286ca46e7e520c083d07b9133779bf9c",
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Semantics.lean": "6cba3023ab9f319ac4622a81c4bb7b0cca34da96933fc8e0507f31f6671341e7",
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Proof.lean": "a75ef4a3567d641df84f7971c4d3f182b1ae73fb87cb70d474feda5c7af69df3",
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Growth.lean": "654930878291656c7f08fb285019d0033bc4c3e5ceebfac625ce676ce228fbaf",
+    "frames-and-matrix-designs/FR-12/lean/NUMERICAL_TARGETS.md": "bedc45de378f2e7429e7214f572f466e9c806abb7f02ab9921aa50f6368c9da0",
+    "frames-and-matrix-designs/FR-12/lean/comparator.json": "03d4d4ef6190299ee767f9c677c40d23bda8576ae35a6628fa022a0a679c1581",
+    "frames-and-matrix-designs/FR-12/lean/formalization.yaml": "76a17a4b58803dfd17384b5c6e45075b36c8cc3eda3cc79d71ec8cb4862d63f8",
+    "frames-and-matrix-designs/FR-12/README.md": "db0a3714e6ba316e9c24a43f56a61fb36b068fe40f279a15d0415bc85279d1fc"
+  }
+}

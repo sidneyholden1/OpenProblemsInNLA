@@ -1,0 +1,50 @@
+⚠ [8707/8756] Replayed NLA.SP04.TopologyProof
+warning: NLA/SP04/TopologyProof.lean:15:15: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP04/TopologyProof.lean:19:15: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP04/TopologyProof.lean:16:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/SP04/TopologyProof.lean:26:15: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP04/TopologyProof.lean:30:15: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP04/TopologyProof.lean:27:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8795/8799] Replayed NLA.SP04.Scalar
+warning: NLA/SP04/Scalar.lean:14:2: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: NLA/SP04/Scalar.lean:17:2: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+✔ [8797/8799] Built NLA.SP04.PolynomialProof (45s)
+ℹ [8798/8799] Built Solution (46s)
+info: Solution.lean:52:0: 'NLA.SP04.positive_multiplier_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:54:0: 'NLA.SP04.selected_negative_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:56:0: 'NLA.SP04.diagonal_stationary_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:58:0: 'NLA.SP04.diagonal_unique_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:60:0: 'NLA.SP04.orbit_unique_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:62:0: 'NLA.SP04.open_counterexample_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:64:0: 'NLA.SP04.avoids_every_proper_algebraic_exception' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:66:0: 'NLA.SP04.generic_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:68:0: 'NLA.SP04.not_generic_smallest_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8799 jobs).

@@ -1,0 +1,18 @@
+{
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mf16/docs/lean/reverification-2026-09-14/MF-16/referee-2-krawczyk-aux.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mf16/matrix-functions-and-stability/MF-16/lean",
+  "names": [
+    "NLA.MF16.actual_krawczyk_checked._proof_1_1",
+    "NLA.MF16.box_radius_exact._proof_1_1",
+    "NLA.MF16.contraction_bound_small._proof_1_1",
+    "NLA.MF16.preconditioner_det_exact._proof_1_1"
+  ],
+  "script_sha256": "b60db1f7e9af9912305f3bad5984d0bee264665d6f1f83a87aea86aa8c83ed28",
+  "log_sha256": "d278724b21d94104aee5a70458e45fc9cbc70eb9d3d3090e5272dcf1114e0ef0"
+}

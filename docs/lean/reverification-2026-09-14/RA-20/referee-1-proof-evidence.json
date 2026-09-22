@@ -1,0 +1,359 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "32e8d9416e0f6ae1735d4ea410113c0724afa102",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/Solution.lean",
+      "sha256": "755a58cc081172804c644ea83518581235763a6ecefcbff6c92f131ca44c32b5",
+      "lines": 118
+    },
+    "NLA.RA20.Proof": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Proof.lean",
+      "sha256": "d3cb0dab572eb54795e6568c717e9e6f8200eb20f299e319fc3be36bbe8aaea1",
+      "lines": 46
+    },
+    "NLA.RA20.Differential": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Differential.lean",
+      "sha256": "8e24af9b30b668fd1c6bfc3799fe6d8771e4a6e96124087752a02f7b4d913ec7",
+      "lines": 163
+    },
+    "NLA.RA20.Definitions": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Definitions.lean",
+      "sha256": "a649164ee7f11e88d8bfae4167ee0d9b9252a8683f253ab5a69981cde0e7cf94",
+      "lines": 149
+    },
+    "NLA.RA20.Count": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Count.lean",
+      "sha256": "99e44e2ec0d376cb346822c8f5a7edcc72c78448083361e5b4f2ea3aceb92c96",
+      "lines": 62
+    },
+    "NLA.RA20.Generic": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Generic.lean",
+      "sha256": "47676372aa8e028a2c12bf6c23951b0edf5b7404a18abd24487d36399b7fb007",
+      "lines": 105
+    },
+    "NLA.RA20.Critical": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Critical.lean",
+      "sha256": "e8b2e3646d4b1f5e41e35ae4e23ba55d758cb6e48d125643d02eb1d51cab2040",
+      "lines": 204
+    },
+    "NLA.RA20.Tangent": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Tangent.lean",
+      "sha256": "b03b6a1112737372072832d89b17ff0e19e00f631a925252269b75af3c44e178",
+      "lines": 144
+    },
+    "NLA.RA20.Algebra": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Algebra.lean",
+      "sha256": "67adf1643bd62089a62d857c404bdb5ee1bbbd192984ed5f1169b8c5ec71f5f1",
+      "lines": 228
+    },
+    "NLA.RA20.Smooth": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Smooth.lean",
+      "sha256": "99ab24934f75382e9bad4a8e84945d0f1e14123804d5172a66b0da17a9eceb88",
+      "lines": 476
+    },
+    "NLA.RA20.SmoothTransport": {
+      "path": "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/SmoothTransport.lean",
+      "sha256": "0e7717ac9e55597ed69a816f44194af569ac7b092ceb4f9231ea86e4c7ad894f",
+      "lines": 46
+    }
+  },
+  "all_active_bytes_equal_base_candidate_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.Verification",
+    "Mathlib.Algebra.MvPolynomial.Division",
+    "Mathlib.Algebra.MvPolynomial.Funext",
+    "Mathlib.Algebra.MvPolynomial.PDeriv",
+    "Mathlib.Algebra.Squarefree.Basic",
+    "Mathlib.Analysis.Calculus.FDeriv.Add",
+    "Mathlib.Analysis.Calculus.FDeriv.Basic",
+    "Mathlib.Analysis.Calculus.FDeriv.Mul",
+    "Mathlib.Analysis.Calculus.FDeriv.Prod",
+    "Mathlib.Analysis.Complex.Basic",
+    "Mathlib.Analysis.Complex.Polynomial.Basic",
+    "Mathlib.Analysis.Matrix.Normed",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.LinearAlgebra.Matrix.Rank",
+    "Mathlib.RingTheory.Ideal.Quotient.Operations",
+    "Mathlib.RingTheory.Localization.Algebra",
+    "Mathlib.RingTheory.Nilpotent.Lemmas",
+    "Mathlib.RingTheory.Nullstellensatz",
+    "Mathlib.RingTheory.Polynomial.UniqueFactorization",
+    "Mathlib.RingTheory.Smooth.Locus",
+    "Mathlib.SetTheory.Cardinal.Basic",
+    "Mathlib.Tactic",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Ring"
+  ],
+  "additional_mathlib_apis_read_sha256": {
+    "Mathlib/RingTheory/Smooth/Basic.lean": "3486edb7d2d00857dd0dbb9755cf7b89a5d24f26e7efb3d7656fd89512ee147b",
+    "Mathlib/RingTheory/Localization/Algebra.lean": "3b57bf530ba937a337a3e8937fb7124b129f5bd5f38db499666eb7f1792e1465",
+    "Mathlib/RingTheory/Localization/Defs.lean": "599d7309eb9d6f4e27a2337e6a880195c4c567c9fbdd90056adc07ba7050a620",
+    "Mathlib/Algebra/MvPolynomial/Funext.lean": "cb1821884a139917b692103a0b267115179cd4e7084da5487857ec49abb0cc7e"
+  },
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.RA20.hollow_variety_semantics",
+    "NLA.RA20.reduced_coordinate_ring",
+    "NLA.RA20.algebraic_smooth_locus",
+    "NLA.RA20.algebraic_tangent_space",
+    "NLA.RA20.full_frobenius_differential",
+    "NLA.RA20.hollow_distance_semantics",
+    "NLA.RA20.generic_critical_locus",
+    "NLA.RA20.component_hessians",
+    "NLA.RA20.generic_data_intersection",
+    "NLA.RA20.generic_count_three",
+    "NLA.RA20.generic_count_not_four",
+    "NLA.RA20.not_criticalCountConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.RA20.hollow_variety_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.reduced_coordinate_ring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_smooth_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_tangent_space": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.full_frobenius_differential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.hollow_distance_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_critical_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.component_hessians": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_data_intersection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_not_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.not_criticalCountConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.RA20.hollow_variety_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.reduced_coordinate_ring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_smooth_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_tangent_space": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.full_frobenius_differential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.hollow_distance_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_critical_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.component_hessians": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_data_intersection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_not_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.not_criticalCountConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra20/randomized-and-low-rank-approximation/RA-20/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 103.176,
+    "log_sha256": "020866aa2479669c9ce211b90a5f3369cdf3f926bfd2e920374395b98ec7359f"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-ra20/docs/lean/reverification-2026-09-14/RA-20/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra20/randomized-and-low-rank-approximation/RA-20/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.RA20.hollow_variety_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.reduced_coordinate_ring": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.algebraic_smooth_locus": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.algebraic_tangent_space": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.full_frobenius_differential": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.hollow_distance_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.generic_critical_locus": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.component_hessians": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.generic_data_intersection": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.generic_count_three": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.generic_count_not_four": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.RA20.not_criticalCountConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [],
+    "script_sha256": "308b6a192e81922309904073e22daf773e5075a147208c71f996d65b3032baa9",
+    "log_sha256": "990d8f4b93a0bd420f3f311eac7a9835d6be1877f942f7e4eb67721f66e6de10"
+  },
+  "referee_2_numerical_execution": {
+    "route": "LeanCert kernel trust auditing only; exact symbolic algebra, calculus and cardinality, no numerical interval theorem.",
+    "receipts": {},
+    "consumer_material_terms": []
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "eb62545ea3e527c186b832a186fbaefa560409bf23be74486b9b00f04e00a2e9",
+    "NUMERICAL_TARGETS.md": "49f21f2c6ab50b9f74b11cf0e37312dde08a4b7ddc62a17d37c6e3fb091f6e6d",
+    "comparator.json": "6c2cdc312b67ae62ce0d453504f83b7bba392d4ef9c0dc21d35dbd20287089c2",
+    "formalization.yaml": "368d4b1e3b0b7788a096e49440c6ee77c39d6e9b4e25dca09cd85d59d49bb112",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "d702ffa473f5b78d8b5dcbd4f1afb640738265470f6124f69bfa13e120ad165a",
+    "lakefile.toml": "5dabc84a0201d4ac2b992e6f57d91951da73208942de4fda79fd794461993fbb"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "a3fe513d3e07686dd67a8505cdd7ed4b6616d1c450b123d213906e8b6d927ba7",
+    "solution-local.log": "020866aa2479669c9ce211b90a5f3369cdf3f926bfd2e920374395b98ec7359f",
+    "referee-2-consumer.lean": "308b6a192e81922309904073e22daf773e5075a147208c71f996d65b3032baa9",
+    "referee-2-consumer.log": "990d8f4b93a0bd420f3f311eac7a9835d6be1877f942f7e4eb67721f66e6de10",
+    "referee-2-consumer.json": "3cbfcfc244e0de21010fd271b252fdf63b232cac2baf1c320b6726ab21c7b4af",
+    "statement-gate.json": "3db0ab7f633474e9055574b14d15fc95b94dfbf682687038addde7373e4221a9",
+    "STATEMENT-REFEREE-1.md": "0c1612049efbec1d596d4d3dc047d298cb58d5824358497254884025ef841b7a",
+    "referee-1-statement-evidence.json": "afcac0f3d3f94bc5569408af961a06b6fa5085a1827a9c3af4886008e8822692",
+    "referee-1-precheck.py": "3bd093ba5b61869c1e5c5707138e22ac7c154e3477a861ecc6817cb20347f8b8",
+    "referee-1-precheck.log": "66b0fffd0bbea301fb621c61ddba98bff525545f3f2396cf7ca8c130005a61f2",
+    "SOURCE-PROVENANCE.json": "cd2479295c91bd9d71e1fa6121a06f51e79440b569a16809f10165bf07e8113b"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

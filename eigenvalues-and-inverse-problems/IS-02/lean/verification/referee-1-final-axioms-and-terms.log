@@ -1,0 +1,65 @@
+'NLA.IS02.witness_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.spectral_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.locus_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.model_charpoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.support_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.model_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.IS02.witness_certificates : NLA.IS02.witness ∈ NLA.IS02.stochasticSet 4 ∧
+  NLA.IS02.witness.charpoly = Polynomial.X * (Polynomial.X - 1) ^ 2 * (Polynomial.X + 1) ∧
+    NLA.IS02.witness.trace = 1 ∧ 0 < NLA.IS02.witness.trace :=
+⟨NLA.IS02.witness_stochastic,
+  ⟨NLA.IS02.witness_polynomial,
+    ⟨NLA.IS02.witness_trace,
+      Eq.mpr (id (congrArg (fun _a => 0 < _a) NLA.IS02.witness_trace))
+        (have h0 :=
+          LeanCert.Validity.verify_strict_upper_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 0 1))
+            (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl (Rat.divInt 0 1)) (Rat.divInt 1 1) (-53) 10
+            (of_decide_eq_true (id (Eq.refl true))) NLA.IS02.witness_certificates._proof_1_7 ↑(Rat.divInt 0 1)
+            ⟨le_refl ↑(Rat.divInt 0 1), le_refl ↑(Rat.divInt 0 1)⟩;
+        Eq.mpr
+          (eq_of_heq
+            ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+                Eq.casesOn (motive := fun a_2 x => a' = a_2 → e'_3 ≍ x → (a < a_1) ≍ (a' < a'_1)) e'_3
+                  (fun h =>
+                    Eq.ndrec (motive := fun a' => ∀ (e_3 : a = a'), e_3 ≍ Eq.refl a → (a < a_1) ≍ (a' < a'_1))
+                      (fun e_3 h =>
+                        Eq.casesOn (motive := fun a_2 x => a'_1 = a_2 → e'_4 ≍ x → (a < a_1) ≍ (a < a'_1)) e'_4
+                          (fun h =>
+                            Eq.ndrec (motive := fun a' => ∀ (e_4 : a_1 = a'), e_4 ≍ Eq.refl a_1 → (a < a_1) ≍ (a < a'))
+                              (fun e_4 h => HEq.refl (a < a_1)) (Eq.symm h) e'_4)
+                          (Eq.refl a'_1) (HEq.refl e'_4))
+                      (Eq.symm h) e'_3)
+                  (Eq.refl a') (HEq.refl e'_3))
+              ℝ Real.instLT 0 (↑(↑0 / ↑1))
+              (Mathlib.Meta.NormNum.isNat_eq_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+                (Mathlib.Meta.NormNum.isNat_ratCast
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                    (Mathlib.Meta.NormNum.isNNRat_div
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                          (Mathlib.Meta.NormNum.isNat_intCast 0 0 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                          (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                            (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                          (Eq.refl 0)))))))
+              1 (↑(↑1 / ↑1))
+              (Mathlib.Meta.NormNum.isNat_eq_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one)
+                (Mathlib.Meta.NormNum.isNat_ratCast
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                    (Mathlib.Meta.NormNum.isNNRat_div
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                          (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                          (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                            (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                          (Eq.refl 1)))))))))
+          (Eq.mp
+            (congr (congrArg LT.lt (congrArg Rat.cast (Rat.divInt_eq_div 0 1)))
+              (congrArg Rat.cast (Rat.divInt_eq_div 1 1)))
+            h0))⟩⟩⟩

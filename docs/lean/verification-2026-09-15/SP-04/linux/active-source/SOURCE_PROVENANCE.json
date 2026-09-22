@@ -1,0 +1,23 @@
+{
+  "source_commit": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "mathematical_author": "Matthew J. Colbrook",
+  "formalization_author": "Sidney Holden",
+  "formalization_assistance": "AI-assisted statements-only draft; no formal proof completed",
+  "source_files": [
+    {
+      "repository_path": "eigenvalues-and-inverse-problems/SP-04/README.md",
+      "git_blob": "f01c2afb0ccf519d14f4a06cd4deef1a747bb857",
+      "sha256": "2dfa12b2eee5e312bbd45d023d8fa33e1c40e2d598f6538e651d6df519ae38ca"
+    },
+    {
+      "repository_path": "eigenvalues-and-inverse-problems/SP-04/solution.md",
+      "git_blob": "0c5f56370458d69e48bd1b06bd321a5184c1d9b4",
+      "sha256": "d7a9e5a9d0fa0bb43e45a3d5c37b6e52d86373cbf4391980d0c1c54ff2ebc45c"
+    },
+    {
+      "repository_path": "eigenvalues-and-inverse-problems/SP-04/solution.tex",
+      "git_blob": "1067277c3a527bccb77bc5ce519101f83cb3eaa3",
+      "sha256": "4709776d1b91f8eefc4521495057cbc0451f897c7232ee7c838214f7627da481"
+    }
+  ]
+}

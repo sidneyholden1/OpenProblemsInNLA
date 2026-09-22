@@ -1,0 +1,4 @@
+'NLA.MI08.fixed_sign_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI08.design_obstructions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI08.hadamard_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI08.finite_minimums' depends on axioms: [propext, Classical.choice, Quot.sound]

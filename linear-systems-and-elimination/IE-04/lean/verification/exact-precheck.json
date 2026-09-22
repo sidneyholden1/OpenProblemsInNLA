@@ -1,0 +1,95 @@
+{
+  "verdict": "PASS",
+  "scope": "n=2,...,12 exact unperturbed recurrence and scalar identities only",
+  "records": [
+    {
+      "n": 2,
+      "growth": "3/2",
+      "radius": "1/128",
+      "K": 44,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 3,
+      "growth": "9/4",
+      "radius": "1/8192",
+      "K": 153,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 4,
+      "growth": "27/8",
+      "radius": "1/2097152",
+      "K": 400,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 5,
+      "growth": "81/16",
+      "radius": "1/2147483648",
+      "K": 875,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 6,
+      "growth": "243/32",
+      "radius": "1/8796093022208",
+      "K": 1692,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 7,
+      "growth": "729/64",
+      "radius": "1/144115188075855872",
+      "K": 2989,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 8,
+      "growth": "2187/128",
+      "radius": "1/9444732965739290427392",
+      "K": 4928,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 9,
+      "growth": "6561/256",
+      "radius": "1/2475880078570760549798248448",
+      "K": 7695,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 10,
+      "growth": "19683/512",
+      "radius": "1/2596148429267413814265248164610048",
+      "K": 11500,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 11,
+      "growth": "59049/1024",
+      "radius": "1/10889035741470030830827987437816582766592",
+      "K": 16577,
+      "all_strict_pivots": true,
+      "exact_states": true
+    },
+    {
+      "n": 12,
+      "growth": "177147/2048",
+      "radius": "1/182687704666362864775460604089535377456991567872",
+      "K": 23184,
+      "all_strict_pivots": true,
+      "exact_states": true
+    }
+  ],
+  "limits": "No whole-box robustness, Gaussian law/null sets, measurable-event bound, asymptotic universal statement, or Lean theorem proved."
+}

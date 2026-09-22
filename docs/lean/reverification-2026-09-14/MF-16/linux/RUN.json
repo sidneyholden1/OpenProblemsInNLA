@@ -1,0 +1,33 @@
+{
+  "run_id": 34879620111,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879620111",
+  "verified_commit": "87702a6d46d0257e05d6e23002586956b4a22dd9",
+  "artifact_id": 10362746843,
+  "artifact_sha256": "1682699152d4057e159204858b864cc4d20a6d86071a3ce84b2d611ba8783983",
+  "github_artifact_digest": "sha256:1682699152d4057e159204858b864cc4d20a6d86071a3ce84b2d611ba8783983",
+  "all_input_hashes_match": true,
+  "input_count": 863,
+  "active_source_sha256": {
+    ".gitignore": "72baa8f178202398b3b7c88a08fb84c33ca276332e891ebbcad8dfda691171c2",
+    "Challenge.lean": "538b03b014015da03f9929fd520adfb978de96b3fa1b4fe3d995bb94e3dccf0f",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/MF16/Algebra.lean": "14acd4d851a7172854181423d623e06f778458b939e791189315e449f31e84d8",
+    "NLA/MF16/CayleyHamilton.lean": "d6d2a419467df881998175e8d06ab13a49ea4ed86f805eefb56ab90284350df7",
+    "NLA/MF16/Definitions.lean": "5b8e0a7e11657c6d90dc956664f12f5afefdf8ab556517ae199ab339d99d604e",
+    "NLA/MF16/Numerical.lean": "e457da199ffa9381e10e5618cf5a0e16fdfec1745f13905bcea7a6c546e41181",
+    "NLA/MF16/Polynomial.lean": "ab676fb674e0e698d4a9a6dc682df4e9bb78a76cacf07e86e01a0c63ed0e7796",
+    "NLA/MF16/Proof.lean": "dbb52d7978f19786503c62cfd17e7ca45dd91c55dd79fae02848967c116b36ed",
+    "NLA/MF16/Recovery.lean": "843ab140392852d07fcdfe547082a574cd9c7f8ceb5b8cfaeff9394e70c9e1de",
+    "NUMERICAL_TARGETS.md": "6d6ea0481cb33c0ff69675e008956920be1744ef6cebdafaeac73f9c87601689",
+    "README.md": "b972fb58ae6bb3025b331ad4c312ca695a687bfc1662c59e4205a7becd8a8df8",
+    "Solution.lean": "9e7532966e67d32ffc98481b141e2b808a395e3e18645a68aed9a761d19b002b",
+    "SourceCorrespondence.md": "7c04cbc40bfa15b3324563e94c3aaa968ed9c84b6c39481e9f599a6cccad7e8b",
+    "comparator.json": "c571ce8622b8ff95aa2a8a29ec186a68e3464e9431dae2a5b03db74236b8c088",
+    "formalization.yaml": "e652e0885dc62acd60004a46ab4b187eeeee9b26e0f4cab0bf6714387397ec29",
+    "lake-manifest.json": "a0d0298e414637111ddfcd231f97a616e56d39c0c0c32a2c82c99c8f48b766a9",
+    "lakefile.toml": "3fbcec68e929d4b9a570eead7946767f3a26d3f82d0efabdbf9bfdf45dc13ed6",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

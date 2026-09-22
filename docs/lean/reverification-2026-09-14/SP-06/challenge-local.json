@@ -1,0 +1,16 @@
+{
+  "target": "Challenge",
+  "command": [
+    "lake",
+    "build",
+    "Challenge"
+  ],
+  "cwd": "/private/tmp/nla-reverify-sp06/eigenvalues-and-inverse-problems/SP-06/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "scope": "development/source-typecheck; not Linux Comparator verification",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "exit_code": 0,
+  "elapsed_seconds": 36.581,
+  "log_sha256": "7d44fa04512805619e4b6b7d76f3f3cc3a05039764e1892e498be36969ab626c"
+}

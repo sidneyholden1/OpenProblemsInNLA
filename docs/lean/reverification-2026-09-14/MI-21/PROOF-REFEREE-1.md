@@ -1,0 +1,27 @@
+# MI-21 independent proof referee 1 — 2026-09-14
+
+PASS — complete independent mathematical/source proof review and inspected fresh local execution evidence. No blocking correctness, fidelity, scope, computation or attribution finding.
+
+This is an independent AI-agent review under `docs/lean/REVIEW.md`, applying the relevant adapted Tau Ceti angles, not official Tau Ceti or external human peer review. Both independent statement approvals and the coordinator's frozen gate preceded active proof inspection. Authored source is preserved from `deb549fa9ddd6b119e6c59016f268237e645dfa2`, deliberately not observed older current upstream main `ab754fabe3d48dc8d6eab6bcffce583e46d2b88f`. Candidate revision is `e43421af3d19dac5fc2cb6304affba66e7ddae24`. No new authored proof is claimed.
+
+## Mathematical correctness and full frozen scope
+
+All three active modules and every wrapper were read. The concrete operator norm is definitionally the scoped L2 operator norm. Generic norm axioms and actual CStarRing left/right unitary norm invariance prove the full admissible norm predicate, rather than assuming it. The later eigenvector lemma constructs the actual nonzero complex Euclidean vector and uses the continuous map's le_opNorm bound. Positivity of its norm justifies division, and only the nonnegative real eigenvalue is substituted.
+
+The main analytic bridge is proved for the actual CFC mean. With H=A^(1/2), J=A^(−1/2), both inverse products are derived from strict-positive CFC power laws. The supplied checked right-inverse certificate identifies K with A^(−1), hence J²=K. For a PSD Riccati solution X, the congruence JXJ is PSD and its square is JBJ. Mathlib's actual positive-square-root uniqueness therefore identifies the middle CFC square root. Multiplying by H on both sides recovers X, preserving all noncommuting orders. The scaled bridge introduces c=1/sqrt(h), proves c≥0 and c²=1/h with h>0, and cancels this exact scalar analytically.
+
+All four actual inputs are positive definite: positive diagonal powers and invertible unitary congruences establish this over complex vectors. The roots of the four inputs are proved from actual sqrt_sq, not assumed. Both common-scale Riccati identities are checked separately with actual rational inverse matrices; the second mean is not accepted from an unproved symmetry rule. Substituting these actual means yields the exact frozen L. Both aggregate sums are I, so CFC.one_rpow gives the right matrix I for every real p; the exported p>0 statement keeps the original allowed domain. The unused positive-p binder reflects this stronger identity, not vacuity.
+
+The actual eigenvector equation and the material strict scalar gap yield the lower bound on the true left norm; the right norm is genuinely one in dimension two. The full universal conjecture is contradicted at p=1 with every original parameter and norm hypothesis discharged. Three wrappers match the Challenge. Exact common-scale certificates and one nonzero vector eliminate matrix-root approximation and full spectrum computation. Other eigenvalue claims and known restricted positive regimes are excluded. Colbrook/Stepaniants authorship remains unchanged.
+
+## Exact evidence, trust and execution limits
+
+I independently read all 3 active project modules, including definitions and wrappers, and mapped every registered export to its material proof chain. All active bytes match the preserved source and the statement gate, and all gate files remain unchanged. A comment-aware active-source scan found no sorry, admit, custom axiom, native_decide, unsafe or implemented_by. Challenge's deliberate placeholders are outside the active import closure. All 3 public exports have actual kernel trust assertions.
+
+The coordinator's fresh macOS aarch64 `lake build Solution` completed with exit 0; I inspected its successful log and checked its recorded digest. Referee 2's independent fresh all-export consumer exited 0; I inspected the printed types and actual axiom closures. Both fresh logs report only propext, Classical.choice and Quot.sound for every selected export. These executions belong to the coordinator and referee 2, not an additional rebuild by this referee. Historical PASS records are not substituted for fresh evidence.
+
+Actual material numerical route inspected: The printed witness_eigenvalue_gt_one body uses LeanCert.Validity.verify_strict_upper_bound_dyadic_checked on the constant 1 over [0,0], upper bound 1351000/1350907, precision -53 and depth 10. The separately printed _proof_1_7 is of_decide_eq_true (id (Eq.refl true)); exact cast congruence supplies the target real inequality. The source-level consumers are described above, and exact execution receipts and term-log hashes are attached in the evidence JSON. Earlier independent rational diagnostics are retained as supplemental checks, not as mathematical assumptions or universal proofs.
+
+The full active import closure with exact paths/hashes, frozen boundary hashes, all exports and actual axiom lists, fresh execution provenance and evidence digests are in [referee-1-proof-evidence.json](referee-1-proof-evidence.json), SHA-256 `cc3f6523f96390ffaf08cb9b92b155a355fe0c2dbb22ff4da467384c6d23fde6`. No authored source, metadata or frozen statement attachment was changed by this reviewer.
+
+Fresh Linux Comparator identity, default-kernel replay, sandbox/rejection controls and original artifact integrity remain separate operational gates. This proof review does not claim those Linux gates have passed and does not replace their audit.

@@ -1,0 +1,37 @@
+NLA.IE16.explicitL_card : Eq.{1} (Finset.card.{0} NLA.IE16.explicitL) 9
+'NLA.IE16.explicitL_card' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.explicitL_admissible : NLA.IE16.admissible NLA.IE16.explicitL 9
+'NLA.IE16.explicitL_admissible' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.witness_feasible : NLA.IE16.feasible NLA.IE16.explicitL 4 NLA.IE16.witnessPolynomial
+'NLA.IE16.witness_feasible' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.witness_objective : Eq.{1} (NLA.IE16.maxModulus NLA.IE16.explicitL NLA.IE16.witnessPolynomial)
+  NLA.IE16.exactFullMinimum
+'NLA.IE16.witness_objective' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.full_minimum_exact : Eq.{1} (NLA.IE16.M NLA.IE16.explicitL 4) NLA.IE16.exactFullMinimum
+'NLA.IE16.full_minimum_exact' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.full_minimum_isLeast : IsLeast.{0} (NLA.IE16.feasibleValues NLA.IE16.explicitL 4)
+  (NLA.IE16.M NLA.IE16.explicitL 4)
+'NLA.IE16.full_minimum_isLeast' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.full_lower_bound : LT.lt.{0} NLA.IE16.fullLowerBound (NLA.IE16.M NLA.IE16.explicitL 4)
+'NLA.IE16.full_lower_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.every_five_point_subset_upper : ∀ (S : Finset.{0} ℂ),
+  Membership.mem.{0, 0} (NLA.IE16.subsetFamily NLA.IE16.explicitL 4) S →
+    LT.lt.{0} (NLA.IE16.M S 4) NLA.IE16.subsetUpperBound
+'NLA.IE16.every_five_point_subset_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.every_five_point_subset_minimum_isLeast : ∀ (S : Finset.{0} ℂ),
+  Membership.mem.{0, 0} (NLA.IE16.subsetFamily NLA.IE16.explicitL 4) S →
+    IsLeast.{0} (NLA.IE16.feasibleValues S 4) (NLA.IE16.M S 4)
+'NLA.IE16.every_five_point_subset_minimum_isLeast' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.subset_max_upper : LT.lt.{0} (NLA.IE16.subsetMax NLA.IE16.explicitL 4) NLA.IE16.subsetUpperBound
+'NLA.IE16.subset_max_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.subset_max_positive : LT.lt.{0} 0 (NLA.IE16.subsetMax NLA.IE16.explicitL 4)
+'NLA.IE16.subset_max_positive' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.ratio_lower_bound : LT.lt.{0} NLA.IE16.ratioLowerBound
+  (HDiv.hDiv.{0, 0, 0} (NLA.IE16.M NLA.IE16.explicitL 4) (NLA.IE16.subsetMax NLA.IE16.explicitL 4))
+'NLA.IE16.ratio_lower_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.ratio_exceeds_candidate : LT.lt.{0} (HDiv.hDiv.{0, 0, 0} 4 Real.pi) NLA.IE16.ratioLowerBound
+'NLA.IE16.ratio_exceeds_candidate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.counterexample : NLA.IE16.ExplicitCertificate
+'NLA.IE16.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE16.not_IE16Conjecture : ¬NLA.IE16.IE16Conjecture
+'NLA.IE16.not_IE16Conjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

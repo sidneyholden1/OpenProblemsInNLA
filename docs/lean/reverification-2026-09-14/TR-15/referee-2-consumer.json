@@ -1,0 +1,55 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-tr15/docs/lean/reverification-2026-09-14/TR-15/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.TR15.lower_contractions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenvalues_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenpair_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_negative_eigenpair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.not_inheritanceConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "negative_eigenvalue_certificate",
+    "upper_negative_eigenpair_proved"
+  ],
+  "script_sha256": "16e3db0a7565e712a8ea3815cf4455076058b6ef69a09b72f4a65bee0ddd84ca",
+  "log_sha256": "a23d7097d2fb694679a4d2aa06506816878de6ee3962856b790c01f4dbc218aa"
+}

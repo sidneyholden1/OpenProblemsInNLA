@@ -1,0 +1,93 @@
+@NLA.MI22.singular_values_semantics : ∀ {n : ℕ},
+  LE.le.{0} 1 n →
+    ∀ (A : NLA.MI22.Mat n),
+      (∀ (j : ℕ), LE.le.{0} 0 (NLA.MI22.singularValue A j)) ∧
+        Antitone.{0, 0} (NLA.MI22.singularValue A) ∧
+          (∀ (j : ℕ), LE.le.{0} n j → Eq.{1} (NLA.MI22.singularValue A j) 0) ∧
+            (∀ (i : Fin n),
+                Eq.{1} (NLA.MI22.singularValue A ↑i)
+                  √(LinearMap.IsSymmetric.eigenvalues.{0, 0}
+                      (LinearMap.isSymmetric_adjoint_comp_self.{0, 0, 0} (Matrix.toEuclideanLin.{0, 0, 0} A))
+                      (of_eq_true
+                        (Eq.trans.{1}
+                          (congrFun'.{1, 1}
+                            (congrArg.{1, 1} Eq.{1} (Eq.trans.{1} finrank_euclideanSpace.{0, 0} (Fintype.card_fin n)))
+                            n)
+                          (eq_self.{1} n)))
+                      i)) ∧
+              Eq.{1} (NLA.MI22.singularValue A 0) (NLA.MI22.operatorNorm A)
+'NLA.MI22.singular_values_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.MI22.spectral_power_semantics : ∀ {n : ℕ} (A : NLA.MI22.Mat n) (hA : Matrix.PosDef.{0, 0} A) (r : ℝ),
+  Eq.{1} (NLA.MI22.spectralPower A r)
+    (HMul.hMul.{0, 0, 0}
+      (HMul.hMul.{0, 0, 0} (↑(Matrix.IsHermitian.eigenvectorUnitary.{0, 0} (Matrix.PosDef.isHermitian.{0, 0} hA)))
+        (Matrix.diagonal.{0, 0} fun i =>
+          ↑(HPow.hPow.{0, 0, 0} (Matrix.IsHermitian.eigenvalues.{0, 0} (Matrix.PosDef.isHermitian.{0, 0} hA) i) r)))
+      (Matrix.conjTranspose.{0, 0, 0}
+        ↑(Matrix.IsHermitian.eigenvectorUnitary.{0, 0} (Matrix.PosDef.isHermitian.{0, 0} hA))))
+'NLA.MI22.spectral_power_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.MI22.euclidean_norm_bounds : ∀ {n : ℕ} (A : NLA.MI22.Mat n),
+  LE.le.{0} (HPow.hPow.{0, 0, 0} (NLA.MI22.operatorNorm A) 2) (NLA.MI22.frobeniusSquared A) ∧
+    ∀ (x : EuclideanSpace.{0, 0} ℂ (Fin n)) (i : Fin n),
+      LE.le.{0} (norm.{0} (WithLp.ofLp.{0} ((Matrix.toEuclideanCLM.{0, 0} A) x) i))
+        (HMul.hMul.{0, 0, 0} (NLA.MI22.operatorNorm A) (norm.{0} x))
+'NLA.MI22.euclidean_norm_bounds' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI22.witness_rational_data : Eq.{1} NLA.MI22.witnessT
+    (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} NLA.MI22.witnessLDL NLA.MI22.witnessPivots)
+      (Matrix.conjTranspose.{0, 0, 0} NLA.MI22.witnessLDL)) ∧
+  Eq.{1} NLA.MI22.witnessA
+      (Matrix.diagonal.{0, 0}
+        (Matrix.vecCons.{0} 256 (Matrix.vecCons.{0} (1 / 256) (Matrix.vecCons.{0} 1 Matrix.vecEmpty.{0})))) ∧
+    Matrix.PosDef.{0, 0} NLA.MI22.witnessT ∧
+      Matrix.PosDef.{0, 0} NLA.MI22.witnessA ∧
+        Matrix.PosDef.{0, 0} NLA.MI22.witnessB ∧
+          Eq.{1} (norm.{0} NLA.MI22.witnessVector) 1 ∧
+            LT.lt.{0} (Matrix.trace.{0, 0} NLA.MI22.witnessB).re (HPow.hPow.{0, 0, 0} 4 8) ∧
+              LT.lt.{0} 44000 NLA.MI22.witnessTestValue ∧
+                LT.lt.{0} (NLA.MI22.frobeniusSquared (HMul.hMul.{0, 0, 0} NLA.MI22.witnessA NLA.MI22.witnessB))
+                  (HPow.hPow.{0, 0, 0} 10500 2)
+'NLA.MI22.witness_rational_data' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI22.witness_principal_powers : Eq.{1} (NLA.MI22.spectralPower NLA.MI22.witnessA (1 / 2)) NLA.MI22.witnessD ∧
+  Eq.{1} (NLA.MI22.spectralPower NLA.MI22.witnessA (-1 / 2)) NLA.MI22.witnessDInv ∧
+    Eq.{1} (NLA.MI22.spectralPower NLA.MI22.witnessA (1 / 8)) NLA.MI22.witnessAOneEighth ∧
+      Eq.{1} (NLA.MI22.spectralPower NLA.MI22.witnessA (5 / 8)) NLA.MI22.witnessAFiveEighths ∧
+        Eq.{1}
+            (NLA.MI22.spectralPower
+              (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} NLA.MI22.witnessDInv NLA.MI22.witnessB) NLA.MI22.witnessDInv)
+              (1 / 8))
+            NLA.MI22.witnessT ∧
+          Eq.{1} (NLA.MI22.weightedMean NLA.MI22.witnessA NLA.MI22.witnessB (1 / 8))
+              (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} NLA.MI22.witnessD NLA.MI22.witnessT) NLA.MI22.witnessD) ∧
+            Matrix.PosDef.{0, 0} NLA.MI22.witnessRoot ∧
+              Eq.{1} (HPow.hPow.{0, 0, 0} NLA.MI22.witnessRoot 8) NLA.MI22.witnessB ∧
+                Eq.{1} (HMul.hMul.{0, 0, 0} (NLA.MI22.spectralPower NLA.MI22.witnessB (7 / 8)) NLA.MI22.witnessRoot)
+                    NLA.MI22.witnessB ∧
+                  Eq.{1}
+                      (HMul.hMul.{0, 0, 0} (NLA.MI22.leftProduct NLA.MI22.witnessA NLA.MI22.witnessB (1 / 8))
+                        NLA.MI22.witnessRoot)
+                      NLA.MI22.witnessN ∧
+                    LT.lt.{0} (NLA.MI22.operatorNorm NLA.MI22.witnessRoot) 4
+'NLA.MI22.witness_principal_powers' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI22.witness_operator_gap : LT.lt.{0}
+    (NLA.MI22.operatorNorm (HMul.hMul.{0, 0, 0} NLA.MI22.witnessA NLA.MI22.witnessB)) 10500 ∧
+  LT.lt.{0} 11000 (NLA.MI22.operatorNorm (NLA.MI22.leftProduct NLA.MI22.witnessA NLA.MI22.witnessB (1 / 8)))
+'NLA.MI22.witness_operator_gap' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI22.counterexample : Matrix.PosDef.{0, 0} NLA.MI22.witnessA ∧
+  Matrix.PosDef.{0, 0} NLA.MI22.witnessB ∧
+    LE.le.{0} 0 (1 / 8) ∧
+      LE.le.{0} (1 / 8) 1 ∧
+        LT.lt.{0} (NLA.MI22.singularValue (HMul.hMul.{0, 0, 0} NLA.MI22.witnessA NLA.MI22.witnessB) 0)
+            (NLA.MI22.singularValue (NLA.MI22.leftProduct NLA.MI22.witnessA NLA.MI22.witnessB (1 / 8)) 0) ∧
+          ¬NLA.MI22.SingularLogMajorized (NLA.MI22.leftProduct NLA.MI22.witnessA NLA.MI22.witnessB (1 / 8))
+              (HMul.hMul.{0, 0, 0} NLA.MI22.witnessA NLA.MI22.witnessB)
+'NLA.MI22.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI22.not_weightedLogMajorizationConjecture : ¬NLA.MI22.WeightedLogMajorizationConjecture
+'NLA.MI22.not_weightedLogMajorizationConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MI22.numerical_separation : LT.lt.{0} 10500 11000 :=
+have h0 :=
+  LeanCert.Validity.verify_strict_upper_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 10500 1))
+    (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl.{0} (Rat.divInt 0 1)) (Rat.divInt 11000 1) (-53) 10
+    (of_decide_eq_true (id.{0} (Eq.refl.{1} true))) NLA.MI22.numerical_separation._proof_1_7 ↑(Rat.divInt 0 1)
+    ⟨le_refl.{0} ↑(Rat.divInt 0 1), le_refl.{0} ↑(Rat.divInt 0 1)⟩;
+h0
+'NLA.MI22.numerical_separation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

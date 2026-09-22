@@ -1,0 +1,204 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only before proof inspection",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "randomized-and-low-rank-approximation/RA-20/README.md": {
+      "sha256": "a5ee7fe9418b277cad5b8e89cb12e0b1e6eedd6d9c0af679983355b40cce4056",
+      "bytes": 8959,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/README.md": {
+      "sha256": "602bdad1d0ce5a5bd9e9ad7333f69054ed75afda52a9125b95fb74cd2dc0ed17",
+      "bytes": 14732,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "49f21f2c6ab50b9f74b11cf0e37312dde08a4b7ddc62a17d37c6e3fb091f6e6d",
+      "bytes": 4891,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/Challenge.lean": {
+      "sha256": "eb62545ea3e527c186b832a186fbaefa560409bf23be74486b9b00f04e00a2e9",
+      "bytes": 3441,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/comparator.json": {
+      "sha256": "6c2cdc312b67ae62ce0d453504f83b7bba392d4ef9c0dc21d35dbd20287089c2",
+      "bytes": 688,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/formalization.yaml": {
+      "sha256": "368d4b1e3b0b7788a096e49440c6ee77c39d6e9b4e25dca09cd85d59d49bb112",
+      "bytes": 24797,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/lake-manifest.json": {
+      "sha256": "d702ffa473f5b78d8b5dcbd4f1afb640738265470f6124f69bfa13e120ad165a",
+      "bytes": 3884,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/lakefile.toml": {
+      "sha256": "5dabc84a0201d4ac2b992e6f57d91951da73208942de4fda79fd794461993fbb",
+      "bytes": 281,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/NLA/RA20/Definitions.lean": {
+      "sha256": "a649164ee7f11e88d8bfae4167ee0d9b9252a8683f253ab5a69981cde0e7cf94",
+      "bytes": 6250,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/solution.md": {
+      "sha256": "a91a56513b3181fc6b9a5bd5d1cb43565bcd58c0e4c16831c663030d645d877b",
+      "bytes": 2871,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/solution.tex": {
+      "sha256": "428383fd4b33a1c4e64e4c847cf2ccbb438a9a2f03c5c74ff4a0b01a7e66d530",
+      "bytes": 4615,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-20/lean/SourceCorrespondence.md": {
+      "sha256": "a74bb3d1868a04495a975e7a4a57dba8570f841c3838b35858d2ed5c1e40c36b",
+      "bytes": 5069,
+      "read_method": "local source and immutable Git comparison"
+    }
+  },
+  "actual_imported_semantics_sha256": {
+    "RingTheory/Nullstellensatz.lean": "4cff1e3d1983296280326087593b18b6a055088727c9b5e768291a0459f24ee1",
+    "RingTheory/Smooth/Locus.lean": "dbb70cd66b3cf35d6a819269ce370ad918d18fd3fab217c0f235a63f0449bb71",
+    "Analysis/Calculus/FDeriv/Defs.lean": "82628404673d0691bdfdfb757cce7308a628abcdff75f1909611efa44d105a9b",
+    "LinearAlgebra/Matrix/Rank.lean": "67b4fa7bee02c1806f29562718bfb34c0e1f40af5ec6a91ef91cc33610657491"
+  },
+  "exports": [
+    "NLA.RA20.hollow_variety_semantics",
+    "NLA.RA20.reduced_coordinate_ring",
+    "NLA.RA20.algebraic_smooth_locus",
+    "NLA.RA20.algebraic_tangent_space",
+    "NLA.RA20.full_frobenius_differential",
+    "NLA.RA20.hollow_distance_semantics",
+    "NLA.RA20.generic_critical_locus",
+    "NLA.RA20.component_hessians",
+    "NLA.RA20.generic_data_intersection",
+    "NLA.RA20.generic_count_three",
+    "NLA.RA20.generic_count_not_four",
+    "NLA.RA20.not_criticalCountConjecture"
+  ],
+  "numerical_diagnostics": {
+    "verdict": "PASS",
+    "independent_diagnostic_not_Lean_proof": true,
+    "determinant_polynomial": {
+      "1,1,1,0,0,0,0,0,0": "2"
+    },
+    "gradient_abc": [
+      {
+        "0,1,1,0,0,0,0,0,0": "1"
+      },
+      {
+        "1,0,1,0,0,0,0,0,0": "1"
+      },
+      {
+        "1,1,0,0,0,0,0,0,0": "1"
+      }
+    ],
+    "full_metric_polynomial_identity": true,
+    "gradient_coefficients": 4,
+    "Hessian": "4 I_2 on each of the three plane charts",
+    "Hessian_det": 16,
+    "example_candidates": [
+      [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ]
+    ],
+    "example_distances": [
+      "16",
+      "22",
+      "32"
+    ],
+    "predicted_3_3": 4,
+    "actual_candidate_count": 3,
+    "limitation": "Reduced whole vanishing ideal, genuine smooth locus/tangents and generic-open intersection/exhaustion/cardinality require universal Lean proof. Optional rational data is not genericity evidence."
+  },
+  "numerical_evidence_sha256": "8c6f4b9f70c8abe3e3654619d9af4adc41f1048e087c21683bbdc1183adf31ff",
+  "numerical_log_sha256": "663135eeb262a7647869f841dc2db62d55563b9141de9f6ecfd90d721470369d",
+  "numerical_generator_sha256": "f45cc7bc6269a839d011114958c888167df489e27a8495d217e866407c021dda",
+  "coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra20/randomized-and-low-rank-approximation/RA-20/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 40.464,
+    "log_sha256": "e7e23741b84e652be072b3666abce5dbcd0165c8ad2ef330d294f88861b0fccb"
+  },
+  "coordinator_receipt_sha256": "a93ec2a44548e5076dde08332edc524d671382f8078a80b8165264fc0fd5cb21",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

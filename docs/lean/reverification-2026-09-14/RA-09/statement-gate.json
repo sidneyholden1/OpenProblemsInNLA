@@ -1,0 +1,32 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T17:05:23.569398+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/RA-09/STATEMENT-REFEREE-1.md": "4bf9a7bef9a86673d2d01edd29fa9154a961d24d98e7c840d0d096651aa32846",
+    "docs/lean/reverification-2026-09-14/RA-09/STATEMENT-REFEREE-2.md": "d5e094d31705783661c44f97e8f5c0e8872f0aef53f88f26f62e3e042ea998b3",
+    "randomized-and-low-rank-approximation/RA-09/lean/Solution.lean": "fc80b094cc7c7cb519e5f812066a87e29e8283cd8f9858ef6f3d04c9f5e2bbbb",
+    "randomized-and-low-rank-approximation/RA-09/lean/Challenge.lean": "5b275a09558f3b03b67b4ef0c7764db854d9c516190f05135a426c14eb7b1e6e",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Overlap.lean": "759490c0b1a3a17eff13a683fae049474913ed2eec03f5dfa1e9c6722e06c173",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/ZeroColumn.lean": "c5a21c431bc1118466097e9e761c9c95e113162c69379b397c8e76ec21038c00",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Harmonic.lean": "629f355ef949d3f11acbba443fe1ba8a77d7ac89fb10e76f223ef5a47e7be91e",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Definitions.lean": "2a9b0d9d536bc2620fbe3814ed95640caeae8a49e8b13a9e2136b469ba09ece9",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/ZeroTail.lean": "45ccfc67b7c59ce13d38d2822c69c36bd36519a9516798ca9d02074cb5e61dae",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/OrderedExistence.lean": "beca9c7b9ca9c4b4b467acbbbe13acd3e25507c4653a71ab9a480494726a1631",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Scalar.lean": "be27edbd0f42e83fb825095bae65c48c8d90e8d1614ed90871abace1f55b6f17",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Proof.lean": "1661afe661293f8b19e83714b6bc25a076ce10109875d79e9c118f9291e565bd",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Frobenius.lean": "f2d038d3d2f5195074ab5acc973771aaf57782d9ce9271c6fbc7132f8178c6ad",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Spectral.lean": "5a5cb2bb37b3c78f6e794420b9b54d7c97a94ad3824d7acdef61f17988969c45",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Averaging.lean": "1893a4f432261ead1efd291564ac1b3ba9a1be5cb59c74d755e01a9c5a5b2eb9",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/SpectralCFC.lean": "b80049d98243a1cd19cac41ac28775f1e0f07ebb626963131f2e79ed257ab89d",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Transfer.lean": "45eac6374a1c836b89e903f218a45c9f3857e3f502528cdb02fb64a8367c6292",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/TailScale.lean": "83b9619cadb1f02b19d38b3efce0cb0217a3c288796d492157a0bee629899729",
+    "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/OverlapOrder.lean": "be16577398f0dfbedcd41d5fa22b105f961dffccffe2aa8eda633f5ead72923c",
+    "randomized-and-low-rank-approximation/RA-09/lean/NUMERICAL_TARGETS.md": "638e5a3c5c87bc284eee127ac11dde58fba9d9c705e40669efcd1dcb91ed52ee",
+    "randomized-and-low-rank-approximation/RA-09/lean/comparator.json": "dc16c0577badd3cefa27669c7efd3bdf525a21e5f45516e8b1f2d32158cca6cd",
+    "randomized-and-low-rank-approximation/RA-09/lean/formalization.yaml": "f5ff355cd95e2ba3fc0d90fc5861906c096141e2506ffdf49a21e2b9a4cb0315",
+    "randomized-and-low-rank-approximation/RA-09/README.md": "9917498babd69d603087c02f5858261978d13be602a99a76830d4a067eb62b57"
+  }
+}

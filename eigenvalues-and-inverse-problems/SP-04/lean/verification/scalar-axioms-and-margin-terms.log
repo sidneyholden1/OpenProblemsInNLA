@@ -1,0 +1,309 @@
+'NLA.SP04.positive_multiplier_exclusion_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP04.selected_negative_root_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP04.scalar_unique_least' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.SP04.low_product_margin : 3 / 10 * (44 / 25) ^ 2 < 1 :=
+Eq.mpr (id (congrFun' (congrArg LT.lt (congrArg (HMul.hMul (3 / 10)) (pow_two (44 / 25)))) 1))
+  (have h0 :=
+    LeanCert.Validity.verify_strict_upper_bound_dyadic_checked
+      (((LeanCert.Core.Expr.const (Rat.divInt 3 1)).mul (LeanCert.Core.Expr.const (Rat.divInt 1 10))).mul
+        (((LeanCert.Core.Expr.const (Rat.divInt 44 1)).mul (LeanCert.Core.Expr.const (Rat.divInt 1 25))).mul
+          ((LeanCert.Core.Expr.const (Rat.divInt 44 1)).mul (LeanCert.Core.Expr.const (Rat.divInt 1 25)))))
+      (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl (Rat.divInt 0 1)) (Rat.divInt 1 1) (-53) 10
+      (of_decide_eq_true (id (Eq.refl true))) NLA.SP04.low_product_margin._proof_1_4 ↑(Rat.divInt 0 1)
+      ⟨le_refl ↑(Rat.divInt 0 1), le_refl ↑(Rat.divInt 0 1)⟩;
+  Eq.mpr
+    (eq_of_heq
+      ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+          Eq.casesOn (motive := fun a_2 x => a' = a_2 → e'_3 ≍ x → (a < a_1) ≍ (a' < a'_1)) e'_3
+            (fun h =>
+              Eq.ndrec (motive := fun a' => ∀ (e_3 : a = a'), e_3 ≍ Eq.refl a → (a < a_1) ≍ (a' < a'_1))
+                (fun e_3 h =>
+                  Eq.casesOn (motive := fun a_2 x => a'_1 = a_2 → e'_4 ≍ x → (a < a_1) ≍ (a < a'_1)) e'_4
+                    (fun h =>
+                      Eq.ndrec (motive := fun a' => ∀ (e_4 : a_1 = a'), e_4 ≍ Eq.refl a_1 → (a < a_1) ≍ (a < a'))
+                        (fun e_4 h => HEq.refl (a < a_1)) (Eq.symm h) e'_4)
+                    (Eq.refl a'_1) (HEq.refl e'_4))
+                (Eq.symm h) e'_3)
+            (Eq.refl a') (HEq.refl e'_3))
+        ℝ Real.instLT (3 / 10 * (44 / 25 * (44 / 25)))
+        (↑(↑3 / ↑1) * ↑(↑1 / ↑10) * (↑(↑44 / ↑1) * ↑(↑1 / ↑25) * (↑(↑44 / ↑1) * ↑(↑1 / ↑25))))
+        (Mathlib.Meta.NormNum.isNNRat_eq_true
+          (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+            (Mathlib.Meta.NormNum.isNNRat_div
+              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 3)))
+                (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 10))))
+                (Eq.refl (Nat.mul 3 1)) (Eq.refl 10)))
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.isNNRat_div
+                (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 44)))
+                  (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 25))))
+                  (Eq.refl (Nat.mul 44 1)) (Eq.refl 25)))
+              (Mathlib.Meta.NormNum.isNNRat_div
+                (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 44)))
+                  (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 25))))
+                  (Eq.refl (Nat.mul 44 1)) (Eq.refl 25)))
+              (Eq.refl (Nat.mul 44 44)) (Eq.refl 625))
+            (Eq.refl (Nat.mul 3 1936)) (Eq.refl 6250))
+          (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                (Mathlib.Meta.NormNum.isNat_ratCast
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                    (Mathlib.Meta.NormNum.isNNRat_div
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                          (Mathlib.Meta.NormNum.isNat_intCast 3 3 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 3)))
+                          (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                            (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                          (Eq.refl 3)))))))
+              (Mathlib.Meta.NormNum.isNNRat_ratCast
+                (Mathlib.Meta.NormNum.isNNRat_div
+                  (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                      (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+                    (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_intCast 10 10 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 10)))))
+                    (Eq.refl (Nat.mul 1 1)) (Eq.refl 10))))
+              (Eq.refl (Nat.mul 3 1)) (Eq.refl 10))
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_ratCast
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                      (Mathlib.Meta.NormNum.isNNRat_div
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                            (Mathlib.Meta.NormNum.isNat_intCast 44 44 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 44)))
+                            (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                    (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                            (Eq.refl 44)))))))
+                (Mathlib.Meta.NormNum.isNNRat_ratCast
+                  (Mathlib.Meta.NormNum.isNNRat_div
+                    (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_intCast 25 25 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 25)))))
+                      (Eq.refl (Nat.mul 1 1)) (Eq.refl 25))))
+                (Eq.refl (Nat.mul 44 1)) (Eq.refl 25))
+              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_ratCast
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                      (Mathlib.Meta.NormNum.isNNRat_div
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                            (Mathlib.Meta.NormNum.isNat_intCast 44 44 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 44)))
+                            (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                    (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                            (Eq.refl 44)))))))
+                (Mathlib.Meta.NormNum.isNNRat_ratCast
+                  (Mathlib.Meta.NormNum.isNNRat_div
+                    (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_intCast 25 25 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 25)))))
+                      (Eq.refl (Nat.mul 1 1)) (Eq.refl 25))))
+                (Eq.refl (Nat.mul 44 1)) (Eq.refl 25))
+              (Eq.refl (Nat.mul 44 44)) (Eq.refl 625))
+            (Eq.refl (Nat.mul 3 1936)) (Eq.refl 6250)))
+        1 (↑(↑1 / ↑1))
+        (Mathlib.Meta.NormNum.isNat_eq_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one)
+          (Mathlib.Meta.NormNum.isNat_ratCast
+            (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+              (Mathlib.Meta.NormNum.isNNRat_div
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                    (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                    (Eq.refl 1)))))))))
+    (Eq.mp
+      (congr
+        (congrArg LT.lt
+          (congr
+            (congrArg HMul.hMul
+              (congr (congrArg HMul.hMul (congrArg Rat.cast (Rat.divInt_eq_div 3 1)))
+                (congrArg Rat.cast (Rat.divInt_eq_div 1 10))))
+            (congr
+              (congrArg HMul.hMul
+                (congr (congrArg HMul.hMul (congrArg Rat.cast (Rat.divInt_eq_div 44 1)))
+                  (congrArg Rat.cast (Rat.divInt_eq_div 1 25))))
+              (congr (congrArg HMul.hMul (congrArg Rat.cast (Rat.divInt_eq_div 44 1)))
+                (congrArg Rat.cast (Rat.divInt_eq_div 1 25))))))
+        (congrArg Rat.cast (Rat.divInt_eq_div 1 1)))
+      h0))
+theorem NLA.SP04.high_product_margin : 2 / 5 * (3 / 2) ^ 2 < 1 :=
+Eq.mpr (id (congrFun' (congrArg LT.lt (congrArg (HMul.hMul (2 / 5)) (pow_two (3 / 2)))) 1))
+  (have h0 :=
+    LeanCert.Validity.verify_strict_upper_bound_dyadic_checked
+      (((LeanCert.Core.Expr.const (Rat.divInt 2 1)).mul (LeanCert.Core.Expr.const (Rat.divInt 1 5))).mul
+        (((LeanCert.Core.Expr.const (Rat.divInt 3 1)).mul (LeanCert.Core.Expr.const (Rat.divInt 1 2))).mul
+          ((LeanCert.Core.Expr.const (Rat.divInt 3 1)).mul (LeanCert.Core.Expr.const (Rat.divInt 1 2)))))
+      (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl (Rat.divInt 0 1)) (Rat.divInt 1 1) (-53) 10
+      (of_decide_eq_true (id (Eq.refl true))) NLA.SP04.high_product_margin._proof_1_4 ↑(Rat.divInt 0 1)
+      ⟨le_refl ↑(Rat.divInt 0 1), le_refl ↑(Rat.divInt 0 1)⟩;
+  Eq.mpr
+    (eq_of_heq
+      ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+          Eq.casesOn (motive := fun a_2 x => a' = a_2 → e'_3 ≍ x → (a < a_1) ≍ (a' < a'_1)) e'_3
+            (fun h =>
+              Eq.ndrec (motive := fun a' => ∀ (e_3 : a = a'), e_3 ≍ Eq.refl a → (a < a_1) ≍ (a' < a'_1))
+                (fun e_3 h =>
+                  Eq.casesOn (motive := fun a_2 x => a'_1 = a_2 → e'_4 ≍ x → (a < a_1) ≍ (a < a'_1)) e'_4
+                    (fun h =>
+                      Eq.ndrec (motive := fun a' => ∀ (e_4 : a_1 = a'), e_4 ≍ Eq.refl a_1 → (a < a_1) ≍ (a < a'))
+                        (fun e_4 h => HEq.refl (a < a_1)) (Eq.symm h) e'_4)
+                    (Eq.refl a'_1) (HEq.refl e'_4))
+                (Eq.symm h) e'_3)
+            (Eq.refl a') (HEq.refl e'_3))
+        ℝ Real.instLT (2 / 5 * (3 / 2 * (3 / 2)))
+        (↑(↑2 / ↑1) * ↑(↑1 / ↑5) * (↑(↑3 / ↑1) * ↑(↑1 / ↑2) * (↑(↑3 / ↑1) * ↑(↑1 / ↑2))))
+        (Mathlib.Meta.NormNum.isNNRat_eq_true
+          (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+            (Mathlib.Meta.NormNum.isNNRat_div
+              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)))
+                (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 5))))
+                (Eq.refl (Nat.mul 2 1)) (Eq.refl 5)))
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.isNNRat_div
+                (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 3)))
+                  (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+                  (Eq.refl (Nat.mul 3 1)) (Eq.refl 2)))
+              (Mathlib.Meta.NormNum.isNNRat_div
+                (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 3)))
+                  (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+                  (Eq.refl (Nat.mul 3 1)) (Eq.refl 2)))
+              (Eq.refl (Nat.mul 3 3)) (Eq.refl 4))
+            (Eq.refl (Nat.mul 2 9)) (Eq.refl 20))
+          (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                (Mathlib.Meta.NormNum.isNat_ratCast
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                    (Mathlib.Meta.NormNum.isNNRat_div
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                          (Mathlib.Meta.NormNum.isNat_intCast 2 2 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2)))
+                          (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                            (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                          (Eq.refl 2)))))))
+              (Mathlib.Meta.NormNum.isNNRat_ratCast
+                (Mathlib.Meta.NormNum.isNNRat_div
+                  (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                      (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+                    (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_intCast 5 5 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 5)))))
+                    (Eq.refl (Nat.mul 1 1)) (Eq.refl 5))))
+              (Eq.refl (Nat.mul 2 1)) (Eq.refl 5))
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_ratCast
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                      (Mathlib.Meta.NormNum.isNNRat_div
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                            (Mathlib.Meta.NormNum.isNat_intCast 3 3 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 3)))
+                            (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                    (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                            (Eq.refl 3)))))))
+                (Mathlib.Meta.NormNum.isNNRat_ratCast
+                  (Mathlib.Meta.NormNum.isNNRat_div
+                    (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_intCast 2 2 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2)))))
+                      (Eq.refl (Nat.mul 1 1)) (Eq.refl 2))))
+                (Eq.refl (Nat.mul 3 1)) (Eq.refl 2))
+              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_ratCast
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                      (Mathlib.Meta.NormNum.isNNRat_div
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                            (Mathlib.Meta.NormNum.isNat_intCast 3 3 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 3)))
+                            (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_intCast 1 1
+                                    (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                            (Eq.refl 3)))))))
+                (Mathlib.Meta.NormNum.isNNRat_ratCast
+                  (Mathlib.Meta.NormNum.isNNRat_div
+                    (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                        (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_intCast 2 2 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2)))))
+                      (Eq.refl (Nat.mul 1 1)) (Eq.refl 2))))
+                (Eq.refl (Nat.mul 3 1)) (Eq.refl 2))
+              (Eq.refl (Nat.mul 3 3)) (Eq.refl 4))
+            (Eq.refl (Nat.mul 2 9)) (Eq.refl 20)))
+        1 (↑(↑1 / ↑1))
+        (Mathlib.Meta.NormNum.isNat_eq_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one)
+          (Mathlib.Meta.NormNum.isNat_ratCast
+            (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+              (Mathlib.Meta.NormNum.isNNRat_div
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                  (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                    (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                          (Mathlib.Meta.NormNum.isNat_intCast 1 1 (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1))))))
+                    (Eq.refl 1)))))))))
+    (Eq.mp
+      (congr
+        (congrArg LT.lt
+          (congr
+            (congrArg HMul.hMul
+              (congr (congrArg HMul.hMul (congrArg Rat.cast (Rat.divInt_eq_div 2 1)))
+                (congrArg Rat.cast (Rat.divInt_eq_div 1 5))))
+            (congr
+              (congrArg HMul.hMul
+                (congr (congrArg HMul.hMul (congrArg Rat.cast (Rat.divInt_eq_div 3 1)))
+                  (congrArg Rat.cast (Rat.divInt_eq_div 1 2))))
+              (congr (congrArg HMul.hMul (congrArg Rat.cast (Rat.divInt_eq_div 3 1)))
+                (congrArg Rat.cast (Rat.divInt_eq_div 1 2))))))
+        (congrArg Rat.cast (Rat.divInt_eq_div 1 1)))
+      h0))

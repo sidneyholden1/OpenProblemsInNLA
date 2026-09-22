@@ -34,7 +34,7 @@ intervals},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IV-03}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-15}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,7 +51,7 @@ vertex test for inverse M-matrix intervals\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -87,6 +87,40 @@ The difficulty, importance and rating rationale below are historical
 assessments of the original open target. The original statement and
 dated audits are preserved.
 
+\subsection{Lean verification --- 15 September
+2026}\label{lean-verification-15-september-2026}
+
+The complete original question has a formally verified affirmative
+answer: for every positive dimension and every ordered pair of real
+entrywise interval endpoints, the \(n^2\) negative-sign vertices
+characterize the entire interval consisting of inverse M-matrices. This
+proves the full original two-sign criterion. Zero widths, zero entries
+and reducible matrices are included; no interval regularity or
+nonsingularity assumption is added. The manuscript's arithmetic and
+bit-complexity claims are outside this formalization.
+
+All four reviewed statements passed LeanCert kernel trust audits,
+standard-axiom checks, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380}{fresh
+isolated Linux Comparator/default-kernel verification} at the
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean}{immutable
+proof revision}. Two independent statement reviews preceded
+implementation and two independent nonauthor final code reviews passed.
+Actual rejection and sandbox controls passed.
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J.
+Colbrook retains mathematical authorship as recorded in the source.
+Reviews are AI-agent reviews, not external human peer review or official
+Tau Ceti endorsement; no source-author endorsement of the formalization
+is asserted.
+
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean}{Proof
+and reviews} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-iv03/docs/lean/verification-2026-09-15/IV-03}{Retained
+Linux evidence}.
+
+\newpage
+
 \subsection{Problem statement}\label{problem-statement}
 
 A real square matrix \(M\) is a nonsingular M-matrix if its off-diagonal
@@ -97,26 +131,22 @@ matrix.
 For every \(n\ge1\), let \(L,U\in\mathbb R^{n\times n}\) satisfy
 \(L\le U\) entrywise, and set
 
-\[
-\mathcal A=\{A:L\le A\le U\},\qquad C=(L+U)/2,\qquad R=(U-L)/2.
-\]
+\[\mathcal A=\{A:L\le A\le U\},\qquad C=(L+U)/2,\qquad R=(U-L)/2.\]
 
 For \(i=1,\ldots,n\), let \(z^{(i)}\) have entry \(-1\) in position
 \(i\) and entry \(1\) elsewhere, and write
-\(D_i=\operatorname{diag}(z^{(i)})\).
+\(D_i=\mathop{\mathrm{diag}}\nolimits(z^{(i)})\).
 
 Is the following equivalence true?
 
-\[
-\begin{gathered}
+\[\begin{gathered}
 \bigl[\text{every }A\in\mathcal A\text{ is an inverse M-matrix}\bigr]
 \\\Longleftrightarrow\\
 \left[\begin{gathered}
 C+sD_iRD_j\text{ is an inverse M-matrix}\\
 \text{for every }i,j\in\{1,\ldots,n\}\text{ and }s\in\{-1,1\}
 \end{gathered}\right].
-\end{gathered}
-\]
+\end{gathered}\]
 
 All entries in the interval vary independently, and degenerate intervals
 are allowed. The proposed test uses at most \(2n^2\) matrices; repeated
@@ -124,7 +154,6 @@ test matrices are harmless. This would give a small exact certificate
 for a structured property needed in interval inversion and verified
 linear-system computation.
 
-\newpage
 \subsection{References}\label{references}
 
 Milan Hladík,

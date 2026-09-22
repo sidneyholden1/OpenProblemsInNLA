@@ -1,0 +1,11 @@
+✔ [2382/2384] Built NLA.IE23.Definitions (13s)
+⚠ [2383/2384] Built Challenge (10s)
+warning: Challenge.lean:13:8: declaration uses `sorry`
+warning: Challenge.lean:23:8: declaration uses `sorry`
+warning: Challenge.lean:36:8: declaration uses `sorry`
+warning: Challenge.lean:49:8: declaration uses `sorry`
+warning: Challenge.lean:60:8: declaration uses `sorry`
+warning: Challenge.lean:69:8: declaration uses `sorry`
+warning: Challenge.lean:75:8: declaration uses `sorry`
+warning: Challenge.lean:81:8: declaration uses `sorry`
+Build completed successfully (2384 jobs).

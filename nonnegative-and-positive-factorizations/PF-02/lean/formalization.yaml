@@ -1,0 +1,119 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'PF-02: disconnected minimal PSD factorization orbits'
+  description: Complete negative answer to PF-02 using an explicit six-by-six positive matrix of minimal
+    real PSD factor size three and a continuous orientation on the genuine congruence quotient.
+  authors:
+  - Sidney Holden
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: PF-02 — Connectedness of minimal positive semidefinite factorization orbits
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/nonnegative-and-positive-factorizations/PF-02/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Original question by Fawzi, Gouveia, Parrilo, Robinson and Thomas.
+- title: An orientation obstruction to connectedness of minimal positive semidefinite factorization orbits
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex
+  type: manuscript
+  location: Theorem 1 and its complete proof in Sections 1–2
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Mathematical proof author Matthew J. Colbrook, University of Cambridge. The stronger all-size
+    extension is unnecessary for negating the universal question.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    prompting_notes: Statements before proofs; exact certificates; two independent statement and final
+      referees; LeanCert kernel trust audit and actual Lean Comparator required.
+  notes: AI-assisted work at Sidney Holden's request. No human peer review or source-author endorsement
+    asserted.
+status:
+  scope: 'Complete original negative answer. All nine exports pass kernel-only LeanCert and isolated Linux
+    Comparator/default-kernel replay at 61dae15457a532be05a9a54d8e1e4040fbefddbd; actual rejection and
+    sandbox controls pass. Two independent statement approvals preceded proof implementation and two independent
+    final code reviews passed. Linux run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34921326342.
+    No optional all-size extension is claimed.'
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: &id001
+  - propext
+  - Classical.choice
+  - Quot.sound
+  main_results:
+  - declaration: NLA.PF02.psd_rank_semantics
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.congruence_quotient_semantics
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.witness_exact_data
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.trace_coordinate_bridge
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.congruence_coordinate_identity
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.orientation_invariant
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.quotient_orientation
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.disconnected_counterexample
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.PF02.not_connectedOrbitConjecture
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+review:
+  status: independent-agent-code-reviewed; isolated-Linux-verified
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  - OpenAI Codex agent /root/new_target_screen
+  notes: Independent AI-agent reviews, not human peer review or official Tau Ceti endorsement. Statement
+    approvals and immutable boundary hashes are retained. Nine deliberate Challenge placeholders are excluded
+    from proof counts; Solution never imports Challenge.
+fidelity:
+  divergences: Zero-based finite indices; a single size-three counterexample negates the full original
+    universal target. Minimality uses the sufficient general k² rank bound instead of the stronger symmetric
+    dimension bound. The congruence determinant identity is proved directly as a polynomial in all nine
+    real entries. The genuine quotient has a continuous sign function with exactly two values; no claim
+    of exactly two connected components is made.
+acknowledgements: Original mathematical argument by Matthew J. Colbrook. Mathlib, LeanCert, Lean Comparator
+  and formalization.yaml retain their implementation credit and licenses.

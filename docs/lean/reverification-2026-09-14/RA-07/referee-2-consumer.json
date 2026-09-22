@@ -1,0 +1,47 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ra07/docs/lean/reverification-2026-09-14/RA-07/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ra07/randomized-and-low-rank-approximation/RA-07/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.RA07.elementary_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.generating_derivative_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.positive_derivative_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.power_sum_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.second_difference_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA07.errorSequence_convex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [],
+  "script_sha256": "004b07c8046bd2ca8ab35f8b0aceb78400fd2b8ad7fe347d8c2a89f4f6ac33e1",
+  "log_sha256": "65893ee7dfc3c7c6d040cee26ee113cfdc4258dcc720a390a3529ef1b4bd4853"
+}

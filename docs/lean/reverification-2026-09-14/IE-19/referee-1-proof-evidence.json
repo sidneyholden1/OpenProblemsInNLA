@@ -1,0 +1,154 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "82aee43d2dd0b1ef201134ed8d066b62b7fca890",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "linear-systems-and-elimination/IE-19/lean/Solution.lean",
+      "sha256": "72fa6092d37c32eb453af0ba83974cc541cb15730080c96dfbaa9226a6f6f658",
+      "lines": 35
+    },
+    "NLA.IE19.Proof": {
+      "path": "linear-systems-and-elimination/IE-19/lean/NLA/IE19/Proof.lean",
+      "sha256": "06a534c417911f7db8aca8310699c3862eaf535f8b34ec20b5551218c20a5460",
+      "lines": 136
+    },
+    "NLA.IE19.Definitions": {
+      "path": "linear-systems-and-elimination/IE-19/lean/NLA/IE19/Definitions.lean",
+      "sha256": "32dc631cd600154948963a875559cd610d974764fc77f13ab242a573c6dd22b3",
+      "lines": 67
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic",
+    "Mathlib.Analysis.Matrix.Normed",
+    "Mathlib.LinearAlgebra.Matrix.NonsingularInverse",
+    "Mathlib.LinearAlgebra.Matrix.Notation"
+  ],
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.IE19.counterexample",
+    "NLA.IE19.not_lowerBoundConjecture",
+    "NLA.IE19.not_sharpConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.IE19.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE19.not_lowerBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE19.not_sharpConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.IE19.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE19.not_lowerBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE19.not_sharpConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ie19/linear-systems-and-elimination/IE-19/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 195.944,
+    "log_sha256": "007c6986a8e7a44ed78fad29941174b112bf211fdecae9ba4bfaa5a3ee43a81c"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-ie19/docs/lean/reverification-2026-09-14/IE-19/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ie19/linear-systems-and-elimination/IE-19/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.IE19.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IE19.not_lowerBoundConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.IE19.not_sharpConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [
+      "strict_scalar_gap",
+      "counterexample_proved"
+    ],
+    "script_sha256": "1b2455dbe77f9d0ba97c35875ed09aa1aed89ca79dbda7724c83b1c186382641",
+    "log_sha256": "a3004d03441db3ef4b66f6ddb2b59d80c0627799d6c37f9205e50532475f351d"
+  },
+  "referee_2_numerical_execution": {
+    "route": "Explicit kernel leancert call elaborates to exact NormNum rational comparison, printed in consumer log; no dyadic interval claim.",
+    "receipts": {},
+    "consumer_material_terms": [
+      "strict_scalar_gap",
+      "counterexample_proved"
+    ]
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "c79e602bde37c5395eda1376635054776c72c1d803737e1dbfe0a963899627bb",
+    "NUMERICAL_TARGETS.md": "71bab6295627b5d68e63a41bfae8a5e82ce11900d334846636f85cf454814c24",
+    "comparator.json": "6b02baa6e01466ddde5188c32c90c1063d2ed5163f852b37f0ae776795eec27d",
+    "formalization.yaml": "bd55b7d5ef2b850578dd143bd757a168b2e4b0143ff74be16af991fe777ab433",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "0b2982e346ad245431120cb2eeafa466c9336f1e8bf11525312c0982cb840cb3",
+    "lakefile.toml": "10d0c9c9dc8b8ac29e372807b94ca53b644aa5c032e6c4b7eb32c90736be66ef"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "e45dc9293ddac55a982bb9014922c30c76d314a38171481db689ee6024fec7c4",
+    "solution-local.log": "007c6986a8e7a44ed78fad29941174b112bf211fdecae9ba4bfaa5a3ee43a81c",
+    "referee-2-consumer.lean": "1b2455dbe77f9d0ba97c35875ed09aa1aed89ca79dbda7724c83b1c186382641",
+    "referee-2-consumer.log": "a3004d03441db3ef4b66f6ddb2b59d80c0627799d6c37f9205e50532475f351d",
+    "referee-2-consumer.json": "38837378fb4f5a069c0dc75ae86e5da86f752d43732a60b76efd880f538b256c",
+    "statement-gate.json": "93355c2c2233bb0fa2975fe3d619a09c0527d0437822e66be3d38679bd23ceb6",
+    "STATEMENT-REFEREE-1.md": "1038b79df0addf23961356e8a5c22f1bad99f03cfe82864d853a6048ec10a3eb",
+    "referee-1-statement-evidence.json": "fc16a0b5e2992154838af58606d7ad31dcffb91abcf27daeb0361cdd80bbf169",
+    "referee-1-precheck.py": "5474834732e451bee2a6c6a7664f829ba134d49d2b1164d981384b0058958451",
+    "referee-1-precheck.log": "93182013ee399579a68783a85bd7fe77c5153165250e3ec9d1a6de511b59f1ef"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

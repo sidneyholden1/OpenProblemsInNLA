@@ -2,8 +2,8 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved  
-**Last checked:** 2026-09-11
+**Status:** Lean verified
+**Last checked:** 2026-09-14
 
 **Rating rationale:** Sharpness for every odd summand count needs a new extremal construction or obstruction; the payoff is concentrated in operator triangle inequalities.
 
@@ -16,6 +16,26 @@ The sharp additive contraction constant is $`c_k=k/4`$ for every $`k\ge2`$, incl
 The exact target is resolved. The original statement and source evidence are retained below; its former difficulty rating is historical.
 
 **Primary manuscript:** [complete proof PDF](solution.pdf), [standalone TeX](solution.tex), Theorem 1.1 and its proof; [authorship and scope](solution.md). The [independent review](../../references/colbrook-matrix-2026-09-11/verification/reviews/MI-03-review.md) checks the full original argument and records its hash. The draft was AI-assisted; this is independent agent verification, not external human peer review or formal certification. [Submission record](../../references/colbrook-matrix-2026-09-11/README.md).
+
+## Lean proof and verification evidence — 2026-09-14
+
+**The complete original target is Lean verified.** The complete original odd-summand conjecture is proved and, more strongly, the sharp additive contraction constant is k/4 for every k≥2. The formalization uses the actual complex Euclidean operator norm, positive square-root matrix modulus and positive-semidefinite order, with genuine infima of nonempty sets bounded below and exact dimension-two extremizers.
+
+[Immutable formal proof](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/4602650e944c7221952554f495ff76c39c8b0708/matrix-inequalities-and-norms/MI-03/lean). The checked exports are
+`NLA.MI03.upper_bound`, `NLA.MI03.sharpness`, `NLA.MI03.sharp_constant`, `NLA.MI03.odd_sharp_constant`. Lean 4.33.1 uses pinned Mathlib `0df444a3` and LeanCert `621a43d7`;
+[complete pins and reproduction instructions](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi03/matrix-inequalities-and-norms/MI-03/lean/README.md) are retained.
+All four exported transitive axiom closures contain only `propext`,
+`Classical.choice` and `Quot.sound`.
+
+**Formalization:** Sidney Holden, Center for Computational Biology, Flatiron
+Institute, Simons Foundation, with OpenAI Codex assistance. Matthew J. Colbrook
+retains mathematical authorship. Two independent statement reviews preceded
+implementation, and two independent final proof reviews passed. Kernel-only
+LeanCert and [fresh isolated Linux Comparator and kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862171380)
+passed, including rejection controls. [Original artifact, exact checked inputs
+and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi03/matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md)
+are retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
 
 ## Problem statement
 

@@ -1,0 +1,23 @@
+{
+  "verdict": "PASS for local build and active-source audit",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "bea9efc9d9345c7f2f47b4926cd1968f47b7cff9",
+  "all_active_files_unchanged_from_base": true,
+  "active_source_sha256": {
+    "linear-systems-and-elimination/IE-16/lean/Solution.lean": "9ec27288b7d4824b91a8c0006c7be1fd7e6493b2444ce45941bdb9104b17a419",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/Definitions.lean": "e4681f2083d71d8980adcd70e7cf26367e0e84dbc1773f4d2f082bf2417c9507",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/FinalContractsDraft.lean": "a0aa3d1e08cf699c06a397540987f166f76693c87c8ed427f8d30836a9b01752",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/FullMinimumDraft.lean": "78f9c847d1438c5ce1b53c49bf0178ccde7a8cb542ad07a0b99172542c7c95e6",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/Minimax.lean": "d933b2609842519f9af59b21699af15414a2768376fa9a7deb9decb84fd9842c",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/Numeric.lean": "1acf85379ec7c69a632726920ef6be780fa059ccb1e3e6c9f8273b2f7625164f",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/SubsetBoundsDraft.lean": "6a3bef42b0356e36db434099e87a4aa4d01682c2de09092497035fe796a33709",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/SubsetGeometryDraft.lean": "e0f73f3268d289371906e3df7388249b51e7ae93c0b1b7c0b5c8fe04449d48ab",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/WeightedBridgeDraft.lean": "e68654e1a1f21c1f29b2391edf69374365438c583ff4181323be29a39f6fd008",
+    "linear-systems-and-elimination/IE-16/lean/NLA/IE16/WeightedDraft.lean": "d87c2fe573fbdd31a85ca7170ee9f9700fd406243f44e4631f0feb243694a9e1"
+  },
+  "export_count": 15,
+  "printed_axiom_reports": 15,
+  "nonstandard_axioms": {},
+  "exports_without_printed_axioms_in_build_log": [],
+  "limitation": "Local cached dependency build; fresh referee export query and Linux Comparator are separate gates."
+}

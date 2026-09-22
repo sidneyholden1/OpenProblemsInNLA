@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS for local source build and byte preservation",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "4e07fd953ec0d53915af22cc0a30c821c207e3af",
+  "all_active_files_unchanged_from_base": true,
+  "active_source_sha256": {
+    "linear-systems-and-elimination/IE-23/lean/Solution.lean": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Minimizers.lean": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Definitions.lean": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Matrices.lean": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Actions.lean": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Proof.lean": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Norms.lean": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/FourthPower.lean": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6"
+  },
+  "export_count": 8,
+  "printed_axiom_reports": 16,
+  "nonstandard_axioms": {},
+  "exports_without_printed_axioms_in_build_log": [],
+  "limitation": "Local pinned cached dependency build; fresh independent consumer and Linux Comparator required separately."
+}

@@ -1,0 +1,17 @@
+{
+  "det_J": "27/4",
+  "det_S": "4",
+  "both_two_sided_inverse_products": true,
+  "all_entry_and_weak_dominance_assumptions": true,
+  "all_row_sums_K": [
+    "7/9",
+    "7/9",
+    "7/9"
+  ],
+  "all_row_sums_T": [
+    "5/4",
+    "5/4",
+    "5/4"
+  ],
+  "strict_gap": "17/36"
+}

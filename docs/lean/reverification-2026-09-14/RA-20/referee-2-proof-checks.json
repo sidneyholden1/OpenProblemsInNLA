@@ -1,0 +1,105 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "32e8d9416e0f6ae1735d4ea410113c0724afa102",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 11,
+  "export_count": 12,
+  "export_axioms": {
+    "NLA.RA20.hollow_variety_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.reduced_coordinate_ring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_smooth_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.algebraic_tangent_space": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.full_frobenius_differential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.hollow_distance_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_critical_locus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.component_hessians": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_data_intersection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.generic_count_not_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA20.not_criticalCountConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ra20/docs/lean/reverification-2026-09-14/RA-20/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-ra20/randomized-and-low-rank-approximation/RA-20/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/RingTheory/Smooth/Basic.lean": "3486edb7d2d00857dd0dbb9755cf7b89a5d24f26e7efb3d7656fd89512ee147b",
+    "mathlib/Mathlib/RingTheory/Smooth/Locus.lean": "dbb70cd66b3cf35d6a819269ce370ad918d18fd3fab217c0f235a63f0449bb71",
+    "mathlib/Mathlib/RingTheory/Nullstellensatz.lean": "4cff1e3d1983296280326087593b18b6a055088727c9b5e768291a0459f24ee1",
+    "mathlib/Mathlib/Algebra/MvPolynomial/Funext.lean": "cb1821884a139917b692103a0b267115179cd4e7084da5487857ec49abb0cc7e"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "3db0ab7f633474e9055574b14d15fc95b94dfbf682687038addde7373e4221a9",
+    "referee-2-active-inputs.json": "a133deaa3fb0166f9af8f01e092bc7a47c8366ebb82e56dddc08b4a8337b51a1",
+    "referee-2-consumer.lean": "308b6a192e81922309904073e22daf773e5075a147208c71f996d65b3032baa9",
+    "referee-2-consumer.log": "990d8f4b93a0bd420f3f311eac7a9835d6be1877f942f7e4eb67721f66e6de10",
+    "referee-2-consumer.json": "3cbfcfc244e0de21010fd271b252fdf63b232cac2baf1c320b6726ab21c7b4af",
+    "solution-local.json": "a3fe513d3e07686dd67a8505cdd7ed4b6616d1c450b123d213906e8b6d927ba7",
+    "solution-local.log": "020866aa2479669c9ce211b90a5f3369cdf3f926bfd2e920374395b98ec7359f",
+    "referee-2-numerical-checks.json": "8c6f4b9f70c8abe3e3654619d9af4adc41f1048e087c21683bbdc1183adf31ff",
+    "referee2_numerics.py": "f45cc7bc6269a839d011114958c888167df489e27a8495d217e866407c021dda",
+    "referee2_statements.py": "af9930b95db91b15ab2c3cd9a984d9e116a2a2a3f78abed392a267caa151b44b",
+    "referee2_consume.py": "29db27a8b0d7babd6331ac8217151e60d662ddcc478343b5c97064c33aa2a42b",
+    "referee2_proof_notes.json": "275abab14669253b7e5e804fe4ddf0f78b01b74c8f25208bedd5cdeb0f7a6c84",
+    "referee2_write_proofs.py": "dc8b4a79e3fed7be9c7523401310f41dd64bdcfbad7a6b356104fe550df32492"
+  },
+  "linux_status": "separate operational review required, not inferred from historical PASS"
+}

@@ -1,0 +1,2 @@
+/private/tmp/nla-reverify-mi06/docs/lean/reverification-2026-09-14/MI-06/referee-2-numerical-checker.lean:3:7: error(lean.unknownIdentifier): Unknown constant `_private.NLA.MI06.Proof.«0».NLA.MI06.scalar_squared_gap._proof_1_7`
+/private/tmp/nla-reverify-mi06/docs/lean/reverification-2026-09-14/MI-06/referee-2-numerical-checker.lean:4:14: error(lean.unknownIdentifier): Unknown constant `_private.NLA.MI06.Proof.«0».NLA.MI06.scalar_squared_gap._proof_1_7`

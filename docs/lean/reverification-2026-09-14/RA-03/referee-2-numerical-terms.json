@@ -1,0 +1,14 @@
+{
+  "verdict": "PASS",
+  "names": [],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ra03/docs/lean/reverification-2026-09-14/RA-03/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ra03/randomized-and-low-rank-approximation/RA-03/lean",
+  "script_sha256": "a4003069f68c18453ddccbbdab3c0fd87374f0797109f99cdc912c7bfdea0daf",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

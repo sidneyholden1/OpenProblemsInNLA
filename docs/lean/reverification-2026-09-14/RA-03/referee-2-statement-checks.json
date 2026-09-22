@@ -1,0 +1,347 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only before proof inspection",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "randomized-and-low-rank-approximation/RA-03/README.md": {
+      "sha256": "4fdea20b0da0e74863ea1d2f999a1002a2eb3f1662cd68cca955790c32b892f9",
+      "bytes": 7127,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/README.md": {
+      "sha256": "d596fccb6a6bfc9c03c3122eb528f4f4143f7d8457254f10d2031aa5adaaae67",
+      "bytes": 5097,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "91618c7848ad46931a8f59bad6ff2900bf53b1e1dde22f31383c4a3941eb4a94",
+      "bytes": 11242,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/Challenge.lean": {
+      "sha256": "74a7c727e8cf2fa1ee26e78cfab812626b265abe8211e09f144a3c78fca5345e",
+      "bytes": 1721,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/comparator.json": {
+      "sha256": "230d3e2d92277a192b6a845793c3c6035e1cab3b28c83c6dd44324a7ed5dc21f",
+      "bytes": 358,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/formalization.yaml": {
+      "sha256": "aeab942efaef51cc66aaf0ebfd45a8f110e7e9c923d6910eedacb59c882df0fd",
+      "bytes": 7653,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/lake-manifest.json": {
+      "sha256": "ee137a71fd2761e4d1e9d927307b7debb4dbdad6795ee2584e279904ccdd0b95",
+      "bytes": 3884,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/lakefile.toml": {
+      "sha256": "fa1e6237e6ef87f2052ac893a044d6740bbac019ef7ea7db2515f865aacace56",
+      "bytes": 280,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/NLA/RA03/Definitions.lean": {
+      "sha256": "de6509ef6b4a41db3e01fce7b77af4c7c338dbd61f8f135e956602d3b8b0980f",
+      "bytes": 4665,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "references/colbrook-random-pivoting-2026-09-11/manuscripts/sharp_random_pivoting.tex": {
+      "sha256": "6ea9223d7411994923a0f27d4c9b3ae44fee8c19ca82c5f16f42b722ee589880",
+      "bytes": 28308,
+      "read_method": "git show immutable preserved source"
+    }
+  },
+  "actual_imported_semantics_sha256": {
+    "Analysis/Matrix/Normed.lean": "f47bfccf19da0082e9b2a298457485b1c6ba5c4b19df97a69e89598180e30d2e",
+    "Analysis/InnerProductSpace/PiL2.lean": "1f9827b2db67213c725a2dcc3fec52a87772966d1fbd3fc6857a019dbd7a6053",
+    "Analysis/InnerProductSpace/SingularValues.lean": "ce8193fcd5d226845a71f66b8ca7ad385358916a6e0e688745410ac412ed5c81"
+  },
+  "exports": [
+    "NLA.RA03.frobeniusSq_eq_norm_sq",
+    "NLA.RA03.process_isProbability",
+    "NLA.RA03.counterexample",
+    "NLA.RA03.not_squaredErrorConjecture"
+  ],
+  "numerical_diagnostics": {
+    "verdict": "PASS",
+    "independent_diagnostic_not_Lean_proof": true,
+    "gram": [
+      [
+        "5",
+        "4"
+      ],
+      [
+        "4",
+        "5"
+      ]
+    ],
+    "ordered_squared_singular_value_candidate": [
+      9,
+      1
+    ],
+    "singular_values_candidate": [
+      3,
+      1
+    ],
+    "all_four_updates": [
+      {
+        "pivot": [
+          0,
+          0
+        ],
+        "mass": "2/5",
+        "residual": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "3/2"
+          ]
+        ],
+        "error": "9/4"
+      },
+      {
+        "pivot": [
+          0,
+          1
+        ],
+        "mass": "1/10",
+        "residual": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-3",
+            "0"
+          ]
+        ],
+        "error": "9"
+      },
+      {
+        "pivot": [
+          1,
+          0
+        ],
+        "mass": "1/10",
+        "residual": [
+          [
+            "0",
+            "-3"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "error": "9"
+      },
+      {
+        "pivot": [
+          1,
+          1
+        ],
+        "mass": "2/5",
+        "residual": [
+          [
+            "3/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "error": "9/4"
+      }
+    ],
+    "expected_error": "18/5",
+    "tail": 1,
+    "strict_gap": "8/5",
+    "independent_history_diagnostics": [
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 0,
+        "mass": "1",
+        "expected": "10"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 1,
+        "mass": "1",
+        "expected": "18/5"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 2,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 3,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 0,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 1,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 2,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 3,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 0,
+        "mass": "1",
+        "expected": "1"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 1,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 2,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          2,
+          2
+        ],
+        "k": 3,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          1,
+          3
+        ],
+        "k": 0,
+        "mass": "1",
+        "expected": "5"
+      },
+      {
+        "shape": [
+          1,
+          3
+        ],
+        "k": 1,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          1,
+          3
+        ],
+        "k": 2,
+        "mass": "1",
+        "expected": "0"
+      },
+      {
+        "shape": [
+          1,
+          3
+        ],
+        "k": 3,
+        "mass": "1",
+        "expected": "0"
+      }
+    ],
+    "limitation": "generic normalization and actual sorted singular-value identification still require Lean proofs"
+  },
+  "numerical_evidence_sha256": "a9b4d4a67a69fa5ba3b34722e770082ca2374809f75f4325032498395cdd06de",
+  "numerical_generator_sha256": "00e364ceb7f647526533cfc4c54c5b206609d5a10c9899626a0c5e33e28c2acb",
+  "coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra03/randomized-and-low-rank-approximation/RA-03/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 35.684,
+    "log_sha256": "33a28abc2656dd01553ab777bccc6d65b3508580f623b79e43b92e4ab927946c"
+  },
+  "coordinator_receipt_sha256": "ad704e86bd9bd72cc288c7ff374836b904762947a1886b822c04861acf085027",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

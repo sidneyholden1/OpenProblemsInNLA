@@ -1,0 +1,13 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "frames-and-matrix-designs/FR-12/README.md",
+  "canonical_exists_at_observed_older_main": false,
+  "older_canonical_sha256": null,
+  "preserved_canonical_sha256": "db0a3714e6ba316e9c24a43f56a61fb36b068fe40f279a15d0415bc85279d1fc",
+  "canonical_target_section_byte_identical": null,
+  "provenance": "Use existing authored snapshot preserved in earlier published branch ancestry, not current main. Where the older main has no canonical page, no cross-revision target equality is claimed. Original mathematical and formalization credits unchanged.",
+  "coordinator_target_review": "FR-12 is absent at the observed older main. Original target reviewed from the preserved canonical page and complete solution.md; no older-page equivalence asserted.",
+  "mathematical_target_equivalent_across_revisions": null
+}

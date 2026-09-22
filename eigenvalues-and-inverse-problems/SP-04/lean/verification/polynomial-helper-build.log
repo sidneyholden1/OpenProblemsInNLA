@@ -1,0 +1,22 @@
+✖ [8707/8707] Building NLA.SP04.PolynomialProof (22s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/lib/lean /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/NLA/SP04/PolynomialProof.lean -o /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/lib/lean/NLA/SP04/PolynomialProof.olean -i /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/lib/lean/NLA/SP04/PolynomialProof.ilean -c /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/ir/NLA/SP04/PolynomialProof.c --setup /private/tmp/nla-lean-sp04/eigenvalues-and-inverse-problems/SP-04/lean/.lake/build/ir/NLA/SP04/PolynomialProof.setup.json --json
+error: NLA/SP04/PolynomialProof.lean:11:4: failed to synthesize instance of type class
+  NormedAddCommGroup (Mat 3)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: NLA/SP04/PolynomialProof.lean:13:4: Type mismatch
+  LinearMap.proj ij.2 ∘ₛₗ ?m.67
+has type
+  ?m.43 →ₛₗ[?m.57] ?m.35 ij.2
+but is expected to have type
+  Mat 3 →ₗ[ℝ] ℝ
+error: NLA/SP04/PolynomialProof.lean:31:2: Type mismatch: After simplification, term
+  hx
+ has type
+  @Eq ℝ ((MvPolynomial.eval fun ij => x ij) p) (0 fun i j => x (i, j))
+but is expected to have type
+  @Eq ℝ ((MvPolynomial.eval x) p) 0
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP04.PolynomialProof
+error: build failed

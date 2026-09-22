@@ -1,0 +1,81 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "26d7d0ac7fd14d3f8d527977db3b50c948a77f39",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 3,
+  "export_count": 7,
+  "export_axioms": {
+    "NLA.TR15.lower_contractions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenvalues_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenpair_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_negative_eigenpair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.not_inheritanceConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-tr15/docs/lean/reverification-2026-09-14/TR-15/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/Topology/Order/IntermediateValue.lean": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65",
+    "LeanCert/LeanCert/Validity/DyadicBounds.lean": "6f1cdbc11f32e425ef5e9f4a22966d64ff0d11614ec9453ed7dde498e31a7c47",
+    "LeanCert/LeanCert/Tactic/IntervalAuto/PointIneq.lean": "b88723998a7f63e9673b9af36811a039057fed75e2a550f4fd7788472180876f"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "34402ce152bb19ca79f49701ae09d33d6a30f8146fc3dd87e9c7b5ad011ae997",
+    "referee-2-active-inputs.json": "15b65681ce494fa1cbc02cddecfdbd7c29dc82ac0e694332169151f9cd9b30cb",
+    "referee-2-consumer.lean": "16e3db0a7565e712a8ea3815cf4455076058b6ef69a09b72f4a65bee0ddd84ca",
+    "referee-2-consumer.log": "a23d7097d2fb694679a4d2aa06506816878de6ee3962856b790c01f4dbc218aa",
+    "referee-2-consumer.json": "2f2f5293d924eeea8e6196f7154f9529c1206aadcc0f576ec1fe373173f14f61",
+    "solution-local.json": "f8f6ccd655fb2da996de6434a330cd55fc332e6122c6be19c2f0a6aafaccbcdc",
+    "solution-local.log": "6c44ba1d2480a768ca5d120eca88bec100216f3c7d4398252714b330cdd90d42",
+    "referee-2-numerical-checks.json": "6c8202ded2deb1b726e1a5403cc0f4e3b3f62c3aa794f3190354380caf402e3b",
+    "referee2_numerics.py": "32c630ce40f80b4b534bc5e68bca1eedfd7ba82c9ff1b489e27ed2a8ef2babad",
+    "referee2_statements.py": "d45611012e7d45ab68d8c62a20e2094bfa4c26e094ac86a4f507dd437b6a32ce",
+    "referee2_consume.py": "860b17c2f5d3d6e6e5e50fd52c5847ba90823b319a9894b6ba37744ca0b46c72",
+    "referee-2-numerical-terms.lean": "6a2aa834d3044205d65379fdb51893b555fab657fdb86f0c3e9280c794ee893b",
+    "referee-2-numerical-terms.log": "cd8b6b78fa46a71b010ad504e63969204af467f64399639363ec360d3ae56a21",
+    "referee-2-numerical-terms.json": "987b1a51f558ccaed1bda3919683e5d8da5594c38e214547cd6067849748879b",
+    "referee2_terms.py": "10346e5f8bd727918531205bbc91600286e15d5bf244479107441ce6b7489ee5"
+  },
+  "linux_status": "separate pending operational review, not inferred from historical PASS"
+}

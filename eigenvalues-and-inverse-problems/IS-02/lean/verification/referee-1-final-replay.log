@@ -1,0 +1,16 @@
+INDEPENDENT REPLAY NLA/IS02/Algebra.lean
+NLA/IS02/Algebra.lean: exit=0; seconds=9.38
+INDEPENDENT REPLAY NLA/IS02/Support.lean
+NLA/IS02/Support.lean: exit=0; seconds=11.69
+INDEPENDENT REPLAY NLA/IS02/Classification.lean
+NLA/IS02/Classification.lean: exit=0; seconds=14.24
+INDEPENDENT REPLAY NLA/IS02/Proof.lean
+NLA/IS02/Proof.lean: exit=0; seconds=10.60
+INDEPENDENT REPLAY Solution.lean
+Solution.lean: exit=0; seconds=14.52
+INDEPENDENT REPLAY verification/AxiomAudit.lean
+'NLA.IS02.witness_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.spectral_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.locus_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IS02.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/AxiomAudit.lean: exit=0; seconds=11.99

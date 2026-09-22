@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi06/docs/lean/reverification-2026-09-14/MI-06/referee-2-numerical-checker.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi06/matrix-inequalities-and-norms/MI-06/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "method": "exact active Proof.lean replay plus diagnostic appendix",
+  "log_sha256": "029cd4dc0c797be5ce72021188129b10c09e158d11ff878a60aaaf0d784efce1"
+}

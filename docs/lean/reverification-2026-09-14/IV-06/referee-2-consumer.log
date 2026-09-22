@@ -1,0 +1,114 @@
+NLA.IV06.eigenvalue_determinant_semantics : ∀ (n : ℕ) (A : NLA.IV06.RealMatrix n) (lam : ℝ),
+  NLA.IV06.HasRealEigenvalue A lam ↔ Eq.{1} (NLA.IV06.characteristicDet A lam) 0
+'NLA.IV06.eigenvalue_determinant_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.family_and_determinant_semantics : NLA.IV06.EntrywiseLE NLA.IV06.lower NLA.IV06.upper ∧
+  (∀ (A : NLA.IV06.RealMatrix 3),
+      NLA.IV06.InIntervalFamily NLA.IV06.lower NLA.IV06.upper A ↔
+        ∃ a b,
+          Membership.mem.{0, 0} (Set.Icc.{0} (-166) (-16)) a ∧
+            Membership.mem.{0, 0} (Set.Icc.{0} 9 159) b ∧ Eq.{1} A (NLA.IV06.family a b)) ∧
+    ∀ (a b lam : ℝ),
+      Eq.{1} (NLA.IV06.characteristicDet (NLA.IV06.family a b) lam)
+        (HSub.hSub.{0, 0, 0}
+          (HSub.hSub.{0, 0, 0}
+            (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} lam 25) (HSub.hSub.{0, 0, 0} (HPow.hPow.{0, 0, 0} lam 2) 1))
+            (HMul.hMul.{0, 0, 0} a (HSub.hSub.{0, 0, 0} lam 1)))
+          (HMul.hMul.{0, 0, 0} b (HAdd.hAdd.{0, 0, 0} lam 1)))
+'NLA.IV06.family_and_determinant_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.witness_eigenpairs : ∀ (i : Fin 4),
+  NLA.IV06.InIntervalFamily NLA.IV06.lower NLA.IV06.upper
+      (NLA.IV06.family (NLA.IV06.includedA i) (NLA.IV06.includedB i)) ∧
+    Ne.{1} (NLA.IV06.includedVector i) 0 ∧
+      Eq.{1}
+          (Matrix.mulVec.{0, 0, 0} (NLA.IV06.family (NLA.IV06.includedA i) (NLA.IV06.includedB i))
+            (NLA.IV06.includedVector i))
+          (HSMul.hSMul.{0, 0, 0} (NLA.IV06.includedValue i) (NLA.IV06.includedVector i)) ∧
+        Membership.mem.{0, 0} (NLA.IV06.realEigenvalueSet NLA.IV06.lower NLA.IV06.upper) (NLA.IV06.includedValue i)
+'NLA.IV06.witness_eigenpairs' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.witness_separators : (∀ (A : NLA.IV06.RealMatrix 3),
+    NLA.IV06.InIntervalFamily NLA.IV06.lower NLA.IV06.upper A →
+      ∀ (j : Fin 3),
+        LE.le.{0} (NLA.IV06.determinantLower j) (NLA.IV06.characteristicDet A (NLA.IV06.separator j)) ∧
+          LE.le.{0} (NLA.IV06.characteristicDet A (NLA.IV06.separator j)) (NLA.IV06.determinantUpper j)) ∧
+  (∀ (j : Fin 3), LT.lt.{0} (NLA.IV06.determinantUpper j) 0) ∧
+    ∀ (j : Fin 3), NLA.IV06.separator j ∉ NLA.IV06.realEigenvalueSet NLA.IV06.lower NLA.IV06.upper
+'NLA.IV06.witness_separators' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.connected_component_intervals : ∀ (S : Set.{0} ℝ) (x y : ↑S),
+  Eq.{1} (ConnectedComponents.mk.{0} x) (ConnectedComponents.mk.{0} y) → Set.Icc.{0} ↑x ↑y ⊆ S
+'NLA.IV06.connected_component_intervals' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.four_components : (∃ f,
+    (∀ (i : Fin 4), Eq.{1} (↑(f i)) (NLA.IV06.includedValue i)) ∧
+      Function.Injective.{1, 1} fun i => ConnectedComponents.mk.{0} (f i)) ∧
+  LE.le.{1} 4 (NLA.IV06.componentCard (NLA.IV06.realEigenvalueSet NLA.IV06.lower NLA.IV06.upper))
+'NLA.IV06.four_components' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.counterexample : NLA.IV06.EntrywiseLE NLA.IV06.lower NLA.IV06.upper ∧
+  LT.lt.{1} 3 (NLA.IV06.componentCard (NLA.IV06.realEigenvalueSet NLA.IV06.lower NLA.IV06.upper))
+'NLA.IV06.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IV06.not_componentBoundConjecture : ¬NLA.IV06.ComponentBoundConjecture
+'NLA.IV06.not_componentBoundConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.IV06.numerical_separator_margin : LT.lt.{0} (-18) 0 :=
+have h0 :=
+  LeanCert.Validity.verify_strict_upper_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 18 1)).neg
+    (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl.{0} (Rat.divInt 0 1)) (Rat.divInt 0 1) (-53) 10
+    (of_decide_eq_true (id.{0} (Eq.refl.{1} true))) NLA.IV06.numerical_separator_margin._proof_1_7 ↑(Rat.divInt 0 1)
+    ⟨le_refl.{0} ↑(Rat.divInt 0 1), le_refl.{0} ↑(Rat.divInt 0 1)⟩;
+Eq.mpr.{0}
+  (eq_of_heq.{1}
+    ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+        Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+          Eq.{1} a' a_2 → HEq.{0} e'_3 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1)) e'_3
+          (fun h =>
+            Eq.ndrec.{0, 1} (motive := fun a' =>
+              ∀ (e_3 : Eq.{1} a a'), HEq.{0} e_3 (Eq.refl.{1} a) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1))
+              (fun e_3 h =>
+                Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+                  Eq.{1} a'_1 a_2 → HEq.{0} e'_4 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'_1)) e'_4
+                  (fun h =>
+                    Eq.ndrec.{0, 1} (motive := fun a' =>
+                      ∀ (e_4 : Eq.{1} a_1 a'),
+                        HEq.{0} e_4 (Eq.refl.{1} a_1) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'))
+                      (fun e_4 h => HEq.refl.{1} (LT.lt.{0} a a_1)) (Eq.symm.{1} h) e'_4)
+                  (Eq.refl.{1} a'_1) (HEq.refl.{0} e'_4))
+              (Eq.symm.{1} h) e'_3)
+          (Eq.refl.{1} a') (HEq.refl.{0} e'_3))
+      ℝ Real.instLT (-18) (Neg.neg.{0} ↑(HDiv.hDiv.{0, 0, 0} ↑18 ↑1))
+      (Mathlib.Meta.NormNum.isInt_eq_true.{0}
+        (Mathlib.Meta.NormNum.isInt_neg.{0} (Eq.refl.{1} Neg.neg.{0})
+          (Mathlib.Meta.NormNum.IsNat.to_isInt.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 18)))
+          (Eq.refl.{1} (Int.negOfNat 18)))
+        (Mathlib.Meta.NormNum.isInt_neg.{0} (Eq.refl.{1} Neg.neg.{0})
+          (Mathlib.Meta.NormNum.IsNat.to_isInt.{0}
+            (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+              (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                (Mathlib.Meta.NormNum.isNNRat_div.{0}
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                    (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                      (Mathlib.Meta.NormNum.isNat_intCast.{0} 18 18
+                        (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 18)))
+                      (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                        (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                          (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                            (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                              (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                      (Eq.refl.{1} 18)))))))
+          (Eq.refl.{1} (Int.negOfNat 18))))
+      0 (↑(HDiv.hDiv.{0, 0, 0} ↑0 ↑1))
+      (Mathlib.Meta.NormNum.isNat_eq_true.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_zero.{0})
+        (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+          (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+            (Mathlib.Meta.NormNum.isNNRat_div.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 0 0 (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 0)))
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                    (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                        (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                          (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                  (Eq.refl.{1} 0)))))))))
+  (Eq.mp.{0}
+    (congr.{1, 1}
+      (congrArg.{1, 1} LT.lt.{0} (congrArg.{1, 1} Neg.neg.{0} (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 18 1))))
+      (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 0 1)))
+    h0)
+'NLA.IV06.numerical_separator_margin' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

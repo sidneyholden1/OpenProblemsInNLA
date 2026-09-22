@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "82aee43d2dd0b1ef201134ed8d066b62b7fca890",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "linear-systems-and-elimination/IE-19/lean/Solution.lean": {
+      "sha256": "72fa6092d37c32eb453af0ba83974cc541cb15730080c96dfbaa9226a6f6f658",
+      "bytes": 1033
+    },
+    "linear-systems-and-elimination/IE-19/lean/NLA/IE19/Definitions.lean": {
+      "sha256": "32dc631cd600154948963a875559cd610d974764fc77f13ab242a573c6dd22b3",
+      "bytes": 3019
+    },
+    "linear-systems-and-elimination/IE-19/lean/NLA/IE19/Proof.lean": {
+      "sha256": "06a534c417911f7db8aca8310699c3862eaf535f8b34ec20b5551218c20a5460",
+      "bytes": 5363
+    },
+    "linear-systems-and-elimination/IE-19/lean/Challenge.lean": {
+      "sha256": "c79e602bde37c5395eda1376635054776c72c1d803737e1dbfe0a963899627bb",
+      "bytes": 669
+    },
+    "linear-systems-and-elimination/IE-19/lean/comparator.json": {
+      "sha256": "6b02baa6e01466ddde5188c32c90c1063d2ed5163f852b37f0ae776795eec27d",
+      "bytes": 299
+    },
+    "linear-systems-and-elimination/IE-19/lean/lake-manifest.json": {
+      "sha256": "0b2982e346ad245431120cb2eeafa466c9336f1e8bf11525312c0982cb840cb3",
+      "bytes": 3884
+    },
+    "linear-systems-and-elimination/IE-19/lean/lakefile.toml": {
+      "sha256": "10d0c9c9dc8b8ac29e372807b94ca53b644aa5c032e6c4b7eb32c90736be66ef",
+      "bytes": 280
+    },
+    "linear-systems-and-elimination/IE-19/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

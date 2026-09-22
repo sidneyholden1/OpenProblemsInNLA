@@ -1,0 +1,44 @@
+{
+  "permutations": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      0,
+      1,
+      3
+    ]
+  ],
+  "all_bijective": true,
+  "six_distinct_matrices": true,
+  "cover_full_24_permutation_orbit": true,
+  "evidence": "Independent exact Fraction diagnostic, not Lean proof"
+}

@@ -1,0 +1,46 @@
+✖ [8707/8707] Building NLA.IE04.GaussianModel (88s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean/.lake/build/lib/lean /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean/NLA/IE04/GaussianModel.lean -o /private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean/.lake/build/lib/lean/NLA/IE04/GaussianModel.olean -i /private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean/.lake/build/lib/lean/NLA/IE04/GaussianModel.ilean -c /private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean/.lake/build/ir/NLA/IE04/GaussianModel.c --setup /private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean/.lake/build/ir/NLA/IE04/GaussianModel.setup.json --json
+error: NLA/IE04/GaussianModel.lean:12:2: failed to synthesize instance of type class
+  IsProbabilityMeasure (Measure.pi fun x => Measure.pi fun x => gaussianReal 0 1)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: NLA/IE04/GaussianModel.lean:26:79: unsolved goals
+n : ℕ
+s : Fin n × Fin n → Set ℝ
+hs : ∀ (i : Fin n × Fin n), MeasurableSet (s i)
+G : Mat n
+⊢ (∀ (a b : Fin n), G a b ∈ s (a, b)) ↔ G ∈ Set.univ.pi fun i => Set.univ.pi fun j => s (i, j)
+error: NLA/IE04/GaussianModel.lean:31:2: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    Measure.pi fun x => Measure.pi fun x => gaussianReal 0 1
+  has type
+    @Measure (Fin n → Fin n → ℝ) MeasurableSpace.pi
+  but is expected to have type
+    @Measure (Mat n) (instMeasurableSpaceMat n)
+  in the application
+    ⇑(Measure.pi fun x => Measure.pi fun x => gaussianReal 0 1)
+warning: NLA/IE04/GaussianModel.lean:30:29: This simp argument is unused:
+  Measure.pi_pi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [gaussianMatrix]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/IE04/GaussianModel.lean:38:2: Tactic `apply` failed: could not unify the conclusion of `(iIndepFun_iff_map_fun_eq_pi_map fun ij => ?m.62).mpr`
+  iIndepFun (fun ij G => G ?m.48 ?m.49) ?m.61
+with the goal
+  iIndepFun (fun ij G => G ij.1 ij.2) (gaussianMatrix n)
+
+Note: The full type of `(iIndepFun_iff_map_fun_eq_pi_map fun ij => ?m.62).mpr` is
+  (Measure.map (fun ω i => ω ?m.48 ?m.49) ?m.61 = Measure.pi fun i => Measure.map (fun G => G ?m.48 ?m.49) ?m.61) →
+    iIndepFun (fun ij G => G ?m.48 ?m.49) ?m.61
+
+n : ℕ
+⊢ iIndepFun (fun ij G => G ij.1 ij.2) (gaussianMatrix n)
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE04.GaussianModel
+error: build failed

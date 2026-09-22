@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "05dda9e7ac6c222910d7553694ff4b4551aaa2a6",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "intervals-and-absolute-value-equations/IV-06/lean/Solution.lean": {
+      "sha256": "b4b9ab44b95accb5f4a0b677d417937cc0ca9ae6c9f08409b2c178ef0d8f699d",
+      "bytes": 4066
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Definitions.lean": {
+      "sha256": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+      "bytes": 3071
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Proof.lean": {
+      "sha256": "600311e699fecc178f921e8233a9c14d50774db5980ea63560040e578d896333",
+      "bytes": 10041
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/Challenge.lean": {
+      "sha256": "77be095dc706c901714caa68d3393bf95004fc5f9fee2fa43f7460dafa342b90",
+      "bytes": 3112
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/comparator.json": {
+      "sha256": "e84e8d1c516d1ecf17a838d49df61043e90a21a8e72108b285088c02bd35a1c2",
+      "bytes": 529
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/lake-manifest.json": {
+      "sha256": "05c42b3215c767aa2adb7c1b9af4fe0fbd96c81e29a66705e7c12875b0e023d3",
+      "bytes": 3537
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/lakefile.toml": {
+      "sha256": "7c8786b1892806616674c65624a7ceb2029eaac75ecaf95afcefe3f1a5099b99",
+      "bytes": 281
+    },
+    "intervals-and-absolute-value-equations/IV-06/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 10380345663,
+  "node_id": "MDg6QXJ0aWZhY3QxMDM4MDM0NTY2Mw==",
+  "name": "lean-IV-03",
+  "size_in_bytes": 17561,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10380345663",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10380345663/zip",
+  "expired": false,
+  "digest": "sha256:bef757bd594f82e327625b5bcbcc3c395e6d64e3764c95f926a25ffe95337177",
+  "created_at": "2026-09-15T03:53:18Z",
+  "updated_at": "2026-09-15T03:53:18Z",
+  "expires_at": "2026-12-14T03:46:24Z",
+  "workflow_run": {
+    "id": 34926260380,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/lean-iv03",
+    "head_sha": "516ad4a0e85c21c7ef34507db9ab3b68b393bb90"
+  }
+}

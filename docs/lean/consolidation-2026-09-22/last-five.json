@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PF-02",
+    "path": "nonnegative-and-positive-factorizations/PF-02",
+    "branch": "codex/lean-pf02",
+    "publication_commit": "b4aa9e57056d0a01e5573287d96e7e1da8db090d",
+    "proof_commit": "61dae15457a532be05a9a54d8e1e4040fbefddbd",
+    "proof_run": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34921326342",
+    "input_count": 57,
+    "local_informal_sources_unchanged_from_main": true
+  },
+  {
+    "id": "SP-04",
+    "path": "eigenvalues-and-inverse-problems/SP-04",
+    "branch": "codex/lean-sp04",
+    "publication_commit": "97a0d55640c0d28482edce49b88e60b48bc9ade1",
+    "proof_commit": "e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1",
+    "proof_run": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695",
+    "input_count": 75,
+    "local_informal_sources_unchanged_from_main": true
+  },
+  {
+    "id": "IV-03",
+    "path": "intervals-and-absolute-value-equations/IV-03",
+    "branch": "codex/lean-iv03",
+    "publication_commit": "281f440650d174602120ca9b2b930d38f9fef205",
+    "proof_commit": "516ad4a0e85c21c7ef34507db9ab3b68b393bb90",
+    "proof_run": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380",
+    "input_count": 75,
+    "local_informal_sources_unchanged_from_main": true
+  },
+  {
+    "id": "IE-04",
+    "path": "linear-systems-and-elimination/IE-04",
+    "branch": "codex/lean-ie04",
+    "publication_commit": "61b8562ba49c5fe2146885b905f94df593c8ec49",
+    "proof_commit": "82c0d620db7369a546071a13088ebb095368c262",
+    "proof_run": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926830831",
+    "input_count": 110,
+    "local_informal_sources_unchanged_from_main": true
+  },
+  {
+    "id": "KE-05",
+    "path": "randomized-and-low-rank-approximation/KE-05",
+    "branch": "codex/lean-ke05",
+    "publication_commit": "04f3f39beb69d77dbc4a8eadee70259eb89a591a",
+    "proof_commit": "9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6",
+    "proof_run": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927150695",
+    "input_count": 93,
+    "local_informal_sources_unchanged_from_main": true
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi29/docs/lean/reverification-2026-09-14/MI-29/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi29/matrix-inequalities-and-norms/MI-29/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.MI29.spectralPower_natCast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI29.modulus_power_eight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI29.comparison_positive_real": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI29.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI29.not_modulusDeterminantConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "scalar_gap_positive"
+  ],
+  "script_sha256": "9aa435f710e9db8cf1a5024dd6de64f2d3e50f59dca971f463e3cfee0a0284ae",
+  "log_sha256": "88f89e137d4f445a7266a27d8ec059566ca0401fbf531bd42202bb0599d8d0e4"
+}

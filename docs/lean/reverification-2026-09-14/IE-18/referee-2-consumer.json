@@ -1,0 +1,35 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ie18/docs/lean/reverification-2026-09-14/IE-18/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ie18/linear-systems-and-elimination/IE-18/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.IE18.residual_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE18.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE18.not_fourStepConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "strict_scalar_gap",
+    "strict_amplification_gap"
+  ],
+  "script_sha256": "6916a0f081e77e06ec3b3facaa7b398f0102c7210da68ebe1737d828458a3dd8",
+  "log_sha256": "31903993ce9efce35f1caeb7c418b691aa427d8351ea9dad09e541338bb834c5"
+}

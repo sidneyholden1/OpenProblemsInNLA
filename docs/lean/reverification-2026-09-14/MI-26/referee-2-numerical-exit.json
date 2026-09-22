@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi26/docs/lean/reverification-2026-09-14/MI-26/referee-2-numerical-checker.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi26/matrix-inequalities-and-norms/MI-26/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "method": "import actual exported numerical theorem and print checker body",
+  "log_sha256": "8933cd50a05b59858e3436affa8ce86eea21efb75511db5a7ad39c31675794ef"
+}

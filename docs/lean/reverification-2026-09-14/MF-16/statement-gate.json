@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T18:13:10.501022+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/MF-16/STATEMENT-REFEREE-1.md": "05be479913c67893f5b9f2e3ff06d02688c40b9e317394784c29ab6761f68e7b",
+    "docs/lean/reverification-2026-09-14/MF-16/STATEMENT-REFEREE-2.md": "3f32c250bb2cf09a645f12b91605363d8281fcb6d734a538bda532d33bc9994d",
+    "matrix-functions-and-stability/MF-16/lean/Solution.lean": "9e7532966e67d32ffc98481b141e2b808a395e3e18645a68aed9a761d19b002b",
+    "matrix-functions-and-stability/MF-16/lean/Challenge.lean": "538b03b014015da03f9929fd520adfb978de96b3fa1b4fe3d995bb94e3dccf0f",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Definitions.lean": "5b8e0a7e11657c6d90dc956664f12f5afefdf8ab556517ae199ab339d99d604e",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Recovery.lean": "843ab140392852d07fcdfe547082a574cd9c7f8ceb5b8cfaeff9394e70c9e1de",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Proof.lean": "dbb52d7978f19786503c62cfd17e7ca45dd91c55dd79fae02848967c116b36ed",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Numerical.lean": "e457da199ffa9381e10e5618cf5a0e16fdfec1745f13905bcea7a6c546e41181",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/CayleyHamilton.lean": "d6d2a419467df881998175e8d06ab13a49ea4ed86f805eefb56ab90284350df7",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Polynomial.lean": "ab676fb674e0e698d4a9a6dc682df4e9bb78a76cacf07e86e01a0c63ed0e7796",
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Algebra.lean": "14acd4d851a7172854181423d623e06f778458b939e791189315e449f31e84d8",
+    "matrix-functions-and-stability/MF-16/lean/NUMERICAL_TARGETS.md": "6d6ea0481cb33c0ff69675e008956920be1744ef6cebdafaeac73f9c87601689",
+    "matrix-functions-and-stability/MF-16/lean/comparator.json": "c571ce8622b8ff95aa2a8a29ec186a68e3464e9431dae2a5b03db74236b8c088",
+    "matrix-functions-and-stability/MF-16/lean/formalization.yaml": "e652e0885dc62acd60004a46ab4b187eeeee9b26e0f4cab0bf6714387397ec29",
+    "matrix-functions-and-stability/MF-16/README.md": "b69bf5038340ff27e10ed0c629a76cc1182eea72aaaf73f4aec881ecc1c84ac1"
+  }
+}

@@ -1,0 +1,8 @@
+⚠ [8710/8710] Built NLA.IE04.Measurability (26s)
+warning: NLA/IE04/Measurability.lean:34:13: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: NLA/IE04/Measurability.lean:97:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Build completed successfully (8710 jobs).

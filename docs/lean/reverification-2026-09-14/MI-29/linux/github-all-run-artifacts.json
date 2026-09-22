@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 10363756629,
+      "node_id": "MDg6QXJ0aWZhY3QxMDM2Mzc1NjYyOQ==",
+      "name": "lean-MI-29",
+      "size_in_bytes": 20591,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10363756629",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10363756629/zip",
+      "expired": false,
+      "digest": "sha256:aeb3a3211153d4ecff67c3436730327a67050c290f5603b9aa54c401f713558a",
+      "created_at": "2026-09-14T18:55:13Z",
+      "updated_at": "2026-09-14T18:55:13Z",
+      "expires_at": "2026-12-13T18:45:05Z",
+      "workflow_run": {
+        "id": 34882707036,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/reverify-mi29",
+        "head_sha": "312c879a41904f9b4c6f127546e032a74b3c971f"
+      }
+    }
+  ]
+}

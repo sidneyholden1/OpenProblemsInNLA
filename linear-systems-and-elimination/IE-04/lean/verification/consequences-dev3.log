@@ -1,0 +1,4 @@
+NLA/IE04/Consequences.lean:30:77: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  IsProbabilityMeasure (Measure.pi fun x => Measure.pi fun x => gaussianReal 0 1)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.

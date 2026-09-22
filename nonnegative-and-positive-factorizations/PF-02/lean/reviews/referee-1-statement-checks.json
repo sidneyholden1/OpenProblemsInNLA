@@ -1,0 +1,68 @@
+{
+  "verdict": "APPROVE",
+  "reviewer": "Independent Codex AI agent /root/iv06_statement_referee_2, assigned statement referee 1 for PF-02",
+  "phase": "statement only",
+  "source_base": "32f1f799219fbcaf4c66bfaa4edb8a0c591e79e9",
+  "sources_equal_deb549fa": true,
+  "sources_sha256": {
+    "nonnegative-and-positive-factorizations/PF-02/README.md": "4ef3bba41aca6e2a2c66a8a39e5974b54095b85fba0557c6353c253202aa26c7",
+    "references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex": "7e41f64f8495231b9cadd5296daa8fe44790039d3f6e25260cd04be258f3bf65"
+  },
+  "files_sha256": {
+    "NLA/PF02/Definitions.lean": "8ec6b4b58a99eb5e4554ebe7807619665c52deb83405083ba40b224a935b1f1d",
+    "Challenge.lean": "1984dbc1415c91951df296f00011049c5ccc0a5baabe937cb8e107a411c51532",
+    "NUMERICAL_TARGETS.md": "7ce9ec1ed32cf81c213cbba661c367f5528e536361fb6a2a715c5c36c72c5758",
+    "lakefile.toml": "e9d31a3273307f6e5c4e1031f339b2de1d1980b3412ea2fa2982efdeb4270cb1",
+    "lake-manifest.json": "19b43bd134b48c326c0977c6134db0c9a7da9fc89961d20cd303390ac7154eda",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "verification/source-provenance.json": "3be2f3b7162fa2126f1363df34a6c0f4ec3ebe0fa0636218062cc69e7bdddd97",
+    "verification/precheck.py": "dc561926fffc167861003da150eda16e9d725b690dedbe2effa339b502d23592",
+    "verification/precheck.json": "eeb92b61f36e88a4f8b61609b9ea6025e17c2d605c59f0ee884b516e36d091e2",
+    "verification/statement-build-initial.log": "d1c431bc27903e6803ca5107fd26b654991fc2f497fa99d9844cee49c496623f",
+    "verification/statement-build.log": "245ecb83e0d9871551620a796b3a650da7f562c3f21d35ca6548abe1599a3732",
+    "verification/statement-build.json": "39210a8d6b8e3c4b2bece6faa9dc758581d7e1f992e0eeb69f1ca8573a1e6d2c",
+    "comparator.json": "8b17ff697fb75d3d8ba82a8ce169ca895d2402148a353301ba683ffd7193ceb4",
+    "formalization.yaml": "a1c4cd12a570c3d4b97a4aef7a640300169ff41569a256c12725dd343dfcd920",
+    "verification/statement-source-hashes.json": "52b496ca239f56eb2e2dfe1ede17bb0345fd22a011272062addf5b2fcba60b90",
+    "reviews/referee-1-exact-precheck.py": "749c35641a248b4b65a62cee62ed537a4b01cdbaef291f95c7bfa0a0da64de3b",
+    "reviews/referee-1-exact-precheck.json": "5a6a0a1e99b6ae771ba4d84c5a74c6401d040d42905a36d7385882e0e3140b6c",
+    "reviews/referee-1-statement-check.py": "e641af80ac90a353f9552bd5c5f7b922ef51091076c3d4bafb7bb65c895a2493"
+  },
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inspected_dependency_files_sha256": {
+    "Mathlib/LinearAlgebra/Matrix/PosDef.lean": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+    "Mathlib/LinearAlgebra/Matrix/Hermitian.lean": "9f4e84cafd93f05935d8accc2846a4d624c1fe994c53ab348b8338464bf5cb21",
+    "Mathlib/LinearAlgebra/Matrix/Rank.lean": "67b4fa7bee02c1806f29562718bfb34c0e1f40af5ec6a91ef91cc33610657491",
+    "Mathlib/LinearAlgebra/Matrix/Trace.lean": "8053b04dc1c67b3a7d14262acc43b574e521940085e031726947f3c2241b7a73",
+    "Mathlib/Topology/Constructions.lean": "1b2099fa575c72263e2d512bf166ed78cc483fb09100b0e56a923e9b8dc31048",
+    "Mathlib/Topology/Instances/Matrix.lean": "f1177b96ad3853e806edfa9a26ee036db98e03c1c361179b7cdf60213d157734",
+    "Mathlib/Topology/Connected/Basic.lean": "7954c5a7e0b570ecdbeb53e17d7ba15f79028cc6530deb8875531612bd94eff8",
+    "Mathlib/Topology/Connected/TotallyDisconnected.lean": "7eac4d645d77e3f6efb72d3c1cebcedc986e5878d6f4fc7c4c96717f67ae1d6c",
+    "Mathlib/Topology/Instances/Sign.lean": "ccfd4dd3593c6c1f210133749c73e4a778fa70e4772e48b50cde116f0b334020",
+    "Mathlib/Topology/Order/IntermediateValue.lean": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65",
+    "Mathlib/Order/Lattice/Nat.lean": "f231ec6e610f9b0f38eaea3fd48730f3d8068eeeadd03668564846bf4dd072c3"
+  },
+  "exports": [
+    "psd_rank_semantics",
+    "congruence_quotient_semantics",
+    "witness_exact_data",
+    "trace_coordinate_bridge",
+    "congruence_coordinate_identity",
+    "orientation_invariant",
+    "quotient_orientation",
+    "disconnected_counterexample",
+    "not_connectedOrbitConjecture"
+  ],
+  "build_attribution": "Coordinator/author-run Challenge build; independently inspected receipt/log and hashes, not rerun by referee",
+  "build_exit_code": 0,
+  "build_jobs": 2397,
+  "intentional_placeholders": 9,
+  "independent_numerical_diagnostic": "reviews/referee-1-exact-precheck.py, executed exit 0; exact finite diagnostics only",
+  "resolved_finding": "Manifest name corrected from NLAIV06 to NLAPF02 before final hash check; dependency revisions unchanged",
+  "limitations": [
+    "No proof implementation reviewed or approved",
+    "No Linux Comparator or final export axiom audit performed",
+    "Sample congruence calculations are diagnostics, not a proof of the generic polynomial identity",
+    "Metadata is draft; later implementation and completion claims need final review"
+  ]
+}

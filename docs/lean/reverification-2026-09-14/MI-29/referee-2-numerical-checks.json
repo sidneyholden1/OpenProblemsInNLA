@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "detB": "-1/125",
+  "indefiniteness_diagonal_witnesses": [
+    "-1/5",
+    "1/5"
+  ],
+  "left_determinant_after_required_CFC_reduction": "136990346414301954149/61035156250000000000",
+  "right_determinant_after_required_CFC_reduction": "4537743716162890657/1907348632812500000",
+  "right_minus_left": "21036678407451/156250000000000",
+  "polynomial_gap_coefficients_ascending": [
+    "0",
+    "2089017/16",
+    "-31188746592549/1024",
+    "0"
+  ],
+  "limitation": "actual CFC and positive-real determinant bridges remain Lean proof obligations"
+}

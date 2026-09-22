@@ -1,0 +1,40 @@
+NLA.FR12.counting_semantics : ∀ (n : ℕ),
+  Finite.{1} (NLA.FR12.HadamardMatrices n) ∧
+    (LE.le.{0} 1 n → ∀ (A : NLA.FR12.Mat n), NLA.FR12.IsRealHadamard A ↔ Matrix.IsHadamard.{0, 0} A)
+'NLA.FR12.counting_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.FR12.injective_doubling : ∀ (m : ℕ),
+  LE.le.{0} 1 m →
+    (∀
+        (x :
+          Prod.{0, 0} (NLA.FR12.HadamardMatrices m)
+            (Prod.{0, 0} (NLA.FR12.HadamardMatrices m) (Equiv.Perm.{1} (Fin m)))),
+        NLA.FR12.IsRealHadamard (NLA.FR12.doublingMap m x)) ∧
+      Function.Injective.{1, 1} (NLA.FR12.doublingMap m)
+'NLA.FR12.injective_doubling' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.FR12.factorial_doubling : ∀ (m : ℕ),
+  LE.le.{0} 1 m →
+    LE.le.{0} (HMul.hMul.{0, 0, 0} m.factorial (HPow.hPow.{0, 0, 0} (NLA.FR12.hadamardCount m) 2))
+      (NLA.FR12.hadamardCount (HMul.hMul.{0, 0, 0} 2 m))
+'NLA.FR12.factorial_doubling' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.FR12.power_two_nonempty : ∀ (k : ℕ), LE.le.{0} 1 (NLA.FR12.hadamardCount (HPow.hPow.{0, 0, 0} 2 k))
+'NLA.FR12.power_two_nonempty' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.FR12.power_two_lower_bound : ∀ (k : ℕ),
+  LE.le.{0}
+    (HPow.hPow.{0, 0, 0} 2
+      (HDiv.hDiv.{0, 0, 0}
+        (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HPow.hPow.{0, 0, 0} 2 (HAdd.hAdd.{0, 0, 0} k 2)) ↑k)
+          (HAdd.hAdd.{0, 0, 0} (↑k) 1))
+        8))
+    ↑(NLA.FR12.hadamardCount (HPow.hPow.{0, 0, 0} 2 (HAdd.hAdd.{0, 0, 0} k 2)))
+'NLA.FR12.power_two_lower_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.FR12.counterexample : ∀ (C : ℝ),
+  LT.lt.{0} 0 C →
+    ∃ k,
+      LT.lt.{0}
+        (HPow.hPow.{0, 0, 0} 2
+          (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} C ↑(HPow.hPow.{0, 0, 0} 2 (HAdd.hAdd.{0, 0, 0} k 2)))
+            (HDiv.hDiv.{0, 0, 0} (Real.log ↑(HPow.hPow.{0, 0, 0} 2 (HAdd.hAdd.{0, 0, 0} k 2))) (Real.log 2))))
+        ↑(NLA.FR12.hadamardCount (HPow.hPow.{0, 0, 0} 2 (HAdd.hAdd.{0, 0, 0} k 2)))
+'NLA.FR12.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.FR12.not_countingConjecture : ¬NLA.FR12.CountingConjecture
+'NLA.FR12.not_countingConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

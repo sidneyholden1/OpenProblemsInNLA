@@ -1,0 +1,103 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local consumer audit",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "active_module_count": 17,
+  "active_source_lines": 1818,
+  "active_sources_equal_frozen_gate_and_upstream": true,
+  "export_count": 14,
+  "export_axioms": {
+    "NLA.RA08.orderedSpectral_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.orderedSpectral_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.functionalCalculus_spectral": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.spectral_tail_norms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.operator_rayleigh_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.witness_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.witness_spectral_location": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.minorant_scalar": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.minorant_functional_calculus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.witness_tail_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.witness_rational_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.numerical_gap_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA08.not_concaveSpectralTransferConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ra08/docs/lean/reverification-2026-09-14/RA-08/referee-2-export-audit.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-ra08/randomized-and-low-rank-approximation/RA-08/lean",
+  "consumer_exit_code": 0,
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "coordinator_solution_build_exit_code": 0,
+  "evidence_sha256": {
+    "statement-gate.json": "60c18188a1ef0fe5349ca0690e3b177224cc490cf935a44a318420d6ad36a8ea",
+    "referee-2-active-inputs.json": "9ee02a02d76e8199686aeff74ef443cf63d3f16cc65d52a3451cd18983c70793",
+    "referee-2-export-audit.lean": "95208a11421a46dfd42616e4441817e4e2dc3f65e89294237030ee9d7c4a62b6",
+    "referee-2-export-audit.log": "6baa5c270ddf658b979a17a9fcda79ee885a866803c16c2139c7d79bcaa8e985",
+    "solution-local.json": "110cb0919a7db36467927aef241bd6dd7bd1e8d07b8a3aeaa7fc08872a701fe7",
+    "solution-local.log": "ccc2cf5bce32a66d1d37f38c625defb4ef7d414e02c2043ea3403bb52a49c428",
+    "referee-2-numerical-checker.lean": "3d4a212c75a57f43e04e786bc5939ab8a630bb56842d6b1a466c72640ad32896",
+    "referee-2-numerical-checker.log": "f3d19c5212dd85479d0e8d9cdd10fe6f80773776dba85d70e6477ac2fe000732"
+  },
+  "linux_status": "not reviewed in this proof report; separate actual Comparator/operational gate"
+}

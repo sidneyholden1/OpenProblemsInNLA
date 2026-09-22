@@ -1,0 +1,62 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "e43421af3d19dac5fc2cb6304affba66e7ddae24",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 3,
+  "export_count": 3,
+  "export_axioms": {
+    "NLA.MI21.operatorNorm_isUnitaryInvariant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI21.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI21.not_geometricMeanNormConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi21/docs/lean/reverification-2026-09-14/MI-21/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-mi21/matrix-inequalities-and-norms/MI-21/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Basic.lean": "5c87ec96e95be9c21e52857acc4892f9a6b7e69d7358f8d6fbbef93b0d249ef7",
+    "LeanCert/LeanCert/Validity/DyadicBounds.lean": "6f1cdbc11f32e425ef5e9f4a22966d64ff0d11614ec9453ed7dde498e31a7c47"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "2c87748158d8e253d49737cc91dc62ea3d6059b5b638294f5cd914bc9bcc442d",
+    "referee-2-active-inputs.json": "02b3da53216caaa24c19c70c8267e92c454bd42e3b2916bc94c9540396a76b39",
+    "referee-2-consumer.lean": "2f342edf69168908f91591907c07d21e13776c3d11fd145306033e36a0a188af",
+    "referee-2-consumer.log": "bbde2f870ec385e9ca263c177568cbee73cb2a1cfe734ed488706d135b8aa8b0",
+    "referee-2-consumer.json": "a1f7cdeb8c178ca64ac91dd06dd652673491a22900c6e5e24c6a21f7f7bc6f82",
+    "solution-local.json": "5a07ed36451ec9d2a27022aad5b6af023b07538e17e9e08a087cda25f348a95e",
+    "solution-local.log": "ab41236868d421649c28bc2e20ee12790da5984bb88fcb063d171086eb5f17b3",
+    "referee-2-numerical-checks.json": "c8c1d348ede424e6864356b9ab7878dce475a21bfa6d54b357c9cab9ae9eb742",
+    "referee2_numerics.py": "00e364ceb7f647526533cfc4c54c5b206609d5a10c9899626a0c5e33e28c2acb",
+    "referee2_statements.py": "396d1ec66a41312f49a79cfb7fdfa1e60422d8a4b8950dd57e36a2c6a1543104",
+    "referee2_consume.py": "6d2bba0cc7a55a8561b1ed3efa9a31ffeec2a8982428431e9f9464e71edf4b33",
+    "referee-2-numerical-terms.lean": "1961989ea7d7706d8a1134619f964bea3fefb6a229d24cc560ec54d703560cb9",
+    "referee-2-numerical-terms.log": "846ccd463a3abc7c9535092e0ee332d2db56e1e2c550842aeeff2fd52a63b6c8",
+    "referee-2-numerical-terms.json": "6770d20089bc4ae24b25fdf675b7fa81a69239a60161959f8f983e570b945cb6",
+    "referee2_terms.py": "9159d2b37d6f7700fb2b8f54ff1f32303097ae417b634922595f7e022ca85574",
+    "referee-2-riccati-rescaling.py": "f58cf8b53c8ef342d870eefc8f52f44d68f173ed79594d7738e1e88048c2cf51",
+    "referee-2-riccati-rescaling.json": "763a7c3b26281b316a358364dd6f9aa5922930a7cebbeb3b5a9c193332c252bf"
+  },
+  "linux_status": "separate pending operational review, not inferred from historical PASS"
+}

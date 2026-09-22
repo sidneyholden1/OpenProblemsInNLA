@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T21:47:14.297561+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/IV-06/STATEMENT-REFEREE-1.md": "88147712e238dc4475cc52d179f14532f3977cfccf39b4e1c0bf60a39e558904",
+    "docs/lean/reverification-2026-09-14/IV-06/STATEMENT-REFEREE-2.md": "d9bbab212f7221bdebd2fbdcc9c2a864680f35a3a5a247706a1c25c345ec5a9c",
+    "intervals-and-absolute-value-equations/IV-06/lean/Solution.lean": "b4b9ab44b95accb5f4a0b677d417937cc0ca9ae6c9f08409b2c178ef0d8f699d",
+    "intervals-and-absolute-value-equations/IV-06/lean/Challenge.lean": "77be095dc706c901714caa68d3393bf95004fc5f9fee2fa43f7460dafa342b90",
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Definitions.lean": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Proof.lean": "600311e699fecc178f921e8233a9c14d50774db5980ea63560040e578d896333",
+    "intervals-and-absolute-value-equations/IV-06/lean/NUMERICAL_TARGETS.md": "f51f4118af540fa4d3c8e16b40d859ee730c40c8417c4e45f86dc0e5c58a04d9",
+    "intervals-and-absolute-value-equations/IV-06/lean/comparator.json": "e84e8d1c516d1ecf17a838d49df61043e90a21a8e72108b285088c02bd35a1c2",
+    "intervals-and-absolute-value-equations/IV-06/lean/formalization.yaml": "6aa472db72da76e3ffa2b23308b919fe3c4378b3266b607ac2f43bbf889fb1aa",
+    "intervals-and-absolute-value-equations/IV-06/README.md": "650080d722c2e05388a72ad1642c0eaae878425c105403bccd61ebaf363d34d3"
+  }
+}

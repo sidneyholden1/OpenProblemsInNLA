@@ -1,0 +1,21 @@
+Material proof retained: [NLA.PF02.not_connectedOrbitConjecture,
+ NLA.PF02.not_connectedOrbitConjecture_proved,
+ NLA.PF02.disconnected_counterexample_proved,
+ NLA.PF02.witnessM_rank,
+ NLA.PF02.witnessM_det]
+Material proof retained: [NLA.PF02.not_connectedOrbitConjecture,
+ NLA.PF02.not_connectedOrbitConjecture_proved,
+ NLA.PF02.disconnected_counterexample_proved,
+ NLA.PF02.quotient_orientation_proved,
+ NLA.PF02.witness_coordinates_det]
+Material proof retained: [NLA.PF02.not_connectedOrbitConjecture,
+ NLA.PF02.not_connectedOrbitConjecture_proved,
+ NLA.PF02.disconnected_counterexample_proved,
+ NLA.PF02.quotient_orientation_proved,
+ NLA.PF02.reflected_coordinates_det]
+Material proof retained: [NLA.PF02.not_connectedOrbitConjecture,
+ NLA.PF02.not_connectedOrbitConjecture_proved,
+ NLA.PF02.disconnected_counterexample_proved,
+ NLA.PF02.quotient_orientation_proved,
+ NLA.PF02.orientation_congruent,
+ NLA.PF02.congruence_coordinate_det]

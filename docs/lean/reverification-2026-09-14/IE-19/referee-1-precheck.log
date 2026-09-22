@@ -1,0 +1,13 @@
+{
+  "determinants": [
+    "27/4",
+    "4"
+  ],
+  "row_norms": [
+    "7/9",
+    "5/4"
+  ],
+  "gap": "17/36",
+  "both_sided_inverse_identities": true,
+  "all_nine_entry_bounds_and_dominance": true
+}

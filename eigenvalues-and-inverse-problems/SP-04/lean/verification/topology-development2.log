@@ -1,0 +1,354 @@
+NLA/SP04/TopologyProof.lean:14:18: error: simp_all made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:11:18: error: unsolved goals
+case neg
+X Y : Mat 3
+i j : Fin 3
+h✝¹ : j ≤ i
+h✝ : i ≤ j
+⊢ 0 =
+    ((fun i j => if i < j then X i j else if j < i then -X j i else 0) + fun i j =>
+        if i < j then Y i j else if j < i then -Y j i else 0)
+      i j
+NLA/SP04/TopologyProof.lean:18:18: error: simp_all made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:15:19: error: unsolved goals
+case neg
+c : ℝ
+X : Mat 3
+i j : Fin 3
+h✝¹ : j ≤ i
+h✝ : i ≤ j
+⊢ 0 = (c • fun i j => if i < j then X i j else if j < i then -X j i else 0) i j
+NLA/SP04/TopologyProof.lean:25:18: error: simp_all made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:22:18: error: unsolved goals
+case neg
+X Y : Mat 3
+i j : Fin 3
+h✝¹ : j ≤ i
+h✝ : i ≤ j
+⊢ 0 =
+    ((fun i j => if i < j then X j i else if j < i then -X i j else 0) + fun i j =>
+        if i < j then Y j i else if j < i then -Y i j else 0)
+      i j
+NLA/SP04/TopologyProof.lean:29:18: error: simp_all made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:26:19: error: unsolved goals
+case neg
+c : ℝ
+X : Mat 3
+i j : Fin 3
+h✝¹ : j ≤ i
+h✝ : i ≤ j
+⊢ 0 = (c • fun i j => if i < j then X j i else if j < i then -X i j else 0) i j
+NLA/SP04/TopologyProof.lean:33:18: error: unsolved goals
+X Y : Mat 3
+i j : Fin 3
+⊢ (if i = j then X i i + Y i i else 0) = (if i = j then X i i else 0) + if i = j then Y i i else 0
+NLA/SP04/TopologyProof.lean:42:2: error: Tactic `split_ifs` failed: no if-then-else conditions to split
+
+X : Mat 3
+i j : Fin 3
+⊢ sorry X j i = -sorry X i j
+NLA/SP04/TopologyProof.lean:41:13: warning: declaration uses `sorry`
+NLA/SP04/TopologyProof.lean:41:23: warning: This simp argument is unused:
+  LinearMap.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [leftSkew, AddHom.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:41:41: warning: This simp argument is unused:
+  AddHom.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [leftSkew, LinearMap.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:47:2: error: Tactic `split_ifs` failed: no if-then-else conditions to split
+
+X : Mat 3
+i j : Fin 3
+⊢ sorry X j i = -sorry X i j
+NLA/SP04/TopologyProof.lean:46:13: warning: declaration uses `sorry`
+NLA/SP04/TopologyProof.lean:46:24: warning: This simp argument is unused:
+  LinearMap.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [rightSkew, AddHom.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:46:42: warning: This simp argument is unused:
+  AddHom.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [rightSkew, LinearMap.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:60:3: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HAdd (Mat 3 →L[ℝ] Mat 3) (Mat 3 →L[ℝ] Mat 3) ?m.161
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+NLA/SP04/TopologyProof.lean:66:44: error: Tactic `rfl` failed: The left-hand side
+  (orbitDerivative s) X
+is not definitionally equal to the right-hand side
+  leftSkew X * Matrix.diagonal s + diagPart X + Matrix.diagonal s * rightSkew X
+
+s : Fin 3 → ℝ
+X : Mat 3
+⊢ (orbitDerivative s) X = leftSkew X * Matrix.diagonal s + diagPart X + Matrix.diagonal s * rightSkew X
+NLA/SP04/TopologyProof.lean:70:100: error: Type mismatch: After simplification, term
+  hasStrictFDerivAt_exp_zero
+ has type
+  @HasStrictFDerivAt ℝ DenselyNormedField.toNontriviallyNormedField (Mat 3) Matrix.linftyOpNormedRing.toAddCommGroup
+    (NormedAlgebra.toNormedSpace (Mat 3)).toModule PseudoMetricSpace.toUniformSpace.toTopologicalSpace (Mat 3)
+    Matrix.linftyOpNormedRing.toAddCommGroup (NormedAlgebra.toNormedSpace (Mat 3)).toModule
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace exp 1 0
+but is expected to have type
+  @HasStrictFDerivAt ℝ DenselyNormedField.toNontriviallyNormedField (Mat 3) Matrix.addCommGroup Matrix.module
+    instTopologicalSpaceMatrix (Mat 3) Matrix.addCommGroup Matrix.module instTopologicalSpaceMatrix exp 1 0
+NLA/SP04/TopologyProof.lean:71:101: error: Type mismatch: After simplification, term
+  hasStrictFDerivAt_exp_zero
+ has type
+  @HasStrictFDerivAt ℝ DenselyNormedField.toNontriviallyNormedField (Mat 3) Matrix.linftyOpNormedRing.toAddCommGroup
+    (NormedAlgebra.toNormedSpace (Mat 3)).toModule PseudoMetricSpace.toUniformSpace.toTopologicalSpace (Mat 3)
+    Matrix.linftyOpNormedRing.toAddCommGroup (NormedAlgebra.toNormedSpace (Mat 3)).toModule
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace exp 1 0
+but is expected to have type
+  @HasStrictFDerivAt ℝ DenselyNormedField.toNontriviallyNormedField (Mat 3) Matrix.addCommGroup Matrix.module
+    instTopologicalSpaceMatrix (Mat 3) Matrix.addCommGroup Matrix.module instTopologicalSpaceMatrix exp 1 0
+NLA/SP04/TopologyProof.lean:82:27: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+NLA/SP04/TopologyProof.lean:83:4: error: No goals to be solved
+NLA/SP04/TopologyProof.lean:69:62: error: unsolved goals
+case e'_6
+s : Fin 3 → ℝ
+heL : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+heR : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap rightSkew) 0)
+hL :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap leftSkew) 0
+hR :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap rightSkew) 0
+hD :
+  HasStrictFDerivAt (fun x => Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+    (LinearMap.toContinuousLinearMap diagPart) 0
+H :
+  HasStrictFDerivAt
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew))
+    0
+⊢ instTopologicalSpaceMatrix = PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+
+case e'_8
+s : Fin 3 → ℝ
+heL : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+heR : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap rightSkew) 0)
+hL :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap leftSkew) 0
+hR :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap rightSkew) 0
+hD :
+  HasStrictFDerivAt (fun x => Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+    (LinearMap.toContinuousLinearMap diagPart) 0
+H :
+  HasStrictFDerivAt
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew))
+    0
+⊢ Matrix.addCommGroup = Matrix.linftyOpNormedRing.toAddCommGroup
+
+case e'_9
+s : Fin 3 → ℝ
+heL : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+heR : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap rightSkew) 0)
+hL :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap leftSkew) 0
+hR :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap rightSkew) 0
+hD :
+  HasStrictFDerivAt (fun x => Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+    (LinearMap.toContinuousLinearMap diagPart) 0
+H :
+  HasStrictFDerivAt
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew))
+    0
+e_8✝ : Matrix.addCommGroup = Matrix.linftyOpNormedRing.toAddCommGroup
+⊢ Matrix.module = (NormedAlgebra.toNormedSpace (Mat 3)).toModule
+
+case e'_10
+s : Fin 3 → ℝ
+heL : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+heR : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap rightSkew) 0)
+hL :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap leftSkew) 0
+hR :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap rightSkew) 0
+hD :
+  HasStrictFDerivAt (fun x => Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+    (LinearMap.toContinuousLinearMap diagPart) 0
+H :
+  HasStrictFDerivAt
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew))
+    0
+⊢ instTopologicalSpaceMatrix = PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+
+case e'_11
+s : Fin 3 → ℝ
+heL : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+heR : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap rightSkew) 0)
+hL :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap leftSkew) 0
+hR :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap rightSkew) 0
+hD :
+  HasStrictFDerivAt (fun x => Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+    (LinearMap.toContinuousLinearMap diagPart) 0
+H :
+  HasStrictFDerivAt
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew))
+    0
+⊢ localOrbit s =
+    ((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x)
+
+case e'_12
+s : Fin 3 → ℝ
+heL : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+heR : HasStrictFDerivAt exp 1 ((LinearMap.toContinuousLinearMap rightSkew) 0)
+hL :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap leftSkew) 0
+hR :
+  HasStrictFDerivAt (fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (1 ∘SL LinearMap.toContinuousLinearMap rightSkew) 0
+hD :
+  HasStrictFDerivAt (fun x => Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+    (LinearMap.toContinuousLinearMap diagPart) 0
+H :
+  HasStrictFDerivAt
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+        Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x) *
+      fun x => exp ((LinearMap.toContinuousLinearMap rightSkew) x))
+    (((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew))
+    0
+e_4✝ : Matrix.addCommGroup = Matrix.linftyOpNormedAddCommGroup.toAddCommGroup
+he✝¹ : Matrix.module = Matrix.linftyOpNormedSpace.toModule
+e_6✝ : instTopologicalSpaceMatrix = PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+e_8✝ : Matrix.addCommGroup = Matrix.linftyOpNormedRing.toAddCommGroup
+he✝ : Matrix.module = (NormedAlgebra.toNormedSpace (Mat 3)).toModule
+e_10✝ : instTopologicalSpaceMatrix = PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+⊢ orbitDerivative s ≍
+    ((fun x => exp ((LinearMap.toContinuousLinearMap leftSkew) x)) * fun x =>
+            Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) x)
+          0 •
+        1 ∘SL LinearMap.toContinuousLinearMap rightSkew +
+      MulOpposite.op (exp ((LinearMap.toContinuousLinearMap rightSkew) 0)) •
+        (exp ((LinearMap.toContinuousLinearMap leftSkew) 0) • LinearMap.toContinuousLinearMap diagPart +
+          MulOpposite.op (Matrix.diagonal s + (LinearMap.toContinuousLinearMap diagPart) 0) •
+            1 ∘SL LinearMap.toContinuousLinearMap leftSkew)
+NLA/SP04/TopologyProof.lean:82:10: warning: declaration uses `sorry`
+NLA/SP04/TopologyProof.lean:82:10: warning: This simp argument is unused:
+  orbitDerivative
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ContinuousLinearMap.mul_apply, ContinuousLinearMap.flip_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:82:27: warning: This simp argument is unused:
+  ContinuousLinearMap.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orbitDerivative, ContinuousLinearMap.flip_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:82:58: warning: This simp argument is unused:
+  ContinuousLinearMap.flip_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [orbitDerivative, ContinuousLinearMap.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

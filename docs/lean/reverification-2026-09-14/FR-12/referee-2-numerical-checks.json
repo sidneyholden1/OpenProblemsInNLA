@@ -1,0 +1,15 @@
+{
+  "complete_small_enumerations": {
+    "1": {
+      "H_m": 2,
+      "restricted_domain_size": 4,
+      "distinct_outputs": 4
+    },
+    "2": {
+      "H_m": 8,
+      "restricted_domain_size": 128,
+      "distinct_outputs": 128
+    }
+  },
+  "universal_growth": "Not established by these finite diagnostics; symbolic injection/Archimedean proof required."
+}

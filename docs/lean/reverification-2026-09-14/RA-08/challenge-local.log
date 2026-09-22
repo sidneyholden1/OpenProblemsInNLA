@@ -1,0 +1,17 @@
+✔ [2708/2710] Built NLA.RA08.Definitions (10s)
+⚠ [2709/2710] Built Challenge (11s)
+warning: Challenge.lean:17:8: declaration uses `sorry`
+warning: Challenge.lean:23:8: declaration uses `sorry`
+warning: Challenge.lean:36:8: declaration uses `sorry`
+warning: Challenge.lean:45:8: declaration uses `sorry`
+warning: Challenge.lean:54:8: declaration uses `sorry`
+warning: Challenge.lean:60:8: declaration uses `sorry`
+warning: Challenge.lean:72:8: declaration uses `sorry`
+warning: Challenge.lean:78:8: declaration uses `sorry`
+warning: Challenge.lean:84:8: declaration uses `sorry`
+warning: Challenge.lean:91:8: declaration uses `sorry`
+warning: Challenge.lean:106:8: declaration uses `sorry`
+warning: Challenge.lean:121:8: declaration uses `sorry`
+warning: Challenge.lean:126:8: declaration uses `sorry`
+warning: Challenge.lean:139:8: declaration uses `sorry`
+Build completed successfully (2710 jobs).

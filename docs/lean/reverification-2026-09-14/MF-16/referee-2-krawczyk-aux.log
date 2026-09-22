@@ -1,0 +1,16 @@
+theorem NLA.MF16.actual_krawczyk_checked._proof_1_1 : LeanCert.Engine.krawczykCheck NLA.MF16.polynomialSystem
+    NLA.MF16.rootBox NLA.MF16.rootCertificate =
+  true :=
+of_decide_eq_true (id (Eq.refl true))
+'NLA.MF16.actual_krawczyk_checked._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.MF16.box_radius_exact._proof_1_1 : LeanCert.Engine.boxRadius NLA.MF16.rootBox NLA.MF16.rootCenter =
+  NLA.MF16.rootRadius :=
+of_decide_eq_true (id (Eq.refl true))
+'NLA.MF16.box_radius_exact._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.MF16.contraction_bound_small._proof_1_1 : NLA.MF16.contractionBound < 27 / 1000 :=
+of_decide_eq_true (id (Eq.refl true))
+'NLA.MF16.contraction_bound_small._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.MF16.preconditioner_det_exact._proof_1_1 : NLA.MF16.rootCertificate.preconditioner.det =
+  790668616748253 / 62500000000000000000000000000 :=
+of_decide_eq_true (id (Eq.refl true))
+'NLA.MF16.preconditioner_det_exact._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]

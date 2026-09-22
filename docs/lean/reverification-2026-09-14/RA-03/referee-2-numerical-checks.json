@@ -1,0 +1,246 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "gram": [
+    [
+      "5",
+      "4"
+    ],
+    [
+      "4",
+      "5"
+    ]
+  ],
+  "ordered_squared_singular_value_candidate": [
+    9,
+    1
+  ],
+  "singular_values_candidate": [
+    3,
+    1
+  ],
+  "all_four_updates": [
+    {
+      "pivot": [
+        0,
+        0
+      ],
+      "mass": "2/5",
+      "residual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/2"
+        ]
+      ],
+      "error": "9/4"
+    },
+    {
+      "pivot": [
+        0,
+        1
+      ],
+      "mass": "1/10",
+      "residual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-3",
+          "0"
+        ]
+      ],
+      "error": "9"
+    },
+    {
+      "pivot": [
+        1,
+        0
+      ],
+      "mass": "1/10",
+      "residual": [
+        [
+          "0",
+          "-3"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "error": "9"
+    },
+    {
+      "pivot": [
+        1,
+        1
+      ],
+      "mass": "2/5",
+      "residual": [
+        [
+          "3/2",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "error": "9/4"
+    }
+  ],
+  "expected_error": "18/5",
+  "tail": 1,
+  "strict_gap": "8/5",
+  "independent_history_diagnostics": [
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 0,
+      "mass": "1",
+      "expected": "10"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 1,
+      "mass": "1",
+      "expected": "18/5"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 2,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 3,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 0,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 1,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 2,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 3,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 0,
+      "mass": "1",
+      "expected": "1"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 1,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 2,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "k": 3,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        1,
+        3
+      ],
+      "k": 0,
+      "mass": "1",
+      "expected": "5"
+    },
+    {
+      "shape": [
+        1,
+        3
+      ],
+      "k": 1,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        1,
+        3
+      ],
+      "k": 2,
+      "mass": "1",
+      "expected": "0"
+    },
+    {
+      "shape": [
+        1,
+        3
+      ],
+      "k": 3,
+      "mass": "1",
+      "expected": "0"
+    }
+  ],
+  "limitation": "generic normalization and actual sorted singular-value identification still require Lean proofs"
+}

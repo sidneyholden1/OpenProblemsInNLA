@@ -1,0 +1,94 @@
+NLA.MI21.operatorNorm_isUnitaryInvariant : ∀ (n : ℕ), NLA.MI21.IsUnitaryInvariantNorm NLA.MI21.operatorNorm
+'NLA.MI21.operatorNorm_isUnitaryInvariant' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI21.counterexample : ∀ (p : ℝ),
+  LT.lt.{0} 0 p →
+    (∀ (i : Fin 2), Matrix.PosDef.{0, 0} (NLA.MI21.witnessA i) ∧ Matrix.PosDef.{0, 0} (NLA.MI21.witnessB i)) ∧
+      Eq.{1} (∑ i, NLA.MI21.witnessA i) 1 ∧
+        Eq.{1} (∑ i, NLA.MI21.witnessB i) 1 ∧
+          Eq.{1} (NLA.MI21.leftMatrix NLA.MI21.witnessA NLA.MI21.witnessB (1 / 2) (1 / 2) 2) NLA.MI21.witnessL ∧
+            Eq.{1} (NLA.MI21.rightMatrix NLA.MI21.witnessA NLA.MI21.witnessB (1 / 2) (1 / 2) 2 p) 1 ∧
+              Ne.{1} NLA.MI21.witnessVector 0 ∧
+                Eq.{1} (Matrix.mulVec.{0, 0, 0} NLA.MI21.witnessL NLA.MI21.witnessVector)
+                    (HSMul.hSMul.{0, 0, 0} (↑NLA.MI21.witnessEigenvalue) NLA.MI21.witnessVector) ∧
+                  LT.lt.{0} 1 NLA.MI21.witnessEigenvalue ∧
+                    LE.le.{0} NLA.MI21.witnessEigenvalue
+                        (NLA.MI21.operatorNorm
+                          (NLA.MI21.leftMatrix NLA.MI21.witnessA NLA.MI21.witnessB (1 / 2) (1 / 2) 2)) ∧
+                      Eq.{1}
+                          (NLA.MI21.operatorNorm
+                            (NLA.MI21.rightMatrix NLA.MI21.witnessA NLA.MI21.witnessB (1 / 2) (1 / 2) 2 p))
+                          1 ∧
+                        LT.lt.{0}
+                          (NLA.MI21.operatorNorm
+                            (NLA.MI21.rightMatrix NLA.MI21.witnessA NLA.MI21.witnessB (1 / 2) (1 / 2) 2 p))
+                          (NLA.MI21.operatorNorm
+                            (NLA.MI21.leftMatrix NLA.MI21.witnessA NLA.MI21.witnessB (1 / 2) (1 / 2) 2))
+'NLA.MI21.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI21.not_geometricMeanNormConjecture : ¬NLA.MI21.GeometricMeanNormConjecture
+'NLA.MI21.not_geometricMeanNormConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MI21.witness_eigenvalue_gt_one : LT.lt.{0} 1 NLA.MI21.witnessEigenvalue :=
+id.{0}
+  (have h0 :=
+    LeanCert.Validity.verify_strict_upper_bound_dyadic_checked (LeanCert.Core.Expr.const (Rat.divInt 1 1))
+      (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl.{0} (Rat.divInt 0 1)) (Rat.divInt 1351000 1350907) (-53) 10
+      (of_decide_eq_true (id.{0} (Eq.refl.{1} true))) NLA.MI21.witness_eigenvalue_gt_one._proof_1_7 ↑(Rat.divInt 0 1)
+      ⟨le_refl.{0} ↑(Rat.divInt 0 1), le_refl.{0} ↑(Rat.divInt 0 1)⟩;
+  Eq.mpr.{0}
+    (eq_of_heq.{1}
+      ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+          Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+            Eq.{1} a' a_2 → HEq.{0} e'_3 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1)) e'_3
+            (fun h =>
+              Eq.ndrec.{0, 1} (motive := fun a' =>
+                ∀ (e_3 : Eq.{1} a a'), HEq.{0} e_3 (Eq.refl.{1} a) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1))
+                (fun e_3 h =>
+                  Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+                    Eq.{1} a'_1 a_2 → HEq.{0} e'_4 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'_1)) e'_4
+                    (fun h =>
+                      Eq.ndrec.{0, 1} (motive := fun a' =>
+                        ∀ (e_4 : Eq.{1} a_1 a'),
+                          HEq.{0} e_4 (Eq.refl.{1} a_1) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'))
+                        (fun e_4 h => HEq.refl.{1} (LT.lt.{0} a a_1)) (Eq.symm.{1} h) e'_4)
+                    (Eq.refl.{1} a'_1) (HEq.refl.{0} e'_4))
+                (Eq.symm.{1} h) e'_3)
+            (Eq.refl.{1} a') (HEq.refl.{0} e'_3))
+        ℝ Real.instLT 1 (↑(HDiv.hDiv.{0, 0, 0} ↑1 ↑1))
+        (Mathlib.Meta.NormNum.isNat_eq_true.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_one.{0})
+          (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+            (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+              (Mathlib.Meta.NormNum.isNNRat_div.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                  (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                    (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                      (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1)))
+                    (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                      (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                        (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                          (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                            (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                    (Eq.refl.{1} 1)))))))
+        (1351000 / 1350907) (↑(HDiv.hDiv.{0, 0, 0} ↑1351000 ↑1350907))
+        (Mathlib.Meta.NormNum.isNNRat_eq_true.{0}
+          (Mathlib.Meta.NormNum.isNNRat_div.{0}
+            (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 1351000)))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                  (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 1350907))))
+              (Eq.refl.{1} (Nat.mul 1351000 1)) (Eq.refl.{1} 1350907)))
+          (Mathlib.Meta.NormNum.isNNRat_ratCast.{0}
+            (Mathlib.Meta.NormNum.isNNRat_div.{0}
+              (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 1351000 1351000
+                    (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1351000))))
+                (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                    (Mathlib.Meta.NormNum.isNat_intCast.{0} 1350907 1350907
+                      (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1350907)))))
+                (Eq.refl.{1} (Nat.mul 1351000 1)) (Eq.refl.{1} 1350907)))))))
+    (Eq.mp.{0}
+      (congr.{1, 1} (congrArg.{1, 1} LT.lt.{0} (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 1 1)))
+        (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 1351000 1350907)))
+      h0))
+'NLA.MI21.witness_eigenvalue_gt_one' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

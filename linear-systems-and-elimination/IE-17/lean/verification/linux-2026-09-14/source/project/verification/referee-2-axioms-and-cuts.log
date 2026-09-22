@@ -1,0 +1,8 @@
+'NLA.IE17.iterates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.backward_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.approximation_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+Actual approximation proof dependency: LeanCert.Core.Expr.eval
+Actual approximation proof dependency: LeanCert.Core.Expr.mul
+Actual approximation proof dependency: LeanCert.Core.Expr.const
+Actual approximation proof dependency: LeanCert.Validity.verify_strict_upper_bound_dyadic_checked

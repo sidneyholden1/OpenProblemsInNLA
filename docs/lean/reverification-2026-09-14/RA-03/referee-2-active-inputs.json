@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "ad84edf4a36673eef141c12bface0802188ef540",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "randomized-and-low-rank-approximation/RA-03/lean/Solution.lean": {
+      "sha256": "08e83996051e2c443a6a5153e8fb6e30ebf69bd4f44f86cddda837bbc0baf86e",
+      "bytes": 1999
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/NLA/RA03/Definitions.lean": {
+      "sha256": "de6509ef6b4a41db3e01fce7b77af4c7c338dbd61f8f135e956602d3b8b0980f",
+      "bytes": 4665
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/NLA/RA03/Proof.lean": {
+      "sha256": "b98c702906e163805ae83809cf750eca650f365a815034a665e2ebd7bd96746a",
+      "bytes": 11302
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/Challenge.lean": {
+      "sha256": "74a7c727e8cf2fa1ee26e78cfab812626b265abe8211e09f144a3c78fca5345e",
+      "bytes": 1721
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/comparator.json": {
+      "sha256": "230d3e2d92277a192b6a845793c3c6035e1cab3b28c83c6dd44324a7ed5dc21f",
+      "bytes": 358
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/lake-manifest.json": {
+      "sha256": "ee137a71fd2761e4d1e9d927307b7debb4dbdad6795ee2584e279904ccdd0b95",
+      "bytes": 3884
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/lakefile.toml": {
+      "sha256": "fa1e6237e6ef87f2052ac893a044d6740bbac019ef7ea7db2515f865aacace56",
+      "bytes": 280
+    },
+    "randomized-and-low-rank-approximation/RA-03/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

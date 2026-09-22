@@ -1,0 +1,72 @@
+NLA.RA20.hollow_variety_semantics : (∀ (a b c : ℂ),
+    Eq.{1} (Matrix.det.{0, 0} (NLA.RA20.hollow.{0} a b c))
+        (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 a) b) c) ∧
+      (Membership.mem.{0, 0} (NLA.RA20.variety 3 3) (NLA.RA20.hollow.{0} a b c) ↔
+        Eq.{1} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} a b) c) 0)) ∧
+  ∀ (X : NLA.RA20.Mat 3),
+    Membership.mem.{0, 0} (NLA.RA20.variety 3 3) X ↔
+      Eq.{1} X (NLA.RA20.hollow.{0} (X 0 1) (X 0 2) (X 1 2)) ∧
+        Eq.{1} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (X 0 1) (X 0 2)) (X 1 2)) 0
+'NLA.RA20.hollow_variety_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.reduced_coordinate_ring : ∃ e,
+  ∀ (i j : Fin 3),
+    Eq.{1} (e ((Ideal.Quotient.mk.{0} (NLA.RA20.definingIdeal 3 3)) (MvPolynomial.X.{0, 0} (Prod.mk.{0, 0} i j))))
+      ((Ideal.Quotient.mk.{0} NLA.RA20.abcIdeal) (NLA.RA20.polynomialHollow i j))
+'NLA.RA20.reduced_coordinate_ring' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.algebraic_smooth_locus : ∀ (X : NLA.RA20.Mat 3),
+  NLA.RA20.SmoothPoint 3 3 X ↔
+    Eq.{1} X (NLA.RA20.hollow.{0} (X 0 1) (X 0 2) (X 1 2)) ∧ NLA.RA20.ExactlyOneZero (X 0 1) (X 0 2) (X 1 2)
+'NLA.RA20.algebraic_smooth_locus' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.algebraic_tangent_space : ∀ (a b c : ℂ),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} a b) c) 0 →
+    ∀ (Z : NLA.RA20.Mat 3),
+      NLA.RA20.TangentVector 3 3 (NLA.RA20.hollow.{0} a b c) Z ↔
+        Matrix.IsSymm.{0, 0} Z ∧
+          (∀ (i : Fin 3), Eq.{1} (Z i i) 0) ∧
+            Eq.{1}
+              (HAdd.hAdd.{0, 0, 0}
+                (HAdd.hAdd.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} b c) (Z 0 1))
+                  (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} a c) (Z 0 2)))
+                (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} a b) (Z 1 2)))
+              0
+'NLA.RA20.algebraic_tangent_space' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.full_frobenius_differential : ∀ (n : ℕ) (U X Z : NLA.RA20.Mat n),
+  Eq.{1} ((fderiv.{0, 0, 0} ℂ (NLA.RA20.fullFrobeniusDistance U) X) Z)
+    (HMul.hMul.{0, 0, 0} 2 (∑ i, ∑ j, HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} (X i j) (U i j)) (Z i j)))
+'NLA.RA20.full_frobenius_differential' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.hollow_distance_semantics : ∀ (U : NLA.RA20.Mat 3),
+  Matrix.IsSymm.{0, 0} U →
+    ∀ (a b c : ℂ),
+      Eq.{1} (NLA.RA20.fullFrobeniusDistance U (NLA.RA20.hollow.{0} a b c))
+        (HAdd.hAdd.{0, 0, 0} (∑ i, HPow.hPow.{0, 0, 0} (U i i) 2)
+          (HMul.hMul.{0, 0, 0} 2
+            (HAdd.hAdd.{0, 0, 0}
+              (HAdd.hAdd.{0, 0, 0} (HPow.hPow.{0, 0, 0} (HSub.hSub.{0, 0, 0} a (U 0 1)) 2)
+                (HPow.hPow.{0, 0, 0} (HSub.hSub.{0, 0, 0} b (U 0 2)) 2))
+              (HPow.hPow.{0, 0, 0} (HSub.hSub.{0, 0, 0} c (U 1 2)) 2))))
+'NLA.RA20.hollow_distance_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.generic_critical_locus : ∀ (U : NLA.RA20.Mat 3),
+  NLA.RA20.GenericData U →
+    Eq.{1} (NLA.RA20.criticalSet 3 3 U) (Set.range.{0, 1} (NLA.RA20.candidate U)) ∧
+      Function.Injective.{1, 1} (NLA.RA20.candidate U)
+'NLA.RA20.generic_critical_locus' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.component_hessians : ∀ (U : NLA.RA20.Mat 3) (i : Fin 3) (z h v : Fin 2 → ℂ),
+  Eq.{1}
+      (((fderiv.{0, 0, 0} ℂ
+            (fun w => fderiv.{0, 0, 0} ℂ (fun y => NLA.RA20.fullFrobeniusDistance U (NLA.RA20.planeCoordinates i y)) w)
+            z)
+          h)
+        v)
+      (HMul.hMul.{0, 0, 0} 4 (∑ j, HMul.hMul.{0, 0, 0} (h j) (v j))) ∧
+    ((∀ (v : Fin 2 → ℂ), Eq.{1} (HMul.hMul.{0, 0, 0} 4 (∑ j, HMul.hMul.{0, 0, 0} (h j) (v j))) 0) → Eq.{1} h 0)
+'NLA.RA20.component_hessians' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.generic_data_intersection : ∀ (q : NLA.RA20.Poly 3),
+  (∃ U, Matrix.IsSymm.{0, 0} U ∧ Ne.{1} ((MvPolynomial.eval.{0, 0} (NLA.RA20.coordinates U)) q) 0) →
+    ∃ U, NLA.RA20.GenericData U ∧ Ne.{1} ((MvPolynomial.eval.{0, 0} (NLA.RA20.coordinates U)) q) 0
+'NLA.RA20.generic_data_intersection' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.generic_count_three : NLA.RA20.HasGenericCriticalCount 3 3 3
+'NLA.RA20.generic_count_three' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.generic_count_not_four : ¬NLA.RA20.HasGenericCriticalCount 3 3 4
+'NLA.RA20.generic_count_not_four' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA20.not_criticalCountConjecture : ¬NLA.RA20.criticalCountConjecture
+'NLA.RA20.not_criticalCountConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

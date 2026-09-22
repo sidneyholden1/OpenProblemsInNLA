@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS",
+  "names": [
+    "NLA.MF16.actual_krawczyk_checked",
+    "NLA.MF16.certified_root_proved"
+  ],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mf16/docs/lean/reverification-2026-09-14/MF-16/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mf16/matrix-functions-and-stability/MF-16/lean",
+  "script_sha256": "b94d8f9f65fe940c87e339fe5c6c7cdd87c94d4628e71eaec9626d9af5cfc4ea",
+  "log_sha256": "4e070337db023421bf5d1d0c300c76c87a4b343c0bcf1320eb7bf0663e0d4372"
+}

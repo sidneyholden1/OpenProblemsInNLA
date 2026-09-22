@@ -1,0 +1,29 @@
+{
+  "run_id": 34900787878,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900787878",
+  "verified_commit": "05dda9e7ac6c222910d7553694ff4b4551aaa2a6",
+  "artifact_id": 10371071930,
+  "artifact_sha256": "0adec45202bda961288442e607802d158b61569067c869b3560a41d454aaaf32",
+  "github_artifact_digest": "sha256:0adec45202bda961288442e607802d158b61569067c869b3560a41d454aaaf32",
+  "all_input_hashes_match": true,
+  "input_count": 597,
+  "active_source_sha256": {
+    ".gitignore": "604c7de6af9c26e7fd4da7ee92a536bd70963f688bb3b1e5bc899c6de3471592",
+    "Challenge.lean": "77be095dc706c901714caa68d3393bf95004fc5f9fee2fa43f7460dafa342b90",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/IV06/Definitions.lean": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+    "NLA/IV06/Proof.lean": "600311e699fecc178f921e8233a9c14d50774db5980ea63560040e578d896333",
+    "NUMERICAL_TARGETS.md": "f51f4118af540fa4d3c8e16b40d859ee730c40c8417c4e45f86dc0e5c58a04d9",
+    "README.md": "7487f9ae51cf2850d17f6c3c5287098391b6621f709d48d7c0e053da594a0456",
+    "Solution.lean": "b4b9ab44b95accb5f4a0b677d417937cc0ca9ae6c9f08409b2c178ef0d8f699d",
+    "SourceCorrespondence.md": "c7657590d00f5ac46cbf0b30b9edf368f1040b57ea50efae208837f92f0d0408",
+    "comparator.json": "e84e8d1c516d1ecf17a838d49df61043e90a21a8e72108b285088c02bd35a1c2",
+    "formalization.yaml": "6aa472db72da76e3ffa2b23308b919fe3c4378b3266b607ac2f43bbf889fb1aa",
+    "lake-manifest.json": "05c42b3215c767aa2adb7c1b9af4fe0fbd96c81e29a66705e7c12875b0e023d3",
+    "lakefile.toml": "7c8786b1892806616674c65624a7ceb2029eaac75ecaf95afcefe3f1a5099b99",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "source-inputs.json": "d5ea2b0c74cc04913948aff74618765cf458a7ae87d679e24b64e16a39bf1140"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

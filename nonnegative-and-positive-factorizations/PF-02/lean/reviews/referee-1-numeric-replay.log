@@ -1,0 +1,22 @@
+NLA/PF02/Numeric.lean:30:45: warning: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/PF02/Numeric.lean:30:45: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+NLA/PF02/Numeric.lean:149:48: warning: This simp argument is unused:
+  Matrix.det_fin_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [congruenceCoordinates, symCoordinates, symBasis, symOfCoordinates, Matrix.mul_apply,
+    Matrix.det_succ_row_zero, Matrix.submatrix_apply, Fin.succAbove, Fin.sum_univ_succ, Pi.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/PF02/Numeric.lean:149:127: warning: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [congruenceCoordinates, symCoordinates, symBasis, symOfCoordinates, Matrix.mul_apply,
+    Matrix.det_succ_row_zero, Matrix.det_fin_zero, Matrix.submatrix_apply, Fin.succAbove, Fin.sum_univ_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

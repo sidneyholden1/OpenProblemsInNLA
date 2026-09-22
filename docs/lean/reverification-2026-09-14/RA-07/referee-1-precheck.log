@@ -1,0 +1,134 @@
+{
+  "id": "RA-07",
+  "verdict": "PASS",
+  "method": "Independent Python exact Fraction arithmetic; not a Lean proof",
+  "checks": {
+    "symbolic_cleared_numerator": {
+      "(0, 2, 0)": "-2",
+      "(1, 0, 1)": "2"
+    },
+    "endpoint_and_repeated_root_diagnostics": [
+      {
+        "tuple": [
+          "1",
+          "1",
+          "1"
+        ],
+        "second_differences": [
+          {
+            "index": 2,
+            "derivative_order": 1,
+            "degree": 2,
+            "gap": "0",
+            "denominator": "4"
+          }
+        ]
+      },
+      {
+        "tuple": [
+          "1",
+          "2",
+          "3"
+        ],
+        "second_differences": [
+          {
+            "index": 2,
+            "derivative_order": 1,
+            "degree": 2,
+            "gap": "13/33",
+            "denominator": "22"
+          }
+        ]
+      },
+      {
+        "tuple": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "second_differences": [
+          {
+            "index": 2,
+            "derivative_order": 1,
+            "degree": 4,
+            "gap": "0",
+            "denominator": "48"
+          },
+          {
+            "index": 3,
+            "derivative_order": 2,
+            "degree": 3,
+            "gap": "0",
+            "denominator": "18"
+          },
+          {
+            "index": 4,
+            "derivative_order": 3,
+            "degree": 2,
+            "gap": "0",
+            "denominator": "4"
+          }
+        ]
+      },
+      {
+        "tuple": [
+          "1/10",
+          "2",
+          "2",
+          "9"
+        ],
+        "second_differences": [
+          {
+            "index": 2,
+            "derivative_order": 1,
+            "degree": 3,
+            "gap": "1155377/1352575",
+            "denominator": "1982400/17161"
+          },
+          {
+            "index": 3,
+            "derivative_order": 2,
+            "degree": 2,
+            "gap": "22566/10325",
+            "denominator": "518400/170569"
+          }
+        ]
+      },
+      {
+        "tuple": [
+          "1",
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "second_differences": [
+          {
+            "index": 2,
+            "derivative_order": 1,
+            "degree": 4,
+            "gap": "12/5",
+            "denominator": "4800"
+          },
+          {
+            "index": 3,
+            "derivative_order": 2,
+            "degree": 3,
+            "gap": "276/155",
+            "denominator": "4608/5"
+          },
+          {
+            "index": 4,
+            "derivative_order": 3,
+            "degree": 2,
+            "gap": "192/155",
+            "denominator": "16384/155"
+          }
+        ]
+      }
+    ],
+    "scope": "Exact symbolic identity plus bounded diagnostics; no universal root-factorization proof claimed."
+  }
+}

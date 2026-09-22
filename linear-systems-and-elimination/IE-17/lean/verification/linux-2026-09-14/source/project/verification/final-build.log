@@ -1,0 +1,5 @@
+⚠ [3675/3677] Built NLA.IE17.Approximation (7.4s)
+warning: NLA/IE17/Approximation.lean:104:4: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: NLA/IE17/Approximation.lean:107:4: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+✔ [3676/3677] Built Solution (5.7s)
+Build completed successfully (3677 jobs).

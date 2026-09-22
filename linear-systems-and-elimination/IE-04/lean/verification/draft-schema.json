@@ -1,0 +1,9 @@
+{
+  "stage": "official v0.4 draft schema and statement coverage only",
+  "verdict": "PASS",
+  "schema_sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
+  "metadata_sha256": "c719e7dc1aa04d67d5c57f0d59392e70d7e6e0c53eabcb45f95d5fc99b486fcc",
+  "comparator_sha256": "5f9886dda49574e09e13b5fa6f906ea20e55803b24233df0ae3892a52d6bf641",
+  "exports": 12,
+  "completion_validator": "Not claimed: twelve intentional Challenge placeholders and no Solution/proof yet."
+}

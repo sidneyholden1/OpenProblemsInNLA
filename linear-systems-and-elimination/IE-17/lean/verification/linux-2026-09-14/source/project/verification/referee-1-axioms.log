@@ -1,0 +1,7 @@
+Independent audit of Solution; full theorem print retained only as temporary inspection output.
+'NLA.IE17.iterates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.backward_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.approximation_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE17.backward_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_STATUS=0

@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS for local source build and byte preservation",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "9c6526ef5a657e0306f13e325143dbd1c4f1ad90",
+  "all_active_files_unchanged_from_base": true,
+  "active_source_sha256": {
+    "matrix-inequalities-and-norms/MI-06/lean/Solution.lean": "389fac775519a84b79b68811e141df5f466e9818469efca889c550e3110b806a",
+    "matrix-inequalities-and-norms/MI-06/lean/NLA/MI06/Definitions.lean": "a89c6604d36aec8ae3428df7663a2dbb6f2f923b13ca5f7746aaf4f424cb29d2",
+    "matrix-inequalities-and-norms/MI-06/lean/NLA/MI06/Proof.lean": "3c1fdf9ba68e850d26d1307ce6ac2a1e9a1037aba5645bda10aa68e7c3d44145"
+  },
+  "export_count": 6,
+  "printed_axiom_reports": 52,
+  "nonstandard_axioms": {},
+  "exports_without_printed_axioms_in_build_log": [],
+  "limitation": "Local pinned cached dependency build; fresh independent consumer and Linux Comparator required separately."
+}

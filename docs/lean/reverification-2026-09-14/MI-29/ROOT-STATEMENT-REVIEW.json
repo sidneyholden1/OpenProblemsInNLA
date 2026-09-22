@@ -1,0 +1,14 @@
+{
+  "reviewer": "coordinator /root; not one of the two independent referees",
+  "phase": "statement only, before inspecting active proof bodies",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "reviewed_scope": "The full target permits indefinite invertible Hermitian B. Actual unital CFC powers retain X^0=I; matrix modulus is the genuine positive square root of X\u1d34X. Generic determinant reality/positivity and both exact determinant values must be proved before the strict reversal at k=6,p=8.",
+  "source_review": "Reviewed both canonical target sections, complete informal manuscripts, Definitions, Challenge and numerical obligations. Targeted actual Mathlib CFC and singular-value definitions checked. No authored proof inspected at this phase.",
+  "status": "Boundary appears faithful; two independent statement approvals and their exact diagnostics still required before frozen gate.",
+  "files_sha256": {
+    "matrix-inequalities-and-norms/MI-29/lean/Challenge.lean": "7ac10b3c284dc5f86dbbb90ef999d5b210540dd0fbdc0bfc60ee9621d25da3cf",
+    "matrix-inequalities-and-norms/MI-29/lean/NUMERICAL_TARGETS.md": "892449f4f9107661242eca72c50d4f35652a4475ea94573daf2ad865c44e5af2",
+    "matrix-inequalities-and-norms/MI-29/lean/NLA/MI29/Definitions.lean": "c73bfb1856b3e1059ce2ef1e35f8314cb339edcc38b89d28780d38b122ce1a16",
+    "docs/lean/reverification-2026-09-14/MI-29/SOURCE-PROVENANCE.json": "96e166c187e02a624a8e5df96c4132a0d9cc6ae015ee88347b6ed47735d22ec8"
+  }
+}

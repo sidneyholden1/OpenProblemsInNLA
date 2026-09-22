@@ -1,0 +1,89 @@
+{
+  "verdict": "PASS",
+  "reviewer": "OpenAI Codex coordinator /root; independent of original authored formalization, not an external human reviewer",
+  "verified_commit": "0f21b8856978ca835ca8f7254f372d2b828c7baa",
+  "run": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872724754",
+  "all_configured_exports": 7,
+  "all_input_hashes_match": true,
+  "input_count": 367,
+  "no_definition_exceptions": true,
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "default_kernel_replay": true,
+  "fresh_project_source_build": true,
+  "dependency_cache": "Pinned public dependencies and official Mathlib cache; not a full dependency-source rebuild",
+  "actual_per_project_controls": {
+    "user-service.log": {
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "expected_exit": 0,
+      "required_markers": []
+    },
+    "sandbox.log": {
+      "sha256": "4e21096a3182bfffdd2c40c8abec32e932749f7a54933878d526733a936eafc8",
+      "expected_exit": 0,
+      "required_markers": [
+        "Outer and export fixture contents unchanged; only designated build fixture written."
+      ]
+    },
+    "kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "expected_exit": 0,
+      "required_markers": [
+        "PASS: all three actual Comparator.runBuiltinKernel cases behaved as required"
+      ]
+    },
+    "comparator-controls.log": {
+      "sha256": "f4fba6548713f8541c954fc648076f090ff3ec547d2619505b914b31a09d6b2f",
+      "expected_exit": 0,
+      "required_markers": [
+        "PASS: all five Comparator regressions"
+      ]
+    },
+    "negative-sorry.log": {
+      "sha256": "a3984af90ba5af0ae7e2e6cbf8baf45e555728f00e4530500dd9df545776362d",
+      "expected_exit": 1,
+      "required_markers": [
+        "Illegal axiom detected: 'sorryAx'",
+        "Building Challenge",
+        "Building Solution"
+      ]
+    },
+    "negative-native.log": {
+      "sha256": "e414deea28652355505f0e1fd7a5d9ccdeebc4e97cbf3cc5ca3c68e80841bd25",
+      "expected_exit": 1,
+      "required_markers": [
+        "Illegal axiom detected: 'checked._native.native_decide.ax_1_1'",
+        "Building Challenge",
+        "Building Solution"
+      ]
+    },
+    "comparator.log": {
+      "sha256": "961f4cba26808b9c20ca83a1bd32792160a7ee64e5aaa08ffd43ad5ad84218a9",
+      "expected_exit": 0,
+      "required_markers": [
+        "Building Challenge",
+        "Building Solution",
+        "Running Lean default kernel on solution.",
+        "Lean default kernel accepts the solution",
+        "Your solution is okay!"
+      ]
+    },
+    "dependencies.log": {
+      "sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "expected_exit": 0,
+      "required_markers": []
+    },
+    "mathlib-cache.log": {
+      "sha256": "5e9f120b353e946284f1c63f09d859fd6c4f51ea6fb2c42f71bcefc2b2b85e20",
+      "expected_exit": 0,
+      "required_markers": []
+    }
+  },
+  "separate_workflow_checker_controls_job": "Skipped because shared tooling did not change; full controls executed inside this project verification",
+  "source_lock_sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+  "artifact_sha256": "13115529715038575e1104bed6cc839dbeb64450111f0e8ea2dc78370532f73c",
+  "limits": "Operational checks do not establish semantic fidelity by themselves; two fresh independent source reviews are required separately."
+}

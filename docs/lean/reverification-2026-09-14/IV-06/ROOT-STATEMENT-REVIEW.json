@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root coordinator, not an independent referee",
+  "verdict": "Statement boundary accepted by coordinator pending two independent reviews",
+  "scope": "Full independent-entry real interval box and genuine real eigenvectors retained. Actual ConnectedComponents of real subtype, counted by Cardinal. Determinant equivalence generic including n=0; actual full-box parameter identity is proved. Four included points and three universally excluded separators yield at least four components, not exactly four.",
+  "reviewed_boundary_sha256": {
+    "intervals-and-absolute-value-equations/IV-06/lean/NUMERICAL_TARGETS.md": "f51f4118af540fa4d3c8e16b40d859ee730c40c8417c4e45f86dc0e5c58a04d9",
+    "intervals-and-absolute-value-equations/IV-06/lean/Challenge.lean": "77be095dc706c901714caa68d3393bf95004fc5f9fee2fa43f7460dafa342b90",
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Definitions.lean": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+    "intervals-and-absolute-value-equations/IV-06/lean/formalization.yaml": "6aa472db72da76e3ffa2b23308b919fe3c4378b3266b607ac2f43bbf889fb1aa",
+    "intervals-and-absolute-value-equations/IV-06/lean/comparator.json": "e84e8d1c516d1ecf17a838d49df61043e90a21a8e72108b285088c02bd35a1c2",
+    "intervals-and-absolute-value-equations/IV-06/README.md": "650080d722c2e05388a72ad1642c0eaae878425c105403bccd61ebaf363d34d3"
+  },
+  "original_full_manuscript_read": true,
+  "proof_inspection_started": false
+}

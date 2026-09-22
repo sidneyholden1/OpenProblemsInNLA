@@ -1,0 +1,15 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "randomized-and-low-rank-approximation/RA-07/README.md",
+  "canonical_exists_at_observed_older_main": true,
+  "older_canonical_sha256": "8faec02e8623e1c443d42f28c6a7d6ceff262bd1765490490651feb378303959",
+  "preserved_canonical_sha256": "e4755c9dbf782088b57304489560483e6d5dd296758c6cc28aa4cffe9e273c33",
+  "canonical_target_section_byte_identical": false,
+  "older_target": "For $n\\geq3$ and positive real numbers $\\lambda_1,\\ldots,\\lambda_n$, let\n$$\ne_j(\\lambda)=\\sum_{\\substack{S\\subseteq\\{1,\\ldots,n\\}\\\\|S|=j}}\n\\prod_{i\\in S}\\lambda_i,\n\\qquad e_0=1,\\quad e_{n+1}=0.\n$$\nDefine $f(j)=(j+1)e_{j+1}(\\lambda)/e_j(\\lambda)$ for $1\\leq j\\leq n$. Is $f$ discretely convex, that is,\n$$\nf(j-1)-2f(j)+f(j+1)\\geq0\n\\qquad(2\\leq j\\leq n-1),\n$$\nfor every such $n$ and positive tuple $\\lambda$?\n\nFor a matrix $A$ with positive eigenvalues $\\lambda_i$ of $A^TA$, sample a set $S$ of $j$ columns with probability proportional to $\\det(A_S^TA_S)$. Its expected squared Frobenius projection error is\n$$\n\\mathbb E\\|(I-P_{A_S})A\\|_F^2=f(j),\n$$\nwhere $P_{A_S}$ is the orthogonal projector onto the selected column span. Thus the conjecture asserts a diminishing marginal improvement in the average reconstruction error of these fixed-size determinantal samples. It is distinct from optimizing a worst-case approximation factor over all matrices with a prescribed spectrum.",
+  "preserved_target": "For $`n\\geq3`$ and positive real numbers $`\\lambda_1,\\ldots,\\lambda_n`$, let\n\n```math\ne_j(\\lambda)=\\sum_{\\substack{S\\subseteq\\{1,\\ldots,n\\}\\\\|S|=j}}\n\\prod_{i\\in S}\\lambda_i,\n\\qquad e_0=1,\\quad e_{n+1}=0.\n```\n\nDefine $`f(j)=(j+1)e_{j+1}(\\lambda)/e_j(\\lambda)`$ for $`1\\leq j\\leq n`$. Is $`f`$ discretely convex, that is,\n\n```math\nf(j-1)-2f(j)+f(j+1)\\geq0\n\\qquad(2\\leq j\\leq n-1),\n```\n\nfor every such $`n`$ and positive tuple $`\\lambda`$?\n\nFor a matrix $`A`$ with positive eigenvalues $`\\lambda_i`$ of $`A^TA`$, sample a set $`S`$ of $`j`$ columns with probability proportional to $`\\det(A_S^TA_S)`$. Its expected squared Frobenius projection error is\n\n```math\n\\mathbb E\\|(I-P_{A_S})A\\|_F^2=f(j),\n```\n\nwhere $`P_{A_S}`$ is the orthogonal projector onto the selected column span. Thus the conjecture asserts a diminishing marginal improvement in the average reconstruction error of these fixed-size determinantal samples. It is distinct from optimizing a worst-case approximation factor over all matrices with a prescribed spectrum.",
+  "provenance": "Preserved authored source, not current main. Original mathematical and formalization credits unchanged.",
+  "canonical_target_semantic_review": "Coordinator compared complete old and preserved target sections: identical mathematical targets, with Markdown/math-rendering and whitespace differences only.",
+  "canonical_target_mathematically_unchanged": true
+}

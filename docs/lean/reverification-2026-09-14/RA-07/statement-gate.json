@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T18:44:02.834198+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/RA-07/STATEMENT-REFEREE-1.md": "74004581955cfce83e14d65cf4a73afb913aa57ff0435f0cf02d1103d6f1cc1b",
+    "docs/lean/reverification-2026-09-14/RA-07/STATEMENT-REFEREE-2.md": "5b0de79b3cf8ffa1997a0cf7daae928cf79c0901be0083008f58be8481fcf111",
+    "randomized-and-low-rank-approximation/RA-07/lean/Solution.lean": "55ea9b34825481eb10fefc6409eab16db61849663849f2ca09f6ceb8a1857114",
+    "randomized-and-low-rank-approximation/RA-07/lean/Challenge.lean": "013fe0fd10b21a4e09260ea07477f8b6314e36df8cad9863274b486115de20cf",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Sums.lean": "6a1410ed2efe6155f2f27c22b8afe37ffd0110812850f0d336c9ffee2dd8050b",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Definitions.lean": "5eb47e2450eefe5a83e583173ac1de48c67be502a73f52cb4856a26c3fffb9ff",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Proof.lean": "20c4d2a1078495b442f74126b42e0960462a1e82e3c5aec0b2c09065921dd21d",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Algebra.lean": "1be33b680d0f66d793a564ec22aae8996474aa85f7699f4d1dff6639903cf013",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Roots.lean": "ccbb931696ed1fafcda2518daaccee8eacb201a10eaedefd694f573b44adecde",
+    "randomized-and-low-rank-approximation/RA-07/lean/NUMERICAL_TARGETS.md": "d608c6dd1b09a0c3425c740ca159bb317a4b5079dd4d128ad52239af6f8b4dcc",
+    "randomized-and-low-rank-approximation/RA-07/lean/comparator.json": "0f67b955d83b24f1b61c6a94dba831e4f5983f015441f1a87870e69a345514f4",
+    "randomized-and-low-rank-approximation/RA-07/lean/formalization.yaml": "eb6e7476c4a7af7fb3ab8d0ee1dc3c53613cd58bfdca74bd8cffe66f1e1a2115",
+    "randomized-and-low-rank-approximation/RA-07/README.md": "e4755c9dbf782088b57304489560483e6d5dd296758c6cc28aa4cffe9e273c33"
+  }
+}

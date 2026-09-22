@@ -1,0 +1,15 @@
+{
+  "NLA/PF02/Definitions.lean": "8ec6b4b58a99eb5e4554ebe7807619665c52deb83405083ba40b224a935b1f1d",
+  "NLA/PF02/Numeric.lean": "647842caf04abde095886828e36b049806559c903ce1b704c0bf46063707b4fb",
+  "NLA/PF02/StructuralBase.lean": "4d462aa86dbbfca6e59f2ff71ab20fd29840400b9fe164c8829d4e9b5dd8c3d7",
+  "NLA/PF02/Structural.lean": "8f5c29c475cdc30317ceacab53204a117432ee4584bf9a642715cbd00f97b006",
+  "Solution.lean": "6748db358bded3e18e451c3760dc4bea619a21ab4a9a623239e759500d3998a5",
+  "Challenge.lean": "1984dbc1415c91951df296f00011049c5ccc0a5baabe937cb8e107a411c51532",
+  "NUMERICAL_TARGETS.md": "7ce9ec1ed32cf81c213cbba661c367f5528e536361fb6a2a715c5c36c72c5758",
+  "formalization.yaml": "a5d20c9f4fed3965f8f395a7ba3ea6cc0cd5f6643d3e57021214d2d39e488bd2",
+  "comparator.json": "8b17ff697fb75d3d8ba82a8ce169ca895d2402148a353301ba683ffd7193ceb4",
+  "lakefile.toml": "e9d31a3273307f6e5c4e1031f339b2de1d1980b3412ea2fa2982efdeb4270cb1",
+  "lake-manifest.json": "19b43bd134b48c326c0977c6134db0c9a7da9fc89961d20cd303390ac7154eda",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "verification/statement-freeze.json": "18078dcd60f2ecae20103eaaf92194f4f7e0627466d737145c0fafac0271ed26"
+}

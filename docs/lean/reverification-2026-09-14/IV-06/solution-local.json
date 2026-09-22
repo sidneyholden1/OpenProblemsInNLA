@@ -1,0 +1,16 @@
+{
+  "target": "Solution",
+  "command": [
+    "lake",
+    "build",
+    "Solution"
+  ],
+  "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "scope": "development/source-typecheck; not Linux Comparator verification",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "exit_code": 0,
+  "elapsed_seconds": 49.538,
+  "log_sha256": "e2510cf654dae03c799bb9e52f46d4b2707832e1e12c367fa3c2525cb611c2ed"
+}

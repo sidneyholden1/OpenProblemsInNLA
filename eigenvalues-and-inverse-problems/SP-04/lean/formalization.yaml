@@ -1,0 +1,113 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'SP-04: failure of the generic smallest-multiplier rule'
+  description: 'Complete negative answer to SP-04: a nonempty open family of real three-by-three data
+    matrices has a unique least absolute stationary multiplier whose feasible matrix is not nearest; the
+    family avoids every proper algebraic exception.'
+  authors:
+  - Sidney Holden
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: SP-04 canonical problem
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/eigenvalues-and-inverse-problems/SP-04/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: SP-04 complete informal solution
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/eigenvalues-and-inverse-problems/SP-04/solution.tex
+  type: manuscript
+  relationship: formalizes
+  author_endorsement: not-contacted
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+  notes: Sidney Holden with OpenAI Codex assistance. Exact scalar reductions, matrix identities, inverse
+    function theorem and analytic identity theorem. Two point interval certificates use LeanCert kernel
+    mode and feed the full exclusion proof.
+status:
+  scope: 'Complete original negative answer, including the full-dimensional open family and every proper
+    algebraic exception. All nine exports pass kernel-only LeanCert and isolated Linux Comparator/default-kernel
+    replay at e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1; actual rejection and sandbox controls pass. Two
+    independent statement and two independent final code reviews passed. Linux run: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695.'
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: &id001
+  - propext
+  - Classical.choice
+  - Quot.sound
+  main_results:
+  - declaration: NLA.SP04.positive_multiplier_exclusion
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.selected_negative_root
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.diagonal_stationary_reduction
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.diagonal_unique_failure
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.orbit_unique_failure
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.open_counterexample_family
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.avoids_every_proper_algebraic_exception
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.generic_counterexample
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.SP04.not_generic_smallest_multiplier
+    file: Solution.lean
+    sorry_count: 0
+    axioms: *id001
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: A full open set in all nine real matrix coordinates at dimension three negates the all-dimension
+    generic assertion. The proof uses a local matrix-exponential parametrization and inverse function
+    theorem instead of singular-value continuity; the topology and family are unchanged. Exact two-range
+    scalar root bounds reduce computation without narrowing the reviewed singular-value or multiplier
+    domains. Both determinant signs, every real stationary matrix and arbitrary nonzero polynomial exceptions
+    are retained.
+review:
+  status: independent-agent-code-reviewed; isolated-Linux-verified
+  notes: AI-agent reviews applying the repository Tau Ceti adaptation; no external human peer review,
+    official Tau Ceti endorsement or source-author endorsement. Nine intentional Challenge placeholders
+    are excluded from proof counts and never imported by Solution.
+acknowledgements: Mathematical argument by Matthew J. Colbrook. Sidney Holden prepared this formalization
+  with AI assistance. Mathlib, LeanCert, Lean Comparator and formalization.yaml retain implementation
+  credit and licenses.

@@ -1,0 +1,10 @@
+theorem NLA.MF16.actual_krawczyk_checked : LeanCert.Engine.krawczykCheck NLA.MF16.polynomialSystem NLA.MF16.rootBox
+    NLA.MF16.rootCertificate =
+  true :=
+NLA.MF16.actual_krawczyk_checked._proof_1_1
+'NLA.MF16.actual_krawczyk_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.MF16.certified_root_proved : ∃! v,
+  LeanCert.Engine.FinBoxMem v NLA.MF16.rootBox ∧ LeanCert.Engine.SystemZero NLA.MF16.polynomialSystem v :=
+LeanCert.Engine.krawczykCheck_sound NLA.MF16.polynomialSystem NLA.MF16.rootBox NLA.MF16.rootCertificate { }
+  NLA.MF16.actual_krawczyk_checked
+'NLA.MF16.certified_root_proved' depends on axioms: [propext, Classical.choice, Quot.sound]

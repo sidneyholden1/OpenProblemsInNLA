@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T21:47:14.012369+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/MI-23/STATEMENT-REFEREE-1.md": "274e42f239cdd079a663b5dfc245110b4f71786b0d46c732714d1a26879ecc39",
+    "docs/lean/reverification-2026-09-14/MI-23/STATEMENT-REFEREE-2.md": "dde9a5a50b9529c814694a8067f6d222164ed53cbc62f11b00edcb30e4655ce8",
+    "matrix-inequalities-and-norms/MI-23/lean/Solution.lean": "575f2fd27922d2725d93ada823bfeb4da70407d7fd9c31fb7cf1753a5fdbd243",
+    "matrix-inequalities-and-norms/MI-23/lean/Challenge.lean": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Definitions.lean": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Arithmetic.lean": "d5895f0636fa3aa3887721c610ee9f526cc35a6838e1d4ad7e7ba7f0548af3d9",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Proof.lean": "a82ba18b834453491e4d7bb50de23c08555b92bb70e573551d11e714a404984a",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/FunctionalCalculus.lean": "5603fb214d01f327ba297af151e278ed8f8310368272c59180dd52ebd87839a1",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/SpectralNorm.lean": "af43452f42fde8c361d3ab21c4bcf9839f355b7c06f905dbc56c1eb591c6c5a3",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Witness.lean": "4d7d79b742e614712d5ecc052c04df135cde6b6548ec7cb19f6cfbae0ef987b7",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/NormBounds.lean": "1fd4f9d91818470bfee7e3bb164baaaf120b80ee088ff827134be0e2ac867ad3",
+    "matrix-inequalities-and-norms/MI-23/lean/NUMERICAL_TARGETS.md": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+    "matrix-inequalities-and-norms/MI-23/lean/comparator.json": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+    "matrix-inequalities-and-norms/MI-23/lean/formalization.yaml": "2c6b162572c774d28fd9a5302fd16f3939c5fb87007b124eb8071618932992d0",
+    "matrix-inequalities-and-norms/MI-23/README.md": "308ec2f9185aaa06e7c5807531047163caa249b8274a9df34704db7d86350502"
+  }
+}

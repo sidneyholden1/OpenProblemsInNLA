@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "names": [
+    "NLA.MI21.witness_eigenvalue_gt_one._proof_1_7"
+  ],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi21/docs/lean/reverification-2026-09-14/MI-21/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi21/matrix-inequalities-and-norms/MI-21/lean",
+  "script_sha256": "1961989ea7d7706d8a1134619f964bea3fefb6a229d24cc560ec54d703560cb9",
+  "log_sha256": "846ccd463a3abc7c9535092e0ee332d2db56e1e2c550842aeeff2fd52a63b6c8"
+}

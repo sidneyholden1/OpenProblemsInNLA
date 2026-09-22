@@ -1,0 +1,127 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "linear-systems-and-elimination/IE-19/README.md": {
+      "sha256": "e665e2d1f11510a9f62d4ffd8c6547cd43aeb09576286b7e7ff22f8cdc61697d",
+      "bytes": 8138,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/README.md": {
+      "sha256": "d7388e96f98ea7ad6d3b00a6f9f43310d93c679c5d803dead8d967096cb2cd3d",
+      "bytes": 4946,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "71bab6295627b5d68e63a41bfae8a5e82ce11900d334846636f85cf454814c24",
+      "bytes": 3893,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/NLA/IE19/Definitions.lean": {
+      "sha256": "32dc631cd600154948963a875559cd610d974764fc77f13ab242a573c6dd22b3",
+      "bytes": 3019,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/Challenge.lean": {
+      "sha256": "c79e602bde37c5395eda1376635054776c72c1d803737e1dbfe0a963899627bb",
+      "bytes": 669,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/comparator.json": {
+      "sha256": "6b02baa6e01466ddde5188c32c90c1063d2ed5163f852b37f0ae776795eec27d",
+      "bytes": 299,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/formalization.yaml": {
+      "sha256": "bd55b7d5ef2b850578dd143bd757a168b2e4b0143ff74be16af991fe777ab433",
+      "bytes": 8241,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/lake-manifest.json": {
+      "sha256": "0b2982e346ad245431120cb2eeafa466c9336f1e8bf11525312c0982cb840cb3",
+      "bytes": 3884,
+      "read_method": "local and immutable Git comparison"
+    },
+    "linear-systems-and-elimination/IE-19/lean/lakefile.toml": {
+      "sha256": "10d0c9c9dc8b8ac29e372807b94ca53b644aa5c032e6c4b7eb32c90736be66ef",
+      "bytes": 280,
+      "read_method": "local and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local and immutable Git comparison"
+    },
+    "references/colbrook-recovered-2026-09-11/manuscripts/IE-19.tex": {
+      "sha256": "4c50113b3ca261779be36a0058e6b79cb594225098268cd8cc815e6b87b905a4",
+      "bytes": 5489,
+      "read_method": "local and immutable Git comparison"
+    }
+  },
+  "inspected_dependency_definitions": {
+    "Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": {
+      "sha256": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    },
+    "Mathlib/Data/Finset/Lattice/Fold.lean": {
+      "sha256": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    },
+    "Mathlib/Analysis/Normed/Group/Real.lean": {
+      "sha256": "eaae958600a11f6a363c1aaf0f5d9d2f85f27a277eb26b6cbfe16e6462922cd4",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    }
+  },
+  "exports": [
+    "NLA.IE19.counterexample",
+    "NLA.IE19.not_lowerBoundConjecture",
+    "NLA.IE19.not_sharpConjecture"
+  ],
+  "exact_supplementary_checks": {
+    "det_J": "27/4",
+    "det_S": "4",
+    "both_two_sided_inverse_products": true,
+    "all_entry_and_weak_dominance_assumptions": true,
+    "all_row_sums_K": [
+      "7/9",
+      "7/9",
+      "7/9"
+    ],
+    "all_row_sums_T": [
+      "5/4",
+      "5/4",
+      "5/4"
+    ],
+    "strict_gap": "17/36"
+  },
+  "supplementary_evidence_sha256": {
+    "referee-2-numerical-checks.json": "adcf4b3fcc192dd89e091e6790017f57264c1b20a486ecdaaadbdcc2288d5a03"
+  },
+  "coordinator_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ie19/linear-systems-and-elimination/IE-19/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 38.429,
+    "log_sha256": "f180c9df44a4ea86499cc51e130f24b1a32683ca045f87559382fbebaea2424d"
+  },
+  "coordinator_build_receipt_sha256": "4dc564f580a4d1aa23b73851835e8a402518cdaafbd9198e23a14254995bef96",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

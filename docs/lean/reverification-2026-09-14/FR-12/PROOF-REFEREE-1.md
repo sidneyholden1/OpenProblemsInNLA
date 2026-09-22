@@ -1,0 +1,25 @@
+# FR-12 independent proof referee 1 — 2026-09-14
+
+PASS — complete mathematical/source proof review and fresh local execution evidence. No blocking correctness, full-scope or attribution finding.
+
+This independent AI review applies `docs/lean/REVIEW.md` and the relevant adapted Tau Ceti angles; it is not official Tau Ceti or external human peer review. Both statement reviews and the coordinator's gate preceded this proof inspection. Existing authored source is preserved at `deb549fa9ddd6b119e6c59016f268237e645dfa2`; it is deliberately not the observed older upstream main `ab754fabe3d48dc8d6eab6bcffce583e46d2b88f`. Candidate revision: `42818143f084791532e39ff56c13949bebd8d389`. The statement report retains the precise source provenance, including FR-12's absence at older main; no new proof authorship is claimed.
+
+## Mathematical proof and frozen scope
+
+I read the complete six-module active closure. `Semantics` injects the actual labeled matrix subtype into finite Boolean matrices; sign cases prove that the encoding recovers every entry. Thus finiteness is proved for every n before cardinal arithmetic, avoiding Nat.card's infinite-type default. The positive-dimensional Mathlib Hadamard equivalence uses real unitary entries and the actual one-sided Gram theorem under nonzero dimension. Actual row inner products imply injectivity of rows for positive order.
+
+`Doubling` proves each block entry under the genuine bijective index reordering, all sign entries and all four top/bottom Gram cases. Top blocks recover A and B, and the bottom-left block together with row injectivity recovers the permutation. `Nat.card_le_card_of_injective` then counts the genuine finite subtypes and actual permutation group, yielding exactly m! H(m)^2≤H(2m). No quotient, normalization or unproved family count is introduced.
+
+`Growth` begins with a concrete order-one matrix. It proves nonempty power-of-two counts by recurrence, derives the upper-half factorial bound from Mathlib's exact factorial inequality, and performs direct induction on the real exponential lower bound. Natural-to-real casts and real-power identities are explicit; the induction base k=0 is handled. There is no approximate logarithm or empirical asymptotic inference. For arbitrary positive real C, `exists_nat_gt (16*C+2)` gives an actual natural k. Exact polynomial inequalities, log(2^(k+2))/log(2)=k+2 and strict monotonicity of base-two powers yield the strict violation. Positivity and divisibility by four of the selected dimension are proved before instantiating the original conjecture.
+
+The seven public aliases preserve every frozen contract (the unused hn binder is only alpha-renamed). LeanCert performs actual kernel trust assertions on internal and public results; this exact counting proof has no interval certificate. The computation is small symbolic matrix/cardinality algebra rather than large enumeration. George Stepaniants retains both source-proof and formalization credit, and Ferber/Jain/Zhao the original conjecture. The stronger informal double-factorial recurrence, existence at every admissible order and a matching upper bound remain excluded.
+
+## Exact evidence and execution limits
+
+I independently read all 6 active project modules, including definitions and public exports. The full import closure and every registered export were checked. All active bytes match both the preserved commit and the frozen statement gate, and all gate files matched during this review. A comment-aware executable-source scan found no sorry, admit, custom axiom, native_decide, unsafe or implemented_by. Intentional Challenge placeholders are outside the Solution import graph. All 7 public declarations have actual kernel trust commands.
+
+The coordinator's fresh macOS aarch64 `lake build Solution` completed with exit code 0. I checked its successful log and recorded digest. Referee 2's separate fresh all-export consumer exited 0; I inspected every printed export type and axiom closure. Both fresh logs report only propext, Classical.choice and Quot.sound for all exports. These are their executions, not an additional rebuild by this reviewer. LeanCert is used for kernel trust auditing only; no numerical interval theorem is claimed. Prior diagnostics and historical PASS records are not substituted for current evidence.
+
+All exact active source paths/hashes, boundary hashes, registered exports, actual axiom lists, fresh execution provenance and evidence digests are retained in [referee-1-proof-evidence.json](referee-1-proof-evidence.json), SHA-256 `b0d31ea3b212af7bada9a9097e4d530b3712e4887f75b576c97737c18fa7b3e7`. My earlier exact diagnostic remains independently recorded but is not part of a Lean proof. No authored source, metadata or statement was edited by this reviewer.
+
+Actual Linux Comparator statement identity, default-kernel replay, sandbox/rejection controls and original artifact integrity are separate operational gates. This proof report makes no claim that those fresh Linux gates have passed and does not replace their review.

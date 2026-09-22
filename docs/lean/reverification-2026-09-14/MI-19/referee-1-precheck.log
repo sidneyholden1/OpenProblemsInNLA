@@ -1,0 +1,29 @@
+{
+  "id": "MI-19",
+  "verdict": "PASS",
+  "method": "Independent Python exact Fraction arithmetic; not a Lean proof",
+  "checks": {
+    "permutations": 24,
+    "setwise_preserving": 6,
+    "full_coefficients": [
+      "4999700",
+      "4886140",
+      "-199231",
+      "4712758",
+      "9568969",
+      "4886140",
+      "115600"
+    ],
+    "restricted_coefficients": [
+      "4999700",
+      "4741130",
+      0,
+      "4741130",
+      "9482260",
+      "4999700",
+      0
+    ],
+    "gap": "-3235575/16384",
+    "gram_identity": true
+  }
+}

@@ -6,8 +6,8 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified
+**Last checked:** 2026-09-14
 
 **Rating rationale:** Challenging reflects the geometry of isospectral stochastic families in arbitrary dimension; specialist impact concerns the narrow property of spectral uniqueness within that class.
 
@@ -18,6 +18,26 @@
 The order-four counterexample is real symmetric, nonnegative and stochastic, has spectrum $`\{1,1,0,-1\}`$ and positive trace, and is spectrally unique up to permutation. It lies outside every segment in the proposed locus, disproving the universal necessary condition at an allowed dimension.
 
 The original proof draft was generated in a ChatGPT conversation. A separate Codex agent independently verified the full proof and its match to the exact target on 11 September 2026: [detailed PASS review](../../references/colbrook-2026-09-11/verification/reviews/IS-02-review.md). The review records a hash of the unchanged proof text. This is independent agent verification, not external human peer review or formal certification. [The submission history and diagnostic record](../../references/colbrook-2026-09-11/README.md) preserve the initial solution claim. The ratings above are historical, and the earlier literature checks below are retained.
+
+## Lean proof and verification evidence — 2026-09-14
+
+**The complete original necessary-locus conjecture has a Lean-verified negative answer.** The complete spectral-uniqueness locus implication is disproved at order four. The actual symmetric stochastic witness has positive trace and the specified characteristic polynomial. Every admissible isospectral competitor is proved permutation-similar to it, while the witness is excluded from every proposed closed segment and from the actual extreme points. No competing matrix is restricted to a preselected support pattern.
+
+[Immutable formal proof](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/b71728d93b1c376ee34a6fd04b4661c604704a14/eigenvalues-and-inverse-problems/IS-02/lean). The checked exports are
+`NLA.IS02.witness_certificates`, `NLA.IS02.spectral_uniqueness`, `NLA.IS02.locus_exclusion`, `NLA.IS02.counterexample`. Lean 4.33.1 uses pinned Mathlib `0df444a3` and LeanCert `621a43d7`;
+[complete pins and reproduction instructions](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-is02/eigenvalues-and-inverse-problems/IS-02/lean/README.md) are retained.
+All four exported transitive axiom closures contain only `propext`,
+`Classical.choice` and `Quot.sound`.
+
+**Formalization:** Sidney Holden, Center for Computational Biology, Flatiron
+Institute, Simons Foundation, with OpenAI Codex assistance. Matthew J. Colbrook
+retains mathematical authorship. Two independent statement reviews preceded
+implementation, and two independent final proof reviews passed. Kernel-only
+LeanCert and [fresh isolated Linux Comparator and kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862184054)
+passed, including rejection controls. [Original artifact, exact checked inputs
+and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-is02/eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md)
+are retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
 
 ## Problem statement
 

@@ -1,0 +1,30 @@
+{
+  "lower_polynomial_coefficients": [
+    {
+      "(2, 0, 0)": 2,
+      "(1, 0, 1)": 2,
+      "(0, 2, 0)": 1,
+      "(0, 0, 2)": 2
+    },
+    {
+      "(1, 1, 0)": 2,
+      "(0, 1, 1)": 4
+    },
+    {
+      "(2, 0, 0)": 1,
+      "(1, 0, 1)": 4,
+      "(0, 2, 0)": 2,
+      "(0, 0, 2)": -1
+    }
+  ],
+  "all_upper_ordered_summands": 64,
+  "upper_contraction": [
+    0,
+    -1
+  ],
+  "nonvacuity_polynomial_endpoints": [
+    -1,
+    2
+  ],
+  "nonvacuity": "IVT still required; no assumed approximate root."
+}

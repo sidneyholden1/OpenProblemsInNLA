@@ -1,0 +1,23 @@
+{
+  "all_hashes_match": true,
+  "sha256": {
+    "NLA/IS02/Definitions.lean": "4194087b7690e047dc1eae2964f43c476b2164a4105bee5113dc7e1dfe0efd16",
+    "Challenge.lean": "c80c3fe17912547c415735bbca1568360a625c323f946e4ef6bb93e6124918a3",
+    "NUMERICAL_TARGETS.md": "2e0dd8ca18cc61cce5224d61e2aa11f85f6c7308e250526f5a1fa711693614cd",
+    "formalization.yaml": "2221aba42ed16680fc8cc18339fc0bf28bdba032dc278f435bbf06fb0157833c",
+    "comparator.json": "64f8b6a88c039b0ff1cbd574673af132ba1e76cb1f8fb52a751368fc9ef60aef",
+    "README.md": "c3d896c0c4a07d56273a2bfec5785dac92aa8b94118487a57c227cfa19b0c067",
+    "../README.md": "92f7c04c5ac0be67a7f6a4efd0d2439caaf000295fa27d259e01a22368f7ae24",
+    "../solution.md": "ae29570308b2a78678875c5e56076ce09e65cea732ce6b51142399a4b234577f"
+  },
+  "tree_count": 16,
+  "support_counts": [
+    38,
+    23,
+    3
+  ],
+  "derivative_identity": "sum of four principal minors of I-B equals 4 times 16-tree sum; hence p derivative at 1",
+  "witness_charpoly_correct": true,
+  "isolated_case_determinant": "1/4",
+  "status": "independent exact diagnostic algebra, not Lean proof"
+}

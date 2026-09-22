@@ -1,0 +1,12 @@
+NLA/IE04/Wilkinson.lean:29:57: warning: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [referenceStates, show k ≤ i.val by omega, show k ≤ j.val by omega,
+    show k ≤ (⟨k, hk⟩ : Fin n).val from le_rfl, show k + 1 ≤ i.val by omega, show k + 1 ≤ j.val by omega, and_self,
+    ↓reduceIte, hkn, hik, hkj, hij, show ¬j < (⟨k, hk⟩ : Fin n) by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Wilkinson.lean:140:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

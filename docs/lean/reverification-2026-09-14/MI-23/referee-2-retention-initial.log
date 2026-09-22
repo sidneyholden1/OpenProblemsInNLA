@@ -1,0 +1,63 @@
+/private/tmp/nla-reverify-mi23/docs/lean/reverification-2026-09-14/MI-23/referee-2-retention.lean:15:83: error(lean.invalidField): Invalid field notation: Type of
+  d
+is not known; cannot resolve field `toString`
+
+Hint: Consider replacing the field projection with a call to one of the following:
+  • `Char.toString`
+  • `Float.toString`
+  • `Float32.toString`
+  • `List.toString`
+  • `Substring.toString`
+  • `toString`
+  • `Aesop.GoalOrigin.toString`
+  • `Aesop.ScriptGenerated.toString`
+  • `IO.Error.toString`
+  • `IO.TaskState.toString`
+  • `InternalExceptionId.toString`
+  • `JsonNumber.toString`
+  • `LBool.toString`
+  • `Message.toString`
+  • `MessageData.toString`
+  • `MessageSeverity.toString`
+  • `Name.toString`
+  • `SerialMessage.toString`
+  • `Mathlib.Ineq.toString`
+  • `Plausible.TestResult.toString`
+  • `String.Slice.toString`
+  • `Substring.Raw.toString`
+  • `System.FilePath.toString`
+  • `System.SearchPath.toString`
+  • `IR.Log.toString`
+  • `Meta.TransparencyMode.toString`
+  • `Parser.Error.toString`
+  • `PersistentArray.Stats.toString`
+  • `PersistentHashMap.Stats.toString`
+  • `SubExpr.Pos.toString`
+  • `Std.Net.IPAddr.toString`
+  • `Std.Net.IPv4Addr.toString`
+  • `Std.Net.IPv6Addr.toString`
+  • `String.Legacy.Iterator.toString`
+  • `String.Slice.Subslice.toString`
+  • `Substring.Raw.Internal.toString`
+  • `Batteries.Tactic.Alias.AliasInfo.toString`
+  • `Compiler.LCNF.Probe.toString`
+  • `Meta.Grind.AnchorRef.toString`
+  • `PrettyPrinter.Delaborator.OmissionReason.toString`
+  • `Mathlib.Meta.Positivity.Strictness.toString`
+  • `Mathlib.Tactic.ClickSuggestions.Premise.toString`
+  • `Mathlib.Tactic.Push.Head.toString`
+  • `Mathlib.Tactic.Translate.ArgReorder.toString`
+  • `Std.Http.URI.EncodedQueryString.toString`
+  • `Std.Tactic.BVDecide.BVBinOp.toString`
+  • `Std.Tactic.BVDecide.BVBinPred.toString`
+  • `Std.Tactic.BVDecide.BVExpr.toString`
+  • `Std.Tactic.BVDecide.BVPred.toString`
+  • `Std.Tactic.BVDecide.BVUnOp.toString`
+  • `Std.Tactic.BVDecide.BoolExpr.toString`
+  • `Std.Tactic.BVDecide.Gate.toString`
+  • `Tactic.Omega.Justification.toString`
+  • `WF.GuessLex.BasicMeasure.toString`
+  • `Std.Tactic.BVDecide.LRAT.Action.toString`
+/private/tmp/nla-reverify-mi23/docs/lean/reverification-2026-09-14/MI-23/referee-2-retention.lean:17:0: error: Aborting evaluation since the expression depends on the 'sorry' axiom, which can lead to runtime instability and crashes.
+
+To attempt to evaluate anyway despite the risks, use the '#eval!' command.

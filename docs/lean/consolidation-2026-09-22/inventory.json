@@ -1,0 +1,1619 @@
+{
+  "main_at_inspection": "587bd896f0e1006f4a4b7f38555e3a523ef85176",
+  "all_permanent_ids": 217,
+  "completed_distinct_projects": 35,
+  "full_original_targets": 34,
+  "verified_partial_targets": [
+    "MI-08"
+  ],
+  "statement_only_excluded": [
+    {
+      "id": "IE-15",
+      "ref": "codex/lean-ie15",
+      "commit": "2f84bb4d1f357a693762d684e67fcd29da9b343c",
+      "reason": "Reviewed statement checkpoint only; no Solution. User now permits implementation."
+    }
+  ],
+  "strategy": "No whole-branch merges: preserved deb549 base includes ~22000 unrelated file changes. Path-select project/source/evidence directories; preserve 217 permanent IDs; regenerate indexes against current main. Shared tools/lean and workflow bytes on preserved deb549 equal inspected main. Existing IE18/IE19/MI19 need audit-only additions, no status promotion. Prefer reverify IE23/IV06 to older independently authored alternatives; do not mix their definitions/proofs or credits.",
+  "projects": [
+    {
+      "id": "PF-02",
+      "remote_ref": "origin/codex/lean-pf02",
+      "publication_commit": "b4aa9e57056d0a01e5573287d96e7e1da8db090d",
+      "canonical_directory": "nonnegative-and-positive-factorizations/PF-02",
+      "project": "nonnegative-and-positive-factorizations/PF-02/lean",
+      "evidence_directories": [
+        "docs/lean/verification-2026-09-15/PF-02"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "61dae15457a532be05a9a54d8e1e4040fbefddbd",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34921326342",
+      "proof_run_id": 34921326342,
+      "artifact_sha256": "812b74dadcc9c25e7257b9b7bea6836d6644743d3db6336f3049a7878448ad01",
+      "input_count": 57,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34922542411,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34922542411",
+          "head_sha": "b4aa9e57056d0a01e5573287d96e7e1da8db090d"
+        },
+        {
+          "id": 34922542442,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34922542442",
+          "head_sha": "b4aa9e57056d0a01e5573287d96e7e1da8db090d"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/verification-2026-09-15/PF-02/linux/RUN.json",
+        "docs/lean/verification-2026-09-15/PF-02/PUBLICATION-CHECKS.json"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "SP-04",
+      "remote_ref": "origin/codex/lean-sp04",
+      "publication_commit": "97a0d55640c0d28482edce49b88e60b48bc9ade1",
+      "canonical_directory": "eigenvalues-and-inverse-problems/SP-04",
+      "project": "eigenvalues-and-inverse-problems/SP-04/lean",
+      "evidence_directories": [
+        "docs/lean/verification-2026-09-15/SP-04"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34923724695",
+      "proof_run_id": 34923724695,
+      "artifact_sha256": "507e3b4c2825233c27b2959a96de3d8f0b6a3fc2fdfb4c792bcd558b2987fa98",
+      "input_count": 75,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34925637490,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34925637490",
+          "head_sha": "97a0d55640c0d28482edce49b88e60b48bc9ade1"
+        },
+        {
+          "id": 34925637470,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34925637470",
+          "head_sha": "97a0d55640c0d28482edce49b88e60b48bc9ade1"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/verification-2026-09-15/SP-04/linux/RUN.json",
+        "docs/lean/verification-2026-09-15/SP-04/PUBLICATION-CHECKS.json"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "IV-03",
+      "remote_ref": "origin/codex/lean-iv03",
+      "publication_commit": "281f440650d174602120ca9b2b930d38f9fef205",
+      "canonical_directory": "intervals-and-absolute-value-equations/IV-03",
+      "project": "intervals-and-absolute-value-equations/IV-03/lean",
+      "evidence_directories": [
+        "docs/lean/verification-2026-09-15/IV-03"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "516ad4a0e85c21c7ef34507db9ab3b68b393bb90",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380",
+      "proof_run_id": 34926260380,
+      "artifact_sha256": "bef757bd594f82e327625b5bcbcc3c395e6d64e3764c95f926a25ffe95337177",
+      "input_count": 75,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34927303544,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927303544",
+          "head_sha": "281f440650d174602120ca9b2b930d38f9fef205"
+        },
+        {
+          "id": 34927303581,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927303581",
+          "head_sha": "281f440650d174602120ca9b2b930d38f9fef205"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/verification-2026-09-15/IV-03/linux/RUN.json",
+        "docs/lean/verification-2026-09-15/IV-03/PUBLICATION-CHECKS.json"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "IE-04",
+      "remote_ref": "origin/codex/lean-ie04",
+      "publication_commit": "61b8562ba49c5fe2146885b905f94df593c8ec49",
+      "canonical_directory": "linear-systems-and-elimination/IE-04",
+      "project": "linear-systems-and-elimination/IE-04/lean",
+      "evidence_directories": [
+        "docs/lean/verification-2026-09-15/IE-04"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "82c0d620db7369a546071a13088ebb095368c262",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926830831",
+      "proof_run_id": 34926830831,
+      "artifact_sha256": "3640ee516c7b6bb7c0fe11049fb3e485a047eb150fb588107733b70245826748",
+      "input_count": 110,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34927787321,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927787321",
+          "head_sha": "61b8562ba49c5fe2146885b905f94df593c8ec49"
+        },
+        {
+          "id": 34927787342,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927787342",
+          "head_sha": "61b8562ba49c5fe2146885b905f94df593c8ec49"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/verification-2026-09-15/IE-04/linux/RUN.json",
+        "docs/lean/verification-2026-09-15/IE-04/PUBLICATION-CHECKS.json"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "KE-05",
+      "remote_ref": "origin/codex/lean-ke05",
+      "publication_commit": "04f3f39beb69d77dbc4a8eadee70259eb89a591a",
+      "canonical_directory": "randomized-and-low-rank-approximation/KE-05",
+      "project": "randomized-and-low-rank-approximation/KE-05/lean",
+      "evidence_directories": [
+        "docs/lean/verification-2026-09-15/KE-05"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927150695",
+      "proof_run_id": 34927150695,
+      "artifact_sha256": "6925d651c338b1ce7af48368af631e28e70a2cf047a5029db594b8aaae4da682",
+      "input_count": 93,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34927916899,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927916899",
+          "head_sha": "04f3f39beb69d77dbc4a8eadee70259eb89a591a"
+        },
+        {
+          "id": 34927916875,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927916875",
+          "head_sha": "04f3f39beb69d77dbc4a8eadee70259eb89a591a"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/verification-2026-09-15/KE-05/linux/RUN.json",
+        "docs/lean/verification-2026-09-15/KE-05/PUBLICATION-CHECKS.json"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "MI-03",
+      "remote_ref": "origin/codex/lean-mi03",
+      "publication_commit": "43571bd63844c784dc4cf2998b4d367846bfb9b9",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-03",
+      "project": "matrix-inequalities-and-norms/MI-03/lean",
+      "evidence_directories": [
+        "matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "4602650e944c7221952554f495ff76c39c8b0708",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862171380",
+      "proof_run_id": 34862171380,
+      "artifact_sha256": "dc9194a3ef7c1ae3910c9c34810c5286bf277ea8ef73fb9404fd56af34ac725f",
+      "input_count": 29,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34864241655,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864241655",
+          "head_sha": "43571bd63844c784dc4cf2998b4d367846bfb9b9"
+        },
+        {
+          "id": 34864241660,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864241660",
+          "head_sha": "43571bd63844c784dc4cf2998b4d367846bfb9b9"
+        }
+      ],
+      "completeness_evidence": [
+        "matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14/RUN.json",
+        "matrix-inequalities-and-norms/MI-03/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "IE-17",
+      "remote_ref": "origin/codex/lean-ie17",
+      "publication_commit": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2",
+      "canonical_directory": "linear-systems-and-elimination/IE-17",
+      "project": "linear-systems-and-elimination/IE-17/lean",
+      "evidence_directories": [
+        "linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "d45afc8a197ffeeff94abfca59ef93acda22efa5",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862174739",
+      "proof_run_id": 34862174739,
+      "artifact_sha256": "cabb0de314a49e4f9f427a754d77aad55f8a7d0bf375bbee48d40bba7b9b423a",
+      "input_count": 35,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34864246596,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864246596",
+          "head_sha": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2"
+        },
+        {
+          "id": 34864246550,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864246550",
+          "head_sha": "14c9b274e214d06e4f9e35e9ae851f5d5b77f0e2"
+        }
+      ],
+      "completeness_evidence": [
+        "linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14/RUN.json",
+        "linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "IE-05",
+      "remote_ref": "origin/codex/lean-ie05",
+      "publication_commit": "fc9ffa0f90e7fb59628c83674956a78bc7471584",
+      "canonical_directory": "linear-systems-and-elimination/IE-05",
+      "project": "linear-systems-and-elimination/IE-05/lean",
+      "evidence_directories": [
+        "linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "df2cf7a721843c0d674e8377d435eb5750f06fff",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862178699",
+      "proof_run_id": 34862178699,
+      "artifact_sha256": "9df0dab0d55d61c323a145b87c5f98b4b66dcc62ceeff1cee3eaa4f33b960bc5",
+      "input_count": 40,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34864251035,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864251035",
+          "head_sha": "fc9ffa0f90e7fb59628c83674956a78bc7471584"
+        },
+        {
+          "id": 34864251012,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864251012",
+          "head_sha": "fc9ffa0f90e7fb59628c83674956a78bc7471584"
+        }
+      ],
+      "completeness_evidence": [
+        "linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14/RUN.json",
+        "linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "IS-02",
+      "remote_ref": "origin/codex/lean-is02",
+      "publication_commit": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5",
+      "canonical_directory": "eigenvalues-and-inverse-problems/IS-02",
+      "project": "eigenvalues-and-inverse-problems/IS-02/lean",
+      "evidence_directories": [
+        "eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "b71728d93b1c376ee34a6fd04b4661c604704a14",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862184054",
+      "proof_run_id": 34862184054,
+      "artifact_sha256": "61a344ecb712303e0fe83c7abafcc82e087f3b04d2c91c00b9622bcb112d4485",
+      "input_count": 47,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34864254785,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864254785",
+          "head_sha": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5"
+        },
+        {
+          "id": 34864254977,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864254977",
+          "head_sha": "fc5fc1b6b67b69c89a42c531b74706d7b8c68da5"
+        }
+      ],
+      "completeness_evidence": [
+        "eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14/RUN.json",
+        "eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "MI-08",
+      "remote_ref": "origin/codex/lean-mi08",
+      "publication_commit": "40c73a09af5480166e209e670e4f9fe0aad5a546",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-08",
+      "project": "matrix-inequalities-and-norms/MI-08/lean",
+      "evidence_directories": [
+        "matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14"
+      ],
+      "canonical_status": "Partially resolved",
+      "complete": true,
+      "scope": "verified fixed-list partial result; adaptive comparison and general optimum excluded",
+      "proof_commit": "a66e142cbe7907db6594ef57c7f542c3d33ad704",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862187226",
+      "proof_run_id": 34862187226,
+      "artifact_sha256": "db6d016b47dd8e8bcf81a64ad7faa01df7b270662702578fe9ed2fd89881e80a",
+      "input_count": 45,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34864258639,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864258639",
+          "head_sha": "40c73a09af5480166e209e670e4f9fe0aad5a546"
+        },
+        {
+          "id": 34864258666,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34864258666",
+          "head_sha": "40c73a09af5480166e209e670e4f9fe0aad5a546"
+        }
+      ],
+      "completeness_evidence": [
+        "matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14/RUN.json",
+        "matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md"
+      ],
+      "audit_today": "Fresh original ZIP SHA/CRC, actual Comparator/default-kernel and rejection/sandbox logs, permitted axioms, tested active Lean hashes and exact-head final GitHub CI PASS",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs",
+      "publication_ci_fresh_API": "PASS exact-head GitHub API 2026-09-22"
+    },
+    {
+      "id": "IS-03",
+      "remote_ref": "origin/codex/reverify-is03",
+      "publication_commit": "c87e62f7f3e3d21fde7536ec84982b1a83bd074d",
+      "canonical_directory": "eigenvalues-and-inverse-problems/IS-03",
+      "project": "eigenvalues-and-inverse-problems/IS-03/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/IS-03"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "072fdd9c7eb819b557daec9ea77f081bff387786",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868855287",
+      "proof_run_id": 34868855287,
+      "artifact_sha256": "25e249492179520af0cc719fc8f07a82e63719a55640144c9f95447e7326a85f",
+      "input_count": 820,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34870160931,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870160931"
+        },
+        {
+          "id": 34870160923,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870160923"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/IS-03/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/IS-03/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/IS-03/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/IS-03/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "KE-04",
+      "remote_ref": "origin/codex/reverify-ke04",
+      "publication_commit": "db954c792a45db8eddb196b3c2e283ba6ba27007",
+      "canonical_directory": "eigenvalues-and-inverse-problems/KE-04",
+      "project": "eigenvalues-and-inverse-problems/KE-04/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/KE-04"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "367acf8ecb423c609d501ccfea910de91ed4c82e",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868858154",
+      "proof_run_id": 34868858154,
+      "artifact_sha256": "b9a27c1ed9dc4af54fa134cf90a1c41da440314a792aad78fbafb5941ba9fb5e",
+      "input_count": 4285,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34870247935,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870247935"
+        },
+        {
+          "id": 34870247934,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870247934"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/KE-04/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/KE-04/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/KE-04/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/KE-04/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "SP-06",
+      "remote_ref": "origin/codex/reverify-sp06",
+      "publication_commit": "ff5b3e2f6e96c51e3c46925ae87ad2c9dfb7f6d6",
+      "canonical_directory": "eigenvalues-and-inverse-problems/SP-06",
+      "project": "eigenvalues-and-inverse-problems/SP-06/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/SP-06"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "6725a6f00b141b7b854518cdc93331372bdf539e",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868861247",
+      "proof_run_id": 34868861247,
+      "artifact_sha256": "9e37769852c3fa961a38d5acdaf82ce5a516588a94b39055f3eeeb80cdc1fc83",
+      "input_count": 101,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34870251286,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870251286"
+        },
+        {
+          "id": 34870251334,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870251334"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/SP-06/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/SP-06/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/SP-06/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/SP-06/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "IE-16",
+      "remote_ref": "origin/codex/reverify-ie16",
+      "publication_commit": "90e88460a52fa69657f5107c2cd6f5dde7c6826c",
+      "canonical_directory": "linear-systems-and-elimination/IE-16",
+      "project": "linear-systems-and-elimination/IE-16/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/IE-16"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "bea9efc9d9345c7f2f47b4926cd1968f47b7cff9",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868873200",
+      "proof_run_id": 34868873200,
+      "artifact_sha256": "b5cae437ac708ed29b6f49e02b80b75330c99b1f3e0cce026352fb09c682a936",
+      "input_count": 347,
+      "source_reference_directories": [
+        "references/holden-ie16-2026-09-12"
+      ],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34870252954,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870252954"
+        },
+        {
+          "id": 34870252880,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870252880"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/IE-16/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/IE-16/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/IE-16/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/IE-16/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "RA-08",
+      "remote_ref": "origin/codex/reverify-ra08",
+      "publication_commit": "bf767d73ce068cef081407f28e2530f8b16d8ebd",
+      "canonical_directory": "randomized-and-low-rank-approximation/RA-08",
+      "project": "randomized-and-low-rank-approximation/RA-08/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/RA-08"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "5e1e682e0559800d1f0619553bf385c88eec2330",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34868868786",
+      "proof_run_id": 34868868786,
+      "artifact_sha256": "c2642f81486f21592ab4e1f351a97f1aa4a12e7d1e6b571237ef304feec79a7e",
+      "input_count": 1499,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34870256038,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870256038"
+        },
+        {
+          "id": 34870256031,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34870256031"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/RA-08/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/RA-08/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/RA-08/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/RA-08/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MI-06",
+      "remote_ref": "origin/codex/reverify-mi06",
+      "publication_commit": "26d38e1629f04b2ba4f3d3a60455c6d624c1e8bc",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-06",
+      "project": "matrix-inequalities-and-norms/MI-06/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-06"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "9c6526ef5a657e0306f13e325143dbd1c4f1ad90",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872712273",
+      "proof_run_id": 34872712273,
+      "artifact_sha256": "4d4921067f5963b0dce52b7d353c6f8ba4c003adb45c99499cebee829f76017c",
+      "input_count": 198,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34874248214,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874248214"
+        },
+        {
+          "id": 34874248026,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874248026"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-06/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-06/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-06/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-06/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MI-07",
+      "remote_ref": "origin/codex/reverify-mi07",
+      "publication_commit": "5b167ea67372836f8dde9674d566ccc23916f222",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-07",
+      "project": "matrix-inequalities-and-norms/MI-07/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-07"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "dacf46260eaf39c833da5c0a3207c0349166459a",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872717807",
+      "proof_run_id": 34872717807,
+      "artifact_sha256": "8bf6b3b91e81b0df1e990274432e02da6ed3f49a9c145935b7fc23b1797a070f",
+      "input_count": 213,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34874251700,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874251700"
+        },
+        {
+          "id": 34874251978,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874251978"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-07/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-07/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-07/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-07/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MI-26",
+      "remote_ref": "origin/codex/reverify-mi26",
+      "publication_commit": "eee3283eb87dc85cfe961d3a136944d40c05c586",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-26",
+      "project": "matrix-inequalities-and-norms/MI-26/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-26"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "0f21b8856978ca835ca8f7254f372d2b828c7baa",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872724754",
+      "proof_run_id": 34872724754,
+      "artifact_sha256": "13115529715038575e1104bed6cc839dbeb64450111f0e8ea2dc78370532f73c",
+      "input_count": 367,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34874252317,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874252317"
+        },
+        {
+          "id": 34874252176,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874252176"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-26/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-26/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-26/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-26/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "NR-03",
+      "remote_ref": "origin/codex/reverify-nr03",
+      "publication_commit": "210aa7685875ac826b78cfada8e0d722a11bafa1",
+      "canonical_directory": "nonnegative-and-positive-factorizations/NR-03",
+      "project": "nonnegative-and-positive-factorizations/NR-03/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/NR-03"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "5237b5fb3a35eaf437fb5826d4ecde3e41dc9014",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872729999",
+      "proof_run_id": 34872729999,
+      "artifact_sha256": "0661d417d839b2a3c9443ab6995522b8efc871854f1e05514c2904eae0d374be",
+      "input_count": 172,
+      "source_reference_directories": [
+        "references/holden-nr03-2026-09-13"
+      ],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34877265725,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34877265725"
+        },
+        {
+          "id": 34877265697,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34877265697"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/NR-03/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/NR-03/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/NR-03/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/NR-03/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "RA-09",
+      "remote_ref": "origin/codex/reverify-ra09",
+      "publication_commit": "0b4af13839e9938dea35a6e63b3ea662b9084f30",
+      "canonical_directory": "randomized-and-low-rank-approximation/RA-09",
+      "project": "randomized-and-low-rank-approximation/RA-09/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/RA-09"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "5c97ce17a14f0e84b05320131eb0af090776f582",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872737659",
+      "proof_run_id": 34872737659,
+      "artifact_sha256": "742d8753b718aef9769aeb8833c7e9ec06d2e4c9c4f0c1e4de6bb1836d7b4104",
+      "input_count": 1300,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34874257003,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874257003"
+        },
+        {
+          "id": 34874256984,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34874256984"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/RA-09/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/RA-09/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/RA-09/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/RA-09/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "FR-12",
+      "remote_ref": "origin/codex/reverify-fr12",
+      "publication_commit": "82422c24435fee9ec7468030663dd88949d62723",
+      "canonical_directory": "frames-and-matrix-designs/FR-12",
+      "project": "frames-and-matrix-designs/FR-12/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/FR-12"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "42818143f084791532e39ff56c13949bebd8d389",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879610937",
+      "proof_run_id": 34879610937,
+      "artifact_sha256": "a3a894fc165ab55b7f0de64a0d663e0a01f7120559064dd1c831aa2528740a6b",
+      "input_count": 430,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34880572607,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34880572607"
+        },
+        {
+          "id": 34880572521,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34880572521"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/FR-12/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/FR-12/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/FR-12/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/FR-12/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MF-16",
+      "remote_ref": "origin/codex/reverify-mf16",
+      "publication_commit": "6170f84bd20782f07508eb1eeec1f719222e1fde",
+      "canonical_directory": "matrix-functions-and-stability/MF-16",
+      "project": "matrix-functions-and-stability/MF-16/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MF-16"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "87702a6d46d0257e05d6e23002586956b4a22dd9",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879620111",
+      "proof_run_id": 34879620111,
+      "artifact_sha256": "1682699152d4057e159204858b864cc4d20a6d86071a3ce84b2d611ba8783983",
+      "input_count": 863,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34881178178,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34881178178"
+        },
+        {
+          "id": 34881178235,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34881178235"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MF-16/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MF-16/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MF-16/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MF-16/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "TR-15",
+      "remote_ref": "origin/codex/reverify-tr15",
+      "publication_commit": "48a7500a2ec7821ec2abf050764274974c332a50",
+      "canonical_directory": "tensor-computations/TR-15",
+      "project": "tensor-computations/TR-15/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/TR-15"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "26d7d0ac7fd14d3f8d527977db3b50c948a77f39",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879627287",
+      "proof_run_id": 34879627287,
+      "artifact_sha256": "0c70d8020dd7e26b914d1f4226eefa21f31baa7313ede5960ad9c5d79fa252bd",
+      "input_count": 427,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34881180240,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34881180240"
+        },
+        {
+          "id": 34881180225,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34881180225"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/TR-15/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/TR-15/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/TR-15/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/TR-15/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "IE-18",
+      "remote_ref": "origin/codex/reverify-ie18",
+      "publication_commit": "06c5f229670d2260d07cccb86203821a8318d1e8",
+      "canonical_directory": "linear-systems-and-elimination/IE-18",
+      "project": "linear-systems-and-elimination/IE-18/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/IE-18"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "3f48f1610726bc183fc71e0b1f4597dacba588e9",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879634428",
+      "proof_run_id": 34879634428,
+      "artifact_sha256": "5508ab01c8ff30e4d5beed3cfa98db320c2893641a7d898c39f14b1e61c79d7e",
+      "input_count": 92,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": true,
+      "publication_ci": [
+        {
+          "id": 34880867481,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34880867481"
+        },
+        {
+          "id": 34880867597,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34880867597"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/IE-18/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/IE-18/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/IE-18/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/IE-18/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Only add neutral project review notice and separate reverification audit; preserve existing main canonical and proof bytes",
+      "project_delta_paths": [
+        "linear-systems-and-elimination/IE-18/lean/reviews/reverification-2026-09-14.md"
+      ]
+    },
+    {
+      "id": "IE-19",
+      "remote_ref": "origin/codex/reverify-ie19",
+      "publication_commit": "4f9bfdd171c052955de8b334f08c1ee747371de6",
+      "canonical_directory": "linear-systems-and-elimination/IE-19",
+      "project": "linear-systems-and-elimination/IE-19/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/IE-19"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "82aee43d2dd0b1ef201134ed8d066b62b7fca890",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879640648",
+      "proof_run_id": 34879640648,
+      "artifact_sha256": "1f8ee221efab4a544d97ba18cb194c3e244dce60ef1ec8469ae42a0f2fe37706",
+      "input_count": 197,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": true,
+      "publication_ci": [
+        {
+          "id": 34880869186,
+          "name": "Permanent problem IDs",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34880869186"
+        },
+        {
+          "id": 34880869175,
+          "name": "Lean verification",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34880869175"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/IE-19/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/IE-19/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/IE-19/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/IE-19/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Only add neutral project review notice and separate reverification audit; preserve existing main canonical and proof bytes",
+      "project_delta_paths": [
+        "linear-systems-and-elimination/IE-19/lean/reviews/reverification-2026-09-14.md"
+      ]
+    },
+    {
+      "id": "MI-19",
+      "remote_ref": "origin/codex/reverify-mi19",
+      "publication_commit": "cb03b492fec480e9ac1a0228cfb72b89104e495a",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-19",
+      "project": "matrix-inequalities-and-norms/MI-19/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-19"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "6f4c39feaa5ae494168dcc55af250b2acf126a02",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882693390",
+      "proof_run_id": 34882693390,
+      "artifact_sha256": "11435b96e09e6305a123ef14d97c868a09fa2539c1adcfe4a73f230b5fa2ab92",
+      "input_count": 147,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": true,
+      "publication_ci": [
+        {
+          "id": 34883737325,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883737325"
+        },
+        {
+          "id": 34883737409,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883737409"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-19/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-19/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-19/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-19/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Only add neutral project review notice and separate reverification audit; preserve existing main canonical and proof bytes",
+      "project_delta_paths": [
+        "matrix-inequalities-and-norms/MI-19/lean/reviews/reverification-2026-09-14.md"
+      ]
+    },
+    {
+      "id": "MI-21",
+      "remote_ref": "origin/codex/reverify-mi21",
+      "publication_commit": "5be149f92bb34e56e0d18a1f0e80664ad75c1296",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-21",
+      "project": "matrix-inequalities-and-norms/MI-21/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-21"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "e43421af3d19dac5fc2cb6304affba66e7ddae24",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882702068",
+      "proof_run_id": 34882702068,
+      "artifact_sha256": "73eab499aa6b4f7994ec2b0fd5904ed022cb21fda946ae19b80e86fabca0a9a9",
+      "input_count": 158,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34884044247,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34884044247"
+        },
+        {
+          "id": 34884044439,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34884044439"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-21/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-21/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-21/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-21/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MI-29",
+      "remote_ref": "origin/codex/reverify-mi29",
+      "publication_commit": "2f1885215346622844df91056cb6dcf9425f10d9",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-29",
+      "project": "matrix-inequalities-and-norms/MI-29/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-29"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "312c879a41904f9b4c6f127546e032a74b3c971f",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882707036",
+      "proof_run_id": 34882707036,
+      "artifact_sha256": "aeb3a3211153d4ecff67c3436730327a67050c290f5603b9aa54c401f713558a",
+      "input_count": 170,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34883943255,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883943255"
+        },
+        {
+          "id": 34883941767,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883941767"
+        },
+        {
+          "id": 34883943174,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883943174"
+        },
+        {
+          "id": 34883941682,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883941682"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-29/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-29/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-29/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-29/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "RA-03",
+      "remote_ref": "origin/codex/reverify-ra03",
+      "publication_commit": "2dd167bd17bfa7c3d3515124b17521bc3c6cc416",
+      "canonical_directory": "randomized-and-low-rank-approximation/RA-03",
+      "project": "randomized-and-low-rank-approximation/RA-03/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/RA-03"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "ad84edf4a36673eef141c12bface0802188ef540",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882712010",
+      "proof_run_id": 34882712010,
+      "artifact_sha256": "5b6c04acf56556b6c2017ecb4f60a388d777a81d960b34b35b16ad4d33035d90",
+      "input_count": 132,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34883848482,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883848482"
+        },
+        {
+          "id": 34883848474,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883848474"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/RA-03/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/RA-03/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/RA-03/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/RA-03/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "RA-07",
+      "remote_ref": "origin/codex/reverify-ra07",
+      "publication_commit": "06028f2be9ad2a3abca4b448c370e38f224acb62",
+      "canonical_directory": "randomized-and-low-rank-approximation/RA-07",
+      "project": "randomized-and-low-rank-approximation/RA-07/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/RA-07"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34882717127",
+      "proof_run_id": 34882717127,
+      "artifact_sha256": "d365921c38f17c0d735fd4feab4e95782502f9822dfda3e1eead48fc2ac9e0a4",
+      "input_count": 394,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34883625962,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883625962"
+        },
+        {
+          "id": 34883625967,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34883625967"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/RA-07/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/RA-07/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/RA-07/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/RA-07/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "IE-23",
+      "remote_ref": "origin/codex/reverify-ie23",
+      "publication_commit": "36aa473b8407b828d5429e5e9e39e70e8eb9e55f",
+      "canonical_directory": "linear-systems-and-elimination/IE-23",
+      "project": "linear-systems-and-elimination/IE-23/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/IE-23"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "4e07fd953ec0d53915af22cc0a30c821c207e3af",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900775452",
+      "proof_run_id": 34900775452,
+      "artifact_sha256": "7e5a69aa5c20931e6c1595372605a404ec9021da6bd3b89819d71893f1363968",
+      "input_count": 570,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34901707136,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901707136"
+        },
+        {
+          "id": 34901707199,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901707199"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/IE-23/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/IE-23/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/IE-23/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/IE-23/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MI-22",
+      "remote_ref": "origin/codex/reverify-mi22",
+      "publication_commit": "0e3646718358ed232b28a817c83ce80ce4b1ae59",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-22",
+      "project": "matrix-inequalities-and-norms/MI-22/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-22"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "c08c30f050524f79ef2cdbb001babcd0e93876ba",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900776190",
+      "proof_run_id": 34900776190,
+      "artifact_sha256": "fa7027906f5715d7d9e047ba2a03e7a4a86c982bdd1d14501039513fbf2bd5d8",
+      "input_count": 514,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34901853876,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901853876"
+        },
+        {
+          "id": 34901853867,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901853867"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-22/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-22/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-22/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-22/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "MI-23",
+      "remote_ref": "origin/codex/reverify-mi23",
+      "publication_commit": "596b09fcc078cdce90b8002cb362cd1433fabff6",
+      "canonical_directory": "matrix-inequalities-and-norms/MI-23",
+      "project": "matrix-inequalities-and-norms/MI-23/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/MI-23"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "8595b5406fc21df98924ce1b5ec486f5ea67f00c",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900779797",
+      "proof_run_id": 34900779797,
+      "artifact_sha256": "f99eb1e5d53fce129bd18ec57f23567fdf12baea716c89938f97ff9affc92ab8",
+      "input_count": 415,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34901769440,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901769440"
+        },
+        {
+          "id": 34901769434,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901769434"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/MI-23/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/MI-23/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/MI-23/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/MI-23/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "RA-20",
+      "remote_ref": "origin/codex/reverify-ra20",
+      "publication_commit": "8a229bdbb3d35c2b309ed3f48e7dc098902c28db",
+      "canonical_directory": "randomized-and-low-rank-approximation/RA-20",
+      "project": "randomized-and-low-rank-approximation/RA-20/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/RA-20"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "32e8d9416e0f6ae1735d4ea410113c0724afa102",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900784180",
+      "proof_run_id": 34900784180,
+      "artifact_sha256": "cae8a9f11f8cc4fda75717b491c2bc1196dadea2f41ca21994f62da21c49b522",
+      "input_count": 1841,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34901709287,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901709287"
+        },
+        {
+          "id": 34901709237,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901709237"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/RA-20/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/RA-20/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/RA-20/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/RA-20/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    },
+    {
+      "id": "IV-06",
+      "remote_ref": "origin/codex/reverify-iv06",
+      "publication_commit": "836287852cbb66e59a8b8395b796f810bbb40917",
+      "canonical_directory": "intervals-and-absolute-value-equations/IV-06",
+      "project": "intervals-and-absolute-value-equations/IV-06/lean",
+      "evidence_directories": [
+        "docs/lean/reverification-2026-09-14/IV-06"
+      ],
+      "canonical_status": "Lean verified",
+      "complete": true,
+      "scope": "complete original target",
+      "proof_commit": "05dda9e7ac6c222910d7553694ff4b4551aaa2a6",
+      "proof_ci_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900787878",
+      "proof_run_id": 34900787878,
+      "artifact_sha256": "0adec45202bda961288442e607802d158b61569067c869b3560a41d454aaaf32",
+      "input_count": 597,
+      "source_reference_directories": [],
+      "main_already_has_lean_project": false,
+      "publication_ci": [
+        {
+          "id": 34901770972,
+          "name": "Permanent problem IDs",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901770972"
+        },
+        {
+          "id": 34901771046,
+          "name": "Lean verification",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34901771046"
+        }
+      ],
+      "completeness_evidence": [
+        "docs/lean/reverification-2026-09-14/IV-06/linux/RUN.json",
+        "docs/lean/reverification-2026-09-14/IV-06/PROOF-ACCEPTANCE.json",
+        "docs/lean/reverification-2026-09-14/IV-06/ROOT-LINUX-CHECKS.json",
+        "docs/lean/reverification-2026-09-14/IV-06/OPERATIONAL-REFEREE-2.md"
+      ],
+      "audit_today": "Fresh acceptance/referee hashes, retained control-log hashes+markers, original ZIP digest, tested/published whole-project identity and recorded publication workflows checked",
+      "integration_note": "Import exact per-ID canonical subtree and necessary source references; preserve current main unrelated paths; reconcile RESOLVED entry; regenerate catalogs"
+    }
+  ]
+}

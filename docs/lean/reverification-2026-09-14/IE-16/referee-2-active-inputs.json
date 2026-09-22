@@ -1,0 +1,68 @@
+{
+  "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "active_source_closure": {
+    "Solution": {
+      "path": "linear-systems-and-elimination/IE-16/lean/Solution.lean",
+      "sha256": "9ec27288b7d4824b91a8c0006c7be1fd7e6493b2444ce45941bdb9104b17a419",
+      "bytes": 3065,
+      "lines": 87
+    },
+    "NLA.IE16.FinalContractsDraft": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/FinalContractsDraft.lean",
+      "sha256": "a0aa3d1e08cf699c06a397540987f166f76693c87c8ed427f8d30836a9b01752",
+      "bytes": 4256,
+      "lines": 114
+    },
+    "NLA.IE16.SubsetGeometryDraft": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/SubsetGeometryDraft.lean",
+      "sha256": "e0f73f3268d289371906e3df7388249b51e7ae93c0b1b7c0b5c8fe04449d48ab",
+      "bytes": 9904,
+      "lines": 250
+    },
+    "NLA.IE16.SubsetBoundsDraft": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/SubsetBoundsDraft.lean",
+      "sha256": "6a3bef42b0356e36db434099e87a4aa4d01682c2de09092497035fe796a33709",
+      "bytes": 7462,
+      "lines": 179
+    },
+    "NLA.IE16.Minimax": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/Minimax.lean",
+      "sha256": "d933b2609842519f9af59b21699af15414a2768376fa9a7deb9decb84fd9842c",
+      "bytes": 7502,
+      "lines": 183
+    },
+    "NLA.IE16.Definitions": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/Definitions.lean",
+      "sha256": "e4681f2083d71d8980adcd70e7cf26367e0e84dbc1773f4d2f082bf2417c9507",
+      "bytes": 4038,
+      "lines": 106
+    },
+    "NLA.IE16.Numeric": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/Numeric.lean",
+      "sha256": "1acf85379ec7c69a632726920ef6be780fa059ccb1e3e6c9f8273b2f7625164f",
+      "bytes": 9356,
+      "lines": 247
+    },
+    "NLA.IE16.FullMinimumDraft": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/FullMinimumDraft.lean",
+      "sha256": "78f9c847d1438c5ce1b53c49bf0178ccde7a8cb542ad07a0b99172542c7c95e6",
+      "bytes": 1515,
+      "lines": 49
+    },
+    "NLA.IE16.WeightedBridgeDraft": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/WeightedBridgeDraft.lean",
+      "sha256": "e68654e1a1f21c1f29b2391edf69374365438c583ff4181323be29a39f6fd008",
+      "bytes": 12379,
+      "lines": 304
+    },
+    "NLA.IE16.WeightedDraft": {
+      "path": "linear-systems-and-elimination/IE-16/lean/NLA/IE16/WeightedDraft.lean",
+      "sha256": "d87c2fe573fbdd31a85ca7170ee9f9700fd406243f44e4631f0feb243694a9e1",
+      "bytes": 6665,
+      "lines": 164
+    }
+  },
+  "all_active_sources_equal_upstream": true,
+  "lexical_rejection_scan": [],
+  "limitation": "Lexical scan is supplemental; actual transitive axiom audits and kernel checks remain necessary."
+}

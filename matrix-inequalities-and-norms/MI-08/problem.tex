@@ -34,7 +34,7 @@ pinching},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}MI-08}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-14}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -88,10 +88,49 @@ external human peer review or formal certification.
 \href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/references/colbrook-matrix-2026-09-11/README.md}{Submission
 record}.
 
+\subsection{Lean proof and verification evidence ---
+2026-09-14}\label{lean-proof-and-verification-evidence-2026-09-14}
+
+\textbf{The stated fixed-list partial result is Lean verified; the
+canonical problem remains Partially resolved.} The fixed-list
+feasibility characterization by rectangular sign matrices is proved for
+every positive dimension and row count. The rank and divisibility
+obstructions and an explicit order-twelve sign matrix establish that the
+actual minimum fixed pinching length is 12 for every dimension from 9
+through 12. The source's adaptive comparison is not formalized, and the
+all-dimension optimum remains open.
+
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/a66e142cbe7907db6594ef57c7f542c3d33ad704/matrix-inequalities-and-norms/MI-08/lean}{Immutable
+formal proof}. The checked exports are
+\textit{NLA.\allowbreak{}MI08.\allowbreak{}fixed\_\allowbreak{}sign\_\allowbreak{}equivalence},
+\textit{NLA.\allowbreak{}MI08.\allowbreak{}design\_\allowbreak{}obstructions},
+\textit{NLA.\allowbreak{}MI08.\allowbreak{}hadamard\_\allowbreak{}twelve}, \textit{NLA.\allowbreak{}MI08.\allowbreak{}finite\_\allowbreak{}minimums}.
+Lean 4.33.1 uses pinned Mathlib \textit{0df444a3} and LeanCert
+\textit{621a43d7};
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi08/matrix-inequalities-and-norms/MI-08/lean/README.md}{complete
+pins and reproduction instructions} are retained. All four exported
+transitive axiom closures contain only \textit{propext},
+\textit{Classical.choice} and \textit{Quot.sound}.
+
+\textbf{Formalization:} Sidney Holden, Center for Computational Biology,
+Flatiron Institute, Simons Foundation, with OpenAI Codex assistance.
+Matthew J. Colbrook retains mathematical authorship. Two independent
+statement reviews preceded implementation, and two independent final
+proof reviews passed. Kernel-only LeanCert and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862187226}{fresh
+isolated Linux Comparator and kernel verification} passed, including
+rejection controls.
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi08/matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md}{Original
+artifact, exact checked inputs and independent operational audit} are
+retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
+
+\newpage
+
 \subsection{Problem statement}\label{problem-statement}
 
 For each integer \(d\ge1\), define
-\(\Delta(X)=\operatorname{diag}(x_{11},\ldots,x_{dd})\) for
+\(\Delta(X)=\mathop{\mathrm{diag}}\nolimits(x_{11},\ldots,x_{dd})\) for
 \(X=(x_{ij})\in\mathbb R^{d\times d}\). Determine the integer
 
 \[\varphi(d)=\min\left\{q\ge1:\ \exists U_1,\ldots,U_q\in O(d)\ \forall X\in\mathbb R^{d\times d},\quad
@@ -108,7 +147,6 @@ shortest average of orthogonal similarities gives an exact decomposition
 complexity and sharpens real versions of majorization-based norm
 estimates.
 
-\newpage
 \subsection{References}\label{references}
 
 \begin{enumerate}

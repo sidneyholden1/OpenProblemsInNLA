@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root coordinator, not an independent referee",
+  "verdict": "Statement boundary accepted by coordinator pending two independent reviews",
+  "scope": "Full real r,s parameter regions, p>=1 and closed t interval retained. Actual characteristic-root multiset sorted by real parts requires all complex roots recovered with multiplicity, positive realness, n entries, determinant product and genuine similarity. Norm/eigenvalue bridge is theorem, not definition. One exact squared rational gap refutes first prefix.",
+  "reviewed_boundary_sha256": {
+    "matrix-inequalities-and-norms/MI-23/lean/NUMERICAL_TARGETS.md": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+    "matrix-inequalities-and-norms/MI-23/lean/Challenge.lean": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+    "matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Definitions.lean": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+    "matrix-inequalities-and-norms/MI-23/lean/formalization.yaml": "2c6b162572c774d28fd9a5302fd16f3939c5fb87007b124eb8071618932992d0",
+    "matrix-inequalities-and-norms/MI-23/lean/comparator.json": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+    "matrix-inequalities-and-norms/MI-23/README.md": "308ec2f9185aaa06e7c5807531047163caa249b8274a9df34704db7d86350502"
+  },
+  "original_full_manuscript_read": true,
+  "proof_inspection_started": false
+}

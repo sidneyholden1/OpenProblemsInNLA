@@ -1,0 +1,119 @@
+NLA/SP04/TopologyProof.lean:11:51: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:11:51: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:12:52: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:12:52: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:12:52: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:16:51: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:16:51: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:17:52: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:17:52: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X i
+NLA/SP04/TopologyProof.lean:17:52: error: `simp` made no progress
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    X j
+NLA/SP04/TopologyProof.lean:22:55: error: No goals to be solved
+NLA/SP04/TopologyProof.lean:30:2: error: Tactic `split_ifs` failed: no if-then-else conditions to split
+
+X : Mat 3
+i j : Fin 3
+⊢ sorry X j i = -sorry X i j
+NLA/SP04/TopologyProof.lean:29:13: warning: declaration uses `sorry`
+NLA/SP04/TopologyProof.lean:29:23: warning: This simp argument is unused:
+  LinearMap.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [leftSkew, AddHom.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:29:41: warning: This simp argument is unused:
+  AddHom.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [leftSkew, LinearMap.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:35:2: error: Tactic `split_ifs` failed: no if-then-else conditions to split
+
+X : Mat 3
+i j : Fin 3
+⊢ sorry X j i = -sorry X i j
+NLA/SP04/TopologyProof.lean:34:13: warning: declaration uses `sorry`
+NLA/SP04/TopologyProof.lean:34:24: warning: This simp argument is unused:
+  LinearMap.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [rightSkew, AddHom.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:34:42: warning: This simp argument is unused:
+  AddHom.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [rightSkew, LinearMap.coe_mk, Matrix.transpose_apply, Matrix.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:48:4: error(lean.unknownIdentifier): Unknown constant `ContinuousLinearMap.mulRight`
+NLA/SP04/TopologyProof.lean:50:5: error(lean.unknownIdentifier): Unknown constant `ContinuousLinearMap.mulLeft`
+NLA/SP04/TopologyProof.lean:54:44: error: Tactic `rfl` failed: The left-hand side
+  (orbitDerivative s) X
+is not definitionally equal to the right-hand side
+  leftSkew X * Matrix.diagonal s + diagPart X + Matrix.diagonal s * rightSkew X
+
+s : Fin 3 → ℝ
+X : Mat 3
+⊢ (orbitDerivative s) X = leftSkew X * Matrix.diagonal s + diagPart X + Matrix.diagonal s * rightSkew X
+NLA/SP04/TopologyProof.lean:58:13: error: Application type mismatch: The argument
+  hasStrictFDerivAt_exp_zero
+has type
+  HasStrictFDerivAt exp 1 0
+but is expected to have type
+  HasStrictFDerivAt ?m.38 ?m.39 ((LinearMap.toContinuousLinearMap leftSkew) 0)
+in the application
+  HasStrictFDerivAt.comp 0 hasStrictFDerivAt_exp_zero

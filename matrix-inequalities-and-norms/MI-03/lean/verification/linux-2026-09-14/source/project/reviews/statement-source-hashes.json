@@ -1,0 +1,10 @@
+{
+  "NLA/MI03/Definitions.lean": "14688d721143401624b2ccb0db66f1c417d03128b2f998ba63c22a71e49305bf",
+  "Challenge.lean": "eeb7b72d202166be496afc3fb0ca416dfdce3a3d5e8f86c58a44ea1cabcd4bb3",
+  "NUMERICAL_TARGETS.md": "6141b4786e29b2cfd4e6ee538df1f173ea2c4bf52f6972173ff460022fdd8b0b",
+  "source_files": {
+    "matrix-inequalities-and-norms/MI-03/README.md": "fc504918a1f2ca1d83bc0e3b68ff4864d349ad215ff50116e9bfab2776378ba3",
+    "matrix-inequalities-and-norms/MI-03/solution.tex": "bd7a553bdcb0cd76543960b299f952a30e0f5829192cc89c869ffe1676454703",
+    "references/colbrook-matrix-2026-09-11/original-proofs/MI-03.tex": "2d2d0ac01e22de1c6d63471c0965b1c17362d5eda23d53cbf397ab4932be32b3"
+  }
+}

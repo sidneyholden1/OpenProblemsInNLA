@@ -1,0 +1,187 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-t2tzdrwp/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2708/2710] Built NLA.RA08.Definitions (1.9s)
+⚠ [2709/2710] Built Challenge (1.6s)
+warning: Challenge.lean:17:8: declaration uses `sorry`
+warning: Challenge.lean:23:8: declaration uses `sorry`
+warning: Challenge.lean:36:8: declaration uses `sorry`
+warning: Challenge.lean:45:8: declaration uses `sorry`
+warning: Challenge.lean:54:8: declaration uses `sorry`
+warning: Challenge.lean:60:8: declaration uses `sorry`
+warning: Challenge.lean:72:8: declaration uses `sorry`
+warning: Challenge.lean:78:8: declaration uses `sorry`
+warning: Challenge.lean:84:8: declaration uses `sorry`
+warning: Challenge.lean:91:8: declaration uses `sorry`
+warning: Challenge.lean:106:8: declaration uses `sorry`
+warning: Challenge.lean:121:8: declaration uses `sorry`
+warning: Challenge.lean:126:8: declaration uses `sorry`
+warning: Challenge.lean:139:8: declaration uses `sorry`
+Build completed successfully (2710 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.RA08.orderedSpectral_exists, NLA.RA08.orderedSpectral_semantics, NLA.RA08.functionalCalculus_spectral, NLA.RA08.spectral_tail_norms, NLA.RA08.operator_rayleigh_bound, NLA.RA08.witness_data, NLA.RA08.witness_spectral_location, NLA.RA08.minorant_scalar, NLA.RA08.minorant_functional_calculus, NLA.RA08.witness_tail_data, NLA.RA08.witness_rational_certificate, NLA.RA08.numerical_gap_positive, NLA.RA08.counterexample, NLA.RA08.not_concaveSpectralTransferConjecture, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3007/3039] Built LeanCert.Core.Interval (3.5s)
+✔ [3009/3039] Built LeanCert.Tactic.Verification (3.8s)
+✔ [3010/3039] Built LeanCert.Core.DerivativeIntervals (3.6s)
+✔ [3011/3042] Built LeanCert.Core.Expr (6.1s)
+ℹ [3012/3042] Built NLA.RA08.Scalar (7.4s)
+info: NLA/RA08/Scalar.lean:56:0: 'NLA.RA08.minorant_shift_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Scalar.lean:57:0: 'NLA.RA08.minorant_scalar_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3013/3042] Built NLA.RA08.SpectralCFC (6.6s)
+info: NLA/RA08/SpectralCFC.lean:115:0: 'NLA.RA08.selected_data_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/SpectralCFC.lean:116:0: 'NLA.RA08.selectedCfcAux_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/SpectralCFC.lean:117:0: 'NLA.RA08.selectedCfcAux_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/SpectralCFC.lean:118:0: 'NLA.RA08.selected_cfc_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/SpectralCFC.lean:119:0: 'NLA.RA08.functionalCalculus_spectral_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3014/3042] Built LeanCert.Core.Taylor (9.5s)
+✔ [3015/3042] Built LeanCert.Core.IntervalRat.Basic (10s)
+✔ [3016/3044] Built LeanCert.Core.Support (5.0s)
+✔ [3017/3046] Built LeanCert.Core.IntervalRat.LogReduction (6.7s)
+✔ [3018/3046] Built LeanCert.Meta.Numeral (6.1s)
+ℹ [3019/3046] Built NLA.RA08.Spectral (5.5s)
+info: NLA/RA08/Spectral.lean:134:0: 'NLA.RA08.orderedSpectral_semantics_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Spectral.lean:135:0: 'NLA.RA08.spectralCombination_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Spectral.lean:136:0: 'NLA.RA08.tail_function_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Spectral.lean:137:0: 'NLA.RA08.operator_rayleigh_bound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Spectral.lean:138:0: 'NLA.RA08.spectral_tail_norms_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3020/3046] Built LeanCert.Core.TrigReduction (4.8s)
+✔ [3021/3046] Built LeanCert.Core.IntervalRat.Transcendental (6.9s)
+✔ [3022/3047] Built LeanCert.Engine.Eval.Result (3.6s)
+✔ [3023/3047] Built LeanCert.Tactic.IntervalAuto.Types (4.5s)
+✔ [3024/3049] Built LeanCert.Tactic.IntervalAuto.Extract (3.2s)
+✔ [3025/3050] Built LeanCert.Meta.ToExpr (7.1s)
+ℹ [3026/3050] Built NLA.RA08.Witness (25s)
+info: NLA/RA08/Witness.lean:157:0: 'NLA.RA08.witnessFunction_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Witness.lean:158:0: 'NLA.RA08.witnessF_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Witness.lean:159:0: 'NLA.RA08.witnessMatrix_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Witness.lean:160:0: 'NLA.RA08.witness_data_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3027/3053] Built LeanCert.Tactic.IntervalAuto.Norm (5.9s)
+✔ [3028/3053] Built LeanCert.Tactic.IntervalAuto.Parse (7.0s)
+ℹ [3029/3053] Built NLA.RA08.ProjectionNorm (7.9s)
+info: NLA/RA08/ProjectionNorm.lean:49:0: 'NLA.RA08.witness_projection_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/ProjectionNorm.lean:50:0: 'NLA.RA08.witness_residual_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3030/3054] Built NLA.RA08.Polynomial (11s)
+info: NLA/RA08/Polynomial.lean:93:0: 'NLA.RA08.matrixK_cfc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Polynomial.lean:94:0: 'NLA.RA08.minorant_cfc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Polynomial.lean:95:0: 'NLA.RA08.matrixK_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Polynomial.lean:96:0: 'NLA.RA08.approximation_cfc' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3032/3055] Built NLA.RA08.Basis (3.9s)
+info: NLA/RA08/Basis.lean:118:0: 'NLA.RA08.rectangular_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Basis.lean:119:0: 'NLA.RA08.basis_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Basis.lean:120:0: 'NLA.RA08.basis_rayleigh_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Basis.lean:121:0: 'NLA.RA08.basis_rayleigh_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3033/3055] Built LeanCert.Core.IntervalRat.Taylor (22s)
+ℹ [3034/3055] Built NLA.RA08.Location (7.3s)
+info: NLA/RA08/Location.lean:130:0: 'NLA.RA08.witness_no_gap_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Location.lean:131:0: 'NLA.RA08.witness_spectral_location_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3035/3055] Built LeanCert.Tactic.IntervalAuto.Diagnostic (3.2s)
+✔ [3036/3055] Built LeanCert.Core.IntervalReal (3.7s)
+✔ [3037/3055] Built LeanCert.Contrib.Sinc (5.9s)
+✔ [3038/3055] Built LeanCert.Core.IntervalRat.TrigReduced (4.9s)
+ℹ [3039/3061] Built NLA.RA08.Certificate (9.6s)
+info: NLA/RA08/Certificate.lean:121:0: 'NLA.RA08.first_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Certificate.lean:122:0: 'NLA.RA08.second_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Certificate.lean:123:0: 'NLA.RA08.third_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Certificate.lean:124:0: 'NLA.RA08.witness_rational_certificate_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3040/3065] Built NLA.RA08.Fourth (6.2s)
+info: NLA/RA08/Fourth.lean:175:0: 'NLA.RA08.fourth_le_of_three_coordinate_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Fourth.lean:176:0: 'NLA.RA08.fourth_ge_of_two_coordinate_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Fourth.lean:177:0: 'NLA.RA08.witness_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Fourth.lean:178:0: 'NLA.RA08.approximation_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3041/3066] Built NLA.RA08.Functional (5.1s)
+info: NLA/RA08/Functional.lean:35:0: 'NLA.RA08.minorant_functional_calculus_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3042/3066] Built LeanCert.Core.IntervalRealEndpoints (4.9s)
+✔ [3043/3066] Built LeanCert.Core.Dyadic (4.7s)
+✔ [3044/3066] Built LeanCert.Tactic.LeanCert.Bridge.Environment (2.9s)
+✔ [3045/3066] Built LeanCert.Tactic.NumericalRefinement (618ms)
+ℹ [3046/3117] Built NLA.RA08.Tails (3.7s)
+info: NLA/RA08/Tails.lean:68:0: 'NLA.RA08.approximation_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Tails.lean:69:0: 'NLA.RA08.approximation_function_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Tails.lean:70:0: 'NLA.RA08.witness_tail_data_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3095/3161] Built LeanCert.Tactic.LeanCert.Normalize (5.7s)
+✔ [3100/3161] Built LeanCert.Engine.Eval.Core (10s)
+✔ [3101/3161] Built LeanCert.Engine.Affine.Basic (9.4s)
+✔ [3102/3161] Built LeanCert.Core.IntervalDyadic (10s)
+ℹ [3103/3161] Built NLA.RA08.OrderedExistence (5.3s)
+info: NLA/RA08/OrderedExistence.lean:74:0: 'NLA.RA08.orderedSpectral_exists_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3104/3161] Built LeanCert.Engine.Eval.Extended (4.6s)
+✔ [3105/3161] Built LeanCert.Engine.Affine.Nonlinear (3.3s)
+✔ [3106/3161] Built LeanCert.Engine.Bounds.Lemmas (1.0s)
+✔ [3107/3161] Built LeanCert.Engine.IntervalEval (1.5s)
+✔ [3108/3161] Built LeanCert.Validity.Bounds.Checked (2.0s)
+✔ [3109/3161] Built LeanCert.Validity.Bounds.Core (3.1s)
+✔ [3110/3161] Built LeanCert.Engine.Affine.Transcendental (4.7s)
+✔ [3111/3161] Built LeanCert.Engine.Optimization.Box (4.3s)
+✔ [3112/3161] Built LeanCert.Engine.IntervalEvalDyadic (7.4s)
+✔ [3113/3161] Built LeanCert.Engine.RootFinding.Basic (6.1s)
+✔ [3114/3161] Built LeanCert.Engine.AD.Basic (3.5s)
+✔ [3115/3161] Built LeanCert.Engine.Integrate (7.8s)
+✔ [3116/3161] Built LeanCert.Validity.DyadicBounds (5.1s)
+✔ [3117/3161] Built LeanCert.Engine.IntervalEvalAffine (7.2s)
+✔ [3118/3161] Built LeanCert.Engine.TaylorModel.Core (10s)
+✔ [3119/3161] Built LeanCert.Engine.RootFinding.Bisection (6.3s)
+✔ [3120/3161] Built LeanCert.Engine.Affine.Environment (4.4s)
+✔ [3121/3161] Built LeanCert.Engine.AD.Transcendental (5.0s)
+✔ [3122/3161] Built LeanCert.Engine.TaylorModel.Special (2.9s)
+✔ [3123/3161] Built LeanCert.Engine.TaylorModel.Integral (4.0s)
+✔ [3124/3161] Built LeanCert.Engine.AD.Eval (4.3s)
+✔ [3125/3161] Built LeanCert.Engine.TaylorModel.ExpLog (10s)
+✔ [3126/3161] Built LeanCert.Engine.AD.Correctness (6.3s)
+✔ [3127/3161] Built LeanCert.Engine.TaylorModel.Trig (13s)
+✔ [3128/3161] Built LeanCert.Engine.TaylorModel.Hyperbolic (14s)
+✔ [3129/3161] Built LeanCert.Engine.AD.Computable (3.9s)
+✔ [3130/3161] Built LeanCert.Engine.TaylorModel.Functions (2.2s)
+✔ [3131/3161] Built LeanCert.Engine.AD.PartialCorrectness (6.3s)
+✔ [3132/3161] Built LeanCert.Engine.AD.DomainChecked (3.8s)
+✔ [3133/3161] Built LeanCert.Engine.TaylorModel.Expr (3.7s)
+✔ [3134/3161] Built LeanCert.Engine.TaylorModel (1.8s)
+✔ [3135/3161] Built LeanCert.Engine.AD.Dyadic (2.9s)
+✔ [3136/3161] Built LeanCert.Engine.AD (1.4s)
+✔ [3137/3161] Built LeanCert.Validity.Bounds.Smart (3.6s)
+✔ [3138/3161] Built LeanCert.Meta.ProveSupported (3.0s)
+✔ [3139/3161] Built LeanCert.Engine.IntervalEvalRefined (4.3s)
+✔ [3140/3161] Built LeanCert.Validity.Bounds.Bridge (3.7s)
+✔ [3141/3161] Built LeanCert.Engine.Optimize (7.5s)
+✔ [3142/3161] Built LeanCert.Meta.ProveContinuous (5.4s)
+✔ [3143/3161] Built LeanCert.Tactic.IntervalAuto.ProveCommon (5.9s)
+✔ [3144/3161] Built LeanCert.Validity.Bounds.Basic (2.9s)
+✔ [3145/3161] Built LeanCert.Tactic.IntervalAuto.Basic (3.4s)
+✔ [3146/3161] Built LeanCert.Engine.Optimization.Gradient (6.7s)
+✔ [3147/3161] Built LeanCert.Engine.RootFinding.Newton (5.3s)
+✔ [3148/3161] Built LeanCert.Validity.Integration (6.8s)
+✔ [3149/3161] Built LeanCert.Engine.RootFinding.Krawczyk (7.9s)
+✔ [3150/3161] Built LeanCert.Engine.RootFinding.MVTBounds (9.4s)
+✔ [3151/3161] Built LeanCert.Engine.RootFinding.Contraction (5.2s)
+✔ [3152/3161] Built LeanCert.Engine.RootFinding.Main (1.5s)
+✔ [3153/3161] Built LeanCert.Engine.Optimization.Global (19s)
+✔ [3154/3161] Built LeanCert.Engine.Optimization.BoundVerify (2.4s)
+✔ [3155/3161] Built LeanCert.Validity.Bounds (4.4s)
+✔ [3156/3161] Built LeanCert.Tactic.IntervalAuto.Bound (12s)
+✔ [3157/3161] Built LeanCert.Tactic.IntervalAuto.PointIneq (6.2s)
+ℹ [3158/3161] Built NLA.RA08.Numerical (1.9s)
+info: NLA/RA08/Numerical.lean:22:0: 'NLA.RA08.numerical_gap_positive_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3159/3161] Built NLA.RA08.Proof (2.1s)
+info: NLA/RA08/Proof.lean:77:0: 'NLA.RA08.witness_functional_rayleigh_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Proof.lean:78:0: 'NLA.RA08.counterexample_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA08/Proof.lean:79:0: 'NLA.RA08.not_concaveSpectralTransferConjecture_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3160/3161] Built Solution (2.0s)
+info: Solution.lean:146:0: 'NLA.RA08.orderedSpectral_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:148:0: 'NLA.RA08.orderedSpectral_semantics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:150:0: 'NLA.RA08.functionalCalculus_spectral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:152:0: 'NLA.RA08.spectral_tail_norms' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:154:0: 'NLA.RA08.operator_rayleigh_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:156:0: 'NLA.RA08.witness_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:158:0: 'NLA.RA08.witness_spectral_location' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:160:0: 'NLA.RA08.minorant_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:162:0: 'NLA.RA08.minorant_functional_calculus' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:164:0: 'NLA.RA08.witness_tail_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:166:0: 'NLA.RA08.witness_rational_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:168:0: 'NLA.RA08.numerical_gap_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:170:0: 'NLA.RA08.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:172:0: 'NLA.RA08.not_concaveSpectralTransferConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3161 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.RA08.orderedSpectral_exists, NLA.RA08.orderedSpectral_semantics, NLA.RA08.functionalCalculus_spectral, NLA.RA08.spectral_tail_norms, NLA.RA08.operator_rayleigh_bound, NLA.RA08.witness_data, NLA.RA08.witness_spectral_location, NLA.RA08.minorant_scalar, NLA.RA08.minorant_functional_calculus, NLA.RA08.witness_tail_data, NLA.RA08.witness_rational_certificate, NLA.RA08.numerical_gap_positive, NLA.RA08.counterexample, NLA.RA08.not_concaveSpectralTransferConjecture, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0

@@ -1,0 +1,21 @@
+{
+  "stage": "actual isolated-project statement build; no proof",
+  "command": [
+    "lake",
+    "build",
+    "Challenge"
+  ],
+  "cwd": "/private/tmp/nla-lean-ie04/linear-systems-and-elimination/IE-04/lean",
+  "exit_code": 0,
+  "jobs": 3106,
+  "intentional_placeholders": 12,
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "log_sha256": "ef1b70dca3b39b64926b9f854888a532c5ae83fe7d5e7ad5f17f2f6aeeb34d3a",
+  "statement_sha256": {
+    "NLA/IE04/Definitions.lean": "c78a3813feb30befee926d4ad94aed7456567db670b4eede249516c06bbd4edf",
+    "Challenge.lean": "0e84dc20ac0311e4abb143735298439030a5b9573b90b084398dc67a5f3ed28f",
+    "NUMERICAL_TARGETS.md": "9fc5e9071df313497a615f30f7946769e4160029e84c3005c7c892b1c9ab17b2"
+  },
+  "wrapper_note": "Default target future Solution and lean_lib Solution registered after draft review; mathematical bytes and dependency pins unchanged."
+}

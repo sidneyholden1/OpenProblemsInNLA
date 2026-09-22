@@ -1,0 +1,48 @@
+{
+  "stage": "FROZEN; two independent nonauthor statement approvals precede proof implementation",
+  "author_role": "Codex statement drafter, not an independent referee of these files",
+  "source_base": "32f1f799219fbcaf4c66bfaa4edb8a0c591e79e9",
+  "sources_equal_previously_read_deb549fa": true,
+  "sources": [
+    {
+      "path": "nonnegative-and-positive-factorizations/PF-02/README.md",
+      "sha256": "4ef3bba41aca6e2a2c66a8a39e5974b54095b85fba0557c6353c253202aa26c7"
+    },
+    {
+      "path": "references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex",
+      "sha256": "7e41f64f8495231b9cadd5296daa8fe44790039d3f6e25260cd04be258f3bf65"
+    }
+  ],
+  "files_sha256": {
+    "NLA/PF02/Definitions.lean": "8ec6b4b58a99eb5e4554ebe7807619665c52deb83405083ba40b224a935b1f1d",
+    "Challenge.lean": "1984dbc1415c91951df296f00011049c5ccc0a5baabe937cb8e107a411c51532",
+    "NUMERICAL_TARGETS.md": "7ce9ec1ed32cf81c213cbba661c367f5528e536361fb6a2a715c5c36c72c5758",
+    "lakefile.toml": "e9d31a3273307f6e5c4e1031f339b2de1d1980b3412ea2fa2982efdeb4270cb1",
+    "lake-manifest.json": "19b43bd134b48c326c0977c6134db0c9a7da9fc89961d20cd303390ac7154eda",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "verification/source-provenance.json": "3be2f3b7162fa2126f1363df34a6c0f4ec3ebe0fa0636218062cc69e7bdddd97",
+    "verification/precheck.py": "dc561926fffc167861003da150eda16e9d725b690dedbe2effa339b502d23592",
+    "verification/precheck.json": "eeb92b61f36e88a4f8b61609b9ea6025e17c2d605c59f0ee884b516e36d091e2",
+    "verification/statement-build-initial.log": "d1c431bc27903e6803ca5107fd26b654991fc2f497fa99d9844cee49c496623f",
+    "verification/statement-build.log": "245ecb83e0d9871551620a796b3a650da7f562c3f21d35ca6548abe1599a3732",
+    "verification/statement-build.json": "39210a8d6b8e3c4b2bece6faa9dc758581d7e1f992e0eeb69f1ca8573a1e6d2c",
+    "comparator.json": "8b17ff697fb75d3d8ba82a8ce169ca895d2402148a353301ba683ffd7193ceb4"
+  },
+  "exports": [
+    "psd_rank_semantics",
+    "congruence_quotient_semantics",
+    "witness_exact_data",
+    "trace_coordinate_bridge",
+    "congruence_coordinate_identity",
+    "orientation_invariant",
+    "quotient_orientation",
+    "disconnected_counterexample",
+    "not_connectedOrbitConjecture"
+  ],
+  "revision_note": "Project manifest name corrected to NLAPF02 without changing pins; Comparator configuration added before independent approvals. Mathematical statement bytes unchanged.",
+  "frozen_at_utc": "2026-09-15T02:04:06.814221+00:00",
+  "referees": {
+    "reviews/statement-referee-1.md": "45d6802c98578093d65fdd794d75f8a6470e6c168f280d0cdb4e1cfb552f9823",
+    "reviews/statement-referee-2.md": "fa848f3b5fa3a70838923de9fca2e16ef8cce39f9495f8fc1a1de23bc143029f"
+  }
+}

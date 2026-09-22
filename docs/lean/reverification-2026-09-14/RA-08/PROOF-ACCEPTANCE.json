@@ -1,0 +1,36 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "709b880c4832c0e2d2cadf0d0f19a7255ec05c0f3868e82ed3a3651163fc0651",
+    "STATEMENT-REFEREE-2.md": "823f15590a67a5bfb5d8f105678c862dd4e41e65a4d1466096437e7fabdfa618",
+    "PROOF-REFEREE-1.md": "71b06bcab50d550681e9529c796d39c4329a8377efe4ed4129c5ff51ec58047e",
+    "PROOF-REFEREE-2.md": "657d7078b0b21dd897073bb6da7cb37b7d24709da8f2f67b533b22afcdb33ff2",
+    "referee-1-proof-evidence.json": "be5979e7fd665043df9086f2753e8ed43062e0205f87efe05d29156992664e4b",
+    "referee-2-proof-checks.json": "7e270411c73076867644a9edafcdc5c4be48eaf98cce08121d86afead3df3bcc",
+    "ROOT-LOCAL-CHECKS.json": "4a08259a4e9ef142b67832adca866cb3347e4c67bb8ee605becf75805767cb3f",
+    "statement-gate.json": "60c18188a1ef0fe5349ca0690e3b177224cc490cf935a44a318420d6ad36a8ea",
+    "preflight.json": "057b64b587e1adbd888c3959ad2a78f5c495c143800fe602347c812d6d926cbb"
+  },
+  "exports": [
+    "NLA.RA08.orderedSpectral_exists",
+    "NLA.RA08.orderedSpectral_semantics",
+    "NLA.RA08.functionalCalculus_spectral",
+    "NLA.RA08.spectral_tail_norms",
+    "NLA.RA08.operator_rayleigh_bound",
+    "NLA.RA08.witness_data",
+    "NLA.RA08.witness_spectral_location",
+    "NLA.RA08.minorant_scalar",
+    "NLA.RA08.minorant_functional_calculus",
+    "NLA.RA08.witness_tail_data",
+    "NLA.RA08.witness_rational_certificate",
+    "NLA.RA08.numerical_gap_positive",
+    "NLA.RA08.counterexample",
+    "NLA.RA08.not_concaveSpectralTransferConjecture"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "5e1e682e0559800d1f0619553bf385c88eec2330",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}

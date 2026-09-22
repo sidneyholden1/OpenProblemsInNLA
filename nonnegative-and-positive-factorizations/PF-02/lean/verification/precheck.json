@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "author-side exact arithmetic diagnostics, not Lean or independent review",
+  "matrix_determinant": "8192",
+  "orientation_determinants": [
+    "32",
+    "-32"
+  ],
+  "leading_principal_minors_original_then_reflected": [
+    [
+      "4",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "4",
+      "16"
+    ],
+    [
+      "2",
+      "3",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "4",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "4",
+      "16"
+    ],
+    [
+      "2",
+      "3",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ]
+  ],
+  "two_trace_grams_equal_witness": true,
+  "trace_metric_factorization": true,
+  "all_entries_strictly_positive": true,
+  "generic_congruence_determinant_identity": {
+    "variables": 9,
+    "degree": 12,
+    "coefficientwise_equal": true,
+    "nonzero_terms": 120
+  },
+  "limits": "Does not prove PSD-rank minimality, every-factorization orientation nonvanishing, quotient relation/topology, continuity, disconnectedness or the universal negation."
+}
