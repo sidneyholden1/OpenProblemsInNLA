@@ -1,0 +1,6 @@
+NLA/MI04/Reflection.lean:24:43: error: Type mismatch
+  swapUnitary n
+has type
+  ↥(unitary (Matrix (Fin n ⊕ Fin n) (Fin n ⊕ Fin n) ℂ))
+but is expected to have type
+  Matrix (Fin n ⊕ Fin n) ?m.19 ℂ

@@ -1,0 +1,40 @@
+NLA/MI04/BasisTransport.lean:50:4: warning: This simp argument is unused:
+  OrthonormalBasis.coe_toBasis_repr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, Matrix.conjTranspose_apply, Module.Basis.toMatrix_apply,
+    OrthonormalBasis.repr_apply_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/BasisTransport.lean:50:39: warning: This simp argument is unused:
+  OrthonormalBasis.repr_apply_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, Matrix.conjTranspose_apply, Module.Basis.toMatrix_apply,
+    OrthonormalBasis.coe_toBasis_repr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/BasisTransport.lean:51:8: warning: This simp argument is unused:
+  EuclideanSpace.inner_single_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [EuclideanSpace.basisFun_apply, PiLp.inner_apply, Matrix.ofLp_toEuclideanCLM, Matrix.mulVec, dotProduct,
+    Finset.mul_sum, Finset.sum_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/BasisTransport.lean:51:42: warning: This simp argument is unused:
+  EuclideanSpace.basisFun_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [EuclideanSpace.inner_single_left, PiLp.inner_apply, Matrix.ofLp_toEuclideanCLM, Matrix.mulVec,
+    dotProduct, Finset.mul_sum, Finset.sum_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/BasisTransport.lean:53:4: warning: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [EuclideanSpace.inner_single_left, EuclideanSpace.basisFun_apply, PiLp.inner_apply,
+    Matrix.ofLp_toEuclideanCLM, Matrix.mulVec, dotProduct, Finset.sum_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

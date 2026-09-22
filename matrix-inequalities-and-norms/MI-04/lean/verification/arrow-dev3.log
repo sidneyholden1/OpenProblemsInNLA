@@ -1,0 +1,32 @@
+NLA/MI04/Arrow.lean:51:4: error: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+NLA/MI04/Arrow.lean:49:62: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.sub_apply, arrowTop, diagonal_apply_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:65:57: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk, Ne.symm hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:66:57: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:68:59: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

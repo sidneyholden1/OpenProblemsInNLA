@@ -1,0 +1,169 @@
+NLA/MI04/Arrow.lean:30:23: error: `simp` made no progress
+NLA/MI04/Arrow.lean:30:31: warning: This simp argument is unused:
+  hi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:41:15: error: Ambiguous term
+  sub_apply
+Possible interpretations:
+  _root_.sub_apply : ∀ (f g : ?m.146) (x : ?m.147), (f - g) x = f x - g x
+  
+  Matrix.sub_apply : ∀ (A B : Matrix ?m.146 ?m.147 ?m.148) (i : ?m.146) (j : ?m.147), (A - B) i j = A i j - B i j
+NLA/MI04/Arrow.lean:44:6: error(lean.unknownIdentifier): Unknown identifier `star_ofReal`
+NLA/MI04/Arrow.lean:44:19: error(lean.unknownIdentifier): Unknown identifier `ofReal_sub`
+NLA/MI04/Arrow.lean:44:31: error(lean.unknownIdentifier): Unknown identifier `ofReal_one`
+NLA/MI04/Arrow.lean:44:43: error(lean.unknownIdentifier): Unknown identifier `ofReal_mul`
+NLA/MI04/Arrow.lean:44:55: error(lean.unknownIdentifier): Unknown identifier `ofReal_pow`
+NLA/MI04/Arrow.lean:45:6: error(lean.unknownIdentifier): Unknown identifier `ofReal_sum`
+NLA/MI04/Arrow.lean:45:18: error(lean.unknownIdentifier): Unknown identifier `ofReal_div`
+NLA/MI04/Arrow.lean:45:30: error(lean.unknownIdentifier): Unknown identifier `ofReal_pow`
+NLA/MI04/Arrow.lean:48:4: error: Tactic `apply` failed: could not unify the conclusion of `Finset.sum_congr rfl`
+  Finset.sum ?m.163 ?m.160 = Finset.sum ?m.163 ?m.161
+with the goal
+  ((diagonal fun j => if j = i then 1 else ↑(2 - e j)) -
+        arrowCross X i s 0 * diagonal (Ring.inverse fun j => ↑(e j)) * (arrowCross X i s 0)ᴴ)
+      i i =
+    if True then ↑(1 - ∑ i_1, s ^ 2 * (‖X i i_1‖ ^ 2 / e i_1)) else ↑(2 - e i)
+
+Note: The full type of `Finset.sum_congr rfl` is
+  (∀ x ∈ ?m.163, ?m.160 x = ?m.161 x) → Finset.sum ?m.163 ?m.160 = Finset.sum ?m.163 ?m.161
+
+case pos
+n : ℕ
+X : Mat n
+i : Fin n
+e : Fin n → ℝ
+s : ℝ
+hi : e i = 2
+⊢ ((diagonal fun j => if j = i then 1 else ↑(2 - e j)) -
+        arrowCross X i s 0 * diagonal (Ring.inverse fun j => ↑(e j)) * (arrowCross X i s 0)ᴴ)
+      i i =
+    if True then ↑(1 - ∑ i_1, s ^ 2 * (‖X i i_1‖ ^ 2 / e i_1)) else ↑(2 - e i)
+NLA/MI04/Arrow.lean:56:30: error: Ambiguous term
+  sub_apply
+Possible interpretations:
+  _root_.sub_apply : ∀ (f g : ?m.165) (x : ?m.166), (f - g) x = f x - g x
+  
+  Matrix.sub_apply : ∀ (A B : Matrix ?m.165 ?m.166 ?m.167) (i : ?m.165) (j : ?m.166), (A - B) i j = A i j - B i j
+NLA/MI04/Arrow.lean:57:30: error: Ambiguous term
+  sub_apply
+Possible interpretations:
+  _root_.sub_apply : ∀ (f g : ?m.165) (x : ?m.166), (f - g) x = f x - g x
+  
+  Matrix.sub_apply : ∀ (A B : Matrix ?m.165 ?m.166 ?m.167) (i : ?m.165) (j : ?m.166), (A - B) i j = A i j - B i j
+NLA/MI04/Arrow.lean:59:32: error: Ambiguous term
+  sub_apply
+Possible interpretations:
+  _root_.sub_apply : ∀ (f g : ?m.175) (x : ?m.176), (f - g) x = f x - g x
+  
+  Matrix.sub_apply : ∀ (A B : Matrix ?m.175 ?m.176 ?m.177) (i : ?m.175) (j : ?m.176), (A - B) i j = A i j - B i j
+NLA/MI04/Arrow.lean:59:32: error: Ambiguous term
+  sub_apply
+Possible interpretations:
+  _root_.sub_apply : ∀ (f g : ?m.175) (x : ?m.176), (f - g) x = f x - g x
+  
+  Matrix.sub_apply : ∀ (A B : Matrix ?m.175 ?m.176 ?m.177) (i : ?m.175) (j : ?m.176), (A - B) i j = A i j - B i j
+NLA/MI04/Arrow.lean:41:55: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_apply, arrowTop, diagonal_apply_eq, mul_apply, mul_diagonal, arrowCross, if_pos rfl,
+    conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:42:6: warning: This simp argument is unused:
+  mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_apply, arrowTop, diagonal_apply_eq, if_pos rfl, mul_diagonal, arrowCross, if_pos rfl,
+    conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:42:17: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_apply, arrowTop, diagonal_apply_eq, if_pos rfl, mul_apply, arrowCross, if_pos rfl,
+    conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:42:31: warning: This simp argument is unused:
+  arrowCross
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_apply, arrowTop, diagonal_apply_eq, if_pos rfl, mul_apply, mul_diagonal, if_pos rfl,
+    conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:42:43: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_apply, arrowTop, diagonal_apply_eq, if_pos rfl, mul_apply, mul_diagonal, arrowCross,
+    conjTranspose_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:42:55: warning: This simp argument is unused:
+  conjTranspose_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_apply, arrowTop, diagonal_apply_eq, if_pos rfl, mul_apply, mul_diagonal, arrowCross,
+    if_pos rfl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:43:15: warning: This simp argument is unused:
+  Pi.inv_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Ring.inverse_eq_inv, star_mul, starRingEnd_apply, star_ofReal, ofReal_sub, ofReal_one, ofReal_mul,
+    ofReal_pow, rowWeight, ofReal_sum, ofReal_div, ofReal_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:43:29: warning: This simp argument is unused:
+  Ring.inverse_eq_inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.inv_apply, star_mul, starRingEnd_apply, star_ofReal, ofReal_sub, ofReal_one, ofReal_mul,
+    ofReal_pow, rowWeight, ofReal_sum, ofReal_div, ofReal_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:43:50: warning: This simp argument is unused:
+  star_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.inv_apply, Ring.inverse_eq_inv, starRingEnd_apply, star_ofReal, ofReal_sub, ofReal_one,
+    ofReal_mul, ofReal_pow, rowWeight, ofReal_sum, ofReal_div, ofReal_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:43:60: warning: This simp argument is unused:
+  starRingEnd_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.inv_apply, Ring.inverse_eq_inv, star_mul, star_ofReal, ofReal_sub, ofReal_one, ofReal_mul,
+    ofReal_pow, rowWeight, ofReal_sum, ofReal_div, ofReal_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:56:50: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, sub_apply, mul_apply, conjTranspose_apply, hj, hk, Ne.symm hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:57:50: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, sub_apply, mul_apply, conjTranspose_apply, hj, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:59:52: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, sub_apply, mul_apply, conjTranspose_apply, hj, hk, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

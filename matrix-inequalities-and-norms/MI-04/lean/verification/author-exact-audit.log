@@ -1,0 +1,6 @@
+'NLA.MI04.universal_pair_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MI04.universal_pair_symmetry : ∀ (n : ℕ),
+  1 ≤ n → ∀ (X : NLA.MI04.Mat n), NLA.MI04.UniversalBlockNorm X → NLA.MI04.PairModulusSymmetry X
+'NLA.MI04.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MI04.original_target : ∀ (n : ℕ),
+  1 ≤ n → ∀ (X : NLA.MI04.Mat n), NLA.MI04.UniversalBlockNorm X → NLA.MI04.EssentiallyHermitian X

@@ -1,0 +1,4 @@
+NLA/MI04/PositiveLimit.lean:24:42: error: mod_cast has type
+  LE.le.{0} ‖f t - f 0‖ ε
+but is expected to have type
+  LE.le.{u_1} ((algebraMap ℝ (Matrix ι ι ℂ)) ‖f t - f 0‖) ((algebraMap ℝ (Matrix ι ι ℂ)) ε)

@@ -1,0 +1,56 @@
+{
+  "verdict": "APPROVE",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_2; independent AI nonauthor",
+  "phase": "statements only",
+  "candidate_inputs": {
+    "NLA/MI04/Definitions.lean": "4e8d9b25f3813a6a949179966f37caa630a21a90d2b28e522fc26ae08227ce08",
+    "Challenge.lean": "9e7319e3a859d71300f642eee2f80673f02237a8af70d8a7338bf9e423421633",
+    "NUMERICAL_TARGETS.md": "89e40f9d957b75d5c6809e62e3080264d3a1ffd8156f4f5af384d4414b20003c",
+    "PROOF_PLAN.md": "eed736cac570df234e746b2a40170cec72d47b35b1c5ca9062084ec0130cb717",
+    "README.md": "e3c1c0f38e003e017ad477ef91bc57ae1d16d0298da6d59f5464320525c9224d",
+    "formalization.yaml": "7aec276c1272e4d5077def121a9edf8916ed9d16bd85423ddacde38f0a863349",
+    "comparator.json": "a26694acdc268139289110277a0f7df4059b4b49378a26f3615864736a1475c3",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "194165e91eb78144ef94e089710f5b200005d63c402c95031e3817cc519c322e",
+    "lake-manifest.json": "8d6e113df9ec8ca426a8ed5abdb26341f1a883f96e0e3a40c68424a13a1f6f1f",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "../README.md": "22adf3cb0275c044c912eca496d13fbce98f83a35c6ee1184162cef379711bdc",
+    "../solution.md": "edfd1ddc69018997eb9709880d4ff5d3066eff4459bf39e7b402eacc1f390eb8",
+    "../solution.tex": "5e2c6b910f17ffebfcb8e2be76577ba2e8a8f55bd2551271430d77b8aa6fc230",
+    "../../../references/colbrook-matrix-2026-09-11/original-proofs/MI-04.tex": "8363d460f59fba544577ba6453e44cec51f9b546a01875515361df352321fb7c",
+    "../../../references/colbrook-matrix-2026-09-11/verification/reviews/MI-04-review.md": "7493c546f894fb6dd62bb1870cd4b18a20eaad3777d643c7ea32a9394452f645",
+    "verification/source-provenance.json": "56e05385ac47a517ca311e0419de49b20d6ce9cc16d0994a7d424414c8b43b6c",
+    "verification/statement-build-final.log": "b174b7cca2f3587732a8e080c6c87728bc4659ffbce8ed09e6a42a938afbc77b",
+    "verification/statement-local.json": "458dabee366fa18d1b3afe78f6d2f868c11b99f4759dca080f63277e9c33f82f",
+    "verification/DefinitionsProbe.lean": "f31cff70efdbd6d222a38ad9fc497a33f73abff80466e2259232ed5c2386e508",
+    "verification/definitions-probe.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/check_draft_metadata.py": "d6ddb7ad916a9b736e34b4ef6e7dbb72c2f5cde1ff708ad52d20f7e777672070",
+    "verification/metadata-draft.log": "7520405880963e475e14cd1f3465daf479abb5bb0c6b8cf92d1d160ca28cda52",
+    "verification/rescaling_diagnostic.py": "f1c4d31a07b4fc57939a9f14dd587b4aee085af9721c4b10c8881bda0fac0c11",
+    "verification/rescaling-diagnostic.json": "9880acc873e5ecbf172ec78a1c967fa3ce5bfc67397451c00ad82297fd71578f",
+    "verification/rescaling-diagnostic.log": "9880acc873e5ecbf172ec78a1c967fa3ce5bfc67397451c00ad82297fd71578f"
+  },
+  "own_probe_exit_code": 0,
+  "own_probe_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee2StatementProbe.lean",
+  "original_tex_embedded_unchanged": true,
+  "five_source_files_match_immutable_base": true,
+  "evidence_sha256": {
+    "verification/Referee2StatementProbe.lean": "4518adc13892bcc5f154e36f9dcb46ece1d4516ba15df4b7cc08d2e172013d34",
+    "verification/referee-2-statement-probe.log": "247dd11d1e885af9509b471d611e60b87c34d8fa146ed1539d495f8913922af8",
+    "verification/referee_2_statement_check.py": "633e6bfec658149a794ef885570e17d96e549d7f1685bc252c7c4cd0e3f2f59f",
+    "reviews/statement-source-hashes.json": "3098cac38d80fbe4e2a3a7ec95f221c5e3f1ea7fb73e1fa5d86a99991fd649dd",
+    "../../../docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553"
+  },
+  "imported_source_sha256": {
+    "Mathlib/Analysis/CStarAlgebra/Matrix.lean": "79518c9e51c4d0cf4083ab69a9ac7a2817305b48db1fe6f25ae1d678e12ce223",
+    "Mathlib/LinearAlgebra/Matrix/PosDef.lean": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+    "Mathlib/LinearAlgebra/Matrix/Hermitian.lean": "9f4e84cafd93f05935d8accc2846a4d624c1fe994c53ab348b8338464bf5cb21",
+    "Mathlib/Analysis/InnerProductSpace/PiL2.lean": "1f9827b2db67213c725a2dcc3fec52a87772966d1fbd3fc6857a019dbd7a6053"
+  },
+  "limits": [
+    "Challenge placeholders establish no target theorem.",
+    "Own probe checks exact definitions/norms and scalar/dimension-one endpoint only.",
+    "Author finite1320rescaling diagnostic inspected, not claimed as independently authored or as universal proof.",
+    "Full proof, final reviews and isolated Linux Comparator remain pending."
+  ]
+}

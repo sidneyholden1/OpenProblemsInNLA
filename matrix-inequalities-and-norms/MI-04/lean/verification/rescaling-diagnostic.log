@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "arithmetic": "exact Fraction pairs representing complex rationals",
+  "dimensions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "includes_zero_matrix": true,
+  "checks": {
+    "congruence": 540,
+    "reflected_congruence": 540,
+    "arrow_schur": 180,
+    "weight_extraction": 60
+  },
+  "total_checks": 1320,
+  "limitations": "Finite author diagnostic of exact identities only; no all-dimensional positivity, limit, geometry or Lean proof claim."
+}

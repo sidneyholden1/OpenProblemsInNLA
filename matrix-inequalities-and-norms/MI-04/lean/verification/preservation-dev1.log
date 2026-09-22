@@ -1,0 +1,93 @@
+NLA/MI04/Preservation.lean:17:38: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ‖↑?U * ?A‖
+in the target expression
+  ‖star ↑U * A‖ = ‖A‖
+
+ι : Type u_1
+inst✝¹ : Fintype ι
+inst✝ : DecidableEq ι
+U : ↥(unitary (Matrix ι ι ℂ))
+A : Matrix ι ι ℂ
+⊢ ‖star ↑U * A‖ = ‖A‖
+NLA/MI04/Preservation.lean:22:69: error: unsolved goals
+n : ℕ
+X : Mat n
+hX : UniversalBlockNorm X
+r : ℝ
+hr : 0 < r
+A B : Mat n
+hA : IsHermitian A
+hB : IsHermitian B
+hP : (fromBlocks A (r • X) (r • X)ᴴ B).PosSemidef
+⊢ fromBlocks (r⁻¹ • A) X Xᴴ (r⁻¹ • B) = r⁻¹ • fromBlocks A (r • X) (r • Xᴴ) B
+NLA/MI04/Preservation.lean:28:47: error: unsolved goals
+n : ℕ
+X : Mat n
+hX : UniversalBlockNorm X
+r : ℝ
+hr : 0 < r
+A B : Mat n
+hA : IsHermitian A
+hB : IsHermitian B
+hP : (fromBlocks A (r • X) (r • X)ᴴ B).PosSemidef
+hscaled : (fromBlocks (r⁻¹ • A) X Xᴴ (r⁻¹ • B)).PosSemidef
+h : ‖fromBlocks (r⁻¹ • A) X Xᴴ (r⁻¹ • B)‖ ≤ ‖r⁻¹ • A + r⁻¹ • B‖
+⊢ fromBlocks (r⁻¹ • A) X Xᴴ (r⁻¹ • B) = r⁻¹ • fromBlocks A (r • X) (r • Xᴴ) B
+NLA/MI04/Preservation.lean:31:43: error(lean.invalidField): Invalid field `mp`: The environment does not contain `Function.mp`, so it is not possible to project the field `mp` from an expression
+  mul_le_mul_left ?m.315
+of type
+  ∀ (a : ?m.302), ?m.306 * a ≤ ?m.307 * a
+NLA/MI04/Preservation.lean:31:25: error: Application type mismatch: The argument
+  inv_pos.mpr hr
+has type
+  0 < r⁻¹
+but is expected to have type
+  ?m.306 ≤ ?m.307
+in the application
+  mul_le_mul_left (inv_pos.mpr hr)
+NLA/MI04/Preservation.lean:24:12: warning: This simp argument is unused:
+  ← fromBlocks_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [conjTranspose_smul, smul_smul, hr.ne']
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Preservation.lean:24:51: warning: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [← fromBlocks_smul, conjTranspose_smul, hr.ne']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Preservation.lean:24:62: warning: This simp argument is unused:
+  hr.ne'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [← fromBlocks_smul, conjTranspose_smul, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Preservation.lean:29:10: warning: This simp argument is unused:
+  ← fromBlocks_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [conjTranspose_smul, smul_smul, hr.ne']
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Preservation.lean:29:49: warning: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [← fromBlocks_smul, conjTranspose_smul, hr.ne']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Preservation.lean:29:60: warning: This simp argument is unused:
+  hr.ne'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [← fromBlocks_smul, conjTranspose_smul, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

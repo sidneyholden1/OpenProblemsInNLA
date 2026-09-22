@@ -1,0 +1,16 @@
+{
+  "phase": "statements only; no target proof implementation",
+  "base_commit": "3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0",
+  "build_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake build Challenge",
+  "build_exit_code": 0,
+  "build_jobs": 2415,
+  "expected_challenge_placeholders": 2,
+  "definition_probe_exit_code": 0,
+  "metadata_draft_exit_code": 0,
+  "exact_diagnostic_exit_code": 0,
+  "exact_diagnostic_checks": 1320,
+  "diagnostic_scope": "Fresh author exact Fraction complex finite identities; not all-dimensional proof",
+  "build_log_sha256": "b174b7cca2f3587732a8e080c6c87728bc4659ffbce8ed09e6a42a938afbc77b",
+  "definitions_probe_sha256": "f31cff70efdbd6d222a38ad9fc497a33f73abff80466e2259232ed5c2386e508",
+  "limitations": "Initial missing ComplexOrder scope diagnostic retained in statement-build.log; final candidate passes. No Solution exists. Two independent approvals and proof/final/Linux gates pending."
+}

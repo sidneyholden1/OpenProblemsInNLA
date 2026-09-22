@@ -1,0 +1,5 @@
+Matrix.posSemidef_self_mul_conjTranspose.{u_1, u_2, u_3} {m : Type u_1} {n : Type u_2} {R : Type u_3} [Ring R]
+  [PartialOrder R] [StarRing R] [Fintype n] [Finite m] [StarOrderedRing R] (A : Matrix m n R) :
+  (A * A.conjTranspose).PosSemidef
+Matrix.toEuclideanCLM_toLp.{u_1, u_3} {𝕜 : Type u_1} {n : Type u_3} [RCLike 𝕜] [Fintype n] [DecidableEq n]
+  (A : Matrix n n 𝕜) (x : n → 𝕜) : (Matrix.toEuclideanCLM A) (WithLp.toLp 2 x) = WithLp.toLp 2 (A.mulVec x)

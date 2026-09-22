@@ -1,0 +1,31 @@
+unitary: PSD transported
+NLA/MI04/Preservation.lean:26:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Preservation.lean:28:2: warning: Unused tactic linter: `trace "unitary: PSD transported"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+unitary: exact block identity completed
+unitary: PSD transported
+unitary: block norm transported
+unitary: sum identity completed
+unitary: norms rewritten
+unitary: final norm identity completed
+NLA/MI04/Preservation.lean:79:2: warning: Unused tactic linter: `trace "unitary: exact block identity completed"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Preservation.lean:86:2: warning: Unused tactic linter: `trace "unitary: PSD transported"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Preservation.lean:92:2: warning: Unused tactic linter: `trace "unitary: block norm transported"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Preservation.lean:96:2: warning: Unused tactic linter: `trace "unitary: sum identity completed"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Preservation.lean:98:2: warning: Unused tactic linter: `trace "unitary: norms rewritten"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Preservation.lean:102:2: warning: Unused tactic linter: `trace "unitary: final norm identity completed"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

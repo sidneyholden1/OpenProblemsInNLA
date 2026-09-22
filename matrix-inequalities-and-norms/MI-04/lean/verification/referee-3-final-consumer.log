@@ -1,0 +1,2 @@
+'NLA.MI04.universal_pair_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI04.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]

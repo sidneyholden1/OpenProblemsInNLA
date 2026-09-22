@@ -1,0 +1,35 @@
+NLA/MI04/PairGeometry.lean:21:0: warning: automatically included section variable(s) unused in theorem `NLA.MI04.pair_symmetry_orthogonal`:
+  [FiniteDimensional ℂ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℂ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+NLA/MI04/PairGeometry.lean:31:44: warning: This simp argument is unused:
+  abs_of_nonneg (norm_nonneg u)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Complex.norm_real, hun]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/PairGeometry.lean:32:44: warning: This simp argument is unused:
+  abs_of_nonneg (norm_nonneg v)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Complex.norm_real, hvn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/PairGeometry.lean:34:53: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_smul, inner_smul_left, inner_smul_right] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/PairGeometry.lean:69:44: warning: This simp argument is unused:
+  abs_of_nonneg (norm_nonneg u)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Complex.norm_real, hun]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
