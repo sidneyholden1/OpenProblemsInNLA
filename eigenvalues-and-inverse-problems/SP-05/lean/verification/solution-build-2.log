@@ -1,0 +1,45 @@
+⚠ [3328/3475] Replayed NLA.SP05.SpectralMaximum
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3529/3532] Replayed NLA.SP05.ComplexMinimum
+warning: NLA/SP05/ComplexMinimum.lean:19:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:22:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:44:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3530/3532] Built NLA.SP05.Minimum (10s)
+warning: NLA/SP05/Minimum.lean:60:67: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.map_apply, Complex.sub_re, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [3531/3532] Built Solution (8.0s)
+info: Solution.lean:49:0: 'NLA.SP05.vectorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:50:0: 'NLA.SP05.psd_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:51:0: 'NLA.SP05.sector_minima_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:52:0: 'NLA.SP05.symmetric_skew_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3532 jobs).

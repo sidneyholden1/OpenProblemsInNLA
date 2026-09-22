@@ -1,0 +1,66 @@
+⚠ [3315/3431] Replayed NLA.SP05.SpectralMaximum
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3529/3532] Replayed NLA.SP05.ComplexMinimum
+warning: NLA/SP05/ComplexMinimum.lean:19:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:22:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:44:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✖ [3530/3532] Building NLA.SP05.Minimum (10s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/NLA/SP05/Minimum.lean -o /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/Minimum.olean -i /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/Minimum.ilean -c /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/Minimum.c --setup /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/Minimum.setup.json --json
+error: NLA/SP05/Minimum.lean:56:64: unsolved goals
+n : ℕ
+hn : 2 ≤ n
+A B : Mat n
+hA : Matrix.PosDef A
+hB : Matrix.PosDef B
+μ : ℝ
+X : CMat n
+hμ : 0 < μ
+hX : Matrix.PosSemidef X
+hX0 : X ≠ 0
+he : Matrix.map (jordan A B) Complex.ofReal *ᵥ vecM X = ↑μ • vecM X
+hcap : (Matrix.map (jordan A B) Complex.ofReal - ↑μ • 1).PosSemidef
+hrX : (Matrix.map X Complex.re).PosSemidef
+hnX : Matrix.map X Complex.re ≠ 0
+heReal : jordan A B *ᵥ columnVec (Matrix.map X Complex.re) = μ • columnVec (Matrix.map X Complex.re)
+hh : ((Matrix.map (jordan A B) Complex.ofReal - ↑μ • 1).map Complex.re).PosSemidef
+i j : Fin n × Fin n
+⊢ (if i = j then μ else 0) = (if i = j then ↑μ else 0).re
+warning: NLA/SP05/Minimum.lean:60:42: This simp argument is unused:
+  Complex.mul_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.map_apply, Complex.sub_re, Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/SP05/Minimum.lean:65:21: #assert_trust: 'NLA.SP05.psd_minimizer_proved' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP05.Minimum
+error: build failed

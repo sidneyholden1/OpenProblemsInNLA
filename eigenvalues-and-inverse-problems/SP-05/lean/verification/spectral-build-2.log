@@ -1,0 +1,19 @@
+✖ [3251/3251] Building NLA.SP05.SpectralMaximum (8.8s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/NLA/SP05/SpectralMaximum.lean -o /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/SpectralMaximum.olean -i /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/SpectralMaximum.ilean -c /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/SpectralMaximum.c --setup /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/SpectralMaximum.setup.json --json
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/SP05/SpectralMaximum.lean:67:44: Type mismatch: After simplification, term
+  congrArg vecM he
+ has type
+  @Eq (Fin n × Fin n → ℂ) v (vecM 0)
+but is expected to have type
+  @Eq (CVec n) v 0
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP05.SpectralMaximum
+error: build failed

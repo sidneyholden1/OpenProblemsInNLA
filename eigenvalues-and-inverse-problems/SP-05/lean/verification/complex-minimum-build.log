@@ -1,0 +1,44 @@
+⚠ [3300/3396] Replayed NLA.SP05.SpectralMaximum
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [3526/3526] Building NLA.SP05.ComplexMinimum (23s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/NLA/SP05/ComplexMinimum.lean -o /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/ComplexMinimum.olean -i /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/ComplexMinimum.ilean -c /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/ComplexMinimum.c --setup /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/ComplexMinimum.setup.json --json
+error: NLA/SP05/ComplexMinimum.lean:35:30: Invalid field `posSemidef`: The environment does not contain `And.posSemidef`, so it is not possible to project the field `posSemidef` from an expression
+  sub_nonneg.mpr hout
+of type
+  (K - ↑(1 / r) • 1 - 0).IsHermitian ∧
+    ∀ (x : ι →₀ ℂ), 0 ≤ x.sum fun i xi => x.sum fun j xj => star xi * (K - ↑(1 / r) • 1 - 0) i j * xj
+warning: NLA/SP05/ComplexMinimum.lean:19:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:22:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:44:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+error: NLA/SP05/ComplexMinimum.lean:60:21: #assert_trust: 'NLA.SP05.complex_psd_minimum' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP05.ComplexMinimum
+error: build failed

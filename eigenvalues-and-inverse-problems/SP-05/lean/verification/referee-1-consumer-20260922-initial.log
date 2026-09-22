@@ -1,0 +1,74 @@
+verification/Referee1Consumer20260922.lean:12:74: error: Type mismatch
+  @vectorization
+has type
+  ∀ {n : ℕ} (A B X : Mat n),
+    Matrix.IsHermitian A →
+      Matrix.IsHermitian B →
+        commutation n *ᵥ columnVec X = columnVec Xᵀ ∧ jordan A B *ᵥ columnVec X = columnVec (jordanMap A B X)
+but is expected to have type
+  commutation n *ᵥ columnVec X = columnVec Xᵀ ∧ jordan A B *ᵥ columnVec X = columnVec (jordanMap A B X)
+verification/Referee1Consumer20260922.lean:21:61: error: Type mismatch
+  @psd_minimizer
+has type
+  ∀ {n : ℕ},
+    2 ≤ n →
+      ∀ (A B : Mat n),
+        Matrix.PosDef A →
+          Matrix.PosDef B →
+            ∃ μ X,
+              0 < μ ∧
+                Matrix.PosSemidef X ∧
+                  X ≠ 0 ∧
+                    jordan A B *ᵥ columnVec X = μ • columnVec X ∧
+                      rayleigh (jordan A B) (columnVec X) = μ ∧ ∀ (v : Vec n), v ≠ 0 → μ ≤ rayleigh (jordan A B) v
+but is expected to have type
+  ∃ μ X,
+    0 < μ ∧
+      Matrix.PosSemidef X ∧
+        X ≠ 0 ∧
+          jordan A B *ᵥ columnVec X = μ • columnVec X ∧
+            rayleigh (jordan A B) (columnVec X) = μ ∧ ∀ (v : Vec n), v ≠ 0 → μ ≤ rayleigh (jordan A B) v
+verification/Referee1Consumer20260922.lean:32:63: error: Type mismatch
+  @sector_minima_attained
+has type
+  ∀ {n : ℕ},
+    2 ≤ n →
+      ∀ (A B : Mat n),
+        Matrix.PosDef A →
+          Matrix.PosDef B →
+            (sectorValues A B 1).Nonempty ∧
+              BddBelow (sectorValues A B 1) ∧
+                (sectorValues A B (-1)).Nonempty ∧
+                  BddBelow (sectorValues A B (-1)) ∧
+                    ∃ u w,
+                      u ≠ 0 ∧
+                        w ≠ 0 ∧
+                          commutation n *ᵥ u = u ∧
+                            commutation n *ᵥ w = -w ∧
+                              rayleigh (Matrix.kroneckerMap (fun x1 x2 => x1 * x2) A B) u = sInf (sectorValues A B 1) ∧
+                                rayleigh (Matrix.kroneckerMap (fun x1 x2 => x1 * x2) A B) w =
+                                  sInf (sectorValues A B (-1))
+but is expected to have type
+  (sectorValues A B 1).Nonempty ∧
+    BddBelow (sectorValues A B 1) ∧
+      (sectorValues A B (-1)).Nonempty ∧
+        BddBelow (sectorValues A B (-1)) ∧
+          ∃ u w,
+            u ≠ 0 ∧
+              w ≠ 0 ∧
+                commutation n *ᵥ u = u ∧
+                  commutation n *ᵥ w = -w ∧
+                    rayleigh (Matrix.kroneckerMap (fun x1 x2 => x1 * x2) A B) u = sInf (sectorValues A B 1) ∧
+                      rayleigh (Matrix.kroneckerMap (fun x1 x2 => x1 * x2) A B) w = sInf (sectorValues A B (-1))
+verification/Referee1Consumer20260922.lean:37:67: error: Type mismatch
+  @symmetric_skew_minimum
+has type
+  ∀ {n : ℕ},
+    2 ≤ n →
+      ∀ (A B : Mat n), Matrix.PosDef A → Matrix.PosDef B → sInf (sectorValues A B 1) ≤ sInf (sectorValues A B (-1))
+but is expected to have type
+  sInf (sectorValues A B 1) ≤ sInf (sectorValues A B (-1))
+'NLA.SP05.vectorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.psd_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.sector_minima_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.symmetric_skew_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]

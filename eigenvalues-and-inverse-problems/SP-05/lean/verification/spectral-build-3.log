@@ -1,0 +1,9 @@
+⚠ [3251/3251] Built NLA.SP05.SpectralMaximum (13s)
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3251 jobs).

@@ -1,0 +1,4 @@
+'NLA.SP05.real_posDef_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.complex_posSemidef_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.complex_psd_real_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.real_eigen_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
