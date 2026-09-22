@@ -623,5 +623,23 @@
     "docs/lean/reverification-2026-09-14/IV-06/README.md",
     "docs/lean/reverification-2026-09-14/IV-06/STATEMENT-REFEREE-1.md",
     "docs/lean/reverification-2026-09-14/IV-06/PROOF-REFEREE-1.md"
-  ]
+  ],
+  "consolidation_hashes": {
+    "inventory.json": "3ff19f89f24d16b0c86bd6f6f30fcb7f158130ccc9d68801690f231c7a791bed",
+    "import-receipt.json": "2f78de505522aa859887e8b965f1cd99bc9fcf6b88dc0660292fbea028e2850b",
+    "README.md": "c02b89966d2c379f428767489536638451adbba232a3131d4a05543d321434a7"
+  },
+  "root_document_hashes": {
+    "README.md": "c70c7504a9bd2a153bcddc0579211a698f649900f79ef4a4934b685b37c1ddd9",
+    "CATALOG.md": "b5a9173b7a7f49aaaf0192357fc79a8a979af013312b1149b36dff5b5c6e9c3b",
+    "RESOLVED.md": "ea17afb79e4904fad86ac944f74860af7e42ad629fb42dafe7954a5a8cd5a4b3",
+    "problem_ids.json": "d7f9925a483d40030ef266917bc8e413dac6d45530ad5515da506ffe9583e763",
+    "tools/render_problems.py": "173918308d4299b78caddfeca6cd920b395b0b9f3f45f6f986c6c3b0b96f816a"
+  },
+  "catalog_counts": {
+    "Solved": 55,
+    "Open": 57,
+    "Partially resolved": 69,
+    "Lean verified": 36
+  }
 }
