@@ -1,0 +1,26 @@
+/- Public exports of the complete original MF-12 result. -/
+import NLA.MF12.Proof
+set_option autoImplicit false
+open scoped BigOperators Matrix Matrix.Norms.L2Operator
+noncomputable section
+namespace NLA.MF12
+
+theorem compressed_powers (μ : ℝ) (q : ℕ) :
+    compressU * seed μ ^ q * embedV =
+      !![1-(q : ℝ)*(1/4 : ℝ)^q, (q : ℝ)*μ^q; 0, 1] := compressed_powers_proved μ q
+
+theorem fractional_growth (α : ℝ) (hα0 : 0 < α) (hα1 : α < 1) :
+    RealizesExponent ({seed (fractionalParameter α), reset} : Set (Mat 6)) α := fractional_growth_proved α hα0 hα1
+
+theorem arbitrary_pair (γ : ℝ) (hγ : 0 ≤ γ) :
+    ∃ d : ℕ, 1 ≤ d ∧ ∃ A B : Mat d, A ≠ B ∧
+      RealizesExponent ({A,B} : Set (Mat d)) γ := arbitrary_pair_proved γ hγ
+
+theorem original_target (γ : ℝ) (hγ : 0 ≤ γ) :
+    ∃ d : ℕ, 1 ≤ d ∧ ∃ M : Set (Mat d), RealizesExponent M γ := original_target_proved γ hγ
+end NLA.MF12
+
+#assert_trust kernel NLA.MF12.compressed_powers
+#assert_trust kernel NLA.MF12.fractional_growth
+#assert_trust kernel NLA.MF12.arbitrary_pair
+#assert_trust kernel NLA.MF12.original_target

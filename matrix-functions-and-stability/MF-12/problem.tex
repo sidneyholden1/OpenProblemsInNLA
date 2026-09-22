@@ -34,7 +34,7 @@ families},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}MF-12}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-22}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,13 +51,37 @@ arbitrary polynomial growth exponents by finite matrix families\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to the community\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
 \textbf{Rating rationale:} Challenging because finite families must
 realize every exponent at every length; community impact connects
 switched dynamics and asymptotic matrix-product growth.
+
+\subsection{Lean verification --- 22 September
+2026}\label{lean-verification-22-september-2026}
+
+The complete original target is formally proved: every real exponent α≥0
+is realized by two fixed distinct real matrices in a fixed positive
+dimension. The actual maximal Euclidean operator norm has positive
+two-sided polynomial bounds at every positive length, and its actual
+nth-root limit is one. All four exports passed LeanCert kernel audits,
+two independent nonauthor final reviews, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35696246513}{isolated
+Linux Comparator/default-kernel verification} with rejection and sandbox
+controls.
+
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/matrix-functions-and-stability/MF-12/lean/README.md}{Proof
+and reviews} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/1231b92f2b0235559e5fe5162f6b76d21249ffd0/matrix-functions-and-stability/MF-12/lean}{Immutable
+proof revision} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/MF-12/README.md}{Retained
+evidence}. Mathematics: Matthew J. Colbrook, with Varney--Morris
+antecedents retained. Formalization: Sidney Holden with OpenAI Codex
+assistance. The proof covers the full canonical target; optional
+optimal-dimension and rational-entry refinements are not formalized. No
+novelty, source-author endorsement or external human review is claimed.
 
 \subsection{Resolution --- 2026-09-11}\label{resolution-2026-09-11}
 
@@ -91,10 +115,8 @@ to the open count.
 The joint spectral radius of a nonempty compact set
 \(\mathcal M\subset\mathbb C^{d\times d}\) is
 
-\[
-\widehat\rho(\mathcal M)=\lim_{k\to\infty}
-\max_{A_1,\ldots,A_k\in\mathcal M}\|A_k\cdots A_1\|_2^{1/k}.
-\]
+\[\widehat\rho(\mathcal M)=\lim_{k\to\infty}
+\max_{A_1,\ldots,A_k\in\mathcal M}\|A_k\cdots A_1\|_2^{1/k}.\]
 
 This definition also applies to finite real matrix sets. The ordinary
 spectral radius of one matrix is written \(\rho(A)\).
@@ -103,9 +125,7 @@ For a compact nonempty \(\mathcal M\subset\mathbb R^{d\times d}\) with
 \(\widehat\rho(\mathcal M)=1\), define its maximal product norm at
 length \(k\) by
 
-\[
-g_{\mathcal M}(k)=\max_{A_1,\ldots,A_k\in\mathcal M}\|A_k\cdots A_1\|_2.
-\]
+\[g_{\mathcal M}(k)=\max_{A_1,\ldots,A_k\in\mathcal M}\|A_k\cdots A_1\|_2.\]
 
 This problem concerns growth within one family over time.
 \href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/matrix-functions-and-stability/MF-07/README.md}{MF-07}
@@ -115,13 +135,11 @@ instead requests a dimension-dependent bound uniform across families.
 
 For every real \(\alpha\ge0\), do there exist a positive integer \(d\),
 a finite nonempty \(\mathcal M\subset\mathbb R^{d\times d}\) with
-\(\widehat\rho(\mathcal M)=1\), and constants \(0<c\le C<\infty\) such
+\(\widehat\rho(\mathcal M)=1\), and constants \(0< c\le C<\infty\) such
 that
 
-\[
-c k^\alpha\le g_{\mathcal M}(k)\le C k^\alpha
-\qquad\text{for every integer }k\ge1?
-\]
+\[c k^\alpha\le g_{\mathcal M}(k)\le C k^\alpha
+\qquad\text{for every integer }k\ge1?\]
 
 \subsection{Reference and status
 evidence}\label{reference-and-status-evidence}

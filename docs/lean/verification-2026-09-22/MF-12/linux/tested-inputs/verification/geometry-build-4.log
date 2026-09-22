@@ -1,0 +1,23 @@
+✖ [3098/3098] Building NLA.MF12.Geometry (8.8s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/Geometry.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Geometry.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Geometry.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Geometry.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Geometry.setup.json --json
+warning: NLA/MF12/Geometry.lean:35:10: Possibly looping simp theorem: `Matrix.single.eq_1`
+
+Note: Possibly caused by: `← Prod.mk_inj` and `Prod.mk.injEq`
+
+Hint: You can disable a simp theorem from the default simp set by passing `- theoremName` to `simp`.
+warning: NLA/MF12/Geometry.lean:35:76: Possibly looping simp theorem: `← Prod.mk_inj`
+
+Note: Possibly caused by: `Prod.mk.injEq`
+
+Hint: You can disable a simp theorem from the default simp set by passing `- theoremName` to `simp`.
+error: NLA/MF12/Geometry.lean:35:4: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.Geometry
+error: build failed

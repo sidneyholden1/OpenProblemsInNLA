@@ -7,8 +7,14 @@
 **Difficulty:** challenging  
 **Importance:** interesting to the community  
 **Rating rationale:** Challenging because finite families must realize every exponent at every length; community impact connects switched dynamics and asymptotic matrix-product growth.  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified  
+**Last checked:** 2026-09-22  
+
+## Lean verification — 22 September 2026
+
+The complete original target is formally proved: every real exponent α≥0 is realized by two fixed distinct real matrices in a fixed positive dimension. The actual maximal Euclidean operator norm has positive two-sided polynomial bounds at every positive length, and its actual nth-root limit is one. All four exports passed LeanCert kernel audits, two independent nonauthor final reviews, and [isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35696246513) with rejection and sandbox controls.
+
+[Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/matrix-functions-and-stability/MF-12/lean/README.md) · [Immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/1231b92f2b0235559e5fe5162f6b76d21249ffd0/matrix-functions-and-stability/MF-12/lean) · [Retained evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/MF-12/README.md). Mathematics: Matthew J. Colbrook, with Varney–Morris antecedents retained. Formalization: Sidney Holden with OpenAI Codex assistance. The proof covers the full canonical target; optional optimal-dimension and rational-entry refinements are not formalized. No novelty, source-author endorsement or external human review is claimed.
 
 <!-- colbrook-jsr-growth -->
 ## Resolution — 2026-09-11

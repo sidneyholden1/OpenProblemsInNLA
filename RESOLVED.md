@@ -34,6 +34,10 @@ result is formalized in Lean.
 
 ## Resolved catalog entries
 
+### 🏆 MF-12 - every polynomial matrix-product growth exponent - Matthew J. Colbrook
+
+**Lean verified, 2026-09-22.** The [complete original target](matrix-functions-and-stability/MF-12/README.md) holds for every real nonnegative exponent, a fixed distinct real pair in positive dimension, every switching word and every positive length. Genuine maximal L2 norms have positive polynomial comparison bounds and actual nth-root limit one. Four exports passed LeanCert kernel checks, two independent final reviews, and [isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35696246513) with rejection and sandbox controls. [Proof](matrix-functions-and-stability/MF-12/lean/README.md) · [Evidence](docs/lean/verification-2026-09-22/MF-12/README.md). Mathematics: Matthew J. Colbrook, with Varney–Morris antecedents. Formalization: Sidney Holden with OpenAI Codex assistance. Optional optimal-dimension and rational-entry refinements are not claimed; no novelty or external human review is claimed.
+
 ### 🏆 MF-02 - uniform cubic-composition stage bounds - George Stepaniants
 
 **Lean verified, 2026-09-22.** The [full original target](matrix-functions-and-stability/MF-02/README.md) has uniform constant-factor stage bounds for every multiplication budget and every gap in (0,1), including both small-budget endpoints. Seven exports cover actual program costs, approximation errors, strict cubic improvement and genuine least feasible stages. Two independent final reviews, kernel-only LeanCert audits, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693827256) with rejection/isolation controls pass. [Proof](matrix-functions-and-stability/MF-02/lean/README.md) · [Evidence](docs/lean/verification-2026-09-22/MF-02/README.md). Exposition: George Stepaniants; prior asymptotic order: Cheon–Kim–Kim; cubic construction: Chen–Chow; formalization: Sidney Holden with OpenAI Codex assistance. No novelty or external human peer review is claimed.

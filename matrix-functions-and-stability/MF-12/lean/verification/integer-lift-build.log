@@ -1,0 +1,30 @@
+⚠ [3099/3102] Replayed NLA.MF12.Geometry
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3100/3102] Replayed NLA.MF12.Growth
+info: NLA/MF12/Growth.lean:74:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [3101/3102] Replayed NLA.MF12.IntegerGeometry
+warning: NLA/MF12/IntegerGeometry.lean:25:19: This simp argument is unused:
+  Matrix.one_kronecker_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [liftTensor]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/IntegerGeometry.lean:32:109: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3102/3102] Built NLA.MF12.IntegerLift (5.6s)
+warning: NLA/MF12/IntegerLift.lean:72:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF12/IntegerLift.lean:72:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3102 jobs).

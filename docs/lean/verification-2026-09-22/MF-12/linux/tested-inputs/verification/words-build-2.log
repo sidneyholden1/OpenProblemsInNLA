@@ -1,0 +1,27 @@
+⚠ [3099/3102] Replayed NLA.MF12.Geometry
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3100/3102] Replayed NLA.MF12.ScalarBudget
+warning: NLA/MF12/ScalarBudget.lean:114:47: Variable name `ha1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [3101/3102] Built NLA.MF12.Growth (5.8s)
+info: NLA/MF12/Growth.lean:74:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✖ [3102/3102] Building NLA.MF12.Words (6.5s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/Words.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Words.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Words.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Words.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Words.setup.json --json
+error: NLA/MF12/Words.lean:31:37: Unknown constant `Bool.true_eq_true`
+error: NLA/MF12/Words.lean:31:96: No goals to be solved
+error: NLA/MF12/Words.lean:33:31: Unknown constant `Bool.true_eq_true`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.Words
+error: build failed

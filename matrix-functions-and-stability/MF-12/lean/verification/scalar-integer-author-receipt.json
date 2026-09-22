@@ -1,0 +1,38 @@
+{
+  "verdict": "PASS",
+  "author": "new_target_screen / OpenAI Codex assisting Sidney Holden",
+  "scope": "Author local build and kernel audit, not independent mathematical review",
+  "date": "2026-09-22",
+  "scalar_build_jobs": [
+    3098,
+    3099
+  ],
+  "integer_build_jobs": [
+    3100,
+    3102
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "mathematical_notes": [
+    "All word lengths, not merely a subsequence.",
+    "Integer extension doubles fixed dimension per successor; no dimension depends on word length.",
+    "No optimal dimension or rational-only refinement claimed."
+  ],
+  "hashes": {
+    "NLA/MF12/ScalarBudget.lean": "eebdaf05d603e604be1618ddf71434e73bb15b602c0240371e4304e88b05795a",
+    "NLA/MF12/ScalarLower.lean": "c75e61035a1e515db70dbdcdeff17234356b4e9b338830d17f359cc6ade14f51",
+    "NLA/MF12/IntegerGeometry.lean": "dcd44573d180ab88acd4cb54069066abc69b4ba81de7e9e853cb4170d7e58925",
+    "NLA/MF12/IntegerLift.lean": "583b290ef81a88442a86a8ebcc5e429a2149fbdf24a76854cdcec3305ae1cf95",
+    "verification/scalar-budget-build.log": "4097ab558b2fe6a0ef985c117da2c67755dd43d30aecf7f6a8f2137ac02ee8e6",
+    "verification/scalar-lower-build.log": "af761e1d79746dfa183141a14dab8cf69fbda3412924ae87004c4bcf5c97b3f5",
+    "verification/integer-geometry-build.log": "b70f08009b14a79ae7ad9308e74d645ab46e46a19f255bb1d71a01ae96e8e53e",
+    "verification/integer-lift-build.log": "3ac09ae8e78901f479ecac60651383bea57fc6eb5865587fd62efee59d49b93c",
+    "verification/ScalarAudit.lean": "6ff22b85a605b1fabaf334918987c86b4d2ca38e640698e2783c20e0bc39e4e2",
+    "verification/scalar-audit.log": "84674fc84855e051cf40dfba0948299119d3467b08bad1c288a999136e35936d",
+    "verification/IntegerAudit.lean": "9fe1a35de197a28ec2c710dd1d5f58f9b724ab1d223f31ba64529c14b1f6c680",
+    "verification/integer-audit.log": "ee082a9b6816d2c2b009b6110d65090927219421728d281ef85abf0312fa9f4f"
+  }
+}

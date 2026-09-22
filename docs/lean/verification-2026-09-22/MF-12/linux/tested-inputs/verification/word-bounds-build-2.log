@@ -1,0 +1,97 @@
+⚠ [3098/3103] Replayed NLA.MF12.Geometry
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3100/3103] Replayed NLA.MF12.Growth
+info: NLA/MF12/Growth.lean:74:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [3101/3103] Replayed NLA.MF12.ScalarBudget
+warning: NLA/MF12/ScalarBudget.lean:114:47: Variable name `ha1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3102/3103] Built NLA.MF12.Words (5.6s)
+✖ [3103/3103] Building NLA.MF12.WordBounds (5.6s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/WordBounds.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/WordBounds.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/WordBounds.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/WordBounds.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/WordBounds.setup.json --json
+warning: NLA/MF12/WordBounds.lean:11:32: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+error: NLA/MF12/WordBounds.lean:18:68: unsolved goals
+case h
+α : ℝ
+ha : 0 < α
+ha1 : α < 1
+hμ0 : 0 < fractionalParameter α
+hμ1 : fractionalParameter α < 1
+b : ℝ
+hb : b ∈ upperBounds (Set.range fun n => ↑n * fractionalParameter α ^ n)
+b' : ℝ := max 1 b
+hb' : 1 ≤ b'
+hqb : ∀ (q : ℕ), ↑q * fractionalParameter α ^ q ≤ b'
+H : ℝ := entryConstant * b'
+q : ℕ
+hpow : fractionalParameter α ^ q ≤ 1
+⊢ ?m.176
+
+α : ℝ
+ha : 0 < α
+ha1 : α < 1
+hμ0 : 0 < fractionalParameter α
+hμ1 : fractionalParameter α < 1
+b : ℝ
+hb : b ∈ upperBounds (Set.range fun n => ↑n * fractionalParameter α ^ n)
+b' : ℝ := max 1 b
+hb' : 1 ≤ b'
+hqb : ∀ (q : ℕ), ↑q * fractionalParameter α ^ q ≤ b'
+H : ℝ := entryConstant * b'
+q : ℕ
+hpow : fractionalParameter α ^ q ≤ 1
+h : ?m.176
+⊢ ∀ (i j : Fin 6), |seedPower (fractionalParameter α) q i j| ≤ b'
+error: NLA/MF12/WordBounds.lean:30:8: unexpected token 'λ'; expected command
+error: NLA/MF12/WordBounds.lean:58:41: not a positivity goal
+error: NLA/MF12/WordBounds.lean:61:35: failed to prove positivity/nonnegativity/nonzeroness
+error: NLA/MF12/WordBounds.lean:73:15: Unknown constant `Matrix.l2_opNorm_mul_le`
+error: NLA/MF12/WordBounds.lean:77:71: Tactic `apply` failed: could not unify the conclusion of `hbound`
+  ‖seed (fractionalParameter α) ^ ?q‖ ≤ H
+with the goal
+  0 ≤ H * ‖embedV‖ * (K * ↑w.length ^ α) * ‖compressU‖
+
+Note: The full type of `hbound` is
+  ∀ (q : ℕ), ‖seed (fractionalParameter α) ^ q‖ ≤ H
+
+case b0
+α : ℝ
+ha : 0 < α
+ha1 : α < 1
+H : ℝ
+hH : 0 < H
+hbound : ∀ (q : ℕ), ‖seed (fractionalParameter α) ^ q‖ ≤ H
+K : ℝ := ⋯
+D : ℝ := ⋯
+w : List Bool
+hw : 1 ≤ w.length
+hp : 1 ≤ ↑w.length ^ α
+hD : 0 ≤ D
+a b : ℕ
+qs : List ℕ
+he :
+  binaryProduct (seed (fractionalParameter α)) reset w =
+    seed (fractionalParameter α) ^ a * embedV * (List.map (compressed α) qs).prod * compressU *
+      seed (fractionalParameter α) ^ b
+hlen : a + b + qs.sum + qs.length + 1 = w.length
+ht : ‖(List.map (compressed α) qs).prod‖ ≤ entryConstant * ↑w.length ^ α
+⊢ 0 ≤ H * ‖embedV‖ * (K * ↑w.length ^ α) * ‖compressU‖
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.WordBounds
+error: build failed

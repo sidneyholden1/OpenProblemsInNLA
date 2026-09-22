@@ -1,0 +1,2 @@
+'NLA.MF12.pairBounds_integerLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF12.arbitrary_pair_from_fractional' depends on axioms: [propext, Classical.choice, Quot.sound]

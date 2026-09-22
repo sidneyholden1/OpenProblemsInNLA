@@ -1,0 +1,20 @@
+{
+  "id": 10680982423,
+  "node_id": "MDg6QXJ0aWZhY3QxMDY4MDk4MjQyMw==",
+  "name": "lean-MF-12",
+  "size_in_bytes": 16848,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10680982423",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10680982423/zip",
+  "expired": false,
+  "digest": "sha256:0b78dc03737678e1d94e37fc1f6a32429c648337d61d2bb2811d4a9b31cb0ff1",
+  "created_at": "2026-09-22T07:06:47Z",
+  "updated_at": "2026-09-22T07:06:47Z",
+  "expires_at": "2026-12-21T07:01:04Z",
+  "workflow_run": {
+    "id": 35697508627,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/lean-mf12",
+    "head_sha": "be55cd9fb45046d4a71065a388b9d996425b325a"
+  }
+}

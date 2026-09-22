@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.MF12.compressed_powers",
+    "NLA.MF12.fractional_growth",
+    "NLA.MF12.arbitrary_pair",
+    "NLA.MF12.original_target"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

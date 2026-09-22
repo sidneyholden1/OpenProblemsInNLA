@@ -1,0 +1,111 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'MF-12: every nonnegative polynomial matrix-product growth exponent'
+  description: Full finite-family all-word two-sided polynomial growth at every positive length and actual
+    joint spectral radius one for every real nonnegative exponent; complete local kernel proof.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: MF-12 — Realizing arbitrary polynomial growth exponents by finite matrix families
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/736845bc/matrix-functions-and-stability/MF-12/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: An explicit pair realizing every marginal polynomial growth exponent
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/736845bc/references/colbrook-jsr-growth-2026-09-11/manuscripts/arbitrary_growth_exponents.tex
+  type: manuscript
+  location: Theorem1 and complete Sections2–5
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Source attributes mathematics to Matthew J. Colbrook, Cambridge; discloses AI assistance and credits
+    Varney–Morris projection-reset and tensor-product antecedents.
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Existing MI-29 kernel-audit and metadata layout, SP-05 actual L2 matrix norm/spectral proof layout,
+    and MF-02 exact algebra organization studied; no result is assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Separate trusted Challenge and complete Solution;
+      LeanCert kernel trust audits, exact HTTPS dependency pins, shared local cache.
+    prompting_notes: Complete fixed-family arbitrary-real-exponent statements before proof and two independent
+      reviews; all words and lengths, genuine maxima and actual root limit. Optimize via exact algebra,
+      finite Hölder and Bernoulli.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Complete original canonical target. Four Solution exports locally built and checked with LeanCert
+    kernel trust; no sorry in active proof closure. Two independent statement approvals frozen before
+    proof. Independent final reviews and actual isolated Linux Comparator pending; canonical status unchanged.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.MF12.compressed_powers
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MF12.fractional_growth
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MF12.arbitrary_pair
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.MF12.original_target
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: Fixed λ=1/4 suffices for every fractional exponent; literal source six-dimensional pair
+    is retained. All words use actual Euclidean operator norms. The finite-family supremum must be an
+    attained greatest element, and the actual nth-root limit must be one. Integer exponents and zero are
+    included; matrices/dimension/constants cannot depend on length. Rational-entry and optimal-dimension
+    refinements are excluded. Integer extension uses repeated fixed two-dimensional Jordan tensor factors
+    instead of a single optimal-size Jordan block. This changes only unadvertised dimension efficiency;
+    all real exponents, all lengths and actual L2 norms remain. Exact entrywise norm comparisons avoid
+    an unnecessary spectral tensor-norm equality. LeanCert supplies kernel trust audits; no artificial
+    interval calculation.
+review:
+  status: local-proof-complete-final-review-pending
+  reviewers:
+  - OpenAI Codex agent /root
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  notes: Two nonauthor statement approvals bound to the frozen source snapshot and successful Challenge
+    build. Complete local Solution build and standard-three axiom checks pass. Independent final reviews
+    and fresh isolated Linux Comparator remain pending. Statement-time metadata wrappers retained in reviews/statement-review-snapshot.
+alignment:
+- source: Exact source compressed powers
+  declarations:
+  - NLA.MF12.compressed_powers
+- source: All words and lengths for arbitrary fractional exponents
+  declarations:
+  - NLA.MF12.fractional_growth
+- source: Every nonnegative exponent realized by a fixed pair
+  declarations:
+  - NLA.MF12.arbitrary_pair
+- source: Full canonical finite-family target
+  declarations:
+  - NLA.MF12.original_target
+acknowledgements: 'Mathematical resolution: Matthew J. Colbrook, Cambridge, as attributed in source. Varney
+  and Morris retain projection-reset, tensor-product and original-question credit. Formalization: Sidney
+  Holden with OpenAI Codex assistance. Mathlib, LeanCert, Comparator and formalization.yaml retain licenses/credit;
+  no novelty, human review or endorsement claim.'

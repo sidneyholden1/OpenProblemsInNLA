@@ -1,0 +1,49 @@
+{
+  "verdict": "PASS",
+  "run_id": 35696246513,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35696246513",
+  "head_sha": "1231b92f2b0235559e5fe5162f6b76d21249ffd0",
+  "run_attempt": 2,
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "matrix-functions-and-stability/MF-12/lean",
+      "repository_commit": "abf3e82ac5fd58b990f05ddc349f55db3e77ad67",
+      "head_sha": "1231b92f2b0235559e5fe5162f6b76d21249ffd0",
+      "input_count": 84,
+      "export_count": 4,
+      "theorems": [
+        "NLA.MF12.compressed_powers",
+        "NLA.MF12.fractional_growth",
+        "NLA.MF12.arbitrary_pair",
+        "NLA.MF12.original_target"
+      ],
+      "artifact": {
+        "artifact": "lean-MF-12",
+        "artifact_id": 10681290533,
+        "sha256": "ce3d7d17ff7f9b342e5aa14ef59b62093d225443a317e32cb5fba1d9b4838ac6",
+        "bytes": 17212
+      },
+      "result_sha256": "1a7365022fcd363f77f8328a502c1b29aaf8e4a6a984e07292b0882f9ba58cb3",
+      "log_sha256": {
+        "comparator.log": "be918fd2edebd92ffcc0292404498388d3632af4adb68acc22f63b5851713e02",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "d85d56db1b9746adc4b8ca55574b10a8dc565d937d0cb8c82dcf24826b9b5079",
+        "negative-sorry.log": "d750557e9c0f37d98d3bf77e7f5bad2c7347f821cb2c965c85bf66c0edffe05e",
+        "negative-native.log": "48bb365cc61423ab88e11cd6ff3fc22428fba834397cd432a0657a5d0c7cf562",
+        "sandbox.log": "d02f963e8b2246ae5b7ea91c87a68d84d06c26b57faa0f92edb8c8a4a3bb220c",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "682ab7f3f141d4340a63206d0dac30b0787b70efbda6b09bbfe528a4775927c6"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 4,
+  "total_inputs": 84,
+  "unique_git_blobs_hashed": 83,
+  "limits": "Independent operational evidence audit by AI agent /root/iv06_statement_referee_1, a nonauthor of MF12 proofs; separate from the two source reviews. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}
