@@ -15,5 +15,14 @@
     "Partially resolved": 69,
     "Open": 57
   },
-  "publication_ci": "pending"
+  "publication_ci": {
+    "verdict": "PASS",
+    "run": 35697508627,
+    "attempt": 1,
+    "head": "be55cd9fb45046d4a71065a388b9d996425b325a",
+    "actual_tested_commit": "7f9c4c033d6a340035fa62b19c788d7d27ac43ab",
+    "artifact_audit": "publication-linux/AUDIT-RESULTS.json",
+    "all_inputs": 86,
+    "all_exports": 4
+  }
 }

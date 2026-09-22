@@ -23,3 +23,7 @@ Formalization: Sidney Holden with OpenAI Codex assistance. No novelty,
 optimal-dimension or rational-entry refinement, source-author endorsement or
 external human peer review is claimed. Publication checks are retained
 separately from proof acceptance.
+
+## Publication revision
+
+[Fresh publication Linux run](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35697508627) accepted all four exports at revision `be55cd9fb45046d4a71065a388b9d996425b325a`. Its separate [86-input audit](publication-linux/AUDIT-RESULTS.json) and [coordinator report](publication-linux/OPERATIONAL-REVIEW-ROOT.md) retain the actual tested commit and original archive. [Publication checks](PUBLICATION-CHECKS.json) include the complete target/ID checks, 77 repository tests and both-page PDF inspection.

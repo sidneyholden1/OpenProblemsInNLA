@@ -1,16 +1,17 @@
 # Lean verification campaign — 22 September 2026
 
-Completed publication milestone, 06:27 UTC: three new complete original targets
-are accepted and merged, after statement-first independent reviews, complete
+Publication milestone, 07:10 UTC: four new complete original targets
+are accepted, after statement-first independent reviews, complete
 proofs, two independent nonauthor final reviews, LeanCert kernel trust checks,
 actual isolated Linux Comparator/default-kernel acceptance and rejection and
 sandbox controls. Each project includes official-schema formalization.yaml.
 
-| New full target | Proof exports | Proof evidence | Main merge |
+| New full target | Proof exports | Proof evidence | Publication |
 |---|---:|---|---|
 | IE-15 | 4 | [Acceptance](IE-15/README.md) | 736845bc |
 | SP-05 | 4 | [Acceptance](SP-05/README.md) | c42692a1 |
 | MF-02 | 7 | [Acceptance](MF-02/README.md) | 0793f46d |
+| MF-12 | 4 | [Acceptance](MF-12/README.md) | [PR 6](https://github.com/sidneyholden1/OpenProblemsInNLA/pull/6) |
 
 The [separate consolidation](../consolidation-2026-09-22/README.md) imported
 35 historical projects: 34 complete targets and MI-08's explicitly bounded
@@ -18,9 +19,9 @@ partial result. Its fresh combined-tree run checked 284 exports and 17,159
 tracked input hashes. Those historical projects are not counted as new proofs
 in the table above.
 
-At main0793f46d, all 217 original IDs and canonical paths remain unchanged:
-39 Lean verified, 52 Solved awaiting full formal verification, 69 Partially
-resolved and 57 Open. MF-12 is ongoing and is not counted as complete in this
+The publication catalog after MF-12 retains all 217 original IDs and canonical
+paths: 40 Lean verified, 51 Solved awaiting full formal verification, 69 Partially
+resolved and 57 Open. IE-14 is ongoing and is not counted as complete in this
 milestone.
 
 Original ZIPs, GitHub digest metadata, exact source hashes and all checks are

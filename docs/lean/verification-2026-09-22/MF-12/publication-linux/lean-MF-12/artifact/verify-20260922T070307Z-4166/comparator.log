@@ -1,0 +1,114 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-kisr5qyh/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2399/2401] Built NLA.MF12.Definitions (1.9s)
+⚠ [2400/2401] Built Challenge (1.9s)
+warning: Challenge.lean:8:8: declaration uses `sorry`
+warning: Challenge.lean:12:8: declaration uses `sorry`
+warning: Challenge.lean:15:8: declaration uses `sorry`
+warning: Challenge.lean:19:8: declaration uses `sorry`
+Build completed successfully (2401 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.MF12.compressed_powers, NLA.MF12.fractional_growth, NLA.MF12.arbitrary_pair, NLA.MF12.original_target, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3098/3110] Built LeanCert.Tactic.Verification (2.2s)
+⚠ [3099/3110] Built NLA.MF12.ScalarBudget (6.1s)
+warning: NLA/MF12/ScalarBudget.lean:114:47: Variable name `ha1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3100/3110] Built NLA.MF12.ScalarLower (5.2s)
+warning: NLA/MF12/ScalarLower.lean:11:32: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF12/ScalarLower.lean:52:52: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ell]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/ScalarLower.lean:85:12: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3101/3110] Built NLA.MF12.Geometry (12s)
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3102/3110] Built NLA.MF12.Growth (3.4s)
+info: NLA/MF12/Growth.lean:74:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [3103/3110] Built NLA.MF12.IntegerGeometry (3.7s)
+warning: NLA/MF12/IntegerGeometry.lean:25:19: This simp argument is unused:
+  Matrix.one_kronecker_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [liftTensor]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/IntegerGeometry.lean:32:109: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3104/3110] Built NLA.MF12.Words (2.9s)
+⚠ [3105/3110] Built NLA.MF12.IntegerLift (4.1s)
+warning: NLA/MF12/IntegerLift.lean:72:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF12/IntegerLift.lean:72:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3106/3110] Built NLA.MF12.WordLower (4.1s)
+⚠ [3107/3110] Built NLA.MF12.WordBounds (9.1s)
+warning: NLA/MF12/WordBounds.lean:11:32: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF12/WordBounds.lean:38:57: This simp argument is unused:
+  abs_of_nonneg hl0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [seedPower, abs_of_nonneg hp0, abs_of_nonneg hqp0,
+    abs_of_nonneg (pow_nonneg (by norm_num : (0 : ℝ) ≤ 1 / 4) q)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/WordBounds.lean:39:6: This simp argument is unused:
+  abs_of_nonneg (pow_nonneg (by norm_num : (0 : ℝ) ≤ 1 / 4) q)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [seedPower, abs_of_nonneg hp0, abs_of_nonneg hqp0, abs_of_nonneg hl0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF12/WordBounds.lean:79:96: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF12/WordBounds.lean:79:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF12/WordBounds.lean:79:96: Unused tactic linter: `exact ht` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: NLA/MF12/WordBounds.lean:79:107: Unused tactic linter: `positivity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [3108/3110] Built NLA.MF12.Proof (2.5s)
+✔ [3109/3110] Built Solution (2.5s)
+Build completed successfully (3110 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.MF12.compressed_powers, NLA.MF12.fractional_growth, NLA.MF12.arbitrary_pair, NLA.MF12.original_target, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0
