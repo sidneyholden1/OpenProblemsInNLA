@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS",
+  "reviewer": "OpenAI Codex root, nonauthor of MF-12 proof",
+  "scope": "Local full-target mathematical proof review and exact frozen statement consumers; Linux Comparator remains pending",
+  "candidate_manifest_sha256": "29cf889f47b7dd8f16a33d6b639671f0740d4b7e45ff582368a41ee161167167",
+  "candidate_inputs_verified": 23,
+  "frozen_statement_inputs_verified": 15,
+  "consumer_exit_code": 0,
+  "consumer_sha256": "08b7f5a0c0b639bf10b64c9838f68cce35db17ee7aa5dad27e00f5c1c62d1f79",
+  "consumer_log_sha256": "7eb4c999bed7be1ad6d41d39b31867748ed1f562bc61bbd86927d44637fe7670",
+  "exports": 4,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

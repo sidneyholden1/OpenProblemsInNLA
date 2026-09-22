@@ -1,0 +1,17 @@
+{
+  "NLA/MF12/Definitions.lean": "9411884dcbbfd4d2dc28fcbefac98fdef3f7860c3150d311659882edc58b7d41",
+  "Challenge.lean": "4c7346ab9c387dc073def67f05fe01dbe0dc9676525747267c6777a1f75c3cbe",
+  "NUMERICAL_TARGETS.md": "18f9da6c34ce537676e7067e0d2e84ff0f87427196081e54ac27f0d295069bf1",
+  "README.md": "2349efc4d97c306a40dd2e98e3914a1ea7748c2447438f389154e6d10fc59bb0",
+  "formalization.yaml": "46ebf8bc4a0cf5b70526e574475c72291b832220fa0f6224049605d6ed3882e9",
+  "comparator.json": "b6ea074bf56f2e8411bf0bea13d14e2380872a9f73c25d71345fa8cbf975507d",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "lakefile.toml": "009c55677bda807ca4da33fcfffea17e5321abde3cee33937862d8fbe87c0a4e",
+  "lake-manifest.json": "91aac5bf78e2bf668a8a162a3bb706fc5ab3ef9934329da865fa6887c0d3e3f7",
+  "../README.md": "f17c1292861e5ba6829f8c44aa8bd7aaca0d21f892b302333358e166c2c3ed78",
+  "../../../references/colbrook-jsr-growth-2026-09-11/manuscripts/arbitrary_growth_exponents.tex": "e3e3e00f87e705620265eb854adc22a2a60516dce897e4022938884381c5d779",
+  "verification/statement-build-2.log": "48d1fe884b539e181f2abd6b707e9ab67303e2142dce187ebe81ddb1c0c004e7",
+  "verification/metadata-draft.log": "3ce2422cb38187fe07bc99f250a3d238156a45e1527703a35d50e028463df12e",
+  "verification/check_seed.py": "4ef774779254b7a4bda8418a92e8a1268fd8ce3762d5dcedcfb2b91da7360605",
+  "verification/seed-precheck.json": "421c1fbe90ce74b4177b761792ff5ab3d65f00b9562f044c001b1b4f295596d9"
+}

@@ -1,0 +1,12 @@
+✖ [2378/2381] Running Mathlib.Data.Matrix.Notation
+error: no such file or directory (error code: 4294967294)
+  file: /Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/Mathlib/Data/Matrix/Notation.lean
+✖ [2379/2381] Running NLA.MF12.Definitions
+error: NLA/MF12/Definitions.lean: bad import 'Mathlib.Data.Matrix.Notation'
+✖ [2380/2381] Running Challenge
+error: Challenge.lean: bad import 'NLA.MF12.Definitions'
+Some required targets logged failures:
+- Mathlib.Data.Matrix.Notation
+- NLA.MF12.Definitions
+- Challenge
+error: build failed

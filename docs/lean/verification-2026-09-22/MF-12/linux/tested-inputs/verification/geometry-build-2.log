@@ -1,0 +1,23 @@
+✖ [3098/3098] Building NLA.MF12.Geometry (7.0s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/Geometry.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Geometry.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Geometry.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Geometry.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Geometry.setup.json --json
+error: NLA/MF12/Geometry.lean:33:73: unsolved goals
+m : Type u_1
+n : Type u_2
+inst✝³ : Fintype m
+inst✝² : Fintype n
+inst✝¹ : DecidableEq m
+inst✝ : DecidableEq n
+A : Matrix m n ℝ
+b : ℝ
+hb : 0 ≤ b
+h : ∀ (i : m) (j : n), |A i j| ≤ b
+i : m
+j : n
+⊢ A i j = (∑ i, ∑ j, Matrix.of (A i j • fun i' j' => if i = i' ∧ j = j' then 1 else 0)) i j
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.Geometry
+error: build failed

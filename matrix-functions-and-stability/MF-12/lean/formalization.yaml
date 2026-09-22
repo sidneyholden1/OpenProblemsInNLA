@@ -48,9 +48,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Complete original canonical target. Four Solution exports locally built and checked with LeanCert
-    kernel trust; no sorry in active proof closure. Two independent statement approvals frozen before
-    proof. Independent final reviews and actual isolated Linux Comparator pending; canonical status unchanged.
+  scope: 'Complete original canonical target for every real nonnegative exponent: a fixed distinct pair
+    in fixed positive dimension, every switching word and every positive length, attained actual L2 operator-norm
+    maxima, positive two-sided polynomial bounds and actual nth-root limit one. Four exports accepted
+    by isolated Linux Comparator/default-kernel with all rejection and isolation controls.'
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -85,13 +86,15 @@ fidelity:
     an unnecessary spectral tensor-norm equality. LeanCert supplies kernel trust audits; no artificial
     interval calculation.
 review:
-  status: local-proof-complete-final-review-pending
+  status: Two independent nonauthor final reviews passed; Linux acceptance complete
   reviewers:
   - OpenAI Codex agent /root
   - OpenAI Codex agent /root/iv06_statement_referee_1
-  notes: Two nonauthor statement approvals bound to the frozen source snapshot and successful Challenge
-    build. Complete local Solution build and standard-three axiom checks pass. Independent final reviews
-    and fresh isolated Linux Comparator remain pending. Statement-time metadata wrappers retained in reviews/statement-review-snapshot.
+  notes: Two hash-bound statement approvals preceded implementation. Both independent exact-four-signature
+    consumers and LeanCert kernel checks pass. Immutable proof 1231b92f2b0235559e5fe5162f6b76d21249ffd0;
+    Linux run 35696246513, attempt 2. The initial attempt was canceled at a pause request, not accepted.
+    Independent nonauthor operational audit verifies all source hashes, default-kernel and negative/sandbox
+    controls. Reviewed documentation snapshots retained. No external human review claimed.
 alignment:
 - source: Exact source compressed powers
   declarations:

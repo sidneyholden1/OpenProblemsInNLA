@@ -1,0 +1,163 @@
+{
+  "phase": "final proof review",
+  "date_utc": "2026-09-22T06:35:57.098334+00:00",
+  "reviewer": "OpenAI Codex AI agent /root/iv06_statement_referee_1",
+  "independent_nonauthor": true,
+  "verdict": "PASS",
+  "scope": "Complete original MF-12 target; isolated Linux Comparator remains a separate pending gate.",
+  "active_closure": {
+    "NLA/MF12/Definitions.lean": "9411884dcbbfd4d2dc28fcbefac98fdef3f7860c3150d311659882edc58b7d41",
+    "NLA/MF12/Geometry.lean": "24680eef99657ba284b7818b3972751f67007bf5684f278151dfd3ec8d3a1a5c",
+    "NLA/MF12/Growth.lean": "0fe4c240a0284fff13b9c7a79d15b34a48a77603e13dfa8ec1890890cb6edb46",
+    "NLA/MF12/IntegerGeometry.lean": "dcd44573d180ab88acd4cb54069066abc69b4ba81de7e9e853cb4170d7e58925",
+    "NLA/MF12/IntegerLift.lean": "583b290ef81a88442a86a8ebcc5e429a2149fbdf24a76854cdcec3305ae1cf95",
+    "NLA/MF12/Proof.lean": "a8a4633b363176556277cc9b2398e3b17f2fe9873f0f3e38fb89e1e8877da435",
+    "NLA/MF12/ScalarBudget.lean": "eebdaf05d603e604be1618ddf71434e73bb15b602c0240371e4304e88b05795a",
+    "NLA/MF12/ScalarLower.lean": "c75e61035a1e515db70dbdcdeff17234356b4e9b338830d17f359cc6ade14f51",
+    "NLA/MF12/WordBounds.lean": "d407205f4d83a4c0bff42635e0708e3af8fc634e3a1b88a42fb931bd31616224",
+    "NLA/MF12/WordLower.lean": "58c81d76538701a7a28ec27911ba7ed881f51ffcd300b0c998a54db88310cf29",
+    "NLA/MF12/Words.lean": "36376dfd19e12e8aa760fb4ada84b95e77194bffb74eb5dc3315096736abd08c",
+    "Solution.lean": "3651fe538a2bda2c7a6138a434b50b9999af00dbc89593b53664c26e3730f73d"
+  },
+  "boundary_hashes": {
+    "NLA/MF12/Definitions.lean": {
+      "actual_path": "NLA/MF12/Definitions.lean",
+      "sha256": "9411884dcbbfd4d2dc28fcbefac98fdef3f7860c3150d311659882edc58b7d41"
+    },
+    "Challenge.lean": {
+      "actual_path": "Challenge.lean",
+      "sha256": "4c7346ab9c387dc073def67f05fe01dbe0dc9676525747267c6777a1f75c3cbe"
+    },
+    "NUMERICAL_TARGETS.md": {
+      "actual_path": "NUMERICAL_TARGETS.md",
+      "sha256": "18f9da6c34ce537676e7067e0d2e84ff0f87427196081e54ac27f0d295069bf1"
+    },
+    "README.md": {
+      "actual_path": "reviews/statement-review-snapshot/README.md",
+      "sha256": "2349efc4d97c306a40dd2e98e3914a1ea7748c2447438f389154e6d10fc59bb0"
+    },
+    "formalization.yaml": {
+      "actual_path": "reviews/statement-review-snapshot/formalization.yaml",
+      "sha256": "46ebf8bc4a0cf5b70526e574475c72291b832220fa0f6224049605d6ed3882e9"
+    },
+    "comparator.json": {
+      "actual_path": "comparator.json",
+      "sha256": "b6ea074bf56f2e8411bf0bea13d14e2380872a9f73c25d71345fa8cbf975507d"
+    },
+    "lean-toolchain": {
+      "actual_path": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    "lakefile.toml": {
+      "actual_path": "lakefile.toml",
+      "sha256": "009c55677bda807ca4da33fcfffea17e5321abde3cee33937862d8fbe87c0a4e"
+    },
+    "lake-manifest.json": {
+      "actual_path": "lake-manifest.json",
+      "sha256": "91aac5bf78e2bf668a8a162a3bb706fc5ab3ef9934329da865fa6887c0d3e3f7"
+    },
+    "../README.md": {
+      "actual_path": "../README.md",
+      "sha256": "f17c1292861e5ba6829f8c44aa8bd7aaca0d21f892b302333358e166c2c3ed78"
+    },
+    "../../../references/colbrook-jsr-growth-2026-09-11/manuscripts/arbitrary_growth_exponents.tex": {
+      "actual_path": "../../../references/colbrook-jsr-growth-2026-09-11/manuscripts/arbitrary_growth_exponents.tex",
+      "sha256": "e3e3e00f87e705620265eb854adc22a2a60516dce897e4022938884381c5d779"
+    },
+    "verification/statement-build-2.log": {
+      "actual_path": "verification/statement-build-2.log",
+      "sha256": "48d1fe884b539e181f2abd6b707e9ab67303e2142dce187ebe81ddb1c0c004e7"
+    },
+    "verification/metadata-draft.log": {
+      "actual_path": "verification/metadata-draft.log",
+      "sha256": "3ce2422cb38187fe07bc99f250a3d238156a45e1527703a35d50e028463df12e"
+    },
+    "verification/check_seed.py": {
+      "actual_path": "verification/check_seed.py",
+      "sha256": "4ef774779254b7a4bda8418a92e8a1268fd8ce3762d5dcedcfb2b91da7360605"
+    },
+    "verification/seed-precheck.json": {
+      "actual_path": "verification/seed-precheck.json",
+      "sha256": "421c1fbe90ce74b4177b761792ff5ab3d65f00b9562f044c001b1b4f295596d9"
+    }
+  },
+  "candidate_hashes": {
+    "Challenge.lean": "4c7346ab9c387dc073def67f05fe01dbe0dc9676525747267c6777a1f75c3cbe",
+    "NLA/MF12/Definitions.lean": "9411884dcbbfd4d2dc28fcbefac98fdef3f7860c3150d311659882edc58b7d41",
+    "NLA/MF12/Geometry.lean": "24680eef99657ba284b7818b3972751f67007bf5684f278151dfd3ec8d3a1a5c",
+    "NLA/MF12/Growth.lean": "0fe4c240a0284fff13b9c7a79d15b34a48a77603e13dfa8ec1890890cb6edb46",
+    "NLA/MF12/IntegerGeometry.lean": "dcd44573d180ab88acd4cb54069066abc69b4ba81de7e9e853cb4170d7e58925",
+    "NLA/MF12/IntegerLift.lean": "583b290ef81a88442a86a8ebcc5e429a2149fbdf24a76854cdcec3305ae1cf95",
+    "NLA/MF12/Proof.lean": "a8a4633b363176556277cc9b2398e3b17f2fe9873f0f3e38fb89e1e8877da435",
+    "NLA/MF12/ScalarBudget.lean": "eebdaf05d603e604be1618ddf71434e73bb15b602c0240371e4304e88b05795a",
+    "NLA/MF12/ScalarLower.lean": "c75e61035a1e515db70dbdcdeff17234356b4e9b338830d17f359cc6ade14f51",
+    "NLA/MF12/WordBounds.lean": "d407205f4d83a4c0bff42635e0708e3af8fc634e3a1b88a42fb931bd31616224",
+    "NLA/MF12/WordLower.lean": "58c81d76538701a7a28ec27911ba7ed881f51ffcd300b0c998a54db88310cf29",
+    "NLA/MF12/Words.lean": "36376dfd19e12e8aa760fb4ada84b95e77194bffb74eb5dc3315096736abd08c",
+    "NUMERICAL_TARGETS.md": "18f9da6c34ce537676e7067e0d2e84ff0f87427196081e54ac27f0d295069bf1",
+    "README.md": "86504926bcfda620dd790fb4b9a3926b6640cfb3c4bd9d21d9fd14e7ac96de38",
+    "Solution.lean": "3651fe538a2bda2c7a6138a434b50b9999af00dbc89593b53664c26e3730f73d",
+    "comparator.json": "b6ea074bf56f2e8411bf0bea13d14e2380872a9f73c25d71345fa8cbf975507d",
+    "formalization.yaml": "0be7c063cb3a1c770ada77d3c1122c370c5c1e6e18e596d53f47b69ca135ce56",
+    "lake-manifest.json": "91aac5bf78e2bf668a8a162a3bb706fc5ab3ef9934329da865fa6887c0d3e3f7",
+    "lakefile.toml": "009c55677bda807ca4da33fcfffea17e5321abde3cee33937862d8fbe87c0a4e",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "verification/axioms.log": "2832df44eec66721785e09984219ea4156ba0b7da854cb9163d272231796b355",
+    "verification/metadata-local.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+    "verification/solution-build-2.log": "4a77441d2735a2069df0a8b152975b36f4964da51cbccc2942ec8d74778c4d02"
+  },
+  "library_hashes": {
+    ".lake/packages/mathlib/Mathlib/Analysis/CStarAlgebra/Matrix.lean": "79518c9e51c4d0cf4083ab69a9ac7a2817305b48db1fe6f25ae1d678e12ce223",
+    ".lake/packages/mathlib/Mathlib/Analysis/MeanInequalities.lean": "aea57be3b9fba6441497656bbdf98633ab43b41ccbc6a45bde71c5d3e1e9fcdc",
+    ".lake/packages/mathlib/Mathlib/Order/ConditionallyCompleteLattice/Finset.lean": "4fa85e1326e310a7a2ff72990fe753d70c469e290025e0c48d60e6065083a939",
+    ".lake/packages/mathlib/Mathlib/Analysis/SpecialFunctions/Pow/Asymptotics.lean": "004e4d6013b20f95feedfcb23b257c07eb1ee4c7645b9d81fd6e4cb684a116d6",
+    ".lake/packages/mathlib/Mathlib/Analysis/SpecificLimits/Normed.lean": "113aaf52a8970f3d5731b3bef38b5eb29be69585d68fdd5fc22f4868fa9f35e6",
+    ".lake/packages/mathlib/Mathlib/Algebra/BigOperators/Ring/Finset.lean": "472cd5000412d8ec35c8b9ee919b2aeedbf0a830033a55009aad436595923809",
+    ".lake/packages/LeanCert/LeanCert/Tactic/Verification.lean": "2c576708b528acdde17796b0b715b83079f9cad377182dbd87c248323ff0a58c"
+  },
+  "protocol_sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+  "evidence_hashes": {
+    "reviews/proof-source-hashes.json": "29cf889f47b7dd8f16a33d6b639671f0740d4b7e45ff582368a41ee161167167",
+    "reviews/statement-gate.json": "1c9348b341c6914ba6b9385e6f4e26942d2e4f13c734d45bfa96d8456858721c",
+    "verification/local-proof-20260922.json": "404f5e61ac32fee1af9707e6cbd42b35536ea8de51101d9a176fc8a587979155",
+    "verification/solution-build-2.log": "4a77441d2735a2069df0a8b152975b36f4964da51cbccc2942ec8d74778c4d02",
+    "verification/axioms.log": "2832df44eec66721785e09984219ea4156ba0b7da854cb9163d272231796b355",
+    "verification/metadata-local.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+    "verification/Referee1Consumer20260922.lean": "7754431461c1bf0fe214ea54a655a4e6b890d6a7f641cc338123c2be012c0a86",
+    "verification/referee-1-consumer-20260922.log": "2832df44eec66721785e09984219ea4156ba0b7da854cb9163d272231796b355",
+    "verification/referee-1-definitions-probe.log": "6d6a387f16f7c864c4a5da177ebe0cf1f327bab68f930e77fb2b53b4ae930139",
+    "verification/referee-1-statement-diagnostics.json": "be97382ce73f67bdbab166fbe81511beadb3a8092998f175370812e448d3ace1"
+  },
+  "independent_consumer": {
+    "command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee1Consumer20260922.lean",
+    "exit_code": 0,
+    "exact_challenge_types": 4,
+    "exports": [
+      "NLA.MF12.compressed_powers",
+      "NLA.MF12.fractional_growth",
+      "NLA.MF12.arbitrary_pair",
+      "NLA.MF12.original_target"
+    ],
+    "kernel_assertions": 4,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "execution_provenance": {
+    "full_build": "Inspected author execution: solution-build-2.log, PASS 3110 jobs. Did not duplicate entire build.",
+    "independent_execution": "Own current exact-statement consumer, transitive axiom queries and LeanCert kernel assertions, exit 0.",
+    "historical_failure": "solution-build.log is an earlier failed author development build, not the accepted build.",
+    "numerics": "Exact symbolic algebra and Mathlib analysis; LeanCert is used for kernel trust audits, not an interval certificate. Prior finite Fraction diagnostics are diagnostics only."
+  },
+  "nonblocking_findings": [
+    "Unused simp arguments, unnecessary sequencing and unreachable/unused tactics reported by current successful build; no mathematical change requested.",
+    "Integer lift uses repeated 2x2 Jordan tensor factors: full target, no optimal dimension or rational-entry refinement claim."
+  ],
+  "limitations": [
+    "AI review, not external human review or Tau Ceti endorsement.",
+    "No independent Linux or Comparator acceptance claimed in this report.",
+    "No optional optimal-dimension or rational-entry refinement formalized."
+  ]
+}

@@ -1,0 +1,45 @@
+✖ [3098/3098] Building NLA.MF12.Geometry (7.7s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/NLA/MF12/Geometry.lean -o /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Geometry.olean -i /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/lib/lean/NLA/MF12/Geometry.ilean -c /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Geometry.c --setup /private/tmp/nla-20260922-mf12/matrix-functions-and-stability/MF-12/lean/.lake/build/ir/NLA/MF12/Geometry.setup.json --json
+error: NLA/MF12/Geometry.lean:25:25: Unknown constant `Matrix.stdBasisMatrix`
+error: NLA/MF12/Geometry.lean:28:64: failed to prove positivity/nonnegativity/nonzeroness
+error: NLA/MF12/Geometry.lean:33:44: Unknown constant `Matrix.stdBasisMatrix`
+error: NLA/MF12/Geometry.lean:35:10: Unknown constant `Matrix.stdBasisMatrix`
+error: NLA/MF12/Geometry.lean:33:81: unsolved goals
+m : Type u_1
+n : Type u_2
+inst✝³ : Fintype m
+inst✝² : Fintype n
+inst✝¹ : DecidableEq m
+inst✝ : DecidableEq n
+A : Matrix m n ℝ
+b : ℝ
+hb : 0 ≤ b
+h : ∀ (i : m) (j : n), |A i j| ≤ b
+i : m
+j : n
+⊢ A i j = (∑ x, ∑ x_1, A x x_1 • sorry ()) i j
+error: NLA/MF12/Geometry.lean:37:39: Unknown constant `Matrix.stdBasisMatrix`
+error: NLA/MF12/Geometry.lean:38:37: Unknown constant `Matrix.stdBasisMatrix`
+error: NLA/MF12/Geometry.lean:40:31: Unknown constant `Matrix.stdBasisMatrix`
+error: NLA/MF12/Geometry.lean:46:6: linarith failed to find a contradiction
+m : Type u_1
+n : Type u_2
+inst✝³ : Fintype m
+inst✝² : Fintype n
+inst✝¹ : DecidableEq m
+inst✝ : DecidableEq n
+A : Matrix m n ℝ
+b : ℝ
+hb : 0 ≤ b
+h : ∀ (i : m) (j : n), |A i j| ≤ b
+he : A = ∑ i, ∑ j, A i j • sorry
+a✝ : sorry * b < b * ∑ i, ∑ i, ‖sorry‖
+⊢ False
+failed
+warning: NLA/MF12/Geometry.lean:77:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF12.Geometry
+error: build failed

@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-22",
+  "proof_revision": "1231b92f2b0235559e5fe5162f6b76d21249ffd0",
+  "proof_run": 35696246513,
+  "proof_run_attempt": 2,
+  "all23_reviewed_hashes_match_with_metadata_snapshots": true,
+  "original_target_and_manuscript_unchanged": true,
+  "repository_tests": "PASS77 including renderer/Pandoc cases",
+  "pdf": "PASS; both final pages visually inspected, no clipping/overlap; complete original statement on page2",
+  "pdf_sha256": "c0afe780af3186118393fc338e5e7fb44c109d23d736f6e918a39ab7d78bddfe",
+  "permanent_ids": 217,
+  "publication_candidate_counts": {
+    "Lean verified": 40,
+    "Solved": 51,
+    "Partially resolved": 69,
+    "Open": 57
+  },
+  "publication_ci": "pending"
+}

@@ -1,4 +1,4 @@
-# MF-12 complete local Lean proof
+# MF-12 complete Lean verification
 
 Source mathematics: Matthew J. Colbrook, University of Cambridge, with the
 source's AI-assistance disclosure. Varney and Morris retain original-question,
@@ -11,13 +11,21 @@ every positive length. Genuine attained maximal L2 operator norms have
 positive two-sided polynomial bounds, and their actual nth-root limit is one.
 Neither subsequences nor rational-exponent-only statements suffice.
 
-Status: complete local Solution build (3,110 jobs), all four exports checked
-with LeanCert kernel trust and only the standard `propext`, `Classical.choice`,
-and `Quot.sound` axioms. Independent final reviews and actual isolated Linux
-Comparator checks are pending. Canonical target, ID, path and status remain unchanged.
-The four intentional placeholders remain only in the trusted Challenge module,
-which Solution does not import. Statement approvals and original metadata wrappers
-are retained under reviews/.
+Acceptance, 2026-09-22: complete local Solution build (3,110 jobs), four
+LeanCert kernel assertions and exact transitive axiom audits using only
+`propext`, `Classical.choice`, and `Quot.sound`. Two independent nonauthor
+final reviews pass: [root](reviews/final-referee-root.md) and
+[referee 1](reviews/final-referee-1.md).
+[Isolated Linux Comparator/default-kernel acceptance](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35696246513)
+checks all four exports and actual rejection/isolation controls at immutable
+proof revision `1231b92f2b0235559e5fe5162f6b76d21249ffd0`. The independent nonauthor operational audit
+retains original archive/API digests and every tracked input hash in
+[source-bound evidence](../../../docs/lean/verification-2026-09-22/MF-12/README.md).
+The accepted run is attempt 2; the initial attempt was canceled at the user's
+pause request and is not used as acceptance evidence. Reviewed metadata is
+retained under `reviews/proof-review-snapshot`; statement-time wrappers remain
+under `reviews/statement-review-snapshot`. The four intentional placeholders
+are confined to the trusted Challenge, which Solution does not import.
 
 Proof route: exact source compression, finite Hölder and telescoping bounds for
 every reset word, logarithmic-gap witnesses padded to every positive length,
