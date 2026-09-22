@@ -1,0 +1,19 @@
+# IE-14 independent upper-bound pre-review
+
+Verdict: **PASS for the upper-bound closure only.** Reviewer: OpenAI Codex AI agent `/root/iv06_statement_referee_1`, a nonauthor of IE-14. Date: 2026-09-22. This is not approval of the whole candidate: witness, exact attainment, real-supremum assembly and final Solution remain pending review.
+
+I read all of Definitions, Base, Front, PairBounds, ColumnBounds and Upper (530 new proof lines), against the complete canonical problem, Colbrook manuscript and prior frozen statement review. All sixteen frozen statement inputs still match their hashes. Exact upper-closure and evidence hashes are in `upper-prereview-referee-1.json`.
+
+Base uses actual complex entry norms and genuine finite maxima. Pivot multiplier modulus≤1 follows from the actual maximal-column inequality and the nonzero pivot, before division. The original maximum is positive from a required nonzero cyclic corner. Growth covers every entry of every active stage, and literal recurrence supplies zero padding. There is no normalization shortcut.
+
+Front derives, by induction through actual row swaps, that every future nonfinal row remains literally unchanged until its arrival. A future row's zero pivot-column entry contradicts nonzero pivot selection, so it cannot have been selected. This proves each pivot lies at current position k, fresh position k+1 or last position. The argument directly controls positions and needs no unproved permutation/original-label hypothesis.
+
+PairBounds then handles all three pivot choices. The two old values are controlled by their maximum and sum, with an independent bound for the actual fresh row; complex triangle inequalities and the proved multiplier bound produce the next maximum/sum envelope. These internal numerical premises are all supplied by the column inductions, not added to the public target.
+
+ColumnBounds covers every column: the last has the exact Fibonacci maximum/sum progression and its final fresh arrival; ordinary columns have the zero/one/two arrival envelope; the penultimate column has its own late-arrival corrections. The penultimate estimate is intentionally somewhat looser than the manuscript but is proved below the global sharp bound. This is sufficient and does not weaken the final theorem. Natural-subtraction branches and the smallest n=4 are covered by arithmetic side conditions; no nonempty middle-column range is assumed.
+
+Upper handles both possible final two-row pivots explicitly. Every other matrix coordinate is either padded zero, one of the two front positions, or an untouched original entry. Its full entry bound therefore includes initial values, pivot rows before elimination, final scalar and all complex/tie cases. Dividing by the positive original maximum gives the exact frozen upper-bound signature. Actual nonsingularity remains a public input condition; the proof being stronger in places where it does not need that condition is harmless.
+
+My `verification/Referee1UpperProbe.lean` imports Upper only and restates the exact public upper-bound type, consuming `upper_bound_proved`. It exits0 and reports exactly `propext`, `Classical.choice`, `Quot.sound`; its LeanCert kernel assertion passes. I inspected the author's successful `upper-build-2.log` (3,081 jobs), explicitly as their execution. No sorry, custom axiom, native verification, unsafe definition or Challenge import occurs in this closure. LeanCert is used for actual transitive kernel-trust auditing; no interval computation is claimed. The argument efficiently replaces sorting with two-row maximum/sum bounds and uses existing Mathlib norm, finite-max and Fibonacci APIs. Colbrook/IE-05 layout attribution is retained.
+
+No material upper-bound issue found. Recheck these hashes and review the remaining closure at final freeze; this partial review cannot support publication by itself. AI review only, not external human review or Tau Ceti endorsement.

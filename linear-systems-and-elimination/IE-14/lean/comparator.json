@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.IE14.upper_bound",
+    "NLA.IE14.rational_attainment",
+    "NLA.IE14.sharp_maximum",
+    "NLA.IE14.original_target"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

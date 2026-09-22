@@ -1,0 +1,12 @@
+⚠ [3078/3078] Built NLA.IE14.WitnessInput (5.2s)
+warning: NLA/IE14/WitnessInput.lean:58:14: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [g, h1, factorRow, hn0, hnn, show 1 < n by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:90:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3078 jobs).

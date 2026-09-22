@@ -1,0 +1,29 @@
+✖ [3080/3080] Building NLA.IE14.ColumnBounds (6.2s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/NLA/IE14/ColumnBounds.lean -o /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/ColumnBounds.olean -i /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/ColumnBounds.ilean -c /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/ColumnBounds.c --setup /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/ColumnBounds.setup.json --json
+error: NLA/IE14/ColumnBounds.lean:123:8: Type mismatch: After simplification, term
+  ht
+ has type
+  ‖S (k + 1) ⟨k + 1, ⋯⟩ j‖ ≤ 2 * entryMax A ∧
+    ‖S (k + 1) ⟨n - 1, ⋯⟩ j‖ ≤ 2 * entryMax A ∧ ‖S (k + 1) ⟨k + 1, ⋯⟩ j‖ + ‖S (k + 1) ⟨n - 1, ⋯⟩ j‖ ≤ 4 * entryMax A
+but is expected to have type
+  ‖S (k + 1) ⟨k + 1, ⋯⟩ j‖ ≤ 2 * entryMax A ∧
+    ‖S (k + 1) ⟨n - 1, ⋯⟩ j‖ ≤ 2 * entryMax A ∧
+      ‖S (k + 1) ⟨k + 1, ⋯⟩ j‖ + ‖S (k + 1) ⟨n - 1, ⋯⟩ j‖ ≤ 2 * (2 * entryMax A)
+error: NLA/IE14/ColumnBounds.lean:139:67: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 2
+  -1 ≤ a - b ≤ 1
+where
+ a := ↑↑j
+ b := ↑↑⟨0, ⋯⟩
+error: NLA/IE14/ColumnBounds.lean:156:84: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+  a ≥ -4
+where
+ a := ↑k
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE14.ColumnBounds
+error: build failed

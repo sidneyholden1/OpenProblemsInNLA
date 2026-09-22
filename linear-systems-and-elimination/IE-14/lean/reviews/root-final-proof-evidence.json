@@ -1,0 +1,54 @@
+{
+  "verdict": "APPROVE",
+  "phase": "final mathematical proof review",
+  "reviewer": "OpenAI Codex /root",
+  "nonauthor": true,
+  "timestamp": "2026-09-22T07:33:45.390826+00:00",
+  "proof_snapshot_sha256": "01160ab473019fa5939a9fdeba4bb9a1aac5c35da4ad478f1c1058dde5f9d40c",
+  "source_sha256": {
+    "NLA/IE14/Base.lean": "c819f4efef6a3990c7d410b78ca53c09f30e368cd74036b619c0625cd8d81f51",
+    "NLA/IE14/ColumnBounds.lean": "337bf9f7976f617dc824463da1bcdf13a67f9d80ac002b09ea02398c40cd6e73",
+    "NLA/IE14/Definitions.lean": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202",
+    "NLA/IE14/Front.lean": "59d4985e1f577a046c51ee7dc1dae59a0da07f910345291160a249540c229c6f",
+    "NLA/IE14/PairBounds.lean": "6ad077f67ef8d9086ae15947593e7c6fd847a0a93683b97280320d9a82101e2e",
+    "NLA/IE14/Proof.lean": "fa478a667ec0dfc6ae71cc32adaf12d69b1159533df90713261a65f25f5c733a",
+    "NLA/IE14/Upper.lean": "c86e368a0d1ee4a0c8899893e9febe53dfe5e3cb21d4a0492b0b3859d4e0df72",
+    "NLA/IE14/WitnessInput.lean": "a1718b92101ed3ccc695230e9850f96f34b2dd59453070026848efd5e73b99bb",
+    "NLA/IE14/WitnessPath.lean": "723a4ad8914bf184676a1405621b89e91802d2c776d0698b7efc70504b8bb170",
+    "Solution.lean": "c848e962decbfa53fc8594b85805d5bfee5dcd14dfc0445c2885693c83af92ca",
+    "Challenge.lean": "dcaaf1807039dda04a53329ff333580ca3670a445693df0f8dceac0e6f280b32",
+    "NUMERICAL_TARGETS.md": "c034b8725c90f6771299b439b73ac0c490d452bed3e01aa3890c50a9458c587d",
+    "README.md": "e5e7d96f0d7a523ea409c043f820d48258eac15efdb4a1edf059c779ec85c64b",
+    "formalization.yaml": "390d2b5332231a5d324c7281039059145592935a9ba4feb05cd88c2a880cd216",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "c68beeb54b136053439a6887f1064be96bed00e652f86272e62cbde79f1082fa",
+    "lake-manifest.json": "b86bf12ffe55dd432cb556dfb3dfa91ab11da248eee4db7ae53ea00b00c8d58c",
+    "comparator.json": "74c736e28e1befa52dffe4bafbe6785339f59b9a3784348d9dda74aad0e277e5",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "verification/solution-build-final.log": "42cc8ebc8019ab9c3867c4b5a5305c1f5ca83f8c6cc7a8ec8ccf1ed431af6066",
+    "verification/AuthorAudit.lean": "e2bd96f10d945e089061cb9e73ecfb0714dda4652a87076e27ab1a91cf5c4088",
+    "verification/axioms.log": "e1dec2098b0040d3c7b2322fbcc7b5bdffd1c54e438778160a0ffa62b5cea840",
+    "verification/metadata-local-complete.log": "ec81c04258673a75fd2e053ac1cc87f9e52013e0cf117ed8e5936495b2d0d02e",
+    "verification/metadata-local-complete.json": "b196ea85eb12177459069dcc298e8430be3a3cc3d91532d1f4386fccdf0e062c",
+    "verification/freeze_local_proof.py": "b2176e40eab2724f2c9ae09087fc777ebd600c1aaa2a98ee02716be1445853ac"
+  },
+  "all_16_statement_hashes_preserved": true,
+  "own_consumer_exit_code": 0,
+  "kernel_checks": [
+    "upper_bound",
+    "rational_attainment",
+    "sharp_maximum",
+    "original_target"
+  ],
+  "actual_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "evidence_sha256": {
+    "verification/RootFinalConsumer.lean": "87bc1edcbb32bbeb0f24c720b097e08cfa3f3681e204ff76880a39d5cafa878c",
+    "verification/root-final-consumer.log": "e1dec2098b0040d3c7b2322fbcc7b5bdffd1c54e438778160a0ffa62b5cea840",
+    "reviews/final-referee-root.md": "57e694bff6bad1b005196bec1f30e4acf1379a3c6d88a3008d23622c086042ad"
+  },
+  "isolated_linux": "pending; not claimed"
+}

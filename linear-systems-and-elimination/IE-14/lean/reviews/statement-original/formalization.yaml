@@ -1,0 +1,109 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-14: sharp complex cyclic tridiagonal GEPP growth'
+  description: Full all-order sharp growth factor F(n+1)+1 for complex cyclic tridiagonal matrices under
+    every legal partial-pivoting tie path; explicit rational attainment and genuine real supremum.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-14 — Sharp growth for cyclic tridiagonal matrices
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/2eef31b5e5d33279ef2922a090f105c20e1b03fb/linear-systems-and-elimination/IE-14/README.md
+  type: web-post
+  location: Complete original problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: Sharp growth for cyclic tridiagonal partial pivoting
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/2eef31b5e5d33279ef2922a090f105c20e1b03fb/references/colbrook-recovered-2026-09-11/manuscripts/IE-14.tex
+  type: manuscript
+  location: Theorem 1 and complete Sections 2–4
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Authorship attributed by the source to Matthew J. Colbrook, Cambridge. Substantial AI assistance
+    and reconstruction disclosed; Higham retains original-target credit.
+related_formalizations:
+- id: https://github.com/sidneyholden1/OpenProblemsInNLA/tree/736845bc/linear-systems-and-elimination/IE-15/lean
+  relationship: other
+  note: Padded active-state and exact Schur proof layout studied. IE-15 is real rook pivoting; IE-14 independently
+    defines complex column-only partial pivoting and does not assume its bound.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Separate trusted Challenge and planned Solution,
+      kernel trust only, exact HTTPS dependency pins, shared local cache.
+    prompting_notes: Full numerical statements first, two independent nonauthor approvals before proof,
+      derive the two-row front from actual sparsity and row labels, minimize computation using exact complex
+      triangle inequalities and Fibonacci recurrences. LeanCert kernel audits; no unnecessary interval
+      calculations.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Statements only; four intended Challenge placeholders. No Solution or mathematical proof implementation.
+    Two independent statement reviews, complete proof, final nonauthor reviews and actual Linux Comparator
+    required; canonical status unchanged.
+  sorry_count: 4
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IE14.upper_bound
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE14.rational_attainment
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE14.sharp_maximum
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE14.original_target
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: Full original target retained for every n≥4 over complex matrices, nonsingular with both
+    cyclic corners nonzero. Actual fixed-order GEPP row swaps and Schur complements, every column-maximal
+    pivot tie and every active entry. Explicit source rational family is embedded in the complex field;
+    actual initial maximum and pivot admissibility are conclusions. The genuine real supremum comes with
+    nonemptiness, boundedness and exact attainment. No front, realness, normalization or deterministic-tie
+    assumption is inserted.
+review:
+  status: statement-review-pending
+  reviewers:
+  - OpenAI Codex agent /root
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  notes: Two independent nonauthor statement approvals and successful Challenge typecheck required before
+    mathematical proof implementation. Independent final reviews and actual isolated Linux Comparator
+    pending.
+alignment:
+- source: Universal complex all-path upper bound
+  declarations:
+  - NLA.IE14.upper_bound
+- source: Actual rational attaining matrix and legal pivot path
+  declarations:
+  - NLA.IE14.rational_attainment
+- source: Attained sharp bound over the full admissible set
+  declarations:
+  - NLA.IE14.sharp_maximum
+- source: Canonical all-order genuine-supremum target
+  declarations:
+  - NLA.IE14.original_target
+acknowledgements: 'Mathematics attributed in the source to Matthew J. Colbrook, Cambridge; Higham retains
+  the original problem and tridiagonal comparison credit. Formalization: Sidney Holden with OpenAI Codex
+  assistance. Mathlib, LeanCert, Comparator and formalization.yaml retain licenses and credit. No novelty,
+  external human review or author endorsement claimed.'

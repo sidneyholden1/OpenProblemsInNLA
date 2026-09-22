@@ -1,0 +1,18 @@
+{
+  "NLA/IE14/Definitions.lean": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202",
+  "Challenge.lean": "dcaaf1807039dda04a53329ff333580ca3670a445693df0f8dceac0e6f280b32",
+  "NUMERICAL_TARGETS.md": "c034b8725c90f6771299b439b73ac0c490d452bed3e01aa3890c50a9458c587d",
+  "README.md": "04cc7f98f5971819d3cd1306a259a4c3487824f9aea789946e1cbf70f95542fb",
+  "formalization.yaml": "0dfc94f298778b26ef949f5ed4a445413745527935a014d7072012634bbc4df8",
+  "comparator.json": "74c736e28e1befa52dffe4bafbe6785339f59b9a3784348d9dda74aad0e277e5",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "lakefile.toml": "c68beeb54b136053439a6887f1064be96bed00e652f86272e62cbde79f1082fa",
+  "lake-manifest.json": "b86bf12ffe55dd432cb556dfb3dfa91ab11da248eee4db7ae53ea00b00c8d58c",
+  "../README.md": "ebbd61a71ba0aa17f4bd076f1f2408e5db63aa3426247b4e4db0bcb0b582d869",
+  "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-14.tex": "4c20c2c20e6d05945911883682bc823096ef0ff1011cbd31bf941fd1f309b869",
+  "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-14-review.md": "409539b6cf58b4bf627c52bb6df6ad2f8833be4a43beb88e591c2fa6b815728c",
+  "verification/statement-build-final.log": "d7a57be13df74e5c9fc4c8f1666d8f6a13487557580d0986824e671445ef0e8a",
+  "verification/statement-local.json": "263aff907d32d950b63e4632db022e730dbf9cd46ce0797f57257311a0eed99f",
+  "verification/check_draft_metadata.py": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4",
+  "verification/metadata-draft.log": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8"
+}

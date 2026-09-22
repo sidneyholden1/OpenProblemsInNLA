@@ -1,0 +1,55 @@
+✖ [3078/3079] Building NLA.IE14.Front (4.7s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/NLA/IE14/Front.lean -o /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Front.olean -i /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Front.ilean -c /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Front.c --setup /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Front.setup.json --json
+error: NLA/IE14/Front.lean:41:18: unexpected token ':='; expected term
+error: NLA/IE14/Front.lean:23:6: Application type mismatch: The argument
+  k
+has type
+  ℕ
+of sort `Type` but is expected to have type
+  Type ?u.21
+of sort `Type (?u.21 + 1)` in the application
+  @PrincipalSeg k
+error: NLA/IE14/Front.lean:23:9: Invalid dotted identifier notation: Not supported on type universe
+  Sort ?u.22
+error: NLA/IE14/Front.lean:26:25: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+case zero
+n : ℕ
+A : Mat n
+hA : IsCyclic A
+S : ℕ → Mat n
+r : Fin n → Fin n
+hp : isPath A S r
+hk : 0 < n
+i j : Fin n
+⊢ PrincipalSeg (fun x1 x2 => sorry) fun x1 x2 => sorry
+error: NLA/IE14/Front.lean:28:17: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+case succ
+n : ℕ
+A : Mat n
+hA : IsCyclic A
+S : ℕ → Mat n
+r : Fin n → Fin n
+hp : isPath A S r
+k : ℕ
+ih : k < n → Fin n → Fin n → PrincipalSeg (fun x1 x2 => sorry) fun x1 x2 => sorry
+hk : k + 1 < n
+i j : Fin n
+⊢ PrincipalSeg (fun x1 x2 => sorry) fun x1 x2 => sorry
+error: NLA/IE14/Front.lean:64:60: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+  b ≥ 0
+  b - c ≤ -1
+  a ≥ 0
+  a - b ≥ 2
+  a - c ≤ -2
+where
+ a := ↑↑(r k)
+ b := ↑↑k
+ c := ↑n
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE14.Front
+error: build failed

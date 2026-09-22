@@ -1,0 +1,62 @@
+✖ [3078/3079] Building NLA.IE14.Front (5.7s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/NLA/IE14/Front.lean -o /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Front.olean -i /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Front.ilean -c /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Front.c --setup /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Front.setup.json --json
+error: NLA/IE14/Front.lean:11:78: unsolved goals
+case right.left
+n : ℕ
+A : Mat n
+hA : IsCyclic A
+i j : Fin n
+hij : ↑j + 1 < ↑i
+hi : ↑i + 1 < n
+⊢ ↑i = 0 → ¬↑j + 1 = n
+
+case right.right
+n : ℕ
+A : Mat n
+hA : IsCyclic A
+i j : Fin n
+hij : ↑j + 1 < ↑i
+hi : ↑i + 1 < n
+⊢ ↑j = 0 → ¬↑i + 1 = n
+error: NLA/IE14/Front.lean:16:15: unexpected token '<'; expected command
+error: NLA/IE14/Front.lean:35:16: failed to create binder due to failure when reverting variable dependencies
+error: NLA/IE14/Front.lean:43:32: Invalid `⟨...⟩` notation: The expected type of this term could not be determined
+error: NLA/IE14/Front.lean:45:4: Type mismatch
+  ih (Decidable.byContradiction fun a => path_untouched._proof_1_1 k hk i j a) i j hik hil
+    (Decidable.byContradiction fun a => path_untouched._proof_1_6 k hk i j hj a)
+has type
+  S k i j = A i j
+but is expected to have type
+  (if f < i ∧ f < j then S (↑f) i j - S (↑f) i f / S (↑f) (r f) f * S (↑f) (r f) j else 0) = A i j
+warning: NLA/IE14/Front.lean:43:79: This simp argument is unused:
+  hzero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [schurStep, if_pos ⟨hfi, hfj⟩, Equiv.swap_apply_of_ne_of_ne hif hir, zero_div, zero_mul, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/Front.lean:44:6: This simp argument is unused:
+  zero_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [schurStep, if_pos ⟨hfi, hfj⟩, Equiv.swap_apply_of_ne_of_ne hif hir, hzero, zero_mul, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/Front.lean:44:15: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [schurStep, if_pos ⟨hfi, hfj⟩, Equiv.swap_apply_of_ne_of_ne hif hir, hzero, zero_div, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/Front.lean:44:24: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [schurStep, if_pos ⟨hfi, hfj⟩, Equiv.swap_apply_of_ne_of_ne hif hir, hzero, zero_div, zero_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE14.Front
+error: build failed
