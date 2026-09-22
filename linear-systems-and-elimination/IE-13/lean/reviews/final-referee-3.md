@@ -1,0 +1,27 @@
+# IE-13 independent final review — APPROVE
+
+Reviewer: OpenAI Codex agent `/root/new_target_screen`, an AI agent and nonauthor of every IE-13 statement and proof. Phase: complete final source review plus independent exact-signature kernel consumption. This is not external human peer review or Tau Ceti endorsement. No proof edits were made in this review.
+
+I read the complete canonical problem, complete Colbrook manuscript, retained informal review, frozen numerical contracts and definitions, and every active module from Base/Recurrence through both branches of Witness and Solution. I applied `docs/lean/REVIEW.md` for fidelity, correctness, trust, generality, reuse, API clarity, documentation and attribution. I did not rely on the other referee's verdict.
+
+## Scope and mathematical fidelity
+
+The four exports preserve every original unequal pair and strengthen to all natural p,q, including both zero endpoints. The input is genuinely complex, nonsingular, banded in the original ordering, at every admissible dimension. The literal column-only GEPP predicate permits every largest-modulus tie and imposes no preliminary permutation or assumed invariant. Growth is the actual maximum over all entries of all finite active stages divided by the positive actual input maximum. The final growth set has explicit nonemptiness, boundedness, greatest element and real supremum conclusions. The source zero-extended recurrence is transcribed correctly; no restricted numeric family substitutes for the universal upper bound.
+
+## Full proof inspection
+
+Front derives untouched future positions and exclusion of distant pivots from the actual row-swap recurrence, and derives distant-column zero support rather than assuming it. The subset-sum envelope is an economical replacement for sorting: survivor images are injective, the removed pivot is disjoint from them, and its insertion bounds every subset by the next envelope prefix. Fresh rows and out-of-range auxiliary zero padding are handled separately. PathBudget transports these bounds through every actual allowed swap. Upper handles early and late column starts, all old/fresh/padded entries, and p=0, then passes through the genuine finite maximum and positive denominator.
+
+The rational witness is not merely a leading-stage certificate. WitnessProduct proves the full global product, including the target column and later identity columns. The adjusted target-column lower factors have modulus at most one by the exact target-tail recurrence. WitnessLU proves the literal Schur transition; WitnessOrder proves every successive row label and legal prescribed swap. Upper diagonals are nonzero, lower diagonals are one, and maximality follows from actual multiplier norms. Original-order sparsity, exact input maximum one and determinant nonzero are proved for the actual rational matrix. The target entry attains bandRec p (p+q); the universal upper bound gives exact growth. The p=0 identity branch supplies a full legal path. Proof then derives genuine IsGreatest and sSup through Mathlib's conditional-completeness API. No key lemma is passed as an unproved hypothesis to a final export.
+
+## Trust, execution and reuse
+
+I inspected the successful normal Solution log (3096 jobs), author audit, local receipt and official-schema metadata result. Independently, I generated `verification/Referee3ExactConsumer.lean` from the literal frozen Challenge signatures, renamed only its consumer declarations, and supplied the corresponding completed exports. `lake env lean verification/Referee3ExactConsumer.lean` exited 0. All four LeanCert kernel assertions passed; each actual transitive axiom list is exactly `propext`, `Classical.choice`, `Quot.sound`. The active closure imports no Challenge and contains no sorry, custom axiom, native-decide or unsafe proof escape. Source scans and the actual kernel audit complement each other; finite Python diagnostics are not counted as proofs.
+
+The implementation reuses Mathlib finite sums, matrix multiplication/determinants/triangularity, permutation transport, complex norm inequalities and greatest-element supremum facts. I inspected the relevant determinant/supremum use and library declarations. The new finite envelope and explicit LU bridge are specific useful abstractions; exact algebra avoids expensive numerical interval search. Generic IE-14 path-code adaptation is credited, source mathematics remains attributed to Colbrook, original problem credit to Higham, and Holden/Codex formalization assistance and licenses are disclosed. Minor unused-simp/style warnings are nonmaterial; no source change is requested.
+
+## Byte binding and remaining gate
+
+All 36 final snapshot inputs and all 20 original statement inputs match their recorded SHA-256 values. Original reviewed README/yaml bytes are retained in `reviews/statement-original`; current wrapper changes truthfully state local completion and pending final review/Linux. Snapshot SHA-256: `663ae8b76b57fdf41f3f8f59976f2de1c7ac46f2e5cf8dff7363b857898d9c55`. Exact per-file hashes, original-statement preservation locations, consumer/log hashes and protocol hash are recorded in `referee-3-final-evidence.json`.
+
+Verdict: **APPROVE** for this exact local candidate. No material findings or unresolved mathematical conditions. Actual isolated Linux Comparator, rejection/isolation controls and publication checks remain separate gates; this review does not claim those runs.

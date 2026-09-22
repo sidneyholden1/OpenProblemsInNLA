@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS",
+  "execution_role": "Proof coauthor operational handoff; two independent nonauthor mathematical reports are separately identified.",
+  "review_reports_read_in_full": true,
+  "review_hashes": {
+    "reviews/final-referee-2.md": "2a9439170f0a787709328cb2a86cba6cb6a3e2582f4cf7a7477f4d228f746708",
+    "reviews/final-referee-3.md": "ff8f20dceb601135c787fbb4fb0b40f4a9244dabae25e59641d532ea608ae5c8",
+    "reviews/proof-source-hashes.json": "663ae8b76b57fdf41f3f8f59976f2de1c7ac46f2e5cf8dff7363b857898d9c55",
+    "reviews/referee-2-final-evidence.json": "b76d4d2e14284350ae05a4c4fb07d33ddecff19a2e931e2b10407eed75701df3",
+    "reviews/referee-3-final-evidence.json": "79df90181201bb0315f12d244cdb2a743fd9b13188b2e7a787d0134f8f5971c1"
+  },
+  "all36_proof_inputs_match": true,
+  "all20_statement_inputs_preserved": true,
+  "validation": {
+    "official_manifest": 4,
+    "permanent_ids": 217,
+    "repository_tests": 77,
+    "harness_tests": 12
+  },
+  "evidence_hashes": {
+    "repository-tests.log": "6136ac3df73115aafbd279efaee362a066ea5801f002f362a55f206becfa6c0b",
+    "harness-tests.log": "8a288060cd922b168defcca0fd91512a0dc65c48858cd0b5aa5b47b906188e24",
+    "ids.log": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+    "manifest.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+    "math-format.log": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c"
+  },
+  "LinuxComparator": "pending",
+  "whitespace_check": "Four trailing spaces in preserved raw development/build log output; no proof-source whitespace findings. Logs remain byte-identical."
+}

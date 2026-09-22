@@ -1,0 +1,11 @@
+{
+  "verdict": "PASS",
+  "schema": "pinned official v0.4",
+  "exports": 4,
+  "validator_exit_code": 0,
+  "command": [
+    "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+    "/private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/../../../tools/lean/validate_manifest.py",
+    "/private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean"
+  ]
+}

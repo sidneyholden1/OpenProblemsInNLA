@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "author local exact upper-bound theorem only; not independent final review or Linux acceptance",
+  "build_jobs": 3083,
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "files": {
+    "NLA/IE13/Base.lean": "a97c9b60b937d443208493e3815c04f22a4bcced4143635f10e08200d5e44512",
+    "NLA/IE13/Recurrence.lean": "7c04702a1f261d978326e968b7f60eb88386cba41ab108862a7699cf055f21a7",
+    "NLA/IE13/Profiles.lean": "193486136fa8ef766474285f747fca767ae9857200eee0fc9723229a5477cc50",
+    "NLA/IE13/Budgets.lean": "69d76b760ebd2852d72882458c5575d384c78f902e18e074ee9d7a7eb9137b68",
+    "NLA/IE13/Front.lean": "5dd2081fae1ad93c43f687092b8588808a11ed4e35b78ea1b1735e47377aa23a",
+    "NLA/IE13/PathBudget.lean": "554a812b05fe9be99cc0f98d96593f64d8fcde47d2b8901fa2dedf71e999eed0",
+    "NLA/IE13/Upper.lean": "d15795e79b7c1840d89cf1c16b79c263ca323b68ee37b99816b57b4206b362ca",
+    "UPPER_PROOF_NOTES.md": "7b7109e4a0dfe84ca4ab907fed3d20afd7698a9dcc28553813e5b9be54667d2d",
+    "verification/upper-build-final.log": "f83bbbaffce8b0330daf1443279aa150146ef6ef3fc1de5744d53e9ac673cb46",
+    "verification/UpperAuthorAudit.lean": "26dd80ff4451a6264a6f33318b33a967cdaac57d42d0f0254f35d31f554b6fd4",
+    "verification/upper-author-audit.log": "10668e580b30cee6bda00b167f0d0dc4fdbda58ee9109906823c33fdfb59fad2"
+  },
+  "initial_diagnostic": "upper-author-audit-initial.log retains the first author-consumer run with reversed trust-directive syntax; it is not an acceptance log."
+}

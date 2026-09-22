@@ -1,0 +1,59 @@
+NLA/IE13/Budgets.lean:41:20: error: unexpected token '('; expected ')', ',' or ':'
+NLA/IE13/Budgets.lean:41:19: error: Type mismatch
+  x
+has type
+  ℕ → ℝ
+but is expected to have type
+  Prop
+NLA/IE13/Budgets.lean:41:13: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  AddCommMonoid (Sort ?u.115)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+NLA/IE13/Budgets.lean:23:53: error: unsolved goals
+case hs
+F u : Finset ℕ
+x y : ℕ → ℝ
+p t r : ℕ
+B : ℝ
+hB : 0 ≤ B
+h : HasBudget F x p t B
+hr : r ∈ F
+hu : u.card ≤ p
+f : ℕ → ℕ
+hf : Set.InjOn f ↑u
+hF : ∀ i ∈ u, f i ∈ F
+hne : ∀ i ∈ u, f i ≠ r
+hy : ∀ i ∈ u, y i ≤ x (f i) + x r
+hu0 : ¬u = ∅
+hm : 0 < u.card
+v : Finset ℕ := Finset.image f u
+hvcard : v.card = u.card
+hrv : r ∉ v
+hvF : insert r v ⊆ F
+hb : x r + ∑ x_1 ∈ v, x x_1 ≤ ↑(profileSum p t (u.card + 1)) * B
+⊢ sorry
+
+case neg
+F u : Finset ℕ
+x y : ℕ → ℝ
+p t r : ℕ
+B : ℝ
+hB : 0 ≤ B
+h : HasBudget F x p t B
+hr : r ∈ F
+hu : u.card ≤ p
+f : ℕ → ℕ
+hf : Set.InjOn f ↑u
+hF : ∀ i ∈ u, f i ∈ F
+hne : ∀ i ∈ u, f i ≠ r
+hy : ∀ i ∈ u, y i ≤ x (f i) + x r
+hu0 : ¬u = ∅
+hm : 0 < u.card
+v : Finset ℕ := Finset.image f u
+hvcard : v.card = u.card
+hrv : r ∉ v
+hvF : insert r v ⊆ F
+hb : x r + ∑ x_1 ∈ v, x x_1 ≤ ↑(profileSum p t (u.card + 1)) * B
+hs : sorry
+⊢ ∑ i ∈ u, y i ≤ ↑(profileSum p (t + 1) u.card) * B
+NLA/IE13/Budgets.lean:67:20: error: unexpected token '('; expected ')'

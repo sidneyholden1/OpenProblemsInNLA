@@ -1,0 +1,2 @@
+'NLA.IE13.upper_bound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/UpperAuthorAudit.lean:10:42: error(lean.unknownIdentifier): Unknown constant `kernel`

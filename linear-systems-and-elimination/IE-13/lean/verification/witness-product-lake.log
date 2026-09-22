@@ -1,0 +1,87 @@
+⚠ [3078/3085] Replayed NLA.IE13.Base
+warning: NLA/IE13/Base.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3079/3085] Built NLA.IE13.WitnessLU (4.9s)
+warning: NLA/IE13/WitnessLU.lean:124:32: This simp argument is unused:
+  hfuture
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, hij, luStage]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE13/WitnessLU.lean:121:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3080/3085] Built NLA.IE13.WitnessOrder (4.9s)
+warning: NLA/IE13/WitnessOrder.lean:65:55: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3081/3085] Built NLA.IE13.WitnessScalar (4.9s)
+✔ [3082/3085] Built NLA.IE13.WitnessAlgebra (5.2s)
+⚠ [3083/3085] Built NLA.IE13.WitnessBounds (5.7s)
+warning: NLA/IE13/WitnessBounds.lean:62:30: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witness, witnessQ, hp, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3084/3085] Built NLA.IE13.WitnessFactors (8.1s)
+warning: NLA/IE13/WitnessFactors.lean:44:41: This simp argument is unused:
+  ite_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fullUpperQ, le_refl, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [3085/3085] Building NLA.IE13.WitnessProduct (4.9s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/NLA/IE13/WitnessProduct.lean -o /private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/.lake/build/lib/lean/NLA/IE13/WitnessProduct.olean -i /private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/.lake/build/lib/lean/NLA/IE13/WitnessProduct.ilean -c /private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/.lake/build/ir/NLA/IE13/WitnessProduct.c --setup /private/tmp/nla-20260922-ie13/linear-systems-and-elimination/IE-13/lean/.lake/build/ir/NLA/IE13/WitnessProduct.setup.json --json
+error: NLA/IE13/WitnessProduct.lean:34:9: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∑ a, lowerQ ?p ?q ?i a * ?v ↑a
+in the target expression
+  ∑ a, lowerQ p q i a * ↑(targetRec p ↑a) = if ↑i = 0 ∨ p < ↑i then 1 else 0
+
+p q : ℕ
+i j : Fin (witnessSize p q)
+hj : ↑j = p + q
+hi : i ≤ j
+he : (fullLowerQ p q * fullUpperQ p q) i j = ∑ a, lowerQ p q i a * ↑(targetRec p ↑a)
+⊢ ∑ a, lowerQ p q i a * ↑(targetRec p ↑a) = if ↑i = 0 ∨ p < ↑i then 1 else 0
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    lowerQ p q i
+error: NLA/IE13/WitnessProduct.lean:42:30: unexpected token ')'; expected term
+warning: NLA/IE13/WitnessProduct.lean:79:6: declaration uses `sorry`
+error: NLA/IE13/WitnessProduct.lean:89:16: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+  b ≥ 0
+  b - c ≤ -1
+  a ≥ 0
+  a - b ≥ 1
+where
+ a := ↑p
+ b := ↑↑i
+ c := ↑(witnessSize p q)
+error: NLA/IE13/WitnessProduct.lean:107:8: Type mismatch
+  Function.Injective.eq_iff (factorRow_injective p q)
+has type
+  factorRow p q ?m.131 = factorRow p q ?m.132 ↔ ?m.131 = ?m.132
+but is expected to have type
+  factorRow p q i = factorRow p q j ↔ i = factorRow p q j
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE13.WitnessProduct
+error: build failed

@@ -1,0 +1,7 @@
+{
+  "verdict": "PASS",
+  "proof_inputs": 36,
+  "active_lean_files": 20,
+  "statement_inputs": 20,
+  "evidence_sha256": "b76d4d2e14284350ae05a4c4fb07d33ddecff19a2e931e2b10407eed75701df3"
+}

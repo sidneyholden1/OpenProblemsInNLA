@@ -1,0 +1,36 @@
+NLA/IE13/WitnessZero.lean:11:55: error: unsolved goals
+q : ℕ
+i j : Fin (witnessSize 0 q)
+⊢ ↑(if i = j then 1 else 0) = if i = j then 1 else 0
+NLA/IE13/WitnessZero.lean:24:2: error: unsolved goals
+case hinput
+q : ℕ
+i j : Fin (witnessSize 0 q)
+⊢ 1 i j = 1 (factorRow 0 q i) (id j)
+NLA/IE13/WitnessZero.lean:25:55: warning: This simp argument is unused:
+  factorRow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witness_zero_identity, Matrix.submatrix_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE13/WitnessZero.lean:26:25: warning: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ne_of_lt hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE13/WitnessZero.lean:28:25: warning: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ne_of_gt hba]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE13/WitnessZero.lean:45:2: error: Type mismatch: After simplification, term
+  hg
+ has type
+  (entryMax 1)⁻¹ ≤ growth 1 (witnessStates 0 q)
+but is expected to have type
+  1 ≤ growth 1 (witnessStates 0 q)

@@ -1,0 +1,7 @@
+NLA/IE13/WitnessBounds.lean:62:30: warning: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witness, witnessQ, hp, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
