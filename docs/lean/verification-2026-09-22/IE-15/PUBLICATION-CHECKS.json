@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "proof_revision": "1ada36c90a34f5567902c4ae306c01e392a8bac9",
+  "only_project_input_changes": [
+    "README.md",
+    "formalization.yaml"
+  ],
+  "all_mathematical_configuration_pins_review_files_unchanged": true,
+  "original_target_and_complete_solution_unchanged": true,
+  "all_217_ids_unchanged": true,
+  "tests": "77 repository tests PASS; final renderer11tests PASS; manifestPASS4; format0changes",
+  "pdf": {
+    "pages": 2,
+    "render_warnings": [],
+    "visual_review": "Both final full pages inspected; no clipping/overlap; original statement kept together",
+    "sha256": "57689681f40d77b9a24f833f7ae391f38b4c8b7532e1edd655b7269bb29d6d60"
+  },
+  "publication_CI": "pending; separate from immutable accepted proof"
+}

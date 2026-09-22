@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-15: sharp rook-pivoting growth in orders three and four'
+  description: Full original constants 3 and 14/3 for all real nonsingular inputs and all admissible paths;
+    statement preparation.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-15 — Exact small-order growth factors for rook pivoting
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-15/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'IE-15: exact rook-pivoting growth factors in orders three and four'
+  authors:
+  - George Stepaniants
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-15/solution.md
+  type: manuscript
+  location: Theorem 1 and Sections 1–5
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Mathematical resolution by George Stepaniants, Department of Computing and Mathematical Sciences,
+    California Institute of Technology; AI assistance disclosed.
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Separate trusted Challenge and planned Solution,
+      kernel trust only, exact HTTPS dependency pins, shared local cache.
+    prompting_notes: Statements before proof and two independent reviews. Exact rational witnesses, actual
+      arbitrary-path normalization and analytic scalar reductions before kernel LeanCert.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Statements only, four intentional Challenge placeholders. No proof implementation. Both review
+    phases and actual Linux Comparator pending; canonical status unchanged.
+  sorry_count: 4
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IE15.witness_certificates
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE15.upper_three
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE15.upper_four
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE15.sharp_constants
+    file: Challenge.lean
+    sorry_count: 1
+    comparator_config: comparator.json
+    literature_dependencies: []
+fidelity:
+  divergences: Padded active matrices encode the actual row and column swaps and Schur complements. Rook
+    maximality is restricted to the pivot row and column, with all ties. The final result must include
+    both original sizes, all intermediate entries and nonempty bounded suprema; no weakened normalized-coordinate
+    hypothesis replaces the original target.
+review:
+  status: statement-review-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: No proof implementation yet. Two independent statement reviews required before implementation;
+    two final reviews and isolated Linux Comparator also pending.
+alignment:
+- source: Source Section 5 exact attained witnesses
+  declarations:
+  - NLA.IE15.witness_certificates
+- source: All-path order-three upper bound
+  declarations:
+  - NLA.IE15.upper_three
+- source: All-path order-four upper bound
+  declarations:
+  - NLA.IE15.upper_four
+- source: Full original pair of exact suprema
+  declarations:
+  - NLA.IE15.sharp_constants
+acknowledgements: Mathematical resolution by George Stepaniants, Caltech; original question by Nicholas
+  J. Higham. Formalization by Sidney Holden with OpenAI Codex assistance. IE-05 active-path layout studied.
+  Mathlib, LeanCert, Comparator and formalization.yaml retain credit and licenses.

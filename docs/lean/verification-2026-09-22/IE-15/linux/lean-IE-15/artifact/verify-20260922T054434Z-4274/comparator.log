@@ -1,0 +1,33 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-hx6nlw2s/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2378/2380] Built NLA.IE15.Definitions (1.9s)
+⚠ [2379/2380] Built Challenge (1.7s)
+warning: Challenge.lean:7:8: declaration uses `sorry`
+warning: Challenge.lean:15:8: declaration uses `sorry`
+warning: Challenge.lean:18:8: declaration uses `sorry`
+warning: Challenge.lean:21:8: declaration uses `sorry`
+Build completed successfully (2380 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.IE15.witness_certificates, NLA.IE15.upper_three, NLA.IE15.upper_four, NLA.IE15.sharp_constants, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3076/3087] Built LeanCert.Tactic.Verification (2.5s)
+✔ [3077/3087] Built NLA.IE15.Bounds (3.5s)
+✔ [3078/3087] Built NLA.IE15.Scalar (7.5s)
+✔ [3079/3087] Built NLA.IE15.PathReduction (3.5s)
+✔ [3080/3087] Built NLA.IE15.ScalarFour (6.2s)
+✔ [3081/3087] Built NLA.IE15.SignScaling (6.0s)
+✔ [3082/3087] Built NLA.IE15.PathBounds (2.7s)
+✔ [3083/3087] Built NLA.IE15.NormalizedProof (4.5s)
+✔ [3084/3087] Built NLA.IE15.Witnesses (17s)
+✔ [3085/3087] Built NLA.IE15.Supremum (2.4s)
+ℹ [3086/3087] Built Solution (2.4s)
+info: Solution.lean:39:0: 'NLA.IE15.witness_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:40:0: 'NLA.IE15.upper_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:41:0: 'NLA.IE15.upper_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:42:0: 'NLA.IE15.sharp_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3087 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.IE15.witness_certificates, NLA.IE15.upper_three, NLA.IE15.upper_four, NLA.IE15.sharp_constants, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0

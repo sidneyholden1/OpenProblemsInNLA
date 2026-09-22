@@ -1,0 +1,8 @@
+⚠ [3079/3079] Built NLA.IE15.SignScaling (14s)
+warning: NLA/IE15/SignScaling.lean:54:10: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: NLA/IE15/SignScaling.lean:54:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Build completed successfully (3079 jobs).

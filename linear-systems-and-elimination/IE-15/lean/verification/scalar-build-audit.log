@@ -1,0 +1,3 @@
+'NLA.IE15.two_pivot_scalar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE15.scalar_three_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE15.scalar_four_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
