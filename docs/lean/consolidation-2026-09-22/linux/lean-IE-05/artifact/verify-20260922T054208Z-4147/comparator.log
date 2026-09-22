@@ -1,0 +1,112 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-kpv7fvex/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2378/2380] Built NLA.IE05.Definitions (2.1s)
+⚠ [2379/2380] Built Challenge (1.7s)
+warning: Challenge.lean:7:8: declaration uses `sorry`
+warning: Challenge.lean:11:8: declaration uses `sorry`
+warning: Challenge.lean:15:8: declaration uses `sorry`
+warning: Challenge.lean:22:8: declaration uses `sorry`
+Build completed successfully (2380 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.IE05.qr_certificates, NLA.IE05.pivot_certificates, NLA.IE05.growth_separation, NLA.IE05.counterexample, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3436/3463] Built LeanCert.Core.Interval (3.8s)
+✔ [3439/3466] Built LeanCert.Tactic.Verification (4.4s)
+✔ [3441/3466] Built LeanCert.Core.DerivativeIntervals (4.3s)
+✔ [3442/3470] Built LeanCert.Core.Expr (6.8s)
+✔ [3444/3470] Built NLA.IE05.Bounds (6.2s)
+✔ [3445/3470] Built LeanCert.Core.IntervalRat.Basic (10s)
+✔ [3446/3471] Built LeanCert.Core.IntervalRat.LogReduction (8.3s)
+✔ [3448/3471] Built LeanCert.Core.Support (5.6s)
+✔ [3449/3471] Built LeanCert.Engine.Eval.Result (3.3s)
+✔ [3450/3471] Built LeanCert.Meta.Numeral (4.1s)
+✔ [3451/3472] Built LeanCert.Core.TrigReduction (3.0s)
+✔ [3452/3473] Built LeanCert.Tactic.IntervalAuto.Types (4.6s)
+✔ [3453/3473] Built LeanCert.Core.IntervalRat.Transcendental (6.7s)
+✔ [3454/3474] Built LeanCert.Tactic.IntervalAuto.Extract (4.7s)
+✔ [3455/3474] Built LeanCert.Core.Taylor (9.5s)
+✔ [3456/3477] Built NLA.IE05.IntegerCertificates (25s)
+✔ [3457/3479] Built LeanCert.Meta.ToExpr (6.8s)
+✔ [3459/3479] Built LeanCert.Tactic.IntervalAuto.Norm (4.3s)
+✔ [3460/3485] Built NLA.IE05.RealCertificates (5.4s)
+✔ [3461/3489] Built LeanCert.Contrib.Sinc (7.9s)
+✔ [3462/3490] Built LeanCert.Core.Dyadic (7.4s)
+✔ [3463/3490] Built LeanCert.Tactic.IntervalAuto.Parse (11s)
+✔ [3464/3526] Built LeanCert.Tactic.NumericalRefinement (1.2s)
+✔ [3515/3581] Built LeanCert.Tactic.LeanCert.Bridge.Environment (4.0s)
+✔ [3516/3581] Built LeanCert.Tactic.IntervalAuto.Diagnostic (4.3s)
+✔ [3517/3581] Built LeanCert.Tactic.LeanCert.Normalize (3.5s)
+✔ [3518/3581] Built LeanCert.Core.IntervalRat.Taylor (22s)
+✔ [3519/3581] Built LeanCert.Core.IntervalReal (1.8s)
+✔ [3520/3581] Built LeanCert.Core.IntervalRat.TrigReduced (2.4s)
+✔ [3521/3581] Built LeanCert.Core.IntervalRealEndpoints (4.2s)
+✔ [3522/3581] Built LeanCert.Engine.Affine.Basic (8.1s)
+✔ [3523/3581] Built LeanCert.Core.IntervalDyadic (9.6s)
+✔ [3524/3581] Built LeanCert.Engine.Eval.Core (8.0s)
+✔ [3525/3581] Built LeanCert.Engine.Affine.Nonlinear (5.1s)
+✔ [3526/3581] Built LeanCert.Engine.Eval.Extended (2.8s)
+✔ [3527/3581] Built LeanCert.Engine.Bounds.Lemmas (1.0s)
+✔ [3528/3581] Built LeanCert.Engine.IntervalEval (1.7s)
+✔ [3529/3581] Built LeanCert.Validity.Bounds.Checked (3.2s)
+✔ [3530/3581] Built LeanCert.Engine.Affine.Transcendental (4.8s)
+✔ [3531/3581] Built LeanCert.Engine.RootFinding.Basic (6.5s)
+✔ [3532/3581] Built LeanCert.Validity.Bounds.Core (4.5s)
+✔ [3533/3581] Built LeanCert.Engine.IntervalEvalDyadic (8.4s)
+✔ [3534/3581] Built LeanCert.Engine.Optimization.Box (4.3s)
+✔ [3535/3581] Built LeanCert.Engine.AD.Basic (3.8s)
+✔ [3536/3581] Built LeanCert.Engine.Integrate (8.1s)
+✔ [3537/3581] Built LeanCert.Engine.IntervalEvalAffine (8.9s)
+✔ [3538/3581] Built LeanCert.Validity.DyadicBounds (4.8s)
+✔ [3539/3581] Built LeanCert.Engine.TaylorModel.Core (12s)
+✔ [3540/3581] Built LeanCert.Engine.RootFinding.Bisection (8.1s)
+✔ [3541/3581] Built LeanCert.Engine.TaylorModel.Special (3.5s)
+✔ [3542/3581] Built LeanCert.Engine.AD.Transcendental (5.9s)
+✔ [3543/3581] Built LeanCert.Engine.Affine.Environment (4.7s)
+✔ [3544/3581] Built LeanCert.Engine.TaylorModel.Integral (4.3s)
+✔ [3545/3581] Built LeanCert.Engine.AD.Eval (3.7s)
+✔ [3546/3581] Built LeanCert.Engine.TaylorModel.ExpLog (11s)
+✔ [3547/3581] Built LeanCert.Engine.AD.Correctness (8.5s)
+✔ [3548/3581] Built LeanCert.Engine.TaylorModel.Trig (14s)
+✔ [3549/3581] Built LeanCert.Engine.TaylorModel.Hyperbolic (16s)
+✔ [3550/3581] Built LeanCert.Engine.AD.Computable (4.5s)
+✔ [3551/3581] Built LeanCert.Engine.TaylorModel.Functions (2.2s)
+✔ [3552/3581] Built LeanCert.Engine.AD.PartialCorrectness (7.3s)
+✔ [3553/3581] Built LeanCert.Engine.AD.DomainChecked (3.6s)
+✔ [3554/3581] Built LeanCert.Engine.TaylorModel.Expr (4.3s)
+✔ [3555/3581] Built LeanCert.Engine.AD.Dyadic (3.0s)
+✔ [3556/3581] Built LeanCert.Engine.TaylorModel (2.2s)
+✔ [3557/3581] Built LeanCert.Engine.AD (1.8s)
+✔ [3558/3581] Built LeanCert.Validity.Bounds.Smart (3.9s)
+✔ [3559/3581] Built LeanCert.Meta.ProveSupported (4.8s)
+✔ [3560/3581] Built LeanCert.Engine.IntervalEvalRefined (4.0s)
+✔ [3561/3581] Built LeanCert.Engine.Optimize (7.6s)
+✔ [3562/3581] Built LeanCert.Validity.Bounds.Bridge (3.9s)
+✔ [3563/3581] Built LeanCert.Meta.ProveContinuous (6.1s)
+✔ [3564/3581] Built LeanCert.Tactic.IntervalAuto.ProveCommon (6.6s)
+✔ [3565/3581] Built LeanCert.Engine.RootFinding.Newton (6.5s)
+✔ [3566/3581] Built LeanCert.Validity.Bounds.Basic (3.7s)
+✔ [3567/3581] Built LeanCert.Engine.Optimization.Gradient (7.7s)
+✔ [3568/3581] Built LeanCert.Tactic.IntervalAuto.Basic (3.3s)
+✔ [3569/3581] Built LeanCert.Validity.Integration (9.3s)
+✔ [3570/3581] Built LeanCert.Engine.RootFinding.MVTBounds (11s)
+✔ [3571/3581] Built LeanCert.Engine.RootFinding.Krawczyk (10s)
+✔ [3572/3581] Built LeanCert.Engine.RootFinding.Contraction (7.5s)
+✔ [3573/3581] Built LeanCert.Engine.RootFinding.Main (1.8s)
+✔ [3574/3581] Built LeanCert.Engine.Optimization.Global (23s)
+✔ [3575/3581] Built LeanCert.Engine.Optimization.BoundVerify (2.7s)
+✔ [3576/3581] Built LeanCert.Validity.Bounds (5.0s)
+✔ [3577/3581] Built LeanCert.Tactic.IntervalAuto.Bound (13s)
+✔ [3578/3581] Built LeanCert.Tactic.IntervalAuto.PointIneq (7.2s)
+⚠ [3579/3581] Built NLA.IE05.Proof (3.7s)
+warning: NLA/IE05/Proof.lean:86:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE05/Proof.lean:89:54: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: NLA/IE05/Proof.lean:90:50: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+✔ [3580/3581] Built Solution (2.4s)
+Build completed successfully (3581 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.IE05.qr_certificates, NLA.IE05.pivot_certificates, NLA.IE05.growth_separation, NLA.IE05.counterexample, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0

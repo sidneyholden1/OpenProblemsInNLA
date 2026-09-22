@@ -1,0 +1,48 @@
+{
+  "verdict": "PASS",
+  "run_id": 35692678154,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35692678154",
+  "head_sha": "03ae379de693688ca1e43e30e570226d5e06bdb3",
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-15/lean",
+      "repository_commit": "c37e1e667ed1a6ec1edd4be11c7f4b526348d688",
+      "head_sha": "03ae379de693688ca1e43e30e570226d5e06bdb3",
+      "input_count": 65,
+      "export_count": 4,
+      "theorems": [
+        "NLA.IE15.witness_certificates",
+        "NLA.IE15.upper_three",
+        "NLA.IE15.upper_four",
+        "NLA.IE15.sharp_constants"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-15",
+        "artifact_id": 10678668525,
+        "sha256": "d0c0f6a815c95fa77bd1f298f36b9251c89f37226fceb5d7b3bb23cf804900da",
+        "bytes": 15435
+      },
+      "result_sha256": "18cd4c720f7e98aeb70bde4bc10b34b79ddb08a15b85b168d64bfaae102b79db",
+      "log_sha256": {
+        "comparator.log": "9053e0621f2b8c0586cd48510754370ab2014ced489314e05d585b867c7579e6",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "9da50d9df3ab332397ff3647dc65555e84eec398c160d70888ec4a41076ace2d",
+        "negative-sorry.log": "4d9d47b17652174f84a054d31fe43e5609c139067469d81a80c305f8b52d5fe6",
+        "negative-native.log": "223e5ed3710394bf453a4ec964b3f97949f74a3acc3858b46045dba19e26ab1c",
+        "sandbox.log": "cc6d13caf6623c5c924c41fee74a5ef6d44d8a77732a903a336520f091896dc6",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "a1f4861bbe684036241fde395e261a528b21986770365afcc9322470d6e4910a"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 4,
+  "total_inputs": 65,
+  "unique_git_blobs_hashed": 64,
+  "limits": "Author operational evidence audit by an IE15 proof author; not an independent mathematical proof review. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}

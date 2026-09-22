@@ -1,0 +1,20 @@
+{
+  "id": 10679000327,
+  "node_id": "MDg6QXJ0aWZhY3QxMDY3OTAwMDMyNw==",
+  "name": "lean-IE-16",
+  "size_in_bytes": 26482,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679000327",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679000327/zip",
+  "expired": false,
+  "digest": "sha256:9b77e718da6b98a65afec6288900adb5f5d0ecf3c0dd880ab9aab76e1a731919",
+  "created_at": "2026-09-22T05:38:09Z",
+  "updated_at": "2026-09-22T05:38:09Z",
+  "expires_at": "2026-12-21T05:33:06Z",
+  "workflow_run": {
+    "id": 35691146159,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/consolidate-lean-20260922",
+    "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+  }
+}

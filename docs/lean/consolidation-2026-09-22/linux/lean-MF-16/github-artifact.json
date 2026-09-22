@@ -1,0 +1,20 @@
+{
+  "id": 10678851007,
+  "node_id": "MDg6QXJ0aWZhY3QxMDY3ODg1MTAwNw==",
+  "name": "lean-MF-16",
+  "size_in_bytes": 44613,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678851007",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678851007/zip",
+  "expired": false,
+  "digest": "sha256:baaa284e87fabf287c492c0efc3c9554d10ad6320b412e0088ca89a80d8b2b65",
+  "created_at": "2026-09-22T05:39:06Z",
+  "updated_at": "2026-09-22T05:39:06Z",
+  "expires_at": "2026-12-21T05:33:06Z",
+  "workflow_run": {
+    "id": 35691146159,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/consolidate-lean-20260922",
+    "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+  }
+}

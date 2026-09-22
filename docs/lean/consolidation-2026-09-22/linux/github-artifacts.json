@@ -1,0 +1,705 @@
+{
+  "total_count": 35,
+  "artifacts": [
+    {
+      "id": 10679655276,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTY1NTI3Ng==",
+      "name": "lean-MI-29",
+      "size_in_bytes": 20461,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679655276",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679655276/zip",
+      "expired": false,
+      "digest": "sha256:962589242914d31230cc5c4dbd0b1c56ebeef187ebcd09f03f68c2683125dbf9",
+      "created_at": "2026-09-22T05:43:37Z",
+      "updated_at": "2026-09-22T05:43:37Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679615807,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTYxNTgwNw==",
+      "name": "lean-PF-02",
+      "size_in_bytes": 16700,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679615807",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679615807/zip",
+      "expired": false,
+      "digest": "sha256:95e9de5a94845ff9edf796f32587f17c5de2d9cfeea4c0349a0298eccf77f5c8",
+      "created_at": "2026-09-22T05:49:19Z",
+      "updated_at": "2026-09-22T05:49:19Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679600446,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTYwMDQ0Ng==",
+      "name": "lean-RA-20",
+      "size_in_bytes": 79574,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679600446",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679600446/zip",
+      "expired": false,
+      "digest": "sha256:37b4c3eebc95eaa108ce912f1c635e1ddc3142e7faecb1250e0a759cb7193410",
+      "created_at": "2026-09-22T05:43:52Z",
+      "updated_at": "2026-09-22T05:43:52Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679505827,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTUwNTgyNw==",
+      "name": "lean-SP-04",
+      "size_in_bytes": 16926,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679505827",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679505827/zip",
+      "expired": false,
+      "digest": "sha256:033ece30770c043ac0d2cd94d07bd317ec6f9be1e32c13774bd6f368572c416a",
+      "created_at": "2026-09-22T05:47:17Z",
+      "updated_at": "2026-09-22T05:47:17Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679475865,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTQ3NTg2NQ==",
+      "name": "lean-MI-07",
+      "size_in_bytes": 22463,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679475865",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679475865/zip",
+      "expired": false,
+      "digest": "sha256:96131511cefa519e0a1d3c897cd5be7745aa53158a834a360bc9532060007491",
+      "created_at": "2026-09-22T05:48:43Z",
+      "updated_at": "2026-09-22T05:48:43Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679471139,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTQ3MTEzOQ==",
+      "name": "lean-MI-06",
+      "size_in_bytes": 22134,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679471139",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679471139/zip",
+      "expired": false,
+      "digest": "sha256:cc417ee5eb63847a8a6a61f0a0e215b139a4d457ccd5b987dd7440a17c99f057",
+      "created_at": "2026-09-22T05:51:37Z",
+      "updated_at": "2026-09-22T05:51:37Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679466673,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTQ2NjY3Mw==",
+      "name": "lean-MI-26",
+      "size_in_bytes": 25961,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679466673",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679466673/zip",
+      "expired": false,
+      "digest": "sha256:355d501e5cff49db0a23a7721d94aeee4052d57ee819a0cd375bc80a474e8fc6",
+      "created_at": "2026-09-22T05:49:30Z",
+      "updated_at": "2026-09-22T05:49:30Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679446117,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTQ0NjExNw==",
+      "name": "lean-RA-08",
+      "size_in_bytes": 56396,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679446117",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679446117/zip",
+      "expired": false,
+      "digest": "sha256:d54589cc2811c9d425b1f21d79dd063808d56b7c3db8ce7a412c9c84f403830e",
+      "created_at": "2026-09-22T05:43:48Z",
+      "updated_at": "2026-09-22T05:43:48Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679385582,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTM4NTU4Mg==",
+      "name": "lean-RA-09",
+      "size_in_bytes": 58558,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679385582",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679385582/zip",
+      "expired": false,
+      "digest": "sha256:e7b7000670c530c115f058819ea2ee45acb2f18c906b3fdf9acfb6cef4dad25f",
+      "created_at": "2026-09-22T05:38:50Z",
+      "updated_at": "2026-09-22T05:38:50Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679380917,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTM4MDkxNw==",
+      "name": "lean-IS-02",
+      "size_in_bytes": 17084,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679380917",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679380917/zip",
+      "expired": false,
+      "digest": "sha256:085a47d6d8932e607c748ee3c61e0fbf9989f230f556c4d2a2a3ccb298a40ae5",
+      "created_at": "2026-09-22T05:41:56Z",
+      "updated_at": "2026-09-22T05:41:56Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679375441,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTM3NTQ0MQ==",
+      "name": "lean-MI-19",
+      "size_in_bytes": 19342,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679375441",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679375441/zip",
+      "expired": false,
+      "digest": "sha256:b4b8605525da05e550a96fb84f4c27df090ce9a38fb3dddeb040fec78db5581b",
+      "created_at": "2026-09-22T05:42:10Z",
+      "updated_at": "2026-09-22T05:42:10Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679301109,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTMwMTEwOQ==",
+      "name": "lean-MI-23",
+      "size_in_bytes": 30812,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679301109",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679301109/zip",
+      "expired": false,
+      "digest": "sha256:5daa5d0c9b1c550f51cd3173955a8ebd937fb8eaf65ab20631078a7f0b7766a3",
+      "created_at": "2026-09-22T05:43:27Z",
+      "updated_at": "2026-09-22T05:43:27Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679265317,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTI2NTMxNw==",
+      "name": "lean-KE-05",
+      "size_in_bytes": 17797,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679265317",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679265317/zip",
+      "expired": false,
+      "digest": "sha256:52094d75f00497095f52784e4d325d519de6e77aa6f1b5d5bf2530a6b2ca6853",
+      "created_at": "2026-09-22T05:40:35Z",
+      "updated_at": "2026-09-22T05:40:35Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679250993,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTI1MDk5Mw==",
+      "name": "lean-KE-04",
+      "size_in_bytes": 94487,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679250993",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679250993/zip",
+      "expired": false,
+      "digest": "sha256:01b8c1dfa6b04d17c0baa3d42a5727bd9fda46f2fe2d883ceb2677289214f73d",
+      "created_at": "2026-09-22T05:48:27Z",
+      "updated_at": "2026-09-22T05:48:27Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679195556,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTE5NTU1Ng==",
+      "name": "lean-IS-03",
+      "size_in_bytes": 44992,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679195556",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679195556/zip",
+      "expired": false,
+      "digest": "sha256:ed68ac655bca6c50f206eefb03bd0f84921bd605839f4722a67b6b29938b439f",
+      "created_at": "2026-09-22T05:42:10Z",
+      "updated_at": "2026-09-22T05:42:10Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679186221,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTE4NjIyMQ==",
+      "name": "lean-IV-03",
+      "size_in_bytes": 17018,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679186221",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679186221/zip",
+      "expired": false,
+      "digest": "sha256:52e32de5fcceaa912f0219eabf854e21ff862b44e4690c60e7325c9f67b24d59",
+      "created_at": "2026-09-22T05:50:51Z",
+      "updated_at": "2026-09-22T05:50:51Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679138618,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTEzODYxOA==",
+      "name": "lean-NR-03",
+      "size_in_bytes": 25058,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679138618",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679138618/zip",
+      "expired": false,
+      "digest": "sha256:afa45fa72a16c12e005d1935b8a871592c922a401300ea6d3bddffd42a1f19ca",
+      "created_at": "2026-09-22T06:03:41Z",
+      "updated_at": "2026-09-22T06:03:41Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679121176,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTEyMTE3Ng==",
+      "name": "lean-IE-19",
+      "size_in_bytes": 22971,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679121176",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679121176/zip",
+      "expired": false,
+      "digest": "sha256:23428813f6fd466b276433ee83256dff816fd834047b4fcd3b1a5c02e37df0d5",
+      "created_at": "2026-09-22T05:49:52Z",
+      "updated_at": "2026-09-22T05:49:52Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679106719,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTEwNjcxOQ==",
+      "name": "lean-RA-07",
+      "size_in_bytes": 26057,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679106719",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679106719/zip",
+      "expired": false,
+      "digest": "sha256:9559af188c3268be8d024c82fda9690ad53ac1c9ab5b7df36e19decdce0d2f19",
+      "created_at": "2026-09-22T05:47:14Z",
+      "updated_at": "2026-09-22T05:47:14Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679076713,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTA3NjcxMw==",
+      "name": "lean-MI-08",
+      "size_in_bytes": 17060,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679076713",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679076713/zip",
+      "expired": false,
+      "digest": "sha256:828ea1ad515049c5441cac30ad47721bea0c23a23367a97f8121a68013613db5",
+      "created_at": "2026-09-22T05:46:56Z",
+      "updated_at": "2026-09-22T05:46:56Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679046171,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTA0NjE3MQ==",
+      "name": "lean-MI-22",
+      "size_in_bytes": 33637,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679046171",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679046171/zip",
+      "expired": false,
+      "digest": "sha256:440b2242433386c0d3508962109f81773c41711b08df77e3025d85783624e62b",
+      "created_at": "2026-09-22T05:41:01Z",
+      "updated_at": "2026-09-22T05:41:01Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10679000327,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3OTAwMDMyNw==",
+      "name": "lean-IE-16",
+      "size_in_bytes": 26482,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679000327",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679000327/zip",
+      "expired": false,
+      "digest": "sha256:9b77e718da6b98a65afec6288900adb5f5d0ecf3c0dd880ab9aab76e1a731919",
+      "created_at": "2026-09-22T05:38:09Z",
+      "updated_at": "2026-09-22T05:38:09Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678961648,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODk2MTY0OA==",
+      "name": "lean-SP-06",
+      "size_in_bytes": 17113,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678961648",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678961648/zip",
+      "expired": false,
+      "digest": "sha256:98cd52c75b33256ba885d670bf9c35cc9fcb56cbf5ebf468aa041810622711f8",
+      "created_at": "2026-09-22T05:45:53Z",
+      "updated_at": "2026-09-22T05:45:53Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678862175,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODg2MjE3NQ==",
+      "name": "lean-IE-05",
+      "size_in_bytes": 16833,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678862175",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678862175/zip",
+      "expired": false,
+      "digest": "sha256:7e38d849ece44807e696774b5c9f202684e2876fc41edbaf75f6986200e09024",
+      "created_at": "2026-09-22T05:49:16Z",
+      "updated_at": "2026-09-22T05:49:16Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678851007,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODg1MTAwNw==",
+      "name": "lean-MF-16",
+      "size_in_bytes": 44613,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678851007",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678851007/zip",
+      "expired": false,
+      "digest": "sha256:baaa284e87fabf287c492c0efc3c9554d10ad6320b412e0088ca89a80d8b2b65",
+      "created_at": "2026-09-22T05:39:06Z",
+      "updated_at": "2026-09-22T05:39:06Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678786727,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODc4NjcyNw==",
+      "name": "lean-RA-03",
+      "size_in_bytes": 18778,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678786727",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678786727/zip",
+      "expired": false,
+      "digest": "sha256:2b3eb6fc0718f32b54a10c4fbb70402c41167080719e427970e1c62482877998",
+      "created_at": "2026-09-22T05:44:56Z",
+      "updated_at": "2026-09-22T05:44:56Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678692024,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODY5MjAyNA==",
+      "name": "lean-IV-06",
+      "size_in_bytes": 37005,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678692024",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678692024/zip",
+      "expired": false,
+      "digest": "sha256:1f9c0ba9f60d438d3f3a0b997b9cf47477ef6d5cd4ff403ba59b954a17fc89db",
+      "created_at": "2026-09-22T05:47:06Z",
+      "updated_at": "2026-09-22T05:47:06Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678685923,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODY4NTkyMw==",
+      "name": "lean-IE-04",
+      "size_in_bytes": 18991,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678685923",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678685923/zip",
+      "expired": false,
+      "digest": "sha256:0b9bd2070490bbc932155c3d8f92b6ffb6d9eecbef6b87b8e7c5a7c1f46bb7b2",
+      "created_at": "2026-09-22T05:43:00Z",
+      "updated_at": "2026-09-22T05:43:00Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678651619,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODY1MTYxOQ==",
+      "name": "lean-TR-15",
+      "size_in_bytes": 30139,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678651619",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678651619/zip",
+      "expired": false,
+      "digest": "sha256:28c9903f040a2d8c94c3ec73503c86165f811e2a883c8b66c2c84a9b9dd59ac0",
+      "created_at": "2026-09-22T05:42:29Z",
+      "updated_at": "2026-09-22T05:42:29Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678611365,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODYxMTM2NQ==",
+      "name": "lean-MI-03",
+      "size_in_bytes": 14372,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678611365",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678611365/zip",
+      "expired": false,
+      "digest": "sha256:42476eed4cbe27b46879bc968f92ef328e83e781df8fb6f049acda6db43c3678",
+      "created_at": "2026-09-22T05:39:30Z",
+      "updated_at": "2026-09-22T05:39:30Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678576331,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODU3NjMzMQ==",
+      "name": "lean-MI-21",
+      "size_in_bytes": 20116,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678576331",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678576331/zip",
+      "expired": false,
+      "digest": "sha256:125d94089f0fcf720226ad32769106ecb136bc9714fc2de3bd2cd30645ad1893",
+      "created_at": "2026-09-22T05:46:53Z",
+      "updated_at": "2026-09-22T05:46:53Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678556924,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODU1NjkyNA==",
+      "name": "lean-IE-17",
+      "size_in_bytes": 16486,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678556924",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678556924/zip",
+      "expired": false,
+      "digest": "sha256:bc856e2d2eabed28d24eee2af45ce79adea77b7b41aea1c9a0f19eddc342b5c4",
+      "created_at": "2026-09-22T05:43:12Z",
+      "updated_at": "2026-09-22T05:43:12Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678531821,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODUzMTgyMQ==",
+      "name": "lean-IE-18",
+      "size_in_bytes": 18310,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678531821",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678531821/zip",
+      "expired": false,
+      "digest": "sha256:e934def9d0bdc3e181509dfa7abecab350f82b792e610caec8bedba6503acc67",
+      "created_at": "2026-09-22T05:41:46Z",
+      "updated_at": "2026-09-22T05:41:46Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10678498958,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3ODQ5ODk1OA==",
+      "name": "lean-IE-23",
+      "size_in_bytes": 32663,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678498958",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10678498958/zip",
+      "expired": false,
+      "digest": "sha256:57c2ef34839452f8658f4b762dc57e02d358b5f2e0fc9d5cb9540e7f6508e616",
+      "created_at": "2026-09-22T05:37:49Z",
+      "updated_at": "2026-09-22T05:37:49Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    },
+    {
+      "id": 10677674904,
+      "node_id": "MDg6QXJ0aWZhY3QxMDY3NzY3NDkwNA==",
+      "name": "lean-FR-12",
+      "size_in_bytes": 27437,
+      "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10677674904",
+      "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10677674904/zip",
+      "expired": false,
+      "digest": "sha256:fd292af2c4cf03e7a7e72b5df7e154ec3d9fc7595c6ff1170521c8982d92b104",
+      "created_at": "2026-09-22T05:38:11Z",
+      "updated_at": "2026-09-22T05:38:11Z",
+      "expires_at": "2026-12-21T05:33:06Z",
+      "workflow_run": {
+        "id": 35691146159,
+        "repository_id": 1367543810,
+        "head_repository_id": 1367543810,
+        "head_branch": "codex/consolidate-lean-20260922",
+        "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+      }
+    }
+  ]
+}

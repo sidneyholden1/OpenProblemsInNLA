@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS",
+  "base": "main after SP05mergec42692a",
+  "new_pr_merge": "853a814cd3d19cb5dbab899273307bf52ddd0376",
+  "previous_actual_tested_merge": "853a814cd3d19cb5dbab899273307bf52ddd0376",
+  "head": "6e73c239c8e4245d39529d2c9d699779db13db90",
+  "entire_git_tree_identical": true,
+  "tree": "1a4767d4848c14989b0d3d877dd507ad998afbc4",
+  "required_gates": "fresh publicationrun35694439919 plus permanentIDchecks passed at unchangedhead"
+}

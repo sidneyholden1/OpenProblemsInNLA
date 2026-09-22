@@ -20,3 +20,7 @@ Mathematical resolution: Matthew J. Colbrook, University of Cambridge.
 Original conjecture: Kalantarova and Tunçel. Formalization: Sidney Holden with
 OpenAI Codex assistance. No external human peer review or source endorsement
 is claimed. Subsequent publication checks are kept separately.
+
+## Publication accepted
+
+Fresh [publication run 35694283762](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35694283762) passed after documentation updates. The [separate publication artifact audit](publication-linux/AUDIT-RESULTS.json) verifies all 80 tracked inputs and 4 exports with the same kernel/rejection/isolation gates. Main merge: [c42692a15ea8](https://github.com/sidneyholden1/OpenProblemsInNLA/commit/c42692a15ea8fe0d76be8a4055d256e101624fe0). Proof-head acceptance above remains a distinct immutable record.

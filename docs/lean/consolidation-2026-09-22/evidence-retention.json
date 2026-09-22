@@ -1,0 +1,2298 @@
+{
+  "verdict": "PASS",
+  "date": "2026-09-22",
+  "role": "documentation overlay and byte-retention verification; no new Lean or repository tests executed",
+  "overlay_only": true,
+  "proof_source_edits": false,
+  "copied_files": {
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T055415Z.json": {
+      "source_sha256": "79e49ce97a1820f7fff2e2ca87f966bac9780ee88b7c1107ec6d6e9f57472950",
+      "bytes": 122324
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T054748Z.json": {
+      "source_sha256": "bae339468c78aa39a63f52d116b1097ad10714a264090f6f9c93cabcd435ff9c",
+      "bytes": 120092
+    },
+    "docs/lean/consolidation-2026-09-22/linux/AUDIT-RESULTS.json": {
+      "source_sha256": "8849e97d14e24ccbd90d82e32a3983dd4a83104e0cd54e837f5598f7516f3f26",
+      "bytes": 73243
+    },
+    "docs/lean/consolidation-2026-09-22/linux/latest-status.json": {
+      "source_sha256": "db2a91251b67045a38cebc8f33feee98d1799636e547df37283b12e39d52ffb1",
+      "bytes": 122608
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T054127Z.json": {
+      "source_sha256": "3cc01b92d37e72ede2158be22e00fa1820ca6cf7ccb437be900f04841bb09c03",
+      "bytes": 93055
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T055107Z.json": {
+      "source_sha256": "d41aaa1151b2673bf15472e7864de5682d9721fa3a29452f0e4117d2ea281322",
+      "bytes": 122045
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T054434Z.json": {
+      "source_sha256": "d23cff4d23d9650dcfe7ddcc0a0862d5524d6a11d96d199195a8f96aeb7c9efd",
+      "bytes": 118139
+    },
+    "docs/lean/consolidation-2026-09-22/linux/tested-harness.py": {
+      "source_sha256": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+      "bytes": 25732
+    },
+    "docs/lean/consolidation-2026-09-22/linux/downloads.json": {
+      "source_sha256": "ab65652b53c945db6e306f235f8a82065174e345a4be5ff8d88ef9fc61fd4f62",
+      "bytes": 6023
+    },
+    "docs/lean/consolidation-2026-09-22/linux/github-run.json": {
+      "source_sha256": "a7053862d608e9737d4e75bfb75086832d990d06bc682aeba1ba90a0dce5cdad",
+      "bytes": 15732
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T060407Z.json": {
+      "source_sha256": "db2a91251b67045a38cebc8f33feee98d1799636e547df37283b12e39d52ffb1",
+      "bytes": 122608
+    },
+    "docs/lean/consolidation-2026-09-22/linux/tested-workflow.yml": {
+      "source_sha256": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c",
+      "bytes": 5940
+    },
+    "docs/lean/consolidation-2026-09-22/linux/github-artifacts.json": {
+      "source_sha256": "2049635390430bd54a07142fb217770b83e2d9c55a7923c47bbe72a3904a3077",
+      "bytes": 31195
+    },
+    "docs/lean/consolidation-2026-09-22/linux/audit_run.py": {
+      "source_sha256": "fec832d4531b2e26bcc72b563c2bff2aab3c45164941babc67129f21b52ebca0",
+      "bytes": 8666
+    },
+    "docs/lean/consolidation-2026-09-22/linux/OPERATIONAL-REFEREE-1.md": {
+      "source_sha256": "5c26d8ceac8eed1f4138c44b6ee03cb24543a1edd47560cc9f9b35f51e07d2fa",
+      "bytes": 4158
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T055937Z.json": {
+      "source_sha256": "79e49ce97a1820f7fff2e2ca87f966bac9780ee88b7c1107ec6d6e9f57472950",
+      "bytes": 122324
+    },
+    "docs/lean/consolidation-2026-09-22/linux/redundant-main-cancellation.json": {
+      "source_sha256": "bd20239a05281dd931902483543e03d3b8889b35a7c6a52858954ec0b710c506",
+      "bytes": 533
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T060216Z.json": {
+      "source_sha256": "79e49ce97a1820f7fff2e2ca87f966bac9780ee88b7c1107ec6d6e9f57472950",
+      "bytes": 122324
+    },
+    "docs/lean/consolidation-2026-09-22/linux/status-20260922T060035Z.json": {
+      "source_sha256": "79e49ce97a1820f7fff2e2ca87f966bac9780ee88b7c1107ec6d6e9f57472950",
+      "bytes": 122324
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/github-artifact.json": {
+      "source_sha256": "152290aa1def95393f1d4aba60a03ed8d4d24252fa4dc99f6768a9872939df42",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/lean-RA-07.zip": {
+      "source_sha256": "9559af188c3268be8d024c82fda9690ad53ac1c9ab5b7df36e19decdce0d2f19",
+      "bytes": 26057
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "5ee71292efe9057e3641001aee32f3e2b0a8578fe809f14c104e3cbc519dd4a3",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/mathlib-cache.log": {
+      "source_sha256": "126dd21f3a6959da18e295479d3af51808d95a7db03a76b125c6c6e396e11c7a",
+      "bytes": 5677
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/result.json": {
+      "source_sha256": "d4a791c6bac3056e11cda9ee153ed9e08c36abf2c0d24e3a9bbc73dd86105d8b",
+      "bytes": 63629
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/comparator-controls.log": {
+      "source_sha256": "569b18c24e18d2809d96e7bada7fe80337f866c9c42adf5dc0e83ccabe09b3de",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/negative-native.log": {
+      "source_sha256": "bcb277d0d137dc2a7e7c9bbdad2106770008c9e3487b8e0d8786fdaf15464fc6",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/sandbox.log": {
+      "source_sha256": "c9f1e03aa134a6c931566a8ecbd759a80fc61ed2213daeecededce99fc1e62fb",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/comparator.log": {
+      "source_sha256": "63dd0493b04df5f451d610c5bae12cc3ede8fd377881cec79978053a80943a51",
+      "bytes": 4977
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/negative-sorry.log": {
+      "source_sha256": "5320395eb74edbc38755f131847aaa9b883dd1e064652e7a3a504a28d456aae0",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-07/artifact/verify-20260922T054331Z-4251/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/lean-IE-18.zip": {
+      "source_sha256": "e934def9d0bdc3e181509dfa7abecab350f82b792e610caec8bedba6503acc67",
+      "bytes": 18310
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/github-artifact.json": {
+      "source_sha256": "404ba9372c27700323b3ef34484a3bea4bc0525e5221540ffe400851e7132848",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/mathlib-cache.log": {
+      "source_sha256": "3127af7e9104cddcc36109549aa257320411fdb9d2eee8ea5fc8ebdcd354129a",
+      "bytes": 6260
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/result.json": {
+      "source_sha256": "30d6a41d95dfe9dc923bc0f71fcadc479be0e58938199b562f898a49d3ff408a",
+      "bytes": 13564
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/comparator-controls.log": {
+      "source_sha256": "b527bb5d87e687507ecb10c9d7132929ee6f4caad102fa4ea4f0ebc9c9f29235",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/negative-native.log": {
+      "source_sha256": "435e7a255adf53472215a5ef335fa8023a97701abcd715f5b45de6245ad3f7a5",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/sandbox.log": {
+      "source_sha256": "2d00de902ef9e46736c3d8676ad7daa6b36b5eaefd895a9465f9fe0af06614d3",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/comparator.log": {
+      "source_sha256": "d87318c8c76d3e03845de703b31673fb8bf44e4f3fb0aff8a118c3bc12a11257",
+      "bytes": 12206
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/negative-sorry.log": {
+      "source_sha256": "23b732d51ec12eda293300cfb7372e4d0b4e288525e5f53e34cc936cf408e580",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/verify-20260922T053450Z-3964/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "4b377ef6f279908f765d411addf03955fe3dd9a9194c5c6cc54c4a743336188d",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-18/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/lean-IE-16.zip": {
+      "source_sha256": "9b77e718da6b98a65afec6288900adb5f5d0ecf3c0dd880ab9aab76e1a731919",
+      "bytes": 26482
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/github-artifact.json": {
+      "source_sha256": "5b18947c77231c800e9da8c14c0c1a60b0da14ca07be13032ba9237696510065",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "cb8634dbc55f9286495372ed4bd67617afe8ddc85e7262888849696a6ccfab79",
+      "bytes": 796
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/mathlib-cache.log": {
+      "source_sha256": "d7c2c0396e22867c3b04ae14599ce2e06f80386e7bfba3aa17d87fda85fb5ca3",
+      "bytes": 9822
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/result.json": {
+      "source_sha256": "c737829764c73e283744b80520884b69a6356cd055c6f0308fa539730fade296",
+      "bytes": 52654
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/comparator-controls.log": {
+      "source_sha256": "49d6a72a15ee09ed302549547840a6d43ff138c3a131b672f91609d1c0e3f30d",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/negative-native.log": {
+      "source_sha256": "f1f5474203c40511242979df58703a5ed991b6cac9cf716bed17686e0703d235",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/sandbox.log": {
+      "source_sha256": "b882d963fa137c633f8d53242736cd964afcf6c164e070ce227c05d98eeca288",
+      "bytes": 4066
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/comparator.log": {
+      "source_sha256": "0b34558028fad446d9584c8ecea1276ce513f1048fe24239ba126b5b682e70dd",
+      "bytes": 10874
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/negative-sorry.log": {
+      "source_sha256": "4fe35554e1c02b59cbef54b64fb68304f9c16d77294ac58cac25be261a066f47",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-16/artifact/verify-20260922T053450Z-3942/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/lean-RA-09.zip": {
+      "source_sha256": "e7b7000670c530c115f058819ea2ee45acb2f18c906b3fdf9acfb6cef4dad25f",
+      "bytes": 58558
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/github-artifact.json": {
+      "source_sha256": "2df8d1e4ccb4a4d90fd27c195fd76602411d887ba3d1b093779380b9911bf4a9",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "cbb05908e6e37076110c8fb5a8f9262f733daffefc6f195bfe5c37d90f481612",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/mathlib-cache.log": {
+      "source_sha256": "c319a9e17757a6bf94bcc5c1ec17ccbc2efd063e0c04a0ce5f1a05cbcf792fc0",
+      "bytes": 6921
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/result.json": {
+      "source_sha256": "83188e26113f171a6b27d0eafce3b7ba62cb20b641301a5f424dce8be0db2189",
+      "bytes": 225953
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/comparator-controls.log": {
+      "source_sha256": "261b9b6af301382289b03cfc048f83326b26215806ce98c91f2ad281eeedc822",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/negative-native.log": {
+      "source_sha256": "831e0f42252c0de8339f84b1765fc5ad308a741eb56db0e3379a03f931f33315",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/sandbox.log": {
+      "source_sha256": "6e21aaf3d700a5b76fa3df75fe67838e7c3434889f54e555f44e91d12d6485c2",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/comparator.log": {
+      "source_sha256": "7b70aae472d50d80911ca6b59d7594e5009cd6497f82e501eba06df8e9d33966",
+      "bytes": 11706
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/negative-sorry.log": {
+      "source_sha256": "63c483f384e7da2efc59b26817004450f01643fbbdc3cdef9b6a80fa28522364",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-09/artifact/verify-20260922T053445Z-4172/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/lean-FR-12.zip": {
+      "source_sha256": "fd292af2c4cf03e7a7e72b5df7e154ec3d9fc7595c6ff1170521c8982d92b104",
+      "bytes": 27437
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/github-artifact.json": {
+      "source_sha256": "f5130dda0eb688fa41fae65a4f4630b3dcf3f9987373027bf0140758ed76ac03",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "9585801a15bf0fe6c252b7834f2cf704ebf7392a394b5fc3bc49f4d858f6e8e1",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/mathlib-cache.log": {
+      "source_sha256": "9d68425340e88f6c1ac6a4145c93250acd5d0d0db67c918c554b258a848f5dc2",
+      "bytes": 4053
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/result.json": {
+      "source_sha256": "2a50608b05db88be23b50964e6f7dc52cf24267ca50ea57a55ca56e45c8ec4c4",
+      "bytes": 67506
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/comparator-controls.log": {
+      "source_sha256": "5b476325c6a74fc2513e793771ce003b4771bc6d164bb39072b6518f1d4125b8",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/negative-native.log": {
+      "source_sha256": "7ef94ee69d86bae08377a20b93b211be361d8d4fee852e637a6bb7caafa77785",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/sandbox.log": {
+      "source_sha256": "1a54c813cde57c369a998bb5bee36595c22b45601a2fb63d48cc318b505b00cd",
+      "bytes": 4066
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/comparator.log": {
+      "source_sha256": "8b1818fa9e5a43de77589d49d641402818878633aa66a925d2ea5f5e9b42e536",
+      "bytes": 5186
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/negative-sorry.log": {
+      "source_sha256": "99de039da82374c9ca5cb7a91f2607a80d47e16301ff25af096aa1d885f4c973",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-FR-12/artifact/verify-20260922T053543Z-4102/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/lean-RA-08.zip": {
+      "source_sha256": "d54589cc2811c9d425b1f21d79dd063808d56b7c3db8ce7a412c9c84f403830e",
+      "bytes": 56396
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/github-artifact.json": {
+      "source_sha256": "4b2b2c1781c7bd8d218001158aa457b38d1568b64872d27068af0c3d4c7c7680",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "bf38a11047c3fd3db4ef1b98bba344d42618576c9e081c0c0b311db601efeced",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/mathlib-cache.log": {
+      "source_sha256": "38cf964547a6c39eb4aa38c09bba8dab3701b6586548e43baeff10fbc68d0344",
+      "bytes": 6659
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/result.json": {
+      "source_sha256": "5cb196821b23a6ef504dcaa77c130daeaffb92671f3ed6c607a0f8d35a9fd874",
+      "bytes": 263630
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/comparator-controls.log": {
+      "source_sha256": "784a46cb49fadb0a8fc32df55d91d88bc5924edfba2c8aba50c2f85f4e74ac3d",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/negative-native.log": {
+      "source_sha256": "e51cae635ec6e5ac35bbba9694e31d2ee331f8e46cea6317dafdc513d79596ce",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/sandbox.log": {
+      "source_sha256": "6898603b31d3935b0b0660c819eb16cfae267fdc67a2ea3a6526c39fb10b9f47",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/comparator.log": {
+      "source_sha256": "34ab1e7328b983c7e8b30836c5ed8fcf0f79812b6fb8182a196d089b10f8fe9f",
+      "bytes": 17527
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/negative-sorry.log": {
+      "source_sha256": "3382e4dc9ee718cc750dcc2f360694f68338a7b2079bd7a93cde9ce8810fb50d",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-08/artifact/verify-20260922T053541Z-4204/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/lean-IE-17.zip": {
+      "source_sha256": "bc856e2d2eabed28d24eee2af45ce79adea77b7b41aea1c9a0f19eddc342b5c4",
+      "bytes": 16486
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/github-artifact.json": {
+      "source_sha256": "9f41b64921804e984a5fddcc5223dff4972aebf3f44f6c2af046fbd293663001",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "4676ddd0e4b196fe866405f45bcb2be84c31fa462b0e2f44b1ba878342bbc211",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/mathlib-cache.log": {
+      "source_sha256": "b11af5d47725b167bf21055602d0bab31c796ad656568f0da37e079887ed00b9",
+      "bytes": 9285
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/result.json": {
+      "source_sha256": "542c2f659a5f3abd4a217813bb4b5e92cee2377cf5ece30eca63d1a162dc22f7",
+      "bytes": 13187
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/comparator-controls.log": {
+      "source_sha256": "1a4199494e54f64f3a541c74d5f33f5a91a1e486dbc583f05530ac13bfa6d465",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/negative-native.log": {
+      "source_sha256": "aa60ea5fc77948b77178b217babbee857366f829999fe0b68bccfcb4e57d03a9",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/sandbox.log": {
+      "source_sha256": "75829bb9a899c2ad0ad4adb723a938d86718d80d656b0ecbd67d1a177138c397",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/comparator.log": {
+      "source_sha256": "19f64b3547969525ac68117e64d7143ff8094931fe95d347aa5fc49cf9382d59",
+      "bytes": 8352
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/negative-sorry.log": {
+      "source_sha256": "ca18a9de3a9e90606318a3f799f388c275b4bf97ea2360b0662b324f42d701bd",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-17/artifact/verify-20260922T053543Z-4093/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/lean-IV-03.zip": {
+      "source_sha256": "52e32de5fcceaa912f0219eabf854e21ff862b44e4690c60e7325c9f67b24d59",
+      "bytes": 17018
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/github-artifact.json": {
+      "source_sha256": "e856d5f2c177159c5e7a42a3ca7ab04f71c8e2a3d0c23fa0bb9eabb1bc551e01",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "5f641c62ed30ffa3e398981d8af0f76f90b0045aa9084f4b9187af327345199d",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/mathlib-cache.log": {
+      "source_sha256": "c3542c81f50e498e087b5be8cb968d974e45d3e1a978443989724c1bcf6687d0",
+      "bytes": 5272
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/result.json": {
+      "source_sha256": "6af1d895ccbc7e11ce26bc323161f8f1b9c2cc73efdbe285b434b5e2f0a9a777",
+      "bytes": 9726
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/comparator-controls.log": {
+      "source_sha256": "531bbf98e51a93d12d5973e67113edff0f6a022bd580769a3c4d674f13a40e9c",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/negative-native.log": {
+      "source_sha256": "c40609383601d41a7a0445a2279f65558042137129a74fcbb0cf245edac9e319",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/sandbox.log": {
+      "source_sha256": "eb372f60dc17f38bb69f93b569a91f6777a5943f6087f9a0999856f8820127df",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/comparator.log": {
+      "source_sha256": "45e2727ffb2e09cf090f61143ed176c189d780a6e47e01c44caad5495713d24f",
+      "bytes": 13808
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/negative-sorry.log": {
+      "source_sha256": "c0e6a6bb61d07cd8dd20efbc10d6d0778675df516258ff60aa5fa7110ab5faeb",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-03/artifact/verify-20260922T054431Z-4172/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/lean-IE-19.zip": {
+      "source_sha256": "23428813f6fd466b276433ee83256dff816fd834047b4fcd3b1a5c02e37df0d5",
+      "bytes": 22971
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/github-artifact.json": {
+      "source_sha256": "eebe5c82ebef7ceada3c3eb87a3ce156c509a06882d0427f98e8cd61c7582cf3",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "dfa31f43533c0962594bfebfc18d20352f0da2c0355514901cc9db01f99a5a01",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/mathlib-cache.log": {
+      "source_sha256": "1784d6e7316ab7dd674881b951380ba09e729f3d9c79e61f58bd43db15320eb7",
+      "bytes": 7316
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/result.json": {
+      "source_sha256": "4a2acb39664beb49839588bba806d54ce2b7a9f3f3e74ec14e3c20df4cb44f3e",
+      "bytes": 34458
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/comparator-controls.log": {
+      "source_sha256": "0bf7a61fd0d22bdc4bacb5916af5706784f2110e16dc8ab0209f1f7dece0b71e",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/negative-native.log": {
+      "source_sha256": "94ff27a6f10022c171ecbcd8687ffd17d0bbadd40d3d764edd936518a90c9da1",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/sandbox.log": {
+      "source_sha256": "ea08880b7ffac892337b6310b27ef1195ffda2c5968242e6e48d75dbe6f4eb49",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/comparator.log": {
+      "source_sha256": "cbafd21d0baaebf95ec5912441c6b7a012bc74b308001aba9530686190843ed6",
+      "bytes": 12082
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/negative-sorry.log": {
+      "source_sha256": "b993d31e28ef72d126f582be57bdb4a57d878f7452fbd34f5bea3d17760d6717",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-19/artifact/verify-20260922T054302Z-4146/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/lean-MI-22.zip": {
+      "source_sha256": "440b2242433386c0d3508962109f81773c41711b08df77e3025d85783624e62b",
+      "bytes": 33637
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/github-artifact.json": {
+      "source_sha256": "a0903c0d569f22b17b1d363bc66332cb351b1cb2fe96275ebcb4081244be310b",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "94ab8220143d8a0fde23fa22944bdd8b2095b5cddfb837e77a2f752cd34f9e0d",
+      "bytes": 797
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/mathlib-cache.log": {
+      "source_sha256": "70269e7f5fd8b3f7a9ac526842ddc50ca5b4db585d95a9bede7e869bba2f7de4",
+      "bytes": 3395
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/result.json": {
+      "source_sha256": "d326d5385b76f1346f2e63f6cfff1c0fa50fbbbc82405d67d2a49bbda52dd2c0",
+      "bytes": 81974
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/comparator-controls.log": {
+      "source_sha256": "69834bce26e17e921ebc8e1c89e30a06a0ea3cc8f624d1c9917f8d190a0e66da",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/negative-native.log": {
+      "source_sha256": "d47e27802fb3fc4b9c195c45c383d6a9d8af8300cac5b40cda48187ce8ad9fb3",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/sandbox.log": {
+      "source_sha256": "add988dd657c3de5fc85c1a1b4d6dd2feb6fee074ab0df2a4505ea192211d313",
+      "bytes": 4066
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/comparator.log": {
+      "source_sha256": "d735a8bf9f7b5c9afe1787d8289239583d5d2a3367fb0e9ac9ba392be44e77fa",
+      "bytes": 11013
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/negative-sorry.log": {
+      "source_sha256": "c0caaffc9e7757a324906787199ed1a6a288e99a9921fd2c45fe56a3b115f755",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-22/artifact/verify-20260922T053506Z-3933/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/lean-IS-02.zip": {
+      "source_sha256": "085a47d6d8932e607c748ee3c61e0fbf9989f230f556c4d2a2a3ccb298a40ae5",
+      "bytes": 17084
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/github-artifact.json": {
+      "source_sha256": "198b1fb92e364d79d933b14670d87078b89e871b73d862bc05941b8318d80096",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "8efd24ee395407c485918c32d07fd432853ea4ee53ea1c4ce60036f6c4ccfd29",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/mathlib-cache.log": {
+      "source_sha256": "4512ee7eee6841b6bd6bf425f4b751e34b3386e7580e1ba3de01564ac286a7dc",
+      "bytes": 6839
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/result.json": {
+      "source_sha256": "354e97cf9f0e3b204461612c6e34f9d0a1d5487f5956fd1a1f146fc02c5c6eb0",
+      "bytes": 17792
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/comparator-controls.log": {
+      "source_sha256": "97461e8f6d5558e34230afec285d6b65d827ab7a78cd7abd6855594fbd5e2ea0",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/negative-native.log": {
+      "source_sha256": "faf13ac72fa4f2eae0dcde8174b389984705ebc1b601a1843dfef37dcebd44aa",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/sandbox.log": {
+      "source_sha256": "45c64187785d3bd7673b2c157db560a81f8114d4311dbdbb53a95653a13b31e7",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/comparator.log": {
+      "source_sha256": "9dbbb5924d74ba8943065bfbd1ed6af45939539d129842d5389bb298545b299d",
+      "bytes": 8188
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/negative-sorry.log": {
+      "source_sha256": "fced7a01dcc61d525aab7dd9d9ba5b22aa04cdda166ede8a9a6706b554972f4a",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-02/artifact/verify-20260922T053447Z-4262/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/lean-SP-04.zip": {
+      "source_sha256": "033ece30770c043ac0d2cd94d07bd317ec6f9be1e32c13774bd6f368572c416a",
+      "bytes": 16926
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/github-artifact.json": {
+      "source_sha256": "1676f0d38282cb239a828e90a525c453c06b40ba557113b92c9f1b0b8f4e115e",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "425deb9062f3514c4658e186232755cb61625b848c4677900ca71fcd599b1c73",
+      "bytes": 793
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/mathlib-cache.log": {
+      "source_sha256": "953a9bd86790c994aaaca738529a9a3e02fe46058036a11d5cd126385e029f49",
+      "bytes": 5276
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/result.json": {
+      "source_sha256": "d2444624c897c89660f6677a5dccf28ff5cf104b387e1512c87297740dcc8e42",
+      "bytes": 10311
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/comparator-controls.log": {
+      "source_sha256": "7f9c8c595a8b519fd7b7a4cc2e1ff5e8f00e7b854f21237b93575cf6523104c5",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/negative-native.log": {
+      "source_sha256": "4aa1e62a123c1b566992fb3f08e0f06cbd10781331fc90d50935651317e8cadc",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/sandbox.log": {
+      "source_sha256": "83de13fa0fdfece96fe152f7022858eb061982e8fd33eca7cf8c74f3426c5e17",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/comparator.log": {
+      "source_sha256": "66deebdea96ba3b8b0d05d0150190fa71dd8c8358a87b8d0a086ddb36304a9e9",
+      "bytes": 11804
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/negative-sorry.log": {
+      "source_sha256": "ae31177a42af2dcf92861adf34ceff795b6982b534d3fe34a372a0579c4fd624",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-04/artifact/verify-20260922T053926Z-4210/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/lean-NR-03.zip": {
+      "source_sha256": "afa45fa72a16c12e005d1935b8a871592c922a401300ea6d3bddffd42a1f19ca",
+      "bytes": 25058
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/github-artifact.json": {
+      "source_sha256": "11bb56d49729acf0879ea7a2e11a5a3720d9dc9a0c5dc8e3098b317d26b2b74d",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "dc1fa85401023f40151393327a747cf7d20a677f7d1b81674a05fad74aebf2c6",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/mathlib-cache.log": {
+      "source_sha256": "01fd9d97bab58c9949f6daaa6e5dc190ef3b21f87e8ff61d8624b7faffaa5fd9",
+      "bytes": 9018
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/result.json": {
+      "source_sha256": "9c7719b81e44c543d104ea9b07c6e8cc774713a8f101630b84bd0f597b3fde9f",
+      "bytes": 22761
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/comparator-controls.log": {
+      "source_sha256": "87f5ce4bdbd72b7983741f587a86c59f2eab82f39eb2e9e714e29f3ada38b203",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/negative-native.log": {
+      "source_sha256": "5f2cbbfaac596bb4b9f9b0feee647b059307fbb9ecd875a520df87ad86f61c9a",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/sandbox.log": {
+      "source_sha256": "6ab99540fb125e4643c319db07531d7a7fa171c904dc93809029c306d90343a9",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/comparator.log": {
+      "source_sha256": "39fd063c06345daea328d6be11aa22a696945d42afc2d85774ac521f6d6b1f4c",
+      "bytes": 70175
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/negative-sorry.log": {
+      "source_sha256": "106a41252a11d38c5b3432367ded6ead30ec2c95389231029a6e9832db2648d5",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-NR-03/artifact/verify-20260922T053451Z-4159/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/lean-MI-23.zip": {
+      "source_sha256": "5daa5d0c9b1c550f51cd3173955a8ebd937fb8eaf65ab20631078a7f0b7766a3",
+      "bytes": 30812
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/github-artifact.json": {
+      "source_sha256": "026e33e42746b33206e146e5432fca98c42a9779b653eaf07ea1409467822431",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "da4435a9786ed7b4fcce00fb042d3be7df6774a65502d6605db39fb191bd0e0f",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/mathlib-cache.log": {
+      "source_sha256": "b3a504c6ebc1d051852b7ae26bb79de809874a17fff2d5c0d4511a59ad6d26dd",
+      "bytes": 9071
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/result.json": {
+      "source_sha256": "1371a93df1b069093c8b78a4e01188a2322d10e02a20ec67ca75724b2de130cd",
+      "bytes": 67165
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/comparator-controls.log": {
+      "source_sha256": "1d782e34251911c8e6decba61ae6b6b55af7036bb4e3a7ebb68a016ec6e4f4a7",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/negative-native.log": {
+      "source_sha256": "7b28ef6680478afe23a20de009ae820a1b8dbe12d0fbc4727885b1c5c2c548a9",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/sandbox.log": {
+      "source_sha256": "277224168a10687541edde9b0044835805150bf4a86110f21773432bd2a7513f",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/comparator.log": {
+      "source_sha256": "fe1f9b16158b82a463873e890df8ab6fbc501a2b3c976639a6f8053169c00bc5",
+      "bytes": 16515
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/negative-sorry.log": {
+      "source_sha256": "06f2e0fbe11d4616e15752cef856e5ea3aa95d8f6ed315422561fabdcc319fd9",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-23/artifact/verify-20260922T053547Z-4163/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/lean-IS-03.zip": {
+      "source_sha256": "ed68ac655bca6c50f206eefb03bd0f84921bd605839f4722a67b6b29938b439f",
+      "bytes": 44992
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/github-artifact.json": {
+      "source_sha256": "d2a007ce1a4ac411ab9e605a0f91545afc1c6b9fac469cd84f7182ed302f91da",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "34f7b9daa6f9ac8c30e0c3e7c8134ce95275ded2d5e87194f8aac0edf7a9b9c9",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/mathlib-cache.log": {
+      "source_sha256": "2bf9f643b00471050f4f022f9cf3d7c76ab09ee76a16c8d1694eaed1f5971787",
+      "bytes": 8835
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/result.json": {
+      "source_sha256": "be79059a8c09396b0c41e1aa6822f4642ea6a0a44cecefcffdb9cd10ae5bcbf6",
+      "bytes": 135588
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/comparator-controls.log": {
+      "source_sha256": "4d03103388e48a654d80596ae79181cc428840add3425c0cbd47d3bbc39c43cb",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/negative-native.log": {
+      "source_sha256": "8b8bf61032e6e9f414f1bbbc36a0346d9b4dbb83669257b2abaa799bd14a0da3",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/sandbox.log": {
+      "source_sha256": "7f4f9e1d5b977d09d7bcca86d7007ada62f1c7e5103b532558a2fd316e3ab9ad",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/comparator.log": {
+      "source_sha256": "aa799b2bfca842a8e2893d5e00e2ec3fcb88bb1eab37d0ba1a0de27896d8a3c1",
+      "bytes": 10950
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/negative-sorry.log": {
+      "source_sha256": "f90808b1550911876dcd6edd178825f2893c21699b3e82708a9f1d8476733d7e",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IS-03/artifact/verify-20260922T053448Z-4142/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/lean-TR-15.zip": {
+      "source_sha256": "28c9903f040a2d8c94c3ec73503c86165f811e2a883c8b66c2c84a9b9dd59ac0",
+      "bytes": 30139
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/github-artifact.json": {
+      "source_sha256": "3bb3026ca5c98a2069c7c7587c5a4c66004ae2a5ba3989d7a9c86f8556301ec2",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "a719f5de9fc6e51795c0a49a9188b802b344b1232b85beef148777b2e4a638f6",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/mathlib-cache.log": {
+      "source_sha256": "ae2ab303880f553b3babff9d1c6bcab0decadc8d7d15b8b3eae8ef4b82cc36f9",
+      "bytes": 7757
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/result.json": {
+      "source_sha256": "bcb6fbdfb6d4dfbd080588dbf054e0a91b9ae2e7e48de12f8bd8d8dc856e2e41",
+      "bytes": 66967
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/comparator-controls.log": {
+      "source_sha256": "ca9721c49b2e70a515665eb064f1834e305925c9355a848618a1bd98558c4330",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/negative-native.log": {
+      "source_sha256": "f9edaa5251ea3dec5d617c5d4c4a109b76a82052e40ef2c6e2bd0233d7500ebe",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/sandbox.log": {
+      "source_sha256": "85deece73ee369a51d51034ff52ec7195f7f3656105d6d71cabce481c1d90292",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/comparator.log": {
+      "source_sha256": "2074479d651ea8cc5aee3a10a943712f4dc1b371025f5cb8cdac5c653d551081",
+      "bytes": 10299
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/negative-sorry.log": {
+      "source_sha256": "283d6b837ae12aadb8908f10fe2d0f46e3b3ff6099a85d6ed363a1ed9e833e32",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-TR-15/artifact/verify-20260922T053539Z-4163/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/lean-MI-08.zip": {
+      "source_sha256": "828ea1ad515049c5441cac30ad47721bea0c23a23367a97f8121a68013613db5",
+      "bytes": 17060
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/github-artifact.json": {
+      "source_sha256": "d7e7430b8352d2af09e1eecdf6bfefb0156c1913e0adab1b2fe396bad5927997",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "81a70d82550b3f63c995a08682db2e1e2c701013a3f58de4c48bf38c48902ff3",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/mathlib-cache.log": {
+      "source_sha256": "3a3eedf100180be5f809e909acb74a30859cd8f6d4d0dfcaa3223e59df47ccaa",
+      "bytes": 7493
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/result.json": {
+      "source_sha256": "57db979ba87ce4d7aa61a140b87cfdc29bcf1ff562e8490aa47386032a753424",
+      "bytes": 17280
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/comparator-controls.log": {
+      "source_sha256": "4d810e0b68ec5e3894495cd12e592cac2767713f717caee33ab05f46ca496b93",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/negative-native.log": {
+      "source_sha256": "d5341ac6d0e5d0130ec781062a1a3af111ab63a3c408da3785daa490f12992fc",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/sandbox.log": {
+      "source_sha256": "88eca4053b2d15ad24e5f2b19f3bf4eb6cb3906fce94a2c149566c2704426fe3",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/comparator.log": {
+      "source_sha256": "a1e4adb4bafa887f3bf548be61799154bfaafa1be2f9cd5a943c61b0b01d05fd",
+      "bytes": 8151
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/negative-sorry.log": {
+      "source_sha256": "892e1ae092421e2a19113eb047678940d1d776e3d50fb50012e28f793fb9bd28",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-08/artifact/verify-20260922T053955Z-4268/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/lean-MI-06.zip": {
+      "source_sha256": "cc417ee5eb63847a8a6a61f0a0e215b139a4d457ccd5b987dd7440a17c99f057",
+      "bytes": 22134
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/github-artifact.json": {
+      "source_sha256": "47f564fa7e17384c55bc0cddd33aa5a8581183a9cdad92364b3b4edcbb3f7539",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "d1e585384156370a61384cd1a44f281628ea6ac59dc30a687b966c1593788e3c",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/mathlib-cache.log": {
+      "source_sha256": "8f4ce9622a7b6f310bea17623cc7ebaf756e6a2516b411e62c8c372c29d38a04",
+      "bytes": 7242
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/result.json": {
+      "source_sha256": "4999275e65ece316f51855860ec8132a93c7083e8e61533b280170b475679bbe",
+      "bytes": 28108
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/comparator-controls.log": {
+      "source_sha256": "34f9a7a30d62c85c9b128654f97445b85a5d6b57df1b1f5017c2e1e71667de2a",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/negative-native.log": {
+      "source_sha256": "ffa3e47f4357596ee6d167eed45fa18b44f030ec429d354458b4431a647cae42",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/sandbox.log": {
+      "source_sha256": "2573bb44227397667b9b63e210b43ea50328a01e0527ee1637dcf4d79cc05d97",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/comparator.log": {
+      "source_sha256": "9d3408de80b682fa2c20f084dcbb462511327987c20367b6cd209ae8b08fcc20",
+      "bytes": 15816
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/negative-sorry.log": {
+      "source_sha256": "4f9fa24e11303545332baf44db4ad778ace92da9505bde90b4082a8c79430b38",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-06/artifact/verify-20260922T054404Z-4160/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/lean-MI-07.zip": {
+      "source_sha256": "96131511cefa519e0a1d3c897cd5be7745aa53158a834a360bc9532060007491",
+      "bytes": 22463
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/github-artifact.json": {
+      "source_sha256": "bbe94155a1dece8e2b64ea37e64a7370488fc5f5ecfb9ba772e39bcaf75a454b",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/mathlib-cache.log": {
+      "source_sha256": "27de257c5c6975083b23c9e73c2523b91be8fef6b2e81b6de236c89457778939",
+      "bytes": 7260
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/result.json": {
+      "source_sha256": "0f88a0e2f6157cc702aa46fe27174d8c9e605da495b21a021b197c1308d6963f",
+      "bytes": 31169
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/comparator-controls.log": {
+      "source_sha256": "d1bd9f4198cf5364864d97c2336b50ac82b50a872ced2636e269d728178998be",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/negative-native.log": {
+      "source_sha256": "39e33009d167c7b7b712ce004659f404ee04e2279759fd6488326592c70dbfaa",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/sandbox.log": {
+      "source_sha256": "28b19e2fd53bbc81f1b971fb51eda63e8fdce2ade3ea4013a7cd901c7702cf89",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/comparator.log": {
+      "source_sha256": "073ee097b30aea48ae88b2d0aef6d2fea9043798758cc1ff645fade788bb34c0",
+      "bytes": 11317
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/negative-sorry.log": {
+      "source_sha256": "7fda0644eeb60655a76749a8a083829354e988a322444d41a8da8a9439df16fb",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/verify-20260922T054037Z-4174/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "1b27987d1184cc332d33aee5c8b943943b0ead4e502a9d735d4b9d3c366ddeb7",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-07/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/lean-KE-05.zip": {
+      "source_sha256": "52094d75f00497095f52784e4d325d519de6e77aa6f1b5d5bf2530a6b2ca6853",
+      "bytes": 17797
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/github-artifact.json": {
+      "source_sha256": "621041261511b2c20597db49f2da6408fe712278aa6f80ccd3c46d006013f7b8",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "a1d820789e033cb79d1046494add213bea634fa1844c949369a79e9896ab1798",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/mathlib-cache.log": {
+      "source_sha256": "2962c2f34ee7b278acb1e79e2d6e2077882273967dd33adbc377798936eaff23",
+      "bytes": 6829
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/result.json": {
+      "source_sha256": "9adb5f38382a46e0b3eb8494677b8c57b848a81c502d2b121aa47fc0f2f6844b",
+      "bytes": 12030
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/comparator-controls.log": {
+      "source_sha256": "2ac54d9891dda1b22fabf7cb68a446d944ec3f6119c35d41383dd1436f3f7554",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/negative-native.log": {
+      "source_sha256": "373238ee967e40e9f0c04766ee738876c4fe27961f4f0ac8d5aef3841b45fdae",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/sandbox.log": {
+      "source_sha256": "3cf513474a7c2d1fc0c67c426bcbb2622499c0b4d6b965fd5d82ffb5795de3f1",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/comparator.log": {
+      "source_sha256": "cd3addbfd2a143ab468851c2c0902394166c6cce6a19e7053b7bf93c6cd6e377",
+      "bytes": 9393
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/negative-sorry.log": {
+      "source_sha256": "5c203da77f8c5502915c9bb29b88564e9153ceb7a683666a8a3bb99f9104b8af",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-05/artifact/verify-20260922T053543Z-4178/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/lean-IE-04.zip": {
+      "source_sha256": "0b9bd2070490bbc932155c3d8f92b6ffb6d9eecbef6b87b8e7c5a7c1f46bb7b2",
+      "bytes": 18991
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/github-artifact.json": {
+      "source_sha256": "1ba1eb416c7b5ca06580cc68ab8fda655054d02da386cc819e373feb1a12751b",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/mathlib-cache.log": {
+      "source_sha256": "bb4be3bd9f52864e3156044f89a49cab41a5aba6f14ea47646f4a872733ed08a",
+      "bytes": 7326
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/result.json": {
+      "source_sha256": "496990c7fcb989a304369f9170e6cb56844972258de560792ed1677cd8ad2d68",
+      "bytes": 13875
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/comparator-controls.log": {
+      "source_sha256": "891e98d7b6d04025d4bc10b46f10bee90a707e9abbe814273755e9dc7e85b8a3",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/negative-native.log": {
+      "source_sha256": "1a889457e30c4507e9469c7cc792cd691422f23487fc3e98aa0fe4bb501fd8c6",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/sandbox.log": {
+      "source_sha256": "a57bc82f33b18fe93e531b29d4d5bd05a99ecfddbdee96621d95dfe10c074b8c",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/comparator.log": {
+      "source_sha256": "9aa5cc18629802d0f196472daa683e20521e3ba9de9aa436f4812cbdf864fe7a",
+      "bytes": 11467
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/negative-sorry.log": {
+      "source_sha256": "53e19260111d132a51452dd1bb7268297998c546aa7625b083f2b7230e825267",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/verify-20260922T053445Z-4071/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "dcda7bcb14938c2692b9b65b776e9de2cfa1a29d5885ad88040e08109eb22858",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-04/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/lean-PF-02.zip": {
+      "source_sha256": "95e9de5a94845ff9edf796f32587f17c5de2d9cfeea4c0349a0298eccf77f5c8",
+      "bytes": 16700
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/github-artifact.json": {
+      "source_sha256": "3561c3a54668e03fbca6ae87bfa495df1e928793c9af41c760a6b9211c9c2ac5",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "44937ef5f997f1b8d49d65688a991bfbb119d1af88d80c64c04d02bd5a432e53",
+      "bytes": 796
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/mathlib-cache.log": {
+      "source_sha256": "212a98aa0f197ff207bfc8a5c01007752a5b48c06659a45a31bb0d3ff8240824",
+      "bytes": 9173
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/result.json": {
+      "source_sha256": "21017d548930710f00f48d05bc51f46bd15e8cdf7a6909079002214873f3c5fc",
+      "bytes": 8158
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/comparator-controls.log": {
+      "source_sha256": "15ff54b013590193b446485c1cd2198b822326091252ad6bb3d63ccb66c22421",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/negative-native.log": {
+      "source_sha256": "5ceaceb5bd77accb4db8509a7af986bbc9f11c5aa51046e15960bd716c3b751b",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/sandbox.log": {
+      "source_sha256": "e6800e6808b24747948347fd642b7a005ec152727d4a2956a277e1f79296a6e0",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/comparator.log": {
+      "source_sha256": "dee8c613468a457b9e8ee511af577f0738b3a13e9b77f4170b0560c1d7099d4b",
+      "bytes": 11076
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/negative-sorry.log": {
+      "source_sha256": "fed69b86792924480b490c9f4ce6c83b60dc317cb185ff545dee2a74d1c2757f",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-PF-02/artifact/verify-20260922T054309Z-4094/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/lean-KE-04.zip": {
+      "source_sha256": "01b8c1dfa6b04d17c0baa3d42a5727bd9fda46f2fe2d883ceb2677289214f73d",
+      "bytes": 94487
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/github-artifact.json": {
+      "source_sha256": "267a19e207522833f80b8527d64f64fbeb8b57302ab073b5514670a7ea4e573a",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "394724e408302e78323c29bc169a4968fcf19b2f4efc3f655e4140f4513dd541",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/mathlib-cache.log": {
+      "source_sha256": "081a151ee870247893bd4b37723962cf13640bd67c9f3af181d2c3a67d8e1c38",
+      "bytes": 5510
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/result.json": {
+      "source_sha256": "ab536a1c6a47d638f11be49d3f2eb87f2d65b0b6a443b5c67b1f4f07d4f8f17d",
+      "bytes": 665093
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/comparator-controls.log": {
+      "source_sha256": "424a6ff732eb280fec58dbaf33ae9b10f44703bf9cdd37ae253b290deeb86b83",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/negative-native.log": {
+      "source_sha256": "52101edc31e04ab34e35a7b35e0dd6aa06d2ac951454c2450303974964577624",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/sandbox.log": {
+      "source_sha256": "e809f9a5cfb0401a38b580f89b520e336c33cd28b8ddf04e67775808363e7d0b",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/comparator.log": {
+      "source_sha256": "9ce225d9290f8aa9cef29b86576cd3980dba817bcf26ce76c68073a98b6c9e37",
+      "bytes": 16665
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/negative-sorry.log": {
+      "source_sha256": "9ba55ca1f3057ee93a866d96efadbcca145a19753383d181b140658bbd6da195",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-KE-04/artifact/verify-20260922T054425Z-4129/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/lean-IE-05.zip": {
+      "source_sha256": "7e38d849ece44807e696774b5c9f202684e2876fc41edbaf75f6986200e09024",
+      "bytes": 16833
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/github-artifact.json": {
+      "source_sha256": "5ea68f23fd9edce399b1757526ecf5b73a6464ca93ebc76e6a676fa056176c6b",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "2f425f044b6919a9f70cd727a9f250951eb60c9fe4d6e4f43e11e66ab8db59c6",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "fddaebb73345274c62a6676a68d959f9ebc573ac991e0240ee276c887e44415b",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/mathlib-cache.log": {
+      "source_sha256": "9239299ee35fa428ac486a1ad11302ea6187f8a76b1654e9d74ad93f7b05b9a6",
+      "bytes": 9093
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/result.json": {
+      "source_sha256": "39443ee86259c09e8724578b5008414267a9d5cb4be1095ba5092096af752d24",
+      "bytes": 14639
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/comparator-controls.log": {
+      "source_sha256": "69a04abc0c0a65476e3ec348d700ccce31326389488fed5e4040d3ea31294ad0",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/negative-native.log": {
+      "source_sha256": "77223a31cffc9bc0b489136986ee514b8590f72378366874ab28c3bd59ed12ee",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/sandbox.log": {
+      "source_sha256": "89969f3b13a5b88e9d1c3d1a9546749c4d04698e79dd3cceba4b9cca5c3296ae",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/comparator.log": {
+      "source_sha256": "16d52c01d75324d3bf9032bafd2843f7c7bed048475152e2ac53538ee6068cbd",
+      "bytes": 8578
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/negative-sorry.log": {
+      "source_sha256": "a425dc430b179be2fc4457f81f7efa40e0e60759ee1fda0e18325b4047de96d6",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-05/artifact/verify-20260922T054208Z-4147/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/lean-RA-03.zip": {
+      "source_sha256": "2b3eb6fc0718f32b54a10c4fbb70402c41167080719e427970e1c62482877998",
+      "bytes": 18778
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/github-artifact.json": {
+      "source_sha256": "ec44b34aac5dc66458d580c8bc26068909ff98de282464c0e6a8100f732b7bfc",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "c3957785001fd26f652e91530082125dab2f34a6cdd6fe73801fe8d82036875d",
+      "bytes": 797
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/mathlib-cache.log": {
+      "source_sha256": "db4125c4df542681d57f0bd5e5b89d18b0e1ad9eff1833d28eb37157caf2fc62",
+      "bytes": 3473
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/result.json": {
+      "source_sha256": "ed35a303a1a017c7729c4f4a7058c8c3b3c49c6ff3c36872e45243af60c9f868",
+      "bytes": 19702
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/comparator-controls.log": {
+      "source_sha256": "dc9441cd385bbbb55d3dd942da205f2f4f239fc8900e9adeb2f537248bdf3f52",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/negative-native.log": {
+      "source_sha256": "e810a6d68df052db252e30b1df5b69063f3c914450e71687ec1060b5996d12b7",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/sandbox.log": {
+      "source_sha256": "dd54536fb01ec183d2e474286f757aa13946e5e35c7c93bf1fc6f150a27aae2d",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/comparator.log": {
+      "source_sha256": "a2f757d5d2dbf1359b264800f5df3328946011e287ace52b15b047b6b89ce7ab",
+      "bytes": 12868
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/negative-sorry.log": {
+      "source_sha256": "c21b1acbf9a539a9c5bfe06b144e10d613b68e98e12c2ce65f8932b995e4990e",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-03/artifact/verify-20260922T053910Z-4007/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/github-artifact.json": {
+      "source_sha256": "268cfb8b3fdfead55bafc1a48402531e706410c50052c197df8acccbc08976b3",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/lean-IE-23.zip": {
+      "source_sha256": "57c2ef34839452f8658f4b762dc57e02d358b5f2e0fc9d5cb9540e7f6508e616",
+      "bytes": 32663
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/mathlib-cache.log": {
+      "source_sha256": "9b07633027e7fe551152e01089a166b164efdca49c75aab1a088ea2dd180e5c8",
+      "bytes": 6670
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/result.json": {
+      "source_sha256": "4a4a3ab628e3708d0e77c704ec62ae2550e768fd9fe744f42c211e9491e1336e",
+      "bytes": 92720
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/comparator-controls.log": {
+      "source_sha256": "b72ead517f963a98014b4f15f74106ac3a87ab67678e800f6f595cba1942409d",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/negative-native.log": {
+      "source_sha256": "80041a26ff540366bccf5395386f944f13bed03cb221da3047366c824950f3f9",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/sandbox.log": {
+      "source_sha256": "a8d66be5c115509b713db21e420a52c1fb21e64fc97f432c016df34fff054d8a",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/comparator.log": {
+      "source_sha256": "1fbdb86a4e4772560f10a8ff2d8028a2fc28d058b6511c6154376ef22c8a7428",
+      "bytes": 5799
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/negative-sorry.log": {
+      "source_sha256": "ce2fdd61e37c67597ec7d38f4e7901e2f00bff5060a04694959a00da1314370a",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/verify-20260922T053447Z-4150/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "9eb76cd5171fd5701d1dac58b74568c9fabf038bbb2999bbec85ace87365390d",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IE-23/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/lean-IV-06.zip": {
+      "source_sha256": "1f9c0ba9f60d438d3f3a0b997b9cf47477ef6d5cd4ff403ba59b954a17fc89db",
+      "bytes": 37005
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/github-artifact.json": {
+      "source_sha256": "dfa54a38d8d11c20403f1edf537d71afb9990bda6e6b7b037b85b849ac95b47f",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "cdd87ce0b262ffdb56b2b3605b10a080c49644ac47fa2532bceb51d8babbe351",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/mathlib-cache.log": {
+      "source_sha256": "ee2c83d6f68767878103e4ec16c462e87e668c274adb2be843986db5fed1ce16",
+      "bytes": 7153
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/result.json": {
+      "source_sha256": "c23d6506b38d142fab88c3882c231c6ee88067282cf9348fc20f122501c7c7f4",
+      "bytes": 99911
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/comparator-controls.log": {
+      "source_sha256": "ec969bed54c5efe4d4645e5d4b53d2be4c7ea8b1d15bcc10ca03106a40fccf3f",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/negative-native.log": {
+      "source_sha256": "b4dce2d336b7c1bda2b75c93c5bbeb1be041a25b0457f389bdc39b14d62ee825",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/sandbox.log": {
+      "source_sha256": "40e9d3732dd4c7ee0d586b1b4f3552e0223c787dbbfe59a5c4c9f4bc6c6b49fd",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/comparator.log": {
+      "source_sha256": "24e2c4f29c2cda59311ea239caa1b789eb3ced5791b83775042424dd9529482e",
+      "bytes": 10759
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/negative-sorry.log": {
+      "source_sha256": "1fe5fc515726b93fc41a2ab086a1d53077168d7910e7c65abb591f1235f828da",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-IV-06/artifact/verify-20260922T054009Z-4276/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/lean-MI-21.zip": {
+      "source_sha256": "125d94089f0fcf720226ad32769106ecb136bc9714fc2de3bd2cd30645ad1893",
+      "bytes": 20116
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/github-artifact.json": {
+      "source_sha256": "c4fc7472786085cbcb938da77feb1fecc59b83dd1b32f48d02195110e5d810c5",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "bef861bc473f7ac1562aa90efcdd7b7f555f0b7f8180a317dace9c65b17d4235",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/mathlib-cache.log": {
+      "source_sha256": "20188522e5db9c1d007ec5b90c2c386efdcaf6535ffaa10fe1c71d84d3bd970e",
+      "bytes": 7964
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/result.json": {
+      "source_sha256": "30a771d1cbcaa8fe0adfb82a5fcb3051daf687bdf8cb35ae47f454ed25e70d88",
+      "bytes": 22900
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/comparator-controls.log": {
+      "source_sha256": "028345c0ff3e88dd0fb07fab628577052a7db9e5db28669be4223970872dc439",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/negative-native.log": {
+      "source_sha256": "55c9d4361e32a111623fe7156e0203972bc4d871263b7c9c7a839a0511f17015",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/sandbox.log": {
+      "source_sha256": "3a6973e764be0f57318c35b01bb817130aebf38411e8f4297d63c6b2d815b8ee",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/comparator.log": {
+      "source_sha256": "0a217df42bb4e8f912ea3d706c8c5ce496e54413fe2ee3b0d72f613f72780a2a",
+      "bytes": 9416
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/negative-sorry.log": {
+      "source_sha256": "23a3e8bad0f6166dfa821acf8b71b2d2101ffcd462a7333cdcb227da56815367",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-21/artifact/verify-20260922T053913Z-4204/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/lean-MI-26.zip": {
+      "source_sha256": "355d501e5cff49db0a23a7721d94aeee4052d57ee819a0cd375bc80a474e8fc6",
+      "bytes": 25961
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/github-artifact.json": {
+      "source_sha256": "976723d6154811a12ef72edf3737ebdbe4a4205ad004b89df2c740c2e3d30a5e",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "15badec26376af625240dbec4ca9997bcf3c4b5d554888457364419311fd8cd2",
+      "bytes": 796
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/mathlib-cache.log": {
+      "source_sha256": "21d99cedf0cc29b4f6008cb161d20285e8fba1e7c177277cf844b71a11a560a1",
+      "bytes": 8769
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/result.json": {
+      "source_sha256": "57d587231ce855599f88153f444dbf343fe4c0fc2210e6ae675de458587c5860",
+      "bytes": 59813
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/comparator-controls.log": {
+      "source_sha256": "dead2c5e066d49e2c0da924ebe5dafd3e1855f2557a215819b4fb968654a2841",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/negative-native.log": {
+      "source_sha256": "7755f359aa72000b7bd5a822cf9f8c5b35688a5d4b78743643eb7935e8478d3f",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/sandbox.log": {
+      "source_sha256": "3e185767707d647ba4652fb753317ce2f1e1e2d4ea88b857a0cda410d6bb565a",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/comparator.log": {
+      "source_sha256": "31d4bc9408ecb8fc3e75507d46c935a3536a4536cfd2b93f8219b35b75534165",
+      "bytes": 10323
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/negative-sorry.log": {
+      "source_sha256": "6d41dedc47191bad61399d25f6ca2b221b4cbf055195413c67d90e6b9743bcf8",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-26/artifact/verify-20260922T054324Z-3951/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/lean-MI-19.zip": {
+      "source_sha256": "b4b8605525da05e550a96fb84f4c27df090ce9a38fb3dddeb040fec78db5581b",
+      "bytes": 19342
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/github-artifact.json": {
+      "source_sha256": "e5985644f767111ccd53b39f0ff7a3a8490e5802b1429457d22d710cf61ff544",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "db32c60d362df1f69c3b949cb476a0561e0c0b392bb153697168e1fc1296f50e",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/mathlib-cache.log": {
+      "source_sha256": "2f0d389a1fe957d5da396d3a5de41cbc4e59ae4d84b579680cb7e49fc84722f7",
+      "bytes": 6258
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/result.json": {
+      "source_sha256": "4fbda7fdb1e214c256de8f63269433d95404d17a06b4c3ec24dbdfc809e73b5b",
+      "bytes": 21984
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/comparator-controls.log": {
+      "source_sha256": "8e8fbdb4a38fbb2c7c44271cdc0e067509e7df127b12a335f128caf30f3a3a65",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/negative-native.log": {
+      "source_sha256": "05f0252ab8ad3b0469e17d8d09ba36e598871eef9b1461d41041fe193861a044",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/sandbox.log": {
+      "source_sha256": "30e31cc301d1889e3e98f18b99b06d0c28e5b161cd6cc37c40590b6e63914117",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/comparator.log": {
+      "source_sha256": "3f1e990dea401537a9925221b13afc2e6689d1d02353c9ecccf50df070d69348",
+      "bytes": 11962
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/negative-sorry.log": {
+      "source_sha256": "b0f808e61466df92e84c220b28a0a7426ee62bf7506c0a1f9a092698598ccaab",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-19/artifact/verify-20260922T053540Z-4197/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/lean-SP-06.zip": {
+      "source_sha256": "98cd52c75b33256ba885d670bf9c35cc9fcb56cbf5ebf468aa041810622711f8",
+      "bytes": 17113
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/github-artifact.json": {
+      "source_sha256": "4fc3beae1362eae78097fbeb0b8a4e0d72aee0dcc5d0eca2e7852ea6ec4d3288",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "f3e71019d966b76577f77e7a79783ad53f09766de65092c404bb102cad62e4b3",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/mathlib-cache.log": {
+      "source_sha256": "a61b1d45805d0e3e04a2a42a971256e395edc9875b789a8ace2b4cfe642c58c1",
+      "bytes": 7412
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/result.json": {
+      "source_sha256": "f1bba9946646c7af89e966d8e9783dcc49b05a7636b006de678aa77394ec5032",
+      "bytes": 15263
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/comparator-controls.log": {
+      "source_sha256": "bc1d09ca7661575a80ad682defc42fef427970af80147d561d83d9ec20a3bd58",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/negative-native.log": {
+      "source_sha256": "6894a231ec2a2ece8a5e386e19cbafea3bbf6af017979cde5e8719a0b342398f",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/sandbox.log": {
+      "source_sha256": "a1f52f9d7c3c8bf76a4d2783eb2d807742b0a28c4e711e4740679a8dc3034478",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/comparator.log": {
+      "source_sha256": "1c299c6e88c5bd2ccd87727da142a5fb14f7bdd093645d53efff83a48e992fa2",
+      "bytes": 5052
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/negative-sorry.log": {
+      "source_sha256": "a183faf1a9aff60b05462d35fab4c2e49484f6335a51bb253e37c2086b3ea456",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-SP-06/artifact/verify-20260922T054312Z-4169/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/github-artifact.json": {
+      "source_sha256": "7c85a250c53cfa803ff695c8b4735954d556b84e5e8fc0a2dce9dabc1539aba2",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/lean-MI-29.zip": {
+      "source_sha256": "962589242914d31230cc5c4dbd0b1c56ebeef187ebcd09f03f68c2683125dbf9",
+      "bytes": 20461
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "409396dfe29f4ce4d431b449009730c85989e72ae329361fbd1f3bf71ecd6fbd",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/mathlib-cache.log": {
+      "source_sha256": "e944cd739f46db3a2de3c0ae5dc2fc8bda4ad093cc55de269960756f5c43b242",
+      "bytes": 7816
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/result.json": {
+      "source_sha256": "34ccce75156525ea306c795394c5fad61ff4cd8a689bf4eb6071976753a14e15",
+      "bytes": 24431
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/comparator-controls.log": {
+      "source_sha256": "fb4acd12465c21f20b6a1601b11787117fdba593866eca816c18541f69cdd45d",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/negative-native.log": {
+      "source_sha256": "7fc853c6a9f0f50da43adf9d853f610af2035e1aa1472561a1d8925f1c07ab37",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/sandbox.log": {
+      "source_sha256": "a0b7f6259851651e8ebf5788539a60697743bac32013ee8a3784537d8ee74f81",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/comparator.log": {
+      "source_sha256": "e374b0d3b01f7325021a51d4b06c0d017e9753527a9cad5ee518883d68518e06",
+      "bytes": 10080
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/negative-sorry.log": {
+      "source_sha256": "9dde5dddd1093e2b95f3e6b4756a55fb5c4f0804d0d767f8243b208c398425df",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-29/artifact/verify-20260922T053548Z-4152/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/lean-MI-03.zip": {
+      "source_sha256": "42476eed4cbe27b46879bc968f92ef328e83e781df8fb6f049acda6db43c3678",
+      "bytes": 14372
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/github-artifact.json": {
+      "source_sha256": "100c6cb7687aafbb95a1ec505bb11cd736f0df9a53ee0b5c36473919d6841caa",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/mathlib-cache.log": {
+      "source_sha256": "d1acb2c8b29e6d2d35782e40a63ab8dad9f7c55205d06d73e561c5b90ca1c304",
+      "bytes": 5359
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/result.json": {
+      "source_sha256": "e20e511a2048327557948bb175fe1b146004511952dc912727229f6230796ba3",
+      "bytes": 11615
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/comparator-controls.log": {
+      "source_sha256": "3a9b77389829c61f7792efe362dd958efbd5591166f2b240bf9fbac7e40354d9",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/negative-native.log": {
+      "source_sha256": "7c75204c724bd1a05a2b12ebf0dcd2c602fd45afe02fdf9d1e776a074d227802",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/sandbox.log": {
+      "source_sha256": "9863d2ee7e8adc3ff463a5ceacf82d5f50a06ced09db864386d8c7282b15ca12",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/comparator.log": {
+      "source_sha256": "3ece7b7091d368c469e1e65ac3fc6cb36dfc266a9a19cac2bcc1292aa7ceb8f5",
+      "bytes": 3132
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/negative-sorry.log": {
+      "source_sha256": "2e1d85e7b0ae9a8d79e86c4918beb1a2c23c496066c8b5cf352d77351d56cc55",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/verify-20260922T053443Z-4135/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "911683036d1d0d1909cd907a62fccacc4d4d41a626bc1bfeb1ae17fde90659d7",
+      "bytes": 794
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MI-03/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/lean-MF-16.zip": {
+      "source_sha256": "baaa284e87fabf287c492c0efc3c9554d10ad6320b412e0088ca89a80d8b2b65",
+      "bytes": 44613
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/github-artifact.json": {
+      "source_sha256": "d3732046af9ea36b1208feb97e1a699fe452298b93c543120907d89d48e8e0ca",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "f67fc0cba2bb6b97e1df60d67aeb6f98654f8de6c2608eca81cf0be652417ce3",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/mathlib-cache.log": {
+      "source_sha256": "5c56982ff87de888fdc03313b01a9873d8e73181c4239e9a33f8c64ee4f53d54",
+      "bytes": 3892
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/result.json": {
+      "source_sha256": "ce715225ada98b97d75c7ef52d44948b63ee4b94fc966115dfac732c995354b2",
+      "bytes": 144048
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/comparator-controls.log": {
+      "source_sha256": "48a6d780fe6e6137512a7d3cc9850b873f4bda1f4ff44d909289258e0c703d33",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/negative-native.log": {
+      "source_sha256": "9f911dbd762d5d4071e7967fa5cb2d82e1210d08e7f8af6a2970693383fbeb14",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/sandbox.log": {
+      "source_sha256": "94dd95dbf61181d08c33def61d1d7b7564d91533b770c0e4fbfecd6d48176b15",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/comparator.log": {
+      "source_sha256": "23493749bdcd4892087cdc898735f43dfbd537c95457b0aa3229ff0a27d6a337",
+      "bytes": 8643
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/negative-sorry.log": {
+      "source_sha256": "7b9eb878b150b02698a8d736afdeda3dca4a238e9ed2856a584569c33ae2f4af",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-MF-16/artifact/verify-20260922T053442Z-3980/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/lean-RA-20.zip": {
+      "source_sha256": "37b4c3eebc95eaa108ce912f1c635e1ddc3142e7faecb1250e0a759cb7193410",
+      "bytes": 79574
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/github-artifact.json": {
+      "source_sha256": "c65569d6aaf42bbc582aa1b69673dd30a6e50a4f5f639b5061d77f3f7c5cba78",
+      "bytes": 809
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "c85d960ae81a46ee57c706f2a547a35817ea89f1245f3567f8a02f618ff67060",
+      "bytes": 795
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/mathlib-cache.log": {
+      "source_sha256": "85f881d0df1eb8fcce8c33d7799395af83c13775364354b441739e9b062cccaa",
+      "bytes": 6756
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/result.json": {
+      "source_sha256": "214b574151eebdd250531283d0860fd6d63d87ef33eb92648bfc78f770196890",
+      "bytes": 263018
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/comparator-controls.log": {
+      "source_sha256": "7c2250b40aa7e2e3900ee38c06c1bec616b43ac7d6a5250d47e2222458c07b16",
+      "bytes": 6680
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/negative-native.log": {
+      "source_sha256": "20511bd3498ea70a1d6a98807ab4dec3dbf17ac7e22fa030abd6b636d204c719",
+      "bytes": 2475
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/sandbox.log": {
+      "source_sha256": "d21a1d91fcd28dee3bb654deb9340bcb3a61f396f31acb0384f81ff63d5db58d",
+      "bytes": 4117
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/comparator.log": {
+      "source_sha256": "8f333805d1e3d15f6ee0e1053eb1eff3dd69e3273c95e2c05a8f665aad77afb1",
+      "bytes": 12512
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/negative-sorry.log": {
+      "source_sha256": "3291e83db63ad655356c8d32d09b018e759666b2ae020851c4cd23defcf0da12",
+      "bytes": 2499
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/consolidation-2026-09-22/linux/lean-RA-20/artifact/verify-20260922T053917Z-4155/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/status-20260922T055824Z.json": {
+      "source_sha256": "04cad05f02a886a8d2099fe1ffacb37ed256b453cd3098b25fdd0c821dddd743",
+      "bytes": 6154
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/status-20260922T060041Z.json": {
+      "source_sha256": "f459b44301665e26ae8642db3393ef1cb8d5e0413cf3b31aa224d9af206308ac",
+      "bytes": 6438
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/AUDIT-RESULTS.json": {
+      "source_sha256": "0d82dce345c5a13e336261df470173697a3c59c37396cb87a217918691e3a11e",
+      "bytes": 2390
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/latest-status.json": {
+      "source_sha256": "f459b44301665e26ae8642db3393ef1cb8d5e0413cf3b31aa224d9af206308ac",
+      "bytes": 6438
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/downloads.json": {
+      "source_sha256": "74c753ab4ef82c221eca771830bfd9235ef323d16018e71dd2dbb52ea2446ee3",
+      "bytes": 175
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/github-run.json": {
+      "source_sha256": "51e07c447a6b334fe9d43a11c71d22f8a416df8eff9025c286b8548baac3ca93",
+      "bytes": 15779
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/github-artifacts.json": {
+      "source_sha256": "b3b9ad92e0aadc584c6a760b893e7bc91fd0a338c5f57cbe5d559faf75b97510",
+      "bytes": 929
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/status-20260922T055719Z.json": {
+      "source_sha256": "ff8a5958657aa3565e4a1be373f5be3408702e9b980977d39a00a6e728bbe0a5",
+      "bytes": 6145
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/audit_run.py": {
+      "source_sha256": "b45e52e23cfa3c2750db78b5010a40077c9915009526aa0a215f64986832e34c",
+      "bytes": 8833
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/lean-IE-15.zip": {
+      "source_sha256": "d0c0f6a815c95fa77bd1f298f36b9251c89f37226fceb5d7b3bb23cf804900da",
+      "bytes": 15435
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/github-artifact.json": {
+      "source_sha256": "b1aba6309ae5d9b9fd44144842c8d6c60a7a5640430258d5b95089775dcc303b",
+      "bytes": 804
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/bootstrap/comparator-build.log": {
+      "source_sha256": "1d28d84c4a0bb700ffc29239cb179eb42e6d77cc5c89426d81a6461908db27ca",
+      "bytes": 795
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/bootstrap/landrun-build.log": {
+      "source_sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "bytes": 349
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/bootstrap/elan.log": {
+      "source_sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "bytes": 129
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/mathlib-cache.log": {
+      "source_sha256": "a1f4861bbe684036241fde395e261a528b21986770365afcc9322470d6e4910a",
+      "bytes": 8694
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/dependencies.log": {
+      "source_sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "bytes": 1570
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/result.json": {
+      "source_sha256": "18cd4c720f7e98aeb70bde4bc10b34b79ddb08a15b85b168d64bfaae102b79db",
+      "bytes": 8815
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/comparator-controls.log": {
+      "source_sha256": "9da50d9df3ab332397ff3647dc65555e84eec398c160d70888ec4a41076ace2d",
+      "bytes": 6680
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/negative-native.log": {
+      "source_sha256": "223e5ed3710394bf453a4ec964b3f97949f74a3acc3858b46045dba19e26ab1c",
+      "bytes": 2475
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/sandbox.log": {
+      "source_sha256": "cc6d13caf6623c5c924c41fee74a5ef6d44d8a77732a903a336520f091896dc6",
+      "bytes": 4117
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/comparator.log": {
+      "source_sha256": "9053e0621f2b8c0586cd48510754370ab2014ced489314e05d585b867c7579e6",
+      "bytes": 3799
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/negative-sorry.log": {
+      "source_sha256": "4d9d47b17652174f84a054d31fe43e5609c139067469d81a80c305f8b52d5fe6",
+      "bytes": 2499
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/kernel-controls.log": {
+      "source_sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "bytes": 1322
+    },
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/lean-IE-15/artifact/verify-20260922T055742Z-3948/user-service.log": {
+      "source_sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "bytes": 1273
+    }
+  },
+  "copied_file_count": 568,
+  "copied_bytes": 6650593,
+  "source_consolidation_readme_sha256": "c02b89966d2c379f428767489536638451adbba232a3131d4a05543d321434a7",
+  "publication_test_log_sha256": {
+    "docs/lean/verification-2026-09-22/IE-15/publication-tests.log": "927c99d011bc798a1d50eacbbaad11c80b10344103623dc9c47c5aec43f849a8",
+    "docs/lean/verification-2026-09-22/SP-05/publication-tests.log": "9b2e6640b36eb71a5fcc4279a4aecf430d5ea7abdcec8e562506394bbc5d058e",
+    "docs/lean/verification-2026-09-22/MF-02/publication-tests.log": "c6adc348aa2566be3ecea6aa3c549b0c842786849a752fe8f95ef9b3cc53a6a2"
+  },
+  "independent_integration_operational_report": "5c26d8ceac8eed1f4138c44b6ee03cb24543a1edd47560cc9f9b35f51e07d2fa",
+  "integration_audit": "8849e97d14e24ccbd90d82e32a3983dd4a83104e0cd54e837f5598f7516f3f26",
+  "ie15_publication_audit": "0d82dce345c5a13e336261df470173697a3c59c37396cb87a217918691e3a11e",
+  "limits": "Files preserve absolute historical collector paths as provenance. Original audit scripts may need path arguments adjusted for another checkout; retained hashes and original artifacts are unchanged. 39-count milestone is conditional on separate SP05 and MF02 publication merges.",
+  "updated_readme_hashes": {
+    "docs/lean/consolidation-2026-09-22/README.md": "838ab37170ec7515ac18984fed644fa0e473d4a6519747250ca67548b701dc39",
+    "docs/lean/verification-2026-09-22/IE-15/publication-linux/README.md": "b094150dede1eca41cd6d3aac787e07354ab4bcfea85746dee9bd85b954d7aab"
+  },
+  "relative_links": "PASS against overlay plus MF02 publication tree; original evidence links remain preserved."
+}

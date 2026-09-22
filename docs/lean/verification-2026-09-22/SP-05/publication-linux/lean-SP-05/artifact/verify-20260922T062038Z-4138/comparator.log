@@ -1,0 +1,70 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-j05jyp6v/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2644/2646] Built NLA.SP05.Definitions (1.9s)
+⚠ [2645/2646] Built Challenge (1.6s)
+warning: Challenge.lean:8:8: declaration uses `sorry`
+warning: Challenge.lean:15:8: declaration uses `sorry`
+warning: Challenge.lean:24:8: declaration uses `sorry`
+warning: Challenge.lean:34:8: declaration uses `sorry`
+Build completed successfully (2646 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.SP05.vectorization, NLA.SP05.psd_minimizer, NLA.SP05.sector_minima_attained, NLA.SP05.symmetric_skew_minimum, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3520/3532] Built LeanCert.Tactic.Verification (1.0s)
+✔ [3521/3532] Built NLA.SP05.InversePositive (2.5s)
+✔ [3522/3532] Built NLA.SP05.Geometry (2.3s)
+✔ [3523/3532] Built NLA.SP05.InverseOperator (4.0s)
+✔ [3524/3532] Built NLA.SP05.Realification (4.4s)
+✔ [3525/3532] Built NLA.SP05.SectorMinima (4.4s)
+✔ [3526/3532] Built NLA.SP05.ConeEigen (4.5s)
+⚠ [3527/3532] Built NLA.SP05.SpectralMaximum (2.7s)
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3528/3532] Built NLA.SP05.Comparison (2.6s)
+⚠ [3529/3532] Built NLA.SP05.ComplexMinimum (2.4s)
+warning: NLA/SP05/ComplexMinimum.lean:19:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:22:17: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_smul_comm, mul_one, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/SP05/ComplexMinimum.lean:44:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3530/3532] Built NLA.SP05.Minimum (2.3s)
+warning: NLA/SP05/Minimum.lean:60:67: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.map_apply, Complex.sub_re, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [3531/3532] Built Solution (2.1s)
+info: Solution.lean:49:0: 'NLA.SP05.vectorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:50:0: 'NLA.SP05.psd_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:51:0: 'NLA.SP05.sector_minima_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:52:0: 'NLA.SP05.symmetric_skew_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3532 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.SP05.vectorization, NLA.SP05.psd_minimizer, NLA.SP05.sector_minima_attained, NLA.SP05.symmetric_skew_minimum, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0

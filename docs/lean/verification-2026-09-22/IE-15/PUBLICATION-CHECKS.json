@@ -15,5 +15,14 @@
     "visual_review": "Both final full pages inspected; no clipping/overlap; original statement kept together",
     "sha256": "57689681f40d77b9a24f833f7ae391f38b4c8b7532e1edd655b7269bb29d6d60"
   },
-  "publication_CI": "pending; separate from immutable accepted proof"
+  "publication_CI": "pending; separate from immutable accepted proof",
+  "publication_ci": {
+    "verdict": "PASS",
+    "run": 35692678154,
+    "head": "03ae379de693688ca1e43e30e570226d5e06bdb3",
+    "main_merge": "736845bcf6613cad598ff0c75a65f3604d6fe918",
+    "artifact_audit": "publication-linux/AUDIT-RESULTS.json",
+    "all_inputs": 65,
+    "all_exports": 4
+  }
 }
