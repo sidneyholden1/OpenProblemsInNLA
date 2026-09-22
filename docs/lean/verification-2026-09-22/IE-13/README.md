@@ -28,7 +28,7 @@ pre-publication wrapper. The complete original target and historical source
 notice remain verbatim in the canonical page, and the manuscript is unchanged.
 Reviewed proof metadata is retained in `reviews/proof-review-snapshot`;
 statement metadata in `reviews/statement-original` within the Lean project.
-[Local publication checks](PUBLICATION-CHECKS.json) pass: 77 repository tests, 17 permanent-ID tests and 11 targeted renderer tests. Both pages of the regenerated PDF were visually inspected; all 217 IDs and original target text are preserved. The publication-head Linux run remains a separate pending gate.
+[Local publication checks](PUBLICATION-CHECKS.json) pass: 77 repository tests, 17 permanent-ID tests and 11 targeted renderer tests. Both pages of the regenerated PDF were visually inspected; all 217 IDs and original target text are preserved. The [publication-head Linux run](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35704459118), attempt 1, also passed: all 110 tracked inputs, four exports, default kernel and every rejection/isolation control. Original artifacts and the separate [operational audit](publication-linux/OPERATIONAL-REVIEW-ROOT.md) are retained.
 
 Mathematics: Matthew J. Colbrook, University of Cambridge; Higham retains
 original-problem credit. Formalization: Sidney Holden with OpenAI Codex
