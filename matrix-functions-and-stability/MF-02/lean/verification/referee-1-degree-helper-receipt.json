@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS",
+  "role": "implementation and local verification by author /root/iv06_statement_referee_1; not independent final review",
+  "date": "2026-09-22",
+  "file": "NLA/MF02/DegreeError.lean",
+  "sha256": "4f62030fa5147ecf4aed747fcdd243e37d509570a00cf767374138e77a934fba",
+  "build_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake build NLA.MF02.DegreeError",
+  "build_exit_code": 0,
+  "build_jobs": 3016,
+  "build_log": "verification/degree-error-build-final.log",
+  "build_log_sha256": "c6e8a0e786b614b9e063885cd0326fd37287087d90c5634fc9b95d1cd7724bf7",
+  "declaration": "NLA.MF02.degree_error_bound_proved",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "leancert_kernel_assertion": true,
+  "numerical_approach": "Exact symbolic arbitrary-degree proof, no interval computation or external numeric oracle.",
+  "mathematical_route": "Odd part does not increase error or degree; even square contracts to actual polynomial in x\u00b2 with degree\u2264D. Reverse affine substitution maps [-1,1] onto [\u03b4\u00b2,1]. Genuine pointwise estimates and Mathlib exterior Chebyshev extremality give (1+\u03b5\u00b2)/(2\u03b5)\u2264(r^D+r^(-D))/2. Actual Chebyshev evaluation follows cosh/log APIs. Strict positive slack between error and r^D avoids a separate zero-error argument; contradiction is exact real algebra.",
+  "source_credit": "George Stepaniants, MF-02 solution Section 2; pinned Mathlib polynomial/Chebyshev/real analysis APIs.",
+  "scope": "All real 0<\u03b4<1, all natural D\u22651, every real polynomial of natDegree\u2264D, actual uniformError on both intervals. No extra premise, no sorry, no native_decide.",
+  "unchanged_files": "Frozen boundary and other authors modules untouched.",
+  "frozen": true
+}

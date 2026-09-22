@@ -1,0 +1,14 @@
+{
+  "verdict": "PASS",
+  "build_jobs": 3023,
+  "exports": 7,
+  "kernel_assertions": 7,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "frozen_statement_hashes_match": true,
+  "proof_manifest_sha256": "cf0d321fecbe10aab65e5a69758c489a8bfe95c1ff645fea6c09ceaf274aec04",
+  "canonical_status": "unchanged; independent final reviews and Linux pending"
+}

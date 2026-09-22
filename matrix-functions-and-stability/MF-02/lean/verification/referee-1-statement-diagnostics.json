@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "exact_polynomial_identity_coefficients": [
+    "11",
+    "6",
+    "-15",
+    "-4",
+    "-15",
+    "6",
+    "11"
+  ],
+  "composition_order": "q2 after q1 confirmed, reverse differs",
+  "rational_gaps_tested": 4,
+  "integer_endpoint_budgets_tested": 99,
+  "limits": "Finite diagnostics and exact polynomial identity only; no universal approximation or stage bound proof claimed."
+}

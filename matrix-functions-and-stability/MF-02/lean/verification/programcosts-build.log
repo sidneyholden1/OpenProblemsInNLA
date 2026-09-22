@@ -1,0 +1,5 @@
+⚠ [3015/3015] Built NLA.MF02.ProgramCosts (16s)
+warning: NLA/MF02/ProgramCosts.lean:38:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3015 jobs).

@@ -1,0 +1,10 @@
+⚠ [3017/3020] Replayed NLA.MF02.ProgramCosts
+warning: NLA/MF02/ProgramCosts.lean:38:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3018/3020] Replayed NLA.MF02.Constructive
+warning: NLA/MF02/Constructive.lean:19:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3020/3020] Built NLA.MF02.Stages (11s)
+Build completed successfully (3020 jobs).
