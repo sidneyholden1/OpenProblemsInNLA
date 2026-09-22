@@ -36,5 +36,14 @@
     "docs/lean/verification-2026-09-22/IE-14/publication-checks/pdf-page-1.png": "35358a3fd732176cbbb7a1ef0b8d9e7286d9fce7c1cb073d8905f39dc5a11edb",
     "docs/lean/verification-2026-09-22/IE-14/publication-checks/pdf-page-2.png": "2b3ce94fa79f9eee1d05422f98ae0d78aa426518d6a9b40ba2aa5521d84bed91"
   },
-  "publication_head_linux": "pending; must pass before merge"
+  "publication_head_linux": {
+    "verdict": "PASS",
+    "run_id": 35701874332,
+    "run_attempt": 1,
+    "event_head": "868aaf5a6a03a727ab9a3c5856d42ab6ce22f122",
+    "tested_pr_merge": "75a93cb57a4cf83efde88637420bd8ae478506c1",
+    "tracked_inputs": 97,
+    "exports": 4,
+    "audit": "publication-linux/AUDIT-RESULTS.json"
+  }
 }
