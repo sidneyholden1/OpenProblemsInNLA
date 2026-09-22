@@ -1,0 +1,9 @@
+{
+  "run_id": 35693300205,
+  "action": "cancel redundant main merge push verification",
+  "reason": "Main merge8ae162fe has exactly same complete Git tree as independently audited PR1 head83a1a140; all35project Linux artifacts/source/harness already independentlyPASS. Preserve runner capacity for newSP05 target.",
+  "main_merge": "8ae162fe8288f31c01dad6b26a83f373b43405c6",
+  "audited_head": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+  "both_tree_ids": "da56a7b682d82564c9e89a233e97a73fc626796c",
+  "accepted_run": 35691146159
+}

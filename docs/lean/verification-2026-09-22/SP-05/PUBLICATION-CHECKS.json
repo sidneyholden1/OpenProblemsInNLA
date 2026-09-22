@@ -14,5 +14,13 @@
     "Partially resolved": 69,
     "Open": 57
   },
-  "publication_ci": "pending fresh publication commit; separate from accepted proof"
+  "publication_ci": {
+    "verdict": "PASS",
+    "run": 35694283762,
+    "head": "4f739abc147248a4425fc37d97e3015fc7d32481",
+    "main_merge": "c42692a15ea8fe0d76be8a4055d256e101624fe0",
+    "artifact_audit": "publication-linux/AUDIT-RESULTS.json",
+    "all_inputs": 80,
+    "all_exports": 4
+  }
 }

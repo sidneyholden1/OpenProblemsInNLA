@@ -1,0 +1,51 @@
+{
+  "verdict": "PASS",
+  "run_id": 35694439919,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35694439919",
+  "head_sha": "6e73c239c8e4245d39529d2c9d699779db13db90",
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "matrix-functions-and-stability/MF-02/lean",
+      "repository_commit": "853a814cd3d19cb5dbab899273307bf52ddd0376",
+      "head_sha": "6e73c239c8e4245d39529d2c9d699779db13db90",
+      "input_count": 58,
+      "export_count": 7,
+      "theorems": [
+        "NLA.MF02.error_sets_valid",
+        "NLA.MF02.register_degree_bound",
+        "NLA.MF02.degree_error_bound",
+        "NLA.MF02.cubic_bounds_and_strict",
+        "NLA.MF02.stages_computable",
+        "NLA.MF02.genuine_stage_minimum",
+        "NLA.MF02.stage_bounds"
+      ],
+      "artifact": {
+        "artifact": "lean-MF-02",
+        "artifact_id": 10678699599,
+        "sha256": "d5a9c4b7e63c2927415ea6408f501e9c1cb22a26ee50315ac09f15cd5996c57a",
+        "bytes": 14958
+      },
+      "result_sha256": "96f215e9192613b33c381a9caf031943e70c779354707668704b21e57ab6d247",
+      "log_sha256": {
+        "comparator.log": "f5a6be7e9f419df287e8bc931d58f3e3ad4657e088ca34606cd0e256f1e8b21c",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "8920c70f1e90cba22c25d2d3ca9e2ed39b7489ec18c3e1236b983cbed0231ab1",
+        "negative-sorry.log": "2357f149a86db6a58337e3c6d0842da367592bd83b1c83862809a2253ccac78a",
+        "negative-native.log": "d886d284a7ed480c987607ad66e8ee7da0816df099b048ab19b3e75adddaa0aa",
+        "sandbox.log": "a4a4ca47327958cbc50e8dca4464e578c52556de73c30e79a3776ab4e40dc355",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "a499ed0d11f1d8962b9e6de90f5af5ef30656a3e75236734ac9b743ecdb8e18a"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 7,
+  "total_inputs": 58,
+  "unique_git_blobs_hashed": 58,
+  "limits": "Author operational evidence audit by coordinator /root, an MF02 proof author; separate from the two independent nonauthor mathematical reviews. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}

@@ -21,3 +21,7 @@ optimized cubic: Chen–Chow. Formalization: Sidney Holden with OpenAI Codex
 assistance. No novelty, exact-optimum, same-budget-optimality, source-author
 endorsement or external human peer-review claim. Publication checks are
 retained separately from proof acceptance.
+
+## Publication accepted
+
+Fresh [publication run 35694439919](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35694439919) passed after documentation updates. The [separate publication artifact audit](publication-linux/AUDIT-RESULTS.json) verifies all 58 tracked inputs and 7 exports with the same kernel/rejection/isolation gates. Main merge: [0793f46de2c9](https://github.com/sidneyholden1/OpenProblemsInNLA/commit/0793f46de2c9f5cbab52924ef513fefb05228387). Proof-head acceptance above remains a distinct immutable record.

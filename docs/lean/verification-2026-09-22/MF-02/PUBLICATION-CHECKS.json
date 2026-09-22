@@ -13,6 +13,14 @@
     "Partially resolved": 69,
     "Open": 57
   },
-  "publication_ci": "pending fresh publication commit; separate from accepted proof",
+  "publication_ci": {
+    "verdict": "PASS",
+    "run": 35694439919,
+    "head": "6e73c239c8e4245d39529d2c9d699779db13db90",
+    "main_merge": "0793f46de2c9f5cbab52924ef513fefb05228387",
+    "artifact_audit": "publication-linux/AUDIT-RESULTS.json",
+    "all_inputs": 58,
+    "all_exports": 7
+  },
   "stacked_on": "SP05 publication, PR4 retarget main after PR3 merge"
 }

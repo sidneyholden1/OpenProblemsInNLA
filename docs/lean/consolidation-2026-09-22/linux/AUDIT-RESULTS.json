@@ -1,0 +1,1416 @@
+{
+  "verdict": "PASS",
+  "run_id": 35691146159,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35691146159",
+  "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-29/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 170,
+      "export_count": 5,
+      "theorems": [
+        "NLA.MI29.spectralPower_natCast",
+        "NLA.MI29.modulus_power_eight",
+        "NLA.MI29.comparison_positive_real",
+        "NLA.MI29.counterexample",
+        "NLA.MI29.not_modulusDeterminantConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-29",
+        "artifact_id": 10679655276,
+        "sha256": "962589242914d31230cc5c4dbd0b1c56ebeef187ebcd09f03f68c2683125dbf9",
+        "bytes": 20461
+      },
+      "result_sha256": "34ccce75156525ea306c795394c5fad61ff4cd8a689bf4eb6071976753a14e15",
+      "log_sha256": {
+        "comparator.log": "e374b0d3b01f7325021a51d4b06c0d017e9753527a9cad5ee518883d68518e06",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "fb4acd12465c21f20b6a1601b11787117fdba593866eca816c18541f69cdd45d",
+        "negative-sorry.log": "9dde5dddd1093e2b95f3e6b4756a55fb5c4f0804d0d767f8243b208c398425df",
+        "negative-native.log": "7fc853c6a9f0f50da43adf9d853f610af2035e1aa1472561a1d8925f1c07ab37",
+        "sandbox.log": "a0b7f6259851651e8ebf5788539a60697743bac32013ee8a3784537d8ee74f81",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "e944cd739f46db3a2de3c0ae5dc2fc8bda4ad093cc55de269960756f5c43b242"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "nonnegative-and-positive-factorizations/PF-02/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 57,
+      "export_count": 9,
+      "theorems": [
+        "NLA.PF02.psd_rank_semantics",
+        "NLA.PF02.congruence_quotient_semantics",
+        "NLA.PF02.witness_exact_data",
+        "NLA.PF02.trace_coordinate_bridge",
+        "NLA.PF02.congruence_coordinate_identity",
+        "NLA.PF02.orientation_invariant",
+        "NLA.PF02.quotient_orientation",
+        "NLA.PF02.disconnected_counterexample",
+        "NLA.PF02.not_connectedOrbitConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-PF-02",
+        "artifact_id": 10679615807,
+        "sha256": "95e9de5a94845ff9edf796f32587f17c5de2d9cfeea4c0349a0298eccf77f5c8",
+        "bytes": 16700
+      },
+      "result_sha256": "21017d548930710f00f48d05bc51f46bd15e8cdf7a6909079002214873f3c5fc",
+      "log_sha256": {
+        "comparator.log": "dee8c613468a457b9e8ee511af577f0738b3a13e9b77f4170b0560c1d7099d4b",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "15ff54b013590193b446485c1cd2198b822326091252ad6bb3d63ccb66c22421",
+        "negative-sorry.log": "fed69b86792924480b490c9f4ce6c83b60dc317cb185ff545dee2a74d1c2757f",
+        "negative-native.log": "5ceaceb5bd77accb4db8509a7af986bbc9f11c5aa51046e15960bd716c3b751b",
+        "sandbox.log": "e6800e6808b24747948347fd642b7a005ec152727d4a2956a277e1f79296a6e0",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "212a98aa0f197ff207bfc8a5c01007752a5b48c06659a45a31bb0d3ff8240824"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "randomized-and-low-rank-approximation/RA-20/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 1841,
+      "export_count": 12,
+      "theorems": [
+        "NLA.RA20.hollow_variety_semantics",
+        "NLA.RA20.reduced_coordinate_ring",
+        "NLA.RA20.algebraic_smooth_locus",
+        "NLA.RA20.algebraic_tangent_space",
+        "NLA.RA20.full_frobenius_differential",
+        "NLA.RA20.hollow_distance_semantics",
+        "NLA.RA20.generic_critical_locus",
+        "NLA.RA20.component_hessians",
+        "NLA.RA20.generic_data_intersection",
+        "NLA.RA20.generic_count_three",
+        "NLA.RA20.generic_count_not_four",
+        "NLA.RA20.not_criticalCountConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-RA-20",
+        "artifact_id": 10679600446,
+        "sha256": "37b4c3eebc95eaa108ce912f1c635e1ddc3142e7faecb1250e0a759cb7193410",
+        "bytes": 79574
+      },
+      "result_sha256": "214b574151eebdd250531283d0860fd6d63d87ef33eb92648bfc78f770196890",
+      "log_sha256": {
+        "comparator.log": "8f333805d1e3d15f6ee0e1053eb1eff3dd69e3273c95e2c05a8f665aad77afb1",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "7c2250b40aa7e2e3900ee38c06c1bec616b43ac7d6a5250d47e2222458c07b16",
+        "negative-sorry.log": "3291e83db63ad655356c8d32d09b018e759666b2ae020851c4cd23defcf0da12",
+        "negative-native.log": "20511bd3498ea70a1d6a98807ab4dec3dbf17ac7e22fa030abd6b636d204c719",
+        "sandbox.log": "d21a1d91fcd28dee3bb654deb9340bcb3a61f396f31acb0384f81ff63d5db58d",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "85f881d0df1eb8fcce8c33d7799395af83c13775364354b441739e9b062cccaa"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "eigenvalues-and-inverse-problems/SP-04/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 75,
+      "export_count": 9,
+      "theorems": [
+        "NLA.SP04.positive_multiplier_exclusion",
+        "NLA.SP04.selected_negative_root",
+        "NLA.SP04.diagonal_stationary_reduction",
+        "NLA.SP04.diagonal_unique_failure",
+        "NLA.SP04.orbit_unique_failure",
+        "NLA.SP04.open_counterexample_family",
+        "NLA.SP04.avoids_every_proper_algebraic_exception",
+        "NLA.SP04.generic_counterexample",
+        "NLA.SP04.not_generic_smallest_multiplier"
+      ],
+      "artifact": {
+        "artifact": "lean-SP-04",
+        "artifact_id": 10679505827,
+        "sha256": "033ece30770c043ac0d2cd94d07bd317ec6f9be1e32c13774bd6f368572c416a",
+        "bytes": 16926
+      },
+      "result_sha256": "d2444624c897c89660f6677a5dccf28ff5cf104b387e1512c87297740dcc8e42",
+      "log_sha256": {
+        "comparator.log": "66deebdea96ba3b8b0d05d0150190fa71dd8c8358a87b8d0a086ddb36304a9e9",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "7f9c8c595a8b519fd7b7a4cc2e1ff5e8f00e7b854f21237b93575cf6523104c5",
+        "negative-sorry.log": "ae31177a42af2dcf92861adf34ceff795b6982b534d3fe34a372a0579c4fd624",
+        "negative-native.log": "4aa1e62a123c1b566992fb3f08e0f06cbd10781331fc90d50935651317e8cadc",
+        "sandbox.log": "83de13fa0fdfece96fe152f7022858eb061982e8fd33eca7cf8c74f3426c5e17",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "953a9bd86790c994aaaca738529a9a3e02fe46058036a11d5cd126385e029f49"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-07/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 213,
+      "export_count": 7,
+      "theorems": [
+        "NLA.MI07.modulus_eq_sqrt",
+        "NLA.MI07.maximalModulus_eq_of_tendsto",
+        "NLA.MI07.root_limit_iff_spectralNorm",
+        "NLA.MI07.witness_moduli",
+        "NLA.MI07.witness_root_limits",
+        "NLA.MI07.counterexample",
+        "NLA.MI07.not_triangleConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-07",
+        "artifact_id": 10679475865,
+        "sha256": "96131511cefa519e0a1d3c897cd5be7745aa53158a834a360bc9532060007491",
+        "bytes": 22463
+      },
+      "result_sha256": "0f88a0e2f6157cc702aa46fe27174d8c9e605da495b21a021b197c1308d6963f",
+      "log_sha256": {
+        "comparator.log": "073ee097b30aea48ae88b2d0aef6d2fea9043798758cc1ff645fade788bb34c0",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "d1bd9f4198cf5364864d97c2336b50ac82b50a872ced2636e269d728178998be",
+        "negative-sorry.log": "7fda0644eeb60655a76749a8a083829354e988a322444d41a8da8a9439df16fb",
+        "negative-native.log": "39e33009d167c7b7b712ce004659f404ee04e2279759fd6488326592c70dbfaa",
+        "sandbox.log": "28b19e2fd53bbc81f1b971fb51eda63e8fdce2ade3ea4013a7cd901c7702cf89",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "27de257c5c6975083b23c9e73c2523b91be8fef6b2e81b6de236c89457778939"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-06/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 198,
+      "export_count": 6,
+      "theorems": [
+        "NLA.MI06.modulus_eq_sqrt",
+        "NLA.MI06.witness_moduli",
+        "NLA.MI06.two_vector_orthogonal",
+        "NLA.MI06.witness_quadratic_bounds",
+        "NLA.MI06.counterexample",
+        "NLA.MI06.not_dominationConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-06",
+        "artifact_id": 10679471139,
+        "sha256": "cc417ee5eb63847a8a6a61f0a0e215b139a4d457ccd5b987dd7440a17c99f057",
+        "bytes": 22134
+      },
+      "result_sha256": "4999275e65ece316f51855860ec8132a93c7083e8e61533b280170b475679bbe",
+      "log_sha256": {
+        "comparator.log": "9d3408de80b682fa2c20f084dcbb462511327987c20367b6cd209ae8b08fcc20",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "34f9a7a30d62c85c9b128654f97445b85a5d6b57df1b1f5017c2e1e71667de2a",
+        "negative-sorry.log": "4f9fa24e11303545332baf44db4ad778ace92da9505bde90b4082a8c79430b38",
+        "negative-native.log": "ffa3e47f4357596ee6d167eed45fa18b44f030ec429d354458b4431a647cae42",
+        "sandbox.log": "2573bb44227397667b9b63e210b43ea50328a01e0527ee1637dcf4d79cc05d97",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "8f4ce9622a7b6f310bea17623cc7ebaf756e6a2516b411e62c8c372c29d38a04"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-26/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 367,
+      "export_count": 7,
+      "theorems": [
+        "NLA.MI26.admissibleFunction_iff",
+        "NLA.MI26.functionalCalculus_eq_spectral",
+        "NLA.MI26.functionalCalculus_congr_nonneg",
+        "NLA.MI26.quadratic_cfc",
+        "NLA.MI26.witness_data",
+        "NLA.MI26.counterexample",
+        "NLA.MI26.not_subadditivityConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-26",
+        "artifact_id": 10679466673,
+        "sha256": "355d501e5cff49db0a23a7721d94aeee4052d57ee819a0cd375bc80a474e8fc6",
+        "bytes": 25961
+      },
+      "result_sha256": "57d587231ce855599f88153f444dbf343fe4c0fc2210e6ae675de458587c5860",
+      "log_sha256": {
+        "comparator.log": "31d4bc9408ecb8fc3e75507d46c935a3536a4536cfd2b93f8219b35b75534165",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "dead2c5e066d49e2c0da924ebe5dafd3e1855f2557a215819b4fb968654a2841",
+        "negative-sorry.log": "6d41dedc47191bad61399d25f6ca2b221b4cbf055195413c67d90e6b9743bcf8",
+        "negative-native.log": "7755f359aa72000b7bd5a822cf9f8c5b35688a5d4b78743643eb7935e8478d3f",
+        "sandbox.log": "3e185767707d647ba4652fb753317ce2f1e1e2d4ea88b857a0cda410d6bb565a",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "21d99cedf0cc29b4f6008cb161d20285e8fba1e7c177277cf844b71a11a560a1"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "randomized-and-low-rank-approximation/RA-08/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 1499,
+      "export_count": 14,
+      "theorems": [
+        "NLA.RA08.orderedSpectral_exists",
+        "NLA.RA08.orderedSpectral_semantics",
+        "NLA.RA08.functionalCalculus_spectral",
+        "NLA.RA08.spectral_tail_norms",
+        "NLA.RA08.operator_rayleigh_bound",
+        "NLA.RA08.witness_data",
+        "NLA.RA08.witness_spectral_location",
+        "NLA.RA08.minorant_scalar",
+        "NLA.RA08.minorant_functional_calculus",
+        "NLA.RA08.witness_tail_data",
+        "NLA.RA08.witness_rational_certificate",
+        "NLA.RA08.numerical_gap_positive",
+        "NLA.RA08.counterexample",
+        "NLA.RA08.not_concaveSpectralTransferConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-RA-08",
+        "artifact_id": 10679446117,
+        "sha256": "d54589cc2811c9d425b1f21d79dd063808d56b7c3db8ce7a412c9c84f403830e",
+        "bytes": 56396
+      },
+      "result_sha256": "5cb196821b23a6ef504dcaa77c130daeaffb92671f3ed6c607a0f8d35a9fd874",
+      "log_sha256": {
+        "comparator.log": "34ab1e7328b983c7e8b30836c5ed8fcf0f79812b6fb8182a196d089b10f8fe9f",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "784a46cb49fadb0a8fc32df55d91d88bc5924edfba2c8aba50c2f85f4e74ac3d",
+        "negative-sorry.log": "3382e4dc9ee718cc750dcc2f360694f68338a7b2079bd7a93cde9ce8810fb50d",
+        "negative-native.log": "e51cae635ec6e5ac35bbba9694e31d2ee331f8e46cea6317dafdc513d79596ce",
+        "sandbox.log": "6898603b31d3935b0b0660c819eb16cfae267fdc67a2ea3a6526c39fb10b9f47",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "38cf964547a6c39eb4aa38c09bba8dab3701b6586548e43baeff10fbc68d0344"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "randomized-and-low-rank-approximation/RA-09/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 1300,
+      "export_count": 17,
+      "theorems": [
+        "NLA.RA09.frobenius_semantics",
+        "NLA.RA09.frobenius_orthogonal_invariance",
+        "NLA.RA09.orderedSpectral_exists",
+        "NLA.RA09.orderedSpectral_semantics",
+        "NLA.RA09.functionalCalculus_spectral",
+        "NLA.RA09.truncation_semantics",
+        "NLA.RA09.trace_deficit_reduction",
+        "NLA.RA09.admissible_scalar_consequences",
+        "NLA.RA09.scalar_branch_certificates",
+        "NLA.RA09.ordered_scalar_certificate",
+        "NLA.RA09.harmonic_constraint",
+        "NLA.RA09.overlap_semantics",
+        "NLA.RA09.overlap_error_expansions",
+        "NLA.RA09.zero_column_average",
+        "NLA.RA09.positive_tail_transfer",
+        "NLA.RA09.zero_tail_closure",
+        "NLA.RA09.concaveFrobeniusTransferConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-RA-09",
+        "artifact_id": 10679385582,
+        "sha256": "e7b7000670c530c115f058819ea2ee45acb2f18c906b3fdf9acfb6cef4dad25f",
+        "bytes": 58558
+      },
+      "result_sha256": "83188e26113f171a6b27d0eafce3b7ba62cb20b641301a5f424dce8be0db2189",
+      "log_sha256": {
+        "comparator.log": "7b70aae472d50d80911ca6b59d7594e5009cd6497f82e501eba06df8e9d33966",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "261b9b6af301382289b03cfc048f83326b26215806ce98c91f2ad281eeedc822",
+        "negative-sorry.log": "63c483f384e7da2efc59b26817004450f01643fbbdc3cdef9b6a80fa28522364",
+        "negative-native.log": "831e0f42252c0de8339f84b1765fc5ad308a741eb56db0e3379a03f931f33315",
+        "sandbox.log": "6e21aaf3d700a5b76fa3df75fe67838e7c3434889f54e555f44e91d12d6485c2",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "c319a9e17757a6bf94bcc5c1ec17ccbc2efd063e0c04a0ce5f1a05cbcf792fc0"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "eigenvalues-and-inverse-problems/IS-02/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 121,
+      "export_count": 4,
+      "theorems": [
+        "NLA.IS02.witness_certificates",
+        "NLA.IS02.spectral_uniqueness",
+        "NLA.IS02.locus_exclusion",
+        "NLA.IS02.counterexample"
+      ],
+      "artifact": {
+        "artifact": "lean-IS-02",
+        "artifact_id": 10679380917,
+        "sha256": "085a47d6d8932e607c748ee3c61e0fbf9989f230f556c4d2a2a3ccb298a40ae5",
+        "bytes": 17084
+      },
+      "result_sha256": "354e97cf9f0e3b204461612c6e34f9d0a1d5487f5956fd1a1f146fc02c5c6eb0",
+      "log_sha256": {
+        "comparator.log": "9dbbb5924d74ba8943065bfbd1ed6af45939539d129842d5389bb298545b299d",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "97461e8f6d5558e34230afec285d6b65d827ab7a78cd7abd6855594fbd5e2ea0",
+        "negative-sorry.log": "fced7a01dcc61d525aab7dd9d9ba5b22aa04cdda166ede8a9a6706b554972f4a",
+        "negative-native.log": "faf13ac72fa4f2eae0dcde8174b389984705ebc1b601a1843dfef37dcebd44aa",
+        "sandbox.log": "45c64187785d3bd7673b2c157db560a81f8114d4311dbdbb53a95653a13b31e7",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "4512ee7eee6841b6bd6bf425f4b751e34b3386e7580e1ba3de01564ac286a7dc"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-19/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 147,
+      "export_count": 2,
+      "theorems": [
+        "NLA.MI19.counterexample",
+        "NLA.MI19.not_subsetConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-19",
+        "artifact_id": 10679375441,
+        "sha256": "b4b8605525da05e550a96fb84f4c27df090ce9a38fb3dddeb040fec78db5581b",
+        "bytes": 19342
+      },
+      "result_sha256": "4fbda7fdb1e214c256de8f63269433d95404d17a06b4c3ec24dbdfc809e73b5b",
+      "log_sha256": {
+        "comparator.log": "3f1e990dea401537a9925221b13afc2e6689d1d02353c9ecccf50df070d69348",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "8e8fbdb4a38fbb2c7c44271cdc0e067509e7df127b12a335f128caf30f3a3a65",
+        "negative-sorry.log": "b0f808e61466df92e84c220b28a0a7426ee62bf7506c0a1f9a092698598ccaab",
+        "negative-native.log": "05f0252ab8ad3b0469e17d8d09ba36e598871eef9b1461d41041fe193861a044",
+        "sandbox.log": "30e31cc301d1889e3e98f18b99b06d0c28e5b161cd6cc37c40590b6e63914117",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "2f0d389a1fe957d5da396d3a5de41cbc4e59ae4d84b579680cb7e49fc84722f7"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-23/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 415,
+      "export_count": 8,
+      "theorems": [
+        "NLA.MI23.positive_powers_and_means",
+        "NLA.MI23.product_eigenvalue_semantics",
+        "NLA.MI23.squared_product_largest",
+        "NLA.MI23.operator_norm_bounds",
+        "NLA.MI23.witness_data",
+        "NLA.MI23.witness_squared_gap",
+        "NLA.MI23.counterexample",
+        "NLA.MI23.not_generalizedGeometricMeanConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-23",
+        "artifact_id": 10679301109,
+        "sha256": "5daa5d0c9b1c550f51cd3173955a8ebd937fb8eaf65ab20631078a7f0b7766a3",
+        "bytes": 30812
+      },
+      "result_sha256": "1371a93df1b069093c8b78a4e01188a2322d10e02a20ec67ca75724b2de130cd",
+      "log_sha256": {
+        "comparator.log": "fe1f9b16158b82a463873e890df8ab6fbc501a2b3c976639a6f8053169c00bc5",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "1d782e34251911c8e6decba61ae6b6b55af7036bb4e3a7ebb68a016ec6e4f4a7",
+        "negative-sorry.log": "06f2e0fbe11d4616e15752cef856e5ea3aa95d8f6ed315422561fabdcc319fd9",
+        "negative-native.log": "7b28ef6680478afe23a20de009ae820a1b8dbe12d0fbc4727885b1c5c2c548a9",
+        "sandbox.log": "277224168a10687541edde9b0044835805150bf4a86110f21773432bd2a7513f",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "b3a504c6ebc1d051852b7ae26bb79de809874a17fff2d5c0d4511a59ad6d26dd"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "randomized-and-low-rank-approximation/KE-05/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 93,
+      "export_count": 10,
+      "theorems": [
+        "NLA.KE05.literal_recurrence_contract",
+        "NLA.KE05.admissibility_and_endpoints",
+        "NLA.KE05.exact_rational_witness",
+        "NLA.KE05.probability_one_validity",
+        "NLA.KE05.probability_one_nonzero_limit",
+        "NLA.KE05.literal_lower_bound",
+        "NLA.KE05.almost_sure_divergence",
+        "NLA.KE05.marginal_probability_limit",
+        "NLA.KE05.no_finite_uniform_constant",
+        "NLA.KE05.not_uniform_probability_conjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-KE-05",
+        "artifact_id": 10679265317,
+        "sha256": "52094d75f00497095f52784e4d325d519de6e77aa6f1b5d5bf2530a6b2ca6853",
+        "bytes": 17797
+      },
+      "result_sha256": "9adb5f38382a46e0b3eb8494677b8c57b848a81c502d2b121aa47fc0f2f6844b",
+      "log_sha256": {
+        "comparator.log": "cd3addbfd2a143ab468851c2c0902394166c6cce6a19e7053b7bf93c6cd6e377",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "2ac54d9891dda1b22fabf7cb68a446d944ec3f6119c35d41383dd1436f3f7554",
+        "negative-sorry.log": "5c203da77f8c5502915c9bb29b88564e9153ceb7a683666a8a3bb99f9104b8af",
+        "negative-native.log": "373238ee967e40e9f0c04766ee738876c4fe27961f4f0ac8d5aef3841b45fdae",
+        "sandbox.log": "3cf513474a7c2d1fc0c67c426bcbb2622499c0b4d6b965fd5d82ffb5795de3f1",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "2962c2f34ee7b278acb1e79e2d6e2077882273967dd33adbc377798936eaff23"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "eigenvalues-and-inverse-problems/KE-04/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 4285,
+      "export_count": 24,
+      "theorems": [
+        "NLA.KE04.real_matrix_semantics",
+        "NLA.KE04.krylov_range_semantics",
+        "NLA.KE04.krylov_nesting_and_shift",
+        "NLA.KE04.fullBlockDimension_iff_independent",
+        "NLA.KE04.fullBlockDimension_prefix",
+        "NLA.KE04.lastFullBlockIteration_exists",
+        "NLA.KE04.krylovBasis_exists",
+        "NLA.KE04.frameProjection_semantics",
+        "NLA.KE04.compression_semantics",
+        "NLA.KE04.orderedSpectrum_semantics",
+        "NLA.KE04.compression_basis_independent",
+        "NLA.KE04.interval_index_validity",
+        "NLA.KE04.quadratic_semantics",
+        "NLA.KE04.spectral_gap_quadratic_psd",
+        "NLA.KE04.spectral_window_subspace",
+        "NLA.KE04.krylov_intersection_nonzero",
+        "NLA.KE04.psd_zero_form_iff_kernel",
+        "NLA.KE04.compressedQuadratic_semantics",
+        "NLA.KE04.quadratic_forms_agree",
+        "NLA.KE04.later_quadratic_identity",
+        "NLA.KE04.fullRank_quadratic_nonannihilation",
+        "NLA.KE04.strictIntervalOccupancy",
+        "NLA.KE04.fullPrefix_implies_canonical",
+        "NLA.KE04.blockLanczosConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-KE-04",
+        "artifact_id": 10679250993,
+        "sha256": "01b8c1dfa6b04d17c0baa3d42a5727bd9fda46f2fe2d883ceb2677289214f73d",
+        "bytes": 94487
+      },
+      "result_sha256": "ab536a1c6a47d638f11be49d3f2eb87f2d65b0b6a443b5c67b1f4f07d4f8f17d",
+      "log_sha256": {
+        "comparator.log": "9ce225d9290f8aa9cef29b86576cd3980dba817bcf26ce76c68073a98b6c9e37",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "424a6ff732eb280fec58dbaf33ae9b10f44703bf9cdd37ae253b290deeb86b83",
+        "negative-sorry.log": "9ba55ca1f3057ee93a866d96efadbcca145a19753383d181b140658bbd6da195",
+        "negative-native.log": "52101edc31e04ab34e35a7b35e0dd6aa06d2ac951454c2450303974964577624",
+        "sandbox.log": "e809f9a5cfb0401a38b580f89b520e336c33cd28b8ddf04e67775808363e7d0b",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "081a151ee870247893bd4b37723962cf13640bd67c9f3af181d2c3a67d8e1c38"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "eigenvalues-and-inverse-problems/IS-03/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 820,
+      "export_count": 7,
+      "theorems": [
+        "NLA.IS03.nonnegative_power_trace",
+        "NLA.IS03.witness_admissible",
+        "NLA.IS03.witness_polynomials",
+        "NLA.IS03.trace_moment_certificate",
+        "NLA.IS03.negative_moment",
+        "NLA.IS03.counterexample",
+        "NLA.IS03.not_derivativeRealizabilityConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IS-03",
+        "artifact_id": 10679195556,
+        "sha256": "ed68ac655bca6c50f206eefb03bd0f84921bd605839f4722a67b6b29938b439f",
+        "bytes": 44992
+      },
+      "result_sha256": "be79059a8c09396b0c41e1aa6822f4642ea6a0a44cecefcffdb9cd10ae5bcbf6",
+      "log_sha256": {
+        "comparator.log": "aa799b2bfca842a8e2893d5e00e2ec3fcb88bb1eab37d0ba1a0de27896d8a3c1",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "4d03103388e48a654d80596ae79181cc428840add3425c0cbd47d3bbc39c43cb",
+        "negative-sorry.log": "f90808b1550911876dcd6edd178825f2893c21699b3e82708a9f1d8476733d7e",
+        "negative-native.log": "8b8bf61032e6e9f414f1bbbc36a0346d9b4dbb83669257b2abaa799bd14a0da3",
+        "sandbox.log": "7f4f9e1d5b977d09d7bcca86d7007ada62f1c7e5103b532558a2fd316e3ab9ad",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "2bf9f643b00471050f4f022f9cf3d7c76ab09ee76a16c8d1694eaed1f5971787"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "intervals-and-absolute-value-equations/IV-03/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 75,
+      "export_count": 4,
+      "theorems": [
+        "NLA.IV03.vertex_formula",
+        "NLA.IV03.vertices_admissible",
+        "NLA.IV03.nSquaredCriterion",
+        "NLA.IV03.twoSignCriterion"
+      ],
+      "artifact": {
+        "artifact": "lean-IV-03",
+        "artifact_id": 10679186221,
+        "sha256": "52e32de5fcceaa912f0219eabf854e21ff862b44e4690c60e7325c9f67b24d59",
+        "bytes": 17018
+      },
+      "result_sha256": "6af1d895ccbc7e11ce26bc323161f8f1b9c2cc73efdbe285b434b5e2f0a9a777",
+      "log_sha256": {
+        "comparator.log": "45e2727ffb2e09cf090f61143ed176c189d780a6e47e01c44caad5495713d24f",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "531bbf98e51a93d12d5973e67113edff0f6a022bd580769a3c4d674f13a40e9c",
+        "negative-sorry.log": "c0e6a6bb61d07cd8dd20efbc10d6d0778675df516258ff60aa5fa7110ab5faeb",
+        "negative-native.log": "c40609383601d41a7a0445a2279f65558042137129a74fcbb0cf245edac9e319",
+        "sandbox.log": "eb372f60dc17f38bb69f93b569a91f6777a5943f6087f9a0999856f8820127df",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "c3542c81f50e498e087b5be8cb968d974e45d3e1a978443989724c1bcf6687d0"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "nonnegative-and-positive-factorizations/NR-03/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 172,
+      "export_count": 10,
+      "theorems": [
+        "NLA.NR03.cMatrix_nonnegative",
+        "NLA.NR03.boolVec_seven_card",
+        "NLA.NR03.nonnegative_rank_attained_minimal",
+        "NLA.NR03.rank_le_of_factorization",
+        "NLA.NR03.scaled_certificate_gives_factorization",
+        "NLA.NR03.witness_scaled_certificate",
+        "NLA.NR03.witness_factorization",
+        "NLA.NR03.witness_rank_upper_bound",
+        "NLA.NR03.witness_not_full_rank",
+        "NLA.NR03.not_targetStatement"
+      ],
+      "artifact": {
+        "artifact": "lean-NR-03",
+        "artifact_id": 10679138618,
+        "sha256": "afa45fa72a16c12e005d1935b8a871592c922a401300ea6d3bddffd42a1f19ca",
+        "bytes": 25058
+      },
+      "result_sha256": "9c7719b81e44c543d104ea9b07c6e8cc774713a8f101630b84bd0f597b3fde9f",
+      "log_sha256": {
+        "comparator.log": "39fd063c06345daea328d6be11aa22a696945d42afc2d85774ac521f6d6b1f4c",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "87f5ce4bdbd72b7983741f587a86c59f2eab82f39eb2e9e714e29f3ada38b203",
+        "negative-sorry.log": "106a41252a11d38c5b3432367ded6ead30ec2c95389231029a6e9832db2648d5",
+        "negative-native.log": "5f2cbbfaac596bb4b9f9b0feee647b059307fbb9ecd875a520df87ad86f61c9a",
+        "sandbox.log": "6ab99540fb125e4643c319db07531d7a7fa171c904dc93809029c306d90343a9",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "01fd9d97bab58c9949f6daaa6e5dc190ef3b21f87e8ff61d8624b7faffaa5fd9"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-19/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 197,
+      "export_count": 3,
+      "theorems": [
+        "NLA.IE19.counterexample",
+        "NLA.IE19.not_lowerBoundConjecture",
+        "NLA.IE19.not_sharpConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-19",
+        "artifact_id": 10679121176,
+        "sha256": "23428813f6fd466b276433ee83256dff816fd834047b4fcd3b1a5c02e37df0d5",
+        "bytes": 22971
+      },
+      "result_sha256": "4a2acb39664beb49839588bba806d54ce2b7a9f3f3e74ec14e3c20df4cb44f3e",
+      "log_sha256": {
+        "comparator.log": "cbafd21d0baaebf95ec5912441c6b7a012bc74b308001aba9530686190843ed6",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "0bf7a61fd0d22bdc4bacb5916af5706784f2110e16dc8ab0209f1f7dece0b71e",
+        "negative-sorry.log": "b993d31e28ef72d126f582be57bdb4a57d878f7452fbd34f5bea3d17760d6717",
+        "negative-native.log": "94ff27a6f10022c171ecbcd8687ffd17d0bbadd40d3d764edd936518a90c9da1",
+        "sandbox.log": "ea08880b7ffac892337b6310b27ef1195ffda2c5968242e6e48d75dbe6f4eb49",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "1784d6e7316ab7dd674881b951380ba09e729f3d9c79e61f58bd43db15320eb7"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "randomized-and-low-rank-approximation/RA-07/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 394,
+      "export_count": 6,
+      "theorems": [
+        "NLA.RA07.elementary_values",
+        "NLA.RA07.generating_derivative_values",
+        "NLA.RA07.positive_derivative_factorization",
+        "NLA.RA07.power_sum_certificate",
+        "NLA.RA07.second_difference_certificate",
+        "NLA.RA07.errorSequence_convex"
+      ],
+      "artifact": {
+        "artifact": "lean-RA-07",
+        "artifact_id": 10679106719,
+        "sha256": "9559af188c3268be8d024c82fda9690ad53ac1c9ab5b7df36e19decdce0d2f19",
+        "bytes": 26057
+      },
+      "result_sha256": "d4a791c6bac3056e11cda9ee153ed9e08c36abf2c0d24e3a9bbc73dd86105d8b",
+      "log_sha256": {
+        "comparator.log": "63dd0493b04df5f451d610c5bae12cc3ede8fd377881cec79978053a80943a51",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "569b18c24e18d2809d96e7bada7fe80337f866c9c42adf5dc0e83ccabe09b3de",
+        "negative-sorry.log": "5320395eb74edbc38755f131847aaa9b883dd1e064652e7a3a504a28d456aae0",
+        "negative-native.log": "bcb277d0d137dc2a7e7c9bbdad2106770008c9e3487b8e0d8786fdaf15464fc6",
+        "sandbox.log": "c9f1e03aa134a6c931566a8ecbd759a80fc61ed2213daeecededce99fc1e62fb",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "126dd21f3a6959da18e295479d3af51808d95a7db03a76b125c6c6e396e11c7a"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-08/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 117,
+      "export_count": 4,
+      "theorems": [
+        "NLA.MI08.fixed_sign_equivalence",
+        "NLA.MI08.design_obstructions",
+        "NLA.MI08.hadamard_twelve",
+        "NLA.MI08.finite_minimums"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-08",
+        "artifact_id": 10679076713,
+        "sha256": "828ea1ad515049c5441cac30ad47721bea0c23a23367a97f8121a68013613db5",
+        "bytes": 17060
+      },
+      "result_sha256": "57db979ba87ce4d7aa61a140b87cfdc29bcf1ff562e8490aa47386032a753424",
+      "log_sha256": {
+        "comparator.log": "a1e4adb4bafa887f3bf548be61799154bfaafa1be2f9cd5a943c61b0b01d05fd",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "4d810e0b68ec5e3894495cd12e592cac2767713f717caee33ab05f46ca496b93",
+        "negative-sorry.log": "892e1ae092421e2a19113eb047678940d1d776e3d50fb50012e28f793fb9bd28",
+        "negative-native.log": "d5341ac6d0e5d0130ec781062a1a3af111ab63a3c408da3785daa490f12992fc",
+        "sandbox.log": "88eca4053b2d15ad24e5f2b19f3bf4eb6cb3906fce94a2c149566c2704426fe3",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "3a3eedf100180be5f809e909acb74a30859cd8f6d4d0dfcaa3223e59df47ccaa"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-22/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 514,
+      "export_count": 8,
+      "theorems": [
+        "NLA.MI22.singular_values_semantics",
+        "NLA.MI22.spectral_power_semantics",
+        "NLA.MI22.euclidean_norm_bounds",
+        "NLA.MI22.witness_rational_data",
+        "NLA.MI22.witness_principal_powers",
+        "NLA.MI22.witness_operator_gap",
+        "NLA.MI22.counterexample",
+        "NLA.MI22.not_weightedLogMajorizationConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-22",
+        "artifact_id": 10679046171,
+        "sha256": "440b2242433386c0d3508962109f81773c41711b08df77e3025d85783624e62b",
+        "bytes": 33637
+      },
+      "result_sha256": "d326d5385b76f1346f2e63f6cfff1c0fa50fbbbc82405d67d2a49bbda52dd2c0",
+      "log_sha256": {
+        "comparator.log": "d735a8bf9f7b5c9afe1787d8289239583d5d2a3367fb0e9ac9ba392be44e77fa",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "69834bce26e17e921ebc8e1c89e30a06a0ea3cc8f624d1c9917f8d190a0e66da",
+        "negative-sorry.log": "c0caaffc9e7757a324906787199ed1a6a288e99a9921fd2c45fe56a3b115f755",
+        "negative-native.log": "d47e27802fb3fc4b9c195c45c383d6a9d8af8300cac5b40cda48187ce8ad9fb3",
+        "sandbox.log": "add988dd657c3de5fc85c1a1b4d6dd2feb6fee074ab0df2a4505ea192211d313",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "70269e7f5fd8b3f7a9ac526842ddc50ca5b4db585d95a9bede7e869bba2f7de4"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-16/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 347,
+      "export_count": 15,
+      "theorems": [
+        "NLA.IE16.explicitL_card",
+        "NLA.IE16.explicitL_admissible",
+        "NLA.IE16.witness_feasible",
+        "NLA.IE16.witness_objective",
+        "NLA.IE16.full_minimum_exact",
+        "NLA.IE16.full_minimum_isLeast",
+        "NLA.IE16.full_lower_bound",
+        "NLA.IE16.every_five_point_subset_upper",
+        "NLA.IE16.every_five_point_subset_minimum_isLeast",
+        "NLA.IE16.subset_max_upper",
+        "NLA.IE16.subset_max_positive",
+        "NLA.IE16.ratio_lower_bound",
+        "NLA.IE16.ratio_exceeds_candidate",
+        "NLA.IE16.counterexample",
+        "NLA.IE16.not_IE16Conjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-16",
+        "artifact_id": 10679000327,
+        "sha256": "9b77e718da6b98a65afec6288900adb5f5d0ecf3c0dd880ab9aab76e1a731919",
+        "bytes": 26482
+      },
+      "result_sha256": "c737829764c73e283744b80520884b69a6356cd055c6f0308fa539730fade296",
+      "log_sha256": {
+        "comparator.log": "0b34558028fad446d9584c8ecea1276ce513f1048fe24239ba126b5b682e70dd",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "49d6a72a15ee09ed302549547840a6d43ff138c3a131b672f91609d1c0e3f30d",
+        "negative-sorry.log": "4fe35554e1c02b59cbef54b64fb68304f9c16d77294ac58cac25be261a066f47",
+        "negative-native.log": "f1f5474203c40511242979df58703a5ed991b6cac9cf716bed17686e0703d235",
+        "sandbox.log": "b882d963fa137c633f8d53242736cd964afcf6c164e070ce227c05d98eeca288",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "d7c2c0396e22867c3b04ae14599ce2e06f80386e7bfba3aa17d87fda85fb5ca3"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "eigenvalues-and-inverse-problems/SP-06/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 101,
+      "export_count": 20,
+      "theorems": [
+        "NLA.SP06.witness_admissible",
+        "NLA.SP06.witness_composition",
+        "NLA.SP06.radial_lower_endpoint",
+        "NLA.SP06.radial_upper_endpoint",
+        "NLA.SP06.radial_uniform_slope",
+        "NLA.SP06.radial_root_exists_unique",
+        "NLA.SP06.radial_roots_lipschitz",
+        "NLA.SP06.continuous_radius_exists",
+        "NLA.SP06.radial_curve_continuous",
+        "NLA.SP06.radial_curve_injective",
+        "NLA.SP06.radial_curve_nonzero",
+        "NLA.SP06.auxiliary_radial_im",
+        "NLA.SP06.radial_curve_symbol_real",
+        "NLA.SP06.witness_real_jordan_curve",
+        "NLA.SP06.witness_toeplitz_two",
+        "NLA.SP06.witness_eigenvalue_mem",
+        "NLA.SP06.witness_eigenvalue_im",
+        "NLA.SP06.witness_nonreal_finite_spectrum",
+        "NLA.SP06.witness_counterexample",
+        "NLA.SP06.not_targetImplication"
+      ],
+      "artifact": {
+        "artifact": "lean-SP-06",
+        "artifact_id": 10678961648,
+        "sha256": "98cd52c75b33256ba885d670bf9c35cc9fcb56cbf5ebf468aa041810622711f8",
+        "bytes": 17113
+      },
+      "result_sha256": "f1bba9946646c7af89e966d8e9783dcc49b05a7636b006de678aa77394ec5032",
+      "log_sha256": {
+        "comparator.log": "1c299c6e88c5bd2ccd87727da142a5fb14f7bdd093645d53efff83a48e992fa2",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "bc1d09ca7661575a80ad682defc42fef427970af80147d561d83d9ec20a3bd58",
+        "negative-sorry.log": "a183faf1a9aff60b05462d35fab4c2e49484f6335a51bb253e37c2086b3ea456",
+        "negative-native.log": "6894a231ec2a2ece8a5e386e19cbafea3bbf6af017979cde5e8719a0b342398f",
+        "sandbox.log": "a1f52f9d7c3c8bf76a4d2783eb2d807742b0a28c4e711e4740679a8dc3034478",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "a61b1d45805d0e3e04a2a42a971256e395edc9875b789a8ace2b4cfe642c58c1"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-05/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 98,
+      "export_count": 4,
+      "theorems": [
+        "NLA.IE05.qr_certificates",
+        "NLA.IE05.pivot_certificates",
+        "NLA.IE05.growth_separation",
+        "NLA.IE05.counterexample"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-05",
+        "artifact_id": 10678862175,
+        "sha256": "7e38d849ece44807e696774b5c9f202684e2876fc41edbaf75f6986200e09024",
+        "bytes": 16833
+      },
+      "result_sha256": "39443ee86259c09e8724578b5008414267a9d5cb4be1095ba5092096af752d24",
+      "log_sha256": {
+        "comparator.log": "16d52c01d75324d3bf9032bafd2843f7c7bed048475152e2ac53538ee6068cbd",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "69a04abc0c0a65476e3ec348d700ccce31326389488fed5e4040d3ea31294ad0",
+        "negative-sorry.log": "a425dc430b179be2fc4457f81f7efa40e0e60759ee1fda0e18325b4047de96d6",
+        "negative-native.log": "77223a31cffc9bc0b489136986ee514b8590f72378366874ab28c3bd59ed12ee",
+        "sandbox.log": "89969f3b13a5b88e9d1c3d1a9546749c4d04698e79dd3cceba4b9cca5c3296ae",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "9239299ee35fa428ac486a1ad11302ea6187f8a76b1654e9d74ad93f7b05b9a6"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-functions-and-stability/MF-16/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 863,
+      "export_count": 9,
+      "theorems": [
+        "NLA.MF16.word_semantics",
+        "NLA.MF16.source_data",
+        "NLA.MF16.twelfth_power_reduction",
+        "NLA.MF16.polynomial_word_equivalence",
+        "NLA.MF16.krawczyk_certificate",
+        "NLA.MF16.certified_root",
+        "NLA.MF16.root_to_matrix",
+        "NLA.MF16.counterexample",
+        "NLA.MF16.not_wordUniquenessConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MF-16",
+        "artifact_id": 10678851007,
+        "sha256": "baaa284e87fabf287c492c0efc3c9554d10ad6320b412e0088ca89a80d8b2b65",
+        "bytes": 44613
+      },
+      "result_sha256": "ce715225ada98b97d75c7ef52d44948b63ee4b94fc966115dfac732c995354b2",
+      "log_sha256": {
+        "comparator.log": "23493749bdcd4892087cdc898735f43dfbd537c95457b0aa3229ff0a27d6a337",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "48a6d780fe6e6137512a7d3cc9850b873f4bda1f4ff44d909289258e0c703d33",
+        "negative-sorry.log": "7b9eb878b150b02698a8d736afdeda3dca4a238e9ed2856a584569c33ae2f4af",
+        "negative-native.log": "9f911dbd762d5d4071e7967fa5cb2d82e1210d08e7f8af6a2970693383fbeb14",
+        "sandbox.log": "94dd95dbf61181d08c33def61d1d7b7564d91533b770c0e4fbfecd6d48176b15",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "5c56982ff87de888fdc03313b01a9873d8e73181c4239e9a33f8c64ee4f53d54"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "randomized-and-low-rank-approximation/RA-03/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 132,
+      "export_count": 4,
+      "theorems": [
+        "NLA.RA03.frobeniusSq_eq_norm_sq",
+        "NLA.RA03.process_isProbability",
+        "NLA.RA03.counterexample",
+        "NLA.RA03.not_squaredErrorConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-RA-03",
+        "artifact_id": 10678786727,
+        "sha256": "2b3eb6fc0718f32b54a10c4fbb70402c41167080719e427970e1c62482877998",
+        "bytes": 18778
+      },
+      "result_sha256": "ed35a303a1a017c7729c4f4a7058c8c3b3c49c6ff3c36872e45243af60c9f868",
+      "log_sha256": {
+        "comparator.log": "a2f757d5d2dbf1359b264800f5df3328946011e287ace52b15b047b6b89ce7ab",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "dc9441cd385bbbb55d3dd942da205f2f4f239fc8900e9adeb2f537248bdf3f52",
+        "negative-sorry.log": "c21b1acbf9a539a9c5bfe06b144e10d613b68e98e12c2ce65f8932b995e4990e",
+        "negative-native.log": "e810a6d68df052db252e30b1df5b69063f3c914450e71687ec1060b5996d12b7",
+        "sandbox.log": "dd54536fb01ec183d2e474286f757aa13946e5e35c7c93bf1fc6f150a27aae2d",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "db4125c4df542681d57f0bd5e5b89d18b0e1ad9eff1833d28eb37157caf2fc62"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "intervals-and-absolute-value-equations/IV-06/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 597,
+      "export_count": 8,
+      "theorems": [
+        "NLA.IV06.eigenvalue_determinant_semantics",
+        "NLA.IV06.family_and_determinant_semantics",
+        "NLA.IV06.witness_eigenpairs",
+        "NLA.IV06.witness_separators",
+        "NLA.IV06.connected_component_intervals",
+        "NLA.IV06.four_components",
+        "NLA.IV06.counterexample",
+        "NLA.IV06.not_componentBoundConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IV-06",
+        "artifact_id": 10678692024,
+        "sha256": "1f9c0ba9f60d438d3f3a0b997b9cf47477ef6d5cd4ff403ba59b954a17fc89db",
+        "bytes": 37005
+      },
+      "result_sha256": "c23d6506b38d142fab88c3882c231c6ee88067282cf9348fc20f122501c7c7f4",
+      "log_sha256": {
+        "comparator.log": "24e2c4f29c2cda59311ea239caa1b789eb3ced5791b83775042424dd9529482e",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "ec969bed54c5efe4d4645e5d4b53d2be4c7ea8b1d15bcc10ca03106a40fccf3f",
+        "negative-sorry.log": "1fe5fc515726b93fc41a2ab086a1d53077168d7910e7c65abb591f1235f828da",
+        "negative-native.log": "b4dce2d336b7c1bda2b75c93c5bbeb1be041a25b0457f389bdc39b14d62ee825",
+        "sandbox.log": "40e9d3732dd4c7ee0d586b1b4f3552e0223c787dbbfe59a5c4c9f4bc6c6b49fd",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "ee2c83d6f68767878103e4ec16c462e87e668c274adb2be843986db5fed1ce16"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-04/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 110,
+      "export_count": 12,
+      "theorems": [
+        "NLA.IE04.gaussian_model",
+        "NLA.IE04.growth_semantics",
+        "NLA.IE04.gaussian_generic",
+        "NLA.IE04.measurable_tail",
+        "NLA.IE04.exact_wilkinson",
+        "NLA.IE04.full_box_robustness",
+        "NLA.IE04.gaussian_density_lower",
+        "NLA.IE04.gaussian_box_lower",
+        "NLA.IE04.gaussian_tail_lower",
+        "NLA.IE04.asymptotic_escape",
+        "NLA.IE04.every_pair_violated",
+        "NLA.IE04.not_exponentialTailConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-04",
+        "artifact_id": 10678685923,
+        "sha256": "0b9bd2070490bbc932155c3d8f92b6ffb6d9eecbef6b87b8e7c5a7c1f46bb7b2",
+        "bytes": 18991
+      },
+      "result_sha256": "496990c7fcb989a304369f9170e6cb56844972258de560792ed1677cd8ad2d68",
+      "log_sha256": {
+        "comparator.log": "9aa5cc18629802d0f196472daa683e20521e3ba9de9aa436f4812cbdf864fe7a",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "891e98d7b6d04025d4bc10b46f10bee90a707e9abbe814273755e9dc7e85b8a3",
+        "negative-sorry.log": "53e19260111d132a51452dd1bb7268297998c546aa7625b083f2b7230e825267",
+        "negative-native.log": "1a889457e30c4507e9469c7cc792cd691422f23487fc3e98aa0fe4bb501fd8c6",
+        "sandbox.log": "a57bc82f33b18fe93e531b29d4d5bd05a99ecfddbdee96621d95dfe10c074b8c",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "bb4be3bd9f52864e3156044f89a49cab41a5aba6f14ea47646f4a872733ed08a"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "tensor-computations/TR-15/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 427,
+      "export_count": 7,
+      "theorems": [
+        "NLA.TR15.lower_contractions",
+        "NLA.TR15.upper_contraction",
+        "NLA.TR15.lower_eigenvalues_pos",
+        "NLA.TR15.lower_eigenpair_exists",
+        "NLA.TR15.upper_negative_eigenpair",
+        "NLA.TR15.counterexample",
+        "NLA.TR15.not_inheritanceConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-TR-15",
+        "artifact_id": 10678651619,
+        "sha256": "28c9903f040a2d8c94c3ec73503c86165f811e2a883c8b66c2c84a9b9dd59ac0",
+        "bytes": 30139
+      },
+      "result_sha256": "bcb6fbdfb6d4dfbd080588dbf054e0a91b9ae2e7e48de12f8bd8d8dc856e2e41",
+      "log_sha256": {
+        "comparator.log": "2074479d651ea8cc5aee3a10a943712f4dc1b371025f5cb8cdac5c653d551081",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "ca9721c49b2e70a515665eb064f1834e305925c9355a848618a1bd98558c4330",
+        "negative-sorry.log": "283d6b837ae12aadb8908f10fe2d0f46e3b3ff6099a85d6ed363a1ed9e833e32",
+        "negative-native.log": "f9edaa5251ea3dec5d617c5d4c4a109b76a82052e40ef2c6e2bd0233d7500ebe",
+        "sandbox.log": "85deece73ee369a51d51034ff52ec7195f7f3656105d6d71cabce481c1d90292",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "ae2ab303880f553b3babff9d1c6bcab0decadc8d7d15b8b3eae8ef4b82cc36f9"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-03/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 76,
+      "export_count": 4,
+      "theorems": [
+        "NLA.MI03.upper_bound",
+        "NLA.MI03.sharpness",
+        "NLA.MI03.sharp_constant",
+        "NLA.MI03.odd_sharp_constant"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-03",
+        "artifact_id": 10678611365,
+        "sha256": "42476eed4cbe27b46879bc968f92ef328e83e781df8fb6f049acda6db43c3678",
+        "bytes": 14372
+      },
+      "result_sha256": "e20e511a2048327557948bb175fe1b146004511952dc912727229f6230796ba3",
+      "log_sha256": {
+        "comparator.log": "3ece7b7091d368c469e1e65ac3fc6cb36dfc266a9a19cac2bcc1292aa7ceb8f5",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "3a9b77389829c61f7792efe362dd958efbd5591166f2b240bf9fbac7e40354d9",
+        "negative-sorry.log": "2e1d85e7b0ae9a8d79e86c4918beb1a2c23c496066c8b5cf352d77351d56cc55",
+        "negative-native.log": "7c75204c724bd1a05a2b12ebf0dcd2c602fd45afe02fdf9d1e776a074d227802",
+        "sandbox.log": "9863d2ee7e8adc3ff463a5ceacf82d5f50a06ced09db864386d8c7282b15ca12",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "d1acb2c8b29e6d2d35782e40a63ab8dad9f7c55205d06d73e561c5b90ca1c304"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "matrix-inequalities-and-norms/MI-21/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 158,
+      "export_count": 3,
+      "theorems": [
+        "NLA.MI21.operatorNorm_isUnitaryInvariant",
+        "NLA.MI21.counterexample",
+        "NLA.MI21.not_geometricMeanNormConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-MI-21",
+        "artifact_id": 10678576331,
+        "sha256": "125d94089f0fcf720226ad32769106ecb136bc9714fc2de3bd2cd30645ad1893",
+        "bytes": 20116
+      },
+      "result_sha256": "30a771d1cbcaa8fe0adfb82a5fcb3051daf687bdf8cb35ae47f454ed25e70d88",
+      "log_sha256": {
+        "comparator.log": "0a217df42bb4e8f912ea3d706c8c5ce496e54413fe2ee3b0d72f613f72780a2a",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "028345c0ff3e88dd0fb07fab628577052a7db9e5db28669be4223970872dc439",
+        "negative-sorry.log": "23a3e8bad0f6166dfa821acf8b71b2d2101ffcd462a7333cdcb227da56815367",
+        "negative-native.log": "55c9d4361e32a111623fe7156e0203972bc4d871263b7c9c7a839a0511f17015",
+        "sandbox.log": "3a6973e764be0f57318c35b01bb817130aebf38411e8f4297d63c6b2d815b8ee",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "20188522e5db9c1d007ec5b90c2c386efdcaf6535ffaa10fe1c71d84d3bd970e"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-17/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 88,
+      "export_count": 4,
+      "theorems": [
+        "NLA.IE17.iterates",
+        "NLA.IE17.backward_increase",
+        "NLA.IE17.approximation_increase",
+        "NLA.IE17.counterexample"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-17",
+        "artifact_id": 10678556924,
+        "sha256": "bc856e2d2eabed28d24eee2af45ce79adea77b7b41aea1c9a0f19eddc342b5c4",
+        "bytes": 16486
+      },
+      "result_sha256": "542c2f659a5f3abd4a217813bb4b5e92cee2377cf5ece30eca63d1a162dc22f7",
+      "log_sha256": {
+        "comparator.log": "19f64b3547969525ac68117e64d7143ff8094931fe95d347aa5fc49cf9382d59",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "1a4199494e54f64f3a541c74d5f33f5a91a1e486dbc583f05530ac13bfa6d465",
+        "negative-sorry.log": "ca18a9de3a9e90606318a3f799f388c275b4bf97ea2360b0662b324f42d701bd",
+        "negative-native.log": "aa60ea5fc77948b77178b217babbee857366f829999fe0b68bccfcb4e57d03a9",
+        "sandbox.log": "75829bb9a899c2ad0ad4adb723a938d86718d80d656b0ecbd67d1a177138c397",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "b11af5d47725b167bf21055602d0bab31c796ad656568f0da37e079887ed00b9"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-18/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 92,
+      "export_count": 3,
+      "theorems": [
+        "NLA.IE18.residual_certificate",
+        "NLA.IE18.counterexample",
+        "NLA.IE18.not_fourStepConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-18",
+        "artifact_id": 10678531821,
+        "sha256": "e934def9d0bdc3e181509dfa7abecab350f82b792e610caec8bedba6503acc67",
+        "bytes": 18310
+      },
+      "result_sha256": "30d6a41d95dfe9dc923bc0f71fcadc479be0e58938199b562f898a49d3ff408a",
+      "log_sha256": {
+        "comparator.log": "d87318c8c76d3e03845de703b31673fb8bf44e4f3fb0aff8a118c3bc12a11257",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "b527bb5d87e687507ecb10c9d7132929ee6f4caad102fa4ea4f0ebc9c9f29235",
+        "negative-sorry.log": "23b732d51ec12eda293300cfb7372e4d0b4e288525e5f53e34cc936cf408e580",
+        "negative-native.log": "435e7a255adf53472215a5ef335fa8023a97701abcd715f5b45de6245ad3f7a5",
+        "sandbox.log": "2d00de902ef9e46736c3d8676ad7daa6b36b5eaefd895a9465f9fe0af06614d3",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "3127af7e9104cddcc36109549aa257320411fdb9d2eee8ea5fc8ebdcd354129a"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "linear-systems-and-elimination/IE-23/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 570,
+      "export_count": 8,
+      "theorems": [
+        "NLA.IE23.inducedNorm_semantics",
+        "NLA.IE23.witness_matrix_identities",
+        "NLA.IE23.fourth_power_norm_control",
+        "NLA.IE23.witness_action_identities",
+        "NLA.IE23.witness_attainment",
+        "NLA.IE23.witness_norms",
+        "NLA.IE23.witness_global_minimizers",
+        "NLA.IE23.not_rightInverseUniqueConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-IE-23",
+        "artifact_id": 10678498958,
+        "sha256": "57c2ef34839452f8658f4b762dc57e02d358b5f2e0fc9d5cb9540e7f6508e616",
+        "bytes": 32663
+      },
+      "result_sha256": "4a4a3ab628e3708d0e77c704ec62ae2550e768fd9fe744f42c211e9491e1336e",
+      "log_sha256": {
+        "comparator.log": "1fbdb86a4e4772560f10a8ff2d8028a2fc28d058b6511c6154376ef22c8a7428",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "b72ead517f963a98014b4f15f74106ac3a87ab67678e800f6f595cba1942409d",
+        "negative-sorry.log": "ce2fdd61e37c67597ec7d38f4e7901e2f00bff5060a04694959a00da1314370a",
+        "negative-native.log": "80041a26ff540366bccf5395386f944f13bed03cb221da3047366c824950f3f9",
+        "sandbox.log": "a8d66be5c115509b713db21e420a52c1fb21e64fc97f432c016df34fff054d8a",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "9b07633027e7fe551152e01089a166b164efdca49c75aab1a088ea2dd180e5c8"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    },
+    {
+      "verdict": "PASS",
+      "project": "frames-and-matrix-designs/FR-12/lean",
+      "repository_commit": "60c105ce368c06ded0cc176419f814db97231e4a",
+      "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229",
+      "input_count": 430,
+      "export_count": 7,
+      "theorems": [
+        "NLA.FR12.counting_semantics",
+        "NLA.FR12.injective_doubling",
+        "NLA.FR12.factorial_doubling",
+        "NLA.FR12.power_two_nonempty",
+        "NLA.FR12.power_two_lower_bound",
+        "NLA.FR12.counterexample",
+        "NLA.FR12.not_countingConjecture"
+      ],
+      "artifact": {
+        "artifact": "lean-FR-12",
+        "artifact_id": 10677674904,
+        "sha256": "fd292af2c4cf03e7a7e72b5df7e154ec3d9fc7595c6ff1170521c8982d92b104",
+        "bytes": 27437
+      },
+      "result_sha256": "2a50608b05db88be23b50964e6f7dc52cf24267ca50ea57a55ca56e45c8ec4c4",
+      "log_sha256": {
+        "comparator.log": "8b1818fa9e5a43de77589d49d641402818878633aa66a925d2ea5f5e9b42e536",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "5b476325c6a74fc2513e793771ce003b4771bc6d164bb39072b6518f1d4125b8",
+        "negative-sorry.log": "99de039da82374c9ca5cb7a91f2607a80d47e16301ff25af096aa1d885f4c973",
+        "negative-native.log": "7ef94ee69d86bae08377a20b93b211be361d8d4fee852e637a6bb7caafa77785",
+        "sandbox.log": "1a54c813cde57c369a998bb5bee36595c22b45601a2fb63d48cc318b505b00cd",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "9d68425340e88f6c1ac6a4145c93250acd5d0d0db67c918c554b258a848f5dc2"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 284,
+  "total_inputs": 17159,
+  "unique_git_blobs_hashed": 7183,
+  "limits": "Independent operational evidence audit, not a new mathematical proof review. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}
