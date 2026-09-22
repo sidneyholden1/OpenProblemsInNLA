@@ -34,7 +34,7 @@ pivoting},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IE-15}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-22}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,7 +51,7 @@ small-order growth factors for rook pivoting\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} hard\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -59,6 +59,34 @@ to specialist\par}
 finite-dimensional extremal constants within an established pivoting
 model; specialist impact concerns exact small-order rook-pivoting
 behavior.
+
+\subsection{Lean verification ---
+2026-09-22}\label{lean-verification-2026-09-22}
+
+\textbf{The complete original target is Lean verified:}
+\(g_{\mathrm{RP}}(3)=3\) and \(g_{\mathrm{RP}}(4)=14/3\). The
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-15/lean/README.md}{formalization}
+includes all real nonsingular inputs, every admissible rook choice and
+tie, every intermediate active entry, and exact rational matrices
+attaining both bounds. The real suprema are explicitly nonempty and
+bounded.
+
+Two independent statement reviews preceded implementation, and two
+nonauthor final source reviews passed. All four exports passed LeanCert
+kernel trust checks and an
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35691581091}{actual
+isolated Linux Lean4 Comparator run}, including default-kernel replay
+and rejection controls. Only the standard three axioms are permitted.
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/IE-15/README.md}{Hash-bound
+proof and audit evidence} ·
+\href{https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-15/lean/formalization.yaml}{formalization.yaml}.
+
+The mathematical resolution remains credited to \textbf{George
+Stepaniants, Caltech}, and the original question to Nicholas J. Higham.
+The formalization is by Sidney Holden with OpenAI Codex assistance.
+Reviews are independent AI-agent checks, not external human peer review
+or source-author endorsement. The earlier resolution and original
+statement below are retained.
 
 \subsection{Resolution --- 2026-09-11}\label{resolution-2026-09-11}
 
@@ -103,6 +131,8 @@ result. See the
 record} for the Cambridge affiliation, AI-assistance disclosure and
 verification limits.
 
+\newpage
+
 \subsection{Problem statement}\label{problem-statement}
 
 All arithmetic is exact and matrices are real and nonsingular. At each
@@ -114,13 +144,11 @@ column interchanges, and form the trailing Schur complement.
 For an admissible path \(\pi\) on \(A\in\mathbb R^{n\times n}\), let
 \(S_1=A,\ldots,S_n\) be the active matrices and define
 
-\[
-\rho(A,\pi)=\frac{\max_{1\le k\le n}\|S_k\|_{\max}}{\|A\|_{\max}},
-\qquad \|M\|_{\max}=\max_{i,j}|m_{ij}|,
-\] \[
-g_{\mathrm{RP}}(n)=\sup_{\substack{A\in\mathbb R^{n\times n}\\\det A\ne0}}\
-\sup_{\pi\text{ permitted by rook pivoting}}\rho(A,\pi).
-\]
+\[\rho(A,\pi)=\frac{\max_{1\le k\le n}\|S_k\|_{\max}}{\|A\|_{\max}},
+\qquad \|M\|_{\max}=\max_{i,j}|m_{ij}|,\]
+
+\[g_{\mathrm{RP}}(n)=\sup_{\substack{A\in\mathbb R^{n\times n}\\\det A\ne0}}\
+\sup_{\pi\text{ permitted by rook pivoting}}\rho(A,\pi).\]
 
 Determine the two exact constants \(g_{\mathrm{RP}}(3)\) and
 \(g_{\mathrm{RP}}(4)\), with matching upper and lower bounds. All
@@ -134,7 +162,6 @@ small-order constants would sharpen its finite-dimensional stability
 theory. General asymptotic growth estimates do not determine them; IE-11
 concerns a different pivoting rule.
 
-\newpage
 \subsection{References}\label{references}
 
 N. J. Higham,

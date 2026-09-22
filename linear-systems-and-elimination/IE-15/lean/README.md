@@ -13,10 +13,11 @@ replaces the original universal statement.
 
 Local status, 2026-09-22: complete Solution build PASS (3087 jobs). All four
 LeanCert `#assert_trust kernel` checks pass; each transitive axiom closure is
-exactly `propext`, `Classical.choice`, and `Quot.sound`. Two independent final
-code reviews and actual isolated Linux Comparator/default-kernel verification
-are pending. The canonical page is not promoted by this local result. These
-are AI-assisted checks, not external human peer review or source endorsement.
+exactly `propext`, `Classical.choice`, and `Quot.sound`. Two independent nonauthor final reviews passed. Actual isolated Linux
+Comparator/default-kernel verification accepted all four exports at proof
+revision `1ada36c90a34f5567902c4ae306c01e392a8bac9`, with all rejection and sandbox
+controls checked. [Complete acceptance record](../../../docs/lean/verification-2026-09-22/IE-15/README.md).
+These are AI-assisted checks, not external human peer review or source endorsement.
 
 The original two statement approvals were independently hash-bound before
 implementation and revalidated on 2026-09-22. Challenge and Definitions,

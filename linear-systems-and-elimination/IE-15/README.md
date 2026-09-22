@@ -6,10 +6,18 @@
 
 **Difficulty:** hard  
 **Importance:** interesting to specialist  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified  
+**Last checked:** 2026-09-22  
 
 **Rating rationale (historical):** Hard reflects two focused finite-dimensional extremal constants within an established pivoting model; specialist impact concerns exact small-order rook-pivoting behavior.
+
+## Lean verification — 2026-09-22
+
+**The complete original target is Lean verified:** $`g_{\mathrm{RP}}(3)=3`$ and $`g_{\mathrm{RP}}(4)=14/3`$. The [formalization](lean/README.md) includes all real nonsingular inputs, every admissible rook choice and tie, every intermediate active entry, and exact rational matrices attaining both bounds. The real suprema are explicitly nonempty and bounded.
+
+Two independent statement reviews preceded implementation, and two nonauthor final source reviews passed. All four exports passed LeanCert kernel trust checks and an [actual isolated Linux Lean4 Comparator run](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35691581091), including default-kernel replay and rejection controls. Only the standard three axioms are permitted. [Hash-bound proof and audit evidence](../../docs/lean/verification-2026-09-22/IE-15/README.md) · [formalization.yaml](lean/formalization.yaml).
+
+The mathematical resolution remains credited to **George Stepaniants, Caltech**, and the original question to Nicholas J. Higham. The formalization is by Sidney Holden with OpenAI Codex assistance. Reviews are independent AI-agent checks, not external human peer review or source-author endorsement. The earlier resolution and original statement below are retained.
 
 ## Resolution — 2026-09-11
 

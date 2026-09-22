@@ -1,5 +1,9 @@
 # Solved problems and solution claims
 
+## IE-15 full Lean verification — 22 September 2026
+
+[IE-15](linear-systems-and-elimination/IE-15/README.md) now has complete Lean proofs of both original rook-pivot constants, including arbitrary paths/ties, all intermediate entries and attained witnesses. The [independent reviews and actual Linux acceptance evidence](docs/lean/verification-2026-09-22/IE-15/README.md) support this promotion. Mathematical credit remains George Stepaniants; formalization credit is Sidney Holden with OpenAI Codex assistance.
+
 ## Formal verification consolidation — 22 September 2026
 
 The current formal status of the following retained targets is established by the [consolidated proof and review evidence](docs/lean/consolidation-2026-09-22/README.md). Earlier resolution narratives below remain dated historical records; the linked canonical pages carry the current status.

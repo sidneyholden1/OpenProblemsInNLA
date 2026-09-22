@@ -3,7 +3,8 @@ version: v0.4
 project:
   name: 'IE-15: sharp rook-pivoting growth in orders three and four'
   description: Full original sharp rook-pivoting constants 3 and 14/3 for all real nonsingular inputs,
-    every admissible path and tie, and every intermediate entry; complete local kernel-checked implementation.
+    every admissible path and tie, and every intermediate entry; complete kernel-checked implementation
+    with independent source reviews and isolated Linux verification.
   authors:
   - Sidney Holden
   affiliations:
@@ -48,10 +49,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Complete local proof of both full original constants, including arbitrary row/column pivot paths,
-    all ties, every intermediate entry, matching attained witnesses, and genuine nonempty bounded real
-    suprema. Two final independent reviews and actual isolated Linux Comparator verification pending;
-    no canonical verification promotion yet.
+  scope: 'Complete original target: both orders, all real nonsingular inputs, arbitrary rook paths and
+    ties, every intermediate entry, exact attained witnesses, genuine nonempty bounded real suprema. Four
+    exports accepted by isolated Linux Comparator and default kernel at proof revision 1ada36c90a34f5567902c4ae306c01e392a8bac9;
+    later publication checks separate.'
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -103,14 +104,15 @@ fidelity:
     The actual last diagonal entry is retained, bounded by one; no replacement assumption is introduced.
     Both original sizes and genuine nonempty bounded real suprema are proved.
 review:
-  status: two-statement-reviews-approved; final-proof-reviews-and-Linux-pending
+  status: two-statement-and-two-independent-final-reviews-approved; Linux-accepted
   reviewers:
-  - OpenAI Codex independent statement referee /root/iv06_statement_referee_1
-  - OpenAI Codex independent statement referee /root/iv06_statement_referee_2
-  notes: Two independently hash-bound statement approvals were revalidated before implementation on 2026-09-22,
-    then Challenge replayed successfully. The original metadata and README reviewed then are preserved
-    under reviews/statement-review-snapshot. Full local Solution build passes; two nonauthor final reviews
-    and isolated Linux Comparator remain pending.
+  - OpenAI Codex /root/iv06_statement_referee_1, independent AI statement/final/operational referee
+  - OpenAI Codex /root/iv06_statement_referee_2, independent AI statement referee before proof implementation
+  - OpenAI Codex /root, independent AI final referee, nonauthor of IE15 proof
+  notes: Both final reviewers are nonauthors. Exact source hashes and reports are retained in reviews/.
+    Actual Linux run 35691581091 accepted all four exports with default-kernel replay, standard-three axioms
+    and per-project negative/sandbox controls. Original proof-review snapshots remain immutable; metadata
+    publication updates do not change mathematical bytes. No human review or endorsement claimed.
 alignment:
 - source: Source Section 5 exact attained witnesses
   declarations:
