@@ -1,0 +1,82 @@
+✖ [3251/3251] Building NLA.SP05.SpectralMaximum (13s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/NLA/SP05/SpectralMaximum.lean -o /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/SpectralMaximum.olean -i /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/SpectralMaximum.ilean -c /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/SpectralMaximum.c --setup /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/SpectralMaximum.setup.json --json
+error: NLA/SP05/SpectralMaximum.lean:32:4: Type mismatch: After simplification, term
+  Unitary.coe_mul_star_self U
+ has type
+  @Eq (Matrix ι ι ℂ) (↑U * ↑(star U)) 1
+but is expected to have type
+  @Eq (Matrix ι ι ℂ) (↑U * (↑U)ᴴ) 1
+error: NLA/SP05/SpectralMaximum.lean:42:16: Unknown constant `Matrix.conjStarAlgAut_apply`
+error: NLA/SP05/SpectralMaximum.lean:42:4: Type mismatch: After simplification, term
+  congrArg (fun M => ↑r • 1 - M) (Eq.symm hspec)
+ has type
+  @Eq (Matrix ι ι ℂ)
+    (↑r • 1 -
+      ((Unitary.conjStarAlgAut ℂ (Matrix ι ι ℂ)) hK.eigenvectorUnitary)
+        (Matrix.diagonal (RCLike.ofReal ∘ hK.eigenvalues)))
+    (↑r • 1 - K)
+but is expected to have type
+  @Eq (Matrix ι ι ℂ)
+    (↑r • 1 - ↑hK.eigenvectorUnitary * Matrix.diagonal (RCLike.ofReal ∘ hK.eigenvalues) * (↑hK.eigenvectorUnitary)ᴴ)
+    (↑r • 1 - K)
+warning: NLA/SP05/SpectralMaximum.lean:37:14: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [D, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/SP05/SpectralMaximum.lean:67:44: Type mismatch: After simplification, term
+  congrArg vecM he
+ has type
+  @Eq (Fin n × Fin n → ℂ) v (vecM 0)
+but is expected to have type
+  @Eq (CVec n) v 0
+error: NLA/SP05/SpectralMaximum.lean:72:4: Type mismatch: After simplification, term
+  h'
+ has type
+  @Eq (Matrix (Fin n) (Fin n) ℂ) (unvecM (K *ᵥ v)) (unvecM (r • v))
+but is expected to have type
+  @Eq (CMat n) (unvecM (K *ᵥ v)) (r • unvecM v)
+error: NLA/SP05/SpectralMaximum.lean:82:43: unsolved goals
+n : ℕ
+hn : 0 < n
+K : Matrix (Fin n × Fin n) (Fin n × Fin n) ℂ
+hK : K.PosDef
+hstar : ∀ (X : CMat n), matrixMap K Xᴴ = (matrixMap K X)ᴴ
+z : Fin n × Fin n := (⟨0, hn⟩, ⟨0, hn⟩)
+i : Fin n × Fin n
+left✝ : i ∈ Finset.univ
+hmax : ∀ x' ∈ Finset.univ, ⋯.eigenvalues x' ≤ ⋯.eigenvalues i
+r : ℝ := ⋯.eigenvalues i
+hr : 0 < r
+hcap : (↑r • 1 - K).PosSemidef
+v : CVec n := (⋯.eigenvectorBasis i).ofLp
+Z : Matrix (Fin n) (Fin n) ℂ := unvecM v
+hv : v ≠ 0
+hZ : Z ≠ 0
+heig : matrixMap K Z = ↑r • Z
+eigsum : ∀ (Y : CMat n), matrixMap K Y = ↑r • Y → matrixMap K (Y + Yᴴ) = ↑r • (Y + Yᴴ)
+hh : ¬Z + Zᴴ ≠ 0
+hh0 : Z + Zᴴ = 0
+Y : Matrix (Fin n) (Fin n) ℂ := Complex.I • Z
+⊢ (Complex.I * ↑r) • Z = r • Complex.I • Z
+error: NLA/SP05/SpectralMaximum.lean:86:71: Application type mismatch: The argument
+  hh0
+has type
+  Z + Zᴴ = 0
+but is expected to have type
+  Zᴴ + Z = 0
+in the application
+  eq_neg_of_add_eq_zero_left hh0
+warning: NLA/SP05/SpectralMaximum.lean:83:64: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP05.SpectralMaximum
+error: build failed

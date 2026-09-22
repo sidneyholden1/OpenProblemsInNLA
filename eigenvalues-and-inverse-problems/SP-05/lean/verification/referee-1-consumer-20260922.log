@@ -1,0 +1,4 @@
+'NLA.SP05.vectorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.psd_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.sector_minima_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.symmetric_skew_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]

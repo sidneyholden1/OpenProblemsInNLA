@@ -1,0 +1,7 @@
+✔ [2644/2646] Built NLA.SP05.Definitions (4.6s)
+⚠ [2645/2646] Built Challenge (4.2s)
+warning: Challenge.lean:8:8: declaration uses `sorry`
+warning: Challenge.lean:15:8: declaration uses `sorry`
+warning: Challenge.lean:24:8: declaration uses `sorry`
+warning: Challenge.lean:34:8: declaration uses `sorry`
+Build completed successfully (2646 jobs).

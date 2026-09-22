@@ -1,0 +1,23 @@
+{
+  "status": "PASS-owned-helpers-only",
+  "author": "Sidney Holden with OpenAI Codex assistance; agent new_target_screen",
+  "scope": "Five complete helper modules including exact sector_minima_attained_proved; entire SP05 assembly still owned by agent2, not asserted complete here",
+  "trust": "All audited closures use only propext, Classical.choice, Quot.sound",
+  "files": {
+    "NLA/SP05/InversePositive.lean": "b8764d95ac98a1c14722fd90160bda3eaa78ec914a3c826309e00d8291edf9aa",
+    "NLA/SP05/ConeEigen.lean": "259095ed393b9809790fe841c49b8814f5ac53d3aafb45c3bbe8569c704ae08c",
+    "NLA/SP05/SectorMinima.lean": "9eb7a78c04484ef114833d8230c593ece95148182b902092bb625d0b115b4c28",
+    "NLA/SP05/Realification.lean": "726c86709de5443bff97f9179c4ec215915a3cd9c35e32f6287296899d604e20",
+    "NLA/SP05/Comparison.lean": "cc46e697bf4c2671d9e042eb3925dc6c072909b4b77280227547dab3941a1a91",
+    "verification/inverse-positive-build.log": "b23c7d3eaf5ad3b59c3d6598b483f870ed591d7123894530ea025887a651f672",
+    "verification/inverse-positive-audit.log": "5cf3deaeada30818921f546dffc6baf2aa7162a96afc459d1759ff3331776c4c",
+    "verification/cone-eigen-build.log": "bdd619aa985fbcffa2cd002360c3120492cd5be79e6c27d4dd2076cc460efc10",
+    "verification/cone-eigen-audit.log": "c463efabe44e5dde7fe42d1071971049954501f65b61e21deaa04f7c011540ee",
+    "verification/sector-minima-build.log": "bef6ca7b7a0cd0bbd64290c88a9776c4a94ddb809950651d565724c261bbd090",
+    "verification/sector-minima-audit.log": "dc94bfbe505fcf72239428ba9040afd86c01820936aad4d91307ea5203544a09",
+    "verification/realification-build.log": "bf9b4747408f0006161159f7d75355118231b74531da7c444bd1ce6457cdebca",
+    "verification/realification-audit.log": "ef8fe325c30b912c5e212be9a641c1dc1f6e11c1e787cd190be68ad92361bda9",
+    "verification/comparison-build.log": "f0212578de97e369a7a55d3744b6973bec6baa0660f4193ee0049237900838e3",
+    "verification/comparison-audit.log": "6440c121bc5599cc1f8a0b016b132c81e5b44b3c0afd0556f4c171e019c067d1"
+  }
+}

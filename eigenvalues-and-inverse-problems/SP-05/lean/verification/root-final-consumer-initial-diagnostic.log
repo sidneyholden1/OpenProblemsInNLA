@@ -1,0 +1,15 @@
+reviews/root-exact-consumer.lean:11:107: error: Application type mismatch: The argument
+  hA
+has type
+  Matrix.IsHermitian A
+of sort `Prop` but is expected to have type
+  Mat n
+of sort `Type` in the application
+  SP05.vectorization A B hA
+reviews/root-exact-consumer.lean:37:21: error: #assert_trust: 'NLA.SP05.RootFinalReview.vectorization' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+'NLA.SP05.RootFinalReview.vectorization' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'NLA.SP05.RootFinalReview.psd_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.RootFinalReview.sector_minima_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.RootFinalReview.symmetric_skew_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
