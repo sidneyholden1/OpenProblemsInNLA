@@ -1,0 +1,49 @@
+{
+  "verdict": "PASS",
+  "run_id": 35708841195,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35708841195",
+  "head_sha": "fbdd37e625c6d9c60c7cc1a487f14c10e6608034",
+  "run_attempt": 1,
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "matrix-functions-and-stability/MF-22/lean",
+      "repository_commit": "18afd43116cd29d04aa252b09fcbe1d566913485",
+      "head_sha": "fbdd37e625c6d9c60c7cc1a487f14c10e6608034",
+      "input_count": 140,
+      "export_count": 4,
+      "theorems": [
+        "NLA.MF22.uniform_norm_bound",
+        "NLA.MF22.eventual_inverse_entry_bound",
+        "NLA.MF22.linear_condition_bound",
+        "NLA.MF22.original_target"
+      ],
+      "artifact": {
+        "artifact": "lean-MF-22",
+        "artifact_id": 10685963120,
+        "sha256": "9e34bfa8401825e47b656fa3e6293047434cc650612fa642398e9387b510dbda",
+        "bytes": 19699
+      },
+      "result_sha256": "4d12925ca244b941b04b5f3b4c0e4e4e91c890deb940190eb056606f5051ce06",
+      "log_sha256": {
+        "comparator.log": "dce5a774ec75893dadfb4ad2736940597bc395de0e8af382a4c58de1256108f4",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "bc332e9ccb9ffd645f60b0e595575ad19bf7177d0dfacf337f1893f1dc0a194b",
+        "negative-sorry.log": "fb41c29904af7e3aa8a2827e1f5b47001205547a39903c310b410dfcb12071a8",
+        "negative-native.log": "83981902674dcd1511e67b0e4dd6d723c99ebfc8cd771753960db3efe69a6153",
+        "sandbox.log": "da7f4d9d0cce285102cc91255d3c432761d6dff75aa04f1547959bb46c317649",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "685bf2d9bcfe1967c40cc5970da5788f00581ec57ad3e8a6e46fee097e8a3171"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 4,
+  "total_inputs": 140,
+  "unique_git_blobs_hashed": 139,
+  "limits": "Operational evidence audit adapted, executed and reviewed by coordinator /root, a nonauthor of MF22 proofs, from the previously used campaign collector. Separate from the two mathematical source reviews. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}

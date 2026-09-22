@@ -1,6 +1,6 @@
 {
   "verdict": "PASS",
-  "phase": "publication source/catalog/PDF checks; publication-head Linux pending",
+  "phase": "publication source/catalog/PDF and publication-head Linux accepted",
   "actual_proof_head": "5596784dc81e22ed625650bca71d4a1435896cef",
   "actual_proof_linux_run": 35707732163,
   "checks": {
@@ -42,5 +42,14 @@
     "manifest.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
     "catalog.log": "64b0c85368f359423fb3f669d3bd630fa2c2179f1d9cbd388657592c4315e840",
     "math-format.log": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c"
+  },
+  "publication_linux": {
+    "run": 35708841195,
+    "head": "fbdd37e625c6d9c60c7cc1a487f14c10e6608034",
+    "tested_merge": "18afd43116cd29d04aa252b09fcbe1d566913485",
+    "inputs": 140,
+    "exports": 4,
+    "verdict": "PASS",
+    "audit": "publication-linux/AUDIT-RESULTS.json"
   }
 }
