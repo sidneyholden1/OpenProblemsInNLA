@@ -22,3 +22,7 @@ Nicholas J. Higham. Formalization: Sidney Holden with OpenAI Codex assistance.
 Independent AI-agent checks are disclosed; no external human review, source
 endorsement or novelty claim is made. Later publication checks are recorded
 separately and do not replace this immutable proof acceptance evidence.
+
+## Publication accepted
+
+Fresh [publication run 35692678154](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35692678154) passed after documentation updates. The [separate publication artifact audit](publication-linux/AUDIT-RESULTS.json) verifies all 65 tracked inputs and 4 exports with the same kernel/rejection/isolation gates. Main merge: [736845bcf661](https://github.com/sidneyholden1/OpenProblemsInNLA/commit/736845bcf6613cad598ff0c75a65f3604d6fe918). Proof-head acceptance above remains a distinct immutable record.

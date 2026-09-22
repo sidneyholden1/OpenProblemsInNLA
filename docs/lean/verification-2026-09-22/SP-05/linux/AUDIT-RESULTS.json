@@ -1,0 +1,48 @@
+{
+  "verdict": "PASS",
+  "run_id": 35693379965,
+  "run_url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693379965",
+  "head_sha": "8596dc32d33c931de352aace53df8f02a67602ce",
+  "projects": [
+    {
+      "verdict": "PASS",
+      "project": "eigenvalues-and-inverse-problems/SP-05/lean",
+      "repository_commit": "1e59b4a4d35ecc8b24d2dfc01ec8c53669874c12",
+      "head_sha": "8596dc32d33c931de352aace53df8f02a67602ce",
+      "input_count": 78,
+      "export_count": 4,
+      "theorems": [
+        "NLA.SP05.vectorization",
+        "NLA.SP05.psd_minimizer",
+        "NLA.SP05.sector_minima_attained",
+        "NLA.SP05.symmetric_skew_minimum"
+      ],
+      "artifact": {
+        "artifact": "lean-SP-05",
+        "artifact_id": 10679740694,
+        "sha256": "e04960667f59cb5dd84d588ee77627a1425d219191fadb8e382e330110e655ee",
+        "bytes": 16515
+      },
+      "result_sha256": "041d6916d15e0f4447844a14adcd6826fe0d20f7884b86397f1472bda0259175",
+      "log_sha256": {
+        "comparator.log": "e1aad4503e401cee97d62819c7c7093e1ca4016c33c9357a2e83e315a6b73cc5",
+        "kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+        "comparator-controls.log": "765baefbc1331773c2dd5aa067f2dd6b38d78acce459e6ecab408ecde4778a1d",
+        "negative-sorry.log": "c9d467a6589beb3a242d075e1d23c7e04b82dea178d2f5d645259d988e6f2549",
+        "negative-native.log": "1c7572f27f83953b10ffccba9ec974e12d06b7bc8f3709b2e60942afc99896b4",
+        "sandbox.log": "eeb881df5943ba8774da8e580d3a2544c189885684cf3d8f85244760b6df2a13",
+        "user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+        "dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+        "mathlib-cache.log": "99f40a73e6f5b6714264843e08c4e530dd26e14cfbccf095de9469c6fa4b0d39"
+      },
+      "source_identity": "every tracked input hash independently matched exact Git blob at repository_commit",
+      "default_kernel": true,
+      "all_rejection_controls": true,
+      "all_isolation_controls": true
+    }
+  ],
+  "total_exports": 4,
+  "total_inputs": 78,
+  "unique_git_blobs_hashed": 78,
+  "limits": "Independent operational evidence audit by coordinator /root, a nonauthor of SP05 proofs; separate from the two source reviews. Tested repository_commit may be the pull-request merge commit rather than event head SHA; both retained."
+}

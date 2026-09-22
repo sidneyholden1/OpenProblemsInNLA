@@ -1,0 +1,9 @@
+# IE-15 publication-head Linux evidence — 22 September 2026
+
+This is the later publication check, separate from the immutable [proof-head acceptance](../README.md) at commit `1ada36c90a34f5567902c4ae306c01e392a8bac9` and [run 35691581091](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35691581091). Neither receipt overwrites the other.
+
+The actual [publication pull-request run 35692678154](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35692678154) succeeded on event head `03ae379de693688ca1e43e30e570226d5e06bdb3`, with actual tested pull-request merge commit `c37e1e667ed1a6ec1edd4be11c7f4b526348d688`. The retained [operational audit](AUDIT-RESULTS.json) records all 65 exact project inputs and all four exports, default-kernel replay, rejection controls and sandbox controls. The publication agent performed that operational audit; this retention pass independently checked byte-for-byte copying, the ZIP digest and ZIP integrity. This is not a new independent mathematical review.
+
+Original artifact 10678668525, `lean-IE-15.zip`, has API and computed SHA256 `d0c0f6a815c95fa77bd1f298f36b9251c89f37226fceb5d7b3bb23cf804900da`. Its original bytes, fresh run/artifact metadata, results and full logs are retained here. The project trees tested by the run correspond to the publication head as recorded by the audit.
+
+[PR 2](https://github.com/sidneyholden1/OpenProblemsInNLA/pull/2) subsequently merged into main as [736845bcf6613cad598ff0c75a65f3604d6fe918](https://github.com/sidneyholden1/OpenProblemsInNLA/commit/736845bcf6613cad598ff0c75a65f3604d6fe918). The full original IE-15 result, both independent nonauthor proof reviews, Stepaniants/Higham/Holden attribution and the permanent canonical ID remain unchanged. This publication evidence does not assert a new proof theorem or a second independent source review.

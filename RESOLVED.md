@@ -34,6 +34,14 @@ result is formalized in Lean.
 
 ## Resolved catalog entries
 
+### 🏆 MF-02 - uniform cubic-composition stage bounds - George Stepaniants
+
+**Lean verified, 2026-09-22.** The [full original target](matrix-functions-and-stability/MF-02/README.md) has uniform constant-factor stage bounds for every multiplication budget and every gap in (0,1), including both small-budget endpoints. Seven exports cover actual program costs, approximation errors, strict cubic improvement and genuine least feasible stages. Two independent final reviews, kernel-only LeanCert audits, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693827256) with rejection/isolation controls pass. [Proof](matrix-functions-and-stability/MF-02/lean/README.md) · [Evidence](docs/lean/verification-2026-09-22/MF-02/README.md). Exposition: George Stepaniants; prior asymptotic order: Cheon–Kim–Kim; cubic construction: Chen–Chow; formalization: Sidney Holden with OpenAI Codex assistance. No novelty or external human peer review is claimed.
+
+### 🏆 SP-05 - full symmetric-skew minimum comparison - Matthew J. Colbrook
+
+**Lean verified, 2026-09-22.** The [original target](eigenvalues-and-inverse-problems/SP-05/README.md) holds for every real SPD pair and every dimension at least two. A nonzero real PSD eigenmatrix attains the global Jordan minimum, and both actual sector minima are attained. Four exports passed two independent final reviews, kernel-only LeanCert audits, and [fresh Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693379965) with rejection/isolation controls. [Proof](eigenvalues-and-inverse-problems/SP-05/lean/README.md) · [Evidence](docs/lean/verification-2026-09-22/SP-05/README.md). Mathematics: Matthew J. Colbrook; original conjecture: Kalantarova and Tunçel; formalization: Sidney Holden with OpenAI Codex assistance. No external human peer review is claimed.
+
 
 ### ✅ RA-19 - the one-zero corank-one critical-point count - George Stepaniants
 

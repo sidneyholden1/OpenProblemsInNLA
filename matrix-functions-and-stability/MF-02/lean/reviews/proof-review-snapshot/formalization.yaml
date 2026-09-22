@@ -1,0 +1,163 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'MF-02: uniform cubic composition multiplication overhead'
+  description: Full uniform constant-factor stage count for all multiplication budgets and every real
+    gap in (0,1); complete local kernel-checked implementation.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: MF-02 — Multiplication overhead of cubic sign compositions
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/83a1a1407d1427dbda6d968a9047b17f2071c229/matrix-functions-and-stability/MF-02/README.md
+  type: web-post
+  location: Context, problem statement, and resolution scope
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'MF-02: A uniform constant-factor bound for cubic composition overhead'
+  authors:
+  - George Stepaniants
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/83a1a1407d1427dbda6d968a9047b17f2071c229/matrix-functions-and-stability/MF-02/solution.md
+  type: manuscript
+  location: Theorem and Sections 2–5
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: 'Expository note by George Stepaniants, Caltech, with substantial AI assistance. Prior uniform
+    asymptotic order: Cheon, Kim and Kim; optimized cubic: Chen and Chow. No novelty claim.'
+related_formalizations:
+- id: https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Analysis/SpecialFunctions/Trigonometric/Chebyshev/Extremal.lean
+  relationship: other
+  note: Pinned Chebyshev exterior extremal inequality and polynomial APIs studied; use proved library
+    facts, not the target as a premise. Existing IE-15 project organization and kernel audit layout studied.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Separate trusted Challenge and completed Solution,
+      kernel trust only, exact HTTPS dependency pins, shared local cache. Exact polynomial and Chebyshev
+      arguments avoid interval subdivision.
+    prompting_notes: Full actual free-linear-combination register programs and cubic compositions, real
+      suprema/infima, statement-first with two independent reviews; optimize with exact polynomial algebra
+      and existing Chebyshev extremality.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Complete full-target implementation proved locally, including actual register programs, all error-set
+    guards, polynomial degree obstruction, constructive strict cubic improvement, genuine stage minima
+    and all uniform bounds. Local Solution PASS3023 and all seven kernel/standard-axiom checks pass. Two
+    nonauthor reviews and isolated Linux Comparator remain pending; canonical status unchanged.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.MF02.error_sets_valid
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF02.register_degree_bound
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF02.degree_error_bound
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF02.cubic_bounds_and_strict
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF02.stages_computable
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF02.genuine_stage_minimum
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MF02.stage_bounds
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+fidelity:
+  divergences: Finite straight-line register histories include arbitrary stored-value reuse and all free
+    real linear combinations. Every actual error is a real supremum on both closed gap intervals; their
+    nonempty bounded attained nature is a required export. Program/composition errors are real infima
+    with explicit nonempty bounded obligations. The natural least stage is used only with a required feasible-set
+    nonemptiness/minimality proof, so empty-infimum fallback cannot prove the target. Uniform bounds cover
+    every gap and multiplication budget, including zero and one; no finite samples or abstract assumed
+    approximation bounds.
+review:
+  status: two-statement-approvals; final-proof-reviews-and-Linux-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/new_target_screen
+  notes: Two independent hash-bound statement approvals preceded proof work. Statement snapshots preserved;
+    exact mathematical boundary unchanged. Final nonauthor proof reviews and Linux Comparator are separate
+    required gates. Local Solution build PASS3023; all seven kernel assertions pass with exactly the standard
+    three axioms.
+alignment:
+- source: Full actual error sets and uniform approximation model
+  declarations:
+  - NLA.MF02.error_sets_valid
+- source: Source degree-only and straight-line-program bounds
+  declarations:
+  - NLA.MF02.register_degree_bound
+  - NLA.MF02.degree_error_bound
+- source: Constructive cubic upper/lower errors, strict improvement and cost
+  declarations:
+  - NLA.MF02.cubic_bounds_and_strict
+  - NLA.MF02.stages_computable
+- source: Original uniform stage complexity and endpoint cases
+  declarations:
+  - NLA.MF02.genuine_stage_minimum
+  - NLA.MF02.stage_bounds
+acknowledgements: 'Expository source: George Stepaniants, Caltech. Prior asymptotic order: Cheon, Kim
+  and Kim; optimized cubic: Chen and Chow; original workshop target and subsequent sources retain canonical
+  attribution. Formalization by Sidney Holden with OpenAI Codex assistance. Mathlib, LeanCert, Comparator
+  and formalization.yaml retain credit. No novelty, external human review or source-author endorsement
+  claim.'

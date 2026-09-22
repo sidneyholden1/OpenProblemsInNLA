@@ -1,0 +1,27 @@
+✖ [3014/3014] Building NLA.MF02.Registers (14s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf02/matrix-functions-and-stability/MF-02/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf02/matrix-functions-and-stability/MF-02/lean/NLA/MF02/Registers.lean -o /private/tmp/nla-20260922-mf02/matrix-functions-and-stability/MF-02/lean/.lake/build/lib/lean/NLA/MF02/Registers.olean -i /private/tmp/nla-20260922-mf02/matrix-functions-and-stability/MF-02/lean/.lake/build/lib/lean/NLA/MF02/Registers.ilean -c /private/tmp/nla-20260922-mf02/matrix-functions-and-stability/MF-02/lean/.lake/build/ir/NLA/MF02/Registers.c --setup /private/tmp/nla-20260922-mf02/matrix-functions-and-stability/MF-02/lean/.lake/build/ir/NLA/MF02/Registers.setup.json --json
+error: NLA/MF02/Registers.lean:23:36: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  p = X ∨ p ∈ []
+
+case initial.inr
+m : ℕ
+ps : List ℝ[X]
+p : ℝ[X]
+h✝ : p = X ∨ p ∈ []
+⊢ p.natDegree ≤ 2 ^ 0
+error: NLA/MF02/Registers.lean:25:36: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≤ -1
+where
+ a := ↑2 ^ m
+warning: NLA/MF02/Registers.lean:22:53: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.mem_cons] at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF02.Registers
+error: build failed

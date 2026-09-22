@@ -1,0 +1,4 @@
+'NLA.SP05.RootFinalReview.vectorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.RootFinalReview.psd_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.RootFinalReview.sector_minima_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.SP05.RootFinalReview.symmetric_skew_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]

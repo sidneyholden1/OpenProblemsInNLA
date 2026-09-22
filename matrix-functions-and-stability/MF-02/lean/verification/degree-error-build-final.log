@@ -1,0 +1,3 @@
+ℹ [3016/3016] Built NLA.MF02.DegreeError (10s)
+info: NLA/MF02/DegreeError.lean:182:0: 'NLA.MF02.degree_error_bound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3016 jobs).

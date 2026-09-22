@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-22",
+  "proof_revision": "8596dc32d33c931de352aace53df8f02a67602ce",
+  "proof_run": 35693379965,
+  "all24_reviewed_hashes_match_with_metadata_snapshots": true,
+  "original_target_and_manuscript_unchanged": true,
+  "repository_tests": "PASS77",
+  "final_renderer_tests": "PASS11",
+  "pdf": "PASS; both final pages visually inspected, no clipping or overlap; references kept on page2",
+  "permanent_ids": 217,
+  "catalog_counts": {
+    "Lean verified": 38,
+    "Solved": 53,
+    "Partially resolved": 69,
+    "Open": 57
+  },
+  "publication_ci": {
+    "verdict": "PASS",
+    "run": 35694283762,
+    "head": "4f739abc147248a4425fc37d97e3015fc7d32481",
+    "main_merge": "c42692a15ea8fe0d76be8a4055d256e101624fe0",
+    "artifact_audit": "publication-linux/AUDIT-RESULTS.json",
+    "all_inputs": 80,
+    "all_exports": 4
+  }
+}

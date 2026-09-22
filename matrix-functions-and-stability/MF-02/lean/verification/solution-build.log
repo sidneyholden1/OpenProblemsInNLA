@@ -1,0 +1,19 @@
+⚠ [3017/3023] Replayed NLA.MF02.ProgramCosts
+warning: NLA/MF02/ProgramCosts.lean:38:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3018/3023] Replayed NLA.MF02.Constructive
+warning: NLA/MF02/Constructive.lean:19:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3021/3023] Replayed NLA.MF02.DegreeError
+info: NLA/MF02/DegreeError.lean:182:0: 'NLA.MF02.degree_error_bound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3022/3023] Built Solution (6.1s)
+info: Solution.lean:49:0: 'NLA.MF02.error_sets_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:51:0: 'NLA.MF02.register_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:53:0: 'NLA.MF02.degree_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:55:0: 'NLA.MF02.cubic_bounds_and_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:57:0: 'NLA.MF02.stages_computable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:59:0: 'NLA.MF02.genuine_stage_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:61:0: 'NLA.MF02.stage_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3023 jobs).

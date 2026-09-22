@@ -1,0 +1,19 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.MF02.error_sets_valid",
+    "NLA.MF02.register_degree_bound",
+    "NLA.MF02.degree_error_bound",
+    "NLA.MF02.cubic_bounds_and_strict",
+    "NLA.MF02.stages_computable",
+    "NLA.MF02.genuine_stage_minimum",
+    "NLA.MF02.stage_bounds"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

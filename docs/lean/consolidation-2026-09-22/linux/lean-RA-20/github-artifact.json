@@ -1,0 +1,20 @@
+{
+  "id": 10679600446,
+  "node_id": "MDg6QXJ0aWZhY3QxMDY3OTYwMDQ0Ng==",
+  "name": "lean-RA-20",
+  "size_in_bytes": 79574,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679600446",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10679600446/zip",
+  "expired": false,
+  "digest": "sha256:37b4c3eebc95eaa108ce912f1c635e1ddc3142e7faecb1250e0a759cb7193410",
+  "created_at": "2026-09-22T05:43:52Z",
+  "updated_at": "2026-09-22T05:43:52Z",
+  "expires_at": "2026-12-21T05:33:06Z",
+  "workflow_run": {
+    "id": 35691146159,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/consolidate-lean-20260922",
+    "head_sha": "83a1a1407d1427dbda6d968a9047b17f2071c229"
+  }
+}

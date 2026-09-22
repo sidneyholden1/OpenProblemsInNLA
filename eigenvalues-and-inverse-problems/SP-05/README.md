@@ -3,8 +3,8 @@
 **Topic:** Structured eigenvalue problems and semidefinite optimization.  
 **Difficulty:** challenging  
 **Importance:** interesting to the community  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified  
+**Last checked:** 2026-09-22  
 
 **Rating rationale:** Challenging reflects a structured minimum-eigenvalue comparison for arbitrary positive definite pairs; community impact connects Kronecker eigenproblems and semidefinite optimization.
 
@@ -15,6 +15,12 @@
 For arbitrary real symmetric positive definite $`A,B`$, a nonzero real positive-semidefinite eigenmatrix attains the smallest eigenvalue of $`X\mapsto AXB+BXA`$. Section 3 derives the exact symmetric/skew-symmetric Rayleigh-quotient inequality in the original target, without commutativity, rank restrictions or a simple-eigenvalue assumption.
 
 The original proof draft was generated in a ChatGPT conversation. A separate Codex agent independently verified the full proof and its match to the exact target on 11 September 2026: [detailed PASS review](../../references/colbrook-2026-09-11/verification/reviews/SP-05-review.md). The review records a hash of the unchanged proof text. This is independent agent verification, not external human peer review or formal certification. [The submission history and diagnostic record](../../references/colbrook-2026-09-11/README.md) preserve the initial solution claim. The ratings above are historical, and the earlier literature checks below are retained.
+
+## Lean verification — 22 September 2026
+
+The full original inequality is formally proved for every dimension at least two and every real symmetric positive-definite pair. The proof constructs a nonzero real PSD global minimizing eigenmatrix and establishes that both actual sector minima exist and are attained. All four exports passed LeanCert kernel audits, two independent nonauthor final reviews, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693379965) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/8596dc32d33c931de352aace53df8f02a67602ce/eigenvalues-and-inverse-problems/SP-05/lean).
+
+Mathematical resolution: Matthew J. Colbrook. Original conjecture: Kalantarova and Tunçel. Formalization: Sidney Holden with OpenAI Codex assistance. The retained checks include rejection and sandbox controls; AI-agent reviews are not external human peer review. [Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/eigenvalues-and-inverse-problems/SP-05/lean/README.md) · [Linux evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/SP-05/README.md).
 
 ## Problem statement
 
