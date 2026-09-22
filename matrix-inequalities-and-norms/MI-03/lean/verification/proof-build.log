@@ -1,0 +1,6 @@
+⚠ [3521/3523] Built NLA.MI03.Proof (6.4s)
+warning: NLA/MI03/Proof.lean:145:82: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3522/3523] Built Solution (5.3s)
+Build completed successfully (3523 jobs).

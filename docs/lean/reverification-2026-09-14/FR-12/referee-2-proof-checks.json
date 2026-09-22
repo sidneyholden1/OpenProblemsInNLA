@@ -1,0 +1,76 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "42818143f084791532e39ff56c13949bebd8d389",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 6,
+  "export_count": 7,
+  "export_axioms": {
+    "NLA.FR12.counting_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.injective_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.factorial_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.not_countingConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-fr12/docs/lean/reverification-2026-09-14/FR-12/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-fr12/frames-and-matrix-designs/FR-12/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/Data/Nat/Factorial/Basic.lean": "25fc9752f155b265be6c262e44ac5e92bdff54f1777ca2ea344b76fc4c1fa57f",
+    "mathlib/Mathlib/SetTheory/Cardinal/Finite.lean": "b113177c5ed00662c73a8f3b04002b399c19f0d008920e52c1a6b6c7f16713bf"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "6757ca4ee0ca36715e25f3efdbede1827152b0a4946439391f0b8351c3a80dd4",
+    "referee-2-active-inputs.json": "fbd8359e072cfbd10d783ebf9bd880969a004146379886dc7825003717c73de8",
+    "referee-2-consumer.lean": "1df289e717817ec4ffd54adcb15c152d4697b6e4c9c23b2bc987a8a84b96c06c",
+    "referee-2-consumer.log": "400626bcf0dcaa2f7113a940b09dee3afea2a75e365fd3d638fa7bd7deb90160",
+    "referee-2-consumer.json": "dffab20668784de305f265efd01460f877c3b61c073bff212259adf027f51ee4",
+    "solution-local.json": "49f34a5b49d9b8cb6871bc4b90bd2aeb3f2bcab1b7057d8dc271781d7bdbc9de",
+    "solution-local.log": "030c97613a23688f953e732874e50a110b915ac84a738a9cc843d79d175844c1",
+    "referee-2-numerical-checks.json": "ef1a80a4790e86410a36b9bad506f6367029799fc1fa5470d8020cab5ad586d2",
+    "referee2_numerics.py": "32c630ce40f80b4b534bc5e68bca1eedfd7ba82c9ff1b489e27ed2a8ef2babad",
+    "referee2_statements.py": "d45611012e7d45ab68d8c62a20e2094bfa4c26e094ac86a4f507dd437b6a32ce",
+    "referee2_consume.py": "860b17c2f5d3d6e6e5e50fd52c5847ba90823b319a9894b6ba37744ca0b46c72"
+  },
+  "linux_status": "separate pending operational review, not inferred from historical PASS"
+}

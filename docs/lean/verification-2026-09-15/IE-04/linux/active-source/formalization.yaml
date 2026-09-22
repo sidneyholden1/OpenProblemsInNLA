@@ -1,0 +1,170 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-04: a rare-event obstruction to the uniform exponential GEPP tail'
+  description: Complete negative answer to the canonical uniform exponential smoothed GEPP tail bound,
+    using actual Gaussian matrix probabilities and all legal GEPP tie paths.
+  authors:
+  - Sidney Holden
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-04 — Exponential smoothed tail bounds for partial pivoting
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/linear-systems-and-elimination/IE-04/README.md
+  type: web-post
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Original conjecture by Spielman and Teng; canonical full target retained.
+- title: 'IE-04: A rare-event obstruction to the uniform exponential GEPP tail'
+  authors:
+  - George Stepaniants
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/deb549fa9ddd6b119e6c59016f268237e645dfa2/linear-systems-and-elimination/IE-04/solution.md
+  type: manuscript
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: George Stepaniants, California Institute of Technology. The identity-centered example suffices
+    for the full negative answer; the additional zero-centered statement is not advertised.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    prompting_notes: Full statements before proofs; separate independent referee gates, material LeanCert
+      kernel inspection and actual Linux Comparator required.
+  notes: AI-assisted formalization for Sidney Holden. Two independent nonauthor agents approved the frozen
+    statements before proof implementation. No human peer review, official Tau Ceti review or source-author
+    endorsement is claimed.
+status:
+  scope: All twelve complete-target exports pass pinned local Lean and LeanCert kernel trust audits. Independent
+    final code reviews and isolated Linux Comparator remain pending; canonical publication status is unchanged.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+  main_results:
+  - declaration: NLA.IE04.gaussian_model
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.growth_semantics
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.gaussian_generic
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.measurable_tail
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.exact_wilkinson
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.full_box_robustness
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.gaussian_density_lower
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.gaussian_box_lower
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.gaussian_tail_lower
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.asymptotic_escape
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.every_pair_violated
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+  - declaration: NLA.IE04.not_exponentialTailConjecture
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+review:
+  status: independent-agent-code-reviewed; isolated-Linux-pending
+  notes: The two nonauthor statement approvals and frozen byte hashes are retained. Twelve deliberate
+    Challenge placeholders establish no mathematics and are excluded from proof-development counts. Solution
+    never imports Challenge. Statement-reviewed draft README and metadata are preserved under reviews/statement-review-snapshot.
+fidelity:
+  divergences: All original quantifiers, the actual all-tie GEPP supremum, operator norm and full independent
+    Gaussian law are retained. Singular inputs and tie conventions are proved probability-null for every
+    center and positive noise level. The identity-centered example suffices for the full negation; the
+    additional zero-centered source result is not claimed. Exact symbolic state bounds avoid large numerical
+    intervals; one retained LeanCert point certificate supplies the full Gaussian density lower bound.
+acknowledgements: Mathematical proof by George Stepaniants; original conjecture by Spielman and Teng.
+  Formalization by Sidney Holden with Codex assistance. Reused entry-bound and GEPP definition patterns
+  from IE-05 and the rational-expression framework from the concurrently checked KE-05 development, with
+  their original credits retained. Mathlib, LeanCert, Lean Comparator and formalization.yaml retain their
+  implementation credits and licenses.

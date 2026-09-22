@@ -1,0 +1,52 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-fr12/docs/lean/reverification-2026-09-14/FR-12/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-fr12/frames-and-matrix-designs/FR-12/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.FR12.counting_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.injective_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.factorial_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.not_countingConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [],
+  "script_sha256": "1df289e717817ec4ffd54adcb15c152d4697b6e4c9c23b2bc987a8a84b96c06c",
+  "log_sha256": "400626bcf0dcaa2f7113a940b09dee3afea2a75e365fd3d638fa7bd7deb90160"
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "Independent exact coefficient expansion only, not Lean proof",
+  "all_lower_coefficients": [
+    {
+      "(0, 0)": 2,
+      "(0, 2)": 2,
+      "(1, 1)": 1,
+      "(2, 2)": 2
+    },
+    {
+      "(0, 1)": 2,
+      "(1, 2)": 4
+    },
+    {
+      "(0, 0)": 1,
+      "(0, 2)": 4,
+      "(1, 1)": 2,
+      "(2, 2)": -1
+    }
+  ],
+  "upper_at_01": [
+    0,
+    -1
+  ],
+  "polynomial_endpoints": [
+    -1,
+    2
+  ]
+}

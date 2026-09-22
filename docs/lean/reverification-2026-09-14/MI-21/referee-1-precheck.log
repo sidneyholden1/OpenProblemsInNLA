@@ -1,0 +1,52 @@
+{
+  "id": "MI-21",
+  "verdict": "PASS",
+  "method": "Independent Python exact Fraction arithmetic; not a Lean proof",
+  "checks": {
+    "two_independent_Riccati_certificates": [
+      {
+        "delta": "5/3",
+        "h": "61697295/8682716",
+        "V": [
+          [
+            "443355/310097",
+            "33000/310097"
+          ],
+          [
+            "33000/310097",
+            "605715/310097"
+          ]
+        ],
+        "riccati": true
+      },
+      {
+        "delta": "3/5",
+        "h": "111055131/43413580",
+        "V": [
+          [
+            "8217/8381",
+            "-51480/310097"
+          ],
+          [
+            "-51480/310097",
+            "325413/310097"
+          ]
+        ],
+        "riccati": true
+      }
+    ],
+    "left": [
+      [
+        "8216600/12158163",
+        "-985600/12158163"
+      ],
+      [
+        "-985600/12158163",
+        "11912600/12158163"
+      ]
+    ],
+    "eigenvalue": "1351000/1350907",
+    "strict_gap": "93/1350907",
+    "scalar_square_roots_cancel_only_after_analytic_bridge": true
+  }
+}

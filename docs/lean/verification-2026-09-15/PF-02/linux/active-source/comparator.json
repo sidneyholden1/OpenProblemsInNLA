@@ -1,0 +1,21 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.PF02.psd_rank_semantics",
+    "NLA.PF02.congruence_quotient_semantics",
+    "NLA.PF02.witness_exact_data",
+    "NLA.PF02.trace_coordinate_bridge",
+    "NLA.PF02.congruence_coordinate_identity",
+    "NLA.PF02.orientation_invariant",
+    "NLA.PF02.quotient_orientation",
+    "NLA.PF02.disconnected_counterexample",
+    "NLA.PF02.not_connectedOrbitConjecture"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

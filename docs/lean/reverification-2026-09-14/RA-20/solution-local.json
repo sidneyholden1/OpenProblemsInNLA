@@ -1,0 +1,16 @@
+{
+  "target": "Solution",
+  "command": [
+    "lake",
+    "build",
+    "Solution"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ra20/randomized-and-low-rank-approximation/RA-20/lean",
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "scope": "development/source-typecheck; not Linux Comparator verification",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "exit_code": 0,
+  "elapsed_seconds": 103.176,
+  "log_sha256": "020866aa2479669c9ce211b90a5f3369cdf3f926bfd2e920374395b98ec7359f"
+}

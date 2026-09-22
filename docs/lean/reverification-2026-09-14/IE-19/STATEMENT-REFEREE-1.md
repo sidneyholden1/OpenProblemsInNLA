@@ -1,0 +1,25 @@
+# IE-19 independent statement referee 1 — 2026-09-14
+
+PASS — approve the unchanged mathematical boundary for subsequent proof inspection. No blocking scope, vacuity or numerical-data finding.
+
+This is an independent AI-agent statement review under `docs/lean/REVIEW.md`, adapting relevant Tau Ceti correctness, scope, proof-quality, reuse/API, generality, documentation and attribution standards. It is not official Tau Ceti or human peer review. The source is existing authored snapshot `deb549fa9ddd6b119e6c59016f268237e645dfa2`, deliberately preserved rather than the observed older current upstream main `ab754fabe3d48dc8d6eab6bcffce583e46d2b88f`. The coordinator separately records that the older-main canonical target differs only in mathematical rendering; my approval is bound to the complete preserved source, not inferred from that comparison. Existing historical metadata and dated verification claims were read as source records, not accepted as evidence of a fresh run.
+
+## Scope and semantic review
+
+`LowerBoundConjecture` and `SharpConjecture` retain n≥3, m>0, α≥(n−2)m, every real symmetric J with strictly positive entries bounded entrywise by αI+m11ᵀ, and weak diagonal dominance. The full sharp target includes equality exactly at J=S. No invertibility or strict-dominance premise is inserted. The witness is a permitted strictly dominant instance; it does not restrict the universal statement.
+
+`rowSumNorm` is the finite maximum in NNReal of the sum of absolute values in each row, then coerced to ℝ. This is precisely the prescribed infinity norm for positive dimensions, not the default matrix entry norm or a single-row lower bound. The finite sup's zero empty convention is outside n≥3. Actual `Matrix` nonsingular inversion is used. I inspected the standard inverse/left-and-right-inverse API: the counterexample explicitly requires `IsUnit` of both determinants, so the totalized inverse at singular matrices cannot manufacture the failure.
+
+All three signatures are sufficient and faithful: `counterexample` requires full admissibility, actual nonsingularity of J and S, exact inverse row norms 7/9 and 5/4, and strict failure of the displayed comparison bound; the other two declarations negate both the lower-bound assertion and the complete equality-characterized conjecture. My independent Fraction script checks all nine entry bounds, all three dominance inequalities, both-sided inverse products for each rational candidate, determinants 27/4 and 4, all row sums and their maxima, and the strict gap 17/36. The parameters n=3,α=m=1 are admissible and the displayed bound is exactly 5/4. These numerical facts are explicit proof obligations, not assumptions in the universal target.
+
+The source's general sharp infimum 1/(α+m) and nonattainment theorem are additional mathematics and excluded; a strict admissible counterexample fully answers the original yes/no question negatively. Exact finite matrix algebra and one scalar LeanCert kernel inequality avoid interval subdivisions or a general inverse-bound theorem. Colbrook retains mathematical authorship, Stepaniants formalization credit, and Hillar–Lin–Wibisono the original target attribution.
+
+## Fresh evidence and boundary gate
+
+I read the complete preserved canonical page, complete informal source(s), Definitions, all 3 Challenge exports, numerical targets, Comparator configuration and current formalization.yaml. Exact dependencies and relevant actual library semantics were inspected. All read project/source bytes were checked against the preserved commit. The configuration has no definition exceptions and permits only propext, Classical.choice and Quot.sound. The actual export count is 3; this five-project batch totals 29, not the initial inventory estimate of 31.
+
+My own fresh exact diagnostic and output are retained as [referee-1-precheck.py](referee-1-precheck.py) and [referee-1-precheck.log](referee-1-precheck.log). They exited successfully; their concrete scope and limits are stated above. The coordinator's fresh macOS `lake build Challenge` exited 0; I checked its successful log and recorded digest, including exactly 3 deliberate Challenge placeholder warnings. I did not perform that build and do not infer any mathematical proof from it.
+
+All source hashes, exact registered export names, library semantic-file hashes, complete-source access locators, provenance, diagnostic results and fresh-build evidence hashes are in [referee-1-statement-evidence.json](referee-1-statement-evidence.json), SHA-256 `fc16a0b5e2992154838af58606d7ad31dcffb91abcf27daeb0361cdd80bbf169`. The source author and existing formalization credits, permanent ID and canonical target were preserved. I changed only new audit evidence, with no authored-source or metadata edits.
+
+I have not inspected active Proof/Solution implementations in this phase. Two independent statement approvals and the coordinator's frozen gate remain prerequisites for the new proof audit. Fresh proof builds, transitive axiom audits, actual Linux Comparator identity/default-kernel replay and operational controls are later separate gates; no historical PASS substitutes for them.

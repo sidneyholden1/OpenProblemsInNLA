@@ -1,0 +1,24 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.IE04.gaussian_model",
+    "NLA.IE04.growth_semantics",
+    "NLA.IE04.gaussian_generic",
+    "NLA.IE04.measurable_tail",
+    "NLA.IE04.exact_wilkinson",
+    "NLA.IE04.full_box_robustness",
+    "NLA.IE04.gaussian_density_lower",
+    "NLA.IE04.gaussian_box_lower",
+    "NLA.IE04.gaussian_tail_lower",
+    "NLA.IE04.asymptotic_escape",
+    "NLA.IE04.every_pair_violated",
+    "NLA.IE04.not_exponentialTailConjecture"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

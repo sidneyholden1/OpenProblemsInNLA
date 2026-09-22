@@ -1,0 +1,28 @@
+{
+  "run_id": 34879627287,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34879627287",
+  "verified_commit": "26d7d0ac7fd14d3f8d527977db3b50c948a77f39",
+  "artifact_id": 10363360882,
+  "artifact_sha256": "0c70d8020dd7e26b914d1f4226eefa21f31baa7313ede5960ad9c5d79fa252bd",
+  "github_artifact_digest": "sha256:0c70d8020dd7e26b914d1f4226eefa21f31baa7313ede5960ad9c5d79fa252bd",
+  "all_input_hashes_match": true,
+  "input_count": 427,
+  "active_source_sha256": {
+    ".gitignore": "a0fb815fecafd1739b46d2b381c27acf366ce49e30459c0512f71814ce241fc8",
+    "Challenge.lean": "6778940f8f0f645fc6be0c57f1fb8f67791e0c67c896074651bca9cada491428",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/TR15/Definitions.lean": "63b8767fd19148b269f6e4041d464f0de5dc64cac82e1448fee43115bed55379",
+    "NLA/TR15/Proof.lean": "795f3b1305dfae77fe71ec1927b7d72e9d913a2ffd0475879880f33e55c959be",
+    "NUMERICAL_TARGETS.md": "6851bb94fb8f6049980113b4df9a1346bd3ed9549f66dd74b2b1f6a5ee947cd6",
+    "README.md": "b511d9919421320fc7221ffeec12f7afb64915dd7321b0f3c9f58a8a5db41bf2",
+    "SOURCE_CORRESPONDENCE.md": "55f3c4505c02f50cdbc8e9a6e9bf8853231b569ccecb79c49f7849cba3b9de67",
+    "Solution.lean": "dc31d2a6a1ef891bbdc9b6781a7a250c6751d539b7cd95c4a59d08638a8faeb1",
+    "comparator.json": "80d0148e7ddf0a431d6833c3e464cf15424c94767394dd1a0fe93366c8bbb45f",
+    "formalization.yaml": "bb92a8ca1192e224b00d273d8ac658f9cac191336ee06f922ec73a0dbc6e93bb",
+    "lake-manifest.json": "8d71288432949937d6c64f1175c7a9c7c5389bc261d79dad512ba4c385e97127",
+    "lakefile.toml": "247a1ea746bb54d8adfb18fdce81669f85de63d5d9dfe8998eb255f54002181d",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

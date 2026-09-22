@@ -1,0 +1,98 @@
+{
+  "phase": "statement only",
+  "reviewer": "independent AI statement referee 1",
+  "date": "2026-09-14",
+  "verdict": "PASS",
+  "explicit_approval": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_older_current_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_exists_at_observed_main": true,
+  "all_read_authored_bytes_equal_preserved_base": true,
+  "full_read_sources_sha256": {
+    "intervals-and-absolute-value-equations/IV-06/lean/README.md": "7487f9ae51cf2850d17f6c3c5287098391b6621f709d48d7c0e053da594a0456",
+    "intervals-and-absolute-value-equations/IV-06/lean/NUMERICAL_TARGETS.md": "f51f4118af540fa4d3c8e16b40d859ee730c40c8417c4e45f86dc0e5c58a04d9",
+    "intervals-and-absolute-value-equations/IV-06/lean/Challenge.lean": "77be095dc706c901714caa68d3393bf95004fc5f9fee2fa43f7460dafa342b90",
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Definitions.lean": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+    "intervals-and-absolute-value-equations/IV-06/lean/comparator.json": "e84e8d1c516d1ecf17a838d49df61043e90a21a8e72108b285088c02bd35a1c2",
+    "intervals-and-absolute-value-equations/IV-06/lean/formalization.yaml": "6aa472db72da76e3ffa2b23308b919fe3c4378b3266b607ac2f43bbf889fb1aa",
+    "intervals-and-absolute-value-equations/IV-06/lean/lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "intervals-and-absolute-value-equations/IV-06/lean/lakefile.toml": "7c8786b1892806616674c65624a7ceb2029eaac75ecaf95afcefe3f1a5099b99",
+    "intervals-and-absolute-value-equations/IV-06/lean/lake-manifest.json": "05c42b3215c767aa2adb7c1b9af4fe0fbd96c81e29a66705e7c12875b0e023d3",
+    "intervals-and-absolute-value-equations/IV-06/README.md": "650080d722c2e05388a72ad1642c0eaae878425c105403bccd61ebaf363d34d3",
+    "docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    "intervals-and-absolute-value-equations/IV-06/lean/SourceCorrespondence.md": "c7657590d00f5ac46cbf0b30b9edf368f1040b57ea50efae208837f92f0d0408",
+    "references/colbrook-intervals-2026-09-11/manuscripts/IV-06.tex": "659f073ef696d78c7a2f2a4c06dd8ac0523ed991007b5917d49ae5daca236174",
+    "references/colbrook-intervals-2026-09-11/submitted/manuscripts/IV-06.tex": "b96d7f17560f925329a725ec98c52beec4f2b5fa089e8bcb89edc473c39ab4fe",
+    "references/colbrook-intervals-2026-09-11/submitted/manuscripts/common.tex": "d8e7a0de2ed1a1fd162b147211fe29c7b1d7bfbc0be7b827dcda4d9a2653d0d4"
+  },
+  "relevant_library_files_sha256": {
+    "mathlib:Mathlib/LinearAlgebra/Matrix/ToLinearEquiv.lean": "7e68e3b13653e7e9891c5e40ce0ef753adee3bcee8702d8649e0a6f2eef8d5bb",
+    "mathlib:Mathlib/Topology/Connected/Clopen.lean": "d8aefb3a1a679ee5aab60540b6e77971071c0b8a62afe09c9529a16b62010813",
+    "mathlib:Mathlib/Topology/Order/IntermediateValue.lean": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65",
+    "mathlib:Mathlib/SetTheory/Cardinal/Order.lean": "1e19b37827c458d1f52fe100fff35d36fd0a55331a79ae2943c93b8d05f155b5",
+    "leancert:LeanCert/Test/TrustModes.lean": "591d4ced0f2b99812a16681a0993db1316810574b7935cba757ce5b1e22889a4",
+    "leancert:LeanCert/Validity/DyadicBounds.lean": "6f1cdbc11f32e425ef5e9f4a22966d64ff0d11614ec9453ed7dde498e31a7c47"
+  },
+  "library_read_scope": "Relevant actual definitions, theorem statements and example proofs inspected; complete library files hashed, not a claim all dependency source was read. LeanCert Test/TrustModes read as a kernel-mode example; actual target proof terms await gated proof review.",
+  "registered_exports": [
+    "NLA.IV06.eigenvalue_determinant_semantics",
+    "NLA.IV06.family_and_determinant_semantics",
+    "NLA.IV06.witness_eigenpairs",
+    "NLA.IV06.witness_separators",
+    "NLA.IV06.connected_component_intervals",
+    "NLA.IV06.four_components",
+    "NLA.IV06.counterexample",
+    "NLA.IV06.not_componentBoundConjecture"
+  ],
+  "fresh_coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 37.443,
+    "log_sha256": "f3f4819296c84640274cfddf8c85332c6ce6d8e62b47337debd3c01ff8bf82ce"
+  },
+  "deliberate_statement_placeholders": 8,
+  "own_diagnostic_execution": {
+    "command": [
+      "python3",
+      "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-1-precheck.py",
+      "IV-06"
+    ],
+    "exit_code": 0,
+    "verdict": "PASS",
+    "method": "Fresh independent Fraction and sparse-polynomial reconstruction; not a Lean proof"
+  },
+  "dependency_pins": {
+    "leancert": "621a43d7cf21f87872392a01e874f2f1dbddc926",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+    "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+    "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+    "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+    "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+    "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+    "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+    "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f"
+  },
+  "evidence_hashes": {
+    "challenge-local.json": "14aa89517a4c3f43ff769b61c3f37ddfd6d95b10e5a51edc118344024de34569",
+    "challenge-local.log": "f3f4819296c84640274cfddf8c85332c6ce6d8e62b47337debd3c01ff8bf82ce",
+    "SOURCE-PROVENANCE.json": "be16f7c7b7d21d4d94bbd441af0fdee72bea71618ff7a9773ecdcbea1dde2421",
+    "referee-1-precheck.py": "3bd093ba5b61869c1e5c5707138e22ac7c154e3477a861ecc6817cb20347f8b8",
+    "referee-1-precheck.log": "b129cc936b8da6c23516f90b58038b24c232bb19f959e1b89cc19c63b30c630f",
+    "referee-1-source-references__colbrook-intervals-2026-09-11__submitted__manuscripts__common.tex": "d8e7a0de2ed1a1fd162b147211fe29c7b1d7bfbc0be7b827dcda4d9a2653d0d4",
+    "referee-1-source-references__colbrook-intervals-2026-09-11__submitted__manuscripts__IV-06.tex": "b96d7f17560f925329a725ec98c52beec4f2b5fa089e8bcb89edc473c39ab4fe",
+    "referee-1-source-references__colbrook-intervals-2026-09-11__manuscripts__IV-06.tex": "659f073ef696d78c7a2f2a4c06dd8ac0523ed991007b5917d49ae5daca236174"
+  },
+  "limits": "No active Proof/Solution bodies inspected. Historical PASS/status prose is not evidence for this fresh review. Exact diagnostics do not prove CFC/supremum/topological/algebraic-smoothness bridges or generic cardinality. Fresh proof closure, all-export trust audits, independent final reviews and actual Linux Comparator remain separate gates."
+}

@@ -1,0 +1,14 @@
+{
+  "reviewer": "coordinator /root; not one of the two independent referees",
+  "phase": "statement only, before inspecting active proof bodies",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "reviewed_scope": "The full target retains every complex matrix and unitarily invariant norm quantifier, actual CFC powers and noncommuting factor order. The operator norm must satisfy all norm axioms. Genuine weighted means must give the rational L and the eigenvector (1,-4), with eigenvalue 1351000/1350907>1; the right matrix is I for every p>0.",
+  "source_review": "Reviewed both canonical target sections, complete informal manuscripts, Definitions, Challenge and numerical obligations. Targeted actual Mathlib CFC and singular-value definitions checked. No authored proof inspected at this phase.",
+  "status": "Boundary appears faithful; two independent statement approvals and their exact diagnostics still required before frozen gate.",
+  "files_sha256": {
+    "matrix-inequalities-and-norms/MI-21/lean/Challenge.lean": "f7dd628a7635e8860dec64460bd53adfa71ca391eec763391ae1c8e58d1588b4",
+    "matrix-inequalities-and-norms/MI-21/lean/NUMERICAL_TARGETS.md": "4b0582a3c2da02abf7a349e4ab4af682f6b29bf7026bff21d53edff3ab216312",
+    "matrix-inequalities-and-norms/MI-21/lean/NLA/MI21/Definitions.lean": "18ebd6d65063b6e970d76b60aab6a8a8bc595189e9b8e188895030d2172f1055",
+    "docs/lean/reverification-2026-09-14/MI-21/SOURCE-PROVENANCE.json": "fd6613801edcfbbf53522742d061bb514b29396f935806272c3b838d26a604f0"
+  }
+}

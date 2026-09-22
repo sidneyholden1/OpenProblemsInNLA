@@ -1,0 +1,24 @@
+✔ [2387/2394] Built NLA.IE23.Norms (17s)
+✔ [2388/2394] Built NLA.IE23.FourthPower (11s)
+✔ [2389/2394] Built NLA.IE23.Matrices (11s)
+✔ [2390/2394] Built NLA.IE23.Actions (13s)
+✔ [2391/2394] Built NLA.IE23.Minimizers (8.8s)
+ℹ [2392/2394] Built NLA.IE23.Proof (12s)
+info: NLA/IE23/Proof.lean:105:0: 'NLA.IE23.inducedNorm_semantics_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:107:0: 'NLA.IE23.witness_matrix_identities_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:109:0: 'NLA.IE23.fourth_power_norm_control_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:111:0: 'NLA.IE23.witness_action_identities_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:113:0: 'NLA.IE23.witness_attainment_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:115:0: 'NLA.IE23.witness_norms_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:117:0: 'NLA.IE23.witness_global_minimizers_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/IE23/Proof.lean:119:0: 'NLA.IE23.not_rightInverseUniqueConjecture_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2393/2394] Built Solution (13s)
+info: Solution.lean:95:0: 'NLA.IE23.inducedNorm_semantics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:97:0: 'NLA.IE23.witness_matrix_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:99:0: 'NLA.IE23.fourth_power_norm_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:101:0: 'NLA.IE23.witness_action_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:103:0: 'NLA.IE23.witness_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:105:0: 'NLA.IE23.witness_norms' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:107:0: 'NLA.IE23.witness_global_minimizers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:109:0: 'NLA.IE23.not_rightInverseUniqueConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2394 jobs).

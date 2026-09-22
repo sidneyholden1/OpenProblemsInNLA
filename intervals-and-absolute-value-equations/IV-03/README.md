@@ -6,8 +6,8 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved
-**Last checked:** 2026-09-11
+**Status:** Lean verified
+**Last checked:** 2026-09-15
 
 **Rating rationale:** Replacing an exponential interval test by a quadratic vertex family is challenging; verified inverse-positivity has specialist importance in interval matrix analysis.
 
@@ -22,6 +22,16 @@
 
 The difficulty, importance and rating rationale below are historical assessments of the original open target. The original statement and dated audits are preserved.
 <!-- /colbrook-intervals -->
+
+## Lean verification — 15 September 2026
+
+The complete original question has a formally verified affirmative answer: for every positive dimension and every ordered pair of real entrywise interval endpoints, the $`n^2`$ negative-sign vertices characterize the entire interval consisting of inverse M-matrices. This proves the full original two-sign criterion. Zero widths, zero entries and reducible matrices are included; no interval regularity or nonsingularity assumption is added. The manuscript's arithmetic and bit-complexity claims are outside this formalization.
+
+All four reviewed statements passed LeanCert kernel trust audits, standard-axiom checks, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34926260380) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean). Two independent statement reviews preceded implementation and two independent nonauthor final code reviews passed. Actual rejection and sandbox controls passed.
+
+Formalization: Sidney Holden, with OpenAI Codex assistance. Matthew J. Colbrook retains mathematical authorship as recorded in the source. Reviews are AI-agent reviews, not external human peer review or official Tau Ceti endorsement; no source-author endorsement of the formalization is asserted.
+
+[Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/516ad4a0e85c21c7ef34507db9ab3b68b393bb90/intervals-and-absolute-value-equations/IV-03/lean) · [Retained Linux evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-iv03/docs/lean/verification-2026-09-15/IV-03).
 
 ## Problem statement
 

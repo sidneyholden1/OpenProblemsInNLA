@@ -1,0 +1,177 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "e43421af3d19dac5fc2cb6304affba66e7ddae24",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "matrix-inequalities-and-norms/MI-21/lean/Solution.lean",
+      "sha256": "a30f8dfd1103b6ba1f1aca927e7ef4a92b6fa8ae70658463cdea649378ae1a50",
+      "lines": 54
+    },
+    "NLA.MI21.Proof": {
+      "path": "matrix-inequalities-and-norms/MI-21/lean/NLA/MI21/Proof.lean",
+      "sha256": "7db067a9cc73e3cda027e2e01d664e4b12bf5af84e8f6b3bb10d9bd4de30e9bc",
+      "lines": 385
+    },
+    "NLA.MI21.Definitions": {
+      "path": "matrix-inequalities-and-norms/MI-21/lean/NLA/MI21/Definitions.lean",
+      "sha256": "18ebd6d65063b6e970d76b60aab6a8a8bc595189e9b8e188895030d2172f1055",
+      "lines": 99
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "Mathlib.Analysis.Matrix.Order",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "additional_mathlib_apis_read_sha256": {
+    "Mathlib/Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Basic.lean": "5c87ec96e95be9c21e52857acc4892f9a6b7e69d7358f8d6fbbef93b0d249ef7"
+  },
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.MI21.operatorNorm_isUnitaryInvariant",
+    "NLA.MI21.counterexample",
+    "NLA.MI21.not_geometricMeanNormConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.MI21.operatorNorm_isUnitaryInvariant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI21.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI21.not_geometricMeanNormConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.MI21.operatorNorm_isUnitaryInvariant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI21.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI21.not_geometricMeanNormConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi21/matrix-inequalities-and-norms/MI-21/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 52.599,
+    "log_sha256": "ab41236868d421649c28bc2e20ee12790da5984bb88fcb063d171086eb5f17b3"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-mi21/docs/lean/reverification-2026-09-14/MI-21/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi21/matrix-inequalities-and-norms/MI-21/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.MI21.operatorNorm_isUnitaryInvariant": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI21.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.MI21.not_geometricMeanNormConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [
+      "witness_eigenvalue_gt_one"
+    ],
+    "script_sha256": "2f342edf69168908f91591907c07d21e13776c3d11fd145306033e36a0a188af",
+    "log_sha256": "bbde2f870ec385e9ca263c177568cbee73cb2a1cfe734ed488706d135b8aa8b0"
+  },
+  "referee_2_numerical_execution": {
+    "route": "The printed witness_eigenvalue_gt_one body uses LeanCert.Validity.verify_strict_upper_bound_dyadic_checked on the constant 1 over [0,0], upper bound 1351000/1350907, precision -53 and depth 10. The separately printed _proof_1_7 is of_decide_eq_true (id (Eq.refl true)); exact cast congruence supplies the target real inequality.",
+    "receipts": {
+      "referee-2-numerical-terms": {
+        "verdict": "PASS",
+        "names": [
+          "NLA.MI21.witness_eigenvalue_gt_one._proof_1_7"
+        ],
+        "exit_code": 0,
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "/private/tmp/nla-reverify-mi21/docs/lean/reverification-2026-09-14/MI-21/referee-2-numerical-terms.lean"
+        ],
+        "cwd": "/private/tmp/nla-reverify-mi21/matrix-inequalities-and-norms/MI-21/lean",
+        "script_sha256": "1961989ea7d7706d8a1134619f964bea3fefb6a229d24cc560ec54d703560cb9",
+        "log_sha256": "846ccd463a3abc7c9535092e0ee332d2db56e1e2c550842aeeff2fd52a63b6c8"
+      }
+    },
+    "consumer_material_terms": [
+      "witness_eigenvalue_gt_one"
+    ]
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "f7dd628a7635e8860dec64460bd53adfa71ca391eec763391ae1c8e58d1588b4",
+    "NUMERICAL_TARGETS.md": "4b0582a3c2da02abf7a349e4ab4af682f6b29bf7026bff21d53edff3ab216312",
+    "comparator.json": "e2f703dcc0f1cd3f4b3bdf725b8d918d2f68d61324197817e39a970e80cc7bc3",
+    "formalization.yaml": "a9eb85beb0e1567e6d08cbec0cf487f472cdba59f36544cb90e393a315b95901",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "5295b0daacfbde17ca15d1746b2bcae5576725c446e38c2b67822c718458bee9",
+    "lakefile.toml": "6e951e8df2455129ae6095b75af2766b92fa8ef686ac165fd690edb53122f640"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "5a07ed36451ec9d2a27022aad5b6af023b07538e17e9e08a087cda25f348a95e",
+    "solution-local.log": "ab41236868d421649c28bc2e20ee12790da5984bb88fcb063d171086eb5f17b3",
+    "referee-2-consumer.lean": "2f342edf69168908f91591907c07d21e13776c3d11fd145306033e36a0a188af",
+    "referee-2-consumer.log": "bbde2f870ec385e9ca263c177568cbee73cb2a1cfe734ed488706d135b8aa8b0",
+    "referee-2-consumer.json": "a1f7cdeb8c178ca64ac91dd06dd652673491a22900c6e5e24c6a21f7f7bc6f82",
+    "referee-2-numerical-terms.lean": "1961989ea7d7706d8a1134619f964bea3fefb6a229d24cc560ec54d703560cb9",
+    "referee-2-numerical-terms.log": "846ccd463a3abc7c9535092e0ee332d2db56e1e2c550842aeeff2fd52a63b6c8",
+    "referee-2-numerical-terms.json": "6770d20089bc4ae24b25fdf675b7fa81a69239a60161959f8f983e570b945cb6",
+    "statement-gate.json": "2c87748158d8e253d49737cc91dc62ea3d6059b5b638294f5cd914bc9bcc442d",
+    "STATEMENT-REFEREE-1.md": "da572e195357239ba28deaa3c6ff5fa5a52b668644cefc7c2590e92658280c61",
+    "referee-1-statement-evidence.json": "5277c40581ab8d79c5511db5756dbe4391275e4f235bf88705e7856a5b56ee54",
+    "referee-1-precheck.py": "d8d5494b2aae3ff10ee322ca1e328b8430d0a72506fe0d45d5aa435425cd4702",
+    "referee-1-precheck.log": "7f7efd0d4dd8b27d1109ab1c1e98f5eb9c747484b25b2ca5e35317990b1ae244"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

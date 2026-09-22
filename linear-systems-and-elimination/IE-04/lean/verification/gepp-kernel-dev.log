@@ -1,0 +1,15 @@
+NLA/IE04/GEPPKernel.lean:26:4: warning: Try this: intro h v w hvw
+NLA/IE04/GEPPKernel.lean:81:48: error(lean.unknownIdentifier): Unknown constant `Fin.ne_iff_vne.mp`
+NLA/IE04/GEPPKernel.lean:120:10: error: Type mismatch: After simplification, term
+  this
+ has type
+  i = r
+but is expected to have type
+  False
+NLA/IE04/GEPPKernel.lean:141:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```

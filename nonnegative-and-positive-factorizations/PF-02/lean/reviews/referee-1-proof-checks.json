@@ -1,0 +1,88 @@
+{
+  "verdict": "PASS",
+  "phase": "independent final code review, local only",
+  "reviewer": "Codex AI agent /root/iv06_statement_referee_2, final referee 1, nonauthor",
+  "consumer_exit_code": 0,
+  "numeric_replay_exit_code": 0,
+  "material_term_command_exit_code": 0,
+  "polynomial_body_inspection_exit_code": 0,
+  "retention_exit_code": 0,
+  "initial_material_diagnostic_exit_code": 1,
+  "exports": [
+    "NLA.PF02.psd_rank_semantics",
+    "NLA.PF02.congruence_quotient_semantics",
+    "NLA.PF02.witness_exact_data",
+    "NLA.PF02.trace_coordinate_bridge",
+    "NLA.PF02.congruence_coordinate_identity",
+    "NLA.PF02.orientation_invariant",
+    "NLA.PF02.quotient_orientation",
+    "NLA.PF02.disconnected_counterexample",
+    "NLA.PF02.not_connectedOrbitConjecture"
+  ],
+  "actual_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "frozen_statement_unchanged": true,
+  "source_base": "32f1f799219fbcaf4c66bfaa4edb8a0c591e79e9",
+  "active_inputs_sha256": "c3dec9513edbd8bfa93ad993c1047af329ed93747b7286b54d4048a6be22e37d",
+  "evidence_sha256": {
+    "reviews/referee-1-consumer.lean": "a00e481e5522ecb421a4a95e25471a2489e648e11ee0c452a85ccdcc4b342b45",
+    "reviews/referee-1-consumer.log": "04f2aecf4125ad1f82b61a559b9056712e78caeac8a0ddd7f1b5729e9e1099f0",
+    "reviews/referee-1-material-terms.lean": "ce10d49bbf350d92b477de18013dddf3e4c11dd36fd40d956d1f125e394ffbac",
+    "reviews/referee-1-material-terms.log": "454f18598d282ba04137b70e132db496b2253f5da15fa2d8feb94a69732909ad",
+    "reviews/referee-1-material-terms-initial.lean": "ac4820afad5e7154c19368171bf2a3d411335bdc70d748ea33f2a3a64a1a55a6",
+    "reviews/referee-1-material-terms-initial.log": "58f68c0c1516181b098a571c4eae1a2fc72c889bca049655162fdce86c02a436",
+    "reviews/referee-1-polynomial-inspection.lean": "cf69cce8d8604f5ea5fc7111c01697bf24218948a23965c46aaaeeb82da2357f",
+    "reviews/referee-1-polynomial-inspection.log": "1f2020cd178e6a116c54b21e7e62086589fcce608e65aef78fe531da24bf8557",
+    "reviews/referee-1-retention.lean": "15beaa5bf48a66c6b07f855a03588ed7c03db220978699d9917fb86dd712034f",
+    "reviews/referee-1-retention.log": "0d85bfbca993540f203286eae7fb8cfed55927802088e3f45f630efa3f1f1435",
+    "reviews/referee-1-numeric-replay.log": "7416bb512d72e924eb1a4921a34b193b2b862f50ddfac4780346f7270eb310b1",
+    "reviews/referee-1-proof-check.py": "ca4db46a9e724fa5afd116dcade610e9c178492c7f3830feb11407c6517064d7",
+    "verification/local-proof.json": "6c3846f8d0e2ea38b36e2c4cafb03e2259df94aed683ab1387f847fd18f6836a",
+    "verification/solution-local.log": "6f7b95747ab71392468ec5a774d2f02a3cc1e7bf488f392c284eb6856f2b4d24",
+    "verification/structural-axioms.log": "29a71157ec536d894fc734df3ecf772fedd34d566af756d3ea4a15fdf30a899f"
+  },
+  "commands": [
+    [
+      "lake",
+      "env",
+      "lean",
+      "reviews/referee-1-consumer.lean"
+    ],
+    [
+      "lake",
+      "env",
+      "lean",
+      "NLA/PF02/Numeric.lean"
+    ],
+    [
+      "lake",
+      "env",
+      "lean",
+      "reviews/referee-1-material-terms.lean"
+    ],
+    [
+      "lake",
+      "env",
+      "lean",
+      "reviews/referee-1-polynomial-inspection.lean"
+    ],
+    [
+      "lake",
+      "env",
+      "lean",
+      "reviews/referee-1-retention.lean"
+    ]
+  ],
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "platform": "macOS aarch64",
+  "limits": [
+    "Linux Comparator/default-kernel and operational controls still pending",
+    "Coordinator whole-Solution build was inspected, not independently repeated in full",
+    "Material-term pretty printer abbreviates deep integer casts and could not render generic polynomial expression; its actual proof-body constants were inspected separately and Numeric.lean independently re-elaborated successfully",
+    "First printer probe used unknown pp.maxDepth option; original failure retained; no mathematical source error",
+    "LeanCert used for actual exported trust audits, not artificial interval computation"
+  ]
+}

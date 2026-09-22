@@ -1,0 +1,21 @@
+NLA/IE04/GaussianBox.lean:22:73: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  LE Type
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+NLA/IE04/GaussianBox.lean:22:75: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat Type 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Type
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+NLA/IE04/GaussianBox.lean:22:54: error: unsolved goals
+a r : ℝ
+hr : 0 ≤ r
+ha : -2 ≤ a - r
+hb : a + r ≤ 2
+hi : IntegrableOn (fun x => 1 / 32) (Set.Icc (a - r) (a + r)) ℙ
+hm : r / 16 ≤ ∫ (x : ℝ) in Set.Icc (a - r) (a + r), gaussianPDFReal 0 1 x
+hab : a - r ≤ a + r
+hc : ∫ (_x : ℝ) in Set.Icc (a - r) (a + r), 1 / 32 = r / 16
+⊢ ¬sorry () = 0

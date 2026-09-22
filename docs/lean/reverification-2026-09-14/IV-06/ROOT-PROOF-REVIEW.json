@@ -1,0 +1,11 @@
+{
+  "verdict": "PASS for coordinator mathematical source inspection",
+  "role": "Coordinator review; not counted as an independent referee",
+  "review": "Read all active source and eight wrappers. Actual determinant/eigenvector equivalence and full independent-entry box reduction cover all real parameters. Four explicit nonzero eigenvectors witness membership. Affine determinant bounds and material kernel LeanCert negative margin exclude three separators universally. Real preconnectedness forces intervals inside actual connected components; four quotient classes inject and refute the dimension-three bound. No exact number of components is claimed.",
+  "active_source_sha256": {
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Definitions.lean": "283a31f8e9d100347e5403b8e5688feebd13968d865d487b4962eaa1f861b195",
+    "intervals-and-absolute-value-equations/IV-06/lean/NLA/IV06/Proof.lean": "600311e699fecc178f921e8233a9c14d50774db5980ea63560040e578d896333",
+    "intervals-and-absolute-value-equations/IV-06/lean/Solution.lean": "b4b9ab44b95accb5f4a0b677d417937cc0ca9ae6c9f08409b2c178ef0d8f699d"
+  },
+  "separate_execution_evidence": "ROOT-LOCAL-CHECKS.json; independent consumer and Linux evidence recorded separately"
+}

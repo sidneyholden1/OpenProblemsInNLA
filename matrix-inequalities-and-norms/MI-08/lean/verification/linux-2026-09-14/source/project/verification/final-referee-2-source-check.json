@@ -1,0 +1,29 @@
+{
+  "all17hashes_match": true,
+  "frozen_boundary_matches": true,
+  "canonical_and_statement_wrappers_match": true,
+  "hashes": {
+    "NLA/MI08/Definitions.lean": "3d239b1379ea53cead7b54a06ed8ae92e2d191420f45a39b5466dcd6380c3965",
+    "Challenge.lean": "7ef811f91e89621f606400fb76756068f941c30f94ac4d9135bb6111d115413e",
+    "NUMERICAL_TARGETS.md": "c8bf9ab6782e2bec826664fe69cd09a523e495cedadbee64ada5f4eca6d25832",
+    "NLA/MI08/Correspondence.lean": "3bf9263dcc6726a08b4cfd31aa9386c872c38ba58cb607de184ee78a8e143741",
+    "NLA/MI08/Designs.lean": "a3d875b90fee6e891d9a1af914ac1d2a60002a28aca3f8f6aa325e2ff5742a5f",
+    "NLA/MI08/Proof.lean": "b78a5e6dc64f679329fa5fbb05ece206d161f503578d4b50b72a8ebd23f156e7",
+    "Solution.lean": "bf8b01921469343f9a3acd5f2fe875e9530de4c69024af8b0fd2b409fd401950",
+    "comparator.json": "18928dd61159e774c47a220a825f4666881e2a89fa825514bd800a91463bf465",
+    "lakefile.toml": "0ba5280ec9dd388e19ebb4b09e1257f4f8851b72da6ed8a3432a647eed9720b4",
+    "lake-manifest.json": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "formalization.yaml": "5772fa9a218b656e5a20483b6ff0172b6c4a5c7f742e2f39162823082d8fe7b3",
+    "README.md": "6cf0b930926a7fab68bef677494a6764c8ca797f338e673fb3ff8167261af564",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "verification/final-build.log": "c17c819aedabeb1abaeecd3694c5c2b4e1cac5443879933eccefcff0a5154aa3",
+    "verification/AxiomAudit.lean": "b1ab427ee49ed7941c6fcdcee8f872cc2f70bf7e281772d136cd1f9c8e198c32",
+    "verification/axioms.log": "1dcbbca3ec0905bb7404494e4f06f9edec7bad84454ce396f0cd64c301be74a3",
+    "../README.md": "814804db20ca8a73366cced2a5de00f8f01261f13d05d5bae1eaa1a1124289e2",
+    "../solution.md": "854a282d60852a4a15a91bcc8a2889d69a1268124faca6cbd92d40e4e547cd99",
+    "../solution.tex": "c15abfde319610c212c0e021531fd7a89640fb39fb39ef1c112c0cd64827f404",
+    "reviews/statement-review-snapshot/README.md": "1a55dbd03860837653a88abe2d3d017ecf0537d6b885315704cb2066687166c0",
+    "reviews/statement-review-snapshot/formalization.yaml": "5a5e7b8ddc58f8eba0ddfbe8a865f65089503de2edc9e04ddc6d02c51f3264ac"
+  }
+}

@@ -3,8 +3,8 @@
 **Difficulty:** challenging  
 **Importance:** interesting to the community  
 **Rating rationale:** Challenging because almost-sure invertibility does not yield spectrum-uniform probabilistic constants; community impact is explaining cluster robustness of block Lanczos.  
-**Status:** Solved  
-**Last checked:** 2026-09-12  
+**Status:** Lean verified  
+**Last checked:** 2026-09-15  
 
 ## Negative resolution - 12 September 2026 (UTC)
 
@@ -22,6 +22,14 @@ Along $`\varepsilon_m=1/(m+5)`$, the probability that $`\chi_{\rm mono}\chi_{\rm
 [Proof PDF](solution.pdf) · [Standalone proof TeX](solution.tex) · [Independent mathematical review](../../references/stepaniants-ke05-2026-09-12/independent-review.md) · [Submission and public-source audit](../../references/stepaniants-ke05-2026-09-12/README.md).
 
 The complete proof passed a separate Codex-agent informal audit. Substantial AI assistance is disclosed; this is neither external human peer review nor formal verification. Shao retains credit for the original conjecture and interpolation framework. The counterexample uses interlaced block spectra and a repeated eigenvalue within one block, both permitted by the original hypotheses. It does not address a different question imposing ordered spectral intervals or refute cluster-robust block Lanczos convergence itself. The original statement, permanent ID, references and dated history remain below; the ratings are historical.
+
+## Lean verification — 15 September 2026
+
+The complete original uniform-probability conjecture has a formally verified negative answer. The proof retains the literal descending recurrence, all root orderings, actual Euclidean operator and coefficient norms, and the full independent Gaussian law. A deterministic two-by-two, three-block family makes the actual interpolation constant diverge almost surely along a fixed sequence, and its probability of lying below any finite constant tends to zero. All ten reviewed statements passed LeanCert kernel trust audits, standard-axiom checks and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927150695) at the [immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6/randomized-and-low-rank-approximation/KE-05/lean).
+
+Mathematical proof: George Stepaniants. Original interpolation framework and conjecture: Nian Shao. Formalization: Sidney Holden, with OpenAI Codex assistance. Two independent statement reviews preceded implementation, and two independent nonauthor final reviews passed. Actual sandbox and rejection controls passed. AI-agent review is not external human peer review or official Tau Ceti endorsement.
+
+[Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/codex/lean-ke05/randomized-and-low-rank-approximation/KE-05/lean/README.md) · [Retained evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/codex/lean-ke05/docs/lean/verification-2026-09-15/KE-05/README.md).
 
 ## Original statement (retained)
 

@@ -1,0 +1,9 @@
+{
+  "verdict": "PASS",
+  "reviewed_proof_commit": "e6c7e4a4d13fb3f2e8c9fcb3c7092f7ee6dec5b1",
+  "all_lean_files_unchanged": 11,
+  "permanent_ids": 217,
+  "numbering_tests_passed": 17,
+  "manifest_exports": 9,
+  "pdf_visual_review": "All three rendered pages inspected; legible, no clipping or overlap."
+}

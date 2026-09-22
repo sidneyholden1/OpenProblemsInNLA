@@ -1,0 +1,15 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "canonical_path": "matrix-inequalities-and-norms/MI-21/README.md",
+  "canonical_exists_at_observed_older_main": true,
+  "older_canonical_sha256": "89e90aec3c05dfa59dda22af9d14f40914262cf53be88af8e2d75f156bb0cc70",
+  "preserved_canonical_sha256": "357d4cddbb6507c539ede99ff4b1aca092eec2fe020a90a11f2bd278bf320d97",
+  "canonical_target_section_byte_identical": false,
+  "older_target": "For positive definite matrices, define\n$$\nA\\#_tB=A^{1/2}(A^{-1/2}BA^{-1/2})^tA^{1/2}.\n$$\nIs the following true for all positive integers $m,n$, all $A_i,B_i\\in\\mathbb C^{n\\times n}$ positive definite, all $t\\in[0,1]$, and all real $s,r,p>0$ with $sr\\ge1$? Set $A=\\sum_iA_i$, $B=\\sum_iB_i$. For every unitarily invariant norm on $n\\times n$ matrices, does\n$$\n\\left\\|\\sum_{i=1}^m(A_i^s\\#_tB_i^s)^r\\right\\|\n\\le\n\\left\\|\\left(A^{(1-t)srp/2}B^{tsrp}A^{(1-t)srp/2}\\right)^{1/p}\\right\\|\n$$\nhold? Here all real powers of positive definite matrices use spectral functional calculus, and unitary invariance means $\\|UXV\\|=\\|X\\|$ for unitary $U,V$.\n\nThe conjecture controls the norm of a sum of nonlinear positive definite matrix means using only sums of the input matrices. It is relevant to aggregation and interpolation of positive definite data and to estimates for algorithms involving matrix powers. The full weighted statement is one problem; its individual parameter cases are not separate entries.",
+  "preserved_target": "For positive definite matrices, define\n\n```math\nA\\#_tB=A^{1/2}(A^{-1/2}BA^{-1/2})^tA^{1/2}.\n```\n\nIs the following true for all positive integers $`m,n`$, all $`A_i,B_i\\in\\mathbb C^{n\\times n}`$ positive definite, all $`t\\in[0,1]`$, and all real $`s,r,p>0`$ with $`sr\\ge1`$? Set $`A=\\sum_iA_i`$, $`B=\\sum_iB_i`$. For every unitarily invariant norm on $`n\\times n`$ matrices, does\n\n```math\n\\left\\|\\sum_{i=1}^m(A_i^s\\#_tB_i^s)^r\\right\\|\n\\le\n\\left\\|\\left(A^{(1-t)srp/2}B^{tsrp}A^{(1-t)srp/2}\\right)^{1/p}\\right\\|\n```\n\nhold? Here all real powers of positive definite matrices use spectral functional calculus, and unitary invariance means $`\\|UXV\\|=\\|X\\|`$ for unitary $`U,V`$.\n\nThe conjecture controls the norm of a sum of nonlinear positive definite matrix means using only sums of the input matrices. It is relevant to aggregation and interpolation of positive definite data and to estimates for algorithms involving matrix powers. The full weighted statement is one problem; its individual parameter cases are not separate entries.",
+  "provenance": "Preserved authored source, not current main. Original mathematical and formalization credits unchanged.",
+  "canonical_target_semantic_review": "Coordinator compared complete old and preserved target sections: identical mathematical targets, with Markdown/math-rendering and whitespace differences only.",
+  "canonical_target_mathematically_unchanged": true
+}

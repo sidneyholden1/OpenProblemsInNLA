@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "names": [
+    "NLA.MI23.scalar_gap_positive._proof_1_7"
+  ],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi23/docs/lean/reverification-2026-09-14/MI-23/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi23/matrix-inequalities-and-norms/MI-23/lean",
+  "script_sha256": "15af1e17a65a55296b31f5a3d6898afe5c8219f56cb05d5768322e831536b519",
+  "log_sha256": "ccdc8013a25744e6decd344827648d945300bc280fbecd9869ca34f54d6d2c10"
+}

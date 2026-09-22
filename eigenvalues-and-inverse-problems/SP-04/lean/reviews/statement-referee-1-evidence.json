@@ -1,0 +1,35 @@
+{
+  "phase": "independent statement diagnostics only; not proofs",
+  "reviewer": "/root/iv06_statement_referee_1",
+  "result": "PASS",
+  "exact_checks": [
+    "strict nonempty rational parameter witness",
+    "radicand and square-root difference margin",
+    "full-region small-root rational upper bound",
+    "negative-root endpoint inequalities",
+    "rational sqrt enclosures bracket selected sample t in (4974/10000,4975/10000)",
+    "exact identity distance to I = 1710107/1000000",
+    "current source hashes equal supplied typecheck receipt and source provenance",
+    "nine deliberate placeholders; no Solution"
+  ],
+  "limitations": "Sample root bracket is diagnostic only, not universal existence/uniqueness, all-pattern comparison or full matrix/open-set proof. No proof bodies inspected or implemented.",
+  "read_hashes": {
+    "../README.md": "2dfa12b2eee5e312bbd45d023d8fa33e1c40e2d598f6538e651d6df519ae38ca",
+    "../solution.md": "d7a9e5a9d0fa0bb43e45a3d5c37b6e52d86373cbf4391980d0c1c54ff2ebc45c",
+    "../solution.tex": "4709776d1b91f8eefc4521495057cbc0451f897c7232ee7c838214f7627da481",
+    "NUMERICAL_TARGETS.md": "6a32b2cc5d14e9f062e5ec09bac8471f91eb269054b9a0241d590c47b1649a63",
+    "NLA/SP04/Definitions.lean": "54a1ab62f1e32e1913ee87600a98fb1f942f4acf6e55f777b6be3cb25b3825d5",
+    "Challenge.lean": "99e61e62c3ea8e5911e7765850735515cca4f896c3593001215dd703585c0506",
+    "formalization.yaml": "6dfcccab9a7d516194f871f80a306a707230faf6dbb3a29fd4f69fe20ca600df",
+    "SOURCE_PROVENANCE.json": "bf48973ee63563d93e1f4a8d575422d3e4e603703ea4fc4be20f7ad5828cca9e",
+    "verification/statement-typecheck.json": "4a7ca98a484640507bda93981dd9ff05a05c513b2ee4aab48fdb745679e30466",
+    "verification/statement-typecheck.log": "66856fc2551ccbf152179f11799aeab6f8c2fc20d3d5bd1162b5c5ba714a1e06",
+    "../../../docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "752b51f88c9dfcc5a21ca5008fcad5d615779c55f41d210ecb5806cf5ce73e0d",
+    ".lake/packages/mathlib/Mathlib/Topology/Instances/Matrix.lean": "f1177b96ad3853e806edfa9a26ee036db98e03c1c361179b7cdf60213d157734",
+    ".lake/packages/mathlib/Mathlib/LinearAlgebra/Matrix/Determinant/Basic.lean": "37646a248748fd65e37c20a21b4a20fea11539d4312aae4f277e4faef8ed2b87",
+    ".lake/packages/mathlib/Mathlib/Algebra/MvPolynomial/Eval.lean": "4df972e1914f2292171801920bbf014a3a2e56a679520edaf4403ef3638f3007",
+    ".lake/packages/mathlib/Mathlib/Topology/Algebra/MvPolynomial.lean": "85ac5d20944ed63164f486576a0a346cf471412a5b77e56fbfbe209b591cb093"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mf16/docs/lean/reverification-2026-09-14/MF-16/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mf16/matrix-functions-and-stability/MF-16/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.MF16.word_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.source_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.twelfth_power_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.polynomial_word_equivalence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.krawczyk_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.certified_root": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.root_to_matrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MF16.not_wordUniquenessConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "actual_krawczyk_checked",
+    "preconditioner_det_exact",
+    "box_radius_exact",
+    "contraction_bound_small",
+    "certified_root_proved"
+  ],
+  "script_sha256": "9b037066527732b5ce0a1929a0b4182bb317bf14b7a9528e4e25029109ba096e",
+  "log_sha256": "a66c9839c09d701d3c53af245a25b371944eb5684014ec94e70227fcdb6da0b0"
+}

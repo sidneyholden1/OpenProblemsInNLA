@@ -1,0 +1,3638 @@
+{
+  "separate_checker_controls_job": "skipped; actual per-project controls independently inspected",
+  "attempt_verify_job_id": 104166273623,
+  "github_attempt_jobs_sha256": "742e2b16358ac7d0dfd06d930cc919ecfadc1cdd50301eab6ff9731135e0c347",
+  "github_all_artifacts_sha256": "da3f5a57c828e34ea557ee6cf6a164efb69408d59339aa545b8165df9e7a2612",
+  "dependency_revisions_checked": {
+    "leancert": "621a43d7cf21f87872392a01e874f2f1dbddc926",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+    "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+    "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+    "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+    "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+    "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+    "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+    "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f"
+  },
+  "verdict": "PASS",
+  "reviewer": "independent referee 2",
+  "run_id": 34900775452,
+  "attempt": 1,
+  "verified_commit": "4e07fd953ec0d53915af22cc0a30c821c207e3af",
+  "artifact_id": 10370761636,
+  "artifact_sha256": "7e5a69aa5c20931e6c1595372605a404ec9021da6bd3b89819d71893f1363968",
+  "receipt_dependency": "Coordinator-retrieved GitHub API receipts independently cross-checked; no fresh remote API query.",
+  "github_receipt_sha256": {
+    "github-run.json": "77321f4581ac3214370496bac1d9c46c49952c7e2d427edd9231cf80af335db0",
+    "github-artifact.json": "4336caaa57332d7696a9ac7473781a7e317b55ddb404017cf450d579701b16cb",
+    "RUN.json": "1f3ab249ee0cd6fd269e7a2ff5612c04130cf7afa47a297fb0c8652ec304404a"
+  },
+  "zip_members": {
+    "bootstrap/comparator-build.log": "aadf87c28bab7e7c675b438271ce104c8feb2f30fa17e48df07116bc27fb5288",
+    "bootstrap/landrun-build.log": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+    "bootstrap/elan.log": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+    "verify-20260914T215019Z-3941/comparator-controls.log": "c7d14c9f91dcca0dd3a9a5758a3762e9316028e0b7dc9a29c73757bf6886a810",
+    "verify-20260914T215019Z-3941/comparator.log": "c43cb1ba9a17ec03e8ba425ffba3a85571a2a529babc85b11d4f85a97b70708d",
+    "verify-20260914T215019Z-3941/dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+    "verify-20260914T215019Z-3941/kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+    "verify-20260914T215019Z-3941/mathlib-cache.log": "8cab2df93b393f49604032ec1d50e96fce2ac2ea82ee28b4d2a0caaea5b0f37e",
+    "verify-20260914T215019Z-3941/negative-native.log": "38d8c9b30577064c2edb7221cea99a563eb6573beddfb85591bb85709686d8f0",
+    "verify-20260914T215019Z-3941/negative-sorry.log": "87f4a782a248651ac6b168ad603509765551885664ed12b655efa895ca101174",
+    "verify-20260914T215019Z-3941/result.json": "d7817b5cf8ae98cf0bc86cf73f22023b7f9ae80edf467a4c24ad36ec2d7c2254",
+    "verify-20260914T215019Z-3941/sandbox.log": "ccb7ff002dc0e56458377e3f0ab126838f08e0db5968c87a9f1e0d6fe2143f49",
+    "verify-20260914T215019Z-3941/user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a"
+  },
+  "input_count": 570,
+  "all_git_and_current_input_hashes": {
+    ".gitignore": {
+      "sha256": "a0fb815fecafd1739b46d2b381c27acf366ce49e30459c0512f71814ce241fc8",
+      "git_blob": "68d05ee88d477f213ff809787916c4faf73711ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "Challenge.lean": {
+      "sha256": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+      "git_blob": "f94f73a6d738fc1e5c8caeb2efba888a4ed3b3c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/Actions.lean": {
+      "sha256": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+      "git_blob": "ad4e748d42400835ef3abac9c0872a658b4e002c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/Definitions.lean": {
+      "sha256": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+      "git_blob": "ea2148c56e867ac6c288f715247e19c7a2f5f2ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/FourthPower.lean": {
+      "sha256": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6",
+      "git_blob": "67607feed59246b463605a5a534a6674edf93721",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/Matrices.lean": {
+      "sha256": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+      "git_blob": "7ded019fea4f4f26a550d4c7a8b6d09dd029fd83",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/Minimizers.lean": {
+      "sha256": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+      "git_blob": "50322d815ca8a57e4e87d03496a77537a62d60d3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/Norms.lean": {
+      "sha256": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+      "git_blob": "5f36cf8534c43a9133503154dde257cc013c2d4f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/IE23/Proof.lean": {
+      "sha256": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+      "git_blob": "783996d1d10e1b49d39a0da53e3825103b276330",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NUMERICAL_TARGETS.md": {
+      "sha256": "eb49c0b56617ab749184cef753d22ec461eef982a68d46b352187d1843b60d28",
+      "git_blob": "595fc1912ac98d4514b02379c0b306e89fdf54f9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "PROOF_MAP.md": {
+      "sha256": "7959f585fe36ae9aaf9d3cc1bc3f4b08155b65aa42dd603b7d4c63070725dc04",
+      "git_blob": "e967d166939ac236f584338410b1e5c943f9fe38",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "README.md": {
+      "sha256": "8516fcf8f3b0f59d74ee99afa1f0846e4033b6ade0465897beaff4632abda85b",
+      "git_blob": "ac5b04655d86d1fc289df7618dafe56a36ca764c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "SOURCE_CORRESPONDENCE.md": {
+      "sha256": "80ef767f313eb06b6a427448c177a716ddaa91808c511659dce9610868962f61",
+      "git_blob": "f47f57c3c85867b5bccc29ca588d32a653b27549",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "Solution.lean": {
+      "sha256": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+      "git_blob": "21b6e32c58246ec4a31e7e1fd7b0062c5c6793db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "comparator.json": {
+      "sha256": "8a02cee6a555e2bd658cb2daa22bfaba515027d787d570846aae21aaac2e26cb",
+      "git_blob": "aa58f3a2563da1849151bab3bc655753128f9939",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "formalization.yaml": {
+      "sha256": "4de2f2d6a60d2d949ef3eeb5df003845e172adee3b171dd25ba35801e890b0b8",
+      "git_blob": "1c9b39b22e4097955549f500cf207eb2375c1b2a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "lake-manifest.json": {
+      "sha256": "92ccb4a43229b07f05bec9abccbf6528fc9e13e506f1669a2c6833fa83d234e0",
+      "git_blob": "d04a6e1beea053372e199dd4d59e909fcbfb3ed0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "lakefile.toml": {
+      "sha256": "b5c948f74981d582e865552a22f4ec1e49a5968753c3cb3d3dac9676e7672e28",
+      "git_blob": "96b57dc3cf8a5e4fe814a89568f1da86380a67d0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/InspectStatements.lean": {
+      "sha256": "500921ce0af7eab175482cdc60a883f377a15cc05e1fbb72113b86bd9563db85",
+      "git_blob": "b17fd633f5dae1a1352f8dfc72b85813c2460292",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/add_comparator_supplement.py": {
+      "sha256": "2deb8cda155e6a6330c5d557434f6a52995381fd1bef8b1778855838638d9d23",
+      "git_blob": "3a84ab5aad0799fb76bc4fe93cd1a314590f5a3d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/check_statements.py": {
+      "sha256": "3a581ee87257580d0ac21d53a714081e9b7f8c85bfd92ff57082e6c5dd42f7cc",
+      "git_blob": "86a5a529a9658acd2fa8d3113c1cb1696b87907b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/definition-axioms.json": {
+      "sha256": "7ab78badd800f65abd2ac0c305b9c18d9078bec273039c9206acefa7f80783df",
+      "git_blob": "997bb19be7133139b87898a1dbc82f323c66e3df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/dependency-pins.json": {
+      "sha256": "890d0cc3e787aa27d62ad6589c050e4aebe2ca6a561ff7bd0144ca37d1d94790",
+      "git_blob": "3b0b736739be925ac9fc37fb9143a8a8a68eab37",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/freeze_statements.py": {
+      "sha256": "c83768beff9e5d1ddba6bf69b906d020c15b3cf111c93026c60ff09f0c9468fb",
+      "git_blob": "63120030f6e4aa19c99a06e953ea09483b732270",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/fresh-challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/fresh-checks.json": {
+      "sha256": "e0a00b7e3430ed8eb9086a46b700b678b7f5cfbfe6d18cc0380398a13eb81e71",
+      "git_blob": "6ffe8d9aa4b1da01f4f738335804c8b9c752e19e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/fresh-definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/fresh-inspection.log": {
+      "sha256": "1479045548ded7394b92ffeec2a86e5fab2231ff7fe579d5cb402d9a3dfa4fbb",
+      "git_blob": "7dd1466ed31ce305aacea20a100d68ff69a17c56",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-completion.md": {
+      "sha256": "d14f19bcff11aa385c581cccb3d90b9037e478ff690dde653ad7370a750a2c8d",
+      "git_blob": "cad75e669bf95fbc3856265c0b19bc62befa9194",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-freeze.json": {
+      "sha256": "8ed8f46ea66c9e420156d99840e4e24e78cf8207a9e415cc7c26f6f9739e5fe8",
+      "git_blob": "8ec1a339d43e1947326b470893ba0afa46d34010",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "bb232d4c5a8c2a8fb75238547cbc9646a99ab8f3904286152f52963140132748",
+      "git_blob": "d96739b801e764143a7c7d38722761cbb8aef635",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/Inspect.lean": {
+      "sha256": "e973704b348fac395cea8a776cad8ea5ff0e2290926392d861406e5546aa2536",
+      "git_blob": "9f9c29c131410759b6da454d59c2ef507eeb1294",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/Challenge.lean.txt": {
+      "sha256": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+      "git_blob": "f94f73a6d738fc1e5c8caeb2efba888a4ed3b3c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/Challenge.log": {
+      "sha256": "bb663ec7485b4d785f050208179f86e86ca5c5f672ddc772b31f7369ec8ee0ff",
+      "git_blob": "b5f29e0dc49afd8fadcfa865a8592a1ba3b2328e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Actions.lean.txt": {
+      "sha256": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+      "git_blob": "ad4e748d42400835ef3abac9c0872a658b4e002c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Definitions.lean.txt": {
+      "sha256": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+      "git_blob": "ea2148c56e867ac6c288f715247e19c7a2f5f2ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-FourthPower.lean.txt": {
+      "sha256": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6",
+      "git_blob": "67607feed59246b463605a5a534a6674edf93721",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Matrices.lean.txt": {
+      "sha256": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+      "git_blob": "7ded019fea4f4f26a550d4c7a8b6d09dd029fd83",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Minimizers.lean.txt": {
+      "sha256": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+      "git_blob": "50322d815ca8a57e4e87d03496a77537a62d60d3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Norms.lean.txt": {
+      "sha256": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+      "git_blob": "5f36cf8534c43a9133503154dde257cc013c2d4f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Proof.lean.txt": {
+      "sha256": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+      "git_blob": "783996d1d10e1b49d39a0da53e3825103b276330",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/Solution.lean.txt": {
+      "sha256": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+      "git_blob": "21b6e32c58246ec4a31e7e1fd7b0062c5c6793db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/result.json": {
+      "sha256": "8379a509e03956bd92cf762e17e2c79e16219891203edba292b875767ea697c2",
+      "git_blob": "185dbd7567e4868a57546657c8819433b9d7baa4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/reviews-proof-referee-1-evidence-Inspect.lean.txt": {
+      "sha256": "e973704b348fac395cea8a776cad8ea5ff0e2290926392d861406e5546aa2536",
+      "git_blob": "9f9c29c131410759b6da454d59c2ef507eeb1294",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/attempt-qswiinla/reviews-proof-referee-1-evidence-Inspect.log": {
+      "sha256": "13496fdc7992cca80a18f2a6204672ae003651adae5c9219574d3ffc582b328f",
+      "git_blob": "f0481a38d5a2ea0bfe1cfad3825fa890bfc6862c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/audit.py": {
+      "sha256": "696d2e07a2bcc298c7c9c7becc4a57269451e79974b3ef9fdcc09db404284f84",
+      "git_blob": "c1db7f847ebba34a528c9d24ea3e1e8c84023e3d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/exact-reconstruction.json": {
+      "sha256": "3f4dfe2801d9e2c420e262f3c0a8363d9033b8203964607eff5809234331cbe8",
+      "git_blob": "baa16b34969b8e29195186807e4947047c527e57",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/final-audit.json": {
+      "sha256": "60f251ec614b376355cadbbcddb7ad90320cbdaf7f1d98c4acc74da4b4b63f44",
+      "git_blob": "6717b5bb3b01313623dc1392c98b0c1a4f924a5e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/initial-integrity.json": {
+      "sha256": "da7cac3f2d76f0110a6fe3d299da377b6da38e2930555e84953cd8c842cddc15",
+      "git_blob": "23d27c87e738add126a16b8c02a1668280a271e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/latest.json": {
+      "sha256": "e0dcfaaca9ce9050293519e402cf153517528cdd76e953f1ea4c9ef89beb5f52",
+      "git_blob": "f4853bbfc08302399c344902e789ce82db0061bc",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/primary-library-and-review-inputs.json": {
+      "sha256": "85bafe994fc611b6b5fed76ebd7a15e2996e2a10263fa82dfc2da1cde062d7ea",
+      "git_blob": "9b1fb0393f7e6c7368b9750988d5ebb702b04a4a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reconstruct_exact.py": {
+      "sha256": "a00fa66c612249cc98b0ad8621861fcbce31a72318a79844f41cdd931696b96b",
+      "git_blob": "7f40288c9640b82f136e0015e8007184323f27a4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reuse-search-1.log": {
+      "sha256": "c096ec61ef47909097adacdb4ca22f9f40a2bb3da926e6e88dd133366da7c1be",
+      "git_blob": "73c6b42c97e66dbb59fb86cdf50b7c00c2009085",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reuse-search-2.log": {
+      "sha256": "a9ad64ce8068cf93619a39fa636d11071e4abaab109529c149c4fe7661db71db",
+      "git_blob": "698a7ece2cb3f14bdfe8d7d556125a96937556af",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reuse-search-3.log": {
+      "sha256": "2c24f1131ebd23ce0678536bbf2ad97e8b924722af5f300d82b53eb127cecfc7",
+      "git_blob": "8a6f3bed0417439a6f2ae92b70c5e3688173567a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reuse-search.json": {
+      "sha256": "a334330be72f53ece0318a3ffb98e549f3001380b6c482ca1769a04dbf6018af",
+      "git_blob": "99dfba34347c8a7bd386423f855f719e7af828eb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/run_fresh.py": {
+      "sha256": "08066d5720536608ba6544c81837217cbcf9c3e415a674b7d71596abebf20631",
+      "git_blob": "0d87e8c247835a1721138802a953c265f520b6e6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1.md": {
+      "sha256": "4aded9a6adfc4723941bae2ac8c4ae0c1ad4bdef7136dd3a285068ae1f68d4d2",
+      "git_blob": "1c7aed1350dfff0747b283ce15ab2e23c8f1c151",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/Challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "020a62b026a9d00b6e41b50feefd468979d87a74e3384a688a1bb449b49a2847",
+      "git_blob": "5c944f887d52b74c078d848eb41167c633a6ee4a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "caaa5f7d0e7ce49891414f653e5e40ca2169a53a93cc8ed57c2f3cf5f91c664a",
+      "git_blob": "f0a462d8cb706075e824151e197c4134b9baead5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/audit.json": {
+      "sha256": "f247d63c0b39223d7592575455807f0a2cb65932cbfe100e8bd7825933e94b72",
+      "git_blob": "dffc880e911dce3a423c1f30b30d713a96540a7f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/audit.py": {
+      "sha256": "3573873dc10439addf2a59a39fc711c7ad4e527d416f22f3bbac208073c86c08",
+      "git_blob": "3aa75e96142d4dab115ac7ade18254d558158daa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/fresh-checks.json": {
+      "sha256": "c20c48c0a44e2a9e6da4bf62fd82f0a4ad449e81b3d126f795cf845be577b242",
+      "git_blob": "881aecf0dc25240ff471b61a31a2be3fbcb8fdf8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/fresh_review.py": {
+      "sha256": "6efbcfacc02d9131df5864a82808624e0b97c0136b7fadb5a11b8091b61f287a",
+      "git_blob": "a9db917bf081e7585cefb40e51fd2fb639f5a4f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/independent-exact.json": {
+      "sha256": "0c7f910b58eab074c2b2d7fe8332a7c53ca5f06b664c560405871d7b3be3b3d3",
+      "git_blob": "5777ca4c88e16e186614f83c5e7891bac57c343a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/independent_exact.py": {
+      "sha256": "b5fd0cc2f02f28152280e3b19365d8993fbb83660ecd7c1308bb01ce31d5aae6",
+      "git_blob": "e76baa4e99b6e9f5aa86738d5affd7c964804147",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/matrix-supremum-reuse.log": {
+      "sha256": "cddd1b39607655c95a689af6c1d8b8473c304a2fa6647ae076740cf039697f06",
+      "git_blob": "82aba7ab9445c62492c4dea15ca79422dc6cbe55",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/norm-reuse.log": {
+      "sha256": "80c7c2c983e1da0e8ed8edc12472e57e9036c014400bee0275c3d1b9ddf9634a",
+      "git_blob": "fae1409bcdd64e446df9c32492003040ce710bd1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/primary-library-and-rubric-inputs.json": {
+      "sha256": "96c06784728b655362daf906d15e979d895665fd78c0c00f6b9999410dd01689",
+      "git_blob": "73f13e8e99f9acaf4829b1cd7068f83dc703cc2c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/real-power-reuse.log": {
+      "sha256": "f6cf15e9e0b2d86978c0ee65f00399c9c729439ea877eb39bf732fd4be8be5fc",
+      "git_blob": "3ff63211eb9254f5e574f673f8d087a0c1353b1c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/reuse-searches.json": {
+      "sha256": "7d03e77292fe6d13186c30f42d82ed12b0d66ea62004533e40bae41948b2d330",
+      "git_blob": "b40c0b47cbbae254e24b9bd271ce88df5d6a7406",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/reviews-proof-referee-2-root-evidence-Inspect.log": {
+      "sha256": "28572ed75d3e25ca96f5869eeb45eb9771cf0143f9003a2d4a6604a5828ec4de",
+      "git_blob": "01cb762b9142ff45cf64eab3fef8b4e677569de3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2.md": {
+      "sha256": "0b6f2f6ed1aa4505da7ceb63d33470822914820904a4b0fee309f69ba314c008",
+      "git_blob": "9cf52fa4ac941cd01acad97299d0381e335f0d23",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/public-duplicate-scope.json": {
+      "sha256": "8e5bbcc2879bec6fb40bf2d66142f7594c3c9d2759d3cda82212e0c0c24e4f3a",
+      "git_blob": "ed7d6f9e58fe494071b470a9eb661ac85fa7fba5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/reconstruct.py": {
+      "sha256": "72aff05bcee653e836e84e9f463490dd4378bf086178a8988ba2a4a612197c0d",
+      "git_blob": "4a7f14610158cd9f2c0558bbe92e6e1101cf84fb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/reconstruction.json": {
+      "sha256": "aaa07e43af20d126bb0d28118fc135934aec3e20a0a2d3748d1d2fe9b1b26d0f",
+      "git_blob": "c5bced54c0e6791d1cdb1ad8f6b5fd029b633b24",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/reverification-2026-09-14.md": {
+      "sha256": "09696b78ee75b3c9703b74622969a8d7388ea5cc129a3cbd8bf3827cafd6b525",
+      "git_blob": "6fd7e4e47106a0d9c47bc90f4ed0701a2f048168",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/snapshot_sources.py": {
+      "sha256": "9d25bacfa7a96df6a9302e0da67c7607aa4d9ede82f4574ea742db5e9a6202af",
+      "git_blob": "36eeb3edb04367fcf13f94ab14ad9f352f6fc88d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-integrity.json": {
+      "sha256": "f7b76ae733ba397582d3436dc8ceb91e84bd678e73cf4470a748c398d3029dc8",
+      "git_blob": "cfe0dde20c0ffda5db047af0b66cf03acefccd3e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "git_blob": "5d1d8c908923a687f4779fd1a539237bd29a1a1a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/linear-systems-and-elimination/IE-23/README.md": {
+      "sha256": "922b5f8132432545fc92c29e441f672340ed964578fa65ed902d910dd251b415",
+      "git_blob": "355148221b2d544a91aebf2179781f0de35c2dce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/linear-systems-and-elimination/IE-23/problem.pdf": {
+      "sha256": "b215b847aa657e49d961d8018eed359ebdf90695e4cdebd5197e930d23e3e7cf",
+      "git_blob": "e4f9f02a2bdd33e264e7f28b97255c05d98e6265",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/linear-systems-and-elimination/IE-23/problem.tex": {
+      "sha256": "078fc8488888f4317f29d4e6bd1856f8d32b1fdbff0c57d4c59d9f5f3f8b2124",
+      "git_blob": "b10098e4edd74eba4b60a8edc50fedc8cde91aba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/references/colbrook-recovered-2026-09-11/README.md": {
+      "sha256": "7ce4438b2fbb2f99659561bf0affa5a354cce6c162a6ff111a2020fc4d85e6ff",
+      "git_blob": "9919eada80b5a5756e219724056d44841b8e29ba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.pdf": {
+      "sha256": "d3bd50914f1d98311e6c6a710c59c01fe53fc0c3e49f045eacf1b5b4567f979e",
+      "git_blob": "a4ef96c4d58476f45be0a89968c7fd5367987686",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.tex": {
+      "sha256": "9ab20822bd6198c9a387509f2fe93182060d3d9c8ca491b8dc2d1cdd22ccc1a3",
+      "git_blob": "031cd96f2e8f609be67f5d4c1528b5cde57e4925",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/source-snapshot/references/colbrook-recovered-2026-09-11/verification/reviews/IE-23-review.md": {
+      "sha256": "58c0bbcf62112d32e2048e99f0ee7674a43567efcda0b1c5123f1b8971df5851",
+      "git_blob": "2383cdecc3a8f083df8ed4f153c8a04a0b7e0377",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-config-supplement.json": {
+      "sha256": "dafd6645aa017c543dd4eb9f60633b47a2035f090d58955525a3d6c41156141a",
+      "git_blob": "1af146501af7c6c96957f83d63bcf376c9cc139f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-config-supplement.md": {
+      "sha256": "95c93d583cf9a29c7588052c6f29e4080cd642f33709c7d25649cf026194b8ec",
+      "git_blob": "ee559800311f11c690edeadeca3db6d49a471596",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-freeze.json": {
+      "sha256": "6e9b62ab46974a54204ba7636ec83209bd102fd322794709c83a46df85d417f1",
+      "git_blob": "3b9f95b4514841c2942c0dcd03f812f093d2dfac",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-handoff.md": {
+      "sha256": "14fe26c9ed200eeed620694bc5f1effae62162d03b5bb786ada486875e29e357",
+      "git_blob": "446d553f65db45a1ffb69675636def6b06bbbc06",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/Challenge.log": {
+      "sha256": "bb663ec7485b4d785f050208179f86e86ca5c5f672ddc772b31f7369ec8ee0ff",
+      "git_blob": "b5f29e0dc49afd8fadcfa865a8592a1ba3b2328e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "828c4e8b8f6876bd3a5ead7931eb597f3f1259c21e0a699b1f8d191bf6bc666e",
+      "git_blob": "4dc3f2fe9c5c1fcfbd6a437bf2932e1cc078c85f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/Inspect.lean": {
+      "sha256": "767fd802082ab76aeaa4a938024e4e4aa5a754353bcfe7f87f97e280360b0a77",
+      "git_blob": "8e34a5387370b298a437c9c3ded6b6c345552491",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/axiom-audit.json": {
+      "sha256": "cc5bd413cb2a91b6e59ed498518ba0c8f879aef24327185de2ac019cf36cb955",
+      "git_blob": "7b86ee0fd8acbeb0d2c9e80c5edf1bce08606596",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/exact-reconstruction.json": {
+      "sha256": "66caff41501948e71e3920afc303a1ac8858a47e3427419f91e3d81513e155eb",
+      "git_blob": "969de95b94057b73972ef8b111d746a81e5092d7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/final-integrity.json": {
+      "sha256": "0a3d49478b21e3d303836a4043addf917e0ff5d1b26e3cc1c3d67fec1718b4a9",
+      "git_blob": "b3352cc0ac2d40394a70e708671a2101dc2cbdbe",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/fresh-checks.json": {
+      "sha256": "99df183b0e09b684cc7083d40c5d74c5bb7ca205ef31e304128e3df0c0ba054b",
+      "git_blob": "71d3d85b98509c2cc9c5b025a9710a6b948af0e3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/initial-integrity.json": {
+      "sha256": "17887b57242f4ea9fe6ba511f98907915a178d71a0ccdfda2b8c2860873b0f99",
+      "git_blob": "2a7e98420f3bc907677887cde65f97b9c1ea699b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/reconstruct_exact.py": {
+      "sha256": "282c460dfec4fbce7a201f05d2e7974962f50f3471de157c70e875fbfdf8e373",
+      "git_blob": "ca1c26eb7f051475664febfa8f0fe4cbba5e2bf5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/reconstruction.log": {
+      "sha256": "66caff41501948e71e3920afc303a1ac8858a47e3427419f91e3d81513e155eb",
+      "git_blob": "969de95b94057b73972ef8b111d746a81e5092d7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/reviews-statement-referee-1-evidence-Inspect.log": {
+      "sha256": "91e764a2b7aab50aa3b78e7611085dbc7cea62d8b4f16b3eefb6b5a601568525",
+      "git_blob": "79a037d02910fc38f6918c2ef7864e588b4d9aa7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/run_fresh.py": {
+      "sha256": "cb903ff730873a2945dd821dabbfe9687eb4e8272e71fba41acb05329ca9009b",
+      "git_blob": "95857c3a6cc37a99f16ba4f2558702945d9848ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1.md": {
+      "sha256": "d2f3669ada22f985ce66681a1b763d0fc722d1938b9c2a35b27792f7fc418270",
+      "git_blob": "3fb68cc39c14e6a377c7ce2a1eed74c8c6e9aece",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "4f7eaad1c45375ab077b7d6690044c99dbe3b11f9051273b7b2ebfbef4c49ef7",
+      "git_blob": "b424717e9f87e91aa31ab5b9e71f3859945111c6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "e563a3cc0e769f493b263de48dfcf570d69e7d30b80e0e8b699665ea8276330c",
+      "git_blob": "ec719ca60d412518a68eb6432cef18f6dc05b885",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/audit.json": {
+      "sha256": "a47dd16e21495cce1e3805e373389cf9524c947a362b594e872c8b88b2206e37",
+      "git_blob": "2d7e49d8bfedab5cb3cf61bfe5a41b2a058e5390",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/definition-axioms.json": {
+      "sha256": "7ab78badd800f65abd2ac0c305b9c18d9078bec273039c9206acefa7f80783df",
+      "git_blob": "997bb19be7133139b87898a1dbc82f323c66e3df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/dependency-pins.json": {
+      "sha256": "890d0cc3e787aa27d62ad6589c050e4aebe2ca6a561ff7bd0144ca37d1d94790",
+      "git_blob": "3b0b736739be925ac9fc37fb9143a8a8a68eab37",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/fresh-challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/fresh-checks.json": {
+      "sha256": "0f603e8f1a519000672f21f350b7da2428d847b9dc2a9a18a390efd962e6abe1",
+      "git_blob": "d63b87a0bc48b84c593def18de59275330aeed64",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/fresh-definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/fresh-inspection.log": {
+      "sha256": "786d9c280b3733cfd775a6af073718f337a830c77ca77a89d527d33ed888fbef",
+      "git_blob": "6ebe665222abacc95c5e6b65f3536ccc26768970",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/fresh_review.py": {
+      "sha256": "65e65e11f38f8d9667245f6c2e4447cfb52c0bb0ae9152b453ac01483ba1ae9c",
+      "git_blob": "353fdcf19b2cf52fc80365ac01ddb7a915aa11b7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/independent-exact.json": {
+      "sha256": "0c7f910b58eab074c2b2d7fe8332a7c53ca5f06b664c560405871d7b3be3b3d3",
+      "git_blob": "5777ca4c88e16e186614f83c5e7891bac57c343a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/independent_exact.py": {
+      "sha256": "b5fd0cc2f02f28152280e3b19365d8993fbb83660ecd7c1308bb01ce31d5aae6",
+      "git_blob": "e76baa4e99b6e9f5aa86738d5affd7c964804147",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2.md": {
+      "sha256": "dda8d5d5dc194371818ecef9fa4e1a20d52dbadc7b8f998dff4a815cfbd4f758",
+      "git_blob": "f93c9743c4cdf0f4f1ed4cd5568978f9ed45a374",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/InspectProof.lean": {
+      "sha256": "06782705e5ecf97974b257876d0aecf88488c330aaada1c39116e6badffdb7f6",
+      "git_blob": "ac4ab6927cc2d4f1fb645df8eb5834f1bef27b42",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/check_proof.py": {
+      "sha256": "26f987646a85633322331c20984b0b55fadcb38d88e83ca9d4dc48303728889f",
+      "git_blob": "8b4f82af557f477fdea449442d3009aee6fabeb3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/development-verification-InspectProof.log": {
+      "sha256": "dae1e71c3af75476193702a34d506804587907a079f81e675c38597b9b8b197d",
+      "git_blob": "889310856f92cb4611f3bcfa12ba42f548d7a809",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/Challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/actual-dependencies.json": {
+      "sha256": "5fd38c8ead48804917370daa20bc84ba0e9ab94b69f83679ac5411fb9865feb8",
+      "git_blob": "aa61c0c22a149abfbce19669f4eacce5d564aec4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/axioms.json": {
+      "sha256": "b570ac575a51e1bbc33d5138f41e55fab258aa6d9a0f3bab2bccc15458d5bbfc",
+      "git_blob": "d049be095e180efce7c007e6610065aabf0a2d43",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/dependency-pins.json": {
+      "sha256": "8b98e578db54ffbf8fefca48b2d3a83cf3bfa4983d89cc16bdf9a4e6b4047521",
+      "git_blob": "27f56ecae6a692f112684299e6941c91f9714935",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/fresh-checks.json": {
+      "sha256": "028fdde56de34469183a5f5c64424f1780acb50508402af04c514b154c943203",
+      "git_blob": "6f9d5bba97a46716897cf9e49ee7e0dbadb1e3db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/integrity-after.json": {
+      "sha256": "f33e12d03161fdeae4350fd1297e5c50191284a0b9797d2efb1c63f1b7c3f44a",
+      "git_blob": "a781969a3fd9c6bf278790168a4ba29bc9bdc365",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/integrity-before.json": {
+      "sha256": "f33e12d03161fdeae4350fd1297e5c50191284a0b9797d2efb1c63f1b7c3f44a",
+      "git_blob": "a781969a3fd9c6bf278790168a4ba29bc9bdc365",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/source-signatures.json": {
+      "sha256": "d8752f161d83c6bca4d9878af0e0b1ab35d4e60fbffd5dc7fe1c48c6b15a7480",
+      "git_blob": "b3303963527c9cbcc55bc6e65b7a7de8a3bc5754",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/final-author/verification-InspectProof.log": {
+      "sha256": "dae1e71c3af75476193702a34d506804587907a079f81e675c38597b9b8b197d",
+      "git_blob": "889310856f92cb4611f3bcfa12ba42f548d7a809",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/freeze_proof.py": {
+      "sha256": "855a770fbe531d06c6b1e524fbaadd11184ec1d0c98de58b0f955d9b424a0772",
+      "git_blob": "82c8aa9a404aec4d590f8f606f0c661659d3ed13",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/lean_check.py": {
+      "sha256": "4dfec9753d28531a5c529d74e91467b8860f67c022cb8a5f60ee273d93278869",
+      "git_blob": "b7130a00398af0f3430809e5bf409104fb959176",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "3d4685d019c85ba80681551637f43ecf8bfc428a91dc8c985596405f36178da2",
+      "git_blob": "47203168d304e691e8fcbd52ada1c45942ce135b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/FETCH-IDENTITY.json": {
+      "sha256": "45445a0d1cefe36ff7763c1b0572432a3741e86680fa93f2d780642caa14a6d2",
+      "git_blob": "541ffef48cdb31e1e58449da8e7e1e1016d5725e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/INITIAL-SELECTED-FETCH.json": {
+      "sha256": "b3765959b53cee15594a6b3533008f266f5a2391ff31e65e351283cb0fe746ce",
+      "git_blob": "642c1267a296a4da007180a8616ad03cbb68d12c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/OPERATIONAL-REVIEW.md": {
+      "sha256": "de746fa0bc2d1cf905b9275c9f5f233a043d3fdc55f35deda04f9226c6dd216e",
+      "git_blob": "15920ce3428596abf00cf91339a5e5e8133f4e2f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/RAW-LOG-READING.md": {
+      "sha256": "c2eab4012a0d5e5501f8bed68e37343f21f9a302aed4f3b611980c571d2f1a19",
+      "git_blob": "12cc50f7227e16f543ac2a0150ce62c939cc0ddb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifact-metadata-page-1.json": {
+      "sha256": "bd8188c554ce29a983f9b162e11e6eb814c1f0212b9ec5f0b38dc04100b45093",
+      "git_blob": "c028837c26c970c5ae39adb2010b4d7459a250ed",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifact-metadata.json": {
+      "sha256": "650d96887ed048352f574bf18e55319a0b8032a84cdefcbd1621d812a1cab261",
+      "git_blob": "70b411443ed5d017ebd6a15113c76f4ccc7cfa3b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/bootstrap/comparator-build.log": {
+      "sha256": "0d210760b6f917929be65fbca0a071ce01ce4352650e97cc0f39eddd9198c340",
+      "git_blob": "fb0ed24f5bcbbfe2ee99d298373a15d63282c323",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/bootstrap/elan.log": {
+      "sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "git_blob": "5412f252bd6aa845de15d52bb7bfdf515abc6d6c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/bootstrap/landrun-build.log": {
+      "sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "git_blob": "8ee3d76d779779f5148a9c10a359e7594f85c930",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/comparator-controls.log": {
+      "sha256": "a04255856954397e44170aef9142001e7ef0e60989dc5acd5f8570170f6e6583",
+      "git_blob": "761c5db86e113d317cf22bac77f0b59ff0ecbf41",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/comparator.log": {
+      "sha256": "7bbbf66877ac1c9f4f2c18b7250c1ea8d565bb78a0dfa5b6882934c8e9115930",
+      "git_blob": "4cd53c76043ec747f9c7242b2c33f9615818df48",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/dependencies.log": {
+      "sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "git_blob": "606af2ccf7b7b4b02875aea0e02d776fb16be967",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "git_blob": "c444cc97c2ab46e3aad9cf81d608917e08bd5280",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/mathlib-cache.log": {
+      "sha256": "a1d639f48362c5494fa5ff245d17e463bb5f39adddde28ea94635f0ad6c366de",
+      "git_blob": "93f28e2998274fb2fa3d0edc1a0584cefccf1c56",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/negative-native.log": {
+      "sha256": "720f6c4bf806696fb644692e59025beac1455f26e76e9dbf511ae123fa932634",
+      "git_blob": "7193e93726d160269b5dda357c05563220432029",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/negative-sorry.log": {
+      "sha256": "f8e2cfd85e3d3ee0df639238665d95e784ed128576ab8071dc939fc3e13e29d9",
+      "git_blob": "8a1245716a46d17a95bb1630b873597fb045499c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/result.json": {
+      "sha256": "4c48b428426e7a6250b99bb057ae9b9b51f72d8f551227c36ab44b0676c8818b",
+      "git_blob": "275df64ba4c51fa83b983e766902e8aa210a3ad6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/sandbox.log": {
+      "sha256": "88bffeee75959a294cdfa7943322044104c121eba3cb91f7589a88e6fa8d44a8",
+      "git_blob": "6f82a285070a5f2c2c14302c1f14403c61013cf4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-IE-23/verify-20260912T233011Z-4151/user-service.log": {
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "git_blob": "e88027eead057bb02b6f155c3d5eac0bebac2165",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/bootstrap/comparator-build.log": {
+      "sha256": "2bb9259512e4de025f38415506cbe5d4e122d5ca9c34b6b2e88d3814df198a04",
+      "git_blob": "70abb89a76190ea41dab6f8b25a2c4d67ca39f0e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/bootstrap/elan.log": {
+      "sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "git_blob": "5412f252bd6aa845de15d52bb7bfdf515abc6d6c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/bootstrap/landrun-build.log": {
+      "sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "git_blob": "8ee3d76d779779f5148a9c10a359e7594f85c930",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/comparator-controls.log": {
+      "sha256": "195b54380ab692426269805918ccc5e6260945ccf49a72b141bed533d879ab44",
+      "git_blob": "f61fa09b6bdeb8ad435f93f44a54032f5782f206",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "git_blob": "c444cc97c2ab46e3aad9cf81d608917e08bd5280",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/negative-native.log": {
+      "sha256": "a36753ec180c149953993b2eaa0255d8dbb6b2a7ad2b56bf1b36e1a3c2abf479",
+      "git_blob": "8ac9e212e49962e3bbc8e15f8c2306943ffd70d9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/negative-sorry.log": {
+      "sha256": "2eb51bd5b0b8ae546c0d7a37bea2ebae4cfc5383f77cffb8e0fcaa93cb2df683",
+      "git_blob": "0b3adde580b2922dd9038cb0c9630e9733fdea4e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/result.json": {
+      "sha256": "c9090308b43b38cbd3f5665dce2c84f7042e33b901e79cf1dac529fd8137b113",
+      "git_blob": "63eb5e2ba3bff7b34676c589d75ea6000e4baf2c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/sandbox.log": {
+      "sha256": "b37cc7925b83ab1d70bb281434d08a5d24edc43266b697df16af9d21dba15d77",
+      "git_blob": "472ee6382ab2f5ab32c4462cd8dd6ec48e40c676",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T233011Z-4046/user-service.log": {
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "git_blob": "e88027eead057bb02b6f155c3d5eac0bebac2165",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/audit-checks.log": {
+      "sha256": "9a04010c03288903b04f0004c603a47f4bb59d80dde053258bc1191504c6e709",
+      "git_blob": "12858988e8055549c426dfb35241c48bfa0080ab",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/audit-execution.json": {
+      "sha256": "b5e36d1773b4a004d883441640f49e673e59814cacb9a33608ee5e7a8975f2df",
+      "git_blob": "7ec19ec0a097b06cbf341d272271fa6ae7a543df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/audit_checks.py": {
+      "sha256": "73077fb96daa88efd144c8cff68e999699d64b9ebe593a960c67ecb284923932",
+      "git_blob": "01977d3a123ec2f7b85fba7bf2dcf01fd92b7563",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/axiom-verification.json": {
+      "sha256": "3b0dcf8e2b4b9d137b91d7924496b21c26fd3d4dec149ae3755ac1432887e43f",
+      "git_blob": "64d9f805947bbdc76eec858db108bf025442de1b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/context.json": {
+      "sha256": "7602e45d4233cb6ef1a904699cd0ec547428f8deabd9c7cd298df330e106dd48",
+      "git_blob": "97e4ac6b009ca0d1d67e94b0ff84e22b4d4de9b8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/control-verification.json": {
+      "sha256": "9111d3cf2573355b1e66b4cf6eaad8907c70390131418044e2c5b516a7b82ddc",
+      "git_blob": "5540d3f4c3023ccf7f49c8fc27fc99e28575f73a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/fetch_artifacts.py": {
+      "sha256": "b258c600298f490aefdb320e469f21ce8c46771e1896e9d2def6391d0df5b76f",
+      "git_blob": "f518d11bec65045dec5c4f240757b95d523a8274",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/fetch_selected.py": {
+      "sha256": "5c8a0882bd91afed7360a1cfdd0a92343af40c7fd961efc14f682b2dabac5fdd",
+      "git_blob": "aabdc95c100da75b8ac9dbd5d90201807856e6f3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/finalize_evidence.py": {
+      "sha256": "d3b1c04cb097b90616037ad37c4dbcbc2b7cf48f213083e4c8048ed1a44c578b",
+      "git_blob": "89d35766fc7881b5362eaf0e41f9968477135b93",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/identity-verification.json": {
+      "sha256": "3ff823abca1ab1921dd91589dba3f8c5244cfb04bd748abb1347e6bd035871df",
+      "git_blob": "7ca5302b1977c539f3d6c58f6e62f3a3779daa98",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/initial-artifact-metadata-page-1.json": {
+      "sha256": "7e16333185062d4b653c45993d6a5f1f038f70527d0bb0f302e2ae17c4672364",
+      "git_blob": "64ebad8316d3aa34bcda652a965fc510ce581ca4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/initial-artifact-metadata.json": {
+      "sha256": "bcbc5b2396557c2378878ebb227cdea3c63e88653fca17fb13eb2c5b2dd72b09",
+      "git_blob": "673b00bae5f95e3fd09a165f723fda31ed1e1aad",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/initial-jobs-page-1.json": {
+      "sha256": "1458f20a8c2e1ee142748c48810d2e50d967c714d214043b8dd3b57e0a149112",
+      "git_blob": "d787317c4bda958ded3743e4a8a7c8be196c4e74",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/initial-jobs.json": {
+      "sha256": "9084b3adf3d59b455cf8980b91fef32337fe5eca80bea5ba1a50d6675bc504ed",
+      "git_blob": "f8e57dbb684b6a4e3941689e093af0afae492764",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/initial-run-metadata.json": {
+      "sha256": "d03069e0ecfd8f44841bcdb789de4d1df4a6b729ca8c260073eeb6a36d0f7cce",
+      "git_blob": "92e4b0f22fb49b6fcf6e28d9d950d55a260f159b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-103638857829.log": {
+      "sha256": "9149dc909b1dbb2ed8bacdec8be6cbf05edb676d60ff5a68ffca49447e553423",
+      "git_blob": "5a1b41d07ebe9238c1b9ebf49f8dc54a6fef90ef",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-103638878918.log": {
+      "sha256": "14496b13f52706268622339b27cbcc0ae36a567cd5ed78a2f3b02cb806d55d8d",
+      "git_blob": "118efceb325e752316157da1a610162b79950d2d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-103638878994.log": {
+      "sha256": "c49422163123104e819afc9b5b0d697b9782ff5170945188ad5a1fda04587d03",
+      "git_blob": "8b1faacbd17e5fa386a5b277e4b2233190772f8e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/jobs-page-1.json": {
+      "sha256": "c82a57071df38ec8c638dcd477d76034458b3c7bc09ee5b94bac67b11f20dbbc",
+      "git_blob": "db5f82b313252baf7060ec4f58078f2beef5046a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/jobs.json": {
+      "sha256": "fed73217eea431eec1f972d7842c5d9116183589144fb9a078e1e46f29d73f7e",
+      "git_blob": "45085976d392860c0dacd15e4bee721f6ce5316a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/lean-IE-23.zip": {
+      "sha256": "bc1fceb8cc81b8c3f7a4c938b3208fc2727fa4f3895dd4c70f5ec3e01f480271",
+      "git_blob": "c3d47faf7a9ba51ac1abd5417e0c2fa1f259e74e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/lean-checker-controls.zip": {
+      "sha256": "f8908adc9b1840cf4d8b9350aa904e8adf160d1d58f696be831cae3d2d191978",
+      "git_blob": "fac699b3f93006b048b44307a565669f5ad44108",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/permanent-id-job-103638857616.log": {
+      "sha256": "bc8608165a8fc19a886772ee1745ba28e611ff8fda3b64c47018ede272ae754f",
+      "git_blob": "9d9da282013b7b5b0dd6aa11d4f128dfdbbe904f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/permanent-id-jobs-page-1.json": {
+      "sha256": "c00a5efddf36e3f9cdc9f8350d8d194aad46cc3bcced8605d1ce07302f506095",
+      "git_blob": "bde03b7c27c5cc22b57a23364b11e50c1a8bc3b6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/permanent-id-jobs.json": {
+      "sha256": "1e87755412100dfbc22302cd1f8dcfd8dd88861cb93120bffd366e3c020075a6",
+      "git_blob": "9dd6d8b963c015fed3038bee48cdd5cf07f16aa3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/permanent-id-run.json": {
+      "sha256": "9dec7638528de7d72f46e11c063231717a0c3f39f8ccf09f8514f69e9028d013",
+      "git_blob": "5b88f6b57c551f1e8418f8717598dabfa266aac9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/preflight.json": {
+      "sha256": "6d1af27a9b8cbd07ba8f8e9430c0e4879cf070a92ccdfed10cb4498e4103f7c2",
+      "git_blob": "b7d78491d91145431575ea8dd3bc48715849a645",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/preflight.py": {
+      "sha256": "d4da7da98b27a21cd53ca335fdd68de075d322c63ff3530b3b86f3f79c2518cd",
+      "git_blob": "956f89bdc4de610d626d069e0b7835e6d5864d7a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/run-log-archive.json": {
+      "sha256": "e930e0478973eebb8ea879295bd91e12c824882c85299e315f93f8da09f737fb",
+      "git_blob": "96ef6237dcaa75cd5b02721f7f73cdc72abb6c4d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/run-logs.zip": {
+      "sha256": "3e3d5e2f0ac036e8022014af966f2e5a2874e9c8435be48b2caeb021f0e55e60",
+      "git_blob": "ace95ed81f8671e8342574bd54057f8960f90d86",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/run-metadata.json": {
+      "sha256": "b6265f67b6a35de1f89ffdabf787358de344eed3afb41ecbc28399e790595fca",
+      "git_blob": "d1bfcbf4823e55e57ad2dea50b283723ef4195d7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source-precheck.json": {
+      "sha256": "a6fd2655e2946b59717972718257aefc73ff822ba53607e03af1723089845e1a",
+      "git_blob": "1290abe42887506ae18f024705660604ca1ecfcb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/.github/workflows/lean-verification.yml": {
+      "sha256": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c",
+      "git_blob": "c1cc4d369d93f6efe64cb01e847e7874aafc74bd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "git_blob": "5d1d8c908923a687f4779fd1a539237bd29a1a1a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator.lean": {
+      "sha256": "6c73ecd5bd429cf85e0aaa75b7c6f874ec0598d5afca60dcf5711d44e6bdef23",
+      "git_blob": "3baf3bd9b036f3b6af9bfa81d76f8ac198d97274",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator/Axioms.lean": {
+      "sha256": "863c5e1329811be0427880e08c171de733343491c5a3619b5dbf2e12b34c6125",
+      "git_blob": "8da75bf80b27f2a71ad2312653b105442c5f5992",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator/Compare.lean": {
+      "sha256": "9bc34cb7de5a069a6fef7f3b13b20fea22f1d52603f74320a93d519b735ad3dd",
+      "git_blob": "8bf63632315171a533d41479c7d831d9e6fcd175",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator/Util.lean": {
+      "sha256": "693d845330dd7122565aeb19314a3e3de4b49f9a8a7ac6e1fadbc9ab374b9f88",
+      "git_blob": "131a0708db68cc331a8f9d1743f719b37aa68cbd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Main.lean": {
+      "sha256": "e6d9b43bbd8bbdd66ae6f87d7a3e69d6a2e0ba7fdc666b2559f2026f8c83b361",
+      "git_blob": "389afce89c9adae3102b69c2a58c3836b3365c34",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/lake-manifest.json": {
+      "sha256": "07475af243cee7cbd6e80c52efd4063d103c23ba5c50dd412a7c4ab7fb3f7d50",
+      "git_blob": "1cd002c8e27553616e895f8feed624da646fd916",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/lakefile.toml": {
+      "sha256": "4e6fdebbd221c88558c8c3bff1482375c82d1fc90390919ada60344d1b9c83ba",
+      "git_blob": "f32618b282a8e6b12974686d1d02179c6a649736",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/runtests.lean": {
+      "sha256": "8540bee573b302716dc3db78845229e3f6df20e3df962b342dd42d780848177c",
+      "git_blob": "0d722fc8813cbc5db1f07f841def34b7a6027b6b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/Solution.lean": {
+      "sha256": "005b3b1b863f37c16fc6330cdc84d05e060f4a779d942a219432f8858325e244",
+      "git_blob": "55d70a76c3c25a381ee60bc6409bc445d28f0fc6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/test.json": {
+      "sha256": "2f23c866623acb1f410e8d54f7264126e525966f38589837bb2bac5a12d90cba",
+      "git_blob": "fe08d6a74ce728c9edf3d0b854ff11726ef6e4db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/Solution.lean": {
+      "sha256": "005b3b1b863f37c16fc6330cdc84d05e060f4a779d942a219432f8858325e244",
+      "git_blob": "55d70a76c3c25a381ee60bc6409bc445d28f0fc6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/test.json": {
+      "sha256": "2f23c866623acb1f410e8d54f7264126e525966f38589837bb2bac5a12d90cba",
+      "git_blob": "fe08d6a74ce728c9edf3d0b854ff11726ef6e4db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/Solution.lean": {
+      "sha256": "4460098a661949cca3d8d81a104c666bc2f42ae3ca1c988a20c66b0f8ad2e4d6",
+      "git_blob": "bd29d73d3041ad7686eb198eb61a58d70c44bd7f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/test.json": {
+      "sha256": "66eedf861d9f204e07568b236433dd99adc1fc925cef72ddc760b39a3799958c",
+      "git_blob": "5d4bf2747c3d089473c26fd7d1bbc6448148a548",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/Solution.lean": {
+      "sha256": "f4f32cc82b9fe2012a2b9901c6e51d7b2fbe3d5b3aca105745c513554d6055ca",
+      "git_blob": "05d869dc3ce1ade3455229daa76894ad7f30aec1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/test.json": {
+      "sha256": "2f23c866623acb1f410e8d54f7264126e525966f38589837bb2bac5a12d90cba",
+      "git_blob": "fe08d6a74ce728c9edf3d0b854ff11726ef6e4db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/LICENSE": {
+      "sha256": "f613c30920743111429f7c1cb801f49ccaafe8ae3319b3b0a5f8aca94e5fc082",
+      "git_blob": "7efcb24904d270788935e4c6c7e36b95f871667c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/cmd/landrun/main.go": {
+      "sha256": "40ecf8680ef5857512f13c8391105404d907074f03535d95e0f0dd570cc441ff",
+      "git_blob": "2ce2f33c7ebf58273cd9b2ee77980c78a6d8c6c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/cmd/landrun/main_test.go": {
+      "sha256": "1d2548c48b195f33ee7ec903b761eee6b82822f4e671f7a8dbf271b40a66f602",
+      "git_blob": "5cebb18b74408d8b08a2d9947c7f0ee801a620ce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/go.mod": {
+      "sha256": "92873259cb8ed0f2765cd99a1b3dc36b768fef859d13ffecb155df33b5b309b1",
+      "git_blob": "cc2eb73dc92b59c74de696c3e441f706f62fee34",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/go.sum": {
+      "sha256": "a6a5ec06c4b78ca140c76fdbe171b82a5521a808abc5805ea6eba568e29763e5",
+      "git_blob": "fcbf6385db0820864b0bc5d8f81ec1f95b4e8c97",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/elfdeps.go": {
+      "sha256": "99f6fcd463fd64c296142aae9f074de2d8a1f728246c347c913ad4ba4ac2f30d",
+      "git_blob": "db9679fc51a714164279b10f62a6fc797fe9da9d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/elfdeps_test.go": {
+      "sha256": "c225ff886e97b506ccc93b18d303ac98183a7139535b5dde406c37ee07165ee8",
+      "git_blob": "07d800b621d58e3d1c1ac5e68fbe8dd892c9e6d0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/testdata/liba.c": {
+      "sha256": "453782a58a745f850fe2af228f8908e783e81127f468ef4e747eda1feae75255",
+      "git_blob": "b0cb1d5c6c3c6ff643a6891cdc99d48417874ecf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/testdata/libb.c": {
+      "sha256": "c3b8a9f314e04f1c043be604d24914955fdc9451346fbf85a49044518044883c",
+      "git_blob": "92f1cffe333737e6de37fdb0d67f35324aaca62f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/testdata/main.c": {
+      "sha256": "1389c20d320b5e2783952206b211bc26da6391f295cbc54d7216753e7edf8d89",
+      "git_blob": "2f1e8974d517fb8ff3a699b671801cc11963343c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/exec/runner.go": {
+      "sha256": "671877fe01e50c8cedab09891c3666846f76e391558a6fdba74dc49ab792cc34",
+      "git_blob": "b7497c2c0e5c95a639032925b00c0873768cb98d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/log/log.go": {
+      "sha256": "b6e8c45c68b34e5cdb2019d1ed25768f54a1b5496d51c3016680dfbb1fed5fda",
+      "git_blob": "ad5e98137b121f1b84d9965dc46b41469714c552",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/log/log_test.go": {
+      "sha256": "20e7940846d3f44b6049bfb0f9b828f8223a2cf638b0930e91f0bbd93704dce5",
+      "git_blob": "cbe3fb33f4692a617fbe1cacf22a962563fcae74",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/sandbox/sandbox.go": {
+      "sha256": "a6ee5899479d44fc3fdd0011dfb7586716df00235cddb59997c115f5a4f430cc",
+      "git_blob": "2487567c1953ac17f0144c7ed6902d6cc2459be3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/sandbox/sandbox_test.go": {
+      "sha256": "d5407e6fb8e655d17afa7858fc751168ea36e9e28576ff96e199f5fc4a335b86",
+      "git_blob": "1249d7c301cac63b59ecffcf378e1b56586a5d62",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Export.lean": {
+      "sha256": "6e9f24262253678960b05b8392a1774a3cbf36b21ed2fc1b834906659b8ca95a",
+      "git_blob": "cda19933d5d21d78655034ffa695fd1d42b176ea",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Export/Parse.lean": {
+      "sha256": "1f943b5cc776eece6d528937b976509c8bd57d10bc69a39b1c119bfb6d664286",
+      "git_blob": "1eedbabc47e0db3df6405063913380ed0fed46ac",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Main.lean": {
+      "sha256": "bd8e350903f1382b25fe767f9086dd9882000f01085f7046ea06545e7848842a",
+      "git_blob": "806fcf7b107c111d454db9ac29c09e73bf2e25aa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Test.lean": {
+      "sha256": "44f8995f47633ca77364740af03a719e90a2c58690fa90b237487b541bb04804",
+      "git_blob": "c69277413144b0bfbfc1586d585e4b8d630f623f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/format_ndjson.md": {
+      "sha256": "f82a21e17e4258a1043895d0653ea4333bef8cb07aad2e3d6c1fc4be52b138e3",
+      "git_blob": "6eee6b0f1dcaa4570590dcf878a1fb3ba381f07c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/lake-manifest.json": {
+      "sha256": "f1b9d60d0ebd46f79f48e6833deefeaa835fdee12b4078241635ee14b6a0f07a",
+      "git_blob": "5b9d18c8640739bb8f3a08599d6215f15069f04e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/lakefile.toml": {
+      "sha256": "54dde3aba280f32035c882dcd2f2039e738e20ed45ca538337b65cc69c02f7df",
+      "git_blob": "2ec701102b5963981003d4b89948de18b713e69b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/PinnedReplayProbe.lean": {
+      "sha256": "c2091eef3120a7850b3e73118de3cc787ee28ef5c97c6643e102cbd639c90a31",
+      "git_blob": "b119364761874afbb0d7578d9dcc4880e1f6343f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/comparator_regressions.py": {
+      "sha256": "1c3fcf394f7073a7decbf1be0bc66f18b81ed537a489b9f652911035543c3890",
+      "git_blob": "7e65f067e88b1647582fa6f87f24063a5c027c5c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/run_replay.sh": {
+      "sha256": "6aba451c334d12438f63e8c14ba2e61bead41214540e2721e0857ed1726222e9",
+      "git_blob": "a4730628dece9f3625053a26f95123271988640f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/sandbox_probe.py": {
+      "sha256": "5ea755758af4966d6f3a857529f9da583662a8c7e906dcc0dc7b2a6978daf61e",
+      "git_blob": "a7fe3344b2a848a0522d0b8d88cf43ef308bdbba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/scripts/comparator-lean-4.33.1.patch": {
+      "sha256": "755fd2bf8f2f82a05f30d66e7c1492b704c676f2ca2ea9e7c32694fa761a0620",
+      "git_blob": "a5c5835b261d3c79a12dcb4cde174af85e2920ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/scripts/strict_landrun.py": {
+      "sha256": "4d6172274dd6109b1171dc01548512aa1af31f1e8fed88aa40b3c8b831345e1c",
+      "git_blob": "a1d6dc2730d7c23aa72a24aea3a09a6cce850150",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/git-commit.txt": {
+      "sha256": "8ecb85756ed8a8da4f21cecbf375ab6e4060163e36e07c7bade4beffdac2b07d",
+      "git_blob": "b24ddd62e39ccce30aa18d411cd3aa4f00ec1fe9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/git-project-tree.txt": {
+      "sha256": "203cad2ce63c9b20ff9475044f547d3c49195b8685675aeb9132421d94044bd8",
+      "git_blob": "6b94e1722b60c5568a0bcb4a5622d47ab189300a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/README.md": {
+      "sha256": "922b5f8132432545fc92c29e441f672340ed964578fa65ed902d910dd251b415",
+      "git_blob": "355148221b2d544a91aebf2179781f0de35c2dce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/.gitignore": {
+      "sha256": "a0fb815fecafd1739b46d2b381c27acf366ce49e30459c0512f71814ce241fc8",
+      "git_blob": "68d05ee88d477f213ff809787916c4faf73711ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/Challenge.lean": {
+      "sha256": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+      "git_blob": "f94f73a6d738fc1e5c8caeb2efba888a4ed3b3c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/Actions.lean": {
+      "sha256": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+      "git_blob": "ad4e748d42400835ef3abac9c0872a658b4e002c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/Definitions.lean": {
+      "sha256": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+      "git_blob": "ea2148c56e867ac6c288f715247e19c7a2f5f2ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/FourthPower.lean": {
+      "sha256": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6",
+      "git_blob": "67607feed59246b463605a5a534a6674edf93721",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/Matrices.lean": {
+      "sha256": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+      "git_blob": "7ded019fea4f4f26a550d4c7a8b6d09dd029fd83",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/Minimizers.lean": {
+      "sha256": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+      "git_blob": "50322d815ca8a57e4e87d03496a77537a62d60d3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/Norms.lean": {
+      "sha256": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+      "git_blob": "5f36cf8534c43a9133503154dde257cc013c2d4f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NLA/IE23/Proof.lean": {
+      "sha256": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+      "git_blob": "783996d1d10e1b49d39a0da53e3825103b276330",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "eb49c0b56617ab749184cef753d22ec461eef982a68d46b352187d1843b60d28",
+      "git_blob": "595fc1912ac98d4514b02379c0b306e89fdf54f9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/PROOF_MAP.md": {
+      "sha256": "7959f585fe36ae9aaf9d3cc1bc3f4b08155b65aa42dd603b7d4c63070725dc04",
+      "git_blob": "e967d166939ac236f584338410b1e5c943f9fe38",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/README.md": {
+      "sha256": "d1fc50ba0dff043df48ce5d98b1dff4981573737f9b4db0a3043e096394f19bb",
+      "git_blob": "2a609c27b839a8acea1a5e7c6378d80f737d7a60",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/SOURCE_CORRESPONDENCE.md": {
+      "sha256": "80ef767f313eb06b6a427448c177a716ddaa91808c511659dce9610868962f61",
+      "git_blob": "f47f57c3c85867b5bccc29ca588d32a653b27549",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/Solution.lean": {
+      "sha256": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+      "git_blob": "21b6e32c58246ec4a31e7e1fd7b0062c5c6793db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/comparator.json": {
+      "sha256": "8a02cee6a555e2bd658cb2daa22bfaba515027d787d570846aae21aaac2e26cb",
+      "git_blob": "aa58f3a2563da1849151bab3bc655753128f9939",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/formalization.yaml": {
+      "sha256": "1ef1882bf25f3bbf4a7abafac26cbf92c6b9634810ff9b378d9c37f863879962",
+      "git_blob": "319be0c273e12d024e05545a38f155b745e31f62",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/lake-manifest.json": {
+      "sha256": "92ccb4a43229b07f05bec9abccbf6528fc9e13e506f1669a2c6833fa83d234e0",
+      "git_blob": "d04a6e1beea053372e199dd4d59e909fcbfb3ed0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/lakefile.toml": {
+      "sha256": "b5c948f74981d582e865552a22f4ec1e49a5968753c3cb3d3dac9676e7672e28",
+      "git_blob": "96b57dc3cf8a5e4fe814a89568f1da86380a67d0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/InspectStatements.lean": {
+      "sha256": "500921ce0af7eab175482cdc60a883f377a15cc05e1fbb72113b86bd9563db85",
+      "git_blob": "b17fd633f5dae1a1352f8dfc72b85813c2460292",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/add_comparator_supplement.py": {
+      "sha256": "2deb8cda155e6a6330c5d557434f6a52995381fd1bef8b1778855838638d9d23",
+      "git_blob": "3a84ab5aad0799fb76bc4fe93cd1a314590f5a3d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/check_statements.py": {
+      "sha256": "3a581ee87257580d0ac21d53a714081e9b7f8c85bfd92ff57082e6c5dd42f7cc",
+      "git_blob": "86a5a529a9658acd2fa8d3113c1cb1696b87907b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/definition-axioms.json": {
+      "sha256": "7ab78badd800f65abd2ac0c305b9c18d9078bec273039c9206acefa7f80783df",
+      "git_blob": "997bb19be7133139b87898a1dbc82f323c66e3df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/dependency-pins.json": {
+      "sha256": "890d0cc3e787aa27d62ad6589c050e4aebe2ca6a561ff7bd0144ca37d1d94790",
+      "git_blob": "3b0b736739be925ac9fc37fb9143a8a8a68eab37",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/freeze_statements.py": {
+      "sha256": "c83768beff9e5d1ddba6bf69b906d020c15b3cf111c93026c60ff09f0c9468fb",
+      "git_blob": "63120030f6e4aa19c99a06e953ea09483b732270",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/fresh-challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/fresh-checks.json": {
+      "sha256": "e0a00b7e3430ed8eb9086a46b700b678b7f5cfbfe6d18cc0380398a13eb81e71",
+      "git_blob": "6ffe8d9aa4b1da01f4f738335804c8b9c752e19e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/fresh-definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/fresh-inspection.log": {
+      "sha256": "1479045548ded7394b92ffeec2a86e5fab2231ff7fe579d5cb402d9a3dfa4fbb",
+      "git_blob": "7dd1466ed31ce305aacea20a100d68ff69a17c56",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-completion.md": {
+      "sha256": "d14f19bcff11aa385c581cccb3d90b9037e478ff690dde653ad7370a750a2c8d",
+      "git_blob": "cad75e669bf95fbc3856265c0b19bc62befa9194",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-freeze.json": {
+      "sha256": "8ed8f46ea66c9e420156d99840e4e24e78cf8207a9e415cc7c26f6f9739e5fe8",
+      "git_blob": "8ec1a339d43e1947326b470893ba0afa46d34010",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "bb232d4c5a8c2a8fb75238547cbc9646a99ab8f3904286152f52963140132748",
+      "git_blob": "d96739b801e764143a7c7d38722761cbb8aef635",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/Inspect.lean": {
+      "sha256": "e973704b348fac395cea8a776cad8ea5ff0e2290926392d861406e5546aa2536",
+      "git_blob": "9f9c29c131410759b6da454d59c2ef507eeb1294",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/Challenge.lean.txt": {
+      "sha256": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+      "git_blob": "f94f73a6d738fc1e5c8caeb2efba888a4ed3b3c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/Challenge.log": {
+      "sha256": "bb663ec7485b4d785f050208179f86e86ca5c5f672ddc772b31f7369ec8ee0ff",
+      "git_blob": "b5f29e0dc49afd8fadcfa865a8592a1ba3b2328e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Actions.lean.txt": {
+      "sha256": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+      "git_blob": "ad4e748d42400835ef3abac9c0872a658b4e002c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Definitions.lean.txt": {
+      "sha256": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+      "git_blob": "ea2148c56e867ac6c288f715247e19c7a2f5f2ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-FourthPower.lean.txt": {
+      "sha256": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6",
+      "git_blob": "67607feed59246b463605a5a534a6674edf93721",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Matrices.lean.txt": {
+      "sha256": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+      "git_blob": "7ded019fea4f4f26a550d4c7a8b6d09dd029fd83",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Minimizers.lean.txt": {
+      "sha256": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+      "git_blob": "50322d815ca8a57e4e87d03496a77537a62d60d3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Norms.lean.txt": {
+      "sha256": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+      "git_blob": "5f36cf8534c43a9133503154dde257cc013c2d4f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Proof.lean.txt": {
+      "sha256": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+      "git_blob": "783996d1d10e1b49d39a0da53e3825103b276330",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/Solution.lean.txt": {
+      "sha256": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+      "git_blob": "21b6e32c58246ec4a31e7e1fd7b0062c5c6793db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/result.json": {
+      "sha256": "8379a509e03956bd92cf762e17e2c79e16219891203edba292b875767ea697c2",
+      "git_blob": "185dbd7567e4868a57546657c8819433b9d7baa4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/reviews-proof-referee-1-evidence-Inspect.lean.txt": {
+      "sha256": "e973704b348fac395cea8a776cad8ea5ff0e2290926392d861406e5546aa2536",
+      "git_blob": "9f9c29c131410759b6da454d59c2ef507eeb1294",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/attempt-qswiinla/reviews-proof-referee-1-evidence-Inspect.log": {
+      "sha256": "13496fdc7992cca80a18f2a6204672ae003651adae5c9219574d3ffc582b328f",
+      "git_blob": "f0481a38d5a2ea0bfe1cfad3825fa890bfc6862c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/audit.py": {
+      "sha256": "696d2e07a2bcc298c7c9c7becc4a57269451e79974b3ef9fdcc09db404284f84",
+      "git_blob": "c1db7f847ebba34a528c9d24ea3e1e8c84023e3d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/exact-reconstruction.json": {
+      "sha256": "3f4dfe2801d9e2c420e262f3c0a8363d9033b8203964607eff5809234331cbe8",
+      "git_blob": "baa16b34969b8e29195186807e4947047c527e57",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/final-audit.json": {
+      "sha256": "60f251ec614b376355cadbbcddb7ad90320cbdaf7f1d98c4acc74da4b4b63f44",
+      "git_blob": "6717b5bb3b01313623dc1392c98b0c1a4f924a5e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/initial-integrity.json": {
+      "sha256": "da7cac3f2d76f0110a6fe3d299da377b6da38e2930555e84953cd8c842cddc15",
+      "git_blob": "23d27c87e738add126a16b8c02a1668280a271e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/latest.json": {
+      "sha256": "e0dcfaaca9ce9050293519e402cf153517528cdd76e953f1ea4c9ef89beb5f52",
+      "git_blob": "f4853bbfc08302399c344902e789ce82db0061bc",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/primary-library-and-review-inputs.json": {
+      "sha256": "85bafe994fc611b6b5fed76ebd7a15e2996e2a10263fa82dfc2da1cde062d7ea",
+      "git_blob": "9b1fb0393f7e6c7368b9750988d5ebb702b04a4a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/reconstruct_exact.py": {
+      "sha256": "a00fa66c612249cc98b0ad8621861fcbce31a72318a79844f41cdd931696b96b",
+      "git_blob": "7f40288c9640b82f136e0015e8007184323f27a4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/reuse-search-1.log": {
+      "sha256": "c096ec61ef47909097adacdb4ca22f9f40a2bb3da926e6e88dd133366da7c1be",
+      "git_blob": "73c6b42c97e66dbb59fb86cdf50b7c00c2009085",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/reuse-search-2.log": {
+      "sha256": "a9ad64ce8068cf93619a39fa636d11071e4abaab109529c149c4fe7661db71db",
+      "git_blob": "698a7ece2cb3f14bdfe8d7d556125a96937556af",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/reuse-search-3.log": {
+      "sha256": "2c24f1131ebd23ce0678536bbf2ad97e8b924722af5f300d82b53eb127cecfc7",
+      "git_blob": "8a6f3bed0417439a6f2ae92b70c5e3688173567a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/reuse-search.json": {
+      "sha256": "a334330be72f53ece0318a3ffb98e549f3001380b6c482ca1769a04dbf6018af",
+      "git_blob": "99dfba34347c8a7bd386423f855f719e7af828eb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1-evidence/run_fresh.py": {
+      "sha256": "08066d5720536608ba6544c81837217cbcf9c3e415a674b7d71596abebf20631",
+      "git_blob": "0d87e8c247835a1721138802a953c265f520b6e6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-1.md": {
+      "sha256": "4aded9a6adfc4723941bae2ac8c4ae0c1ad4bdef7136dd3a285068ae1f68d4d2",
+      "git_blob": "1c7aed1350dfff0747b283ce15ab2e23c8f1c151",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/Challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "020a62b026a9d00b6e41b50feefd468979d87a74e3384a688a1bb449b49a2847",
+      "git_blob": "5c944f887d52b74c078d848eb41167c633a6ee4a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "caaa5f7d0e7ce49891414f653e5e40ca2169a53a93cc8ed57c2f3cf5f91c664a",
+      "git_blob": "f0a462d8cb706075e824151e197c4134b9baead5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/audit.json": {
+      "sha256": "f247d63c0b39223d7592575455807f0a2cb65932cbfe100e8bd7825933e94b72",
+      "git_blob": "dffc880e911dce3a423c1f30b30d713a96540a7f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/audit.py": {
+      "sha256": "3573873dc10439addf2a59a39fc711c7ad4e527d416f22f3bbac208073c86c08",
+      "git_blob": "3aa75e96142d4dab115ac7ade18254d558158daa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/fresh-checks.json": {
+      "sha256": "c20c48c0a44e2a9e6da4bf62fd82f0a4ad449e81b3d126f795cf845be577b242",
+      "git_blob": "881aecf0dc25240ff471b61a31a2be3fbcb8fdf8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/fresh_review.py": {
+      "sha256": "6efbcfacc02d9131df5864a82808624e0b97c0136b7fadb5a11b8091b61f287a",
+      "git_blob": "a9db917bf081e7585cefb40e51fd2fb639f5a4f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/independent-exact.json": {
+      "sha256": "0c7f910b58eab074c2b2d7fe8332a7c53ca5f06b664c560405871d7b3be3b3d3",
+      "git_blob": "5777ca4c88e16e186614f83c5e7891bac57c343a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/independent_exact.py": {
+      "sha256": "b5fd0cc2f02f28152280e3b19365d8993fbb83660ecd7c1308bb01ce31d5aae6",
+      "git_blob": "e76baa4e99b6e9f5aa86738d5affd7c964804147",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/matrix-supremum-reuse.log": {
+      "sha256": "cddd1b39607655c95a689af6c1d8b8473c304a2fa6647ae076740cf039697f06",
+      "git_blob": "82aba7ab9445c62492c4dea15ca79422dc6cbe55",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/norm-reuse.log": {
+      "sha256": "80c7c2c983e1da0e8ed8edc12472e57e9036c014400bee0275c3d1b9ddf9634a",
+      "git_blob": "fae1409bcdd64e446df9c32492003040ce710bd1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/primary-library-and-rubric-inputs.json": {
+      "sha256": "96c06784728b655362daf906d15e979d895665fd78c0c00f6b9999410dd01689",
+      "git_blob": "73f13e8e99f9acaf4829b1cd7068f83dc703cc2c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/real-power-reuse.log": {
+      "sha256": "f6cf15e9e0b2d86978c0ee65f00399c9c729439ea877eb39bf732fd4be8be5fc",
+      "git_blob": "3ff63211eb9254f5e574f673f8d087a0c1353b1c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/reuse-searches.json": {
+      "sha256": "7d03e77292fe6d13186c30f42d82ed12b0d66ea62004533e40bae41948b2d330",
+      "git_blob": "b40c0b47cbbae254e24b9bd271ce88df5d6a7406",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2-root-evidence/reviews-proof-referee-2-root-evidence-Inspect.log": {
+      "sha256": "28572ed75d3e25ca96f5869eeb45eb9771cf0143f9003a2d4a6604a5828ec4de",
+      "git_blob": "01cb762b9142ff45cf64eab3fef8b4e677569de3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/proof-referee-2.md": {
+      "sha256": "0b6f2f6ed1aa4505da7ceb63d33470822914820904a4b0fee309f69ba314c008",
+      "git_blob": "9cf52fa4ac941cd01acad97299d0381e335f0d23",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/public-duplicate-scope.json": {
+      "sha256": "8e5bbcc2879bec6fb40bf2d66142f7594c3c9d2759d3cda82212e0c0c24e4f3a",
+      "git_blob": "ed7d6f9e58fe494071b470a9eb661ac85fa7fba5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/reconstruct.py": {
+      "sha256": "72aff05bcee653e836e84e9f463490dd4378bf086178a8988ba2a4a612197c0d",
+      "git_blob": "4a7f14610158cd9f2c0558bbe92e6e1101cf84fb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/reconstruction.json": {
+      "sha256": "aaa07e43af20d126bb0d28118fc135934aec3e20a0a2d3748d1d2fe9b1b26d0f",
+      "git_blob": "c5bced54c0e6791d1cdb1ad8f6b5fd029b633b24",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/snapshot_sources.py": {
+      "sha256": "9d25bacfa7a96df6a9302e0da67c7607aa4d9ede82f4574ea742db5e9a6202af",
+      "git_blob": "36eeb3edb04367fcf13f94ab14ad9f352f6fc88d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-integrity.json": {
+      "sha256": "f7b76ae733ba397582d3436dc8ceb91e84bd678e73cf4470a748c398d3029dc8",
+      "git_blob": "cfe0dde20c0ffda5db047af0b66cf03acefccd3e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "git_blob": "5d1d8c908923a687f4779fd1a539237bd29a1a1a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/linear-systems-and-elimination/IE-23/README.md": {
+      "sha256": "922b5f8132432545fc92c29e441f672340ed964578fa65ed902d910dd251b415",
+      "git_blob": "355148221b2d544a91aebf2179781f0de35c2dce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/linear-systems-and-elimination/IE-23/problem.pdf": {
+      "sha256": "b215b847aa657e49d961d8018eed359ebdf90695e4cdebd5197e930d23e3e7cf",
+      "git_blob": "e4f9f02a2bdd33e264e7f28b97255c05d98e6265",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/linear-systems-and-elimination/IE-23/problem.tex": {
+      "sha256": "078fc8488888f4317f29d4e6bd1856f8d32b1fdbff0c57d4c59d9f5f3f8b2124",
+      "git_blob": "b10098e4edd74eba4b60a8edc50fedc8cde91aba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/references/colbrook-recovered-2026-09-11/README.md": {
+      "sha256": "7ce4438b2fbb2f99659561bf0affa5a354cce6c162a6ff111a2020fc4d85e6ff",
+      "git_blob": "9919eada80b5a5756e219724056d44841b8e29ba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.pdf": {
+      "sha256": "d3bd50914f1d98311e6c6a710c59c01fe53fc0c3e49f045eacf1b5b4567f979e",
+      "git_blob": "a4ef96c4d58476f45be0a89968c7fd5367987686",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.tex": {
+      "sha256": "9ab20822bd6198c9a387509f2fe93182060d3d9c8ca491b8dc2d1cdd22ccc1a3",
+      "git_blob": "031cd96f2e8f609be67f5d4c1528b5cde57e4925",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/source-snapshot/references/colbrook-recovered-2026-09-11/verification/reviews/IE-23-review.md": {
+      "sha256": "58c0bbcf62112d32e2048e99f0ee7674a43567efcda0b1c5123f1b8971df5851",
+      "git_blob": "2383cdecc3a8f083df8ed4f153c8a04a0b7e0377",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-config-supplement.json": {
+      "sha256": "dafd6645aa017c543dd4eb9f60633b47a2035f090d58955525a3d6c41156141a",
+      "git_blob": "1af146501af7c6c96957f83d63bcf376c9cc139f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-config-supplement.md": {
+      "sha256": "95c93d583cf9a29c7588052c6f29e4080cd642f33709c7d25649cf026194b8ec",
+      "git_blob": "ee559800311f11c690edeadeca3db6d49a471596",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-freeze.json": {
+      "sha256": "6e9b62ab46974a54204ba7636ec83209bd102fd322794709c83a46df85d417f1",
+      "git_blob": "3b9f95b4514841c2942c0dcd03f812f093d2dfac",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-handoff.md": {
+      "sha256": "14fe26c9ed200eeed620694bc5f1effae62162d03b5bb786ada486875e29e357",
+      "git_blob": "446d553f65db45a1ffb69675636def6b06bbbc06",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/Challenge.log": {
+      "sha256": "bb663ec7485b4d785f050208179f86e86ca5c5f672ddc772b31f7369ec8ee0ff",
+      "git_blob": "b5f29e0dc49afd8fadcfa865a8592a1ba3b2328e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "828c4e8b8f6876bd3a5ead7931eb597f3f1259c21e0a699b1f8d191bf6bc666e",
+      "git_blob": "4dc3f2fe9c5c1fcfbd6a437bf2932e1cc078c85f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/Inspect.lean": {
+      "sha256": "767fd802082ab76aeaa4a938024e4e4aa5a754353bcfe7f87f97e280360b0a77",
+      "git_blob": "8e34a5387370b298a437c9c3ded6b6c345552491",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/axiom-audit.json": {
+      "sha256": "cc5bd413cb2a91b6e59ed498518ba0c8f879aef24327185de2ac019cf36cb955",
+      "git_blob": "7b86ee0fd8acbeb0d2c9e80c5edf1bce08606596",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/exact-reconstruction.json": {
+      "sha256": "66caff41501948e71e3920afc303a1ac8858a47e3427419f91e3d81513e155eb",
+      "git_blob": "969de95b94057b73972ef8b111d746a81e5092d7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/final-integrity.json": {
+      "sha256": "0a3d49478b21e3d303836a4043addf917e0ff5d1b26e3cc1c3d67fec1718b4a9",
+      "git_blob": "b3352cc0ac2d40394a70e708671a2101dc2cbdbe",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/fresh-checks.json": {
+      "sha256": "99df183b0e09b684cc7083d40c5d74c5bb7ca205ef31e304128e3df0c0ba054b",
+      "git_blob": "71d3d85b98509c2cc9c5b025a9710a6b948af0e3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/initial-integrity.json": {
+      "sha256": "17887b57242f4ea9fe6ba511f98907915a178d71a0ccdfda2b8c2860873b0f99",
+      "git_blob": "2a7e98420f3bc907677887cde65f97b9c1ea699b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/reconstruct_exact.py": {
+      "sha256": "282c460dfec4fbce7a201f05d2e7974962f50f3471de157c70e875fbfdf8e373",
+      "git_blob": "ca1c26eb7f051475664febfa8f0fe4cbba5e2bf5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/reconstruction.log": {
+      "sha256": "66caff41501948e71e3920afc303a1ac8858a47e3427419f91e3d81513e155eb",
+      "git_blob": "969de95b94057b73972ef8b111d746a81e5092d7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/reviews-statement-referee-1-evidence-Inspect.log": {
+      "sha256": "91e764a2b7aab50aa3b78e7611085dbc7cea62d8b4f16b3eefb6b5a601568525",
+      "git_blob": "79a037d02910fc38f6918c2ef7864e588b4d9aa7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1-evidence/run_fresh.py": {
+      "sha256": "cb903ff730873a2945dd821dabbfe9687eb4e8272e71fba41acb05329ca9009b",
+      "git_blob": "95857c3a6cc37a99f16ba4f2558702945d9848ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-1.md": {
+      "sha256": "d2f3669ada22f985ce66681a1b763d0fc722d1938b9c2a35b27792f7fc418270",
+      "git_blob": "3fb68cc39c14e6a377c7ce2a1eed74c8c6e9aece",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "4f7eaad1c45375ab077b7d6690044c99dbe3b11f9051273b7b2ebfbef4c49ef7",
+      "git_blob": "b424717e9f87e91aa31ab5b9e71f3859945111c6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "e563a3cc0e769f493b263de48dfcf570d69e7d30b80e0e8b699665ea8276330c",
+      "git_blob": "ec719ca60d412518a68eb6432cef18f6dc05b885",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/audit.json": {
+      "sha256": "a47dd16e21495cce1e3805e373389cf9524c947a362b594e872c8b88b2206e37",
+      "git_blob": "2d7e49d8bfedab5cb3cf61bfe5a41b2a058e5390",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/definition-axioms.json": {
+      "sha256": "7ab78badd800f65abd2ac0c305b9c18d9078bec273039c9206acefa7f80783df",
+      "git_blob": "997bb19be7133139b87898a1dbc82f323c66e3df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/dependency-pins.json": {
+      "sha256": "890d0cc3e787aa27d62ad6589c050e4aebe2ca6a561ff7bd0144ca37d1d94790",
+      "git_blob": "3b0b736739be925ac9fc37fb9143a8a8a68eab37",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/fresh-challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/fresh-checks.json": {
+      "sha256": "0f603e8f1a519000672f21f350b7da2428d847b9dc2a9a18a390efd962e6abe1",
+      "git_blob": "d63b87a0bc48b84c593def18de59275330aeed64",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/fresh-definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/fresh-inspection.log": {
+      "sha256": "786d9c280b3733cfd775a6af073718f337a830c77ca77a89d527d33ed888fbef",
+      "git_blob": "6ebe665222abacc95c5e6b65f3536ccc26768970",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/fresh_review.py": {
+      "sha256": "65e65e11f38f8d9667245f6c2e4447cfb52c0bb0ae9152b453ac01483ba1ae9c",
+      "git_blob": "353fdcf19b2cf52fc80365ac01ddb7a915aa11b7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/independent-exact.json": {
+      "sha256": "0c7f910b58eab074c2b2d7fe8332a7c53ca5f06b664c560405871d7b3be3b3d3",
+      "git_blob": "5777ca4c88e16e186614f83c5e7891bac57c343a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2-root-evidence/independent_exact.py": {
+      "sha256": "b5fd0cc2f02f28152280e3b19365d8993fbb83660ecd7c1308bb01ce31d5aae6",
+      "git_blob": "e76baa4e99b6e9f5aa86738d5affd7c964804147",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/reviews/statement-referee-2.md": {
+      "sha256": "dda8d5d5dc194371818ecef9fa4e1a20d52dbadc7b8f998dff4a815cfbd4f758",
+      "git_blob": "f93c9743c4cdf0f4f1ed4cd5568978f9ed45a374",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/InspectProof.lean": {
+      "sha256": "06782705e5ecf97974b257876d0aecf88488c330aaada1c39116e6badffdb7f6",
+      "git_blob": "ac4ab6927cc2d4f1fb645df8eb5834f1bef27b42",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/check_proof.py": {
+      "sha256": "26f987646a85633322331c20984b0b55fadcb38d88e83ca9d4dc48303728889f",
+      "git_blob": "8b4f82af557f477fdea449442d3009aee6fabeb3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/development-verification-InspectProof.log": {
+      "sha256": "dae1e71c3af75476193702a34d506804587907a079f81e675c38597b9b8b197d",
+      "git_blob": "889310856f92cb4611f3bcfa12ba42f548d7a809",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/Challenge.log": {
+      "sha256": "98ffec8f757cd572c28a38d2f2150f91edff5c6081926c376671a2e675bf6b8b",
+      "git_blob": "d3cd16e683722d68334e2a4d15ac335579f27bc5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-Actions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-FourthPower.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-Matrices.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-Minimizers.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-Norms.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/NLA-IE23-Proof.log": {
+      "sha256": "bb1350fcf7a8d8dda6d46b8ce3616b7696545c5c597a5c88f8fa9e4b677ecbc2",
+      "git_blob": "b643fa1bf6b1e87114dd4afa18e9029ae43735c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/Solution.log": {
+      "sha256": "9574b8ececa2c41c139ed16e4e834f86395e419b71e373ad75610a289a64a686",
+      "git_blob": "c9965baed7794d662bd41ad464863b4e9e2b9005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/actual-dependencies.json": {
+      "sha256": "5fd38c8ead48804917370daa20bc84ba0e9ab94b69f83679ac5411fb9865feb8",
+      "git_blob": "aa61c0c22a149abfbce19669f4eacce5d564aec4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/axioms.json": {
+      "sha256": "b570ac575a51e1bbc33d5138f41e55fab258aa6d9a0f3bab2bccc15458d5bbfc",
+      "git_blob": "d049be095e180efce7c007e6610065aabf0a2d43",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/dependency-pins.json": {
+      "sha256": "8b98e578db54ffbf8fefca48b2d3a83cf3bfa4983d89cc16bdf9a4e6b4047521",
+      "git_blob": "27f56ecae6a692f112684299e6941c91f9714935",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/fresh-checks.json": {
+      "sha256": "028fdde56de34469183a5f5c64424f1780acb50508402af04c514b154c943203",
+      "git_blob": "6f9d5bba97a46716897cf9e49ee7e0dbadb1e3db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/integrity-after.json": {
+      "sha256": "f33e12d03161fdeae4350fd1297e5c50191284a0b9797d2efb1c63f1b7c3f44a",
+      "git_blob": "a781969a3fd9c6bf278790168a4ba29bc9bdc365",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/integrity-before.json": {
+      "sha256": "f33e12d03161fdeae4350fd1297e5c50191284a0b9797d2efb1c63f1b7c3f44a",
+      "git_blob": "a781969a3fd9c6bf278790168a4ba29bc9bdc365",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/source-signatures.json": {
+      "sha256": "d8752f161d83c6bca4d9878af0e0b1ab35d4e60fbffd5dc7fe1c48c6b15a7480",
+      "git_blob": "b3303963527c9cbcc55bc6e65b7a7de8a3bc5754",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/final-author/verification-InspectProof.log": {
+      "sha256": "dae1e71c3af75476193702a34d506804587907a079f81e675c38597b9b8b197d",
+      "git_blob": "889310856f92cb4611f3bcfa12ba42f548d7a809",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/freeze_proof.py": {
+      "sha256": "855a770fbe531d06c6b1e524fbaadd11184ec1d0c98de58b0f955d9b424a0772",
+      "git_blob": "82c8aa9a404aec4d590f8f606f0c661659d3ed13",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/lean_check.py": {
+      "sha256": "4dfec9753d28531a5c529d74e91467b8860f67c022cb8a5f60ee273d93278869",
+      "git_blob": "b7130a00398af0f3430809e5bf409104fb959176",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/CANDIDATE-HANDOFF.md": {
+      "sha256": "f298a12cce7d49302daf0927213a18072f7adf22aa3b4fd29118ac1624d52b16",
+      "git_blob": "5ae64ebf0352dd2908336e163dafe02b68eaf6c2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "e4ea6506d3458e620fb6d3dc27587411c0ee3983b133d78b454fd51495a3deaa",
+      "git_blob": "ab93279a8a0356a3c7ac125a1c437127d3d54aee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/README.statement.md": {
+      "sha256": "1c709941dd5c19fbe90d157a4777f7dcadc43e365f4769d980a0bad283b3d5ac",
+      "git_blob": "ff2c43625e5488a298064aaa335f04ed0e388658",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/ROOT-CHECKS.json": {
+      "sha256": "ef09e3f30bbd2fe64c78b4e0a9c43a0739c803b27a5c07c221d578ab0c6609b3",
+      "git_blob": "fb20e555f0056d401b6adb3787306e66a1945d90",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/ROOT-EVIDENCE-MANIFEST.json": {
+      "sha256": "fcdb96e31af7d2e3a9da21ad98db1b0a8efda5a87ecd2e37aa29c90c45e9b272",
+      "git_blob": "2fa123b2248c1b64c66e8efa26e1d8f4dd271bf5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/catalog.log": {
+      "sha256": "748ca47ac336c62847ddc3b1c128375a839439e93fc772c7af630c0b1263f541",
+      "git_blob": "83f1a70dfe7f7669a25cac0f925eb81fe7474ce1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/check_packaging.py": {
+      "sha256": "25b9a4056c036ee256a5461de0772ef379206295ac379765cd4a46d780ebd0c8",
+      "git_blob": "b3839e9f5b71172459cf025b74d2a5f4a3fd8646",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/checks.json": {
+      "sha256": "3f251d25f6c798500bf29f7c37cbb431473e53614f8e885896e49334b66442c6",
+      "git_blob": "c831e51133c81d17d0bfcf08b1afca63e65e4318",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/dependency-pins.json": {
+      "sha256": "8f7d9d1ba46586cfcb0694cbd944c1c5a758ad1b8a21722e82b3a98f6ca0790b",
+      "git_blob": "38e1fb7cf8ca98d737a2054b65c09d3f534b58c5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/initial-prepare.log": {
+      "sha256": "95663feb1a2b4e4239f4f56f210415a6c3452da248c66913fc03bb76f70964d4",
+      "git_blob": "88687c8fa58cea64f342c6950e277fd0df9a02f7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/initial-prepare.py": {
+      "sha256": "a58a6d320f749deab1646038453e4c6560dc27d9bb4548687d07160afc1dd435",
+      "git_blob": "9a855a82eb06f58c423c852b6f4fb2b5575e7763",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/inputs-before.json": {
+      "sha256": "5294c82f3cf465f2313e504fbe0ef26358ecdac9d6911297dca4f61f02632c8e",
+      "git_blob": "cf0309222ac998315bcb01f9e7ff312c1304b716",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/manifest.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/packaging-record.json": {
+      "sha256": "d67eae960170cfd196a590ff75ed9fa5788fc801999a63cee1265fc8e3574cff",
+      "git_blob": "e1922f6cd1c6a4098a89ae9bfa560a7a122c38fa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/permanent-id-tests.log": {
+      "sha256": "8a747e7ae97e18df74366aa8ea3d8d3a54400dcb525d1bce82deb4bd5c7aae87",
+      "git_blob": "948511b4993c2da7ea13419726709b2f698aa4bd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/permanent-ids-origin.log": {
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "git_blob": "c0793129915d77f752d13c90938e9bfdc2ea827b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/permanent-ids-upstream.log": {
+      "sha256": "8b360e56c890760950e6bc4515be8cd45b3998088d5dce25b68a54a72a7e85c0",
+      "git_blob": "9b413ee080b4ca4ded9b5c09f76d959502725dd8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/prepare.py": {
+      "sha256": "edf0b43b74af9a9bb872e8958344b6216044d945731021a77a47e12c645053a4",
+      "git_blob": "5f71cf18456d504d5d7f3f07d716ea834187ab36",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/root-schema.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/root_candidate_check.py": {
+      "sha256": "6f214b5563c1b7e18a15defe53c6ab107c4e21cc29edf0da7c1939f5cb356232",
+      "git_blob": "e8adb2cb1299067ee26d78e09b074c29f29b97cd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/seal.py": {
+      "sha256": "bfceed459c53cb7672f2bc0ed767b6ddc7ce5e681e86fb04df51d3b79c352227",
+      "git_blob": "010a77c54e4d8b82ff9164c2942f4e0d5957deda",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/unchanged-tracked-tree.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/linux-candidate-2026-09-12/verify_evidence.py": {
+      "sha256": "a155a026de7fa9f6bc93a122dc8cba1906c48357307f24179625dd3db429a783",
+      "git_blob": "f4d4a18dd1415df00f3a5d74a9d5d9761b1f83cb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/lean/verification/proof-start.json": {
+      "sha256": "7380aff57e428652e86548d6f1ad535a175d1fc8b1da1b3009092bdd6a868fec",
+      "git_blob": "d02d32e9c199500f14ac7e7c3ef7f8553b482bc8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/problem.pdf": {
+      "sha256": "b215b847aa657e49d961d8018eed359ebdf90695e4cdebd5197e930d23e3e7cf",
+      "git_blob": "e4f9f02a2bdd33e264e7f28b97255c05d98e6265",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/linear-systems-and-elimination/IE-23/problem.tex": {
+      "sha256": "078fc8488888f4317f29d4e6bd1856f8d32b1fdbff0c57d4c59d9f5f3f8b2124",
+      "git_blob": "b10098e4edd74eba4b60a8edc50fedc8cde91aba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/references/colbrook-recovered-2026-09-11/README.md": {
+      "sha256": "7ce4438b2fbb2f99659561bf0affa5a354cce6c162a6ff111a2020fc4d85e6ff",
+      "git_blob": "9919eada80b5a5756e219724056d44841b8e29ba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.pdf": {
+      "sha256": "d3bd50914f1d98311e6c6a710c59c01fe53fc0c3e49f045eacf1b5b4567f979e",
+      "git_blob": "a4ef96c4d58476f45be0a89968c7fd5367987686",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/references/colbrook-recovered-2026-09-11/manuscripts/IE-23.tex": {
+      "sha256": "9ab20822bd6198c9a387509f2fe93182060d3d9c8ca491b8dc2d1cdd22ccc1a3",
+      "git_blob": "031cd96f2e8f609be67f5d4c1528b5cde57e4925",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/references/colbrook-recovered-2026-09-11/verification/reviews/IE-23-review.md": {
+      "sha256": "58c0bbcf62112d32e2048e99f0ee7674a43567efcda0b1c5123f1b8971df5851",
+      "git_blob": "2383cdecc3a8f083df8ed4f153c8a04a0b7e0377",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/sandbox_probe_ci.py": {
+      "sha256": "31057195baf238807cacbb4126c5b07f02cec55a4e4437de5f3a755b3fada803",
+      "git_blob": "168ad39e1a696ece597bbc0e5c18eff6a7d39b17",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/bootstrap.sh": {
+      "sha256": "4cb4d6e09ca5d186e1911e51160286fef20fb4d7f61180e07ed684a03d36de8c",
+      "git_blob": "70a274044e8d13470a5d2b6d72f77c565ddd46ad",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/harness.py": {
+      "sha256": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+      "git_blob": "8feffd06b69cf1989750130a92e6d638fd18aa7e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/selftest.sh": {
+      "sha256": "1d0459179f9fc4ef30ba322b0cda7286c7a8394c1125a813770a9f10b1fccad9",
+      "git_blob": "4dc2a05185359f431bd3173ee578dfb7231569cb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/source-lock.json": {
+      "sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+      "git_blob": "27916ca1e378b13ba1a08f1eb3ecb285fde12408",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/verify.sh": {
+      "sha256": "fb97ffb467b0e9acac302b2bdfc418da12b88e4ae307fb0d580c96fd6b63e997",
+      "git_blob": "1007633cf6c47a630bf54c22caa503de23f4a0f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source_precheck.py": {
+      "sha256": "df0fef24535cf270c9ee14f49ca9dea03617f3c4152e263aff6a9650d618bc5a",
+      "git_blob": "f2b1d33f08fe0d3af897fa649ac624abe89c2e0d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/tool-source-verification.json": {
+      "sha256": "222f57cf251b73fac3c932e6cf2da36d4516e648d623c24b0ca617ce36e81b17",
+      "git_blob": "478c168aca884e803cd29249a1df870d32369838",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/verify_evidence.py": {
+      "sha256": "d0623398ac5ed187a27c04d3b3d83173f9cea2ca8d88f90013e6962348fdb7b9",
+      "git_blob": "8da7d8902ace3919ad7902d8ed0ce21f190129b2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/write_report.py": {
+      "sha256": "815e310d62161130afd440d1e6fa665016a46279075b3e40b01074b31e1da450",
+      "git_blob": "25907fce04b6cba241a86e9ffa3b8c9eea250018",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/CANDIDATE-HANDOFF.md": {
+      "sha256": "f298a12cce7d49302daf0927213a18072f7adf22aa3b4fd29118ac1624d52b16",
+      "git_blob": "5ae64ebf0352dd2908336e163dafe02b68eaf6c2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "e4ea6506d3458e620fb6d3dc27587411c0ee3983b133d78b454fd51495a3deaa",
+      "git_blob": "ab93279a8a0356a3c7ac125a1c437127d3d54aee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/README.statement.md": {
+      "sha256": "1c709941dd5c19fbe90d157a4777f7dcadc43e365f4769d980a0bad283b3d5ac",
+      "git_blob": "ff2c43625e5488a298064aaa335f04ed0e388658",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/ROOT-CHECKS.json": {
+      "sha256": "ef09e3f30bbd2fe64c78b4e0a9c43a0739c803b27a5c07c221d578ab0c6609b3",
+      "git_blob": "fb20e555f0056d401b6adb3787306e66a1945d90",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/ROOT-EVIDENCE-MANIFEST.json": {
+      "sha256": "fcdb96e31af7d2e3a9da21ad98db1b0a8efda5a87ecd2e37aa29c90c45e9b272",
+      "git_blob": "2fa123b2248c1b64c66e8efa26e1d8f4dd271bf5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/catalog.log": {
+      "sha256": "748ca47ac336c62847ddc3b1c128375a839439e93fc772c7af630c0b1263f541",
+      "git_blob": "83f1a70dfe7f7669a25cac0f925eb81fe7474ce1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/check_packaging.py": {
+      "sha256": "25b9a4056c036ee256a5461de0772ef379206295ac379765cd4a46d780ebd0c8",
+      "git_blob": "b3839e9f5b71172459cf025b74d2a5f4a3fd8646",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/checks.json": {
+      "sha256": "3f251d25f6c798500bf29f7c37cbb431473e53614f8e885896e49334b66442c6",
+      "git_blob": "c831e51133c81d17d0bfcf08b1afca63e65e4318",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/dependency-pins.json": {
+      "sha256": "8f7d9d1ba46586cfcb0694cbd944c1c5a758ad1b8a21722e82b3a98f6ca0790b",
+      "git_blob": "38e1fb7cf8ca98d737a2054b65c09d3f534b58c5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/initial-prepare.log": {
+      "sha256": "95663feb1a2b4e4239f4f56f210415a6c3452da248c66913fc03bb76f70964d4",
+      "git_blob": "88687c8fa58cea64f342c6950e277fd0df9a02f7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/initial-prepare.py": {
+      "sha256": "a58a6d320f749deab1646038453e4c6560dc27d9bb4548687d07160afc1dd435",
+      "git_blob": "9a855a82eb06f58c423c852b6f4fb2b5575e7763",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/inputs-before.json": {
+      "sha256": "5294c82f3cf465f2313e504fbe0ef26358ecdac9d6911297dca4f61f02632c8e",
+      "git_blob": "cf0309222ac998315bcb01f9e7ff312c1304b716",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/manifest.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/packaging-record.json": {
+      "sha256": "d67eae960170cfd196a590ff75ed9fa5788fc801999a63cee1265fc8e3574cff",
+      "git_blob": "e1922f6cd1c6a4098a89ae9bfa560a7a122c38fa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/permanent-id-tests.log": {
+      "sha256": "8a747e7ae97e18df74366aa8ea3d8d3a54400dcb525d1bce82deb4bd5c7aae87",
+      "git_blob": "948511b4993c2da7ea13419726709b2f698aa4bd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/permanent-ids-origin.log": {
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "git_blob": "c0793129915d77f752d13c90938e9bfdc2ea827b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/permanent-ids-upstream.log": {
+      "sha256": "8b360e56c890760950e6bc4515be8cd45b3998088d5dce25b68a54a72a7e85c0",
+      "git_blob": "9b413ee080b4ca4ded9b5c09f76d959502725dd8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/prepare.py": {
+      "sha256": "edf0b43b74af9a9bb872e8958344b6216044d945731021a77a47e12c645053a4",
+      "git_blob": "5f71cf18456d504d5d7f3f07d716ea834187ab36",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/root-schema.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/root_candidate_check.py": {
+      "sha256": "6f214b5563c1b7e18a15defe53c6ab107c4e21cc29edf0da7c1939f5cb356232",
+      "git_blob": "e8adb2cb1299067ee26d78e09b074c29f29b97cd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/seal.py": {
+      "sha256": "bfceed459c53cb7672f2bc0ed767b6ddc7ce5e681e86fb04df51d3b79c352227",
+      "git_blob": "010a77c54e4d8b82ff9164c2942f4e0d5957deda",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/unchanged-tracked-tree.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/verify_evidence.py": {
+      "sha256": "a155a026de7fa9f6bc93a122dc8cba1906c48357307f24179625dd3db429a783",
+      "git_blob": "f4d4a18dd1415df00f3a5d74a9d5d9761b1f83cb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/proof-start.json": {
+      "sha256": "7380aff57e428652e86548d6f1ad535a175d1fc8b1da1b3009092bdd6a868fec",
+      "git_blob": "d02d32e9c199500f14ac7e7c3ef7f8553b482bc8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "5c06734ca949989a1007b7c1d96d1ee794d5ed65f69c3d00a8a5965bee3c60f4",
+      "git_blob": "84ec4cdfad4f255d1f3044a826d039458e79d93d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/INTEGRITY-CHECKS.json": {
+      "sha256": "778bd2cd42058bcb83a0ef39da1939fc5e8b4b900541443151b30bf3c9bbd250",
+      "git_blob": "7a76ed8149700a9c558975b8d08c8c09ac03fa47",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/PUBLICATION-HANDOFF.md": {
+      "sha256": "f7cdb595ca243dd57434424bed3c9e64fdae27695ae1395b5e9d49b4259fce20",
+      "git_blob": "0f90b5cf3570686c16dd5c60a840cc2e56f1dda6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/VISUAL-REVIEW.json": {
+      "sha256": "b1ea92dc90853f236e5986ea4bc27a1cf103ae01e6ddff1d8e02d6b28a5b48d4",
+      "git_blob": "1eeef57d23ebe816441610baf0b29f54336bf1f6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/archive/README.canonical-before.md": {
+      "sha256": "922b5f8132432545fc92c29e441f672340ed964578fa65ed902d910dd251b415",
+      "git_blob": "355148221b2d544a91aebf2179781f0de35c2dce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/archive/README.linux-candidate.md": {
+      "sha256": "d1fc50ba0dff043df48ce5d98b1dff4981573737f9b4db0a3043e096394f19bb",
+      "git_blob": "2a609c27b839a8acea1a5e7c6378d80f737d7a60",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/archive/RESOLVED.before.md": {
+      "sha256": "a857d38ef7c150e789d8166e1cc48eb645904246613717e3dae33de085458f5c",
+      "git_blob": "6fce118f875592e8339d481bafdefd783f1455a7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/archive/formalization.linux-candidate.yaml": {
+      "sha256": "1ef1882bf25f3bbf4a7abafac26cbf92c6b9634810ff9b378d9c37f863879962",
+      "git_blob": "319be0c273e12d024e05545a38f155b745e31f62",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/archive/problem.before.tex": {
+      "sha256": "078fc8488888f4317f29d4e6bd1856f8d32b1fdbff0c57d4c59d9f5f3f8b2124",
+      "git_blob": "b10098e4edd74eba4b60a8edc50fedc8cde91aba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/baseline.json": {
+      "sha256": "347640a980a77241f7bdb29b36d51cd3c6a3906d3be3f516f83af9c020cdedfe",
+      "git_blob": "f440e61172f30aa5677db912a3e253debbe686d4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/catalog.log": {
+      "sha256": "0334a5241eec44fe3a238a92a387a1170fdd6356c5a4232e2ea1753a89f7edca",
+      "git_blob": "c92b570dd254e16561da5fee341fa416cf4c3d18",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/check_and_render.py": {
+      "sha256": "7e2109fb1397a79ed219a9c5ddcf31f260b85e7d93a2b3e36f0f4893a7517680",
+      "git_blob": "faeff7b94b53332bb49de050c74500bc75adcab8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/checks.json": {
+      "sha256": "3b322d6795d3a1610c3bcac5b47002ac279cb41130150909c2f6a43650f2aa25",
+      "git_blob": "e5f201a32f09904999bcf0bccb347c952b0dbdfe",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/format-check.log": {
+      "sha256": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c",
+      "git_blob": "61a08f69496d29b5ce3544f4732a72a1688300e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/format-write.log": {
+      "sha256": "a32da5fd664ba8ef7500d62d646c4b8763cd1adefdbd2afc5661b7dc1fea9bc6",
+      "git_blob": "caf11d93198f1969c4dc3b4d911b948690ad4950",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/manifest-final.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/manifest.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/page-1.png": {
+      "sha256": "90b1dc1dce9b5818e15a452a2a19d2da5791382f08f832bfb6c2192e62737883",
+      "git_blob": "6fabbdada08e7c181e2a9fbb28f7a5cd6b355ae3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/page-2.png": {
+      "sha256": "862068a4a66f5f2e43e8b2438013860cfd706e9cbecbc839b024696ea9ea556d",
+      "git_blob": "bd7856f0added91622c0ec77b63e8d327cec8f35",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/page-3.png": {
+      "sha256": "5467046e1b707f62435567b7fe516da23599d241b4d234a8d4d4b180ff0c54ff",
+      "git_blob": "a91554a7b769a1d79939e0d30c3c22c7f7fec7f7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdf-images.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdf-text.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdfinfo.log": {
+      "sha256": "24d8cd14d64a66f1289e7f4f8c55493a80071e312883f9072825743310100f2b",
+      "git_blob": "48b87cefd3c114841e8b69a8fe5f3bd085c2c45f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/permanent-id-tests.log": {
+      "sha256": "e367cfd0615ef49eeebbd186460403eb1e435dc66fe66bc8a95808dcfc7799aa",
+      "git_blob": "65e6bb1d3491cc1d0148052ed1be517797e9e651",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/permanent-ids-origin.log": {
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "git_blob": "c0793129915d77f752d13c90938e9bfdc2ea827b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/permanent-ids-upstream.log": {
+      "sha256": "169768521efc178d82e68dea96a2eca8ff6e3b670a16fbcbdb70749551883fcd",
+      "git_blob": "ef0667a7f9825c2c1ad03a9a1b0bb62884e3cf0e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/prepare.py": {
+      "sha256": "52a3be931c8059bd7f7c5ee84943ce833cacf519ef62efa21fc15b30e2f83ca3",
+      "git_blob": "bcebc06a4f9ed94b303992034fd2f93f5fe41b1b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/preserved-upstream-files.json": {
+      "sha256": "d2350f50387a01557a136a232121ca6861539358baa7384dc24d10e38bb6adf0",
+      "git_blob": "791d22518aaddc0fa61c6d1f91923eb62c91ce0f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/problem.txt": {
+      "sha256": "39f2b98f8b0c4cd9c926a31e386280937cd782af61a8353997bd9a477644efee",
+      "git_blob": "ab1cbcb9fca1c8e01bdbeb0caa113b056836b974",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/render.log": {
+      "sha256": "44b4c1a679c0e7b9070258322856f4eff3e81ac88e02f541107b62a936eadd6e",
+      "git_blob": "96c3c7c1514616f8fa42271b9a5304514fe6ac01",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/scoped-diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/seal_handoff.py": {
+      "sha256": "5e2a1e8682a6432ad6479f61e6c4526683cdf10a8e36ebee69bea0bd3ea79529",
+      "git_blob": "4f3e6867436fcdcda50b02edd6b85a0ca7b9213b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/verify_preservation.py": {
+      "sha256": "a7da56494a855a61c85ec647d6abdf04ceb905ab13624fff452cc9b6e6f99605",
+      "git_blob": "561f3deec49c6f8ba7d17974938acddca14d0ebb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-preflight-2026-09-12/CHECKS.json": {
+      "sha256": "efab2da66ac9b5b5a3161dd4b6c084096e0a0fa4bb86a878f744b899ff76236e",
+      "git_blob": "7a77f6b473758a88103ad3b2d93f523b12292b09",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-preflight-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "a4d4e6a7cac8bd9bfc626efd3ce25de418ffcac140ebedbcc5c9bb55188092f4",
+      "git_blob": "f3b4c7901395826bcd7334405f84a27902359b8d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-preflight-2026-09-12/commit_ie23_publication.py": {
+      "sha256": "aafce0e19fd84e91eccc7ca78317310b85a54d78ab6a766281a3a698d7922565",
+      "git_blob": "2e8f487ffda5d3a666384590d603b2f45962e71b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "b35250b043bb8ddf2bbbc5c03c20c771b89c15e91f18f2bc5af5495b0f17abe1",
+      "git_blob": "58768c241d3770be968b032de0777009600a577e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/ROOT-CHECKS.json": {
+      "sha256": "17f33157d63f994a2389d0ad03beaa9627d7c4275b622f6906c8b64dee2dbd16",
+      "git_blob": "c494b41e180716bd30d11773e9ced7c675d7f4fc",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/accept_ie23_iv06_linux.py": {
+      "sha256": "c045d61289827de667f0d8f861d849e0ce5016f46d2986c89c30bf1e6a714b72",
+      "git_blob": "be388f7de7cefae19d5b0d28b8fdb08b08947263",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/observed-artifacts.json": {
+      "sha256": "bd8188c554ce29a983f9b162e11e6eb814c1f0212b9ec5f0b38dc04100b45093",
+      "git_blob": "c028837c26c970c5ae39adb2010b4d7459a250ed",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/observed-jobs.json": {
+      "sha256": "c82a57071df38ec8c638dcd477d76034458b3c7bc09ee5b94bac67b11f20dbbc",
+      "git_blob": "db5f82b313252baf7060ec4f58078f2beef5046a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/observed-permanent-ids.json": {
+      "sha256": "9dec7638528de7d72f46e11c063231717a0c3f39f8ccf09f8514f69e9028d013",
+      "git_blob": "5b88f6b57c551f1e8418f8717598dabfa266aac9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-operational-2026-09-12/observed-run.json": {
+      "sha256": "b6265f67b6a35de1f89ffdabf787358de344eed3afb41ecbc28399e790595fca",
+      "git_blob": "d1bfcbf4823e55e57ad2dea50b283723ef4195d7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-publication-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "593cc6e599fe1655afe9b937390fb80791e57a4090ef4a092699b8d58561fcba",
+      "git_blob": "fbead2c7b32464d982dbf80c3c24dba4be2e56da",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-publication-2026-09-12/INDEPENDENT-REVIEW.md": {
+      "sha256": "aee432a75cea558910070cd84ab468714264510446882d365f0df9e2b2bf5dea",
+      "git_blob": "e205d21cd863dd640e73641efb45301313dd60d2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-publication-2026-09-12/ROOT-CHECKS.json": {
+      "sha256": "04115ec07ad8ffc9b7687e02d08cc9a8cf2bb5f83df70c4c8ae2a6a66a34dc2b",
+      "git_blob": "671a721ca4eb65faeee54bda932cbb9f90c549b0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-publication-2026-09-12/review_ie23_publication.py": {
+      "sha256": "5e4bbac9f7a0b54bdfe068f75ee0a36a8f6bfb2c694334873a8b991c8aa9ac19",
+      "git_blob": "0809ac300c9415a8e00a5b0ba2bfdd05565aadb9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-publication-2026-09-12/tracked-diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    }
+  },
+  "active_source_sha256": {
+    "comparator.json": "8a02cee6a555e2bd658cb2daa22bfaba515027d787d570846aae21aaac2e26cb",
+    "PROOF_MAP.md": "7959f585fe36ae9aaf9d3cc1bc3f4b08155b65aa42dd603b7d4c63070725dc04",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "SOURCE_CORRESPONDENCE.md": "80ef767f313eb06b6a427448c177a716ddaa91808c511659dce9610868962f61",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "formalization.yaml": "4de2f2d6a60d2d949ef3eeb5df003845e172adee3b171dd25ba35801e890b0b8",
+    "Solution.lean": "ce642354744645994d4462dff367595ba441781d19ed57a2dd99fe2303e5c671",
+    "README.md": "8516fcf8f3b0f59d74ee99afa1f0846e4033b6ade0465897beaff4632abda85b",
+    "lake-manifest.json": "92ccb4a43229b07f05bec9abccbf6528fc9e13e506f1669a2c6833fa83d234e0",
+    ".gitignore": "a0fb815fecafd1739b46d2b381c27acf366ce49e30459c0512f71814ce241fc8",
+    "lakefile.toml": "b5c948f74981d582e865552a22f4ec1e49a5968753c3cb3d3dac9676e7672e28",
+    "NUMERICAL_TARGETS.md": "eb49c0b56617ab749184cef753d22ec461eef982a68d46b352187d1843b60d28",
+    "Challenge.lean": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+    "NLA/IE23/Minimizers.lean": "9dcb508619e2a15c44f94687bbaf7f179c27d7e323e360f4535bea5641e82597",
+    "NLA/IE23/Definitions.lean": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+    "NLA/IE23/Matrices.lean": "c7d97a3b225a7abdf39da15f6eb13caf2af171a4316bfa238782b0c430f37906",
+    "NLA/IE23/Actions.lean": "950fe455fba3a7af6e927c369ecfd4bf4cf8d68d230b1fab775d185fdc42c451",
+    "NLA/IE23/Proof.lean": "2224a18d89621ef254e3a606b8e711e1576e1bb4e312365a9b4b4706eddc9ca6",
+    "NLA/IE23/Norms.lean": "2a3886e0db7f5ad8e2c0039bdfaf0e05d9f524c587973fc101de2200fda200d4",
+    "NLA/IE23/FourthPower.lean": "bd0f3a858a5f12cec417f8b2be9bcce63fac4abde60b085fcf113aa192daafc6"
+  },
+  "active_proof_closure_matches_previous_review": true,
+  "config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Solution",
+    "theorem_names": [
+      "NLA.IE23.inducedNorm_semantics",
+      "NLA.IE23.witness_matrix_identities",
+      "NLA.IE23.fourth_power_norm_control",
+      "NLA.IE23.witness_action_identities",
+      "NLA.IE23.witness_attainment",
+      "NLA.IE23.witness_norms",
+      "NLA.IE23.witness_global_minimizers",
+      "NLA.IE23.not_rightInverseUniqueConjecture"
+    ],
+    "definition_names": [],
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "all_exports_in_both_logs": true,
+  "actual_export_axioms": {
+    "NLA.IE23.inducedNorm_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_matrix_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.fourth_power_norm_control": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_action_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_attainment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_norms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_global_minimizers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.not_rightInverseUniqueConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "default_kernel_executed_and_accepted": true,
+  "control_checks": {
+    "kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "required_markers": [
+        "RETURN honest_with_inductives_and_quotients: accepted",
+        "RETURN invalid_raw_proof: rejected:",
+        "RETURN quotient_postcheck_mismatch: rejected: Quotient constant mismatch on: Quot.lift",
+        "PASS: all three actual Comparator.runBuiltinKernel cases behaved as required",
+        "EXIT_STATUS=0"
+      ]
+    },
+    "comparator-controls.log": {
+      "sha256": "c7d14c9f91dcca0dd3a9a5758a3762e9316028e0b7dc9a29c73757bf6886a810",
+      "required_markers": [
+        "PASS simple_match: exit 0, expected 0",
+        "PASS simple_mismatch: exit 1, expected 1",
+        "PASS simple_axiom_issue: exit 1, expected 1",
+        "PASS simple_kind_mismatch: exit 1, expected 1",
+        "Challenge and solution theorem statement do not match: 'checked'",
+        "PASS type_mismatch: exit 1, expected 1",
+        "PASS: all five Comparator regressions",
+        "EXIT_STATUS=0"
+      ]
+    },
+    "negative-sorry.log": {
+      "sha256": "87f4a782a248651ac6b168ad603509765551885664ed12b655efa895ca101174",
+      "required_markers": [
+        "Illegal axiom detected: 'sorryAx'",
+        "EXIT_STATUS=1"
+      ]
+    },
+    "negative-native.log": {
+      "sha256": "38d8c9b30577064c2edb7221cea99a563eb6573beddfb85591bb85709686d8f0",
+      "required_markers": [
+        "Illegal axiom detected: 'checked._native.native_decide.ax_1_1'",
+        "EXIT_STATUS=1"
+      ]
+    },
+    "sandbox.log": {
+      "sha256": "ccb7ff002dc0e56458377e3f0ab126838f08e0db5968c87a9f1e0d6fe2143f49",
+      "required_markers": [
+        "MODE build: exit=0",
+        "MODE export: exit=0",
+        "PASS build .lake write: allowed",
+        "PASS export .lake write-open: denied",
+        "PASS export .lake truncate: denied",
+        "NEGATIVE unknown option: exit=2",
+        "NEGATIVE unexpected --rw: exit=2",
+        "NEGATIVE unexpected --rwx: exit=2",
+        "NEGATIVE relative --rwx: exit=2",
+        "Outer and export fixture contents unchanged; only designated build fixture written.",
+        "EXIT_STATUS=0"
+      ]
+    }
+  },
+  "two_sandbox_modes_checked": true,
+  "harness_sha256": {
+    "tools/lean/source-lock.json": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "tools/lean/harness.py": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+    ".github/workflows/lean-verification.yml": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c"
+  },
+  "tool_receipt": {
+    "source_lock_sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "forsythe_commit": "8d1b0c0545a77b40245e84705aa7d273e6c81e62",
+    "ci_sandbox_probe_sha256": "31057195baf238807cacbb4126c5b07f02cec55a4e4437de5f3a755b3fada803",
+    "lean_toolchain": "leanprover/lean4:v4.33.1",
+    "lean_prefix": "/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1",
+    "lean_version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+    "go_version": "go version go1.27.1 linux/amd64",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "executables": {
+      ".tools/comparator/.lake/build/bin/comparator": "189e88f1a3cb68130b581905f7a5d3bde47eb0578904c0ca6fb235a53d0e8bdc",
+      ".tools/lean4export/.lake/build/bin/lean4export": "46f6a14f0f4a364d7698229130d103b67855be42f96cc5ef93929288072f1fa1",
+      ".tools/bin/landrun": "6531f6c9bc99313170e29c4c65bf09a414741093c587389315eb81a0a31e45d7"
+    },
+    "env_sha256": "7554076d35dcb2dc98bdc8f9adfd3a6a65b08b89c05695efe9e194df542e149a"
+  },
+  "limitations": [
+    "No fresh remote API query or independent remote execution.",
+    "Checker binary hashes and bootstrap provenance are attested by the retained harness receipt; binaries are not retained for independent rehashing.",
+    "Operational evidence does not replace the separate statement and proof fidelity reviews."
+  ]
+}

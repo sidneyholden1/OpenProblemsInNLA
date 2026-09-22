@@ -1,0 +1,30 @@
+/private/tmp/nla-seventh-five/sp04-diagonal-scratch.lean:14:41: warning: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.diagonal_apply_eq, Pi.sub_apply, Matrix.smul_apply, Matrix.one_apply_eq, smul_eq_mul,
+    mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/private/tmp/nla-seventh-five/sp04-diagonal-scratch.lean:14:55: warning: This simp argument is unused:
+  Pi.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.diagonal_apply_eq, Pi.mul_apply, Matrix.smul_apply, Matrix.one_apply_eq, smul_eq_mul,
+    mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/private/tmp/nla-seventh-five/sp04-diagonal-scratch.lean:17:31: warning: This simp argument is unused:
+  Ne.symm hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal, hij, Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/private/tmp/nla-seventh-five/sp04-diagonal-scratch.lean:17:43: warning: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal, hij, Ne.symm hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

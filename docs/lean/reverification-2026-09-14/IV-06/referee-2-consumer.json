@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-iv06/docs/lean/reverification-2026-09-14/IV-06/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-iv06/intervals-and-absolute-value-equations/IV-06/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.IV06.eigenvalue_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.family_and_determinant_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_eigenpairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.witness_separators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.connected_component_intervals": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.four_components": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IV06.not_componentBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "numerical_separator_margin"
+  ],
+  "script_sha256": "99355e2d2df9d5dbade7bca490c7e4da77031473b3052168f33ba4e2b8d38bfb",
+  "log_sha256": "e2426840a5fb25560d11387a31f535b70c1dec86104bcb821c36d1751885bcf0"
+}

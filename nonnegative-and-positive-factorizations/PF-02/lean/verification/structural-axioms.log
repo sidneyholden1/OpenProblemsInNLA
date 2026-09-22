@@ -1,0 +1,7 @@
+'NLA.PF02.psd_rank_semantics_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.PF02.congruence_quotient_semantics_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.PF02.witness_exact_data_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.PF02.orientation_invariant_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.PF02.quotient_orientation_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.PF02.disconnected_counterexample_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.PF02.not_connectedOrbitConjecture_proved' depends on axioms: [propext, Classical.choice, Quot.sound]

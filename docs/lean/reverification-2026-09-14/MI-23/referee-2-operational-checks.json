@@ -1,0 +1,2706 @@
+{
+  "separate_checker_controls_job": "skipped; actual per-project controls independently inspected",
+  "attempt_verify_job_id": 104166280336,
+  "github_attempt_jobs_sha256": "a71e6e771f00b8dd98d3783844617f76d2729d9a313b448abe3e7b045d60694e",
+  "github_all_artifacts_sha256": "e61ef9e737fbed43f4d60a1bfcda651c0dc4bf12c740f90e58c0a604217770ad",
+  "dependency_revisions_checked": {
+    "leancert": "621a43d7cf21f87872392a01e874f2f1dbddc926",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+    "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+    "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+    "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+    "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+    "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+    "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+    "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f"
+  },
+  "verdict": "PASS",
+  "reviewer": "independent referee 2",
+  "run_id": 34900779797,
+  "attempt": 1,
+  "verified_commit": "8595b5406fc21df98924ce1b5ec486f5ea67f00c",
+  "artifact_id": 10370838042,
+  "artifact_sha256": "f99eb1e5d53fce129bd18ec57f23567fdf12baea716c89938f97ff9affc92ab8",
+  "receipt_dependency": "Coordinator-retrieved GitHub API receipts independently cross-checked; no fresh remote API query.",
+  "github_receipt_sha256": {
+    "github-run.json": "7009cb32d87372eef74f6921174984027a816097eabec6a4345b9d1aedd3c72a",
+    "github-artifact.json": "53c4f9b793642cc1235b43b74211f5925c8f977a84931ecbf429d3932d600f6d",
+    "RUN.json": "43b1f1d6d009422dffa18a41bb19bbfc7c06bf19e8fbdf05b09f27477d99e500"
+  },
+  "zip_members": {
+    "bootstrap/comparator-build.log": "8ceabaf4bcabaddfdfe1bf3e9c25038a586fba61bc117b04dfda4270d9831831",
+    "bootstrap/elan.log": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+    "bootstrap/landrun-build.log": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+    "verify-20260914T215014Z-3928/comparator-controls.log": "fba5e51cd57b4b9591bfd50f4a0f56212df99bd3fbd6834d64505ddbc2f70730",
+    "verify-20260914T215014Z-3928/comparator.log": "56fd3c455fb3d13cbcd3bfa9937ebf62563c4789f1b2345f1d720dbe9527a92d",
+    "verify-20260914T215014Z-3928/dependencies.log": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+    "verify-20260914T215014Z-3928/kernel-controls.log": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+    "verify-20260914T215014Z-3928/mathlib-cache.log": "2ced6fd50012fb8dc9f002f3e27d5b7e37d542b44635c391bdff2e27140182a0",
+    "verify-20260914T215014Z-3928/negative-native.log": "135fc1d3022970c389f902c9cbc06e80e9dd1309712e25f5901855bb83c53270",
+    "verify-20260914T215014Z-3928/negative-sorry.log": "38a184f860bb5b71955c1bd35af34a8f697628ebba652de0b34651ea8f3bbddb",
+    "verify-20260914T215014Z-3928/result.json": "22ddae7548a42061e56d64b594e47364c83f6cb9bb2f2ed131a1fe34fdf9b99c",
+    "verify-20260914T215014Z-3928/sandbox.log": "5b5a77e6250cda027d6bd0c9eed90fe596912215d743d496b4a52ac2d90b6513",
+    "verify-20260914T215014Z-3928/user-service.log": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a"
+  },
+  "input_count": 415,
+  "all_git_and_current_input_hashes": {
+    ".gitignore": {
+      "sha256": "2f39a020b618e218935a1b4ba1a8c6e2810025e9c35dbcd0f19ba2bec791b5ef",
+      "git_blob": "acf88f06797da3644f9fc81caac78b3441eb14aa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "Challenge.lean": {
+      "sha256": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+      "git_blob": "b49915b16c41a099248591f77e7bafb109ed9dbe",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/Arithmetic.lean": {
+      "sha256": "d5895f0636fa3aa3887721c610ee9f526cc35a6838e1d4ad7e7ba7f0548af3d9",
+      "git_blob": "1d7e2409fb1ede7a59bab79321d0815b9a71c958",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/Definitions.lean": {
+      "sha256": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+      "git_blob": "1778f077aa74135abd1e50ac6f7da5942f7f483f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/FunctionalCalculus.lean": {
+      "sha256": "5603fb214d01f327ba297af151e278ed8f8310368272c59180dd52ebd87839a1",
+      "git_blob": "17405cb683d7e9d92a8ce32ebe197607ca6a3c15",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/NormBounds.lean": {
+      "sha256": "1fd4f9d91818470bfee7e3bb164baaaf120b80ee088ff827134be0e2ac867ad3",
+      "git_blob": "91ccc76e0b31cceb1b6556af561791e08ebcabe9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/Proof.lean": {
+      "sha256": "a82ba18b834453491e4d7bb50de23c08555b92bb70e573551d11e714a404984a",
+      "git_blob": "a8463295f93aaa8cdc60ee784ef21928159be3da",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/SpectralNorm.lean": {
+      "sha256": "af43452f42fde8c361d3ab21c4bcf9839f355b7c06f905dbc56c1eb591c6c5a3",
+      "git_blob": "ad259c1fe2ff2fb82a4532dd05ed0ced784b3b18",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NLA/MI23/Witness.lean": {
+      "sha256": "4d7d79b742e614712d5ecc052c04df135cde6b6548ec7cb19f6cfbae0ef987b7",
+      "git_blob": "f94cfa371d9c0008398f8583d3cecf4d78a048f4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "NUMERICAL_TARGETS.md": {
+      "sha256": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+      "git_blob": "8078c8b706f8ec2de24937c1f13b00794df2e861",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "README.md": {
+      "sha256": "9fd17b9f225383f50d1623ca511263737391dd5517539610b6a0bbc7efc2e918",
+      "git_blob": "08a0b356a5e0e4bdc13a7f3ccfb912f374db94ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "Solution.lean": {
+      "sha256": "575f2fd27922d2725d93ada823bfeb4da70407d7fd9c31fb7cf1753a5fdbd243",
+      "git_blob": "c30a19c5bd06ab6ec5ffcf69b219082b8b318b9b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "comparator.json": {
+      "sha256": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+      "git_blob": "9655f444ae2dbe8dd526f79e566045ef03a33eb5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "formalization.yaml": {
+      "sha256": "2c6b162572c774d28fd9a5302fd16f3939c5fb87007b124eb8071618932992d0",
+      "git_blob": "80ea65f59313f8b95d10f98bfe62ed5671695e89",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "lake-manifest.json": {
+      "sha256": "10e87dfa3fc8ecfaf18277f1a0838a3a009979e43555fe97474618ac9af250ff",
+      "git_blob": "c18ae021ba0ccdedbb3b6c58584a0f9bf7164cbf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "lakefile.toml": {
+      "sha256": "cb0ad4fd0b6a7b7b8a6e8307536c9e9505718c12b1089307561bf2355db301f8",
+      "git_blob": "f4943229f8870c5d1f7e3843ebeba0b5ef52964c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/InspectProof.lean": {
+      "sha256": "6bc10523619cafe1786c76ec2c6d9f359b97a6bbc7edd6391015f85c78233ee4",
+      "git_blob": "07310acd9dca576035d82fa766a221cb177a9d43",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/InspectStatements.lean": {
+      "sha256": "28359c458eeb477ec5df9fca077cef3625a818e20897789ceeaec5c0563585e6",
+      "git_blob": "bcd70ce4cb79df577b63df00f944cb87b293a98f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/export-signature-check.json": {
+      "sha256": "0eaea32fa616ea77481ce2120d3224604b5f47ffa5038516ab8591ebe2efa1ab",
+      "git_blob": "aecf85a3251b5f0575bc58a130b7ba592432c07e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/implementation-gate.json": {
+      "sha256": "125e389c63fc19f4052ee79a747d452d0d0d53bdfca8a14709e97e63e1acd357",
+      "git_blob": "821c059f4fafd74aa415454960d2304a60d52803",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/numerical-precheck.json": {
+      "sha256": "39a4e5d1eb699a87caa3117c4e18f0203c8fd64d66a008cb2fb235c2ffed0761",
+      "git_blob": "3399966eeee187641fb1a44ebcfc9633c9a6b424",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-completion.md": {
+      "sha256": "3e3b38c8b3731bc83b1157e10441aafce68d20566b73f040f85cd827d15c1061",
+      "git_blob": "4c632957d11d100234f985b6ce7b35d92204ab93",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-freeze.json": {
+      "sha256": "18fbf9a74e6006ca2b4159be62730c6df4faf38d472250b8ca1e7e54bf392ecb",
+      "git_blob": "52783865f93c8d7da974acc5f54c42ee744b21ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-inspection.log": {
+      "sha256": "a40151556315b98c4eb2f0b42971371c44e4f84a1b15b95a8adcf8af5fe8da79",
+      "git_blob": "490fc2d4d457be0fca07d62d74b6dcb2dc746be0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/Challenge.log": {
+      "sha256": "4e5cf99841788814142193c1750d27d73c7b0233f0a78845905f30d132340af4",
+      "git_blob": "af45d1f389faaf76de953f4f47029e80695e0846",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "95cb44b6c396d6ff41d832ba34a1ab32119d0df4b5b557aac5ce5e4f749021c6",
+      "git_blob": "92e0ef95850adcbcab2a9ccc3558e7498d3151ce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/Inspect.lean": {
+      "sha256": "e4476363c39b65076c6d175a7eb67aec5bc212fb5a2e28148ece0e44bad08bac",
+      "git_blob": "6f5b1615db2268b579b837d036aa1986eb2bb632",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-Arithmetic.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-FunctionalCalculus.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-NormBounds.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-Proof.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-SpectralNorm.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/NLA-MI23-Witness.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/Solution.log": {
+      "sha256": "4411295dabdf60016a069fe6d1238016eafcc75a4746204acb2ed3c54dc0749a",
+      "git_blob": "1bc6a1d6fdc2e939f88b73b1e3f78226ad5766a3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/axiom-audit.json": {
+      "sha256": "35dde16d8f5ab930ec77a7458ae604024cdfb19104081cdf9fedf12ffbbc00f6",
+      "git_blob": "be1cd5a20a35d37ef0dad85053c86fb69ea5cb5f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/consolidate_review.py": {
+      "sha256": "57e3a895ddc8163f22106b64b2cd337a1fbe8f9c8c603463fb31c5df447a2149",
+      "git_blob": "19587bab0b42baa4c4e99c5d5952043994ca1964",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/dependencies.json": {
+      "sha256": "d9f12ce16c39075600ee15c02cc96a8a798d9c000caf086d1c1ada00e8faeecb",
+      "git_blob": "e2394ab0c815e26cb60e17fb3a1eb21e9576f55d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/finalize_evidence.py": {
+      "sha256": "3e4fbdc57272f4d7252c36442cfabecb13fc28f97494da60587675b5d91e3c14",
+      "git_blob": "35eb379ee4e591863f2a6334e4eb674d0efbe819",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/fresh-checks.json": {
+      "sha256": "e6ec6ae399870311f35e2cdc83d216fee7dd4e44712a87d96c7d1c5499e1bd15",
+      "git_blob": "723ffc38c1cb8bf5ea86337880e1a8ddcddb1e2b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/fresh_review.py": {
+      "sha256": "8e68ddf3626bdd4c98e587c5c3e23f3125d1ad6464a5acc49f675959556d314e",
+      "git_blob": "b31ec89c24e22798722c88af1aed223448c72af9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/independent-rational-check.json": {
+      "sha256": "fa8fc9ec727022709e6939e70f2ba584b6f17ca450e2b94da3286ae5c5add374",
+      "git_blob": "3de756467fe7429ca66f43764af4d1d1de6a2b44",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/inputs-after.json": {
+      "sha256": "ed147b0b618fd9985dfc62076715e1a3bb241b5ea308f1f3f0f4217c4398ad9e",
+      "git_blob": "3ee0d6c4b0252e5ea9f10bff7b2464716468cd4b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/inputs-before.json": {
+      "sha256": "d669120a6e73d4c0aa8124719a53ef110dafb6f8fbb4f3b54d3dfe81206fe252",
+      "git_blob": "7563ec8afdd91e19b0eb19b3ed9c6e02cd5bf32b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/inspected-library-sources.json": {
+      "sha256": "4446f802f72a40a2159a82488fb19d67bc6d3bd6f2f80be477375013b2b903e9",
+      "git_blob": "4c591417657e9a2fa1f737b1ef09d4abf4f36a42",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/inspection.log": {
+      "sha256": "40f23a3dcc2c4002fe214cc1449f81071396590a72a39b12e023f38aacc9bfec",
+      "git_blob": "91f4b194b937a1614aa51eb7895fb70dcd6e6dd3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/original-sources.json": {
+      "sha256": "793dcf611e70e7a4c779b369a73a1b638ce1271437b63c0883092c3093daf93c",
+      "git_blob": "cbf5cea93a64bf04daea2688dc0158903ebe25f0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reconstruct_witness.py": {
+      "sha256": "065fd6c07c8a641fc254e8d9b9ee4d333e5cf0166d2829627468743086426db7",
+      "git_blob": "2c88329095707a4bec3410384315075f07ce57cc",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reuse-search-command.json": {
+      "sha256": "3f0f4d5ac206e179f7b30bb07e2db25ba2442c93ee6e4eab3f9039f44c2bef3e",
+      "git_blob": "5c1c37e9c24f443904d4768032c9a632a0b3c04d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/reuse-search.log": {
+      "sha256": "0684d1a8c6bf4580b9068f6b795610b0ec3d482a9f8c75770f7df23bf4c2d2cc",
+      "git_blob": "ab32611100c4af09f61bc3bb41df4902c1473108",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/review-checks.json": {
+      "sha256": "7ed88777e6e96c4fed84178bbe2702334f61f4a876d505fcf39cb9dd1f1ee575",
+      "git_blob": "376cd14ff24d6fed6bc625015e6c6d1c82304e05",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/review-standards.json": {
+      "sha256": "d715d53c84dbd94d987a4f250e014dbdc6be39e869546d41281843091084fc7f",
+      "git_blob": "f895c1d55ef7ad82603d0568f0edcb3d4e787114",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/scope-integrity.json": {
+      "sha256": "071144d679b15d23803d46760ea41515937b281aea45133ad053f648ccf4a725",
+      "git_blob": "11edd1092daa93eed6b3342318b0df8aa927ea8d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1-evidence/signatures.json": {
+      "sha256": "9a1a6309435fe60bc28504496dc6390b25136a96e4df4f0abd0ed0349f7d6b2f",
+      "git_blob": "11994581fe5c315e8a47e64f8b3b146ff79df8ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-1.md": {
+      "sha256": "37985a31879f155da1b52d1cb9c955bb844d16edc862ccca327b3f0aaade8da1",
+      "git_blob": "68287cd489604337e0ffcaeeaf8c5abee4c736f6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "2128227ef291dfd927241c9881ed18f3c5d74f6f9cbbfb512e58eb2879aa2fe4",
+      "git_blob": "e3bd3a73c961a8706685c053efc986aedc9ad1b5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-Arithmetic.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-FunctionalCalculus.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-NormBounds.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-Proof.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-SpectralNorm.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/NLA-MI23-Witness.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/Solution.log": {
+      "sha256": "4411295dabdf60016a069fe6d1238016eafcc75a4746204acb2ed3c54dc0749a",
+      "git_blob": "1bc6a1d6fdc2e939f88b73b1e3f78226ad5766a3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/audit.json": {
+      "sha256": "18e5ede55e61fdef7f106a1e18a81fe65b790eceb61751c2eca38b2e9a3877cd",
+      "git_blob": "d49eaedd24fc57a8af23cabe6b6e1ed759dee8e1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/audit.py": {
+      "sha256": "aa2e6c6a30311a728d5653cac40fa2575445e1d227548edb8748fd5f61d1cbe1",
+      "git_blob": "b8ace3f5ea6d4429ceec047cf12cdc292b04d79f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/axioms.json": {
+      "sha256": "1d395e89142ab75613ef8965cde2b78ac37e196554859e83526454fb093c1a91",
+      "git_blob": "6dca563d9a73b21dc98e416387e6cd3d9315d095",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/dependencies.json": {
+      "sha256": "3f52d945a028fd87536ed26f978f1603c52994ab1c0d40f22fb768dc1de5b6eb",
+      "git_blob": "d7ceab364efc453a9331b649cffe71c02af771ec",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/execution.json": {
+      "sha256": "4d8e19938ded87a3c6ba0c4fa94484b56e9e8072ab4f189596781d43b61051a0",
+      "git_blob": "21977a62ad6c1ec0ac5763c7b81efadea35979fa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/fresh_review.py": {
+      "sha256": "0b534f00792e25919f408e2a9c764b06aa880f7836fb1a983469e3003c078986",
+      "git_blob": "1fc3b336bbd001b917f98d34679e9e4ced1252fb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/inspect_review.py": {
+      "sha256": "248d88c5cb2cfb752dffa27ab7f62704a32e16ade75e6d7909aae816ddb3f12a",
+      "git_blob": "5f790d0d6c5b14e3531991bd045d59ef2e5a44de",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/inspection.json": {
+      "sha256": "8db81ef7f873a3aede77734b202e777cdf3a0b048d5a699c7d62f74910c94e72",
+      "git_blob": "12317882c20b98e43ae4f2dd098488a16c62c6f4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/inspection.log": {
+      "sha256": "1a8fb1c06b4c9f5c6383c82320487c8e01d27b983f3558087cece753ef37f38d",
+      "git_blob": "a4cea3cd09f271267210e0d82a9ff9f9cd30a827",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/manifest.json": {
+      "sha256": "ac26cd126de1e236bb85549a5d9994c09b8b92d021e9f2de102764cae1180816",
+      "git_blob": "3c70d394d255b2c2c5d8d8f4b62b3fa9d846846b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2-root-evidence/source-identity.json": {
+      "sha256": "19c7241df64bd87dea5359e7450831106cc67d0784032269be673d79f127f7c4",
+      "git_blob": "da9d75606c381b42d233a44f1370fc9dbf7b1fec",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-referee-2.md": {
+      "sha256": "707f40dc07f789e0a201ebf2c158c86897e047ae898e7b776854f92d0f94ff02",
+      "git_blob": "e44ab7f9731cc4c0fe3e70a05061a06ba5a9b388",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-source-build-result.json": {
+      "sha256": "712673800b292a613896aa9c99e07bd47c030991b977ba25b77346e7d8a6552f",
+      "git_blob": "231913e5c16840ae21b1afe47052cc957e550df3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/proof-source-build.log": {
+      "sha256": "018169046d6e3b94afb6c9011dc07f2cb59139136a10b5c558176486e9158f25",
+      "git_blob": "b1471d1ae5a1c32c6d519ce8e7394646a6216f4f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/reconstruct.py": {
+      "sha256": "abd82d19bb9db3a34bf6da3acd4ce25d774a13138d7b4bea8a9633757283fc02",
+      "git_blob": "15603fe85f9379cdf9d0b431ee839ce4290772c8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/reelaborate-proof.py": {
+      "sha256": "6aa8df9920ea8752d385aea564d72ef539e6b7d0262ed66fd4b6cf9e14e4efec",
+      "git_blob": "a0cc943d65daafb24aec599f986a5b280dc97764",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/reverification-2026-09-14.md": {
+      "sha256": "125c3f7c455ba66f413e1cf90263b31b4cebca73376d73d90db490c9c392e8fd",
+      "git_blob": "5b02d463c4b0ae78ce893dfa9aa8363925ca0376",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-build-attempt-1.log": {
+      "sha256": "e55de614a41e359789231d7a05dd44fa453f29c270bab49e7f5a4bd56da3abed",
+      "git_blob": "a3cb9e8dcdfc69e30122c29093944ab5cd7ab40a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-build-result.json": {
+      "sha256": "782a97db9606afbe93a44a1a3d6b70d1b7e6ba045003a42b0340330085c70e79",
+      "git_blob": "17aa45fa84587ce485a786bf2743f6094bff0f4e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-build.log": {
+      "sha256": "b3a011d1d95d36c9940e54ae9b96871ba4489a1cbc7b472254b1a1bab3a8d6cd",
+      "git_blob": "0388525a46d6f23da16f85d893b80d713ff2410a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-freeze.json": {
+      "sha256": "d4398ef520a6168a197bafaca07c737c0202212c35d0251098a3a6635c7e3fe6",
+      "git_blob": "cc398a3bad051a757e58d792c9885ca94427dc33",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-inspection-result.json": {
+      "sha256": "2550817755560dff8fa2b803acfa3a42e35726ea7fb849b7d668f54d5abbcc1a",
+      "git_blob": "d335188ea6cf8b597d5c252494b8161dbf82b0cb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-inspection.log": {
+      "sha256": "b44ec2a85051f3d14474066148b22aa63c2543eb6160f9b96e09a21af595e2de",
+      "git_blob": "3353ce9b399a56e5002f14d440ff5b7c41a3bacd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/Inspect.lean": {
+      "sha256": "b2795b9b50054a2c48d999598e11d8c9b3261cfd1f92b633a5e0d6f50b8c30a4",
+      "git_blob": "801b6b3dc6378bc3939e03964a2710edd3d425f1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/challenge.log": {
+      "sha256": "95d5aebb25155ed32ff3dc2476a9e914a2062a64c897f0b98c271ae7b0464632",
+      "git_blob": "e627d9f1eca11ebaaa869031a05a9749608a8618",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/dependencies.json": {
+      "sha256": "36484e9a4fce0e095dbaf61d0c702559f2aaabe06ede13f312d7b6dc95048220",
+      "git_blob": "03dd0a2e5701bdde219487a73dac0fdb565024df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/evidence-manifest.json": {
+      "sha256": "0f6d1778a5f1ec763ab36944186e8003acc57754c5e2781ee3f38a14a4b465ca",
+      "git_blob": "7ad7a99e1ed473156e441aa3437bfc21d6f0c140",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/fresh-checks.json": {
+      "sha256": "13cec16f9708343a249008ff8a89737f4f202727dbcd0e98cdbb06e702966db1",
+      "git_blob": "0a2f456ae76368c5e6ede5547ef3086e67f901cf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/fresh_review.py": {
+      "sha256": "9ff749ac55c12fb5727cee806b6dad0088068ed2c2e3b2e69583c064bd013340",
+      "git_blob": "dd19a7a3f92658ce74450a2b81b9526157903cdf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/inputs-after.json": {
+      "sha256": "dd1f144ba12c28c60c15a6458cd0c8f16157c729fd2cfd3a576b169d30fc49ff",
+      "git_blob": "943fbe77c7ba132f3a00e49efe32c6ad1dd332eb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/inputs-before.json": {
+      "sha256": "fc4a514b308e96bf6737a3f25d6d98b62d79a964e3ad5e18c003473ff0fda78f",
+      "git_blob": "8c347c07b0084095e30c4299d1776c00d78d52ef",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/inspection-compact.txt": {
+      "sha256": "abc9552a912546c20749361f883960d1ff2013b56b6e3462c0b37771111b6432",
+      "git_blob": "36092376b9530026b739eaf6ca462156c5843037",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/inspection.log": {
+      "sha256": "24cd52d9652e4b76cf24e0ea10daee392264895de8bb6d2222f549a92845a919",
+      "git_blob": "107cf88b947e38bf572cf5299eee74a692c0337a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/instance-checks.json": {
+      "sha256": "edef97130d1aaa36c571e296dfad14eb8715976d35b01fd0fbe25b0f1a94eb13",
+      "git_blob": "6f3bae030752117e498a4885a09fa9039d72ba2f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/library-hashes.json": {
+      "sha256": "5f9a81848a1ceebdf124e39c5c056db93453492cf6282070afee7278975c587e",
+      "git_blob": "34047035568432ebfe4fcb750b2028560c8facad",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/primary-source-check.json": {
+      "sha256": "b036dca19aabd2a0a267f66d695785a3d0043360bd97655c45d09553ceaa97da",
+      "git_blob": "39e21c8ed2a0774c4ffbe151743438bd8cb6497a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/rational-check.json": {
+      "sha256": "d8483c790bc2944e25b64bc9e21b220c16fd3c33e92eadefb7ebe1fa40fae4c6",
+      "git_blob": "7a50c1bbddccd7c30b76e63b8bfca2f32cf76112",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/rational_check.py": {
+      "sha256": "69ed1495733cfbf6edfe88ae374fc55e7c4da0e577d9a825eb45aeee0679594b",
+      "git_blob": "0496a99b2c4f1e1dcd51b615a25af905634031bf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/rubric-hashes.json": {
+      "sha256": "7634aad1c3e7b4d0e6530650258eb00f111f912ae88a27263eb154263136f358",
+      "git_blob": "6487077e010054fe9bda4b33bbd6abb145d061ca",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1-evidence/verdict.json": {
+      "sha256": "f4818e556463a8ba8f87d7ab6755f87b6e6285ec10ab59532aff1f40bda3c40e",
+      "git_blob": "4432ca1f7a2d0bf54f32f891b3583419db066880",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-1.md": {
+      "sha256": "836617b6949c6669fcd7c3cc87e575621474a0974432f2a607e5d497dc10b4dd",
+      "git_blob": "73fd6af9c411e632098a1628c3f3cfecca38d46d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "ba2ac51450259f4af9c8555dadee196be9a28c39ce69232990589a3d16814225",
+      "git_blob": "f9a1aedf0b6f6c36436fcc7ff8f451981bc59c28",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/challenge.log": {
+      "sha256": "95d5aebb25155ed32ff3dc2476a9e914a2062a64c897f0b98c271ae7b0464632",
+      "git_blob": "e627d9f1eca11ebaaa869031a05a9749608a8618",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/checks.json": {
+      "sha256": "87c1dfbe93b454a270a9504e9faad73867995bff72649c5e1217cb00e336bd96",
+      "git_blob": "6f9e3eab70df1658480c65fe637d09923d52b505",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/evidence-manifest.json": {
+      "sha256": "6f43de615e39c282c3a562e21a98bd3949f58fec272277c74b0c82341eb07758",
+      "git_blob": "96e3bb2bdbddf7752f28acc5022c601123223b59",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/freeze-check.json": {
+      "sha256": "2f20dcaf6b9fbeb55db473d3ea2441dd39970e21df605d498cc24694ad0f52cf",
+      "git_blob": "0a1a5c265bcdabb2354f09451ec938be77aa776d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/inspection.log": {
+      "sha256": "19239297d5cd35d617c22f9dec7d195dfa4786bb9d1bb17ee8ba5ff55ead64cf",
+      "git_blob": "f47ab32ff6406e9c7679d956783a4b500a4b7073",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/library-hashes.json": {
+      "sha256": "175cd39a3247833467d8a45d342b20014beafe9ddc7ae2581fdc7e07b34dfcbe",
+      "git_blob": "62142367acb5e6fe2f32424d26b759b4389192e3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/rational-reconstruction.json": {
+      "sha256": "612ce277e8b13a367ddbb6592dfa45a3abdcfea0da3a4c939eb05e6e57534efd",
+      "git_blob": "5e81429b6eaadc2986028868d7bfc7c026e58f2b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/rational_reconstruction.py": {
+      "sha256": "b28d4f9e367979acff251f4737c930c78b6f44a90adc8687daa54727652cdeaf",
+      "git_blob": "b08b2445a89b6cc076a8ec2ec8efc963935ab2d8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/root_statement_review.py": {
+      "sha256": "7e191b8bdafc8e0c525a93ebd373eb6f69498a10e5cf9cee67bd3a5d2cbdd899",
+      "git_blob": "f45942b4bcaf1da3e5d404cecb293a640414e407",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/semantic-instance-check.json": {
+      "sha256": "2dfc0cb631fe8d214112891de4d58e6bef9f331be4f3a2d559c879d81793a3f4",
+      "git_blob": "985a5732ba782716d9a3d422fce5ed8450f784a2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2-root-evidence/source-identity.json": {
+      "sha256": "5ae8c7d1cb0959b6972de2c3b5daecb45b449fd2bf440bae829e23c7b3f01369",
+      "git_blob": "f43b5f032ce2fac732e72a19b64a9026eac4b9d0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-referee-2.md": {
+      "sha256": "6189771ad2354c5416d204e32c8e930da05752cc7f0a05cc34d03ba21746b20e",
+      "git_blob": "2e616712587c8b6c0fba73c7aa0333fe65dbd0c4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "reviews/statement-review-request.md": {
+      "sha256": "5ac0b9d63466d71b22b6cde7a1ffec5cb58c1fc4f015c0621f00474add23e6e4",
+      "git_blob": "45058c97f3492cda522d977f9663c2b1d13399f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "9d75182ae4c4afa2e218490ec13406096b0ff3f288d79a98584e7045fc63e37e",
+      "git_blob": "8330b694469b9a49f786af70d2b8ed80f172f34c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/FETCH-IDENTITY.json": {
+      "sha256": "43841e7a3aeec1f8b067e0258fd641aaaedc7d2b17963c340cbd04ea9871e3f0",
+      "git_blob": "261703122e2425fb96ef8b00fa735c4e70724c2f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/OPERATIONAL-REVIEW.md": {
+      "sha256": "1139c7f2f075021479dbd4501e2530859e9724e87ba52e7551970e38882eaeec",
+      "git_blob": "2f8afeca8dcce7ebea1a494e493ec56c089efc11",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifact-metadata.json": {
+      "sha256": "538651b02330c6a6ac82c1748fbd9c767fa3434aa8c69165b394a3faa676fc8a",
+      "git_blob": "8df33422bce77fed09ab78352b6978df2acc2d83",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/bootstrap/comparator-build.log": {
+      "sha256": "3fffe5fcda5c352365988556d7ff61212d938da7a0e610d04e9fa00ee3199f8c",
+      "git_blob": "ca96fba7478e57cb817225f7ad1fa3c383e56505",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/bootstrap/elan.log": {
+      "sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "git_blob": "5412f252bd6aa845de15d52bb7bfdf515abc6d6c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/bootstrap/landrun-build.log": {
+      "sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "git_blob": "8ee3d76d779779f5148a9c10a359e7594f85c930",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/comparator-controls.log": {
+      "sha256": "ebbab02d5879b132b770824f5d6869ff346bc26d9f36215a5b7bbc5f84e04c8b",
+      "git_blob": "a266ea9481b23251786fe2d1e658dfd3760d0bc4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/comparator.log": {
+      "sha256": "2e7b4422f278c880567371731c2fbab3e70516a786b7d967c8d74cd1817ebf4d",
+      "git_blob": "60693809b3ae12616456313b951879bd905ac20f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/dependencies.log": {
+      "sha256": "740fcb700c777ae28e11ddf7c40e50a87ba79bbe97b1a1e1d21a314fea802b4d",
+      "git_blob": "606af2ccf7b7b4b02875aea0e02d776fb16be967",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "git_blob": "c444cc97c2ab46e3aad9cf81d608917e08bd5280",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/mathlib-cache.log": {
+      "sha256": "c02494adea4f9993a4288ce1659e8ce7591956df9c13d458c42d6d5d04b430b1",
+      "git_blob": "61d0031bdf0c91af9f10606d9881d7740d203c67",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/negative-native.log": {
+      "sha256": "6b24e7cd743a9408a11648c028a762c311cca9803d0d7368f3c8f7b4f6413bda",
+      "git_blob": "4ae402d0caff9f4fa2495b6c89d40e89559c76d4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/negative-sorry.log": {
+      "sha256": "86b0d1a8dfa034ef07ac2b55216c6ebf96d6ffda6825513d50ccc1355ad94ccf",
+      "git_blob": "169bebb34b65f3457e659630ef7e5ee7706779a9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/result.json": {
+      "sha256": "a8911a8778592026d999ba1ee5c4ece0d1b60bdbe1cb4628d41ae97a5e2cb3fd",
+      "git_blob": "1c46d473282c23490383b515ecacacfb7b7c68d9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/sandbox.log": {
+      "sha256": "d25124ca6fb937185f79759ee5d53045298c4d74f950ef93678b63b945c004ee",
+      "git_blob": "1aec2eb311c4a9b469303f2b0be7d33f98f50282",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-MI-23/verify-20260912T202130Z-4146/user-service.log": {
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "git_blob": "e88027eead057bb02b6f155c3d5eac0bebac2165",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/bootstrap/comparator-build.log": {
+      "sha256": "383c57ea2d2ab66dc01794ce6bf095fecf1021118cbb98df8903db2cf82ca683",
+      "git_blob": "122829668974798d649cd4ffe6b566513753523b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/bootstrap/elan.log": {
+      "sha256": "b9711b498167d8e7f8fd98d6ec303edfe75693784469d39bb7ec47d487c1420f",
+      "git_blob": "5412f252bd6aa845de15d52bb7bfdf515abc6d6c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/bootstrap/landrun-build.log": {
+      "sha256": "baf6c06b231f4e2c2af81c514a62c8194bacce0677b2adb9d8948da24f91c302",
+      "git_blob": "8ee3d76d779779f5148a9c10a359e7594f85c930",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/comparator-controls.log": {
+      "sha256": "0bce815e9b4865f2c14c456da594a1219a276626fcacc377ef26db85798460a7",
+      "git_blob": "e0dbccbf5d2807b7717dde2474c06cdb4b838a40",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "git_blob": "c444cc97c2ab46e3aad9cf81d608917e08bd5280",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/negative-native.log": {
+      "sha256": "f86425f07f63ede8a0e528c145f344b48f805389e6d7700495875179fe755e74",
+      "git_blob": "7e76ac539d8a8b7719b17ad36abd62fc636de741",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/negative-sorry.log": {
+      "sha256": "2a15786c9621aed928726593e9b3aec920a85aa552bdb20c46344341dcc56d79",
+      "git_blob": "44ce19c8e61560254c3b8eb25b90a68ff715f6ba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/result.json": {
+      "sha256": "c9090308b43b38cbd3f5665dce2c84f7042e33b901e79cf1dac529fd8137b113",
+      "git_blob": "63eb5e2ba3bff7b34676c589d75ea6000e4baf2c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/sandbox.log": {
+      "sha256": "573a3f8d6ec5acbb116bb9f7f2114c6d75dbcd8aaf66ee292b58cd8b73f6fa99",
+      "git_blob": "3e16022f86795d2b6e265c3298c2bf295cfb0e15",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/artifacts/lean-checker-controls/selftest-20260912T202121Z-4114/user-service.log": {
+      "sha256": "4700d2ea9f713793f38154d753a4e1aa1ff05342dc9d3ac4cfd5ffde7d53851a",
+      "git_blob": "e88027eead057bb02b6f155c3d5eac0bebac2165",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/audit-checks.log": {
+      "sha256": "a70bb036c7bc9b02b45c115fb385bc2d51596bcc3d6bcadd21145e8255dec4df",
+      "git_blob": "78a6e44870a46d51f0b438728220cfb0c5602573",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/audit-execution.json": {
+      "sha256": "f929c0d76d00d12b989afdd16b6ac0cfab7afc62fb3ef4c81d132270c15b2173",
+      "git_blob": "f6402c71443cb7875bc8ed8012514fbcc65fc750",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/audit_checks.py": {
+      "sha256": "c7aab3e451189b76592e11c73e5bb576ba36a26a6f7859dc78a2b399273c9a38",
+      "git_blob": "1a469770175abd7ed13d00e33d5ad3ceac8ec569",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/axiom-verification.json": {
+      "sha256": "be56c4cb1ce06986404b0b0361f4fa1f0cfc52ab9c7dece6c533828d6e1c00c1",
+      "git_blob": "c427bb9e30251aef9668e97253657d911a9a1de0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/control-verification.json": {
+      "sha256": "53cfc59ef3c076fe30fddbf7f698ae982138629b42dc9ea0f3d5ab29dcec1aa4",
+      "git_blob": "e1b279b3520169839feb0002623d76619ab9ce78",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/fetch_artifacts.py": {
+      "sha256": "c5566e8e9be07559f6a312a5c5efc900d7b99291cf22d27346bf5b336e913107",
+      "git_blob": "30c92817e41843f78b9b4819d412f44c9d3e474c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/finalize_evidence.py": {
+      "sha256": "025e700eb524b45935333adf605d9822a29af5538df29dee1056715a520eec07",
+      "git_blob": "45e156ea9387439e83d0b0927b06edf88fb7cf0d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/identity-verification.json": {
+      "sha256": "96c47cc781df706895e5b4eb9f25ba92132e56cc68f9adda053372664948657e",
+      "git_blob": "2a49d2d206085c8a35d6555da4b3fb34ba7e978e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-103615351787.log": {
+      "sha256": "412e6f5b78653de49fa6dfee5ada9d5bdfe1f6c328f901e569febf786d59b171",
+      "git_blob": "d159cc8a225d250e959e684002e99ead13f2036b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-103615395897.log": {
+      "sha256": "477ec08c7c9d15aa10f668a4b9319f4aff252c623d133641800b0a4dd5c08e01",
+      "git_blob": "2b8548232b3aaefe18ea4bff88fcfdd2544aa63c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-103615395920.log": {
+      "sha256": "357a39e8b2d1cdb98d08a9f80c9e2e8e011d264dfe38f143fd17d56838d77b05",
+      "git_blob": "b5a7d351c87cb3685bc07a1f1fd5d9ca59787766",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/job-phase-excerpts.txt": {
+      "sha256": "8d9495070450ae78ce7daa674c6acf914c8a24881fac4bd93b08b7c2e43f170f",
+      "git_blob": "40892fb27e82f2b1dd54a9b71498dab5ba932fcc",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/jobs.json": {
+      "sha256": "e42f8a0a7f265458b7c59ac421c0bf284ca2bccfca390d1c46c9b210f79d933c",
+      "git_blob": "cff0a387a00387cb8198c5b546191e443a14abe6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/lean-MI-23.zip": {
+      "sha256": "9a7fad97c70da8ebcdca8880017a045ca6bd997118c23a44c4b652c79d3c4d2a",
+      "git_blob": "7bb1d0f82e974594dc5ec6f08858d4d76bfdceb9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/lean-checker-controls.zip": {
+      "sha256": "0c607888bd0d8bbaa903c75820f138056834a9f0c4adb2c27bb14122e8e120ee",
+      "git_blob": "88f51198037c80f63e35655c469ad02860c21c40",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/run-metadata.json": {
+      "sha256": "5bd29694a7c1777c7f4c8f1374233f6bb227edda49cd55c78a6760895a18dce4",
+      "git_blob": "0e4b8cad0e5465af3e9233191c42869b4806fc9e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source-precheck.json": {
+      "sha256": "e92adca03261b6d08f5b888e1a75827bb46b476b89640c1795098f7a8b50dc26",
+      "git_blob": "9fa04f695826d0848edd5c82ec741f50913612e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/.github/workflows/lean-verification.yml": {
+      "sha256": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c",
+      "git_blob": "c1cc4d369d93f6efe64cb01e847e7874aafc74bd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator.lean": {
+      "sha256": "6c73ecd5bd429cf85e0aaa75b7c6f874ec0598d5afca60dcf5711d44e6bdef23",
+      "git_blob": "3baf3bd9b036f3b6af9bfa81d76f8ac198d97274",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator/Axioms.lean": {
+      "sha256": "863c5e1329811be0427880e08c171de733343491c5a3619b5dbf2e12b34c6125",
+      "git_blob": "8da75bf80b27f2a71ad2312653b105442c5f5992",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator/Compare.lean": {
+      "sha256": "9bc34cb7de5a069a6fef7f3b13b20fea22f1d52603f74320a93d519b735ad3dd",
+      "git_blob": "8bf63632315171a533d41479c7d831d9e6fcd175",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Comparator/Util.lean": {
+      "sha256": "693d845330dd7122565aeb19314a3e3de4b49f9a8a7ac6e1fadbc9ab374b9f88",
+      "git_blob": "131a0708db68cc331a8f9d1743f719b37aa68cbd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/Main.lean": {
+      "sha256": "e6d9b43bbd8bbdd66ae6f87d7a3e69d6a2e0ba7fdc666b2559f2026f8c83b361",
+      "git_blob": "389afce89c9adae3102b69c2a58c3836b3365c34",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/lake-manifest.json": {
+      "sha256": "07475af243cee7cbd6e80c52efd4063d103c23ba5c50dd412a7c4ab7fb3f7d50",
+      "git_blob": "1cd002c8e27553616e895f8feed624da646fd916",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/lakefile.toml": {
+      "sha256": "4e6fdebbd221c88558c8c3bff1482375c82d1fc90390919ada60344d1b9c83ba",
+      "git_blob": "f32618b282a8e6b12974686d1d02179c6a649736",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/runtests.lean": {
+      "sha256": "8540bee573b302716dc3db78845229e3f6df20e3df962b342dd42d780848177c",
+      "git_blob": "0d722fc8813cbc5db1f07f841def34b7a6027b6b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/Solution.lean": {
+      "sha256": "005b3b1b863f37c16fc6330cdc84d05e060f4a779d942a219432f8858325e244",
+      "git_blob": "55d70a76c3c25a381ee60bc6409bc445d28f0fc6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_axiom_issue/test.json": {
+      "sha256": "2f23c866623acb1f410e8d54f7264126e525966f38589837bb2bac5a12d90cba",
+      "git_blob": "fe08d6a74ce728c9edf3d0b854ff11726ef6e4db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/Solution.lean": {
+      "sha256": "005b3b1b863f37c16fc6330cdc84d05e060f4a779d942a219432f8858325e244",
+      "git_blob": "55d70a76c3c25a381ee60bc6409bc445d28f0fc6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_kind_mismatch/test.json": {
+      "sha256": "2f23c866623acb1f410e8d54f7264126e525966f38589837bb2bac5a12d90cba",
+      "git_blob": "fe08d6a74ce728c9edf3d0b854ff11726ef6e4db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/Solution.lean": {
+      "sha256": "4460098a661949cca3d8d81a104c666bc2f42ae3ca1c988a20c66b0f8ad2e4d6",
+      "git_blob": "bd29d73d3041ad7686eb198eb61a58d70c44bd7f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_match/test.json": {
+      "sha256": "66eedf861d9f204e07568b236433dd99adc1fc925cef72ddc760b39a3799958c",
+      "git_blob": "5d4bf2747c3d089473c26fd7d1bbc6448148a548",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/Challenge.lean": {
+      "sha256": "d6400c174574f3216a2c02f61f559415c0352f74051baeee3f959055d8534b9c",
+      "git_blob": "b45c2999f4593cbfc806f4bb8cd1f811fe5bd215",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/Solution.lean": {
+      "sha256": "f4f32cc82b9fe2012a2b9901c6e51d7b2fbe3d5b3aca105745c513554d6055ca",
+      "git_blob": "05d869dc3ce1ade3455229daa76894ad7f30aec1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/config.json": {
+      "sha256": "6e0c311b855acc0446e352844d77a625007466f759ce985d071895bc0f70991c",
+      "git_blob": "4d1f219ab92f704e3f96a71987e80aa4403b46e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/comparator/tests/projects/simple_mismatch/test.json": {
+      "sha256": "2f23c866623acb1f410e8d54f7264126e525966f38589837bb2bac5a12d90cba",
+      "git_blob": "fe08d6a74ce728c9edf3d0b854ff11726ef6e4db",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/LICENSE": {
+      "sha256": "f613c30920743111429f7c1cb801f49ccaafe8ae3319b3b0a5f8aca94e5fc082",
+      "git_blob": "7efcb24904d270788935e4c6c7e36b95f871667c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/cmd/landrun/main.go": {
+      "sha256": "40ecf8680ef5857512f13c8391105404d907074f03535d95e0f0dd570cc441ff",
+      "git_blob": "2ce2f33c7ebf58273cd9b2ee77980c78a6d8c6c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/cmd/landrun/main_test.go": {
+      "sha256": "1d2548c48b195f33ee7ec903b761eee6b82822f4e671f7a8dbf271b40a66f602",
+      "git_blob": "5cebb18b74408d8b08a2d9947c7f0ee801a620ce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/go.mod": {
+      "sha256": "92873259cb8ed0f2765cd99a1b3dc36b768fef859d13ffecb155df33b5b309b1",
+      "git_blob": "cc2eb73dc92b59c74de696c3e441f706f62fee34",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/go.sum": {
+      "sha256": "a6a5ec06c4b78ca140c76fdbe171b82a5521a808abc5805ea6eba568e29763e5",
+      "git_blob": "fcbf6385db0820864b0bc5d8f81ec1f95b4e8c97",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/elfdeps.go": {
+      "sha256": "99f6fcd463fd64c296142aae9f074de2d8a1f728246c347c913ad4ba4ac2f30d",
+      "git_blob": "db9679fc51a714164279b10f62a6fc797fe9da9d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/elfdeps_test.go": {
+      "sha256": "c225ff886e97b506ccc93b18d303ac98183a7139535b5dde406c37ee07165ee8",
+      "git_blob": "07d800b621d58e3d1c1ac5e68fbe8dd892c9e6d0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/testdata/liba.c": {
+      "sha256": "453782a58a745f850fe2af228f8908e783e81127f468ef4e747eda1feae75255",
+      "git_blob": "b0cb1d5c6c3c6ff643a6891cdc99d48417874ecf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/testdata/libb.c": {
+      "sha256": "c3b8a9f314e04f1c043be604d24914955fdc9451346fbf85a49044518044883c",
+      "git_blob": "92f1cffe333737e6de37fdb0d67f35324aaca62f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/elfdeps/testdata/main.c": {
+      "sha256": "1389c20d320b5e2783952206b211bc26da6391f295cbc54d7216753e7edf8d89",
+      "git_blob": "2f1e8974d517fb8ff3a699b671801cc11963343c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/exec/runner.go": {
+      "sha256": "671877fe01e50c8cedab09891c3666846f76e391558a6fdba74dc49ab792cc34",
+      "git_blob": "b7497c2c0e5c95a639032925b00c0873768cb98d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/log/log.go": {
+      "sha256": "b6e8c45c68b34e5cdb2019d1ed25768f54a1b5496d51c3016680dfbb1fed5fda",
+      "git_blob": "ad5e98137b121f1b84d9965dc46b41469714c552",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/log/log_test.go": {
+      "sha256": "20e7940846d3f44b6049bfb0f9b828f8223a2cf638b0930e91f0bbd93704dce5",
+      "git_blob": "cbe3fb33f4692a617fbe1cacf22a962563fcae74",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/sandbox/sandbox.go": {
+      "sha256": "a6ee5899479d44fc3fdd0011dfb7586716df00235cddb59997c115f5a4f430cc",
+      "git_blob": "2487567c1953ac17f0144c7ed6902d6cc2459be3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/landrun/internal/sandbox/sandbox_test.go": {
+      "sha256": "d5407e6fb8e655d17afa7858fc751168ea36e9e28576ff96e199f5fc4a335b86",
+      "git_blob": "1249d7c301cac63b59ecffcf378e1b56586a5d62",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Export.lean": {
+      "sha256": "6e9f24262253678960b05b8392a1774a3cbf36b21ed2fc1b834906659b8ca95a",
+      "git_blob": "cda19933d5d21d78655034ffa695fd1d42b176ea",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Export/Parse.lean": {
+      "sha256": "1f943b5cc776eece6d528937b976509c8bd57d10bc69a39b1c119bfb6d664286",
+      "git_blob": "1eedbabc47e0db3df6405063913380ed0fed46ac",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Main.lean": {
+      "sha256": "bd8e350903f1382b25fe767f9086dd9882000f01085f7046ea06545e7848842a",
+      "git_blob": "806fcf7b107c111d454db9ac29c09e73bf2e25aa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/Test.lean": {
+      "sha256": "44f8995f47633ca77364740af03a719e90a2c58690fa90b237487b541bb04804",
+      "git_blob": "c69277413144b0bfbfc1586d585e4b8d630f623f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/format_ndjson.md": {
+      "sha256": "f82a21e17e4258a1043895d0653ea4333bef8cb07aad2e3d6c1fc4be52b138e3",
+      "git_blob": "6eee6b0f1dcaa4570590dcf878a1fb3ba381f07c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/lake-manifest.json": {
+      "sha256": "f1b9d60d0ebd46f79f48e6833deefeaa835fdee12b4078241635ee14b6a0f07a",
+      "git_blob": "5b9d18c8640739bb8f3a08599d6215f15069f04e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/lakefile.toml": {
+      "sha256": "54dde3aba280f32035c882dcd2f2039e738e20ed45ca538337b65cc69c02f7df",
+      "git_blob": "2ec701102b5963981003d4b89948de18b713e69b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/.tools/lean4export/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/PinnedReplayProbe.lean": {
+      "sha256": "c2091eef3120a7850b3e73118de3cc787ee28ef5c97c6643e102cbd639c90a31",
+      "git_blob": "b119364761874afbb0d7578d9dcc4880e1f6343f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/comparator_regressions.py": {
+      "sha256": "1c3fcf394f7073a7decbf1be0bc66f18b81ed537a489b9f652911035543c3890",
+      "git_blob": "7e65f067e88b1647582fa6f87f24063a5c027c5c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/run_replay.sh": {
+      "sha256": "6aba451c334d12438f63e8c14ba2e61bead41214540e2721e0857ed1726222e9",
+      "git_blob": "a4730628dece9f3625053a26f95123271988640f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/reproduction/checks/sandbox_probe.py": {
+      "sha256": "5ea755758af4966d6f3a857529f9da583662a8c7e906dcc0dc7b2a6978daf61e",
+      "git_blob": "a7fe3344b2a848a0522d0b8d88cf43ef308bdbba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/scripts/comparator-lean-4.33.1.patch": {
+      "sha256": "755fd2bf8f2f82a05f30d66e7c1492b704c676f2ca2ea9e7c32694fa761a0620",
+      "git_blob": "a5c5835b261d3c79a12dcb4cde174af85e2920ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/forsythe/scripts/strict_landrun.py": {
+      "sha256": "4d6172274dd6109b1171dc01548512aa1af31f1e8fed88aa40b3c8b831345e1c",
+      "git_blob": "a1d6dc2730d7c23aa72a24aea3a09a6cce850150",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/git-commit.txt": {
+      "sha256": "7d723b7dd7ea48f00c6a1140fee8e311311a287fbeb5142b72d2aab795ee8dc9",
+      "git_blob": "99cbd6b68e58a3bf9e11efe79f3f0ab8533e70a9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/git-project-tree.txt": {
+      "sha256": "b79661d7a3a1c50ed076cfceed3a31da6c32515e04b6d281948ff6b25af16a55",
+      "git_blob": "8f15f419a7316c2d7c6e89597d6ad70da4572316",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/README.md": {
+      "sha256": "9edc47646606cc1a4317777b4556652038bf5f8ccdd96b9917ab902767c35fb5",
+      "git_blob": "4730cee4539e1152a98e169f366b1c13a5d77416",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/.gitignore": {
+      "sha256": "2f39a020b618e218935a1b4ba1a8c6e2810025e9c35dbcd0f19ba2bec791b5ef",
+      "git_blob": "acf88f06797da3644f9fc81caac78b3441eb14aa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/Challenge.lean": {
+      "sha256": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+      "git_blob": "b49915b16c41a099248591f77e7bafb109ed9dbe",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Arithmetic.lean": {
+      "sha256": "d5895f0636fa3aa3887721c610ee9f526cc35a6838e1d4ad7e7ba7f0548af3d9",
+      "git_blob": "1d7e2409fb1ede7a59bab79321d0815b9a71c958",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Definitions.lean": {
+      "sha256": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+      "git_blob": "1778f077aa74135abd1e50ac6f7da5942f7f483f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/FunctionalCalculus.lean": {
+      "sha256": "5603fb214d01f327ba297af151e278ed8f8310368272c59180dd52ebd87839a1",
+      "git_blob": "17405cb683d7e9d92a8ce32ebe197607ca6a3c15",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/NormBounds.lean": {
+      "sha256": "1fd4f9d91818470bfee7e3bb164baaaf120b80ee088ff827134be0e2ac867ad3",
+      "git_blob": "91ccc76e0b31cceb1b6556af561791e08ebcabe9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Proof.lean": {
+      "sha256": "a82ba18b834453491e4d7bb50de23c08555b92bb70e573551d11e714a404984a",
+      "git_blob": "a8463295f93aaa8cdc60ee784ef21928159be3da",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/SpectralNorm.lean": {
+      "sha256": "af43452f42fde8c361d3ab21c4bcf9839f355b7c06f905dbc56c1eb591c6c5a3",
+      "git_blob": "ad259c1fe2ff2fb82a4532dd05ed0ced784b3b18",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NLA/MI23/Witness.lean": {
+      "sha256": "4d7d79b742e614712d5ecc052c04df135cde6b6548ec7cb19f6cfbae0ef987b7",
+      "git_blob": "f94cfa371d9c0008398f8583d3cecf4d78a048f4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+      "git_blob": "8078c8b706f8ec2de24937c1f13b00794df2e861",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/README.md": {
+      "sha256": "708d146fbb3d29deb6da139321d09fcb6a0413841bea2cd9d96099976713bf6d",
+      "git_blob": "1cf2cc046a54aa97e7494ce84cc51279f4bc48ae",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/Solution.lean": {
+      "sha256": "575f2fd27922d2725d93ada823bfeb4da70407d7fd9c31fb7cf1753a5fdbd243",
+      "git_blob": "c30a19c5bd06ab6ec5ffcf69b219082b8b318b9b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/comparator.json": {
+      "sha256": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+      "git_blob": "9655f444ae2dbe8dd526f79e566045ef03a33eb5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/formalization.yaml": {
+      "sha256": "a2d12026107da71b7c44599286934a41679116ae4603db0c60c887e974a8c561",
+      "git_blob": "798d174731d85d778d04dbac4b32c99d8c15dd50",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/lake-manifest.json": {
+      "sha256": "10e87dfa3fc8ecfaf18277f1a0838a3a009979e43555fe97474618ac9af250ff",
+      "git_blob": "c18ae021ba0ccdedbb3b6c58584a0f9bf7164cbf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/lakefile.toml": {
+      "sha256": "cb0ad4fd0b6a7b7b8a6e8307536c9e9505718c12b1089307561bf2355db301f8",
+      "git_blob": "f4943229f8870c5d1f7e3843ebeba0b5ef52964c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "git_blob": "a8afa7d1b02d96f0671eba854a8dc4b416beb473",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/InspectProof.lean": {
+      "sha256": "6bc10523619cafe1786c76ec2c6d9f359b97a6bbc7edd6391015f85c78233ee4",
+      "git_blob": "07310acd9dca576035d82fa766a221cb177a9d43",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/InspectStatements.lean": {
+      "sha256": "28359c458eeb477ec5df9fca077cef3625a818e20897789ceeaec5c0563585e6",
+      "git_blob": "bcd70ce4cb79df577b63df00f944cb87b293a98f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/export-signature-check.json": {
+      "sha256": "0eaea32fa616ea77481ce2120d3224604b5f47ffa5038516ab8591ebe2efa1ab",
+      "git_blob": "aecf85a3251b5f0575bc58a130b7ba592432c07e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/implementation-gate.json": {
+      "sha256": "125e389c63fc19f4052ee79a747d452d0d0d53bdfca8a14709e97e63e1acd357",
+      "git_blob": "821c059f4fafd74aa415454960d2304a60d52803",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/numerical-precheck.json": {
+      "sha256": "39a4e5d1eb699a87caa3117c4e18f0203c8fd64d66a008cb2fb235c2ffed0761",
+      "git_blob": "3399966eeee187641fb1a44ebcfc9633c9a6b424",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-completion.md": {
+      "sha256": "3e3b38c8b3731bc83b1157e10441aafce68d20566b73f040f85cd827d15c1061",
+      "git_blob": "4c632957d11d100234f985b6ce7b35d92204ab93",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-freeze.json": {
+      "sha256": "18fbf9a74e6006ca2b4159be62730c6df4faf38d472250b8ca1e7e54bf392ecb",
+      "git_blob": "52783865f93c8d7da974acc5f54c42ee744b21ff",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-inspection.log": {
+      "sha256": "a40151556315b98c4eb2f0b42971371c44e4f84a1b15b95a8adcf8af5fe8da79",
+      "git_blob": "490fc2d4d457be0fca07d62d74b6dcb2dc746be0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/Challenge.log": {
+      "sha256": "4e5cf99841788814142193c1750d27d73c7b0233f0a78845905f30d132340af4",
+      "git_blob": "af45d1f389faaf76de953f4f47029e80695e0846",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/EVIDENCE-MANIFEST.json": {
+      "sha256": "95cb44b6c396d6ff41d832ba34a1ab32119d0df4b5b557aac5ce5e4f749021c6",
+      "git_blob": "92e0ef95850adcbcab2a9ccc3558e7498d3151ce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/Inspect.lean": {
+      "sha256": "e4476363c39b65076c6d175a7eb67aec5bc212fb5a2e28148ece0e44bad08bac",
+      "git_blob": "6f5b1615db2268b579b837d036aa1986eb2bb632",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-Arithmetic.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-FunctionalCalculus.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-NormBounds.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-Proof.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-SpectralNorm.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/NLA-MI23-Witness.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/Solution.log": {
+      "sha256": "4411295dabdf60016a069fe6d1238016eafcc75a4746204acb2ed3c54dc0749a",
+      "git_blob": "1bc6a1d6fdc2e939f88b73b1e3f78226ad5766a3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/axiom-audit.json": {
+      "sha256": "35dde16d8f5ab930ec77a7458ae604024cdfb19104081cdf9fedf12ffbbc00f6",
+      "git_blob": "be1cd5a20a35d37ef0dad85053c86fb69ea5cb5f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/consolidate_review.py": {
+      "sha256": "57e3a895ddc8163f22106b64b2cd337a1fbe8f9c8c603463fb31c5df447a2149",
+      "git_blob": "19587bab0b42baa4c4e99c5d5952043994ca1964",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/dependencies.json": {
+      "sha256": "d9f12ce16c39075600ee15c02cc96a8a798d9c000caf086d1c1ada00e8faeecb",
+      "git_blob": "e2394ab0c815e26cb60e17fb3a1eb21e9576f55d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/finalize_evidence.py": {
+      "sha256": "3e4fbdc57272f4d7252c36442cfabecb13fc28f97494da60587675b5d91e3c14",
+      "git_blob": "35eb379ee4e591863f2a6334e4eb674d0efbe819",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/fresh-checks.json": {
+      "sha256": "e6ec6ae399870311f35e2cdc83d216fee7dd4e44712a87d96c7d1c5499e1bd15",
+      "git_blob": "723ffc38c1cb8bf5ea86337880e1a8ddcddb1e2b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/fresh_review.py": {
+      "sha256": "8e68ddf3626bdd4c98e587c5c3e23f3125d1ad6464a5acc49f675959556d314e",
+      "git_blob": "b31ec89c24e22798722c88af1aed223448c72af9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/independent-rational-check.json": {
+      "sha256": "fa8fc9ec727022709e6939e70f2ba584b6f17ca450e2b94da3286ae5c5add374",
+      "git_blob": "3de756467fe7429ca66f43764af4d1d1de6a2b44",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/inputs-after.json": {
+      "sha256": "ed147b0b618fd9985dfc62076715e1a3bb241b5ea308f1f3f0f4217c4398ad9e",
+      "git_blob": "3ee0d6c4b0252e5ea9f10bff7b2464716468cd4b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/inputs-before.json": {
+      "sha256": "d669120a6e73d4c0aa8124719a53ef110dafb6f8fbb4f3b54d3dfe81206fe252",
+      "git_blob": "7563ec8afdd91e19b0eb19b3ed9c6e02cd5bf32b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/inspected-library-sources.json": {
+      "sha256": "4446f802f72a40a2159a82488fb19d67bc6d3bd6f2f80be477375013b2b903e9",
+      "git_blob": "4c591417657e9a2fa1f737b1ef09d4abf4f36a42",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/inspection.log": {
+      "sha256": "40f23a3dcc2c4002fe214cc1449f81071396590a72a39b12e023f38aacc9bfec",
+      "git_blob": "91f4b194b937a1614aa51eb7895fb70dcd6e6dd3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/original-sources.json": {
+      "sha256": "793dcf611e70e7a4c779b369a73a1b638ce1271437b63c0883092c3093daf93c",
+      "git_blob": "cbf5cea93a64bf04daea2688dc0158903ebe25f0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/reconstruct_witness.py": {
+      "sha256": "065fd6c07c8a641fc254e8d9b9ee4d333e5cf0166d2829627468743086426db7",
+      "git_blob": "2c88329095707a4bec3410384315075f07ce57cc",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/reuse-search-command.json": {
+      "sha256": "3f0f4d5ac206e179f7b30bb07e2db25ba2442c93ee6e4eab3f9039f44c2bef3e",
+      "git_blob": "5c1c37e9c24f443904d4768032c9a632a0b3c04d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/reuse-search.log": {
+      "sha256": "0684d1a8c6bf4580b9068f6b795610b0ec3d482a9f8c75770f7df23bf4c2d2cc",
+      "git_blob": "ab32611100c4af09f61bc3bb41df4902c1473108",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/review-checks.json": {
+      "sha256": "7ed88777e6e96c4fed84178bbe2702334f61f4a876d505fcf39cb9dd1f1ee575",
+      "git_blob": "376cd14ff24d6fed6bc625015e6c6d1c82304e05",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/review-standards.json": {
+      "sha256": "d715d53c84dbd94d987a4f250e014dbdc6be39e869546d41281843091084fc7f",
+      "git_blob": "f895c1d55ef7ad82603d0568f0edcb3d4e787114",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/scope-integrity.json": {
+      "sha256": "071144d679b15d23803d46760ea41515937b281aea45133ad053f648ccf4a725",
+      "git_blob": "11edd1092daa93eed6b3342318b0df8aa927ea8d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1-evidence/signatures.json": {
+      "sha256": "9a1a6309435fe60bc28504496dc6390b25136a96e4df4f0abd0ed0349f7d6b2f",
+      "git_blob": "11994581fe5c315e8a47e64f8b3b146ff79df8ee",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-1.md": {
+      "sha256": "37985a31879f155da1b52d1cb9c955bb844d16edc862ccca327b3f0aaade8da1",
+      "git_blob": "68287cd489604337e0ffcaeeaf8c5abee4c736f6",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "2128227ef291dfd927241c9881ed18f3c5d74f6f9cbbfb512e58eb2879aa2fe4",
+      "git_blob": "e3bd3a73c961a8706685c053efc986aedc9ad1b5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-Arithmetic.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-Definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-FunctionalCalculus.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-NormBounds.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-Proof.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-SpectralNorm.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/NLA-MI23-Witness.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/Solution.log": {
+      "sha256": "4411295dabdf60016a069fe6d1238016eafcc75a4746204acb2ed3c54dc0749a",
+      "git_blob": "1bc6a1d6fdc2e939f88b73b1e3f78226ad5766a3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/audit.json": {
+      "sha256": "18e5ede55e61fdef7f106a1e18a81fe65b790eceb61751c2eca38b2e9a3877cd",
+      "git_blob": "d49eaedd24fc57a8af23cabe6b6e1ed759dee8e1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/audit.py": {
+      "sha256": "aa2e6c6a30311a728d5653cac40fa2575445e1d227548edb8748fd5f61d1cbe1",
+      "git_blob": "b8ace3f5ea6d4429ceec047cf12cdc292b04d79f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/axioms.json": {
+      "sha256": "1d395e89142ab75613ef8965cde2b78ac37e196554859e83526454fb093c1a91",
+      "git_blob": "6dca563d9a73b21dc98e416387e6cd3d9315d095",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/dependencies.json": {
+      "sha256": "3f52d945a028fd87536ed26f978f1603c52994ab1c0d40f22fb768dc1de5b6eb",
+      "git_blob": "d7ceab364efc453a9331b649cffe71c02af771ec",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/execution.json": {
+      "sha256": "4d8e19938ded87a3c6ba0c4fa94484b56e9e8072ab4f189596781d43b61051a0",
+      "git_blob": "21977a62ad6c1ec0ac5763c7b81efadea35979fa",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/fresh_review.py": {
+      "sha256": "0b534f00792e25919f408e2a9c764b06aa880f7836fb1a983469e3003c078986",
+      "git_blob": "1fc3b336bbd001b917f98d34679e9e4ced1252fb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/inspect_review.py": {
+      "sha256": "248d88c5cb2cfb752dffa27ab7f62704a32e16ade75e6d7909aae816ddb3f12a",
+      "git_blob": "5f790d0d6c5b14e3531991bd045d59ef2e5a44de",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/inspection.json": {
+      "sha256": "8db81ef7f873a3aede77734b202e777cdf3a0b048d5a699c7d62f74910c94e72",
+      "git_blob": "12317882c20b98e43ae4f2dd098488a16c62c6f4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/inspection.log": {
+      "sha256": "1a8fb1c06b4c9f5c6383c82320487c8e01d27b983f3558087cece753ef37f38d",
+      "git_blob": "a4cea3cd09f271267210e0d82a9ff9f9cd30a827",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/manifest.json": {
+      "sha256": "ac26cd126de1e236bb85549a5d9994c09b8b92d021e9f2de102764cae1180816",
+      "git_blob": "3c70d394d255b2c2c5d8d8f4b62b3fa9d846846b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2-root-evidence/source-identity.json": {
+      "sha256": "19c7241df64bd87dea5359e7450831106cc67d0784032269be673d79f127f7c4",
+      "git_blob": "da9d75606c381b42d233a44f1370fc9dbf7b1fec",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-referee-2.md": {
+      "sha256": "707f40dc07f789e0a201ebf2c158c86897e047ae898e7b776854f92d0f94ff02",
+      "git_blob": "e44ab7f9731cc4c0fe3e70a05061a06ba5a9b388",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-source-build-result.json": {
+      "sha256": "712673800b292a613896aa9c99e07bd47c030991b977ba25b77346e7d8a6552f",
+      "git_blob": "231913e5c16840ae21b1afe47052cc957e550df3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/proof-source-build.log": {
+      "sha256": "018169046d6e3b94afb6c9011dc07f2cb59139136a10b5c558176486e9158f25",
+      "git_blob": "b1471d1ae5a1c32c6d519ce8e7394646a6216f4f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/reconstruct.py": {
+      "sha256": "abd82d19bb9db3a34bf6da3acd4ce25d774a13138d7b4bea8a9633757283fc02",
+      "git_blob": "15603fe85f9379cdf9d0b431ee839ce4290772c8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/reelaborate-proof.py": {
+      "sha256": "6aa8df9920ea8752d385aea564d72ef539e6b7d0262ed66fd4b6cf9e14e4efec",
+      "git_blob": "a0cc943d65daafb24aec599f986a5b280dc97764",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-build-attempt-1.log": {
+      "sha256": "e55de614a41e359789231d7a05dd44fa453f29c270bab49e7f5a4bd56da3abed",
+      "git_blob": "a3cb9e8dcdfc69e30122c29093944ab5cd7ab40a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-build-result.json": {
+      "sha256": "782a97db9606afbe93a44a1a3d6b70d1b7e6ba045003a42b0340330085c70e79",
+      "git_blob": "17aa45fa84587ce485a786bf2743f6094bff0f4e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-build.log": {
+      "sha256": "b3a011d1d95d36c9940e54ae9b96871ba4489a1cbc7b472254b1a1bab3a8d6cd",
+      "git_blob": "0388525a46d6f23da16f85d893b80d713ff2410a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-freeze.json": {
+      "sha256": "d4398ef520a6168a197bafaca07c737c0202212c35d0251098a3a6635c7e3fe6",
+      "git_blob": "cc398a3bad051a757e58d792c9885ca94427dc33",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-inspection-result.json": {
+      "sha256": "2550817755560dff8fa2b803acfa3a42e35726ea7fb849b7d668f54d5abbcc1a",
+      "git_blob": "d335188ea6cf8b597d5c252494b8161dbf82b0cb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-inspection.log": {
+      "sha256": "b44ec2a85051f3d14474066148b22aa63c2543eb6160f9b96e09a21af595e2de",
+      "git_blob": "3353ce9b399a56e5002f14d440ff5b7c41a3bacd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/Inspect.lean": {
+      "sha256": "b2795b9b50054a2c48d999598e11d8c9b3261cfd1f92b633a5e0d6f50b8c30a4",
+      "git_blob": "801b6b3dc6378bc3939e03964a2710edd3d425f1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/challenge.log": {
+      "sha256": "95d5aebb25155ed32ff3dc2476a9e914a2062a64c897f0b98c271ae7b0464632",
+      "git_blob": "e627d9f1eca11ebaaa869031a05a9749608a8618",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/dependencies.json": {
+      "sha256": "36484e9a4fce0e095dbaf61d0c702559f2aaabe06ede13f312d7b6dc95048220",
+      "git_blob": "03dd0a2e5701bdde219487a73dac0fdb565024df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/evidence-manifest.json": {
+      "sha256": "0f6d1778a5f1ec763ab36944186e8003acc57754c5e2781ee3f38a14a4b465ca",
+      "git_blob": "7ad7a99e1ed473156e441aa3437bfc21d6f0c140",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/fresh-checks.json": {
+      "sha256": "13cec16f9708343a249008ff8a89737f4f202727dbcd0e98cdbb06e702966db1",
+      "git_blob": "0a2f456ae76368c5e6ede5547ef3086e67f901cf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/fresh_review.py": {
+      "sha256": "9ff749ac55c12fb5727cee806b6dad0088068ed2c2e3b2e69583c064bd013340",
+      "git_blob": "dd19a7a3f92658ce74450a2b81b9526157903cdf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/inputs-after.json": {
+      "sha256": "dd1f144ba12c28c60c15a6458cd0c8f16157c729fd2cfd3a576b169d30fc49ff",
+      "git_blob": "943fbe77c7ba132f3a00e49efe32c6ad1dd332eb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/inputs-before.json": {
+      "sha256": "fc4a514b308e96bf6737a3f25d6d98b62d79a964e3ad5e18c003473ff0fda78f",
+      "git_blob": "8c347c07b0084095e30c4299d1776c00d78d52ef",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/inspection-compact.txt": {
+      "sha256": "abc9552a912546c20749361f883960d1ff2013b56b6e3462c0b37771111b6432",
+      "git_blob": "36092376b9530026b739eaf6ca462156c5843037",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/inspection.log": {
+      "sha256": "24cd52d9652e4b76cf24e0ea10daee392264895de8bb6d2222f549a92845a919",
+      "git_blob": "107cf88b947e38bf572cf5299eee74a692c0337a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/instance-checks.json": {
+      "sha256": "edef97130d1aaa36c571e296dfad14eb8715976d35b01fd0fbe25b0f1a94eb13",
+      "git_blob": "6f3bae030752117e498a4885a09fa9039d72ba2f",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/library-hashes.json": {
+      "sha256": "5f9a81848a1ceebdf124e39c5c056db93453492cf6282070afee7278975c587e",
+      "git_blob": "34047035568432ebfe4fcb750b2028560c8facad",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/primary-source-check.json": {
+      "sha256": "b036dca19aabd2a0a267f66d695785a3d0043360bd97655c45d09553ceaa97da",
+      "git_blob": "39e21c8ed2a0774c4ffbe151743438bd8cb6497a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/rational-check.json": {
+      "sha256": "d8483c790bc2944e25b64bc9e21b220c16fd3c33e92eadefb7ebe1fa40fae4c6",
+      "git_blob": "7a50c1bbddccd7c30b76e63b8bfca2f32cf76112",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/rational_check.py": {
+      "sha256": "69ed1495733cfbf6edfe88ae374fc55e7c4da0e577d9a825eb45aeee0679594b",
+      "git_blob": "0496a99b2c4f1e1dcd51b615a25af905634031bf",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/rubric-hashes.json": {
+      "sha256": "7634aad1c3e7b4d0e6530650258eb00f111f912ae88a27263eb154263136f358",
+      "git_blob": "6487077e010054fe9bda4b33bbd6abb145d061ca",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1-evidence/verdict.json": {
+      "sha256": "f4818e556463a8ba8f87d7ab6755f87b6e6285ec10ab59532aff1f40bda3c40e",
+      "git_blob": "4432ca1f7a2d0bf54f32f891b3583419db066880",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-1.md": {
+      "sha256": "836617b6949c6669fcd7c3cc87e575621474a0974432f2a607e5d497dc10b4dd",
+      "git_blob": "73fd6af9c411e632098a1628c3f3cfecca38d46d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/Inspect.lean": {
+      "sha256": "ba2ac51450259f4af9c8555dadee196be9a28c39ce69232990589a3d16814225",
+      "git_blob": "f9a1aedf0b6f6c36436fcc7ff8f451981bc59c28",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/challenge.log": {
+      "sha256": "95d5aebb25155ed32ff3dc2476a9e914a2062a64c897f0b98c271ae7b0464632",
+      "git_blob": "e627d9f1eca11ebaaa869031a05a9749608a8618",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/checks.json": {
+      "sha256": "87c1dfbe93b454a270a9504e9faad73867995bff72649c5e1217cb00e336bd96",
+      "git_blob": "6f9e3eab70df1658480c65fe637d09923d52b505",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/definitions.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/evidence-manifest.json": {
+      "sha256": "6f43de615e39c282c3a562e21a98bd3949f58fec272277c74b0c82341eb07758",
+      "git_blob": "96e3bb2bdbddf7752f28acc5022c601123223b59",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/freeze-check.json": {
+      "sha256": "2f20dcaf6b9fbeb55db473d3ea2441dd39970e21df605d498cc24694ad0f52cf",
+      "git_blob": "0a1a5c265bcdabb2354f09451ec938be77aa776d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/inspection.log": {
+      "sha256": "19239297d5cd35d617c22f9dec7d195dfa4786bb9d1bb17ee8ba5ff55ead64cf",
+      "git_blob": "f47ab32ff6406e9c7679d956783a4b500a4b7073",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/library-hashes.json": {
+      "sha256": "175cd39a3247833467d8a45d342b20014beafe9ddc7ae2581fdc7e07b34dfcbe",
+      "git_blob": "62142367acb5e6fe2f32424d26b759b4389192e3",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/rational-reconstruction.json": {
+      "sha256": "612ce277e8b13a367ddbb6592dfa45a3abdcfea0da3a4c939eb05e6e57534efd",
+      "git_blob": "5e81429b6eaadc2986028868d7bfc7c026e58f2b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/rational_reconstruction.py": {
+      "sha256": "b28d4f9e367979acff251f4737c930c78b6f44a90adc8687daa54727652cdeaf",
+      "git_blob": "b08b2445a89b6cc076a8ec2ec8efc963935ab2d8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/root_statement_review.py": {
+      "sha256": "7e191b8bdafc8e0c525a93ebd373eb6f69498a10e5cf9cee67bd3a5d2cbdd899",
+      "git_blob": "f45942b4bcaf1da3e5d404cecb293a640414e407",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/semantic-instance-check.json": {
+      "sha256": "2dfc0cb631fe8d214112891de4d58e6bef9f331be4f3a2d559c879d81793a3f4",
+      "git_blob": "985a5732ba782716d9a3d422fce5ed8450f784a2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2-root-evidence/source-identity.json": {
+      "sha256": "5ae8c7d1cb0959b6972de2c3b5daecb45b449fd2bf440bae829e23c7b3f01369",
+      "git_blob": "f43b5f032ce2fac732e72a19b64a9026eac4b9d0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-referee-2.md": {
+      "sha256": "6189771ad2354c5416d204e32c8e930da05752cc7f0a05cc34d03ba21746b20e",
+      "git_blob": "2e616712587c8b6c0fba73c7aa0333fe65dbd0c4",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/reviews/statement-review-request.md": {
+      "sha256": "5ac0b9d63466d71b22b6cde7a1ffec5cb58c1fc4f015c0621f00474add23e6e4",
+      "git_blob": "45058c97f3492cda522d977f9663c2b1d13399f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/CANDIDATE-HANDOFF.md": {
+      "sha256": "a709caa21c99522ea02eebe4af3fd959f208ba54859bf17696a20e93d40698a3",
+      "git_blob": "26748f263aaf8b9efca458dca295ad8de6033730",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "1889d280a450a24b6ca5e1d40859aae62305db9cab4caf7c9d55f592fd84023d",
+      "git_blob": "4d090126f8d5f22299d30aa76d3a4e67aa8761f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/dependencies.json": {
+      "sha256": "7c0b1049b46fa602179bd446568c350f2130028748b8dcf5209e0f9e8a381bbb",
+      "git_blob": "b834b560190068eeed4831d6cd63a17d9e15097e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/frozen-local-proof-README.md": {
+      "sha256": "af99233531b4b63988c15e32f1c505e380cf8b54358420e7e4bf1d83fad6b54b",
+      "git_blob": "96d75aae92e653f79c914f6e6cc29231b11f14df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/inputs-before-packaging.json": {
+      "sha256": "d02248d24e3dbf35ae41d9c9ae63ad9ea5b51fa87677e4688e3caa16e80319c4",
+      "git_blob": "e078897c36c10b5e69f9d45265f496e9369ac1c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/metadata-validation.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/packaging-record.json": {
+      "sha256": "1bc3967dedc836b1707411d3f8f701a3805aa6ff82d51dd804ae24e63219fab0",
+      "git_blob": "e27ec24236e2e2a98ae4f97556519aba07832666",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/permanent-id-tests.log": {
+      "sha256": "f569ec2dcb1acca403a9d03a188e257b9a76d32b3f4e8cefa7847b1578937c2e",
+      "git_blob": "402afd9e969c84ce5886d41a0021472418c6ee05",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/permanent-ids.log": {
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "git_blob": "c0793129915d77f752d13c90938e9bfdc2ea827b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/linux-candidate-2026-09-12/validate_package.py": {
+      "sha256": "456ae9f065f1a86dcb6c29d69d149252602e2023f65a48db9c4d3f4bc88c1902",
+      "git_blob": "1f6114e7b076dac3308eef2741352183a62adc07",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/lean/verification/root-linux-packaging.json": {
+      "sha256": "6e8865d0d181cfaabf42861b93a28c503b4cfed87a7de74762c6d346d2789df9",
+      "git_blob": "cc463732484a665d6ab01ae2501962dd81441005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/solution.md": {
+      "sha256": "b05bd263ae7f3b2925c157e32ec5d3ec82bf62c3e5e7217144fca1029faa79c1",
+      "git_blob": "b1dc9d90372d2c82d0baf3f71d15269bccd0eaf8",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/solution.pdf": {
+      "sha256": "2fab76272b1b340528631f26647a96c2105f615443246c33099e567ae534b5c2",
+      "git_blob": "660cf45efc2d4ffe58ede7460e416a52a82481f9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/matrix-inequalities-and-norms/MI-23/solution.tex": {
+      "sha256": "a8eb6660e05afbafa9e376d1354d24f97cc0c25debd022e540e11859628b9552",
+      "git_blob": "bd047c7d1f0ac91b23fe775ba92751a196d191a9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/sandbox_probe_ci.py": {
+      "sha256": "31057195baf238807cacbb4126c5b07f02cec55a4e4437de5f3a755b3fada803",
+      "git_blob": "168ad39e1a696ece597bbc0e5c18eff6a7d39b17",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/bootstrap.sh": {
+      "sha256": "4cb4d6e09ca5d186e1911e51160286fef20fb4d7f61180e07ed684a03d36de8c",
+      "git_blob": "70a274044e8d13470a5d2b6d72f77c565ddd46ad",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/harness.py": {
+      "sha256": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+      "git_blob": "8feffd06b69cf1989750130a92e6d638fd18aa7e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/selftest.sh": {
+      "sha256": "1d0459179f9fc4ef30ba322b0cda7286c7a8394c1125a813770a9f10b1fccad9",
+      "git_blob": "4dc2a05185359f431bd3173ee578dfb7231569cb",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/source-lock.json": {
+      "sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+      "git_blob": "27916ca1e378b13ba1a08f1eb3ecb285fde12408",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/source/tools/lean/verify.sh": {
+      "sha256": "fb97ffb467b0e9acac302b2bdfc418da12b88e4ae307fb0d580c96fd6b63e997",
+      "git_blob": "1007633cf6c47a630bf54c22caa503de23f4a0f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-2026-09-12/tool-source-verification.json": {
+      "sha256": "222f57cf251b73fac3c932e6cf2da36d4516e648d623c24b0ca617ce36e81b17",
+      "git_blob": "478c168aca884e803cd29249a1df870d32369838",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/CANDIDATE-HANDOFF.md": {
+      "sha256": "a709caa21c99522ea02eebe4af3fd959f208ba54859bf17696a20e93d40698a3",
+      "git_blob": "26748f263aaf8b9efca458dca295ad8de6033730",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "1889d280a450a24b6ca5e1d40859aae62305db9cab4caf7c9d55f592fd84023d",
+      "git_blob": "4d090126f8d5f22299d30aa76d3a4e67aa8761f5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/dependencies.json": {
+      "sha256": "7c0b1049b46fa602179bd446568c350f2130028748b8dcf5209e0f9e8a381bbb",
+      "git_blob": "b834b560190068eeed4831d6cd63a17d9e15097e",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/frozen-local-proof-README.md": {
+      "sha256": "af99233531b4b63988c15e32f1c505e380cf8b54358420e7e4bf1d83fad6b54b",
+      "git_blob": "96d75aae92e653f79c914f6e6cc29231b11f14df",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/inputs-before-packaging.json": {
+      "sha256": "d02248d24e3dbf35ae41d9c9ae63ad9ea5b51fa87677e4688e3caa16e80319c4",
+      "git_blob": "e078897c36c10b5e69f9d45265f496e9369ac1c9",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/metadata-validation.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/packaging-record.json": {
+      "sha256": "1bc3967dedc836b1707411d3f8f701a3805aa6ff82d51dd804ae24e63219fab0",
+      "git_blob": "e27ec24236e2e2a98ae4f97556519aba07832666",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/permanent-id-tests.log": {
+      "sha256": "f569ec2dcb1acca403a9d03a188e257b9a76d32b3f4e8cefa7847b1578937c2e",
+      "git_blob": "402afd9e969c84ce5886d41a0021472418c6ee05",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/permanent-ids.log": {
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "git_blob": "c0793129915d77f752d13c90938e9bfdc2ea827b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/linux-candidate-2026-09-12/validate_package.py": {
+      "sha256": "456ae9f065f1a86dcb6c29d69d149252602e2023f65a48db9c4d3f4bc88c1902",
+      "git_blob": "1f6114e7b076dac3308eef2741352183a62adc07",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/EVIDENCE-MANIFEST.json": {
+      "sha256": "28958ca30d235ee7e9da4292ef3e3fc881cb735de82a76a9de3d757549a31ee7",
+      "git_blob": "89d57fe2b30b7eef99cb2afa12deb029ffe72569",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/INDEPENDENT-REVIEW.md": {
+      "sha256": "e777fe02dacf7598fed93e21f15ad8f317d56a6f181dc5e4c9d581f556de5bdb",
+      "git_blob": "d51a89a016c3a51ffb81e2a42ccbc7f5497ca300",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/PUBLICATION-REVIEW.md": {
+      "sha256": "92dad72f135733f9ffef6261d48a9147c9f8e6ea155607a1951014ad9ab0e371",
+      "git_blob": "ef6c111921de369a2414b199f71eb0928971dd89",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/ROOT-CHECKS.json": {
+      "sha256": "6b15ed6fe88c3e8a1261ec843aa500c3bd176a158433ab912f5d19ffe116ee3b",
+      "git_blob": "c38668f0a72719007f7084985f1824c0cb2c6bc0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/ROOT-MANIFEST.json": {
+      "sha256": "d980981b49cfce456309e6b24e3015a6aa27737cd605887e4e57fc56f2c65251",
+      "git_blob": "10be62f36e7686bd42d945f37762072fa8e15778",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/before.json": {
+      "sha256": "9e6bda5dcb44dedd15a4a100e9da338705b50cc6091c5e5ee8317463c7407933",
+      "git_blob": "5eb5f28d54577abe8eea014f76a01fac5ebf4718",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/catalog.json": {
+      "sha256": "14105ce00105292fcf66cb9bafb8cf95c7ca565651f35fa10fcbac4b0521712d",
+      "git_blob": "9e6b67186eefa796decd912b54aec42c492b596a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/catalog.log": {
+      "sha256": "422e0dafc91e6d6a00a9b519d6a64738dfbafac71159c0c753fd4a4771dd228b",
+      "git_blob": "165fb8edc8b2287a7644cec781fe6e8177159d52",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/final-checks.json": {
+      "sha256": "0b33e3e0d62d2ed00a442f8be82595169fd24f97258d1f52c52d61208b5828d4",
+      "git_blob": "7f4274887e1be2b57888340c1b41b9906815c40b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/final-format.log": {
+      "sha256": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c",
+      "git_blob": "61a08f69496d29b5ce3544f4732a72a1688300e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/finish.py": {
+      "sha256": "4b545a8cd7f349479ffafc957c516b9b7f19a92c95247331e0e41e7f28d8ff0b",
+      "git_blob": "b389718ecd7614919d34f7a8a5eb1d0f16084698",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/format.json": {
+      "sha256": "e08f7e696fada6c0a80b31db2b1a90557fe405eb67866d924aa6f91167e1e750",
+      "git_blob": "f63dff2c506f26b77f76824cd8d3ab5cd7f32f08",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/format.log": {
+      "sha256": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c",
+      "git_blob": "61a08f69496d29b5ce3544f4732a72a1688300e0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/id-tests.json": {
+      "sha256": "29c0af1714d617ac2394c8497f368560f32ebe82291763f10ddbf2a65b003733",
+      "git_blob": "747faa84bec6653ddcf51f7e2f91cdc47d850087",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/id-tests.log": {
+      "sha256": "49ac6b0e1ca8183ab2f6bd83d1e383db04805de8a413ffddd05c898633cc2c34",
+      "git_blob": "aa3183440a029c0fa50e0bb05b1ff24649fedbf7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/integration.json": {
+      "sha256": "a08413a94b82d57b094ce14c601294903dcbe2df45335ed434b9a5f26d3669a5",
+      "git_blob": "d6e2a269cb34aaab3cd57c01ed2f1e262df4c871",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/integration.log": {
+      "sha256": "0d38fc927a9b9b933c5635695791a8e7ce665923687e86989e317d65551cd6a1",
+      "git_blob": "5e8b9b8a8a4ad9c24259d676798d0fbb9a8a0d94",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/integrity.json": {
+      "sha256": "3a88142bd9a1f42e290a09ad31a768ab709b018fc78cd9101543e3e3d817e763",
+      "git_blob": "7d2be5df188d21c415fd97710df255bc57d55cc0",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/manifest.json": {
+      "sha256": "849a9c5bad5ef9850dc4f4405c552e5e5967e3c960c5f8f14855f5d7331edda8",
+      "git_blob": "13caf7b09e2029b0b1fff9cd6cbbe0613d5ff1d1",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/manifest.log": {
+      "sha256": "acd348ab849a63056a72b45c57059083ad0a2326f81f7a3d8b29f25ccbb4d9d6",
+      "git_blob": "ffc5b22e5f1c7a9934d2db2a16e8921b8c59696d",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdf-rasterization.json": {
+      "sha256": "016e5cf909d7d1b12643f0723d9d9175f9b125749950a66ba3327cdc9f061ff7",
+      "git_blob": "3c6a5e55f36972877234cb4c064e5cef0e9ff4c7",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdf-rasterization.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdf-text.txt": {
+      "sha256": "1867f79c83b7b6ad53602fbc270431f6005b826ea8d430e6c5807e2274703a20",
+      "git_blob": "652d98c58e5548c35b1ce0a0695aed16e69b4d0c",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/pdfinfo.log": {
+      "sha256": "7b5dd735f7ce54759a75d8f21770669795b8b39684a3ad5d35c571b434e0d5f8",
+      "git_blob": "95f91f7dde06aa8c5a4e0097de4aa2f8ee0642ba",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/permanent-ids.json": {
+      "sha256": "984052f88ae891b6771d6a70328ef2b2eed34176b0ad7a8a04e8c0fa1b358cf5",
+      "git_blob": "f69ab25297d3886dcdfe67ae8e2dfee72b7466fd",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/permanent-ids.log": {
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+      "git_blob": "c0793129915d77f752d13c90938e9bfdc2ea827b",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/prepare.py": {
+      "sha256": "3c6df7abe83956f451d3832f815152481b11a4d360a388b1958c0068190623cb",
+      "git_blob": "cad4d1df354ec6a51a84e8e520925b2709173f6a",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/render.json": {
+      "sha256": "0ff164868e29cbb5f214ec18b7b977a894943c708889767f2f515cc3ffc58997",
+      "git_blob": "2a0ff893f2a0f24db4f0752c5113507c9510f1ce",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/render.log": {
+      "sha256": "af9b3d7ac68b78e81868367b725c02f2cb6882434ce1137c4fbe2fc2e952db8d",
+      "git_blob": "1d2951c770dfebbd38305e1b66681d5b41483985",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/root_publication_check.py": {
+      "sha256": "ebf9a01d6e82134e28b88e9a83a54a19773288f5c40bfaceb7c0dfc620b149f8",
+      "git_blob": "b0e8c70e71c37f57354fb5a77799e1a7e26c85f2",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/scoped-diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/publication-2026-09-12/visual-review.json": {
+      "sha256": "c71a3b2f8fb0a57666ddbb6d013d97e671ab60d71074d703bc75cbc6b3a24ddf",
+      "git_blob": "54b7bea418622cff2c0123c5a174b03328e58ac5",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    },
+    "verification/root-linux-packaging.json": {
+      "sha256": "6e8865d0d181cfaabf42861b93a28c503b4cfed87a7de74762c6d346d2789df9",
+      "git_blob": "cc463732484a665d6ab01ae2501962dd81441005",
+      "git_mode": "100644",
+      "matches_working_tree": true
+    }
+  },
+  "active_source_sha256": {
+    "comparator.json": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "formalization.yaml": "2c6b162572c774d28fd9a5302fd16f3939c5fb87007b124eb8071618932992d0",
+    "Solution.lean": "575f2fd27922d2725d93ada823bfeb4da70407d7fd9c31fb7cf1753a5fdbd243",
+    "README.md": "9fd17b9f225383f50d1623ca511263737391dd5517539610b6a0bbc7efc2e918",
+    "lake-manifest.json": "10e87dfa3fc8ecfaf18277f1a0838a3a009979e43555fe97474618ac9af250ff",
+    ".gitignore": "2f39a020b618e218935a1b4ba1a8c6e2810025e9c35dbcd0f19ba2bec791b5ef",
+    "lakefile.toml": "cb0ad4fd0b6a7b7b8a6e8307536c9e9505718c12b1089307561bf2355db301f8",
+    "NUMERICAL_TARGETS.md": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+    "Challenge.lean": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+    "NLA/MI23/Definitions.lean": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+    "NLA/MI23/Arithmetic.lean": "d5895f0636fa3aa3887721c610ee9f526cc35a6838e1d4ad7e7ba7f0548af3d9",
+    "NLA/MI23/Proof.lean": "a82ba18b834453491e4d7bb50de23c08555b92bb70e573551d11e714a404984a",
+    "NLA/MI23/FunctionalCalculus.lean": "5603fb214d01f327ba297af151e278ed8f8310368272c59180dd52ebd87839a1",
+    "NLA/MI23/SpectralNorm.lean": "af43452f42fde8c361d3ab21c4bcf9839f355b7c06f905dbc56c1eb591c6c5a3",
+    "NLA/MI23/Witness.lean": "4d7d79b742e614712d5ecc052c04df135cde6b6548ec7cb19f6cfbae0ef987b7",
+    "NLA/MI23/NormBounds.lean": "1fd4f9d91818470bfee7e3bb164baaaf120b80ee088ff827134be0e2ac867ad3"
+  },
+  "active_proof_closure_matches_previous_review": true,
+  "config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Solution",
+    "theorem_names": [
+      "NLA.MI23.positive_powers_and_means",
+      "NLA.MI23.product_eigenvalue_semantics",
+      "NLA.MI23.squared_product_largest",
+      "NLA.MI23.operator_norm_bounds",
+      "NLA.MI23.witness_data",
+      "NLA.MI23.witness_squared_gap",
+      "NLA.MI23.counterexample",
+      "NLA.MI23.not_generalizedGeometricMeanConjecture"
+    ],
+    "definition_names": [],
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "all_exports_in_both_logs": true,
+  "actual_export_axioms": {
+    "NLA.MI23.positive_powers_and_means": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.product_eigenvalue_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.squared_product_largest": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.operator_norm_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.witness_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.witness_squared_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.MI23.not_generalizedGeometricMeanConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "default_kernel_executed_and_accepted": true,
+  "control_checks": {
+    "kernel-controls.log": {
+      "sha256": "ac5884a6a9aab533b23369a1a9a4e453f745264bbaeb2e13d60d94569c45a361",
+      "required_markers": [
+        "RETURN honest_with_inductives_and_quotients: accepted",
+        "RETURN invalid_raw_proof: rejected:",
+        "RETURN quotient_postcheck_mismatch: rejected: Quotient constant mismatch on: Quot.lift",
+        "PASS: all three actual Comparator.runBuiltinKernel cases behaved as required",
+        "EXIT_STATUS=0"
+      ]
+    },
+    "comparator-controls.log": {
+      "sha256": "fba5e51cd57b4b9591bfd50f4a0f56212df99bd3fbd6834d64505ddbc2f70730",
+      "required_markers": [
+        "PASS simple_match: exit 0, expected 0",
+        "PASS simple_mismatch: exit 1, expected 1",
+        "PASS simple_axiom_issue: exit 1, expected 1",
+        "PASS simple_kind_mismatch: exit 1, expected 1",
+        "Challenge and solution theorem statement do not match: 'checked'",
+        "PASS type_mismatch: exit 1, expected 1",
+        "PASS: all five Comparator regressions",
+        "EXIT_STATUS=0"
+      ]
+    },
+    "negative-sorry.log": {
+      "sha256": "38a184f860bb5b71955c1bd35af34a8f697628ebba652de0b34651ea8f3bbddb",
+      "required_markers": [
+        "Illegal axiom detected: 'sorryAx'",
+        "EXIT_STATUS=1"
+      ]
+    },
+    "negative-native.log": {
+      "sha256": "135fc1d3022970c389f902c9cbc06e80e9dd1309712e25f5901855bb83c53270",
+      "required_markers": [
+        "Illegal axiom detected: 'checked._native.native_decide.ax_1_1'",
+        "EXIT_STATUS=1"
+      ]
+    },
+    "sandbox.log": {
+      "sha256": "5b5a77e6250cda027d6bd0c9eed90fe596912215d743d496b4a52ac2d90b6513",
+      "required_markers": [
+        "MODE build: exit=0",
+        "MODE export: exit=0",
+        "PASS build .lake write: allowed",
+        "PASS export .lake write-open: denied",
+        "PASS export .lake truncate: denied",
+        "NEGATIVE unknown option: exit=2",
+        "NEGATIVE unexpected --rw: exit=2",
+        "NEGATIVE unexpected --rwx: exit=2",
+        "NEGATIVE relative --rwx: exit=2",
+        "Outer and export fixture contents unchanged; only designated build fixture written.",
+        "EXIT_STATUS=0"
+      ]
+    }
+  },
+  "two_sandbox_modes_checked": true,
+  "harness_sha256": {
+    "tools/lean/source-lock.json": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "tools/lean/harness.py": "f81767a17973956fbe9e5765c664d4639cce15ddf8c106f70cdcb32151808c2f",
+    ".github/workflows/lean-verification.yml": "2c3963089483ec5e7e35e6355fa60988778e0b439ce099d7cd7050a8c3b6467c"
+  },
+  "tool_receipt": {
+    "source_lock_sha256": "b3833b07916e5db77579b9cc53ca582282f6a841f36d6a60d693e5b02d342b6b",
+    "forsythe_commit": "8d1b0c0545a77b40245e84705aa7d273e6c81e62",
+    "ci_sandbox_probe_sha256": "31057195baf238807cacbb4126c5b07f02cec55a4e4437de5f3a755b3fada803",
+    "lean_toolchain": "leanprover/lean4:v4.33.1",
+    "lean_prefix": "/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1",
+    "lean_version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+    "go_version": "go version go1.27.1 linux/amd64",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "executables": {
+      ".tools/comparator/.lake/build/bin/comparator": "189e88f1a3cb68130b581905f7a5d3bde47eb0578904c0ca6fb235a53d0e8bdc",
+      ".tools/lean4export/.lake/build/bin/lean4export": "46f6a14f0f4a364d7698229130d103b67855be42f96cc5ef93929288072f1fa1",
+      ".tools/bin/landrun": "6531f6c9bc99313170e29c4c65bf09a414741093c587389315eb81a0a31e45d7"
+    },
+    "env_sha256": "7554076d35dcb2dc98bdc8f9adfd3a6a65b08b89c05695efe9e194df542e149a"
+  },
+  "limitations": [
+    "No fresh remote API query or independent remote execution.",
+    "Checker binary hashes and bootstrap provenance are attested by the retained harness receipt; binaries are not retained for independent rehashing.",
+    "Operational evidence does not replace the separate statement and proof fidelity reviews."
+  ]
+}

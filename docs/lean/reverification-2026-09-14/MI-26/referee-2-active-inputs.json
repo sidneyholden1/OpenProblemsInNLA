@@ -1,0 +1,24 @@
+{
+  "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "active_source_closure": {
+    "Solution": {
+      "path": "matrix-inequalities-and-norms/MI-26/lean/Solution.lean",
+      "sha256": "a79aa8df0b6b7501dcb6d264fc8a9a21ac0710aa05ed65bff3b244ba97fe6da1",
+      "bytes": 4210,
+      "lines": 94
+    },
+    "NLA.MI26.Proof": {
+      "path": "matrix-inequalities-and-norms/MI-26/lean/NLA/MI26/Proof.lean",
+      "sha256": "94dd1dde3f1b12002380ae4730ea6396a955f7cbe69a34dde101e7a035fae0af",
+      "bytes": 8567,
+      "lines": 196
+    },
+    "NLA.MI26.Definitions": {
+      "path": "matrix-inequalities-and-norms/MI-26/lean/NLA/MI26/Definitions.lean",
+      "sha256": "821cb1b2a29f7382a1f36bd6b506bc6b249b9da0b61837702658173814995f63",
+      "bytes": 3120,
+      "lines": 70
+    }
+  },
+  "all_match_preserved_base": true
+}

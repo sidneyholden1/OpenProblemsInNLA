@@ -1,0 +1,18 @@
+{
+  "id": "MI-29",
+  "verdict": "PASS",
+  "method": "Independent Python exact Fraction arithmetic; not a Lean proof",
+  "checks": {
+    "det_B": "-1/125",
+    "left": "136990346414301954149/61035156250000000000",
+    "right": "4537743716162890657/1907348632812500000",
+    "gap": "21036678407451/156250000000000",
+    "polynomial_gap": [
+      "0",
+      "2089017/16",
+      "-31188746592549/1024",
+      "0"
+    ],
+    "modulus_order_preserved": true
+  }
+}

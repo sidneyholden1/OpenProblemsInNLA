@@ -1,0 +1,127 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only before proof inspection",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "matrix-inequalities-and-norms/MI-29/README.md": {
+      "sha256": "40a7e20b089d85d74eb6f94f0d75a7d35c86b89f65c0675353ebc3c0d68f4496",
+      "bytes": 8314,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/README.md": {
+      "sha256": "1d82a2c7bd05d9a355f62fa937e2f2bdad10628e6f530a84e9d205709c66340d",
+      "bytes": 7414,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "892449f4f9107661242eca72c50d4f35652a4475ea94573daf2ad865c44e5af2",
+      "bytes": 12986,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/Challenge.lean": {
+      "sha256": "7ac10b3c284dc5f86dbbb90ef999d5b210540dd0fbdc0bfc60ee9621d25da3cf",
+      "bytes": 2430,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/comparator.json": {
+      "sha256": "8fe55ea82b6a779c5447065c384503daa29c9b7e81ebaf15a3bb53294c97701e",
+      "bytes": 402,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/formalization.yaml": {
+      "sha256": "479d4fe7a44977b89b36ad6fa12bf0d2a9c69b296d67998fa8f92b11194285c9",
+      "bytes": 8202,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/lake-manifest.json": {
+      "sha256": "d57582735022974ff404901ca80c1c4e510c60654251324dc120e193e90bdcf8",
+      "bytes": 3884,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/lakefile.toml": {
+      "sha256": "b5ca57c963cedfc8a4556a0b8c5c3970d48e52d96fe4964b9dc3c1d112fdfca9",
+      "bytes": 280,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/lean/NLA/MI29/Definitions.lean": {
+      "sha256": "c73bfb1856b3e1059ce2ef1e35f8314cb339edcc38b89d28780d38b122ce1a16",
+      "bytes": 3010,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/solution.md": {
+      "sha256": "82c3ee3add53d7b1925ba6fa00efebb81989390adff9c105d4b4192bf174eceb",
+      "bytes": 2668,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "matrix-inequalities-and-norms/MI-29/solution.tex": {
+      "sha256": "0c3c86150c042a4111812d95eca8dc38d53015c124e69777398ddd833dc8551f",
+      "bytes": 5148,
+      "read_method": "local source and immutable Git comparison"
+    }
+  },
+  "actual_imported_semantics_sha256": {
+    "Analysis/Matrix/Order.lean": "eb786ba4435f1955c504da52de2beae76647d814922266c8aac8f082bbc3e2da",
+    "Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Basic.lean": "5c87ec96e95be9c21e52857acc4892f9a6b7e69d7358f8d6fbbef93b0d249ef7",
+    "Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Abs.lean": "660c178d7405446d3ec489aa0554c65bb104ce95d58ae5134beba961f37e6932",
+    "Analysis/Complex/Order.lean": "67cf9e2c39fa9c53e1a3d5e9f418718638ed01f9274135b49795a335abe64f7d"
+  },
+  "exports": [
+    "NLA.MI29.spectralPower_natCast",
+    "NLA.MI29.modulus_power_eight",
+    "NLA.MI29.comparison_positive_real",
+    "NLA.MI29.counterexample",
+    "NLA.MI29.not_modulusDeterminantConjecture"
+  ],
+  "numerical_diagnostics": {
+    "verdict": "PASS",
+    "independent_diagnostic_not_Lean_proof": true,
+    "detB": "-1/125",
+    "indefiniteness_diagonal_witnesses": [
+      "-1/5",
+      "1/5"
+    ],
+    "left_determinant_after_required_CFC_reduction": "136990346414301954149/61035156250000000000",
+    "right_determinant_after_required_CFC_reduction": "4537743716162890657/1907348632812500000",
+    "right_minus_left": "21036678407451/156250000000000",
+    "polynomial_gap_coefficients_ascending": [
+      "0",
+      "2089017/16",
+      "-31188746592549/1024",
+      "0"
+    ],
+    "limitation": "actual CFC and positive-real determinant bridges remain Lean proof obligations"
+  },
+  "numerical_evidence_sha256": "22f845fddb871e5bfce10d6ef6a4588e56e2c4a8bc39b79fefe73147329e33de",
+  "numerical_generator_sha256": "00e364ceb7f647526533cfc4c54c5b206609d5a10c9899626a0c5e33e28c2acb",
+  "coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mi29/matrix-inequalities-and-norms/MI-29/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 35.805,
+    "log_sha256": "140ec6410a9e5ed6f5907e4f8209482cf6a4cecf29c0c4f38190fecebe894bcc"
+  },
+  "coordinator_receipt_sha256": "a6397a0eaff053d45b3daffd19365ba697472cb19f333a2f14aeefbddaf4d465",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

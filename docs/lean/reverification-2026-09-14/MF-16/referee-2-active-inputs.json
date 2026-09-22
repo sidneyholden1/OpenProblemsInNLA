@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "87702a6d46d0257e05d6e23002586956b4a22dd9",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "matrix-functions-and-stability/MF-16/lean/Solution.lean": {
+      "sha256": "9e7532966e67d32ffc98481b141e2b808a395e3e18645a68aed9a761d19b002b",
+      "bytes": 3829
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Algebra.lean": {
+      "sha256": "14acd4d851a7172854181423d623e06f778458b939e791189315e449f31e84d8",
+      "bytes": 5542
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/CayleyHamilton.lean": {
+      "sha256": "d6d2a419467df881998175e8d06ab13a49ea4ed86f805eefb56ab90284350df7",
+      "bytes": 3207
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Definitions.lean": {
+      "sha256": "5b8e0a7e11657c6d90dc956664f12f5afefdf8ab556517ae199ab339d99d604e",
+      "bytes": 5696
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Numerical.lean": {
+      "sha256": "e457da199ffa9381e10e5618cf5a0e16fdfec1745f13905bcea7a6c546e41181",
+      "bytes": 1841
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Polynomial.lean": {
+      "sha256": "ab676fb674e0e698d4a9a6dc682df4e9bb78a76cacf07e86e01a0c63ed0e7796",
+      "bytes": 3361
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Proof.lean": {
+      "sha256": "dbb52d7978f19786503c62cfd17e7ca45dd91c55dd79fae02848967c116b36ed",
+      "bytes": 3573
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Recovery.lean": {
+      "sha256": "843ab140392852d07fcdfe547082a574cd9c7f8ceb5b8cfaeff9394e70c9e1de",
+      "bytes": 2884
+    },
+    "matrix-functions-and-stability/MF-16/lean/Challenge.lean": {
+      "sha256": "538b03b014015da03f9929fd520adfb978de96b3fa1b4fe3d995bb94e3dccf0f",
+      "bytes": 3427
+    },
+    "matrix-functions-and-stability/MF-16/lean/comparator.json": {
+      "sha256": "c571ce8622b8ff95aa2a8a29ec186a68e3464e9431dae2a5b03db74236b8c088",
+      "bytes": 525
+    },
+    "matrix-functions-and-stability/MF-16/lean/lake-manifest.json": {
+      "sha256": "a0d0298e414637111ddfcd231f97a616e56d39c0c0c32a2c82c99c8f48b766a9",
+      "bytes": 3884
+    },
+    "matrix-functions-and-stability/MF-16/lean/lakefile.toml": {
+      "sha256": "3fbcec68e929d4b9a570eead7946767f3a26d3f82d0efabdbf9bfdf45dc13ed6",
+      "bytes": 281
+    },
+    "matrix-functions-and-stability/MF-16/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

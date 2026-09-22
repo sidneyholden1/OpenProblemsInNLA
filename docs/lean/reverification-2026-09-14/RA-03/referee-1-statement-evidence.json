@@ -1,0 +1,85 @@
+{
+  "phase": "statement only",
+  "reviewer": "independent AI statement referee 1",
+  "verdict": "PASS",
+  "explicit_approval": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_older_current_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "all_read_authored_bytes_equal_preserved_base": true,
+  "full_read_sources_sha256": {
+    "randomized-and-low-rank-approximation/RA-03/lean/README.md": "d596fccb6a6bfc9c03c3122eb528f4f4143f7d8457254f10d2031aa5adaaae67",
+    "randomized-and-low-rank-approximation/RA-03/lean/NUMERICAL_TARGETS.md": "91618c7848ad46931a8f59bad6ff2900bf53b1e1dde22f31383c4a3941eb4a94",
+    "randomized-and-low-rank-approximation/RA-03/lean/Challenge.lean": "74a7c727e8cf2fa1ee26e78cfab812626b265abe8211e09f144a3c78fca5345e",
+    "randomized-and-low-rank-approximation/RA-03/lean/NLA/RA03/Definitions.lean": "de6509ef6b4a41db3e01fce7b77af4c7c338dbd61f8f135e956602d3b8b0980f",
+    "randomized-and-low-rank-approximation/RA-03/lean/comparator.json": "230d3e2d92277a192b6a845793c3c6035e1cab3b28c83c6dd44324a7ed5dc21f",
+    "randomized-and-low-rank-approximation/RA-03/lean/formalization.yaml": "aeab942efaef51cc66aaf0ebfd45a8f110e7e9c923d6910eedacb59c882df0fd",
+    "randomized-and-low-rank-approximation/RA-03/lean/lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "randomized-and-low-rank-approximation/RA-03/lean/lakefile.toml": "fa1e6237e6ef87f2052ac893a044d6740bbac019ef7ea7db2515f865aacace56",
+    "randomized-and-low-rank-approximation/RA-03/lean/lake-manifest.json": "ee137a71fd2761e4d1e9d927307b7debb4dbdad6795ee2584e279904ccdd0b95",
+    "randomized-and-low-rank-approximation/RA-03/README.md": "4fdea20b0da0e74863ea1d2f999a1002a2eb3f1662cd68cca955790c32b892f9",
+    "docs/lean/REVIEW.md": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+    "references/colbrook-random-pivoting-2026-09-11/manuscripts/sharp_random_pivoting.tex": "6ea9223d7411994923a0f27d4c9b3ae44fee8c19ca82c5f16f42b722ee589880"
+  },
+  "relevant_library_files_sha256": {
+    "mathlib:Mathlib/Data/Complex/Basic.lean": "e279bd6369e83ebf6716e17a8f38c81c812020753472cac5e7ae2a501790b760",
+    "mathlib:Mathlib/Analysis/Matrix/Normed.lean": "f47bfccf19da0082e9b2a298457485b1c6ba5c4b19df97a69e89598180e30d2e",
+    "mathlib:Mathlib/Analysis/InnerProductSpace/PiL2.lean": "1f9827b2db67213c725a2dcc3fec52a87772966d1fbd3fc6857a019dbd7a6053",
+    "mathlib:Mathlib/Analysis/InnerProductSpace/SingularValues.lean": "ce8193fcd5d226845a71f66b8ca7ad385358916a6e0e688745410ac412ed5c81",
+    "leancert:LeanCert/Tactic/IntervalAuto/PointIneq.lean": "b88723998a7f63e9673b9af36811a039057fed75e2a550f4fd7788472180876f"
+  },
+  "library_read_scope": "Relevant definitions/theorems and example proofs inspected; whole dependency files hashed, not a claim all dependency source was read.",
+  "registered_exports": [
+    "NLA.RA03.frobeniusSq_eq_norm_sq",
+    "NLA.RA03.process_isProbability",
+    "NLA.RA03.counterexample",
+    "NLA.RA03.not_squaredErrorConjecture"
+  ],
+  "fresh_coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra03/randomized-and-low-rank-approximation/RA-03/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 35.684,
+    "log_sha256": "33a28abc2656dd01553ab777bccc6d65b3508580f623b79e43b92e4ab927946c"
+  },
+  "deliberate_statement_placeholders": 4,
+  "own_diagnostic_execution": {
+    "command": [
+      "python3",
+      "/private/tmp/nla-reverify-ra03/docs/lean/reverification-2026-09-14/RA-03/referee-1-precheck.py",
+      "RA-03"
+    ],
+    "exit_code": 0,
+    "verdict": "PASS",
+    "method": "Exact Fraction arithmetic; independent diagnostics, not formal proofs"
+  },
+  "dependency_pins": {
+    "leancert": "621a43d7cf21f87872392a01e874f2f1dbddc926",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+    "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+    "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+    "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+    "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+    "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+    "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+    "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f"
+  },
+  "evidence_hashes": {
+    "challenge-local.json": "ad704e86bd9bd72cc288c7ff374836b904762947a1886b822c04861acf085027",
+    "challenge-local.log": "33a28abc2656dd01553ab777bccc6d65b3508580f623b79e43b92e4ab927946c",
+    "SOURCE-PROVENANCE.json": "11949e1f91c6725a203ebe558da6a91adebc2eec096645e91dcd67c1fc34033b",
+    "referee-1-precheck.py": "d8d5494b2aae3ff10ee322ca1e328b8430d0a72506fe0d45d5aa435425cd4702",
+    "referee-1-precheck.log": "4d39973cf770304c29f2dbb9ece83b589ba2eac5363fe1eb04c053b3471cb415"
+  },
+  "limits": "No active Proof/Solution bodies inspected. Historical PASS records are not relied on. Fresh proof closure, all-export trust audit, independent final reviews and actual Linux Comparator remain separate gates."
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": 34872717807,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872717807",
+  "verified_commit": "dacf46260eaf39c833da5c0a3207c0349166459a",
+  "artifact_id": 10358699715,
+  "artifact_sha256": "8bf6b3b91e81b0df1e990274432e02da6ed3f49a9c145935b7fc23b1797a070f",
+  "github_artifact_digest": "sha256:8bf6b3b91e81b0df1e990274432e02da6ed3f49a9c145935b7fc23b1797a070f",
+  "all_input_hashes_match": true,
+  "input_count": 213,
+  "active_source_sha256": {
+    ".gitignore": "a0fb815fecafd1739b46d2b381c27acf366ce49e30459c0512f71814ce241fc8",
+    "Challenge.lean": "62fee2804dc12a4ad7edecfa8c1dda2dc39acc2d94475d29805e8e55c3288a59",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/MI07/Definitions.lean": "369e99eaf3df8a8bbfb214973129ab71fbc95445ba9d176e91d52bca3bc46bc5",
+    "NLA/MI07/FunctionalCalculus.lean": "0963940bbed1818e7b8240129de01e832660f045dbfcabf578fb11d99949553a",
+    "NLA/MI07/Proof.lean": "55f400e703994c3967a245495f6ad1ebc1999133cfd748185c81ef263178d8a3",
+    "NUMERICAL_TARGETS.md": "70272f54de929a95347db186b09b66d534313eed87ab7daa8e7fe5c8aaa8bd1e",
+    "README.md": "39bdf3f58fa7e497838c96093c1f7bf310858e42fd9e1a3236928e3c3a108590",
+    "Solution.lean": "e460594ac018c8a1e966d88012b07c4ada8743957a414cbdfff8b790d54c07ee",
+    "comparator.json": "2e9d5b3a4b0e29f0208a75b42e22fe28f2743a2e9c908d9fc1c451161e0b60b7",
+    "formalization.yaml": "a83751a905c3f603631a4d2f880fb0679a2092d6b72eadc5c565b7291c7fa28e",
+    "lake-manifest.json": "068377fdaf5079cfc3aea6cf0e8fc35a91ccd3da5b20670802a4df1d070bd073",
+    "lakefile.toml": "eb8266ae962777bdd0ec8208bb4611c1876bdcbb879602a41ff972c2b58a19ab",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

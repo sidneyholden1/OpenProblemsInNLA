@@ -1,0 +1,60 @@
+NLA/SP04/TopologyProof.lean:15:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:19:15: warning: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:16:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/SP04/TopologyProof.lean:26:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:30:15: warning: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:27:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/SP04/TopologyProof.lean:113:36: error: Application type mismatch: The argument
+  h10
+has type
+  -(X 0 1 * s 0) + -(s 1 * X 1 0) = 0
+but is expected to have type
+  -X 0 1 * s 0 - s 1 * X 1 0 = 0
+in the application
+  pair hd01 h01 h10
+NLA/SP04/TopologyProof.lean:114:36: error: Application type mismatch: The argument
+  h20
+has type
+  (((if 0 < 2 then -(X 0 2 * s 0) else 0) + if 2 = 0 then X 2 2 else 0) + if 0 < 2 then -(s 2 * X 2 0) else 0) = 0
+but is expected to have type
+  -?m.606 * s 0 - s 2 * ?m.607 = 0
+in the application
+  pair hd02 ?m.608 h20
+NLA/SP04/TopologyProof.lean:126:27: warning: `Set.setOf_forall` has been deprecated: Use `Set.ofPred_forall` instead
+NLA/SP04/TopologyProof.lean:126:2: error: Type mismatch: After simplification, term
+  IsOpen.inter h0 (IsOpen.inter h1 h2)
+ has type
+  IsOpen ((⋂ i, {s | 7 / 4 < s i ∧ s i < 44 / 25}) ∩ ({s | s 0 < s 1} ∩ {s | s 1 < s 2}))
+but is expected to have type
+  IsOpen {s | (∀ (i : Fin 3), 7 / 4 < s i ∧ s i < 44 / 25) ∧ s 0 < s 1 ∧ s 1 < s 2}
+NLA/SP04/TopologyProof.lean:183:4: error: unsolved goals
+case left.right
+⊢ 351 / 200 < ![1751 / 1000, 351 / 200, 1759 / 1000] 2

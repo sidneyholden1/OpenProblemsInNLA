@@ -1,0 +1,15 @@
+{
+  "id": "PF-02",
+  "stage": "statement drafting; no proof or verification claimed",
+  "base_commit": "32f1f799219fbcaf4c66bfaa4edb8a0c591e79e9",
+  "sources": [
+    {
+      "path": "nonnegative-and-positive-factorizations/PF-02/README.md",
+      "sha256": "4ef3bba41aca6e2a2c66a8a39e5974b54095b85fba0557c6353c253202aa26c7"
+    },
+    {
+      "path": "references/colbrook-factorization-2026-09-11/manuscripts/PF-02_disconnected_orbits.tex",
+      "sha256": "7e41f64f8495231b9cadd5296daa8fe44790039d3f6e25260cd04be258f3bf65"
+    }
+  ]
+}

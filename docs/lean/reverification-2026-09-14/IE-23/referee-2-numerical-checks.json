@@ -1,0 +1,41 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "matrix_certificates": true,
+  "Gram": [
+    [
+      "2",
+      "1"
+    ],
+    [
+      "1",
+      "2"
+    ]
+  ],
+  "Gram_inverse": [
+    [
+      "2/3",
+      "-1/3"
+    ],
+    [
+      "-1/3",
+      "2/3"
+    ]
+  ],
+  "rank_two_minor": "-1",
+  "complex_action_polynomial_identity": true,
+  "every_competitor_norm_polynomial_identity": true,
+  "norm_comparison_SOS_identity": true,
+  "attaining_actions": [
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "-1"
+    ]
+  ],
+  "limitation": "Real roots/powers, all-vector bounds, generic bounded actual suprema and full complex competitor quantifiers remain Lean obligations."
+}

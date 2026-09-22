@@ -1,0 +1,124 @@
+@NLA.IS03.nonnegative_power_trace : ∀ {n : ℕ} (A : NLA.IS03.RealMatrix n),
+  NLA.IS03.EntrywiseNonnegative A →
+    ∀ (k : ℕ),
+      NLA.IS03.EntrywiseNonnegative (HPow.hPow.{0, 0, 0} A k) ∧
+        LE.le.{0} 0 (Matrix.trace.{0, 0} (HPow.hPow.{0, 0, 0} A k))
+'NLA.IS03.nonnegative_power_trace' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IS03.witness_admissible : NLA.IS03.EntrywiseNonnegative NLA.IS03.witnessMatrix ∧
+  Eq.{1} (Matrix.trace.{0, 0} NLA.IS03.witnessMatrix) (1 / 2)
+'NLA.IS03.witness_admissible' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IS03.witness_polynomials : Eq.{1} (Matrix.charpoly.{0, 0} NLA.IS03.witnessMatrix) NLA.IS03.witnessPolynomial ∧
+  Eq.{1} (NLA.IS03.normalizedDerivative 7 (Matrix.charpoly.{0, 0} NLA.IS03.witnessMatrix))
+      NLA.IS03.derivativePolynomial ∧
+    Polynomial.Monic.{0} NLA.IS03.derivativePolynomial ∧
+      Eq.{1} (Polynomial.natDegree.{0} NLA.IS03.derivativePolynomial) 6
+'NLA.IS03.witness_polynomials' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IS03.trace_moment_certificate : ∀ (B : NLA.IS03.RealMatrix 6),
+  Eq.{1} (Matrix.charpoly.{0, 0} B) NLA.IS03.derivativePolynomial →
+    ∀ (i : Fin 7),
+      Eq.{1} (Matrix.trace.{0, 0} (HPow.hPow.{0, 0, 0} B (HAdd.hAdd.{0, 0, 0} (↑i) 1))) (NLA.IS03.traceMoments i)
+'NLA.IS03.trace_moment_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IS03.negative_moment : Eq.{1} (NLA.IS03.traceMoments 6) (-8593 / 823543) ∧ LT.lt.{0} (NLA.IS03.traceMoments 6) 0
+'NLA.IS03.negative_moment' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IS03.counterexample : NLA.IS03.EntrywiseNonnegative NLA.IS03.witnessMatrix ∧
+  ∀ (B : NLA.IS03.RealMatrix 6),
+    NLA.IS03.EntrywiseNonnegative B →
+      Ne.{1} (Matrix.charpoly.{0, 0} B)
+        (NLA.IS03.normalizedDerivative 7 (Matrix.charpoly.{0, 0} NLA.IS03.witnessMatrix))
+'NLA.IS03.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IS03.not_derivativeRealizabilityConjecture : ¬NLA.IS03.DerivativeRealizabilityConjecture
+'NLA.IS03.not_derivativeRealizabilityConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.IS03.numerical_negative_moment : LT.lt.{0} (-8593 / 823543) 0 :=
+have h0 :=
+  LeanCert.Validity.verify_strict_upper_bound_dyadic_checked
+    ((LeanCert.Core.Expr.const (Rat.divInt 8593 1)).neg.mul (LeanCert.Core.Expr.const (Rat.divInt 1 823543)))
+    (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl.{0} (Rat.divInt 0 1)) (Rat.divInt 0 1) (-53) 10
+    (of_decide_eq_true (id.{0} (Eq.refl.{1} true))) NLA.IS03.numerical_negative_moment._proof_1_7 ↑(Rat.divInt 0 1)
+    ⟨le_refl.{0} ↑(Rat.divInt 0 1), le_refl.{0} ↑(Rat.divInt 0 1)⟩;
+Eq.mpr.{0}
+  (eq_of_heq.{1}
+    ((fun α self a a' e'_3 a_1 a'_1 e'_4 =>
+        Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+          Eq.{1} a' a_2 → HEq.{0} e'_3 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1)) e'_3
+          (fun h =>
+            Eq.ndrec.{0, 1} (motive := fun a' =>
+              ∀ (e_3 : Eq.{1} a a'), HEq.{0} e_3 (Eq.refl.{1} a) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a' a'_1))
+              (fun e_3 h =>
+                Eq.casesOn.{0, 1} (motive := fun a_2 x =>
+                  Eq.{1} a'_1 a_2 → HEq.{0} e'_4 x → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'_1)) e'_4
+                  (fun h =>
+                    Eq.ndrec.{0, 1} (motive := fun a' =>
+                      ∀ (e_4 : Eq.{1} a_1 a'),
+                        HEq.{0} e_4 (Eq.refl.{1} a_1) → HEq.{1} (LT.lt.{0} a a_1) (LT.lt.{0} a a'))
+                      (fun e_4 h => HEq.refl.{1} (LT.lt.{0} a a_1)) (Eq.symm.{1} h) e'_4)
+                  (Eq.refl.{1} a'_1) (HEq.refl.{0} e'_4))
+              (Eq.symm.{1} h) e'_3)
+          (Eq.refl.{1} a') (HEq.refl.{0} e'_3))
+      ℝ Real.instLT (-8593 / 823543)
+      (HMul.hMul.{0, 0, 0} (Neg.neg.{0} ↑(HDiv.hDiv.{0, 0, 0} ↑8593 ↑1)) ↑(HDiv.hDiv.{0, 0, 0} ↑1 ↑823543))
+      (Mathlib.Meta.NormNum.isRat_eq_true.{0}
+        (Mathlib.Meta.NormNum.isRat_div.{0}
+          (Mathlib.Meta.NormNum.isRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+            (Mathlib.Meta.NormNum.IsInt.to_isRat.{0}
+              (Mathlib.Meta.NormNum.isInt_neg.{0} (Eq.refl.{1} Neg.neg.{0})
+                (Mathlib.Meta.NormNum.IsNat.to_isInt.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 8593)))
+                (Eq.refl.{1} (Int.negOfNat 8593))))
+            (Mathlib.Meta.NormNum.IsNNRat.to_isRat.{0}
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                  (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 823543)))))
+            (Eq.refl.{1} ((Int.negOfNat 8593).mul (Int.ofNat 1))) (Eq.refl.{1} 823543)))
+        (Mathlib.Meta.NormNum.isRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+          (Mathlib.Meta.NormNum.IsInt.to_isRat.{0}
+            (Mathlib.Meta.NormNum.isInt_neg.{0} (Eq.refl.{1} Neg.neg.{0})
+              (Mathlib.Meta.NormNum.IsNat.to_isInt.{0}
+                (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                    (Mathlib.Meta.NormNum.isNNRat_div.{0}
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                        (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                          (Mathlib.Meta.NormNum.isNat_intCast.{0} 8593 8593
+                            (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 8593)))
+                          (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                            (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                                (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                                  (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                          (Eq.refl.{1} 8593)))))))
+              (Eq.refl.{1} (Int.negOfNat 8593))))
+          (Mathlib.Meta.NormNum.IsNNRat.to_isRat.{0}
+            (Mathlib.Meta.NormNum.isNNRat_ratCast.{0}
+              (Mathlib.Meta.NormNum.isNNRat_div.{0}
+                (Mathlib.Meta.NormNum.isNNRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                    (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                      (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))
+                  (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                      (Mathlib.Meta.NormNum.isNat_intCast.{0} 823543 823543
+                        (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 823543)))))
+                  (Eq.refl.{1} (Nat.mul 1 1)) (Eq.refl.{1} 823543)))))
+          (Eq.refl.{1} ((Int.negOfNat 8593).mul (Int.ofNat 1))) (Eq.refl.{1} 823543)))
+      0 (↑(HDiv.hDiv.{0, 0, 0} ↑0 ↑1))
+      (Mathlib.Meta.NormNum.isNat_eq_true.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_zero.{0})
+        (Mathlib.Meta.NormNum.isNat_ratCast.{0}
+          (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+            (Mathlib.Meta.NormNum.isNNRat_div.{0}
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                (Mathlib.Meta.NormNum.isNat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+                  (Mathlib.Meta.NormNum.isNat_intCast.{0} 0 0 (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 0)))
+                  (Mathlib.Meta.NormNum.IsNNRat.to_isNat.{0}
+                    (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0}
+                        (Mathlib.Meta.NormNum.isNat_intCast.{0} 1 1
+                          (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℤ (Eq.refl.{1} 1))))))
+                  (Eq.refl.{1} 0)))))))))
+  (Eq.mp.{0}
+    (congr.{1, 1}
+      (congrArg.{1, 1} LT.lt.{0}
+        (congr.{1, 1}
+          (congrArg.{1, 1} HMul.hMul.{0, 0, 0}
+            (congrArg.{1, 1} Neg.neg.{0} (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 8593 1))))
+          (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 1 823543))))
+      (congrArg.{1, 1} Rat.cast.{0} (Rat.divInt_eq_div 0 1)))
+    h0)

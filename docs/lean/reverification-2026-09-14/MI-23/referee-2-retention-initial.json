@@ -1,0 +1,15 @@
+{
+  "verdict": "FAIL",
+  "exit_code": 1,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi23/docs/lean/reverification-2026-09-14/MI-23/referee-2-retention.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi23/matrix-inequalities-and-norms/MI-23/lean",
+  "root": "NLA.MI23.not_generalizedGeometricMeanConjecture",
+  "material_scalar": "NLA.MI23.scalar_gap_positive",
+  "script_sha256": "de620f5715027146b32f2389c2a7fe7233a9bb711c72daeed3a904b718bfa409",
+  "log_sha256": "ff83d97a8caabd2a3768aba044046dad08e109c02246020c0529ea9250cf4eb0"
+}

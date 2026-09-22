@@ -1,0 +1,3 @@
+'NLA.SP04.diagonal_unique_failure_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.SP04.diagonal_unique_failure_proved (s : Fin 3 → ℝ) (hs : NLA.SP04.SingularInterval s) :
+  NLA.SP04.Failure (Matrix.diagonal s)

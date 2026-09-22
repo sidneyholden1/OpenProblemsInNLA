@@ -6,8 +6,8 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved  
-**Last checked:** 2026-09-11  
+**Status:** Lean verified
+**Last checked:** 2026-09-14
 
 **Rating rationale (historical):** Challenging reflects a global extremal problem with pivot-path constraints in every dimension; specialist impact concerns sharp constants on the orthogonal subclass.
 
@@ -24,6 +24,26 @@
 The proof prints exact integer-column descriptions of both orthogonal matrices and verifies all active Schur-complement maxima. This disproves the universal extremizer equality. It does not determine the true orthogonal supremum or refute the separate asymptotic leading-constant conjecture. [Proof PDF](solution.pdf) · [Standalone TeX](solution.tex).
 
 A separate [Codex-agent mathematical review](../../references/stepaniants-ie05-2026-09-11/independent-review.md) returned **PASS**, with independently written rational checks of both QR conventions, all pivot ties, all 408 active entries and the positive squared growth gap. Substantial ChatGPT/Codex assistance is disclosed; this is automated-agent review, not external human peer review or formal certification. [Authorship, reproducible certificates, source checks and public-branch audit](../../references/stepaniants-ie05-2026-09-11/README.md). The original ID, path, statement, historical ratings and earlier checks below are retained. Peca-Medlin retains credit for the conjecture and cited element-growth analysis.
+
+## Lean proof and verification evidence — 2026-09-14
+
+**The complete original extremizer conjecture has a Lean-verified negative answer.** The complete universal orthogonal extremizer equality is disproved at order eight. Four exports establish the actual positive-diagonal QR factors, first-available-row pivot paths, every Schur update along those paths and strict growth separation, and the original conjecture’s negation using a genuine nonempty bounded supremum over all orthogonal inputs and admissible paths. The true supremum is not determined.
+
+[Immutable formal proof](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/df2cf7a721843c0d674e8377d435eb5750f06fff/linear-systems-and-elimination/IE-05/lean). The checked exports are
+`NLA.IE05.qr_certificates`, `NLA.IE05.pivot_certificates`, `NLA.IE05.growth_separation`, `NLA.IE05.counterexample`. Lean 4.33.1 uses pinned Mathlib `0df444a3` and LeanCert `621a43d7`;
+[complete pins and reproduction instructions](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie05/linear-systems-and-elimination/IE-05/lean/README.md) are retained.
+All four exported transitive axiom closures contain only `propext`,
+`Classical.choice` and `Quot.sound`.
+
+**Formalization:** Sidney Holden, Center for Computational Biology, Flatiron
+Institute, Simons Foundation, with OpenAI Codex assistance. George Stepaniants
+retains mathematical authorship. Two independent statement reviews preceded
+implementation, and two independent final proof reviews passed. Kernel-only
+LeanCert and [fresh isolated Linux Comparator and kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862178699)
+passed, including rejection controls. [Original artifact, exact checked inputs
+and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie05/linear-systems-and-elimination/IE-05/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md)
+are retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
 
 ## Context and notation
 

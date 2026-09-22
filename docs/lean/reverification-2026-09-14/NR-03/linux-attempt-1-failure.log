@@ -1,0 +1,509 @@
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	﻿2026-09-14T17:07:16.1649424Z Current runner version: '2.337.0'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1687492Z ##[group]Runner Image Provisioner
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1689263Z Hosted Compute Agent
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1690329Z Version: 20260828.587
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1691747Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1693111Z Build Date: 2026-08-28T16:44:25Z
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1694475Z Worker ID: {69e32541-d142-4f41-a11c-88e0b7c724ac}
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1695868Z Azure Region: eastus
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1696932Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1700977Z ##[group]Operating System
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1702040Z Ubuntu
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1703074Z 24.04.5
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1704029Z LTS
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1704897Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1706075Z ##[group]Runner Image
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1707139Z Image: ubuntu-24.04
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1708592Z Version: 20260907.300.1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1710808Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1713881Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1715825Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1718092Z ##[group]GITHUB_TOKEN Permissions
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1721161Z Contents: read
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1722206Z Metadata: read
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1723265Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1726436Z Secret source: Actions
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1728373Z Cache mode: write
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.1729698Z Prepare workflow directory
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.2199425Z Prepare all required actions
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.2249197Z Getting action download info
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.4010344Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.5208565Z Download action repository 'actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16' (SHA:924ae3a1cded613372ab5595356fb5720e22ba16)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.7022429Z Download action repository 'leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433' (SHA:96e06131c0e9943c780388fd166f55d1e2fa0433)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:16.7993579Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.0330232Z Getting action download info
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.1047160Z Download action repository 'actions/cache@v5' (SHA:caa296126883cff596d87d8935842f9db880ef25)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.2636626Z Complete job name: verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3455234Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3540744Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3541855Z with:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3542337Z   persist-credentials: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3542926Z   repository: sidneyholden1/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3547086Z   token: ***
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3547533Z   ssh-strict: true
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3548309Z   ssh-user: git
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3548753Z   clean: true
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3549200Z   sparse-checkout-cone-mode: true
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3549735Z   fetch-depth: 1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3550173Z   fetch-tags: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3550633Z   show-progress: true
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3551154Z   lfs: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3551577Z   submodules: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3552040Z   set-safe-directory: true
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3552584Z   allow-unsafe-pr-checkout: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.3553462Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4606061Z Syncing repository: sidneyholden1/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4609311Z ##[group]Getting Git version info
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4610667Z Working directory is '/home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4613075Z [command]/usr/bin/git version
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4682241Z git version 2.55.0
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4706048Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4725084Z Temporarily overriding HOME='/home/runner/work/_temp/81047495-a4ed-4d4d-ac9e-7e4aaf561fe8' before making global git config changes
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4736915Z Adding repository directory to the temporary git global config as a safe directory
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4739648Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4794967Z Deleting the contents of '/home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4804366Z ##[group]Initializing the repository
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4805863Z [command]/usr/bin/git init /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4946981Z hint: Using 'master' as the name for the initial branch. This default branch name
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4949449Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4951314Z hint: to use in all of your new repositories, which will suppress this warning,
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4952932Z hint: call:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4953911Z hint:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4955009Z hint: 	git config --global init.defaultBranch <name>
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4956247Z hint:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4957429Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4959621Z hint: 'development'. The just-created branch can be renamed via this command:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4961144Z hint:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4962046Z hint: 	git branch -m <name>
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4963049Z hint:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4964407Z hint: Disable this message with "git config set advice.defaultBranchName false"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4966729Z Initialized empty Git repository in /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA/.git/
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.4971122Z [command]/usr/bin/git remote add origin https://github.com/sidneyholden1/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5025712Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5027242Z ##[group]Disabling automatic garbage collection
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5030933Z [command]/usr/bin/git config --local gc.auto 0
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5068582Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5070009Z ##[group]Setting up auth
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5076100Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5118135Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5535403Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5575859Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5808793Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.5850518Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.6089310Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.6134061Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.6134960Z ##[group]Fetching the repository
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:17.6144963Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +5237b5fb3a35eaf437fb5826d4ecde3e41dc9014:refs/remotes/origin/codex/reverify-nr03
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7246771Z From https://github.com/sidneyholden1/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7249098Z  * [new ref]         5237b5fb3a35eaf437fb5826d4ecde3e41dc9014 -> origin/codex/reverify-nr03
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7252590Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7253795Z ##[group]Determining the checkout info
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7256621Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7259958Z [command]/usr/bin/git sparse-checkout disable
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7317547Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7355072Z ##[group]Checking out the ref
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:22.7361600Z [command]/usr/bin/git checkout --progress --force -B codex/reverify-nr03 refs/remotes/origin/codex/reverify-nr03
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.7721435Z Updating files:  53% (13363/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.7873420Z Updating files:  54% (13496/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8019061Z Updating files:  55% (13746/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8156436Z Updating files:  56% (13996/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8291898Z Updating files:  57% (14246/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8434813Z Updating files:  58% (14496/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8591901Z Updating files:  59% (14746/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8744478Z Updating files:  60% (14996/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.8934806Z Updating files:  61% (15246/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9085803Z Updating files:  62% (15496/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9226438Z Updating files:  63% (15745/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9405247Z Updating files:  64% (15995/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9515493Z Updating files:  65% (16245/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9689754Z Updating files:  66% (16495/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9812108Z Updating files:  67% (16745/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:23.9934062Z Updating files:  68% (16995/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.0108162Z Updating files:  69% (17245/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.0242172Z Updating files:  70% (17495/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.0448867Z Updating files:  71% (17745/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.0574609Z Updating files:  72% (17995/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.0712440Z Updating files:  73% (18245/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.0939054Z Updating files:  74% (18495/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.1081546Z Updating files:  75% (18744/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.1218034Z Updating files:  76% (18994/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.1389679Z Updating files:  77% (19244/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.1556318Z Updating files:  78% (19494/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.1898112Z Updating files:  79% (19744/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.2051847Z Updating files:  80% (19994/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.2269175Z Updating files:  81% (20244/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.2541956Z Updating files:  82% (20494/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.2865550Z Updating files:  83% (20744/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.4292908Z Updating files:  84% (20994/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.4587173Z Updating files:  85% (21244/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.4958785Z Updating files:  86% (21494/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.5206662Z Updating files:  87% (21744/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.5546457Z Updating files:  88% (21993/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.6089758Z Updating files:  89% (22243/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.6521488Z Updating files:  90% (22493/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.7021021Z Updating files:  91% (22743/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.7386711Z Updating files:  92% (22993/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.7560305Z Updating files:  93% (23243/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.7646703Z Updating files:  94% (23493/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.7742962Z Updating files:  94% (23619/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8009302Z Updating files:  95% (23743/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8164111Z Updating files:  96% (23993/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8370523Z Updating files:  97% (24243/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8499764Z Updating files:  98% (24493/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8644946Z Updating files:  99% (24743/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8645377Z Updating files: 100% (24992/24992)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8645764Z Updating files: 100% (24992/24992), done.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8949374Z Switched to a new branch 'codex/reverify-nr03'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.8955641Z branch 'codex/reverify-nr03' set up to track 'origin/codex/reverify-nr03'.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9072774Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9126019Z [command]/usr/bin/git log -1 --format=%H
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9160357Z 5237b5fb3a35eaf437fb5826d4ecde3e41dc9014
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9172156Z ##[group]Removing auth
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9184479Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9225652Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9491832Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9525342Z http.https://github.com/.extraheader
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9533978Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9570848Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9829230Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:24.9865501Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0120745Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0335421Z ##[group]Run python3 -m pip install -r tools/lean/requirements.txt
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0336011Z ^[[36;1mpython3 -m pip install -r tools/lean/requirements.txt^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0336482Z ^[[36;1mpython3 tools/lean/validate_manifest.py "$LEAN_PROJECT"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0380048Z shell: /usr/bin/bash -e {0}
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0380312Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0380627Z   LEAN_PROJECT: nonnegative-and-positive-factorizations/NR-03/lean
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.0381002Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.5060462Z Defaulting to user installation because normal site-packages is not writeable
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.9552025Z Collecting PyYAML==6.0.3 (from -r tools/lean/requirements.txt (line 1))
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:25.9888864Z   Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.0330880Z Collecting jsonschema==4.26.0 (from -r tools/lean/requirements.txt (line 2))
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.0373860Z   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.0715263Z Requirement already satisfied: attrs>=22.2.0 in /usr/lib/python3/dist-packages (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2)) (23.2.0)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.0926849Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2))
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.0969050Z   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.1372709Z Collecting referencing>=0.28.4 (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2))
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.1413706Z   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.4753918Z Collecting rpds-py>=0.25.0 (from jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2))
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.4806127Z   Downloading rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5172869Z Requirement already satisfied: typing-extensions>=4.4.0 in /usr/lib/python3/dist-packages (from referencing>=0.28.4->jsonschema==4.26.0->-r tools/lean/requirements.txt (line 2)) (4.10.0)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5258041Z Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5495033Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 38.3 MB/s eta 0:00:00
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5539774Z Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5584239Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 33.2 MB/s eta 0:00:00
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5621830Z Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5685289Z Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5743593Z Downloading rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (366 kB)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.5825372Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 366.2/366.2 kB 57.5 MB/s eta 0:00:00
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:26.8913798Z Installing collected packages: rpds-py, PyYAML, referencing, jsonschema-specifications, jsonschema
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.1006654Z Successfully installed PyYAML-6.0.3 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 referencing-0.37.0 rpds-py-2026.6.3
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.3879571Z Manifest schema and comparator coverage: PASS (10 declarations)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4114420Z ##[group]Run actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4114820Z with:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4115026Z   go-version: 1.27.1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4115237Z   cache: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4115435Z   check-latest: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4118132Z   token: ***
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.4118347Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.5407295Z Setup go version spec 1.27.1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:27.5421198Z Attempting to download 1.27.1...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:28.0205419Z matching 1.27.1...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:28.0234446Z Acquiring 1.27.1 from https://github.com/actions/go-versions/releases/download/1.27.1-33583469715/go-1.27.1-linux-x64.tar.gz
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:28.4456430Z Extracting Go...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:28.4572931Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/000ca7dd-9ca3-422d-884d-03da5d88ab36 -f /home/runner/work/_temp/90df4287-b555-4865-a4d6-39ace9ef62f7
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:30.1985878Z Successfully extracted go to /home/runner/work/_temp/000ca7dd-9ca3-422d-884d-03da5d88ab36
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:30.1986507Z Adding to the cache ...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.1733394Z Successfully cached go to /opt/hostedtoolcache/go/1.27.1/x64
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.1736716Z Added go to the path
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.1738756Z Successfully set up Go version 1.27.1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.1974245Z go version go1.27.1 linux/amd64
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.1974471Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.1975167Z ##[group]go env
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3484591Z AR='ar'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3484998Z CC='gcc'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3485355Z CGO_CFLAGS='-O2 -g'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3485737Z CGO_CPPFLAGS=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3486100Z CGO_CXXFLAGS='-O2 -g'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3486480Z CGO_ENABLED='1'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3486827Z CGO_FFLAGS='-O2 -g'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3487188Z CGO_LDFLAGS='-O2 -g'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3487535Z CXX='g++'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3488130Z GCCGO='gccgo'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3488466Z GO111MODULE=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3488792Z GOAMD64='v1'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3489114Z GOARCH='amd64'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3489454Z GOAUTH='netrc'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3489815Z GOBIN='/home/runner/go/bin'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3490310Z GOCACHE='/home/runner/.cache/go-build'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3490761Z GOCACHEPROG=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3491061Z GODEBUG=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3491281Z GOENV='/home/runner/.config/go/env'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3491580Z GOEXE=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3491778Z GOEXPERIMENT=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3491979Z GOFIPS140='off'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3492167Z GOFLAGS=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3492919Z GOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build2699947018=/tmp/go-build -gno-record-gcc-switches'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3493606Z GOHOSTARCH='amd64'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3493816Z GOHOSTOS='linux'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3494011Z GOINSECURE=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3494209Z GOMOD='/dev/null'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3494438Z GOMODCACHE='/home/runner/go/pkg/mod'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3494696Z GONOPROXY=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3494882Z GONOSUMDB=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3495075Z GOOS='linux'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3495269Z GOPACKAGESDRIVER=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3495488Z GOPATH='/home/runner/go'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3495737Z GOPRIVATE=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3496004Z GOPROXY='https://proxy.golang.org,direct'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3496362Z GOROOT='/opt/hostedtoolcache/go/1.27.1/x64'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3496659Z GOSUMDB='sum.golang.org'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3496887Z GOTELEMETRY='local'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3497150Z GOTELEMETRYDIR='/home/runner/.config/go/telemetry'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3498204Z GOTMPDIR=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3498422Z GOTOOLCHAIN='local'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3498760Z GOTOOLDIR='/opt/hostedtoolcache/go/1.27.1/x64/pkg/tool/linux_amd64'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3499129Z GOVCS=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3499327Z GOVERSION='go1.27.1'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3499538Z GOWORK=''
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3499760Z PKG_CONFIG='pkg-config'
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3499905Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.3500359Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4081468Z ##[group]Run leanprover/lean-action@96e06131c0e9943c780388fd166f55d1e2fa0433
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4082049Z with:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4082614Z   lake-package-directory: nonnegative-and-positive-factorizations/NR-03/lean
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4083267Z   auto-config: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4083627Z   build: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4083963Z   test: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4084271Z   lint: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4084571Z   use-mathlib-cache: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4084956Z   use-github-cache: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4085330Z   mk_all-check: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4085746Z   check-reservoir-eligibility: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4086195Z   leanchecker: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4086564Z   lean4checker: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4086918Z   nanoda: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4087247Z   nanoda-allow-sorry: true
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4087629Z   axiom-audit: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4088393Z   axiom-audit-allow: propext,Classical.choice,Quot.sound
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4089070Z   reinstall-transient-toolchain: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4089528Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4089842Z   GOTOOLCHAIN: local
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4090198Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4156891Z ##[start-action display=install elan;id=__leanprover_lean-action.__run]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4183418Z ##[group]Run : Install Elan
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4183702Z ^[[36;1m: Install Elan^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4183992Z ^[[36;1m${GITHUB_ACTION_PATH}/scripts/install_elan.sh^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4224910Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4225271Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4225492Z   GOTOOLCHAIN: local
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4225717Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4318769Z ##[group]Elan Installation Output
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:37.4817155Z info: downloading installer
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:38.2601739Z info: downloading https://releases.lean-lang.org/lean4/v4.33.1/lean-4.33.1-linux.tar.zst
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:42.3609592Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.33.1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4397659Z Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4812999Z Lake version 5.0.0-src+819816b (Lean version 4.33.1)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4850931Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4851247Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4869299Z ##[end-action id=__leanprover_lean-action.__run;outcome=success;conclusion=success;duration_ms=12071]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4874947Z ##[start-action display=configure `lean-action`;id=__leanprover_lean-action.config]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4891970Z ##[group]Run : Configure Lean Action
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4892297Z ^[[36;1m: Configure Lean Action^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4892584Z ^[[36;1m${GITHUB_ACTION_PATH}/scripts/config.sh^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4930850Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4931194Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4931389Z   GOTOOLCHAIN: local
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4931611Z   AUTO_CONFIG: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4931816Z   BUILD: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4932017Z   TEST: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4932206Z   LINT: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.4932387Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5084666Z ##[group]Configure lean-action
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5136935Z ##[end-action id=__leanprover_lean-action.config;outcome=success;conclusion=success;duration_ms=26]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5142193Z ##[start-action display=reinstall transient toolchain;id=__leanprover_lean-action.__run_2]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5148890Z ##[end-action id=__leanprover_lean-action.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5151791Z ##[start-action display=ensure all files are imported;id=__leanprover_lean-action.mk_all]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5155742Z ##[end-action id=__leanprover_lean-action.mk_all;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5158047Z ##[start-action display=Run actions/cache/restore@v5;id=__leanprover_lean-action.__actions_cache]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5162053Z ##[end-action id=__leanprover_lean-action.__actions_cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5164047Z ##[start-action display=detect mathlib;id=__leanprover_lean-action.detect-mathlib]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5167553Z ##[end-action id=__leanprover_lean-action.detect-mathlib;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5169929Z ##[start-action display=get mathlib cache;id=__leanprover_lean-action.__run_3]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5185789Z ##[end-action id=__leanprover_lean-action.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5214913Z ##[start-action display=build sidneyholden1/OpenProblemsInNLA;id=__leanprover_lean-action.build]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5219821Z ##[end-action id=__leanprover_lean-action.build;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5221770Z ##[start-action display=Run actions/cache/save@v5;id=__leanprover_lean-action.__actions_cache_2]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5225351Z ##[end-action id=__leanprover_lean-action.__actions_cache_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5229293Z ##[start-action display=test sidneyholden1/OpenProblemsInNLA;id=__leanprover_lean-action.test]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5233744Z ##[end-action id=__leanprover_lean-action.test;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5236827Z ##[start-action display=lint sidneyholden1/OpenProblemsInNLA;id=__leanprover_lean-action.lint]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5241564Z ##[end-action id=__leanprover_lean-action.lint;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5243480Z ##[start-action display=check reservoir eligibility;id=__leanprover_lean-action.__run_4]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5247015Z ##[end-action id=__leanprover_lean-action.__run_4;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5250154Z ##[start-action display=check environment with leanchecker;id=__leanprover_lean-action.__run_5]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5254785Z ##[end-action id=__leanprover_lean-action.__run_5;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5257226Z ##[start-action display=check environment with nanoda;id=__leanprover_lean-action.nanoda]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5260944Z ##[end-action id=__leanprover_lean-action.nanoda;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5263563Z ##[start-action display=audit axioms with axiom-audit;id=__leanprover_lean-action.axiom-audit]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5267085Z ##[end-action id=__leanprover_lean-action.axiom-audit;outcome=skipped;conclusion=skipped;duration_ms=0]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5320817Z ##[group]Run sudo apt-get update
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5321148Z ^[[36;1msudo apt-get update^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5321488Z ^[[36;1msudo apt-get install -y bubblewrap dbus-user-session^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5321992Z ^[[36;1msudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5322398Z ^[[36;1msudo loginctl enable-linger "$(id -un)"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5322768Z ^[[36;1msudo systemctl start "user@$(id -u).service"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5323167Z ^[[36;1mecho "XDG_RUNTIME_DIR=/run/user/$(id -u)" >> "$GITHUB_ENV"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5323682Z ^[[36;1mecho "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus" >> "$GITHUB_ENV"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5360786Z shell: /usr/bin/bash -e {0}
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5361041Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5361245Z   GOTOOLCHAIN: local
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:49.5361464Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.1164057Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.2130914Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.2132475Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.2542276Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.2575884Z Get:7 https://dl.google.com/linux/chrome-stable/deb stable InRelease [2548 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.3029970Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.3068384Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.7771867Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [464 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.8750836Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1263 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.8788090Z Get:18 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [415 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.9130182Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.9201856Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.9217084Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1691 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.9472455Z Get:19 https://dl.google.com/linux/chrome-stable/deb stable/main amd64 Packages [1410 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.9573002Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [339 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:50.9591303Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.0160656Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1544 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.0650218Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [354 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.0674497Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.0681306Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5772 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1107036Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1150846Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1007 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1199419Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [213 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1206161Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1217376Z Get:25 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1207 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1274136Z Get:26 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [242 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1290986Z Get:27 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1302884Z Get:28 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1445 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:51.1369360Z Get:29 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [336 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:55.5336157Z Fetched 11.9 MB in 2s (5897 kB/s)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:56.4238212Z Reading package lists...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:56.4744660Z Reading package lists...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:56.7011805Z Building dependency tree...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:56.7020563Z Reading state information...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.0233808Z dbus-user-session is already the newest version (1.14.10-4ubuntu4.1).
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.0234823Z dbus-user-session set to manually installed.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.0235621Z The following NEW packages will be installed:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.0245530Z   bubblewrap
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.2162375Z 0 upgraded, 1 newly installed, 0 to remove and 52 not upgraded.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.2163243Z Need to get 50.2 kB of archives.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.2164166Z After this operation, 133 kB of additional disk space will be used.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.2164707Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.2412686Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 bubblewrap amd64 0.9.0-1ubuntu0.1 [50.2 kB]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8257051Z Fetched 50.2 kB in 0s (144 kB/s)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8500890Z Selecting previously unselected package bubblewrap.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8858461Z (Reading database ... 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8858879Z (Reading database ... 5%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8859145Z (Reading database ... 10%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8859395Z (Reading database ... 15%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8859636Z (Reading database ... 20%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8859877Z (Reading database ... 25%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8860117Z (Reading database ... 30%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8860354Z (Reading database ... 35%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8860602Z (Reading database ... 40%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8860842Z (Reading database ... 45%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8861284Z (Reading database ... 50%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:57.8919706Z (Reading database ... 55%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:58.0296432Z (Reading database ... 60%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:58.2208170Z (Reading database ... 65%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:58.3763913Z (Reading database ... 70%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:58.5650275Z (Reading database ... 75%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:58.7298981Z (Reading database ... 80%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:58.9176287Z (Reading database ... 85%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.1110905Z (Reading database ... 90%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3184519Z (Reading database ... 95%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3185283Z (Reading database ... 100%
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3186299Z (Reading database ... 201818 files and directories currently installed.)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3231417Z Preparing to unpack .../bubblewrap_0.9.0-1ubuntu0.1_amd64.deb ...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3260377Z Unpacking bubblewrap (0.9.0-1ubuntu0.1) ...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3710063Z Setting up bubblewrap (0.9.0-1ubuntu0.1) ...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3758485Z Processing triggers for man-db (2.12.0-4build2) ...
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:07:59.3780226Z Not building database; man-db/auto-update is not 'true'.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0498857Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0499453Z Running kernel seems to be up-to-date.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0499917Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0500122Z No services need to be restarted.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0500487Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0500691Z No containers need to be restarted.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0501058Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0501316Z No user sessions are running outdated binaries.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0501792Z 
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:00.0502300Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1177649Z kernel.apparmor_restrict_unprivileged_userns = 0
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1515758Z ##[group]Run ulimit -n 65536
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1516067Z ^[[36;1mulimit -n 65536^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1516388Z ^[[36;1mtools/lean/bootstrap.sh "$RUNNER_TEMP/nla-lean-tools"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1516853Z ^[[36;1mtools/lean/verify.sh "$LEAN_PROJECT" "$RUNNER_TEMP/nla-lean-tools"^[[0m
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1554265Z shell: /usr/bin/bash -e {0}
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1554526Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1554723Z   GOTOOLCHAIN: local
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1554965Z   XDG_RUNTIME_DIR: /run/user/1001
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1555287Z   DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1001/bus
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1555713Z   LEAN_PROJECT: nonnegative-and-positive-factorizations/NR-03/lean
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.1556083Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.4700821Z Running elan toolchain install leanprover/lean4:v4.33.1
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.4701677Z Log: /home/runner/work/_temp/nla-lean-tools/logs/bootstrap/elan.log
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.4730633Z info: toolchain 'leanprover/lean4:v4.33.1' is already installed
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.5547299Z Running go build -mod=readonly -buildvcs=false -o /home/runner/work/_temp/nla-lean-tools/.tools/bin/landrun ./cmd/landrun
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.5548665Z Log: /home/runner/work/_temp/nla-lean-tools/logs/bootstrap/landrun-build.log
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.5590655Z go: downloading github.com/urfave/cli/v3 v3.6.2
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:08:01.5758545Z go: downloading github.com/landlock-lsm/go-landlock v0.9.0
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6460502Z ##[error]internal/sandbox/sandbox.go:7:2: github.com/landlock-lsm/go-landlock@v0.9.0: read "https://proxy.golang.org/github.com/landlock-lsm/go-landlock/@v/v0.9.0.zip": stream error: stream ID 3; INTERNAL_ERROR; received from peer
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6471486Z Lean verification precondition/check failed: verification phase failed: /home/runner/work/_temp/nla-lean-tools/logs/bootstrap/landrun-build.log (exit 1, expected 0; required markers ())
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6473937Z ##[error]internal/sandbox/sandbox.go:8:2: github.com/landlock-lsm/go-landlock@v0.9.0: read "https://proxy.golang.org/github.com/landlock-lsm/go-landlock/@v/v0.9.0.zip": stream error: stream ID 3; INTERNAL_ERROR; received from peer
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6635680Z ##[error]Process completed with exit code 2.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6700200Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6701658Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6702046Z with:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6702237Z   name: lean-NR-03
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6702491Z   path: /home/runner/work/_temp/nla-lean-tools/logs/
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6702800Z   if-no-files-found: warn
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6703034Z   compression-level: 6
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6703247Z   overwrite: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6703455Z   include-hidden-files: false
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6703690Z env:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6703871Z   GOTOOLCHAIN: local
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6704087Z   XDG_RUNTIME_DIR: /run/user/1001
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6704429Z   DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1001/bus
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.6704733Z ##[endgroup]
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.8474626Z (node:3055) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.8475642Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.8559732Z With the provided path, there will be 2 files uploaded
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.8566880Z Artifact name is valid!
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:01.8567909Z Root directory input is valid!
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.0790811Z Beginning upload of artifact content to blob storage
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.1005500Z (node:3055) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.1269871Z Uploaded bytes 667
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.1432828Z Finished uploading artifact content to blob storage!
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.1434131Z SHA256 digest of uploaded artifact zip is 296fc755e89b293c74aa677874deeb9ce66bee2894a6f6b35ed30581035e3b31
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.1436542Z Finalizing artifact upload
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.3425547Z Artifact lean-NR-03.zip successfully finalized. Artifact ID 10360040188
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.3426725Z Artifact lean-NR-03 has been successfully uploaded! Final size is 667 bytes. Artifact ID is 10360040188
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.3432910Z Artifact download URL: https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34872729999/artifacts/10360040188
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.3633556Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.3634869Z Post job cleanup.
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4551696Z [command]/usr/bin/git version
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4596340Z git version 2.55.0
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4637565Z Temporarily overriding HOME='/home/runner/work/_temp/ab55988b-0ff9-411a-8fe8-c23d0ff56dd3' before making global git config changes
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4639196Z Adding repository directory to the temporary git global config as a safe directory
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4644256Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/OpenProblemsInNLA/OpenProblemsInNLA
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4687230Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.4725461Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.5006325Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.5050372Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.5352229Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.5395250Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.5884199Z Cleaning up orphan processes
+verify (NR-03, nonnegative-and-positive-factorizations/NR-03/lean)	UNKNOWN STEP	2026-09-14T17:09:02.6306529Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

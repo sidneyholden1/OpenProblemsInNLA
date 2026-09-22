@@ -1,0 +1,12 @@
+{
+  "run_id": 34927150695,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34927150695",
+  "verified_commit": "9acd5d5c9ab91c5c0c07603b6b48c0cb7ede54e6",
+  "artifact_id": 10380179618,
+  "artifact_sha256": "6925d651c338b1ce7af48368af631e28e70a2cf047a5029db594b8aaae4da682",
+  "github_artifact_digest": "sha256:6925d651c338b1ce7af48368af631e28e70a2cf047a5029db594b8aaae4da682",
+  "all_input_hashes_match": true,
+  "input_count": 93,
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

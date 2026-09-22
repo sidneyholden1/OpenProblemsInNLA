@@ -1,0 +1,4 @@
+⚠ [8792/8792] Built NLA.SP04.Scalar (31s)
+warning: NLA/SP04/Scalar.lean:13:2: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: NLA/SP04/Scalar.lean:16:2: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+Build completed successfully (8792 jobs).

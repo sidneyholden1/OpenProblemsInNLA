@@ -1,0 +1,59 @@
+@NLA.RA07.elementary_values : ∀ {n : ℕ} (lam : Fin n → ℝ),
+  (∀ (i : Fin n), LT.lt.{0} 0 (lam i)) →
+    Eq.{1} (NLA.RA07.elementarySymmetric lam 0) 1 ∧
+      (∀ (j : ℕ), LT.lt.{0} n j → Eq.{1} (NLA.RA07.elementarySymmetric lam j) 0) ∧
+        ∀ (j : ℕ), LE.le.{0} j n → LT.lt.{0} 0 (NLA.RA07.elementarySymmetric lam j)
+'NLA.RA07.elementary_values' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA07.generating_derivative_values : ∀ {n : ℕ} (lam : Fin n → ℝ) (j : ℕ),
+  Eq.{1} (Polynomial.coeff.{0} (NLA.RA07.generatingPolynomial lam) j) (NLA.RA07.elementarySymmetric lam j) ∧
+    Eq.{1} (Polynomial.eval.{0} 0 (NLA.RA07.iteratedGeneratingDerivative lam j))
+      (HMul.hMul.{0, 0, 0} (↑j.factorial) (NLA.RA07.elementarySymmetric lam j))
+'NLA.RA07.generating_derivative_values' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA07.positive_derivative_factorization : ∀ {n : ℕ} (lam : Fin n → ℝ),
+  (∀ (i : Fin n), LT.lt.{0} 0 (lam i)) →
+    ∀ (d : ℕ),
+      LE.le.{0} d n →
+        LT.lt.{0} 0 (Polynomial.eval.{0} 0 (NLA.RA07.iteratedGeneratingDerivative lam d)) ∧
+          Eq.{1} (Polynomial.natDegree.{0} (NLA.RA07.iteratedGeneratingDerivative lam d)) (HSub.hSub.{0, 0, 0} n d) ∧
+            ∃ μ,
+              (∀ (a : Fin (HSub.hSub.{0, 0, 0} n d)), LT.lt.{0} 0 (μ a)) ∧
+                Eq.{1} (NLA.RA07.iteratedGeneratingDerivative lam d)
+                  (HMul.hMul.{0, 0, 0}
+                    (Polynomial.C.{0} (Polynomial.eval.{0} 0 (NLA.RA07.iteratedGeneratingDerivative lam d)))
+                    (NLA.RA07.generatingPolynomial μ))
+'NLA.RA07.positive_derivative_factorization' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA07.power_sum_certificate : ∀ {m : ℕ} (μ : Fin m → ℝ),
+  LE.le.{0} 2 m →
+    (∀ (a : Fin m), LT.lt.{0} 0 (μ a)) →
+      LT.lt.{0} 0 (NLA.RA07.certificateDenominator μ) ∧
+        Eq.{1}
+            (HSub.hSub.{0, 0, 0} (HMul.hMul.{0, 0, 0} (NLA.RA07.powerSum μ 1) (NLA.RA07.powerSum μ 3))
+              (HPow.hPow.{0, 0, 0} (NLA.RA07.powerSum μ 2) 2))
+            (NLA.RA07.pairGap μ) ∧
+          LE.le.{0} 0 (NLA.RA07.pairGap μ)
+'NLA.RA07.power_sum_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.RA07.second_difference_certificate : ∀ {n : ℕ},
+  LE.le.{0} 3 n →
+    ∀ (lam : Fin n → ℝ),
+      (∀ (i : Fin n), LT.lt.{0} 0 (lam i)) →
+        ∀ (j : ℕ),
+          LE.le.{0} 2 j →
+            LE.le.{0} j (HSub.hSub.{0, 0, 0} n 1) →
+              ∃ μ,
+                (∀ (a : Fin (HSub.hSub.{0, 0, 0} n (HSub.hSub.{0, 0, 0} j 1))), LT.lt.{0} 0 (μ a)) ∧
+                  Eq.{1} (NLA.RA07.iteratedGeneratingDerivative lam (HSub.hSub.{0, 0, 0} j 1))
+                      (HMul.hMul.{0, 0, 0}
+                        (Polynomial.C.{0}
+                          (Polynomial.eval.{0} 0 (NLA.RA07.iteratedGeneratingDerivative lam (HSub.hSub.{0, 0, 0} j 1))))
+                        (NLA.RA07.generatingPolynomial μ)) ∧
+                    LT.lt.{0} 0 (NLA.RA07.certificateDenominator μ) ∧
+                      Eq.{1}
+                        (HAdd.hAdd.{0, 0, 0}
+                          (HSub.hSub.{0, 0, 0} (NLA.RA07.errorSequence lam (HSub.hSub.{0, 0, 0} j 1))
+                            (HMul.hMul.{0, 0, 0} 2 (NLA.RA07.errorSequence lam j)))
+                          (NLA.RA07.errorSequence lam (HAdd.hAdd.{0, 0, 0} j 1)))
+                        (HDiv.hDiv.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 (NLA.RA07.pairGap μ))
+                          (NLA.RA07.certificateDenominator μ))
+'NLA.RA07.second_difference_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.RA07.errorSequence_convex : NLA.RA07.ConvexityConjecture
+'NLA.RA07.errorSequence_convex' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

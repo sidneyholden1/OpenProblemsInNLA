@@ -1,0 +1,4 @@
+'NLA.IE05.qr_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE05.pivot_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE05.growth_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE05.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]

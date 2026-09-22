@@ -1,0 +1,50 @@
+# PF-02 independent final code review 1
+
+**Verdict: PASS for the complete local proof; isolated Linux verification remains pending.** Reviewer: Codex AI agent `/root/iv06_statement_referee_2`, final referee 1, nonauthor of all reviewed proof modules. Date: 2026-09-14 local time. This review follows `docs/lean/REVIEW.md`, including its Tau Ceti adaptation, without claiming official endorsement or human peer review.
+
+I read the complete active implementation (`Definitions`, `Numeric`, `StructuralBase`, `Structural`, `Solution`) and every exported wrapper. The complete canonical target and complete Colbrook manuscript were read during my independent statement review; their current bytes still match the recorded source base. I checked all thirteen frozen input hashes, including the unchanged Definitions and Challenge. Historical source review claims were not used as proof evidence.
+
+## Exact active source
+
+| File | SHA-256 |
+| --- | --- |
+| `NLA/PF02/Definitions.lean` | `8ec6b4b58a99eb5e4554ebe7807619665c52deb83405083ba40b224a935b1f1d` |
+| `NLA/PF02/Numeric.lean` | `647842caf04abde095886828e36b049806559c903ce1b704c0bf46063707b4fb` |
+| `NLA/PF02/StructuralBase.lean` | `4d462aa86dbbfca6e59f2ff71ab20fd29840400b9fe164c8829d4e9b5dd8c3d7` |
+| `NLA/PF02/Structural.lean` | `8f5c29c475cdc30317ceacab53204a117432ee4584bf9a642715cbd00f97b006` |
+| `Solution.lean` | `6748db358bded3e18e451c3760dc4bea619a21ab4a9a623239e759500d3998a5` |
+
+`referee-1-active-inputs.json` also binds the current metadata, configuration, frozen boundary and toolchain. `referee-1-proof-checks.json` records exact evidence hashes, commands and exit codes; `referee-1-proof-check.py` reproduces the consistency checks. No proof files were edited by this referee.
+
+## Full mathematical argument
+
+The four structural and five resulting contracts collectively preserve the original real PSD congruence-quotient problem. All nine actual exported types were independently queried and compared with the frozen Challenge signatures.
+
+- **Actual minimum and all factor sizes:** `diagonal_factorization` constructs a size-q factorization for every entrywise nonnegative matrix using diagonal row factors and diagonal matrix units as column factors. The trace identity is exact. Positive q gives nonempty feasible sizes; the natural infimum is then proved an attained least member. For the witness, `rank_le_factor_size_sq` flattens the entire trace pairing into an actual matrix product of inner dimension k², with the second factor's indices reversed correctly. It applies to every PSD factorization, without a hidden symmetry/rank assumption. Actual rank six therefore excludes every positive k<3, while the exhibited size-three tuple gives membership. The use of the weaker k² bound is sufficient and does not weaken minimality.
+- **Numerical data and positivity:** all thirty-six entries of M are positive; its integer determinant certificate is 8192. The two coordinate determinants are +32 and −32. Each integer determinant equality is transported to the real matrix through `Int.castRingHom` and `RingHom.map_det`, with explicit entry matching. Positive definiteness is proved for every nonzero real three-vector by sums of squares and exact arithmetic, using the genuine Mathlib quadratic-form criterion. Both entire trace Gram matrices are checked exactly, and PSD membership follows from actual positive definiteness. No floating-point eigenvalues, finite vector samples or assumed principal-minor certificate substitutes for these facts.
+- **All congruences and genuine quotient:** `congruent_equivalence` proves reflexivity, symmetry via inverse units, and transitivity via S*T, including the correct reversed order on inverse column factors. `Quot.eq` and the proved equivalence identify class equality with exactly an actual congruence, not a larger relation. `isQuotientMap_quot_mk` supplies the genuine coinduced topology. The unit formulation ranges over every invertible real matrix and never invokes a totalized singular inverse.
+- **Generic coordinate bridges:** the trace formula is proved for arbitrary symmetric row and column factors, including the off-diagonal weights two. The congruence-coordinate action is proved for arbitrary symmetric row factors and every real S. The determinant identity `det(C_S)=det(S)^4` expands the actual six-by-six congruence determinant and uses exact ring normalization in all nine free real entries. It imposes no diagonal, orthogonal, nonsingular or positive-determinant restriction on that identity.
+- **Whole-space orientation:** actual PSD symmetry and the trace-coordinate identity force the row-coordinate determinant to be nonzero for every witness factorization, since det(M)=8192. Continuity is proved by representing the sign as det/abs(det), with the denominator proved nonzero everywhere on the full factorization subtype. Congruence multiplies the determinant by the positive fourth power of the unit determinant. Thus the sign is invariant even for negative-determinant, nonorthogonal changes of basis. No factorization is discarded to make orientation continuous.
+- **Disconnectedness and full original negation:** `Quot.lift` descends that continuous invariant through the actual quotient. Both explicit valid tuples prove that its range is exactly {−1,+1}. Nonemptiness is separately supplied. If the whole quotient were preconnected, its continuous real image would contain zero between those two values, a contradiction. Finally the original universal conjecture is instantiated at k=3, p=q=6 with the proved ordinary rank and minimum. This proves genuine disconnectedness, not merely nonuniqueness, lack of a selected path, or emptiness.
+
+The source's all-size extensions and positive perturbation arguments are not claimed. A size-three counterexample fully negates the original universally quantified question. No claim of exactly two connected components is made.
+
+## Independent local checks and trusted certificates
+
+I inspected the coordinator's full successful 3592-job Solution build and structural axiom log. Separately, my fresh consumer queried all nine actual theorem types, printed all nine axiom closures and executed all nine LeanCert `#assert_trust kernel` commands. It exited zero; each closure is exactly `propext`, `Classical.choice`, `Quot.sound`. The active proof files contain no `sorry`, `admit`, custom axiom, `native_decide` or unsafe declaration, and Solution does not import Challenge.
+
+The three actual integer determinant proof terms begin with `of_decide_eq_true (id (Eq.refl true))`, followed by the integer-to-real map argument. This is kernel reduction of an exact decidable integer equality, not a native-compiler axiom. Direct inspection of the generic polynomial theorem's actual proof body found 252 used constants, including `Matrix.det_succ_row_zero`, `Mathlib.Tactic.Ring.of_eq`, ring congruence/normalization lemmas and NormNum arithmetic witnesses. I inspected the relevant ring soundness lemmas; these are ordinary proved equality transformations. I independently re-elaborated the complete active `Numeric.lean`, including all integer certificates, all-vector PSD arguments and the generic polynomial identity, successfully with exit zero.
+
+The separate retention diagnostic traversed actual proof bodies and found paths from `not_connectedOrbitConjecture` to all three integer determinant lemmas and to `congruence_coordinate_det`. In particular, the generic polynomial is consumed through `orientation_congruent` and `quotient_orientation_proved`; it is not an unused auxiliary theorem. Its own axiom/kernel checks passed.
+
+Pretty-printing has explicit limits: the integer cast proofs contain abbreviated deep expressions, and the pretty-printer could not render the full generic polynomial expression. The actual-body constant inspection, independent Numeric replay, retained dependency paths and axiom audits address that limitation; this report does not claim a complete textual rendering. An initial diagnostic requested the unsupported `pp.maxDepth` option and exited one. Its input/output remain as `referee-1-material-terms-initial.*`; the corrected command exited zero. This was a review-display error, not a proof-source error.
+
+LeanCert is materially used for exported trust auditing. This exact algebraic argument uses no interval certificate, and none is claimed. I inspected LeanCert's actual classification code: kernel mode rejects sorry, custom and native-compiler axioms. It does not itself substitute for the pending isolated Linux kernel replay.
+
+## Reuse, clarity, attribution and remaining limits
+
+The implementation reuses Mathlib's real PSD/quadratic-form definitions, determinant transport and multiplicativity, rank-product bounds, natural least-infimum semantics, actual quotient topology, determinant continuity and connected-image interval property. Fixed integer computation, direct dimension-three polynomial normalization and the k² minimality argument keep computation small without narrowing the theorem. Module separation makes the structural and finite algebraic arguments reviewable. The existing unused-tactic/simp linter warnings are nonblocking and do not indicate omitted obligations.
+
+Colbrook retains mathematical proof credit and Cambridge affiliation; Fawzi, Gouveia, Parrilo, Robinson and Thomas retain original-question credit. The current `formalization.yaml` truthfully records local completion of all nine exports, standard axioms and pending final reviews/Linux verification, with AI assistance and no source endorsement or human review claim. The prior statement approvals remain bound to their original bytes. I found no material correctness, fidelity, nonvacuity or attribution blocker.
+
+This is final **code-review** approval on the listed local bytes. Actual isolated Linux Comparator statement matching, default-kernel replay, sandbox/rejection controls and artifact provenance remain required before project completion or publication is claimed. I did not inspect a successful Linux run because none was available for this review.

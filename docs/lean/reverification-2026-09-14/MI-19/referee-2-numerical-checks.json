@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "permutations": 24,
+  "setwise_preserving_interior_singleton": 6,
+  "gram_identity": true,
+  "full_coefficients_ascending": [
+    "4999700",
+    "4886140",
+    "-199231",
+    "4712758",
+    "9568969",
+    "4886140",
+    "115600"
+  ],
+  "restricted_coefficients_ascending": [
+    "4999700",
+    "4741130",
+    0,
+    "4741130",
+    "9482260",
+    "4999700",
+    0
+  ],
+  "full_minus_restricted": "-3235575/16384",
+  "complex_reality": "all exact rational products have zero imaginary part"
+}

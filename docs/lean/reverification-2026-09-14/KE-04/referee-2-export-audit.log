@@ -1,0 +1,193 @@
+@NLA.KE04.real_matrix_semantics : ∀ {n m : ℕ} (A : NLA.KE04.Mat n) (M : NLA.KE04.Rect n m),
+  (Matrix.IsHermitian.{0, 0} A ↔ Eq.{1} (Matrix.transpose.{0, 0, 0} A) A) ∧
+    (∀ (x : NLA.KE04.Vec m) (i : Fin n),
+        Eq.{1} (WithLp.ofLp.{0} ((NLA.KE04.act M) x) i) (∑ j, HMul.hMul.{0, 0, 0} (M i j) (WithLp.ofLp.{0} x j))) ∧
+      (Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} M) M) 1 ↔ Orthonormal.{0, 0, 0} ℝ (NLA.KE04.column M))
+'NLA.KE04.real_matrix_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.krylov_range_semantics : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (ell : ℕ),
+  Eq.{1} (NLA.KE04.krylov A V ell) (LinearMap.range.{0, 0, 0, 0} (NLA.KE04.krylovCombination A V ell)) ∧
+    (∀ (x : NLA.KE04.Vec n),
+        Membership.mem.{0, 0} (NLA.KE04.krylov A V ell) x ↔
+          ∃ c,
+            Eq.{1} x
+              (∑ rc,
+                HSMul.hSMul.{0, 0, 0} (c rc)
+                  (NLA.KE04.column (HMul.hMul.{0, 0, 0} (HPow.hPow.{0, 0, 0} A ↑rc.1) V) rc.2))) ∧
+      LE.le.{0} (Module.finrank.{0, 0} ℝ ↥(NLA.KE04.krylov A V ell)) (HMul.hMul.{0, 0, 0} ell p)
+'NLA.KE04.krylov_range_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.krylov_nesting_and_shift : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p),
+  Eq.{1} (NLA.KE04.krylov A V 0) Bot.bot.{0} ∧
+    Monotone.{0, 0} (NLA.KE04.krylov A V) ∧
+      ∀ (ell : ℕ) (x : NLA.KE04.Vec n),
+        Membership.mem.{0, 0} (NLA.KE04.krylov A V ell) x →
+          Membership.mem.{0, 0} (NLA.KE04.krylov A V (HAdd.hAdd.{0, 0, 0} ell 1)) ((NLA.KE04.act A) x)
+'NLA.KE04.krylov_nesting_and_shift' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.fullBlockDimension_iff_independent : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (ell : ℕ),
+  (NLA.KE04.FullBlockDimension A V ell ↔ LinearIndependent.{0, 0, 0} ℝ (NLA.KE04.krylovColumns A V ell)) ∧
+    (NLA.KE04.FullColumnRank V ↔ NLA.KE04.FullBlockDimension A V 1)
+'NLA.KE04.fullBlockDimension_iff_independent' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.fullBlockDimension_prefix : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (s : ℕ),
+  NLA.KE04.FullBlockDimension A V s →
+    ∀ (ell : ℕ),
+      LE.le.{0} ell s →
+        NLA.KE04.FullBlockDimension A V ell ∧ Function.Injective.{1, 1} ⇑(NLA.KE04.krylovCombination A V ell)
+'NLA.KE04.fullBlockDimension_prefix' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.lastFullBlockIteration_exists : ∀ {n p : ℕ},
+  LT.lt.{0} 0 p →
+    ∀ (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p),
+      NLA.KE04.FullColumnRank V → ∃ s, LE.le.{0} 1 s ∧ NLA.KE04.LastFullBlockIteration A V s
+'NLA.KE04.lastFullBlockIteration_exists' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.krylovBasis_exists : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (ell : ℕ),
+  NLA.KE04.FullBlockDimension A V ell → ∃ Q, NLA.KE04.IsKrylovBasis A V ell Q
+'NLA.KE04.krylovBasis_exists' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.frameProjection_semantics : ∀ {n m : ℕ} (Q : NLA.KE04.Rect n m),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} Q) Q) 1 →
+    Matrix.IsHermitian.{0, 0} (NLA.KE04.frameProjection Q) ∧
+      Eq.{1} (HMul.hMul.{0, 0, 0} (NLA.KE04.frameProjection Q) (NLA.KE04.frameProjection Q))
+          (NLA.KE04.frameProjection Q) ∧
+        (∀ (x : NLA.KE04.Vec n),
+            Membership.mem.{0, 0} (NLA.KE04.columnSpace Q) x ↔
+              Eq.{1} ((NLA.KE04.act (NLA.KE04.frameProjection Q)) x) x) ∧
+          ∀ (x y : NLA.KE04.Vec n),
+            Membership.mem.{0, 0} (NLA.KE04.columnSpace Q) y →
+              Eq.{1} (inner.{0, 0} ℝ y (HSub.hSub.{0, 0, 0} x ((NLA.KE04.act (NLA.KE04.frameProjection Q)) x))) 0
+'NLA.KE04.frameProjection_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.compression_semantics : ∀ {n m : ℕ} (A : NLA.KE04.Mat n),
+  Matrix.IsHermitian.{0, 0} A →
+    ∀ (Q : NLA.KE04.Rect n m),
+      Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} Q) Q) 1 →
+        Eq.{1} (NLA.KE04.compression A Q)
+            (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} Q) A) Q) ∧
+          Matrix.IsHermitian.{0, 0} (NLA.KE04.compression A Q) ∧
+            ∀ (x : NLA.KE04.Vec n),
+              Membership.mem.{0, 0} (NLA.KE04.columnSpace Q) x →
+                Eq.{1}
+                  ((NLA.KE04.act Q)
+                    ((NLA.KE04.act (NLA.KE04.compression A Q)) ((NLA.KE04.act (Matrix.transpose.{0, 0, 0} Q)) x)))
+                  ((NLA.KE04.act (NLA.KE04.frameProjection Q)) ((NLA.KE04.act A) x))
+'NLA.KE04.compression_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.orderedSpectrum_semantics : ∀ {m : ℕ} (M : NLA.KE04.Mat m) (hM : Matrix.IsHermitian.{0, 0} M),
+  Monotone.{0, 0} (NLA.KE04.orderedEigenvalues M hM) ∧
+    (∀ (r : Fin m),
+        Eq.{1} ((NLA.KE04.act M) ((NLA.KE04.orderedEigenbasis M hM) r))
+          (HSMul.hSMul.{0, 0, 0} (NLA.KE04.orderedEigenvalues M hM r) ((NLA.KE04.orderedEigenbasis M hM) r))) ∧
+      Eq.{1} (Polynomial.roots.{0} (Matrix.charpoly.{0, 0} M))
+          (Multiset.map.{0, 0} (NLA.KE04.orderedEigenvalues M hM) (Finset.val.{0} Finset.univ.{0})) ∧
+        ∀ (i : ℕ) (hi : LT.lt.{0} i m), Eq.{1} (NLA.KE04.eigenvalueAt M hM i) (NLA.KE04.orderedEigenvalues M hM ⟨i, hi⟩)
+'NLA.KE04.orderedSpectrum_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.compression_basis_independent : ∀ {n m : ℕ} (A : NLA.KE04.Mat n) (hA : Matrix.IsHermitian.{0, 0} A)
+  (Q R : NLA.KE04.Rect n m),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} Q) Q) 1 →
+    Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} R) R) 1 →
+      Eq.{1} (NLA.KE04.columnSpace Q) (NLA.KE04.columnSpace R) →
+        (∃ O,
+            Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} O) O) 1 ∧
+              Eq.{1} R (HMul.hMul.{0, 0, 0} Q O) ∧
+                Eq.{1} (NLA.KE04.compression A R)
+                  (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} O) (NLA.KE04.compression A Q))
+                    O)) ∧
+          Eq.{1} (Matrix.charpoly.{0, 0} (NLA.KE04.compression A Q))
+              (Matrix.charpoly.{0, 0} (NLA.KE04.compression A R)) ∧
+            Eq.{1} (NLA.KE04.ritzValues A hA Q) (NLA.KE04.ritzValues A hA R)
+'NLA.KE04.compression_basis_independent' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.KE04.interval_index_validity : ∀ (k p i : ℕ),
+  LE.le.{0} 1 k →
+    LE.le.{0} 1 i →
+      LE.le.{0} i (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} k 1) p) →
+        LE.le.{0} 2 k ∧
+          LT.lt.{0} 0 p ∧
+            LT.lt.{0} (HSub.hSub.{0, 0, 0} i 1) (HMul.hMul.{0, 0, 0} k p) ∧
+              LT.lt.{0} (HSub.hSub.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} i p) 1) (HMul.hMul.{0, 0, 0} k p)
+'NLA.KE04.interval_index_validity' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.quadratic_semantics : ∀ {m : ℕ} (M : NLA.KE04.Mat m) (a b : ℝ),
+  Polynomial.Monic.{0} (NLA.KE04.monicQuadratic a b) ∧
+    Eq.{1} (Polynomial.natDegree.{0} (NLA.KE04.monicQuadratic a b)) 2 ∧
+      Eq.{1} (NLA.KE04.quadraticMatrix M a b) ((Polynomial.aeval.{0, 0} M) (NLA.KE04.monicQuadratic a b)) ∧
+        Eq.{1} (NLA.KE04.quadraticMatrix M a b)
+          (HAdd.hAdd.{0, 0, 0}
+            (HSub.hSub.{0, 0, 0} (HPow.hPow.{0, 0, 0} M 2) (HSMul.hSMul.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} a b) M))
+            (HSMul.hSMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} a b) 1))
+'NLA.KE04.quadratic_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.spectral_gap_quadratic_psd : ∀ {m : ℕ} (M : NLA.KE04.Mat m) (hM : Matrix.IsHermitian.{0, 0} M) (a b : ℝ),
+  LE.le.{0} a b →
+    (∀ (r : Fin m),
+        ¬(LT.lt.{0} a (NLA.KE04.orderedEigenvalues M hM r) ∧ LT.lt.{0} (NLA.KE04.orderedEigenvalues M hM r) b)) →
+      Matrix.PosSemidef.{0, 0} (NLA.KE04.quadraticMatrix M a b)
+'NLA.KE04.spectral_gap_quadratic_psd' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.spectral_window_subspace : ∀ {n m : ℕ} (A : NLA.KE04.Mat n) (hA : Matrix.IsHermitian.{0, 0} A)
+  (Q : NLA.KE04.Rect n m),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} Q) Q) 1 →
+    ∀ (i p : ℕ),
+      LT.lt.{0} (HAdd.hAdd.{0, 0, 0} i p) m →
+        ∃ E,
+          LE.le.{0} E (NLA.KE04.columnSpace Q) ∧
+            Eq.{1} (Module.finrank.{0, 0} ℝ ↥E) (HAdd.hAdd.{0, 0, 0} p 1) ∧
+              ∀ (x : NLA.KE04.Vec n),
+                Membership.mem.{0, 0} E x →
+                  LE.le.{0}
+                    (NLA.KE04.form
+                      (NLA.KE04.compressedQuadratic A Q (NLA.KE04.ritzValueAt A hA Q i)
+                        (NLA.KE04.ritzValueAt A hA Q (HAdd.hAdd.{0, 0, 0} i p)))
+                      x)
+                    0
+'NLA.KE04.spectral_window_subspace' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.krylov_intersection_nonzero : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (k : ℕ),
+  LE.le.{0} 1 k →
+    NLA.KE04.FullBlockDimension A V k →
+      NLA.KE04.FullBlockDimension A V (HSub.hSub.{0, 0, 0} k 1) →
+        ∀ (E : Submodule.{0, 0} ℝ (NLA.KE04.Vec n)),
+          LE.le.{0} E (NLA.KE04.krylov A V k) →
+            Eq.{1} (Module.finrank.{0, 0} ℝ ↥E) (HAdd.hAdd.{0, 0, 0} p 1) →
+              ∃ x,
+                Ne.{1} x 0 ∧
+                  Membership.mem.{0, 0} E x ∧ Membership.mem.{0, 0} (NLA.KE04.krylov A V (HSub.hSub.{0, 0, 0} k 1)) x
+'NLA.KE04.krylov_intersection_nonzero' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.psd_zero_form_iff_kernel : ∀ {m : ℕ} (M : NLA.KE04.Mat m),
+  Matrix.PosSemidef.{0, 0} M → ∀ (x : NLA.KE04.Vec m), Eq.{1} (NLA.KE04.form M x) 0 ↔ Eq.{1} ((NLA.KE04.act M) x) 0
+'NLA.KE04.psd_zero_form_iff_kernel' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.compressedQuadratic_semantics : ∀ {n m : ℕ} (A : NLA.KE04.Mat n) (Q : NLA.KE04.Rect n m) (a b : ℝ),
+  (∀ (x : NLA.KE04.Vec n),
+      Eq.{1} (NLA.KE04.form (NLA.KE04.compressedQuadratic A Q a b) x)
+        (NLA.KE04.form (NLA.KE04.quadraticMatrix (NLA.KE04.compression A Q) a b)
+          ((NLA.KE04.act (Matrix.transpose.{0, 0, 0} Q)) x))) ∧
+    (Matrix.PosSemidef.{0, 0} (NLA.KE04.quadraticMatrix (NLA.KE04.compression A Q) a b) →
+      Matrix.PosSemidef.{0, 0} (NLA.KE04.compressedQuadratic A Q a b))
+'NLA.KE04.compressedQuadratic_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.quadratic_forms_agree : ∀ {n p : ℕ} (A : NLA.KE04.Mat n),
+  Matrix.IsHermitian.{0, 0} A →
+    ∀ (V : NLA.KE04.Rect n p) (k j : ℕ),
+      LE.le.{0} 1 k →
+        LT.lt.{0} k j →
+          ∀ (Qk : NLA.KE04.Rect n (HMul.hMul.{0, 0, 0} k p)) (Qj : NLA.KE04.Rect n (HMul.hMul.{0, 0, 0} j p)),
+            NLA.KE04.IsKrylovBasis A V k Qk →
+              NLA.KE04.IsKrylovBasis A V j Qj →
+                ∀ (x : NLA.KE04.Vec n),
+                  Membership.mem.{0, 0} (NLA.KE04.krylov A V (HSub.hSub.{0, 0, 0} k 1)) x →
+                    ∀ (a b : ℝ),
+                      Eq.{1} (NLA.KE04.form (NLA.KE04.compressedQuadratic A Qk a b) x)
+                        (NLA.KE04.form (NLA.KE04.compressedQuadratic A Qj a b) x)
+'NLA.KE04.quadratic_forms_agree' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.later_quadratic_identity : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (k j : ℕ),
+  LE.le.{0} 1 k →
+    LT.lt.{0} k j →
+      ∀ (Qj : NLA.KE04.Rect n (HMul.hMul.{0, 0, 0} j p)),
+        NLA.KE04.IsKrylovBasis A V j Qj →
+          ∀ (x : NLA.KE04.Vec n),
+            Membership.mem.{0, 0} (NLA.KE04.krylov A V (HSub.hSub.{0, 0, 0} k 1)) x →
+              ∀ (a b : ℝ),
+                Eq.{1} ((NLA.KE04.act (NLA.KE04.compressedQuadratic A Qj a b)) x)
+                  ((NLA.KE04.act (NLA.KE04.quadraticMatrix A a b)) x)
+'NLA.KE04.later_quadratic_identity' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.KE04.fullRank_quadratic_nonannihilation : ∀ {n p : ℕ} (A : NLA.KE04.Mat n) (V : NLA.KE04.Rect n p) (k : ℕ),
+  LE.le.{0} 2 k →
+    NLA.KE04.FullBlockDimension A V (HAdd.hAdd.{0, 0, 0} k 1) →
+      ∀ (x : NLA.KE04.Vec n),
+        Membership.mem.{0, 0} (NLA.KE04.krylov A V (HSub.hSub.{0, 0, 0} k 1)) x →
+          Ne.{1} x 0 → ∀ (a b : ℝ), Ne.{1} ((NLA.KE04.act (NLA.KE04.quadraticMatrix A a b)) x) 0
+'NLA.KE04.fullRank_quadratic_nonannihilation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.KE04.strictIntervalOccupancy : NLA.KE04.FullPrefixBlockLanczosClaim
+'NLA.KE04.strictIntervalOccupancy' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.KE04.fullPrefix_implies_canonical : NLA.KE04.FullPrefixBlockLanczosClaim → NLA.KE04.BlockLanczosConjecture
+'NLA.KE04.fullPrefix_implies_canonical' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.KE04.blockLanczosConjecture : NLA.KE04.BlockLanczosConjecture
+'NLA.KE04.blockLanczosConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

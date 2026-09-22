@@ -1,0 +1,10 @@
+{
+  "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "reason": "Current upstream main points to an older revision without Lean projects. Reuse the immutable authored snapshot preserved in previous batch branch ancestry; no claim that it is current upstream main.",
+  "canonical_path": "nonnegative-and-positive-factorizations/NR-03/README.md",
+  "older_canonical_sha256": "8466d61545402d862bf637249e781fdc2d390be21ebc5e39f833cb03b9d7c6cd",
+  "reviewed_canonical_sha256": "8ec5b1fa32f457b09bf63ce14b17a527fcaafd29e068930b0fc5b2a5045435c2",
+  "coordinator_comparison": "Read both canonical mathematical targets; dimensions, fields, hypotheses, operations and requested conclusions are unchanged. Later status/evidence and math rendering differ.",
+  "no_current_literature_or_priority_claim": true
+}

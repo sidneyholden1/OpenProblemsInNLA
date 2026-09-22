@@ -1,5 +1,14 @@
 # Solved problems and solution claims
 
+## Formal verification consolidation — 22 September 2026
+
+The current formal status of the following retained targets is established by the [consolidated proof and review evidence](docs/lean/consolidation-2026-09-22/README.md). Earlier resolution narratives below remain dated historical records; the linked canonical pages carry the current status.
+
+**Complete original targets, Lean verified:** [PF-02](nonnegative-and-positive-factorizations/PF-02/README.md), [SP-04](eigenvalues-and-inverse-problems/SP-04/README.md), [IV-03](intervals-and-absolute-value-equations/IV-03/README.md), [IE-04](linear-systems-and-elimination/IE-04/README.md), [KE-05](randomized-and-low-rank-approximation/KE-05/README.md), [MI-03](matrix-inequalities-and-norms/MI-03/README.md), [IE-17](linear-systems-and-elimination/IE-17/README.md), [IE-05](linear-systems-and-elimination/IE-05/README.md), [IS-02](eigenvalues-and-inverse-problems/IS-02/README.md), [IS-03](eigenvalues-and-inverse-problems/IS-03/README.md), [KE-04](eigenvalues-and-inverse-problems/KE-04/README.md), [SP-06](eigenvalues-and-inverse-problems/SP-06/README.md), [IE-16](linear-systems-and-elimination/IE-16/README.md), [RA-08](randomized-and-low-rank-approximation/RA-08/README.md), [MI-06](matrix-inequalities-and-norms/MI-06/README.md), [MI-07](matrix-inequalities-and-norms/MI-07/README.md), [MI-26](matrix-inequalities-and-norms/MI-26/README.md), [NR-03](nonnegative-and-positive-factorizations/NR-03/README.md), [RA-09](randomized-and-low-rank-approximation/RA-09/README.md), [FR-12](frames-and-matrix-designs/FR-12/README.md), [MF-16](matrix-functions-and-stability/MF-16/README.md), [TR-15](tensor-computations/TR-15/README.md), [IE-18](linear-systems-and-elimination/IE-18/README.md), [IE-19](linear-systems-and-elimination/IE-19/README.md), [MI-19](matrix-inequalities-and-norms/MI-19/README.md), [MI-21](matrix-inequalities-and-norms/MI-21/README.md), [MI-29](matrix-inequalities-and-norms/MI-29/README.md), [RA-03](randomized-and-low-rank-approximation/RA-03/README.md), [RA-07](randomized-and-low-rank-approximation/RA-07/README.md), [IE-23](linear-systems-and-elimination/IE-23/README.md), [MI-22](matrix-inequalities-and-norms/MI-22/README.md), [MI-23](matrix-inequalities-and-norms/MI-23/README.md), [RA-20](randomized-and-low-rank-approximation/RA-20/README.md), [IV-06](intervals-and-absolute-value-equations/IV-06/README.md).
+
+**Verified partial result only:** [MI-08](matrix-inequalities-and-norms/MI-08/README.md) remains **Partially resolved**; the full original target is not claimed proved.
+
+
 [Open catalog](CATALOG.md) · [Status definitions](README.md#problem-status) · [Report a solution](https://github.com/ajt60gaibb/OpenProblemsInNLA/issues/new?template=correction_or_resolution.md)
 
 **Solved problems stay visible.** Their IDs and original statements are retained,

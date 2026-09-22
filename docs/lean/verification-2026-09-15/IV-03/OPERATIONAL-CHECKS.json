@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS",
+  "reviewer": "/root/iv06_statement_referee_2; delegated publication and operational audit",
+  "verified_commit": "516ad4a0e85c21c7ef34507db9ab3b68b393bb90",
+  "run_id": 34926260380,
+  "attempt": 1,
+  "input_count": 75,
+  "export_count": 4,
+  "artifact_id": 10380345663,
+  "artifact_sha256": "bef757bd594f82e327625b5bcbcc3c395e6d64e3764c95f926a25ffe95337177",
+  "all_archive_members_match": true,
+  "all_git_inputs_match": true,
+  "actual_kernel_and_control_logs_inspected": true,
+  "evidence_sha256": {
+    "linux/RUN.json": "3d0f6c8cd2bc0c950212fe46902be7a68243a7926ec41388e145ccab0247a3dd",
+    "linux/github-run.json": "815c070014410c3ee7cea4970186d3feb77c5a85a8bde976515334ef154ecb35",
+    "linux/github-artifact.json": "4e074a7925f47a088bf2ca0eaaab71326162bc7d1bb127917e8db7d0a42d942f",
+    "linux/github-attempt-jobs.json": "79f132a42d8db75d88a6478474e8eecb80ad242c6b6d4fb32f56405588d36214",
+    "linux/artifact/verify-20260915T034753Z-4053/result.json": "50494ef3df157aa2b69cdbc6c9f6a00d568be6d64e80678686be974f0393bfa7",
+    "ROOT-LINUX-CHECKS.json": "a51f10887379ac08ed767b988f7eb2a8a46cb638094da9e63ec42002cfc32521"
+  },
+  "separate_checker_job": "skipped; controls execute inside project verification",
+  "scope": "Operational acceptance only; independent semantic reviews retained separately",
+  "dependencies": "Pinned dependencies with official Mathlib cache, not a full dependency-source rebuild"
+}

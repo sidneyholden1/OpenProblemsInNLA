@@ -1,0 +1,246 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "26d7d0ac7fd14d3f8d527977db3b50c948a77f39",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "tensor-computations/TR-15/lean/Solution.lean",
+      "sha256": "dc31d2a6a1ef891bbdc9b6781a7a250c6751d539b7cd95c4a59d08638a8faeb1",
+      "lines": 69
+    },
+    "NLA.TR15.Proof": {
+      "path": "tensor-computations/TR-15/lean/NLA/TR15/Proof.lean",
+      "sha256": "795f3b1305dfae77fe71ec1927b7d72e9d913a2ffd0475879880f33e55c959be",
+      "lines": 180
+    },
+    "NLA.TR15.Definitions": {
+      "path": "tensor-computations/TR-15/lean/NLA/TR15/Definitions.lean",
+      "sha256": "63b8767fd19148b269f6e4041d464f0de5dc64cac82e1448fee43115bed55379",
+      "lines": 116
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "Lean.Elab.Tactic.Omega",
+    "LeanCert.Tactic.IntervalAuto.PointIneq",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Data.Fintype.BigOperators",
+    "Mathlib.Data.Real.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Notation",
+    "Mathlib.Tactic.Continuity",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Topology.Order.IntermediateValue"
+  ],
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.TR15.lower_contractions",
+    "NLA.TR15.upper_contraction",
+    "NLA.TR15.lower_eigenvalues_pos",
+    "NLA.TR15.lower_eigenpair_exists",
+    "NLA.TR15.upper_negative_eigenpair",
+    "NLA.TR15.counterexample",
+    "NLA.TR15.not_inheritanceConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.TR15.lower_contractions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenvalues_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenpair_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_negative_eigenpair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.not_inheritanceConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.TR15.lower_contractions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenvalues_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.lower_eigenpair_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.upper_negative_eigenpair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.TR15.not_inheritanceConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 98.347,
+    "log_sha256": "6c44ba1d2480a768ca5d120eca88bec100216f3c7d4398252714b330cdd90d42"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-tr15/docs/lean/reverification-2026-09-14/TR-15/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.TR15.lower_contractions": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.TR15.upper_contraction": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.TR15.lower_eigenvalues_pos": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.TR15.lower_eigenpair_exists": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.TR15.upper_negative_eigenpair": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.TR15.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.TR15.not_inheritanceConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [
+      "negative_eigenvalue_certificate",
+      "upper_negative_eigenpair_proved"
+    ],
+    "script_sha256": "16e3db0a7565e712a8ea3815cf4455076058b6ef69a09b72f4a65bee0ddd84ca",
+    "log_sha256": "a23d7097d2fb694679a4d2aa06506816878de6ee3962856b790c01f4dbc218aa"
+  },
+  "referee_2_numerical_execution": {
+    "route": "Actual checked dyadic upper-bound theorem with kernel-reduced Boolean certificate.",
+    "receipts": {
+      "referee-2-numerical-terms": {
+        "verdict": "PASS",
+        "names": [
+          "NLA.TR15.negative_eigenvalue_certificate._proof_1_7"
+        ],
+        "exit_code": 0,
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "/private/tmp/nla-reverify-tr15/docs/lean/reverification-2026-09-14/TR-15/referee-2-numerical-terms.lean"
+        ],
+        "cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+        "script_sha256": "6a2aa834d3044205d65379fdb51893b555fab657fdb86f0c3e9280c794ee893b",
+        "log_sha256": "cd8b6b78fa46a71b010ad504e63969204af467f64399639363ec360d3ae56a21"
+      }
+    },
+    "consumer_material_terms": [
+      "negative_eigenvalue_certificate",
+      "upper_negative_eigenpair_proved"
+    ]
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "6778940f8f0f645fc6be0c57f1fb8f67791e0c67c896074651bca9cada491428",
+    "NUMERICAL_TARGETS.md": "6851bb94fb8f6049980113b4df9a1346bd3ed9549f66dd74b2b1f6a5ee947cd6",
+    "comparator.json": "80d0148e7ddf0a431d6833c3e464cf15424c94767394dd1a0fe93366c8bbb45f",
+    "formalization.yaml": "bb92a8ca1192e224b00d273d8ac658f9cac191336ee06f922ec73a0dbc6e93bb",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "8d71288432949937d6c64f1175c7a9c7c5389bc261d79dad512ba4c385e97127",
+    "lakefile.toml": "247a1ea746bb54d8adfb18fdce81669f85de63d5d9dfe8998eb255f54002181d"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "f8f6ccd655fb2da996de6434a330cd55fc332e6122c6be19c2f0a6aafaccbcdc",
+    "solution-local.log": "6c44ba1d2480a768ca5d120eca88bec100216f3c7d4398252714b330cdd90d42",
+    "referee-2-consumer.lean": "16e3db0a7565e712a8ea3815cf4455076058b6ef69a09b72f4a65bee0ddd84ca",
+    "referee-2-consumer.log": "a23d7097d2fb694679a4d2aa06506816878de6ee3962856b790c01f4dbc218aa",
+    "referee-2-consumer.json": "2f2f5293d924eeea8e6196f7154f9529c1206aadcc0f576ec1fe373173f14f61",
+    "referee-2-numerical-terms.lean": "6a2aa834d3044205d65379fdb51893b555fab657fdb86f0c3e9280c794ee893b",
+    "referee-2-numerical-terms.log": "cd8b6b78fa46a71b010ad504e63969204af467f64399639363ec360d3ae56a21",
+    "referee-2-numerical-terms.json": "987b1a51f558ccaed1bda3919683e5d8da5594c38e214547cd6067849748879b",
+    "statement-gate.json": "34402ce152bb19ca79f49701ae09d33d6a30f8146fc3dd87e9c7b5ad011ae997",
+    "STATEMENT-REFEREE-1.md": "02e9dca9cd532fc72107cf04aa598f933ef9093be6bc51e9003271e7fa0a119e",
+    "referee-1-statement-evidence.json": "995aa3e381c9f2f3a05ac641f766494f7f30de2f3ebb6c1be696776d4e1f95fb",
+    "referee-1-precheck.py": "5474834732e451bee2a6c6a7664f829ba134d49d2b1164d981384b0058958451",
+    "referee-1-precheck.log": "c9cf7a7984c024fa8ee9c35dd8ab7841057b322d164e0ecb364bfd9535e558f4"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

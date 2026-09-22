@@ -1,0 +1,172 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI statement referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_is_current_main": false,
+  "source_inputs": {
+    "matrix-functions-and-stability/MF-16/README.md": {
+      "sha256": "b69bf5038340ff27e10ed0c629a76cc1182eea72aaaf73f4aec881ecc1c84ac1",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Definitions.lean": {
+      "sha256": "5b8e0a7e11657c6d90dc956664f12f5afefdf8ab556517ae199ab339d99d604e",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/Challenge.lean": {
+      "sha256": "538b03b014015da03f9929fd520adfb978de96b3fa1b4fe3d995bb94e3dccf0f",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "6d6ea0481cb33c0ff69675e008956920be1744ef6cebdafaeac73f9c87601689",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/comparator.json": {
+      "sha256": "c571ce8622b8ff95aa2a8a29ec186a68e3464e9431dae2a5b03db74236b8c088",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/formalization.yaml": {
+      "sha256": "e652e0885dc62acd60004a46ab4b187eeeee9b26e0f4cab0bf6714387397ec29",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/lakefile.toml": {
+      "sha256": "3fbcec68e929d4b9a570eead7946767f3a26d3f82d0efabdbf9bfdf45dc13ed6",
+      "read_as": "working-tree source"
+    },
+    "matrix-functions-and-stability/MF-16/lean/lake-manifest.json": {
+      "sha256": "a0d0298e414637111ddfcd231f97a616e56d39c0c0c32a2c82c99c8f48b766a9",
+      "read_as": "working-tree source"
+    },
+    "references/colbrook-matrix-functions-2026-09-11/manuscripts/MF-16.tex": {
+      "sha256": "d6de9df3384c8705fc5c3cac1aded04ff5c25931ef00b155edbd042e384f8c34",
+      "read_as": "complete immutable git-show source"
+    }
+  },
+  "all_present_inputs_equal_preserved_base": true,
+  "exports": [
+    "NLA.MF16.word_semantics",
+    "NLA.MF16.source_data",
+    "NLA.MF16.twelfth_power_reduction",
+    "NLA.MF16.polynomial_word_equivalence",
+    "NLA.MF16.krawczyk_certificate",
+    "NLA.MF16.certified_root",
+    "NLA.MF16.root_to_matrix",
+    "NLA.MF16.counterexample",
+    "NLA.MF16.not_wordUniquenessConjecture"
+  ],
+  "intentional_Challenge_placeholders": 9,
+  "active_Proof_or_Solution_inspected": false,
+  "library_semantics": {
+    "mathlib/Mathlib/LinearAlgebra/Matrix/HadamardMatrix.lean": {
+      "sha256": "b04b0656bc502d39b1c7d238afe6152428778f59411a7ef9753c81565b231c31",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/SetTheory/Cardinal/Finite.lean": {
+      "sha256": "b113177c5ed00662c73a8f3b04002b399c19f0d008920e52c1a6b6c7f16713bf",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Analysis/Matrix/Spectrum.lean": {
+      "sha256": "1ad47effa0a5fbc373ebb6cf52a6b85a66b25d3c5a86394f3dd5932ffbfc3afe",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/LinearAlgebra/Matrix/PosDef.lean": {
+      "sha256": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": {
+      "sha256": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": {
+      "sha256": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Order/Bounds/Defs.lean": {
+      "sha256": "e5a38e3cf5b12a87a53bbd64d4d458bacb2f707aa75e1b3dca1c33014aa23c2d",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Topology/Order/IntermediateValue.lean": {
+      "sha256": "6e22cbb5e8b9124378735958f0282285a127f3b1dc9eaafeb2c714f89222ba65",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "mathlib/Mathlib/Analysis/Normed/Group/Basic.lean": {
+      "sha256": "85d307e042cb03073a2e9160c52adbfcef85c921d2f9b17584b13597d8a5c7bc",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "leancert/LeanCert/Engine/RootFinding/Krawczyk.lean": {
+      "sha256": "8df9943a4e8d185164bbb86e93892f97f0596d2fcba88e48f5ea068628b7f283",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    },
+    "leancert/LeanCert/Examples/Krawczyk.lean": {
+      "sha256": "ea60a81297b09936de7e7d0cc4331cd71162a34d40e208aca5614b373d5891fb",
+      "scope": "Relevant actual semantic definitions/API excerpts read; Krawczyk example read fully. Not a complete library proof audit."
+    }
+  },
+  "coordinator_fresh_Challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mf16/matrix-functions-and-stability/MF-16/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 40.008,
+    "log_sha256": "44869b3aabc0af2a5c718841e47836b3132c0f1e857b3df5e9ba2fc22011f9a9"
+  },
+  "independent_diagnostic": {
+    "command": [
+      "python3",
+      "referee-1-precheck.py",
+      "MF-16"
+    ],
+    "exit_code": 0,
+    "result": {
+      "source_determinants": [
+        "1",
+        "3",
+        "4782969"
+      ],
+      "exact_source_word_product": true,
+      "coefficient_recurrence_matches": true,
+      "box_radius": "1/10000000",
+      "preconditioner_det": "790668616748253/62500000000000000000000000000",
+      "whole_box_contraction_exact": "16136719048657446264292376630014198783161012628051241371023265487923433258054678902636589697838834393684657499890804855306124868438119/610351562500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "whole_box_contraction_decimal_for_orientation": 0.02643840048932036,
+      "center_displacement_max_exact": "2386671689978671384870221915705084410650148534700376423022306923003132351724215265335257509768356185118498670358486134875383812762714067/61035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_self_map_minimum_margin_exact": "5939761762823446865972206011784152927757739725184787209866745038197762535067728995708298845511843299878034926330733465312063367502856095933/61035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "margin_exceeds_half_radius": true,
+      "limit": "Independent Fraction interval AD and Newton enclosure; no Lean theorem or actual root is inferred by this diagnostic script."
+    },
+    "limits": "Diagnostics support statement data and do not establish Lean proofs or universal conclusions."
+  },
+  "evidence_hashes": {
+    "referee-1-precheck.py": "5474834732e451bee2a6c6a7664f829ba134d49d2b1164d981384b0058958451",
+    "referee-1-precheck.log": "582ea823bb471015086ffeda85c26e8c019a1e43b912903f3c09069696659218",
+    "challenge-local.json": "bc5e73ddb7c0c870218ff6ac4e5f77d4119bd289726849072f7d26bdab3308ef",
+    "challenge-local.log": "44869b3aabc0af2a5c718841e47836b3132c0f1e857b3df5e9ba2fc22011f9a9",
+    "SOURCE-PROVENANCE.json": "14e72db0b3b33bbc0e1dc8e608dd0a2d078a8ee1b90ae888d52070ada1d29475"
+  },
+  "coordinator_source_provenance": {
+    "preserved_authored_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "observed_current_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+    "source_is_current_main": false,
+    "canonical_path": "matrix-functions-and-stability/MF-16/README.md",
+    "canonical_exists_at_observed_older_main": true,
+    "older_canonical_sha256": "9ed176fb493632a01eba419792904c51fc8dafd88f1023c6a479b5c7af91c90a",
+    "preserved_canonical_sha256": "b69bf5038340ff27e10ed0c629a76cc1182eea72aaaf73f4aec881ecc1c84ac1",
+    "canonical_target_section_byte_identical": false,
+    "provenance": "Use existing authored snapshot preserved in earlier published branch ancestry, not current main. Where the older main has no canonical page, no cross-revision target equality is claimed. Original mathematical and formalization credits unchanged.",
+    "coordinator_target_review": "Coordinator read both complete target sections; only Markdown/LaTeX rendering or whitespace changed. Mathematical fields, quantifiers, hypotheses and conclusions agree.",
+    "mathematical_target_equivalent_across_revisions": true
+  }
+}

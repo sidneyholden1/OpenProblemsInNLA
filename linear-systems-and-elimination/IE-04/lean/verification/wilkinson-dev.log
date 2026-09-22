@@ -1,0 +1,75 @@
+NLA/IE04/Wilkinson.lean:22:81: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  b ≥ 0
+  b - c ≤ -1
+  b - d ≤ -1
+  a ≥ 0
+  a - b ≥ 2
+  a - c ≥ 1
+  a - d ≥ 1
+where
+ a := ↑n
+ b := ↑k
+ c := ↑↑j
+ d := ↑↑⟨k, hk⟩
+NLA/IE04/Wilkinson.lean:23:81: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≤ -1
+  b ≥ 0
+  b - c ≤ -1
+  b - d ≤ -1
+  a ≥ 0
+  a - b ≥ 2
+  a - c ≥ 1
+  a - d ≥ 1
+where
+ a := ↑n
+ b := ↑k
+ c := ↑↑i
+ d := ↑↑⟨k, hk⟩
+NLA/IE04/Wilkinson.lean:28:41: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 1
+  c ≥ 0
+  c - e ≥ 1
+  b ≥ 0
+  b - c ≤ -1
+  b - d ≤ -1
+  b - e ≥ 1
+  a ≥ 0
+  a - b ≥ 2
+  a - c ≥ 1
+  a - d ≥ 1
+  a - e ≥ 1
+where
+ a := ↑n
+ b := ↑k
+ c := ↑↑i
+ d := ↑↑j
+ e := ↑↑⟨k, hk⟩
+NLA/IE04/Wilkinson.lean:29:57: warning: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [referenceStates, show k ≤ i.val by omega, show k ≤ j.val by omega,
+    show k ≤ (⟨k, hk⟩ : Fin n).val by omega, show k + 1 ≤ i.val by omega, show k + 1 ≤ j.val by omega, and_self,
+    ↓reduceIte, hkn, hik, hkj, hij, show ¬j < (⟨k, hk⟩ : Fin n) by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Wilkinson.lean:59:16: error: failed to prove strict positivity, but it would be possible to prove nonzeroness if desired
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+NLA/IE04/Wilkinson.lean:131:41: error: unsolved goals
+m : ℕ
+hn : 1 ≤ m.succ
+⊢ 3 + m.succ * m + m * 2 = 1 + m.succ + m.succ ^ 2

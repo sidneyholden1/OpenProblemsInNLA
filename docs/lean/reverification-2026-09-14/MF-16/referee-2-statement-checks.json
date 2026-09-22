@@ -1,0 +1,140 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "matrix-functions-and-stability/MF-16/README.md": {
+      "sha256": "b69bf5038340ff27e10ed0c629a76cc1182eea72aaaf73f4aec881ecc1c84ac1",
+      "bytes": 9131,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/README.md": {
+      "sha256": "b972fb58ae6bb3025b331ad4c312ca695a687bfc1662c59e4205a7becd8a8df8",
+      "bytes": 12887,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "6d6ea0481cb33c0ff69675e008956920be1744ef6cebdafaeac73f9c87601689",
+      "bytes": 9166,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/NLA/MF16/Definitions.lean": {
+      "sha256": "5b8e0a7e11657c6d90dc956664f12f5afefdf8ab556517ae199ab339d99d604e",
+      "bytes": 5696,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/Challenge.lean": {
+      "sha256": "538b03b014015da03f9929fd520adfb978de96b3fa1b4fe3d995bb94e3dccf0f",
+      "bytes": 3427,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/comparator.json": {
+      "sha256": "c571ce8622b8ff95aa2a8a29ec186a68e3464e9431dae2a5b03db74236b8c088",
+      "bytes": 525,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/formalization.yaml": {
+      "sha256": "e652e0885dc62acd60004a46ab4b187eeeee9b26e0f4cab0bf6714387397ec29",
+      "bytes": 14925,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/lake-manifest.json": {
+      "sha256": "a0d0298e414637111ddfcd231f97a616e56d39c0c0c32a2c82c99c8f48b766a9",
+      "bytes": 3884,
+      "read_method": "local and immutable Git comparison"
+    },
+    "matrix-functions-and-stability/MF-16/lean/lakefile.toml": {
+      "sha256": "3fbcec68e929d4b9a570eead7946767f3a26d3f82d0efabdbf9bfdf45dc13ed6",
+      "bytes": 281,
+      "read_method": "local and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local and immutable Git comparison"
+    },
+    "references/colbrook-matrix-functions-2026-09-11/manuscripts/MF-16.tex": {
+      "sha256": "d6de9df3384c8705fc5c3cac1aded04ff5c25931ef00b155edbd042e384f8c34",
+      "bytes": 11572,
+      "read_method": "git show preserved base"
+    }
+  },
+  "inspected_dependency_definitions": {
+    "Mathlib/LinearAlgebra/Matrix/PosDef.lean": {
+      "sha256": "09290b5923e167fcf959df64d00b039c7b99c4b236755728219bf5b5feaac24a",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    },
+    "LeanCert/Engine/RootFinding/Krawczyk.lean": {
+      "sha256": "8df9943a4e8d185164bbb86e93892f97f0596d2fcba88e48f5ea068628b7f283",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    },
+    "LeanCert/Engine/Optimization/Gradient.lean": {
+      "sha256": "7e07c88940bfa0761bcd2a65de06733b90a3db079273118b268b0e6860335704",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    }
+  },
+  "exports": [
+    "NLA.MF16.word_semantics",
+    "NLA.MF16.source_data",
+    "NLA.MF16.twelfth_power_reduction",
+    "NLA.MF16.polynomial_word_equivalence",
+    "NLA.MF16.krawczyk_certificate",
+    "NLA.MF16.certified_root",
+    "NLA.MF16.root_to_matrix",
+    "NLA.MF16.counterexample",
+    "NLA.MF16.not_wordUniquenessConjecture"
+  ],
+  "exact_supplementary_checks": {
+    "rational_preconditioner_det": "790668616748253/62500000000000000000000000000",
+    "whole_box_contraction": "16136719048657446264292376630014198783161012628051241371023265487923433258054678902636589697838834393684657499890804855306124868438119/610351562500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contraction_decimal_diagnostic": 0.02643840048932036,
+    "center_displacement": [
+      "-2386671689978671384870221915705084410650148534700376423022306923003132351724215265335257509768356185118498670358486134875383812762714067/61035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "170075059025458640722235265981369046616517353981525197173324966863254288854624567098606397225391939876116285561964906074169911005084289/12207031250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "1787136095338151565860167089790965434061685216575548048380576038416622266862345012886090611006522485296692682748848500276810580779124673/61035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "strict_inclusion_margins": [
+      "5939761762823446865972206011784152927757739725184787209866745038197762535067728995708298845511843299878034926330733465312063367502856095933/61035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "1188259611843659648830693011473990233387061457389915992060780144057289879195036017627628214207096939272754568714656425383313580352118677711/12207031250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "5940361298418087385791216066610067046734328188502912038241386769082349045152590865960748012410605133577856732318343102946661940734839685327/61035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "minimum_inclusion_margin_decimal": 9.731705672209935e-08,
+    "radius": "1/10000000",
+    "leading_box_coordinate_above_three": true,
+    "source_word_exact_matrix_equality": true,
+    "source_P_det": 4782969,
+    "note": "Independent rational diagnostic only; actual Lean checker evaluation is separately recorded and neither is a kernel proof at statement phase."
+  },
+  "supplementary_evidence_sha256": {
+    "referee-2-numerical-checks.json": "9970ff2e30942357f20079d95ed6878d287651a4276be8dbdc58c35db8d8f85d",
+    "referee-2-checker-diagnostic.lean": "0aa7171f22f05152b78de7e5d5250dee691c0c73110457de4104c6b4014cc2b6",
+    "referee-2-checker-diagnostic.log": "ef02b379de72939f0e396759d5d91e71e397c09476f2ec6e489cc3951bc238b3",
+    "referee-2-checker-diagnostic.json": "7fb7a341258514bfd6193fa2fb057b6f776b414549b4a1f62dba9da62a154afd"
+  },
+  "coordinator_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-mf16/matrix-functions-and-stability/MF-16/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 40.008,
+    "log_sha256": "44869b3aabc0af2a5c718841e47836b3132c0f1e857b3df5e9ba2fc22011f9a9"
+  },
+  "coordinator_build_receipt_sha256": "bc5e73ddb7c0c870218ff6ac4e5f77d4119bd289726849072f7d26bdab3308ef",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

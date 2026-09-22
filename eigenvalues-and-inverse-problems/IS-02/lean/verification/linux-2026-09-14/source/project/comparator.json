@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.IS02.witness_certificates",
+    "NLA.IS02.spectral_uniqueness",
+    "NLA.IS02.locus_exclusion",
+    "NLA.IS02.counterexample"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

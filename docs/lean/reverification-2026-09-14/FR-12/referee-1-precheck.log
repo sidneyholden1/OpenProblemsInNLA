@@ -1,0 +1,15 @@
+{
+  "1": {
+    "all_input_Hadamards": 2,
+    "actual_distinct_outputs": 4,
+    "all_Gram_checks": true,
+    "injection_complete_small_domain": true
+  },
+  "2": {
+    "all_input_Hadamards": 8,
+    "actual_distinct_outputs": 128,
+    "all_Gram_checks": true,
+    "injection_complete_small_domain": true
+  },
+  "limit": "Only m=1,2 diagnostic injection and 30 factorial checks; universal asymptotic assertion requires proof."
+}

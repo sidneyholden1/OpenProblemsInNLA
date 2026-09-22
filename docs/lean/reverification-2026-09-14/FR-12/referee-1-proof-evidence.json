@@ -1,0 +1,236 @@
+{
+  "verdict": "PASS",
+  "reviewer": "independent AI proof referee 1",
+  "date": "2026-09-14",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "42818143f084791532e39ff56c13949bebd8d389",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_closure": {
+    "Solution": {
+      "path": "frames-and-matrix-designs/FR-12/lean/Solution.lean",
+      "sha256": "c37bbf5bb1bab85816f6c343eb3ee7bbfdadec2f6ad4dc17d11348a041ab598a",
+      "lines": 74
+    },
+    "NLA.FR12.Proof": {
+      "path": "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Proof.lean",
+      "sha256": "a75ef4a3567d641df84f7971c4d3f182b1ae73fb87cb70d474feda5c7af69df3",
+      "lines": 34
+    },
+    "NLA.FR12.Growth": {
+      "path": "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Growth.lean",
+      "sha256": "654930878291656c7f08fb285019d0033bc4c3e5ceebfac625ce676ce228fbaf",
+      "lines": 142
+    },
+    "NLA.FR12.Doubling": {
+      "path": "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Doubling.lean",
+      "sha256": "841cf24ebad19caf9fe6807a67079931b5bf2fafba01d19ca256bf4f393a081e",
+      "lines": 136
+    },
+    "NLA.FR12.Semantics": {
+      "path": "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Semantics.lean",
+      "sha256": "6cba3023ab9f319ac4622a81c4bb7b0cca34da96933fc8e0507f31f6671341e7",
+      "lines": 79
+    },
+    "NLA.FR12.Definitions": {
+      "path": "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Definitions.lean",
+      "sha256": "0c074289e7ee518876a36caf33f1b66a286ca46e7e520c083d07b9133779bf9c",
+      "lines": 58
+    }
+  },
+  "all_active_bytes_equal_base_and_gate": true,
+  "all_statement_gate_files_unchanged": true,
+  "external_imports": [
+    "LeanCert.Tactic.Verification",
+    "Mathlib.Analysis.SpecialFunctions.Log.Base",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+    "Mathlib.Data.Fintype.Card",
+    "Mathlib.Data.Fintype.Perm",
+    "Mathlib.Data.Nat.Factorial.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Block",
+    "Mathlib.LinearAlgebra.Matrix.HadamardMatrix",
+    "Mathlib.SetTheory.Cardinal.Finite",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_scan": "Comment-aware scan of every active source: no sorry/admit/custom axiom/native_decide/unsafe/implemented_by; Challenge is not imported.",
+  "exports": [
+    "NLA.FR12.counting_semantics",
+    "NLA.FR12.injective_doubling",
+    "NLA.FR12.factorial_doubling",
+    "NLA.FR12.power_two_nonempty",
+    "NLA.FR12.power_two_lower_bound",
+    "NLA.FR12.counterexample",
+    "NLA.FR12.not_countingConjecture"
+  ],
+  "export_axioms_read_from_coordinator_build": {
+    "NLA.FR12.counting_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.injective_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.factorial_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.not_countingConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "export_axioms_read_from_referee_2_consumer": {
+    "NLA.FR12.counting_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.injective_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.factorial_doubling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.power_two_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.FR12.not_countingConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_fresh_build": {
+    "target": "Solution",
+    "command": [
+      "lake",
+      "build",
+      "Solution"
+    ],
+    "cwd": "/private/tmp/nla-reverify-fr12/frames-and-matrix-designs/FR-12/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 148.685,
+    "log_sha256": "030c97613a23688f953e732874e50a110b915ac84a738a9cc843d79d175844c1"
+  },
+  "referee_2_consumer_execution": {
+    "verdict": "PASS",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "/private/tmp/nla-reverify-fr12/docs/lean/reverification-2026-09-14/FR-12/referee-2-consumer.lean"
+    ],
+    "cwd": "/private/tmp/nla-reverify-fr12/frames-and-matrix-designs/FR-12/lean",
+    "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "exit_code": 0,
+    "exports": {
+      "NLA.FR12.counting_semantics": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.FR12.injective_doubling": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.FR12.factorial_doubling": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.FR12.power_two_nonempty": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.FR12.power_two_lower_bound": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.FR12.counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "NLA.FR12.not_countingConjecture": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "material_term_names": [],
+    "script_sha256": "1df289e717817ec4ffd54adcb15c152d4697b6e4c9c23b2bc987a8a84b96c06c",
+    "log_sha256": "400626bcf0dcaa2f7113a940b09dee3afea2a75e365fd3d638fa7bd7deb90160"
+  },
+  "referee_2_numerical_execution": {
+    "route": "Kernel trust auditing only; no numerical theorem.",
+    "receipts": {},
+    "consumer_material_terms": []
+  },
+  "boundary_hashes": {
+    "Challenge.lean": "b7610d4a0b7416737dc9fdb3cbc24f7c154fe27bfd6b25986b7ed7b80dee28a7",
+    "NUMERICAL_TARGETS.md": "bedc45de378f2e7429e7214f572f466e9c806abb7f02ab9921aa50f6368c9da0",
+    "comparator.json": "03d4d4ef6190299ee767f9c677c40d23bda8576ae35a6628fa022a0a679c1581",
+    "formalization.yaml": "76a17a4b58803dfd17384b5c6e45075b36c8cc3eda3cc79d71ec8cb4862d63f8",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lake-manifest.json": "ef45e8c3dc558df93024d94b81f42ace998ddfacc8b7948905a4b90c548742cb",
+    "lakefile.toml": "b64736762c8980abbc71aa5a7dc5f34e502ec228cdb9773673d85662d8d318c7"
+  },
+  "evidence_hashes": {
+    "solution-local.json": "49f34a5b49d9b8cb6871bc4b90bd2aeb3f2bcab1b7057d8dc271781d7bdbc9de",
+    "solution-local.log": "030c97613a23688f953e732874e50a110b915ac84a738a9cc843d79d175844c1",
+    "referee-2-consumer.lean": "1df289e717817ec4ffd54adcb15c152d4697b6e4c9c23b2bc987a8a84b96c06c",
+    "referee-2-consumer.log": "400626bcf0dcaa2f7113a940b09dee3afea2a75e365fd3d638fa7bd7deb90160",
+    "referee-2-consumer.json": "dffab20668784de305f265efd01460f877c3b61c073bff212259adf027f51ee4",
+    "statement-gate.json": "6757ca4ee0ca36715e25f3efdbede1827152b0a4946439391f0b8351c3a80dd4",
+    "STATEMENT-REFEREE-1.md": "4f19206a6f22d01784b9c44e94caa1e978aacf17ee550ab22e4edb95494eafb9",
+    "referee-1-statement-evidence.json": "c1f1db4f0249eb80e021d500fd44cf3e095502d395d9206762190e898c07697e",
+    "referee-1-precheck.py": "5474834732e451bee2a6c6a7664f829ba134d49d2b1164d981384b0058958451",
+    "referee-1-precheck.log": "ac4007ba41461817200fa25c51fc328c59da692307d905b04a35c0af48b53da9"
+  },
+  "execution_limits": "This referee independently reviewed every active source and inspected exact fresh logs; builds were executed by coordinator, consumers/term queries by referee 2. No duplicate expensive full build. Linux Comparator/operational review is separate."
+}

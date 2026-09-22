@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local export consumer",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "candidate_commit": "82aee43d2dd0b1ef201134ed8d066b62b7fca890",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_current_main_not_source": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "active_source_count": 3,
+  "export_count": 3,
+  "export_axioms": {
+    "NLA.IE19.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE19.not_lowerBoundConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE19.not_sharpConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ie19/docs/lean/reverification-2026-09-14/IE-19/referee-2-consumer.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-ie19/linear-systems-and-elimination/IE-19/lean",
+  "coordinator_solution_build_exit_code": 0,
+  "unchanged_frozen_statement_gate": true,
+  "active_sources_equal_candidate_and_preserved_base": true,
+  "targeted_imported_semantics_sha256": {
+    "mathlib/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880"
+  },
+  "evidence_sha256": {
+    "statement-gate.json": "93355c2c2233bb0fa2975fe3d619a09c0527d0437822e66be3d38679bd23ceb6",
+    "referee-2-active-inputs.json": "1f83d41e7219b96fb4ff95d0b0d9171882b63d01c6dcbd5b2bccb7387aa8395c",
+    "referee-2-consumer.lean": "1b2455dbe77f9d0ba97c35875ed09aa1aed89ca79dbda7724c83b1c186382641",
+    "referee-2-consumer.log": "a3004d03441db3ef4b66f6ddb2b59d80c0627799d6c37f9205e50532475f351d",
+    "referee-2-consumer.json": "38837378fb4f5a069c0dc75ae86e5da86f752d43732a60b76efd880f538b256c",
+    "solution-local.json": "e45dc9293ddac55a982bb9014922c30c76d314a38171481db689ee6024fec7c4",
+    "solution-local.log": "007c6986a8e7a44ed78fad29941174b112bf211fdecae9ba4bfaa5a3ee43a81c",
+    "referee-2-numerical-checks.json": "adcf4b3fcc192dd89e091e6790017f57264c1b20a486ecdaaadbdcc2288d5a03",
+    "referee2_numerics.py": "32c630ce40f80b4b534bc5e68bca1eedfd7ba82c9ff1b489e27ed2a8ef2babad",
+    "referee2_statements.py": "d45611012e7d45ab68d8c62a20e2094bfa4c26e094ac86a4f507dd437b6a32ce",
+    "referee2_consume.py": "860b17c2f5d3d6e6e5e50fd52c5847ba90823b319a9894b6ba37744ca0b46c72",
+    "referee-2-numerical-terms.lean": "a4003069f68c18453ddccbbdab3c0fd87374f0797109f99cdc912c7bfdea0daf",
+    "referee-2-numerical-terms.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "referee-2-numerical-terms.json": "04102a1a90519dceabcbfb59be47b4848f763ec6fef202626702a73a2a5d0626",
+    "referee2_terms.py": "1dc433b64a7493c40a33eb80ded4b93aaeec8719bd03ce7f0cb99e53aafad5ae"
+  },
+  "linux_status": "separate pending operational review, not inferred from historical PASS"
+}

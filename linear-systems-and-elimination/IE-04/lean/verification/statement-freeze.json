@@ -1,0 +1,45 @@
+{
+  "stage": "FROZEN after two independent nonauthor statement approvals; no proof begun",
+  "frozen_at_utc": "2026-09-15T02:57:38.615545+00:00",
+  "actual_base": "32f1f799219fbcaf4c66bfaa4edb8a0c591e79e9",
+  "preserved_source": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "canonical_bytes_equal_preserved_source": true,
+  "files_sha256": {
+    "NLA/IE04/Definitions.lean": "c78a3813feb30befee926d4ad94aed7456567db670b4eede249516c06bbd4edf",
+    "Challenge.lean": "0e84dc20ac0311e4abb143735298439030a5b9573b90b084398dc67a5f3ed28f",
+    "NUMERICAL_TARGETS.md": "9fc5e9071df313497a615f30f7946769e4160029e84c3005c7c892b1c9ab17b2",
+    "SOURCE_PROVENANCE.json": "a22bb1fec5a717a1bca13627ed967a677a1e584a7194db6d4c334910890750c3",
+    "README.md": "efb6024a676be9a08e1eb333110f0c6af03616558d40cab8e9788b82cecd0ad8",
+    "formalization.yaml": "c719e7dc1aa04d67d5c57f0d59392e70d7e6e0c53eabcb45f95d5fc99b486fcc",
+    "comparator.json": "5f9886dda49574e09e13b5fa6f906ea20e55803b24233df0ae3892a52d6bf641",
+    "lakefile.toml": "ae18ff82db90be3a41d1663bf5d50626cd1565a6c564847674e57dbbc19c1e48",
+    "lake-manifest.json": "9492763774b7794de2b88d000461651ba152d0ac84d55996f33548f41ed40430",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "verification/source-provenance.json": "efc0c9c27dd9cd3176274e74854b4e9175fcd2680ea56bf13e85d8b1ac3a155b",
+    "verification/statement-coverage.json": "7a39f7d0e1c5624ec7bccbd50b834ae221c85d938247c5c19de55e073ab6e2ee",
+    "verification/draft-schema.json": "6ef7b9ae7f0ea72711f712fd2f7a35dd58324a3e626479c0734671bb4a793049",
+    "verification/actual-project-statement-build.json": "ed3f194bc42d15971093c680a1f5ab6d5c9445c2183c315be8c4fbb4825fd867",
+    "verification/actual-project-statement-build.log": "ef1b70dca3b39b64926b9f854888a532c5ae83fe7d5e7ad5f17f2f6aeeb34d3a"
+  },
+  "reports": {
+    "reviews/statement-referee-1.md": "35bd84399df52bf4518340f7ceed366173fbbc8d610f8a33ee44fe0eebadbc24",
+    "reviews/statement-referee-2.md": "e485d42c095f93b75acc5b85b3accca9d6344ec280d5911762bab261a8f209af"
+  },
+  "exports": [
+    "NLA.IE04.gaussian_model",
+    "NLA.IE04.growth_semantics",
+    "NLA.IE04.gaussian_generic",
+    "NLA.IE04.measurable_tail",
+    "NLA.IE04.exact_wilkinson",
+    "NLA.IE04.full_box_robustness",
+    "NLA.IE04.gaussian_density_lower",
+    "NLA.IE04.gaussian_box_lower",
+    "NLA.IE04.gaussian_tail_lower",
+    "NLA.IE04.asymptotic_escape",
+    "NLA.IE04.every_pair_violated",
+    "NLA.IE04.not_exponentialTailConjecture"
+  ],
+  "reviewed_mathematical_bytes_unchanged": true,
+  "wrapper_delta": "Only lakefile default target and Solution library registration changed relative to drafting receipts; final isolated Challenge build confirms unchanged boundary. Completion claims and proof work remain pending."
+}

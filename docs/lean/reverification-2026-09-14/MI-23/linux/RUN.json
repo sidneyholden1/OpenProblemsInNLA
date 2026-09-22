@@ -1,0 +1,32 @@
+{
+  "run_id": 34900779797,
+  "successful_attempt": 1,
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34900779797",
+  "verified_commit": "8595b5406fc21df98924ce1b5ec486f5ea67f00c",
+  "artifact_id": 10370838042,
+  "artifact_sha256": "f99eb1e5d53fce129bd18ec57f23567fdf12baea716c89938f97ff9affc92ab8",
+  "github_artifact_digest": "sha256:f99eb1e5d53fce129bd18ec57f23567fdf12baea716c89938f97ff9affc92ab8",
+  "all_input_hashes_match": true,
+  "input_count": 415,
+  "active_source_sha256": {
+    ".gitignore": "2f39a020b618e218935a1b4ba1a8c6e2810025e9c35dbcd0f19ba2bec791b5ef",
+    "Challenge.lean": "283bca1ced50d7953f9946629c24e99f944d81095f9c822fbb3b58a44e01e189",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NLA/MI23/Arithmetic.lean": "d5895f0636fa3aa3887721c610ee9f526cc35a6838e1d4ad7e7ba7f0548af3d9",
+    "NLA/MI23/Definitions.lean": "1ca2386528fc7ff944f84088842f62c5f33a38f14cde7ee8127972be29696def",
+    "NLA/MI23/FunctionalCalculus.lean": "5603fb214d01f327ba297af151e278ed8f8310368272c59180dd52ebd87839a1",
+    "NLA/MI23/NormBounds.lean": "1fd4f9d91818470bfee7e3bb164baaaf120b80ee088ff827134be0e2ac867ad3",
+    "NLA/MI23/Proof.lean": "a82ba18b834453491e4d7bb50de23c08555b92bb70e573551d11e714a404984a",
+    "NLA/MI23/SpectralNorm.lean": "af43452f42fde8c361d3ab21c4bcf9839f355b7c06f905dbc56c1eb591c6c5a3",
+    "NLA/MI23/Witness.lean": "4d7d79b742e614712d5ecc052c04df135cde6b6548ec7cb19f6cfbae0ef987b7",
+    "NUMERICAL_TARGETS.md": "2f8e41d440d3e24732a1c2b70c0710ad0d88367c2aac7979141959a8d8df25ee",
+    "README.md": "9fd17b9f225383f50d1623ca511263737391dd5517539610b6a0bbc7efc2e918",
+    "Solution.lean": "575f2fd27922d2725d93ada823bfeb4da70407d7fd9c31fb7cf1753a5fdbd243",
+    "comparator.json": "80cd894da42a0951637cf361a94251f3163a3b4d400d89b67116ec5635ef56a5",
+    "formalization.yaml": "2c6b162572c774d28fd9a5302fd16f3939c5fb87007b124eb8071618932992d0",
+    "lake-manifest.json": "10e87dfa3fc8ecfaf18277f1a0838a3a009979e43555fe97474618ac9af250ff",
+    "lakefile.toml": "cb0ad4fd0b6a7b7b8a6e8307536c9e9505718c12b1089307561bf2355db301f8",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  },
+  "source_retention": "Every input checked against exact Git blobs at verified_commit. Active source/config copied; historical nested evidence preserved in original Git ancestry, not recursively duplicated."
+}

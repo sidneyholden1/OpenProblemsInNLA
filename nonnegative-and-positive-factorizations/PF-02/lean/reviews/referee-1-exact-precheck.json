@@ -1,0 +1,136 @@
+{
+  "verdict": "PASS",
+  "detM": "8192",
+  "orientations": [
+    "32",
+    "-32"
+  ],
+  "positive_leading_principal_minors": [
+    [
+      "4",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "4",
+      "16"
+    ],
+    [
+      "2",
+      "3",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "4",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "8",
+      "16"
+    ],
+    [
+      "2",
+      "4",
+      "16"
+    ],
+    [
+      "2",
+      "3",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "2",
+      "4",
+      "6"
+    ]
+  ],
+  "congruence_samples": [
+    {
+      "S": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          5,
+          6,
+          0
+        ]
+      ],
+      "detS": "1",
+      "detCongruence": "1"
+    },
+    {
+      "S": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "detS": "-1",
+      "detCongruence": "1"
+    },
+    {
+      "S": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "detS": "0",
+      "detCongruence": "0"
+    }
+  ],
+  "limitation": "Exact finite diagnostics only; universal polynomial identity, PSD, minima and quotient topology remain Lean obligations."
+}

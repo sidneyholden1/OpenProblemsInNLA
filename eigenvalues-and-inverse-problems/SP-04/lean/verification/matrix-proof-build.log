@@ -1,0 +1,5 @@
+⚠ [8793/8795] Replayed NLA.SP04.Scalar
+warning: NLA/SP04/Scalar.lean:14:2: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+warning: NLA/SP04/Scalar.lean:17:2: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+✔ [8795/8795] Built NLA.SP04.MatrixProof (35s)
+Build completed successfully (8795 jobs).

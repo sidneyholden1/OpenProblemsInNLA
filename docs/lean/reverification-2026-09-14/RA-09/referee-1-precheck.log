@@ -1,0 +1,5 @@
+MI-06: all six PSD square-root tables, two rank-one decompositions and exact rational gap PASS
+MI-07: all six PSD square-root tables, projection identities, positive determinant and trace gap PASS; no convergence computation claimed
+MI-26: source projection, actual quadratic polynomial matrix and 6/5 quadratic value PASS
+NR-03: source JSON digest, full 128-by-127-by-128 integer factors, every positive denominator and all 16384 entry identities PASS
+RA-09: exact symbolic SOS manually expanded: (2d+2)z^2-(2d+1)z+d; unbounded analytic/matrix obligations remain Lean proof obligations

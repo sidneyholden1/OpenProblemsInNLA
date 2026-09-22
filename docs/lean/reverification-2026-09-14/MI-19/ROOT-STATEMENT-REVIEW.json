@@ -1,0 +1,14 @@
+{
+  "reviewer": "coordinator /root; not one of the two independent referees",
+  "phase": "statement only, before inspecting active proof bodies",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "reviewed_scope": "The full complex PSD target uses setwise subset preservation and inversions in the full labeled ordering. The Gram witness at q=7/8 and interior singleton must establish both sums are real and their actual difference is -3235575/16384. Rank and perturbation extensions are excluded.",
+  "source_review": "Reviewed both canonical target sections, complete informal manuscripts, Definitions, Challenge and numerical obligations. Targeted actual Mathlib CFC and singular-value definitions checked. No authored proof inspected at this phase.",
+  "status": "Boundary appears faithful; two independent statement approvals and their exact diagnostics still required before frozen gate.",
+  "files_sha256": {
+    "matrix-inequalities-and-norms/MI-19/lean/Challenge.lean": "9c838a34cbff20eceb5e842eeca77c310bccb442843925343a7827a1020063cb",
+    "matrix-inequalities-and-norms/MI-19/lean/NUMERICAL_TARGETS.md": "cd93a4cefb529b69755c10bae600718442e0e6b8749c37df87c6dabec9b751aa",
+    "matrix-inequalities-and-norms/MI-19/lean/NLA/MI19/Definitions.lean": "170e406d1f6bf0ca60e5b65998308b030cf08cc0def51c25c9860524ad3441ac",
+    "docs/lean/reverification-2026-09-14/MI-19/SOURCE-PROVENANCE.json": "0b06f97dcab5bd6b47ef96894e90a5f48cb7c6a2cc2fc5c1326b87922350a923"
+  }
+}

@@ -1,0 +1,60 @@
+NLA.PF02.psd_rank_semantics {p q : ℕ} (hp : LE.le.{0} 1 p) (hq : LE.le.{0} 1 q) (M : NLA.PF02.Rect p q)
+  (hM : NLA.PF02.EntrywiseNonnegative M) :
+  Set.Nonempty.{0} (NLA.PF02.feasibleSizes M) ∧ IsLeast.{0} (NLA.PF02.feasibleSizes M) (NLA.PF02.psdRank M)
+'NLA.PF02.psd_rank_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.congruence_quotient_semantics {p q k : ℕ} (M : NLA.PF02.Rect p q) :
+  Equivalence.{1} NLA.PF02.Congruent ∧
+    (∀ (F G : NLA.PF02.Factorization M k),
+        Eq.{1} (NLA.PF02.orbitClass F) (NLA.PF02.orbitClass G) ↔ NLA.PF02.Congruent F G) ∧
+      Topology.IsQuotientMap.{0, 0} NLA.PF02.orbitClass
+'NLA.PF02.congruence_quotient_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.witness_exact_data :
+  (∀ (i j : Fin 6), LT.lt.{0} 0 (NLA.PF02.witnessM i j)) ∧
+    Eq.{1} (Matrix.det.{0, 0} NLA.PF02.witnessM) 8192 ∧
+      Eq.{1} (Matrix.rank.{0, 0, 0} NLA.PF02.witnessM) 6 ∧
+        (∀ (i : Fin 6),
+            Matrix.PosDef.{0, 0} (NLA.PF02.witnessFactors i) ∧ Matrix.PosDef.{0, 0} (NLA.PF02.reflectedFactors i)) ∧
+          NLA.PF02.IsPSDFactorization NLA.PF02.witnessM NLA.PF02.witnessTuple ∧
+            NLA.PF02.IsPSDFactorization NLA.PF02.witnessM NLA.PF02.reflectedTuple ∧
+              Eq.{1} (Matrix.det.{0, 0} (NLA.PF02.rowCoordinates NLA.PF02.witnessFactors)) 32 ∧
+                Eq.{1} (Matrix.det.{0, 0} (NLA.PF02.rowCoordinates NLA.PF02.reflectedFactors)) (-32) ∧
+                  IsLeast.{0} (NLA.PF02.feasibleSizes NLA.PF02.witnessM) 3 ∧
+                    Eq.{1} (NLA.PF02.psdRank NLA.PF02.witnessM) 3
+'NLA.PF02.witness_exact_data' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.trace_coordinate_bridge (A B : Fin 6 → NLA.PF02.Mat 3) (hA : ∀ (i : Fin 6), Matrix.IsSymm.{0, 0} (A i))
+  (hB : ∀ (j : Fin 6), Matrix.IsSymm.{0, 0} (B j)) :
+  Eq.{1} (fun i j => Matrix.trace.{0, 0} (HMul.hMul.{0, 0, 0} (A i) (B j)))
+    (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (NLA.PF02.rowCoordinates A) NLA.PF02.traceMetric)
+      (Matrix.transpose.{0, 0, 0} (NLA.PF02.rowCoordinates B)))
+'NLA.PF02.trace_coordinate_bridge' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.congruence_coordinate_identity (S : NLA.PF02.Mat 3) :
+  (∀ (A : Fin 6 → NLA.PF02.Mat 3),
+      (∀ (i : Fin 6), Matrix.IsSymm.{0, 0} (A i)) →
+        Eq.{1}
+          (NLA.PF02.rowCoordinates fun i =>
+            HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (Matrix.transpose.{0, 0, 0} S) (A i)) S)
+          (HMul.hMul.{0, 0, 0} (NLA.PF02.rowCoordinates A) (NLA.PF02.congruenceCoordinates S))) ∧
+    Eq.{1} (Matrix.det.{0, 0} (NLA.PF02.congruenceCoordinates S)) (HPow.hPow.{0, 0, 0} (Matrix.det.{0, 0} S) 4)
+'NLA.PF02.congruence_coordinate_identity' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.orientation_invariant :
+  (∀ (F : NLA.PF02.Factorization NLA.PF02.witnessM 3), Ne.{1} (Matrix.det.{0, 0} (NLA.PF02.rowCoordinates (↑F).1)) 0) ∧
+    (Continuous.{0, 0} fun F => NLA.PF02.rowOrientation (↑F).1) ∧
+      ∀ (F G : NLA.PF02.Factorization NLA.PF02.witnessM 3),
+        NLA.PF02.Congruent F G → Eq.{1} (NLA.PF02.rowOrientation (↑F).1) (NLA.PF02.rowOrientation (↑G).1)
+'NLA.PF02.orientation_invariant' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.quotient_orientation :
+  ∃ orientation,
+    Continuous.{0, 0} orientation ∧
+      (∀ (F : NLA.PF02.Factorization NLA.PF02.witnessM 3),
+          Eq.{1} (orientation (NLA.PF02.orbitClass F)) (NLA.PF02.rowOrientation (↑F).1)) ∧
+        Eq.{1} (Set.range.{0, 1} orientation) (insert.{0, 0} (-1) (singleton.{0, 0} 1))
+'NLA.PF02.quotient_orientation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.disconnected_counterexample :
+  NLA.PF02.EntrywiseNonnegative NLA.PF02.witnessM ∧
+    Eq.{1} (Matrix.rank.{0, 0, 0} NLA.PF02.witnessM)
+        (HDiv.hDiv.{0, 0, 0} (HMul.hMul.{0, 0, 0} 3 (HAdd.hAdd.{0, 0, 0} 3 1)) 2) ∧
+      Eq.{1} (NLA.PF02.psdRank NLA.PF02.witnessM) 3 ∧
+        Nonempty.{1} (NLA.PF02.OrbitSpace NLA.PF02.witnessM 3) ∧ ¬IsPreconnected.{0} Set.univ.{0}
+'NLA.PF02.disconnected_counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.PF02.not_connectedOrbitConjecture : ¬NLA.PF02.ConnectedOrbitConjecture
+'NLA.PF02.not_connectedOrbitConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

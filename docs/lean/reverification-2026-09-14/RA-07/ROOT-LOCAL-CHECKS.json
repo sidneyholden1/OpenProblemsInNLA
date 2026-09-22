@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS for local source build and byte preservation",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "candidate_commit": "6a8aee632957b5a4fbc254d6bc12841ea658dcfe",
+  "all_active_files_unchanged_from_base": true,
+  "active_source_sha256": {
+    "randomized-and-low-rank-approximation/RA-07/lean/Solution.lean": "55ea9b34825481eb10fefc6409eab16db61849663849f2ca09f6ceb8a1857114",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Sums.lean": "6a1410ed2efe6155f2f27c22b8afe37ffd0110812850f0d336c9ffee2dd8050b",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Definitions.lean": "5eb47e2450eefe5a83e583173ac1de48c67be502a73f52cb4856a26c3fffb9ff",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Proof.lean": "20c4d2a1078495b442f74126b42e0960462a1e82e3c5aec0b2c09065921dd21d",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Algebra.lean": "1be33b680d0f66d793a564ec22aae8996474aa85f7699f4d1dff6639903cf013",
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Roots.lean": "ccbb931696ed1fafcda2518daaccee8eacb201a10eaedefd694f573b44adecde"
+  },
+  "export_count": 6,
+  "printed_axiom_reports": 12,
+  "nonstandard_axioms": {},
+  "exports_without_printed_axioms_in_build_log": [],
+  "limitation": "Local pinned cached dependency build; fresh independent consumer and Linux Comparator required separately."
+}

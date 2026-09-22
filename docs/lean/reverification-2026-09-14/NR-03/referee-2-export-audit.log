@@ -1,0 +1,34 @@
+NLA.NR03.cMatrix_nonnegative : ∀ (n : ℕ), NLA.NR03.EntrywiseNonnegative (NLA.NR03.cMatrix n)
+'NLA.NR03.cMatrix_nonnegative' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.NR03.boolVec_seven_card : Eq.{1} (Fintype.card.{0} (NLA.NR03.BoolVec 7)) 128
+'NLA.NR03.boolVec_seven_card' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.NR03.nonnegative_rank_attained_minimal : ∀ {ι κ : Type} [inst : Fintype.{0} ι] [inst_1 : Fintype.{0} κ]
+  (X : Matrix.{0, 0, 0} ι κ ℝ),
+  (∃ r, NLA.NR03.HasNonnegativeFactorization X r) →
+    NLA.NR03.HasNonnegativeFactorization X (NLA.NR03.nonnegativeRank X) ∧
+      ∀ (r : ℕ), NLA.NR03.HasNonnegativeFactorization X r → LE.le.{0} (NLA.NR03.nonnegativeRank X) r
+'NLA.NR03.nonnegative_rank_attained_minimal' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.NR03.rank_le_of_factorization : ∀ {ι κ : Type} [inst : Fintype.{0} ι] [inst_1 : Fintype.{0} κ]
+  (X : Matrix.{0, 0, 0} ι κ ℝ) (r : ℕ),
+  NLA.NR03.HasNonnegativeFactorization X r → LE.le.{0} (NLA.NR03.nonnegativeRank X) r
+'NLA.NR03.rank_le_of_factorization' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@NLA.NR03.scaled_certificate_gives_factorization : ∀ {ι κ : Type} [inst : Fintype.{0} ι] [inst_1 : Fintype.{0} κ]
+  (X : Matrix.{0, 0, 0} ι κ ℝ) (r : ℕ),
+  NLA.NR03.HasScaledIntegerCertificate X r →
+    ∃ W V d,
+      (∀ (j : κ), LT.lt.{0} 0 (d j)) ∧
+        (∀ (i : ι) (j : κ),
+            Eq.{1} (HMul.hMul.{0, 0, 0} (NLA.NR03.castNatMatrix W) (NLA.NR03.castNatMatrix V) i j)
+              (HMul.hMul.{0, 0, 0} (↑(d j)) (X i j))) ∧
+          NLA.NR03.FactorizationData X r (NLA.NR03.castNatMatrix W) (NLA.NR03.scaledRightFactor V d)
+'NLA.NR03.scaled_certificate_gives_factorization' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.NR03.witness_scaled_certificate : NLA.NR03.HasScaledIntegerCertificate (NLA.NR03.cMatrix 7) 127
+'NLA.NR03.witness_scaled_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.NR03.witness_factorization : NLA.NR03.HasNonnegativeFactorization (NLA.NR03.cMatrix 7) 127
+'NLA.NR03.witness_factorization' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.NR03.witness_rank_upper_bound : LE.le.{0} (NLA.NR03.nonnegativeRank (NLA.NR03.cMatrix 7)) 127
+'NLA.NR03.witness_rank_upper_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.NR03.witness_not_full_rank : LT.lt.{0} (NLA.NR03.nonnegativeRank (NLA.NR03.cMatrix 7)) (HPow.hPow.{0, 0, 0} 2 7)
+'NLA.NR03.witness_not_full_rank' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.NR03.not_targetStatement : ¬NLA.NR03.targetStatement
+'NLA.NR03.not_targetStatement' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

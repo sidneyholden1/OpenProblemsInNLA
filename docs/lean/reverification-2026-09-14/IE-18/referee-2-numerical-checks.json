@@ -1,0 +1,17 @@
+{
+  "all_six_ordered_pair_values": [
+    "1/289",
+    "1/121",
+    "1/289",
+    "9/2401",
+    "1/121",
+    "9/2401"
+  ],
+  "pair_maximum": "1/121",
+  "squared_norm_ratio": "1920682/21289638243",
+  "both_denominators_positive": true,
+  "first_coefficient": "90/61",
+  "second_coefficient": "3140/1381",
+  "integer_crossproduct": 28120705162,
+  "strict_squared_gap": "6831066919/311701593515763"
+}

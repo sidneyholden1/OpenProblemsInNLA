@@ -1,0 +1,68 @@
+{
+  "verdict": "PASS",
+  "phase": "independent proof source and local consumer audit",
+  "reviewer": "/root/iv06_statement_referee_2",
+  "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "active_module_count": 8,
+  "active_source_lines": 570,
+  "active_sources_equal_frozen_gate_and_upstream": true,
+  "export_count": 7,
+  "export_axioms": {
+    "NLA.IS03.nonnegative_power_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.witness_admissible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.witness_polynomials": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.trace_moment_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.negative_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IS03.not_derivativeRealizabilityConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "consumer_command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-is03/docs/lean/reverification-2026-09-14/IS-03/referee-2-export-audit.lean"
+  ],
+  "consumer_cwd": "/private/tmp/nla-reverify-is03/eigenvalues-and-inverse-problems/IS-03/lean",
+  "consumer_exit_code": 0,
+  "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "coordinator_solution_build_exit_code": 0,
+  "evidence_sha256": {
+    "statement-gate.json": "f1d2650177853eabf16cd3b6c3cd9f2160dcbfa4713f4bc90d32f10e39ff17e0",
+    "referee-2-active-inputs.json": "e468130046c009c30de5b2fc12fa300cc122e51fc596855edb5b46ca11d1b148",
+    "referee-2-export-audit.lean": "34026a4ab43089f3d923de1810b55141287d58871e559e4342f63eb651838e37",
+    "referee-2-export-audit.log": "e045517ee348106d0180b06971c68a70dcc1b82bb87cdc096eed3cb1640bec54",
+    "solution-local.json": "3191bbff418ddd1c5d324558578bcdd7af3a528bbaf0fafbbbca7dd002acdc33",
+    "solution-local.log": "a7939dbc9a3a4bc05298a09c53187a255d2564d08e77d61b891f18f043f36f33",
+    "referee-2-numerical-checker.lean": "5987de6726d44cdc16a30fc14fa97fe32fb4eab6eaf2a9330c62a89dd9b7f58f",
+    "referee-2-numerical-checker.log": "5aea2e57c639d6047065747d2ddd44a8cccafbe44e445bd2e5a3751d370a94bd"
+  },
+  "linux_status": "not reviewed in this proof report; separate actual Comparator/operational gate"
+}

@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ie23/docs/lean/reverification-2026-09-14/IE-23/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ie23/linear-systems-and-elimination/IE-23/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.IE23.inducedNorm_semantics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_matrix_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.fourth_power_norm_control": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_action_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_attainment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_norms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.witness_global_minimizers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.IE23.not_rightInverseUniqueConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [],
+  "script_sha256": "d26e2707d2994c38786884cb7609dc7cef987a66d59361ad214e61be7300c8e2",
+  "log_sha256": "abe2d8684a0b6a36ea796f2b9acc6b4d0d15f4d971e4a405f3554cee6cb35cee"
+}

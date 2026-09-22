@@ -1,0 +1,37 @@
+{
+  "verdict": "PASS",
+  "proof_commit": "516ad4a0e85c21c7ef34507db9ab3b68b393bb90",
+  "original_target_and_dated_reference_sections_unchanged": true,
+  "registry_unchanged": true,
+  "all_tested_math_and_config_bytes_unchanged": true,
+  "manifest": "PASS4declarations",
+  "permanent_ids": "PASS217 against origin/main",
+  "tests": "PASS17 permanent-ID tests",
+  "pdf_review": {
+    "pages": 2,
+    "visual_inspected_pages": [
+      1,
+      2
+    ],
+    "result": "PASS: no clipped/overlapping text, complete original target together on page2; references and dated audits legible",
+    "layout_change": "Only IV03 PDF pagination: target starts new page, references no longer force another page",
+    "png_sha256": {
+      "page1": "74db927ea8341e90b2d813ae4a16d6ddc727ecda3b0dfa6fed5b2fb5df538100",
+      "page2": "1a0f7873f1a82f3738a09747007092c08b959633ca0bf13207d1f3da6a394ee4"
+    }
+  },
+  "publication_files_sha256": {
+    "intervals-and-absolute-value-equations/IV-03/README.md": "aa54b708c4832df3a2a2507364b260cd568c9c6db5cba840477a16c748da429b",
+    "intervals-and-absolute-value-equations/IV-03/problem.pdf": "8b10eaf43ce2043cea257f1b9e239a4d4b3eff2126ef7454bcae1eedfd8e49c0",
+    "intervals-and-absolute-value-equations/IV-03/problem.tex": "22012f539321bd4531fae3ee88e31df4d2bbb26015552ad929d4cbc6e42a2723",
+    "intervals-and-absolute-value-equations/IV-03/lean/README.md": "984cb85bec12bbbca78a9fe0ec495fef020d8cb7c0773882888ca2a2b093e6f1",
+    "intervals-and-absolute-value-equations/IV-03/lean/formalization.yaml": "29a4f890ff0eebb935c796dacb299ff3639553f8630efaed042993a52d3bdacb",
+    "RESOLVED.md": "705223d7d72e248958b8f3bc6aa46de7a9cf0ff7f3034c581e304d2a99c170d6",
+    "CATALOG.md": "d0c678be716fb8c7911b1e1ac746ffc4f528e6e6b18f9053b02375e30169d02d",
+    "README.md": "ce59c35da6d516026cbdaf69eaa4d437d84131b2e810fe1d7ad11eae098ceb51",
+    "intervals-and-absolute-value-equations/README.md": "7fb50bce8380daa6134523704fb511af2d3971eec9d87054efdc8f9600d5b8b1",
+    "tools/render_problems.py": "dc0fbbe3c49bc3a651508b21c09d4278eaafda42c3466ea53c30e04de3264901"
+  },
+  "final_publication_ci": "Will be checked after commit/push; proof Linux gate already passed",
+  "formatting_revision": "Initial publication96cd8486 failed only GitHub math formatting in the added notice; existing formatter corrected it. Original target and TeX content remain unchanged. Format checker passes all217 pages,16 formatter tests and11 render-math tests pass."
+}

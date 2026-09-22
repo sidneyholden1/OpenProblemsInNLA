@@ -1,0 +1,153 @@
+NLA/SP04/TopologyProof.lean:15:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:19:15: warning: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:16:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/SP04/TopologyProof.lean:26:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:30:15: warning: This simp argument is unused:
+  Pi.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, RingHom.id_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:27:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/SP04/TopologyProof.lean:112:36: error: Application type mismatch: The argument
+  h10
+has type
+  (orbitDerivative s) X 1 0 = 0
+but is expected to have type
+  -?m.554 * s 0 - s 1 * ?m.555 = 0
+in the application
+  pair hd01 ?m.556 h10
+NLA/SP04/TopologyProof.lean:93:13: warning: This simp argument is unused:
+  orbitDerivative_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew, rightSkew, diagPart,
+    LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:93:36: warning: This simp argument is unused:
+  Matrix.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew, rightSkew, diagPart,
+    LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:93:54: warning: This simp argument is unused:
+  Matrix.mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.diagonal_mul, leftSkew, rightSkew, diagPart,
+    LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:94:4: warning: This simp argument is unused:
+  Matrix.diagonal_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, leftSkew, rightSkew, diagPart,
+    LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:94:25: warning: This simp argument is unused:
+  leftSkew
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, rightSkew,
+    diagPart, LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:94:35: warning: This simp argument is unused:
+  rightSkew
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew,
+    diagPart, LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:94:46: warning: This simp argument is unused:
+  diagPart
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew,
+    rightSkew, LinearMap.coe_mk, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:94:56: warning: This simp argument is unused:
+  LinearMap.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew,
+    rightSkew, diagPart, AddHom.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:95:4: warning: This simp argument is unused:
+  AddHom.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew,
+    rightSkew, diagPart, LinearMap.coe_mk, Matrix.diagonal_apply, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:95:19: warning: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [orbitDerivative_apply, Matrix.add_apply, Matrix.mul_diagonal, Matrix.diagonal_mul, leftSkew,
+    rightSkew, diagPart, LinearMap.coe_mk, AddHom.coe_mk, Matrix.zero_apply] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/SP04/TopologyProof.lean:122:13: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  AlexandrovDiscrete (Fin 3 → ℝ)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+NLA/SP04/TopologyProof.lean:123:54: error: Application type mismatch: The argument
+  continuous_apply 1
+has type
+  Continuous[Pi.topologicalSpace, ?m.99 1] fun p => p 1
+but is expected to have type
+  Continuous[Pi.topologicalSpace, ?m.92 0] ?m.89
+in the application
+  isOpen_lt (continuous_apply 0) (continuous_apply 1)
+NLA/SP04/TopologyProof.lean:146:48: error: Type mismatch
+  localOrbit_mem_family s X hX
+has type
+  localOrbit s X ∈ counterexampleFamily
+but is expected to have type
+  X ∈ counterexampleFamily
+NLA/SP04/TopologyProof.lean:146:31: error: Application type mismatch: The argument
+  hne
+has type
+  {X | SingularInterval fun i => s i + X i i} ∈ 𝓝 0
+but is expected to have type
+  (fun X =>
+      (∀ (i : Fin 3), 7 / 4 < (fun i => s i + X i i) i ∧ (fun i => s i + X i i) i < 44 / 25) ∧
+        (fun i => s i + X i i) 0 < (fun i => s i + X i i) 1 ∧ (fun i => s i + X i i) 1 < (fun i => s i + X i i) 2) ∈
+    map (localOrbit s) (𝓝 0)
+in the application
+  mem_of_superset hne
+NLA/SP04/TopologyProof.lean:178:51: error: unsolved goals
+⊢ ∀ (i : Fin 3), ![1751 / 1000, 1755 / 1000, 1759 / 1000] i = ?m.58 i

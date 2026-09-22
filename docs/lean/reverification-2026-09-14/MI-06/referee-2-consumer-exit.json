@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "names": [
+    "NLA.MI06.modulus_eq_sqrt",
+    "NLA.MI06.witness_moduli",
+    "NLA.MI06.two_vector_orthogonal",
+    "NLA.MI06.witness_quadratic_bounds",
+    "NLA.MI06.counterexample",
+    "NLA.MI06.not_dominationConjecture"
+  ],
+  "initial_failures": "direct private-name diagnostics retained; final consumer has no diagnostic query"
+}

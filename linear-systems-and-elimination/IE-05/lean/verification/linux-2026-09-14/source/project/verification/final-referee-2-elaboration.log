@@ -1,0 +1,15 @@
+Independent replay: NLA/IE05/Bounds.lean
+EXIT 0
+Independent replay: NLA/IE05/IntegerCertificates.lean
+EXIT 0
+Independent replay: NLA/IE05/RealCertificates.lean
+EXIT 0
+Independent replay: NLA/IE05/Proof.lean
+NLA/IE05/Proof.lean:86:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/IE05/Proof.lean:89:54: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+NLA/IE05/Proof.lean:90:50: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+EXIT 0
+Independent replay: Solution.lean
+EXIT 0

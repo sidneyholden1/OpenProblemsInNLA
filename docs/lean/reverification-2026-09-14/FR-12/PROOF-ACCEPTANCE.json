@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "4f19206a6f22d01784b9c44e94caa1e978aacf17ee550ab22e4edb95494eafb9",
+    "STATEMENT-REFEREE-2.md": "0b9982ce5bf325c7eb96956af7b2ccf3e6bfb38f498953e5179b647783a5548e",
+    "PROOF-REFEREE-1.md": "9ed9b77b00af7875fe4c11686dcb904b8e1c5f9d31e3653f2e5ac05eeb941bbd",
+    "PROOF-REFEREE-2.md": "b24f1597e373ecfabae412eb733cc2df8cfc5c72916a973702f54c0343f25243",
+    "referee-1-proof-evidence.json": "b0d31ea3b212af7bada9a9097e4d530b3712e4887f75b576c97737c18fa7b3e7",
+    "referee-2-proof-checks.json": "e774566c561bb6a5cf94643b3cad0c9b0634a9418f63ba8324a0736ca6c9f165",
+    "ROOT-LOCAL-CHECKS.json": "ddba6ad4c11d66b0c4f56d1c9e402265d2ab388e58b66fe606066d63a6b0b8a2",
+    "statement-gate.json": "6757ca4ee0ca36715e25f3efdbede1827152b0a4946439391f0b8351c3a80dd4",
+    "preflight.json": "526b7021c5c82e68c888e104ab49aa0d9c4e7f6f1361e41eca4d3b6e33b32b3f"
+  },
+  "exports": [
+    "NLA.FR12.counting_semantics",
+    "NLA.FR12.injective_doubling",
+    "NLA.FR12.factorial_doubling",
+    "NLA.FR12.power_two_nonempty",
+    "NLA.FR12.power_two_lower_bound",
+    "NLA.FR12.counterexample",
+    "NLA.FR12.not_countingConjecture"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "42818143f084791532e39ff56c13949bebd8d389",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}

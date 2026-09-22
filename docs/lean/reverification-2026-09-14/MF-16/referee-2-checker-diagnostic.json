@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mf16/docs/lean/reverification-2026-09-14/MF-16/referee-2-checker-diagnostic.lean"
+  ],
+  "scope": "Definitions-only #eval diagnostic; no proof or Solution imported; not kernel certification",
+  "log_sha256": "ef02b379de72939f0e396759d5d91e71e397c09476f2ec6e489cc3951bc238b3"
+}

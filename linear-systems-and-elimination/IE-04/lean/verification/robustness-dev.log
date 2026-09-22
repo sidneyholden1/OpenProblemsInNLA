@@ -1,0 +1,74 @@
+NLA/IE04/Robustness.lean:42:18: error: unexpected token '|*'; expected '|' or '|ₘ'
+NLA/IE04/Robustness.lean:35:33: error(lean.unknownIdentifier): Unknown identifier `abs_add`
+NLA/IE04/Robustness.lean:104:4: error: unsolved goals
+case neg
+n k : ℕ
+hk : k + 1 < n
+A : Mat n
+e : ℝ
+he : 0 ≤ e
+he8 : e ≤ 1 / 8
+hA : entryMax (A - referenceStates n k) ≤ e
+i j : Fin n
+herr : ∀ (u v : Fin n), |A u v - referenceStates n k u v| ≤ e
+f : Fin n := ⟨k, ⋯⟩
+hi : f < i
+hj : ¬f < j
+hj' : ¬k + 1 ≤ ↑j
+⊢ |if ⟨k, ⋯⟩ < i ∧ ⟨k, ⋯⟩ < j then A i j - A i ⟨k, ⋯⟩ / A ⟨k, ⋯⟩ ⟨k, ⋯⟩ * A ⟨k, ⋯⟩ j else 0| ≤ amplification n * e
+NLA/IE04/Robustness.lean:106:2: error: unsolved goals
+case neg
+n k : ℕ
+hk : k + 1 < n
+A : Mat n
+e : ℝ
+he : 0 ≤ e
+he8 : e ≤ 1 / 8
+hA : entryMax (A - referenceStates n k) ≤ e
+i j : Fin n
+herr : ∀ (u v : Fin n), |A u v - referenceStates n k u v| ≤ e
+f : Fin n := ⟨k, ⋯⟩
+hi : ¬f < i
+hi' : ¬k + 1 ≤ ↑i
+⊢ |if ⟨k, ⋯⟩ < i ∧ ⟨k, ⋯⟩ < j then A i j - A i ⟨k, ⋯⟩ / A ⟨k, ⋯⟩ ⟨k, ⋯⟩ * A ⟨k, ⋯⟩ j else 0| ≤ amplification n * e
+NLA/IE04/Robustness.lean:105:23: warning: This simp argument is unused:
+  hj
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, referenceStates, hj', mul_nonneg (le_trans (by norm_num) (amplification_ge_one n)) he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Robustness.lean:105:49: warning: This simp argument is unused:
+  mul_nonneg (le_trans (by norm_num) (amplification_ge_one n)) he
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, hj, referenceStates, hj']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Robustness.lean:107:21: warning: This simp argument is unused:
+  hi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, referenceStates, hi', mul_nonneg (le_trans (by norm_num) (amplification_ge_one n)) he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Robustness.lean:107:47: warning: This simp argument is unused:
+  mul_nonneg (le_trans (by norm_num) (amplification_ge_one n)) he
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [schurStep, hi, referenceStates, hi']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/IE04/Robustness.lean:122:10: error: failed to prove positivity/nonnegativity/nonzeroness
+NLA/IE04/Robustness.lean:136:47: error: unsolved goals
+case neg
+n : ℕ
+hn : 2 ≤ n
+A : Mat n
+hA : A ∈ inputBox n
+k : Fin n
+hh : -(1 / 8) ≤ states A id (↑k) k k - referenceStates n (↑k) k k
+h✝¹ : ¬↑k + 1 = n
+h✝ : ¬k = k
+⊢ 1 ≤ -(1 / 2)
+NLA/IE04/Robustness.lean:193:55: error(lean.unknownIdentifier): Unknown identifier `abs_add`

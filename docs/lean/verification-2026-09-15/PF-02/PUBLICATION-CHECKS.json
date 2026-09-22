@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS",
+  "proof_commit": "61dae15457a532be05a9a54d8e1e4040fbefddbd",
+  "unchanged_mathematical_inputs": true,
+  "permanent_ids": 217,
+  "permanent_id_tests": 17,
+  "formalization_schema_and_coverage": 9,
+  "catalog_changes": "PF-02 only; permanent IDs and canonical original target retained",
+  "pdf": {
+    "pages": 2,
+    "visual_review": "Both rendered pages inspected; readable complete original target and verification notice, no clipping or overlap",
+    "sha256": "337637a1d516b7b66176cf50639152d27dbfeff878f10fcaf47bd6284ffb1baf"
+  },
+  "limits": "Branch publication; no claim of merge into main. Publication metadata differs from immutable proof run and will receive its own CI."
+}

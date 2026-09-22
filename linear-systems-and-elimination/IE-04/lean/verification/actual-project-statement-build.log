@@ -1,0 +1,15 @@
+✔ [3104/3106] Built NLA.IE04.Definitions (24s)
+⚠ [3105/3106] Built Challenge (11s)
+warning: Challenge.lean:11:8: declaration uses `sorry`
+warning: Challenge.lean:17:8: declaration uses `sorry`
+warning: Challenge.lean:26:8: declaration uses `sorry`
+warning: Challenge.lean:31:8: declaration uses `sorry`
+warning: Challenge.lean:35:8: declaration uses `sorry`
+warning: Challenge.lean:46:8: declaration uses `sorry`
+warning: Challenge.lean:58:8: declaration uses `sorry`
+warning: Challenge.lean:62:8: declaration uses `sorry`
+warning: Challenge.lean:67:8: declaration uses `sorry`
+warning: Challenge.lean:72:8: declaration uses `sorry`
+warning: Challenge.lean:77:8: declaration uses `sorry`
+warning: Challenge.lean:83:8: declaration uses `sorry`
+Build completed successfully (3106 jobs).

@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-ra03/docs/lean/reverification-2026-09-14/RA-03/referee-2-consumer.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-ra03/randomized-and-low-rank-approximation/RA-03/lean",
+  "runtime_path_prefix": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+  "exit_code": 0,
+  "exports": {
+    "NLA.RA03.frobeniusSq_eq_norm_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA03.process_isProbability": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA03.counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NLA.RA03.not_squaredErrorConjecture": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "material_term_names": [
+    "strict_scalar_gap"
+  ],
+  "script_sha256": "e607006503fdd0f7a077b61ba7bbcd1e9e973a9bc77f553c686ffc40199aeb6f",
+  "log_sha256": "360f2700384d9f30dd05dfd0d9cb91a25a9a668e605d31c2f6d30765f78b4454"
+}

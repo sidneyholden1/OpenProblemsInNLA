@@ -1,0 +1,32 @@
+✔ [2856/2863] Built NLA.MF16.Algebra (36s)
+ℹ [2857/2863] Built NLA.MF16.CayleyHamilton (39s)
+info: NLA/MF16/CayleyHamilton.lean:65:0: '_private.NLA.MF16.CayleyHamilton.0.NLA.MF16.twelfth_polynomial_remainder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: NLA/MF16/CayleyHamilton.lean:66:0: 'NLA.MF16.matrix_twelfth_power_of_det_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/CayleyHamilton.lean:67:0: 'NLA.MF16.twelfth_power_reduction_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2858/2863] Built NLA.MF16.Numerical (39s)
+info: NLA/MF16/Numerical.lean:47:0: 'NLA.MF16.actual_krawczyk_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Numerical.lean:48:0: 'NLA.MF16.preconditioner_det_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Numerical.lean:49:0: 'NLA.MF16.box_radius_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Numerical.lean:50:0: 'NLA.MF16.contraction_bound_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Numerical.lean:51:0: 'NLA.MF16.certified_root_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [2859/2863] Built NLA.MF16.Recovery (37s)
+✔ [2860/2863] Built NLA.MF16.Polynomial (37s)
+ℹ [2861/2863] Built NLA.MF16.Proof (32s)
+info: NLA/MF16/Proof.lean:72:0: 'NLA.MF16.reducedWord_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Proof.lean:73:0: 'NLA.MF16.polynomial_word_equivalence_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Proof.lean:74:0: 'NLA.MF16.root_to_matrix_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Proof.lean:75:0: 'NLA.MF16.counterexample_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/MF16/Proof.lean:76:0: 'NLA.MF16.not_wordUniquenessConjecture_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2862/2863] Built Solution (28s)
+info: Solution.lean:86:0: 'NLA.MF16.word_semantics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:87:0: 'NLA.MF16.source_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:88:0: 'NLA.MF16.twelfth_power_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:89:0: 'NLA.MF16.polynomial_word_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:90:0: 'NLA.MF16.krawczyk_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:91:0: 'NLA.MF16.certified_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:92:0: 'NLA.MF16.root_to_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:93:0: 'NLA.MF16.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:94:0: 'NLA.MF16.not_wordUniquenessConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2863 jobs).

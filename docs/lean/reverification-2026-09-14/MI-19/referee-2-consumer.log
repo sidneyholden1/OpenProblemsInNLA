@@ -1,0 +1,35 @@
+NLA.MI19.counterexample : Eq.{1}
+    (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} NLA.MI19.gramFactor) NLA.MI19.gramFactor) NLA.MI19.witness ∧
+  Matrix.IsHermitian.{0, 0} NLA.MI19.witness ∧
+    Matrix.PosSemidef.{0, 0} NLA.MI19.witness ∧
+      LE.le.{0} 0 NLA.MI19.witnessQ ∧
+        LE.le.{0} NLA.MI19.witnessQ 1 ∧
+          Finset.Nonempty.{0} NLA.MI19.witnessSubset ∧
+            Ne.{1} NLA.MI19.witnessSubset Finset.univ.{0} ∧
+              Eq.{1} (NLA.MI19.qPermanent NLA.MI19.witnessQ NLA.MI19.witness).im 0 ∧
+                Eq.{1} (NLA.MI19.restrictedQPermanent NLA.MI19.witnessQ NLA.MI19.witness NLA.MI19.witnessSubset).im 0 ∧
+                  Eq.{1}
+                      (HSub.hSub.{0, 0, 0} (NLA.MI19.qPermanent NLA.MI19.witnessQ NLA.MI19.witness)
+                        (NLA.MI19.restrictedQPermanent NLA.MI19.witnessQ NLA.MI19.witness NLA.MI19.witnessSubset))
+                      (-3235575 / 16384) ∧
+                    LT.lt.{0} (NLA.MI19.qPermanent NLA.MI19.witnessQ NLA.MI19.witness)
+                      (NLA.MI19.restrictedQPermanent NLA.MI19.witnessQ NLA.MI19.witness NLA.MI19.witnessSubset)
+'NLA.MI19.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MI19.not_subsetConjecture : ¬NLA.MI19.SubsetConjecture
+'NLA.MI19.not_subsetConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MI19.strict_scalar_gap : LT.lt.{0} (-3235575 / 16384) 0 :=
+Mathlib.Meta.NormNum.isRat_lt_true.{0}
+  (Mathlib.Meta.NormNum.isRat_div.{0}
+    (Mathlib.Meta.NormNum.isRat_mul.{0} (Eq.refl.{1} HMul.hMul.{0, 0, 0})
+      (Mathlib.Meta.NormNum.IsInt.to_isRat.{0}
+        (Mathlib.Meta.NormNum.isInt_neg.{0} (Eq.refl.{1} Neg.neg.{0})
+          (Mathlib.Meta.NormNum.IsNat.to_isInt.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 3235575)))
+          (Eq.refl.{1} (Int.negOfNat 3235575))))
+      (Mathlib.Meta.NormNum.IsNNRat.to_isRat.{0}
+        (Mathlib.Meta.NormNum.isNNRat_inv_pos.{0}
+          (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ (Eq.refl.{1} 16384)))))
+      (Eq.refl.{1} ((Int.negOfNat 3235575).mul (Int.ofNat 1))) (Eq.refl.{1} 16384)))
+  (Mathlib.Meta.NormNum.IsNNRat.to_isRat.{0}
+    (Mathlib.Meta.NormNum.IsNat.to_isNNRat.{0} (Mathlib.Meta.NormNum.isNat_ofNat.{0} ℝ Nat.cast_zero.{0})))
+  (Eq.refl.{1} true)
+'NLA.MI19.strict_scalar_gap' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

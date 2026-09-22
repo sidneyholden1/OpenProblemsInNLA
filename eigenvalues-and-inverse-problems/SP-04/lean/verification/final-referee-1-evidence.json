@@ -1,0 +1,74 @@
+{
+  "reviewer": "/root/sp04_final_referee_1",
+  "AI_agent": true,
+  "frozen_boundary_verified": true,
+  "local_proof_receipt_verified": true,
+  "normalized_exact_signatures": [
+    "positive_multiplier_exclusion",
+    "selected_negative_root",
+    "diagonal_stationary_reduction",
+    "diagonal_unique_failure",
+    "orbit_unique_failure",
+    "open_counterexample_family",
+    "avoids_every_proper_algebraic_exception",
+    "generic_counterexample",
+    "not_generic_smallest_multiplier"
+  ],
+  "scan_no_holes_custom_axioms_native_decide_or_Challenge_imports": true,
+  "files_sha256": {
+    "NLA/SP04/Definitions.lean": "54a1ab62f1e32e1913ee87600a98fb1f942f4acf6e55f777b6be3cb25b3825d5",
+    "NLA/SP04/MatrixProof.lean": "fc388ff5c1f86cc08346b3a8c4452e6a3ca3b27cf0645ad4d4126f501d57f01b",
+    "NLA/SP04/PolynomialProof.lean": "633b1f923bd5c7ee95f239510f6babbb0b0dd1cff49f29dec44a0347da2ab9d3",
+    "NLA/SP04/Scalar.lean": "40168bb227aa6f027186917b65f099ca8e0540de81fc9f7139f9a4bd844e7460",
+    "NLA/SP04/TopologyProof.lean": "92f356340475f05d7b99d631097acc5273bc8c155aa438bde551e867a91bccb8",
+    "NLA/SP04/MatrixReduction.lean": "c9a1b2cc4435a701ed9f593cd56ad1a6f85c570e0f36dffaaff663a2ad545211",
+    "NLA/SP04/MatrixOrbit.lean": "87466976c00277df848be716749f838166ffdee1ffc9c8129a8d459fdb4829ae",
+    "Solution.lean": "79ca08076b83585023c8e354000b7c336733d98a0d141254d1fd046791e8a39c",
+    "Challenge.lean": "99e61e62c3ea8e5911e7765850735515cca4f896c3593001215dd703585c0506",
+    "comparator.json": "583cad865ecdc647f71544a4cdd62dd8473fb436242240c56e89ba9f00ddf6f9",
+    "lakefile.toml": "752b51f88c9dfcc5a21ca5008fcad5d615779c55f41d210ecb5806cf5ce73e0d",
+    "lake-manifest.json": "0b777416633b6ab6cecb4b739da1148251ec285a20225da94da6f72b56bddcab",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "NUMERICAL_TARGETS.md": "6a32b2cc5d14e9f062e5ec09bac8471f91eb269054b9a0241d590c47b1649a63",
+    "formalization.yaml": "4de3af168689911596e4552db33b7b1869f5db7ca9bd7228b299b8669376887e",
+    "README.md": "2453dac3b79c3fb462e8aa0d1af0dce43cb773d0dea69a93666f0ecb5f8008d4",
+    "SOURCE_PROVENANCE.json": "bf48973ee63563d93e1f4a8d575422d3e4e603703ea4fc4be20f7ad5828cca9e",
+    "../README.md": "2dfa12b2eee5e312bbd45d023d8fa33e1c40e2d598f6538e651d6df519ae38ca",
+    "../solution.md": "d7a9e5a9d0fa0bb43e45a3d5c37b6e52d86373cbf4391980d0c1c54ff2ebc45c",
+    "../solution.tex": "4709776d1b91f8eefc4521495057cbc0451f897c7232ee7c838214f7627da481"
+  },
+  "solution_reelaboration_exit": 0,
+  "kernel_assertions_passed": 9,
+  "axioms_each_export": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "dependency_query_exit": 0,
+  "material_LeanCert_margins": true,
+  "manifest_schema_and_coverage_exit": 0,
+  "linux_comparator_run_by_this_reviewer": false,
+  "check_files_sha256": {
+    "verification/final-referee-1-reelaboration.log": "11ab91adc886b88743923cde76a0a39af79630836a2f07fa8358de6017179c4a",
+    "verification/final-referee-1-dependencies.lean": "a243d7528be054ec31934ae0dc880a8945efdf83c42d3e31fd3f69fb72d6d483",
+    "verification/final-referee-1-manifest.log": "98289b3f6fc0122de1bc81497c891bca3632953ddba0cd52194002d9fbce2664",
+    "verification/final-referee-1-dependencies.log": "4b198557e1f23840760b0b1d9b5da8922d6b50ea2a95175c7436043ed19110a7",
+    "verification/final-referee-1-dependencies-initial.log": "646271f8294b3e7d38c35926680cb141ad2b653af239eac3d2b3c0da46415ab1",
+    "verification/final-referee-1-modules.log": "f56fdb8fe8bb9eadaa10733a22688f529c303a55e10312cdefa348b7aa7396b6"
+  },
+  "independent_module_reelaboration": {
+    "exit": 0,
+    "modules": [
+      "NLA/SP04/Definitions.lean",
+      "NLA/SP04/MatrixOrbit.lean",
+      "NLA/SP04/MatrixProof.lean",
+      "NLA/SP04/MatrixReduction.lean",
+      "NLA/SP04/PolynomialProof.lean",
+      "NLA/SP04/Scalar.lean",
+      "NLA/SP04/TopologyProof.lean"
+    ],
+    "all_seven_passed": true,
+    "proof_hashes_rechecked_after_sweep": true
+  },
+  "review_sha256": "6c0c221bbef2c798341f53728d16bf416531caa421f04127acb1abfc4dbb30a6"
+}

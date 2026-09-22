@@ -1,0 +1,42 @@
+{
+  "verdict": "PASS for fresh statement, proof, local build, independent export/trust and metadata gates",
+  "review_reports_and_evidence_sha256": {
+    "STATEMENT-REFEREE-1.md": "3489fe7ec21b23a4bd007538d445cd801d50c04682b36eda8e7416de94ef9105",
+    "STATEMENT-REFEREE-2.md": "e81a0cb8e75e9ced2ee3850f534abd216731768f08eccbdf7541091b645f49b2",
+    "PROOF-REFEREE-1.md": "4075bbaa671abb9c53294ad6fe7acb370967f05d6a1f4116427b83d0ebb18dbb",
+    "PROOF-REFEREE-2.md": "0cc36840e9bff02aba860876185e5ad5314fc2f5bb3d86d2e380c2bfe62f3f7c",
+    "referee-1-proof-evidence.json": "178ce9862139eb0beec1e5451307f28c4125ce797300fb02d22c96e8d0293edd",
+    "referee-2-proof-checks.json": "86f37ee3cdd9f68f8025d15161926a3dea07d80d43ce529b275541c3e269f5bf",
+    "ROOT-LOCAL-CHECKS.json": "752e26bcd98bc5d7e2ace9c25438b3a18b4a6350c7f06340c41ff235bfa0d95a",
+    "statement-gate.json": "eaa93ee860b9627b6d8340005b49d1d07c1b9b98b92852fdbbb2ec33599e168e",
+    "preflight.json": "3f1e2e1787d63d322272e825ba1e132d56ea5e793584783edbab2b54e9143223"
+  },
+  "exports": [
+    "NLA.SP06.witness_admissible",
+    "NLA.SP06.witness_composition",
+    "NLA.SP06.radial_lower_endpoint",
+    "NLA.SP06.radial_upper_endpoint",
+    "NLA.SP06.radial_uniform_slope",
+    "NLA.SP06.radial_root_exists_unique",
+    "NLA.SP06.radial_roots_lipschitz",
+    "NLA.SP06.continuous_radius_exists",
+    "NLA.SP06.radial_curve_continuous",
+    "NLA.SP06.radial_curve_injective",
+    "NLA.SP06.radial_curve_nonzero",
+    "NLA.SP06.auxiliary_radial_im",
+    "NLA.SP06.radial_curve_symbol_real",
+    "NLA.SP06.witness_real_jordan_curve",
+    "NLA.SP06.witness_toeplitz_two",
+    "NLA.SP06.witness_eigenvalue_mem",
+    "NLA.SP06.witness_eigenvalue_im",
+    "NLA.SP06.witness_nonreal_finite_spectrum",
+    "NLA.SP06.witness_counterexample",
+    "NLA.SP06.not_targetImplication"
+  ],
+  "independent_proof_referees": 2,
+  "independent_statement_referees": 2,
+  "authored_source_preserved": true,
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "tested_candidate": "6725a6f00b141b7b854518cdc93331372bdf539e",
+  "remaining_gate": "Fresh Linux Comparator with actual controls and independent operational review, recorded separately."
+}

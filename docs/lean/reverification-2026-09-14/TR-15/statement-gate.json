@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "date_utc": "2026-09-14T18:13:10.604468+00:00",
+  "scope": "Two independent boundary approvals before this campaign proof inspection; original authored proof already exists in preserved published snapshot.",
+  "files_sha256": {
+    "docs/lean/reverification-2026-09-14/TR-15/STATEMENT-REFEREE-1.md": "02e9dca9cd532fc72107cf04aa598f933ef9093be6bc51e9003271e7fa0a119e",
+    "docs/lean/reverification-2026-09-14/TR-15/STATEMENT-REFEREE-2.md": "1dc237e7813945014b4ae17d31ab4fbb9675ebe17132293a799becf89a2d366a",
+    "tensor-computations/TR-15/lean/Solution.lean": "dc31d2a6a1ef891bbdc9b6781a7a250c6751d539b7cd95c4a59d08638a8faeb1",
+    "tensor-computations/TR-15/lean/Challenge.lean": "6778940f8f0f645fc6be0c57f1fb8f67791e0c67c896074651bca9cada491428",
+    "tensor-computations/TR-15/lean/NLA/TR15/Definitions.lean": "63b8767fd19148b269f6e4041d464f0de5dc64cac82e1448fee43115bed55379",
+    "tensor-computations/TR-15/lean/NLA/TR15/Proof.lean": "795f3b1305dfae77fe71ec1927b7d72e9d913a2ffd0475879880f33e55c959be",
+    "tensor-computations/TR-15/lean/NUMERICAL_TARGETS.md": "6851bb94fb8f6049980113b4df9a1346bd3ed9549f66dd74b2b1f6a5ee947cd6",
+    "tensor-computations/TR-15/lean/comparator.json": "80d0148e7ddf0a431d6833c3e464cf15424c94767394dd1a0fe93366c8bbb45f",
+    "tensor-computations/TR-15/lean/formalization.yaml": "bb92a8ca1192e224b00d273d8ac658f9cac191336ee06f922ec73a0dbc6e93bb",
+    "tensor-computations/TR-15/README.md": "7979d193949dd8ef3545e55a1c9535bfdaaefac91f435b5066c23e83c4e4cf50"
+  }
+}

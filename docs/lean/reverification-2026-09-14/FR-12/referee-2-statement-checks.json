@@ -1,0 +1,130 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "frames-and-matrix-designs/FR-12/README.md": {
+      "sha256": "db0a3714e6ba316e9c24a43f56a61fb36b068fe40f279a15d0415bc85279d1fc",
+      "bytes": 8605,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/README.md": {
+      "sha256": "6698734f06f6b658edf4fc21048c9d127b14466dfb8784aa893da5c53a0e171d",
+      "bytes": 10207,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "bedc45de378f2e7429e7214f572f466e9c806abb7f02ab9921aa50f6368c9da0",
+      "bytes": 8199,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Definitions.lean": {
+      "sha256": "0c074289e7ee518876a36caf33f1b66a286ca46e7e520c083d07b9133779bf9c",
+      "bytes": 2513,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/Challenge.lean": {
+      "sha256": "b7610d4a0b7416737dc9fdb3cbc24f7c154fe27bfd6b25986b7ed7b80dee28a7",
+      "bytes": 2373,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/comparator.json": {
+      "sha256": "03d4d4ef6190299ee767f9c677c40d23bda8576ae35a6628fa022a0a679c1581",
+      "bytes": 455,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/formalization.yaml": {
+      "sha256": "76a17a4b58803dfd17384b5c6e45075b36c8cc3eda3cc79d71ec8cb4862d63f8",
+      "bytes": 12637,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/lake-manifest.json": {
+      "sha256": "ef45e8c3dc558df93024d94b81f42ace998ddfacc8b7948905a4b90c548742cb",
+      "bytes": 3884,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/lean/lakefile.toml": {
+      "sha256": "b64736762c8980abbc71aa5a7dc5f34e502ec228cdb9773673d85662d8d318c7",
+      "bytes": 280,
+      "read_method": "local and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/solution.md": {
+      "sha256": "60ffef5d41d8986df21d25bc539f8761c86a5d64c43bb1012f110ed9917e4d59",
+      "bytes": 6157,
+      "read_method": "local and immutable Git comparison"
+    },
+    "frames-and-matrix-designs/FR-12/solution.tex": {
+      "sha256": "700b2190651608a68c1449c065f318902180d1cc634e8845ea51d3ee5a57c163",
+      "bytes": 7371,
+      "read_method": "local and immutable Git comparison"
+    }
+  },
+  "inspected_dependency_definitions": {
+    "Mathlib/LinearAlgebra/Matrix/HadamardMatrix.lean": {
+      "sha256": "b04b0656bc502d39b1c7d238afe6152428778f59411a7ef9753c81565b231c31",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    },
+    "Mathlib/SetTheory/Cardinal/Finite.lean": {
+      "sha256": "b113177c5ed00662c73a8f3b04002b399c19f0d008920e52c1a6b6c7f16713bf",
+      "inspection_scope": "actual relevant definitions and stated semantics, not a full dependency-source audit"
+    }
+  },
+  "exports": [
+    "NLA.FR12.counting_semantics",
+    "NLA.FR12.injective_doubling",
+    "NLA.FR12.factorial_doubling",
+    "NLA.FR12.power_two_nonempty",
+    "NLA.FR12.power_two_lower_bound",
+    "NLA.FR12.counterexample",
+    "NLA.FR12.not_countingConjecture"
+  ],
+  "exact_supplementary_checks": {
+    "complete_small_enumerations": {
+      "1": {
+        "H_m": 2,
+        "restricted_domain_size": 4,
+        "distinct_outputs": 4
+      },
+      "2": {
+        "H_m": 8,
+        "restricted_domain_size": 128,
+        "distinct_outputs": 128
+      }
+    },
+    "universal_growth": "Not established by these finite diagnostics; symbolic injection/Archimedean proof required."
+  },
+  "supplementary_evidence_sha256": {
+    "referee-2-numerical-checks.json": "ef1a80a4790e86410a36b9bad506f6367029799fc1fa5470d8020cab5ad586d2"
+  },
+  "coordinator_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-fr12/frames-and-matrix-designs/FR-12/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 37.51,
+    "log_sha256": "a98d17e38a425bac408d5d4938e87b988e6862cc2c04bd2bfa21eabfea1fafe1"
+  },
+  "coordinator_build_receipt_sha256": "47fa76e3c37f8c2bb080c2b76e9304b8c6f50e4b46a56a012b40e30467a8a08b",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

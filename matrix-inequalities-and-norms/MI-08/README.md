@@ -3,7 +3,7 @@
 **Difficulty:** extreme  
 **Importance:** interesting to the community  
 **Status:** Partially resolved  
-**Last checked:** 2026-09-11
+**Last checked:** 2026-09-14
 
 **Rating rationale:** An exact all-dimension optimum imposes rigid real orthogonality constraints beyond a general upper bound; it would clarify matrix averaging and majorization decompositions.
 
@@ -16,6 +16,26 @@ The fixed and adaptive orthogonal pinching lengths both equal the least row coun
 **Still open:** The general value of $`h(d)`$ is undetermined; the all-dimension optimization remains open and includes Hadamard-order existence questions. The ratings apply to this surviving question.
 
 **Primary manuscript:** [complete proof PDF](solution.pdf), [standalone TeX](solution.tex), Theorem 1.1 and its proof; [authorship and scope](solution.md). The [independent review](../../references/colbrook-matrix-2026-09-11/verification/reviews/MI-08-review.md) checks the full original argument and records its hash. The draft was AI-assisted; this is independent agent verification, not external human peer review or formal certification. [Submission record](../../references/colbrook-matrix-2026-09-11/README.md).
+
+## Lean proof and verification evidence — 2026-09-14
+
+**The stated fixed-list partial result is Lean verified; the canonical problem remains Partially resolved.** The fixed-list feasibility characterization by rectangular sign matrices is proved for every positive dimension and row count. The rank and divisibility obstructions and an explicit order-twelve sign matrix establish that the actual minimum fixed pinching length is 12 for every dimension from 9 through 12. The source’s adaptive comparison is not formalized, and the all-dimension optimum remains open.
+
+[Immutable formal proof](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/a66e142cbe7907db6594ef57c7f542c3d33ad704/matrix-inequalities-and-norms/MI-08/lean). The checked exports are
+`NLA.MI08.fixed_sign_equivalence`, `NLA.MI08.design_obstructions`, `NLA.MI08.hadamard_twelve`, `NLA.MI08.finite_minimums`. Lean 4.33.1 uses pinned Mathlib `0df444a3` and LeanCert `621a43d7`;
+[complete pins and reproduction instructions](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi08/matrix-inequalities-and-norms/MI-08/lean/README.md) are retained.
+All four exported transitive axiom closures contain only `propext`,
+`Classical.choice` and `Quot.sound`.
+
+**Formalization:** Sidney Holden, Center for Computational Biology, Flatiron
+Institute, Simons Foundation, with OpenAI Codex assistance. Matthew J. Colbrook
+retains mathematical authorship. Two independent statement reviews preceded
+implementation, and two independent final proof reviews passed. Kernel-only
+LeanCert and [fresh isolated Linux Comparator and kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862187226)
+passed, including rejection controls. [Original artifact, exact checked inputs
+and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-mi08/matrix-inequalities-and-norms/MI-08/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md)
+are retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
 
 ## Problem statement
 

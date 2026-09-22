@@ -1,0 +1,18 @@
+✔ [2888/2893] Built NLA.RA07.Algebra (15s)
+✔ [2889/2893] Built NLA.RA07.Sums (4.4s)
+✔ [2890/2893] Built NLA.RA07.Roots (6.3s)
+ℹ [2891/2893] Built NLA.RA07.Proof (15s)
+info: NLA/RA07/Proof.lean:106:0: 'NLA.RA07.elementary_values_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA07/Proof.lean:107:0: 'NLA.RA07.generating_derivative_values_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA07/Proof.lean:108:0: 'NLA.RA07.positive_derivative_factorization_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA07/Proof.lean:109:0: 'NLA.RA07.power_sum_certificate_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA07/Proof.lean:110:0: 'NLA.RA07.second_difference_certificate_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NLA/RA07/Proof.lean:111:0: 'NLA.RA07.errorSequence_convex_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2892/2893] Built Solution (9.5s)
+info: Solution.lean:77:0: 'NLA.RA07.elementary_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:78:0: 'NLA.RA07.generating_derivative_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:79:0: 'NLA.RA07.positive_derivative_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:80:0: 'NLA.RA07.power_sum_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:81:0: 'NLA.RA07.second_difference_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:82:0: 'NLA.RA07.errorSequence_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2893 jobs).

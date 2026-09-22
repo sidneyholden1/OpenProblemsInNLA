@@ -1,0 +1,19 @@
+{
+  "NLA/IE05/Definitions.lean": "39e5c319afb8d8b18b4c60518a3be0f79381416b2e5340b18cf3485a7b0528e6",
+  "Challenge.lean": "d9ee825a21016cd86c1d507e32f117bfd3039e6bb94e84597d35ec74f8911a0a",
+  "NUMERICAL_TARGETS.md": "349088fa17814d5122d1bcd9769adb9dfbd67b7424f59ab869a73100658c4241",
+  "NLA/IE05/Bounds.lean": "5372fb039987ccb138b944e02789f0ac8904f34ad8f4b8419edd953eb20a6e60",
+  "NLA/IE05/IntegerCertificates.lean": "73b7db5e17bd3cf3851b02d74b22742d78a6bcc0d2a7a8177d75c397fbd9c39f",
+  "NLA/IE05/RealCertificates.lean": "324d36d1ae11af5c611970b85ee4e50a064d835a73f1623f8adbc3c21a13c4f3",
+  "NLA/IE05/Proof.lean": "e7b19bce4ab022283190239bf489d6346a7f018a23fbe8876fd7fdfcd06f20bb",
+  "Solution.lean": "24c59beb585cf9ac0b8d4614773b4a9b0ed6dbb0f20c24bf9105c9ad750d07ed",
+  "comparator.json": "26518dfeeefdf7a8a293eaf5ad06b2cec04789e8cd6f82a2c9f9e104915109f8",
+  "lakefile.toml": "eddadc9ee1b75205a57c70e03e8a1a9ddcaab15a0ff50335445446f9c7add352",
+  "lake-manifest.json": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "formalization.yaml": "9ce0fd1b574b07266dce5ef5cd34445bbdc42875812792ffbd28087077fa222b",
+  "README.md": "51b81f694395f036b3b58f94409cd8f42547edf5317da70a9c4b7aa1ba17a568",
+  "verification/final-build.log": "f8aba8e4bb64f11855d9150fda8cf8152cd1037495d4bc8f562bb801ed0779a0",
+  "verification/AxiomAudit.lean": "f21c603a53f2836a14b7e5eb05e8d5666cbfbdd80877d6bb84f2d0ed9289150c",
+  "verification/axioms.log": "f6d37b8de9f73484a5b3601552aebb013de1ab2bbae98bef8f9ac3140c8a7739"
+}

@@ -1,0 +1,51 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "42818143f084791532e39ff56c13949bebd8d389",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "frames-and-matrix-designs/FR-12/lean/Solution.lean": {
+      "sha256": "c37bbf5bb1bab85816f6c343eb3ee7bbfdadec2f6ad4dc17d11348a041ab598a",
+      "bytes": 3124
+    },
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Definitions.lean": {
+      "sha256": "0c074289e7ee518876a36caf33f1b66a286ca46e7e520c083d07b9133779bf9c",
+      "bytes": 2513
+    },
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Doubling.lean": {
+      "sha256": "841cf24ebad19caf9fe6807a67079931b5bf2fafba01d19ca256bf4f393a081e",
+      "bytes": 5884
+    },
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Growth.lean": {
+      "sha256": "654930878291656c7f08fb285019d0033bc4c3e5ceebfac625ce676ce228fbaf",
+      "bytes": 6023
+    },
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Proof.lean": {
+      "sha256": "a75ef4a3567d641df84f7971c4d3f182b1ae73fb87cb70d474feda5c7af69df3",
+      "bytes": 1236
+    },
+    "frames-and-matrix-designs/FR-12/lean/NLA/FR12/Semantics.lean": {
+      "sha256": "6cba3023ab9f319ac4622a81c4bb7b0cca34da96933fc8e0507f31f6671341e7",
+      "bytes": 2935
+    },
+    "frames-and-matrix-designs/FR-12/lean/Challenge.lean": {
+      "sha256": "b7610d4a0b7416737dc9fdb3cbc24f7c154fe27bfd6b25986b7ed7b80dee28a7",
+      "bytes": 2373
+    },
+    "frames-and-matrix-designs/FR-12/lean/comparator.json": {
+      "sha256": "03d4d4ef6190299ee767f9c677c40d23bda8576ae35a6628fa022a0a679c1581",
+      "bytes": 455
+    },
+    "frames-and-matrix-designs/FR-12/lean/lake-manifest.json": {
+      "sha256": "ef45e8c3dc558df93024d94b81f42ace998ddfacc8b7948905a4b90c548742cb",
+      "bytes": 3884
+    },
+    "frames-and-matrix-designs/FR-12/lean/lakefile.toml": {
+      "sha256": "b64736762c8980abbc71aa5a7dc5f34e502ec228cdb9773673d85662d8d318c7",
+      "bytes": 280
+    },
+    "frames-and-matrix-designs/FR-12/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "verdict": "PASS",
+  "independent_diagnostic_not_Lean_proof": true,
+  "involution_and_both_aggregate_identities": true,
+  "all_input_leading_minors_positive": true,
+  "both_exact_scaled_Riccati_certificates": [
+    {
+      "delta": "5/3",
+      "h": "61697295/8682716",
+      "Q": [
+        [
+          "443355/310097",
+          "33000/310097"
+        ],
+        [
+          "33000/310097",
+          "605715/310097"
+        ]
+      ],
+      "scaled_Riccati": true
+    },
+    {
+      "delta": "3/5",
+      "h": "111055131/43413580",
+      "Q": [
+        [
+          "8217/8381",
+          "-51480/310097"
+        ],
+        [
+          "-51480/310097",
+          "325413/310097"
+        ]
+      ],
+      "scaled_Riccati": true
+    }
+  ],
+  "actual_candidate_left": [
+    [
+      "8216600/12158163",
+      "-985600/12158163"
+    ],
+    [
+      "-985600/12158163",
+      "11912600/12158163"
+    ]
+  ],
+  "nonzero_eigenvector": [
+    1,
+    -4
+  ],
+  "eigenvalue": "1351000/1350907",
+  "strict_gap": "93/1350907",
+  "limitation": "Riccati-to-CFC and norm admissibility remain Lean proof obligations"
+}

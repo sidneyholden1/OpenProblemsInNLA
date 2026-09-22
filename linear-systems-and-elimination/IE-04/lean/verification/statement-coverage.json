@@ -1,0 +1,72 @@
+{
+  "stage": "Statements only, all proofs pending",
+  "exports": [
+    {
+      "declaration": "NLA.IE04.gaussian_model",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.growth_semantics",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.gaussian_generic",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.measurable_tail",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.exact_wilkinson",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.full_box_robustness",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.gaussian_density_lower",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.gaussian_box_lower",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.gaussian_tail_lower",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.asymptotic_escape",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.every_pair_violated",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    },
+    {
+      "declaration": "NLA.IE04.not_exponentialTailConjecture",
+      "statement_file": "Challenge.lean",
+      "proof_status": "pending"
+    }
+  ],
+  "definition_exceptions": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "warning": "This is scope coverage, not completed-project metadata validation or proof verification."
+}

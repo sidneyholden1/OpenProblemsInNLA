@@ -1,0 +1,21 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.SP04.positive_multiplier_exclusion",
+    "NLA.SP04.selected_negative_root",
+    "NLA.SP04.diagonal_stationary_reduction",
+    "NLA.SP04.diagonal_unique_failure",
+    "NLA.SP04.orbit_unique_failure",
+    "NLA.SP04.open_counterexample_family",
+    "NLA.SP04.avoids_every_proper_algebraic_exception",
+    "NLA.SP04.generic_counterexample",
+    "NLA.SP04.not_generic_smallest_multiplier"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

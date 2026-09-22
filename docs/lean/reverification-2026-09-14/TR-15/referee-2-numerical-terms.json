@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "names": [
+    "NLA.TR15.negative_eigenvalue_certificate._proof_1_7"
+  ],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-tr15/docs/lean/reverification-2026-09-14/TR-15/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-tr15/tensor-computations/TR-15/lean",
+  "script_sha256": "6a2aa834d3044205d65379fdb51893b555fab657fdb86f0c3e9280c794ee893b",
+  "log_sha256": "cd8b6b78fa46a71b010ad504e63969204af467f64399639363ec360d3ae56a21"
+}

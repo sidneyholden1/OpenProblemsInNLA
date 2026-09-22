@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "names": [
+    "NLA.MI22.numerical_separation._proof_1_7"
+  ],
+  "exit_code": 0,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "/private/tmp/nla-reverify-mi22/docs/lean/reverification-2026-09-14/MI-22/referee-2-numerical-terms.lean"
+  ],
+  "cwd": "/private/tmp/nla-reverify-mi22/matrix-inequalities-and-norms/MI-22/lean",
+  "script_sha256": "b71b1576a6f1972f09adcce581d473f9c640e7f3acb0171f142118d723ed211c",
+  "log_sha256": "c79aadbd44f4dd0af10c8edcc2691beb13a0303950ae0933cc43ef5b7f2b11c4"
+}

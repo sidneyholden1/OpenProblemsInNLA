@@ -1,0 +1,20 @@
+{
+  "id": 10358182545,
+  "node_id": "MDg6QXJ0aWZhY3QxMDM1ODE4MjU0NQ==",
+  "name": "lean-SP-06",
+  "size_in_bytes": 17078,
+  "url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10358182545",
+  "archive_download_url": "https://api.github.com/repos/sidneyholden1/OpenProblemsInNLA/actions/artifacts/10358182545/zip",
+  "expired": false,
+  "digest": "sha256:9e37769852c3fa961a38d5acdaf82ce5a516588a94b39055f3eeeb80cdc1fc83",
+  "created_at": "2026-09-14T16:33:06Z",
+  "updated_at": "2026-09-14T16:33:06Z",
+  "expires_at": "2026-12-13T16:28:47Z",
+  "workflow_run": {
+    "id": 34868861247,
+    "repository_id": 1367543810,
+    "head_repository_id": 1367543810,
+    "head_branch": "codex/reverify-sp06",
+    "head_sha": "6725a6f00b141b7b854518cdc93331372bdf539e"
+  }
+}

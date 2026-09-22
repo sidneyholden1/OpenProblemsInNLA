@@ -34,7 +34,7 @@ unique},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IS-02}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-14}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,7 +51,7 @@ a symmetric stochastic matrix can be spectrally unique\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
@@ -90,6 +90,45 @@ submission history and diagnostic record} preserve the initial solution
 claim. The ratings above are historical, and the earlier literature
 checks below are retained.
 
+\subsection{Lean proof and verification evidence ---
+2026-09-14}\label{lean-proof-and-verification-evidence-2026-09-14}
+
+\textbf{The complete original necessary-locus conjecture has a
+Lean-verified negative answer.} The complete spectral-uniqueness locus
+implication is disproved at order four. The actual symmetric stochastic
+witness has positive trace and the specified characteristic polynomial.
+Every admissible isospectral competitor is proved permutation-similar to
+it, while the witness is excluded from every proposed closed segment and
+from the actual extreme points. No competing matrix is restricted to a
+preselected support pattern.
+
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/b71728d93b1c376ee34a6fd04b4661c604704a14/eigenvalues-and-inverse-problems/IS-02/lean}{Immutable
+formal proof}. The checked exports are
+\textit{NLA.\allowbreak{}IS02.\allowbreak{}witness\_\allowbreak{}certificates},
+\textit{NLA.\allowbreak{}IS02.\allowbreak{}spectral\_\allowbreak{}uniqueness},
+\textit{NLA.\allowbreak{}IS02.\allowbreak{}locus\_\allowbreak{}exclusion}, \textit{NLA.\allowbreak{}IS02.\allowbreak{}counterexample}.
+Lean 4.33.1 uses pinned Mathlib \textit{0df444a3} and LeanCert
+\textit{621a43d7};
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-is02/eigenvalues-and-inverse-problems/IS-02/lean/README.md}{complete
+pins and reproduction instructions} are retained. All four exported
+transitive axiom closures contain only \textit{propext},
+\textit{Classical.choice} and \textit{Quot.sound}.
+
+\textbf{Formalization:} Sidney Holden, Center for Computational Biology,
+Flatiron Institute, Simons Foundation, with OpenAI Codex assistance.
+Matthew J. Colbrook retains mathematical authorship. Two independent
+statement reviews preceded implementation, and two independent final
+proof reviews passed. Kernel-only LeanCert and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862184054}{fresh
+isolated Linux Comparator and kernel verification} passed, including
+rejection controls.
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-is02/eigenvalues-and-inverse-problems/IS-02/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md}{Original
+artifact, exact checked inputs and independent operational audit} are
+retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
+
+\newpage
+
 \subsection{Problem statement}\label{problem-statement}
 
 For \(n\geq4\), put
@@ -100,13 +139,12 @@ eigenvalues, including multiplicities, satisfies \(B=R^TAR\) for a
 permutation matrix \(R\). Let \([X,Y]=\{(1-t)X+tY:0\leq t\leq1\}\).
 
 Prove or disprove the following necessary condition: every spectrally
-unique \(A\in\mathcal S_n\) with \(\operatorname{tr}A>0\) belongs to
+unique \(A\in\mathcal S_n\) with \(\mathop{\mathrm{tr}}\nolimits A>0\)
+belongs to
 
-\[
-[I,C_n]\ \cup\!
-\bigcup_{V\in\operatorname{vert}(\mathcal S_n)}
-\bigl([I,V]\cup[C_n,V]\bigr).
-\]
+\[[I,C_n]\ \cup\!
+\bigcup_{V\in\mathop{\mathrm{vert}}\nolimits(\mathcal S_n)}
+\bigl([I,V]\cup[C_n,V]\bigr).\]
 
 Here a vertex is an extreme point of the indicated convex polytope; it
 need not be a permutation matrix. Only the stated implication is
@@ -114,7 +152,6 @@ asserted. This asks where recovering a nonnegative symmetric stochastic
 matrix from its spectrum can be unique up to relabeling, a different
 issue from mere spectral feasibility.
 
-\newpage
 \subsection{References}\label{references}
 
 Mourad and Abbas, \href{https://arxiv.org/pdf/1310.1273}{2013 preprint},

@@ -1,0 +1,89 @@
+NLA.MF16.word_semantics : NLA.MF16.SymmetricWord NLA.MF16.witnessWord ∧
+  Eq.{1} (List.length.{0} NLA.MF16.witnessWord) 16 ∧
+    Eq.{1} (List.count.{0} NLA.MF16.Letter.X NLA.MF16.witnessWord) 14 ∧
+      Eq.{1} (List.count.{0} NLA.MF16.Letter.B NLA.MF16.witnessWord) 2 ∧
+        (∀ (X B : NLA.MF16.ComplexMatrix),
+            Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord X B)
+              (HMul.hMul.{0, 0, 0}
+                (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} X B) (HPow.hPow.{0, 0, 0} X 12)) B) X)) ∧
+          ∀ (X B : NLA.MF16.RealMatrix),
+            Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord X B)
+              (HMul.hMul.{0, 0, 0}
+                (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} X B) (HPow.hPow.{0, 0, 0} X 12)) B) X)
+'NLA.MF16.word_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.source_data : Matrix.PosDef.{0, 0} NLA.MF16.witnessB ∧
+  Matrix.PosDef.{0, 0} NLA.MF16.witnessP ∧
+    Matrix.PosDef.{0, 0} NLA.MF16.witnessX0 ∧
+      Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord NLA.MF16.witnessX0 NLA.MF16.witnessB) NLA.MF16.witnessP ∧
+        Eq.{1} (Matrix.det.{0, 0} NLA.MF16.realB) 1 ∧
+          Eq.{1} (Matrix.det.{0, 0} NLA.MF16.realX0) 3 ∧
+            Eq.{1} (Matrix.det.{0, 0} NLA.MF16.realP) (HPow.hPow.{0, 0, 0} 3 14)
+'NLA.MF16.source_data' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.twelfth_power_reduction : ∀ (v : Fin 3 → ℝ),
+  Eq.{1} (Matrix.det.{0, 0} (NLA.MF16.symmetricMatrix v)) 3 →
+    Eq.{1} (HPow.hPow.{0, 0, 0} (NLA.MF16.symmetricMatrix v) 12)
+      (HSub.hSub.{0, 0, 0}
+        (HSMul.hSMul.{0, 0, 0} (NLA.MF16.linearCoefficient (Matrix.trace.{0, 0} (NLA.MF16.symmetricMatrix v)))
+          (NLA.MF16.symmetricMatrix v))
+        (HSMul.hSMul.{0, 0, 0} (NLA.MF16.identityCoefficient (Matrix.trace.{0, 0} (NLA.MF16.symmetricMatrix v))) 1))
+'NLA.MF16.twelfth_power_reduction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.polynomial_word_equivalence : ∀ (v : Fin 3 → ℝ),
+  LeanCert.Engine.SystemZero NLA.MF16.polynomialSystem v ↔
+    Eq.{1} (Matrix.det.{0, 0} (NLA.MF16.symmetricMatrix v)) 3 ∧
+      Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord (NLA.MF16.symmetricMatrix v) NLA.MF16.realB 0 0)
+          (NLA.MF16.realP 0 0) ∧
+        Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord (NLA.MF16.symmetricMatrix v) NLA.MF16.realB 0 1)
+          (NLA.MF16.realP 0 1)
+'NLA.MF16.polynomial_word_equivalence' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.krawczyk_certificate : Eq.{1}
+    (LeanCert.Engine.krawczykCheck NLA.MF16.polynomialSystem NLA.MF16.rootBox NLA.MF16.rootCertificate) true ∧
+  Eq.{1} (Matrix.det.{0, 0} NLA.MF16.rootCertificate.preconditioner) (790668616748253 / 62500000000000000000000000000) ∧
+    Eq.{1} (LeanCert.Engine.boxRadius NLA.MF16.rootBox NLA.MF16.rootCenter) NLA.MF16.rootRadius ∧
+      LT.lt.{0} NLA.MF16.contractionBound (27 / 1000)
+'NLA.MF16.krawczyk_certificate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.certified_root : ExistsUnique.{1} fun v =>
+  LeanCert.Engine.FinBoxMem v NLA.MF16.rootBox ∧ LeanCert.Engine.SystemZero NLA.MF16.polynomialSystem v
+'NLA.MF16.certified_root' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.root_to_matrix : ∀ (v : Fin 3 → ℝ),
+  LeanCert.Engine.FinBoxMem v NLA.MF16.rootBox →
+    LeanCert.Engine.SystemZero NLA.MF16.polynomialSystem v →
+      LT.lt.{0} 3 (v 0) ∧
+        Matrix.PosDef.{0, 0} (NLA.MF16.complexify (NLA.MF16.symmetricMatrix v)) ∧
+          Eq.{1}
+              (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord (NLA.MF16.complexify (NLA.MF16.symmetricMatrix v))
+                NLA.MF16.witnessB)
+              NLA.MF16.witnessP ∧
+            Ne.{1} (NLA.MF16.complexify (NLA.MF16.symmetricMatrix v)) NLA.MF16.witnessX0
+'NLA.MF16.root_to_matrix' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.counterexample : NLA.MF16.SymmetricWord NLA.MF16.witnessWord ∧
+  Matrix.PosDef.{0, 0} NLA.MF16.witnessB ∧
+    Matrix.PosDef.{0, 0} NLA.MF16.witnessP ∧
+      Matrix.PosDef.{0, 0} NLA.MF16.witnessX0 ∧
+        Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord NLA.MF16.witnessX0 NLA.MF16.witnessB) NLA.MF16.witnessP ∧
+          ∃ X,
+            Matrix.PosDef.{0, 0} X ∧
+              Eq.{1} (NLA.MF16.evalWord.{0} NLA.MF16.witnessWord X NLA.MF16.witnessB) NLA.MF16.witnessP ∧
+                Ne.{1} X NLA.MF16.witnessX0
+'NLA.MF16.counterexample' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.MF16.not_wordUniquenessConjecture : ¬NLA.MF16.WordUniquenessConjecture
+'NLA.MF16.not_wordUniquenessConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MF16.actual_krawczyk_checked : Eq.{1}
+  (LeanCert.Engine.krawczykCheck NLA.MF16.polynomialSystem NLA.MF16.rootBox NLA.MF16.rootCertificate) true :=
+NLA.MF16.actual_krawczyk_checked._proof_1_1
+'NLA.MF16.actual_krawczyk_checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MF16.preconditioner_det_exact : Eq.{1} (Matrix.det.{0, 0} NLA.MF16.rootCertificate.preconditioner)
+  (790668616748253 / 62500000000000000000000000000) :=
+NLA.MF16.preconditioner_det_exact._proof_1_1
+'NLA.MF16.preconditioner_det_exact' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MF16.box_radius_exact : Eq.{1} (LeanCert.Engine.boxRadius NLA.MF16.rootBox NLA.MF16.rootCenter)
+  NLA.MF16.rootRadius :=
+NLA.MF16.box_radius_exact._proof_1_1
+'NLA.MF16.box_radius_exact' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MF16.contraction_bound_small : LT.lt.{0} NLA.MF16.contractionBound (27 / 1000) :=
+NLA.MF16.contraction_bound_small._proof_1_1
+'NLA.MF16.contraction_bound_small' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem NLA.MF16.certified_root_proved : ExistsUnique.{1} fun v =>
+  LeanCert.Engine.FinBoxMem v NLA.MF16.rootBox ∧ LeanCert.Engine.SystemZero NLA.MF16.polynomialSystem v :=
+LeanCert.Engine.krawczykCheck_sound NLA.MF16.polynomialSystem NLA.MF16.rootBox NLA.MF16.rootCertificate { }
+  NLA.MF16.actual_krawczyk_checked
+'NLA.MF16.certified_root_proved' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

@@ -1,0 +1,102 @@
+{
+  "base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "active_source_closure": {
+    "Solution": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/Solution.lean",
+      "sha256": "fc80b094cc7c7cb519e5f812066a87e29e8283cd8f9858ef6f3d04c9f5e2bbbb",
+      "bytes": 12604,
+      "lines": 244
+    },
+    "NLA.RA09.Proof": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Proof.lean",
+      "sha256": "1661afe661293f8b19e83714b6bc25a076ce10109875d79e9c118f9291e565bd",
+      "bytes": 2333,
+      "lines": 52
+    },
+    "NLA.RA09.Transfer": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Transfer.lean",
+      "sha256": "45eac6374a1c836b89e903f218a45c9f3857e3f502528cdb02fb64a8367c6292",
+      "bytes": 6432,
+      "lines": 125
+    },
+    "NLA.RA09.OverlapOrder": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/OverlapOrder.lean",
+      "sha256": "be16577398f0dfbedcd41d5fa22b105f961dffccffe2aa8eda633f5ead72923c",
+      "bytes": 4820,
+      "lines": 105
+    },
+    "NLA.RA09.Overlap": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Overlap.lean",
+      "sha256": "759490c0b1a3a17eff13a683fae049474913ed2eec03f5dfa1e9c6722e06c173",
+      "bytes": 6996,
+      "lines": 146
+    },
+    "NLA.RA09.Spectral": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Spectral.lean",
+      "sha256": "5a5cb2bb37b3c78f6e794420b9b54d7c97a94ad3824d7acdef61f17988969c45",
+      "bytes": 7522,
+      "lines": 162
+    },
+    "NLA.RA09.Frobenius": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Frobenius.lean",
+      "sha256": "f2d038d3d2f5195074ab5acc973771aaf57782d9ce9271c6fbc7132f8178c6ad",
+      "bytes": 6216,
+      "lines": 138
+    },
+    "NLA.RA09.Definitions": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Definitions.lean",
+      "sha256": "2a9b0d9d536bc2620fbe3814ed95640caeae8a49e8b13a9e2136b469ba09ece9",
+      "bytes": 5105,
+      "lines": 106
+    },
+    "NLA.RA09.SpectralCFC": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/SpectralCFC.lean",
+      "sha256": "b80049d98243a1cd19cac41ac28775f1e0f07ebb626963131f2e79ed257ab89d",
+      "bytes": 5807,
+      "lines": 125
+    },
+    "NLA.RA09.OrderedExistence": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/OrderedExistence.lean",
+      "sha256": "beca9c7b9ca9c4b4b467acbbbe13acd3e25507c4653a71ab9a480494726a1631",
+      "bytes": 3518,
+      "lines": 80
+    },
+    "NLA.RA09.Harmonic": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Harmonic.lean",
+      "sha256": "629f355ef949d3f11acbba443fe1ba8a77d7ac89fb10e76f223ef5a47e7be91e",
+      "bytes": 4366,
+      "lines": 116
+    },
+    "NLA.RA09.Averaging": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Averaging.lean",
+      "sha256": "1893a4f432261ead1efd291564ac1b3ba9a1be5cb59c74d755e01a9c5a5b2eb9",
+      "bytes": 3307,
+      "lines": 84
+    },
+    "NLA.RA09.Scalar": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/Scalar.lean",
+      "sha256": "be27edbd0f42e83fb825095bae65c48c8d90e8d1614ed90871abace1f55b6f17",
+      "bytes": 10354,
+      "lines": 238
+    },
+    "NLA.RA09.TailScale": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/TailScale.lean",
+      "sha256": "83b9619cadb1f02b19d38b3efce0cb0217a3c288796d492157a0bee629899729",
+      "bytes": 3518,
+      "lines": 79
+    },
+    "NLA.RA09.ZeroColumn": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/ZeroColumn.lean",
+      "sha256": "c5a21c431bc1118466097e9e761c9c95e113162c69379b397c8e76ec21038c00",
+      "bytes": 1615,
+      "lines": 41
+    },
+    "NLA.RA09.ZeroTail": {
+      "path": "randomized-and-low-rank-approximation/RA-09/lean/NLA/RA09/ZeroTail.lean",
+      "sha256": "45ccfc67b7c59ce13d38d2822c69c36bd36519a9516798ca9d02074cb5e61dae",
+      "bytes": 4170,
+      "lines": 91
+    }
+  },
+  "all_match_preserved_base": true
+}

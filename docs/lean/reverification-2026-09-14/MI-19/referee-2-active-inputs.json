@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "candidate_commit": "6f4c39feaa5ae494168dcc55af250b2acf126a02",
+  "source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "files": {
+    "matrix-inequalities-and-norms/MI-19/lean/Solution.lean": {
+      "sha256": "18bf53ea1d745b4488718297559c3c77e3bcb902596b9c9aae5f448bdcb800c4",
+      "bytes": 1154
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/NLA/MI19/Definitions.lean": {
+      "sha256": "170e406d1f6bf0ca60e5b65998308b030cf08cc0def51c25c9860524ad3441ac",
+      "bytes": 3058
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/NLA/MI19/Proof.lean": {
+      "sha256": "53ab38bfef6e52f6c039eba5056659be43f9b8e7a7b3453a62769dc3f0ef3c37",
+      "bytes": 7773
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/Challenge.lean": {
+      "sha256": "9c838a34cbff20eceb5e842eeca77c310bccb442843925343a7827a1020063cb",
+      "bytes": 905
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/comparator.json": {
+      "sha256": "11fdab27c092b2f77486078bd40eb33b4ad439d6ca8e9ca38941b5882854b194",
+      "bytes": 247
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/lake-manifest.json": {
+      "sha256": "ee137a71fd2761e4d1e9d927307b7debb4dbdad6795ee2584e279904ccdd0b95",
+      "bytes": 3884
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/lakefile.toml": {
+      "sha256": "7c7fe4c51422471af021e2266593c6c163c41067b8a06c2694c00afd6ac37230",
+      "bytes": 280
+    },
+    "matrix-inequalities-and-norms/MI-19/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  }
+}

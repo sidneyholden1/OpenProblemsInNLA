@@ -1,0 +1,10 @@
+INDEPENDENT ELABORATION NLA/IE17/Certificates.lean
+EXIT_STATUS=0
+INDEPENDENT ELABORATION NLA/IE17/Proof.lean
+EXIT_STATUS=0
+INDEPENDENT ELABORATION NLA/IE17/Approximation.lean
+NLA/IE17/Approximation.lean:104:4: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+NLA/IE17/Approximation.lean:107:4: warning: `Set.mem_setOf` has been deprecated: Use `Set.mem_ofPred` instead
+EXIT_STATUS=0
+INDEPENDENT ELABORATION Solution.lean
+EXIT_STATUS=0

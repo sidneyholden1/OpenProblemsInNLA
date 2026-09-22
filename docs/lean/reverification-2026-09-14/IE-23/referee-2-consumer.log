@@ -1,0 +1,77 @@
+@NLA.IE23.inducedNorm_semantics : ∀ {m n : ℕ},
+  LE.le.{0} 1 m →
+    ∀ (p : ℝ),
+      LT.lt.{0} 2 p →
+        ∀ (X : NLA.IE23.Mat n m),
+          (∀ (y : NLA.IE23.Vec m), Ne.{1} y 0 → LT.lt.{0} 0 (NLA.IE23.lpNorm p y)) ∧
+            Set.Nonempty.{0} (NLA.IE23.ratioSet p X) ∧
+              BddAbove.{0} (NLA.IE23.ratioSet p X) ∧
+                IsLUB.{0} (NLA.IE23.ratioSet p X) (NLA.IE23.inducedNorm p X) ∧
+                  LE.le.{0} 0 (NLA.IE23.inducedNorm p X) ∧
+                    ∀ (y : NLA.IE23.Vec m),
+                      LE.le.{0} (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} X y))
+                        (HMul.hMul.{0, 0, 0} (NLA.IE23.inducedNorm p X) (NLA.IE23.lpNorm p y))
+'NLA.IE23.inducedNorm_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.witness_matrix_identities : NLA.IE23.FullRowRank NLA.IE23.witnessA ∧
+  Eq.{1} (HMul.hMul.{0, 0, 0} NLA.IE23.witnessA (Matrix.conjTranspose.{0, 0, 0} NLA.IE23.witnessA))
+      NLA.IE23.witnessGram ∧
+    IsUnit.{0} NLA.IE23.witnessGram ∧
+      Eq.{1} (Inv.inv.{0} NLA.IE23.witnessGram) NLA.IE23.witnessGramInv ∧
+        Eq.{1} (NLA.IE23.moorePenrose NLA.IE23.witnessA) NLA.IE23.witnessB ∧
+          NLA.IE23.IsRightInverse NLA.IE23.witnessA NLA.IE23.witnessB ∧
+            NLA.IE23.IsRightInverse NLA.IE23.witnessA NLA.IE23.witnessX ∧
+              Ne.{1} NLA.IE23.witnessB NLA.IE23.witnessX ∧
+                Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} NLA.IE23.witnessB) NLA.IE23.witnessB)
+                    NLA.IE23.witnessGramInv ∧
+                  Eq.{1} (HMul.hMul.{0, 0, 0} (Matrix.conjTranspose.{0, 0, 0} NLA.IE23.witnessX) NLA.IE23.witnessX) 1
+'NLA.IE23.witness_matrix_identities' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.fourth_power_norm_control : LT.lt.{0} 2 4 ∧
+  LT.lt.{0} 0 NLA.IE23.witnessNorm ∧
+    Eq.{1} (HPow.hPow.{0, 0, 0} NLA.IE23.witnessNorm 2) √2 ∧
+      Eq.{1} (HPow.hPow.{0, 0, 0} NLA.IE23.witnessNorm 4) 2 ∧
+        Eq.{1} NLA.IE23.witnessNorm (HPow.hPow.{0, 0, 0} 2 (HSub.hSub.{0, 0, 0} (1 / 2) (1 / 4))) ∧
+          (∀ (y : NLA.IE23.Vec 2),
+              Eq.{1} (HPow.hPow.{0, 0, 0} (NLA.IE23.euclideanNorm y) 2) (∑ i, Complex.normSq (y i))) ∧
+            (∀ (y : NLA.IE23.Vec 2),
+                Eq.{1} (HPow.hPow.{0, 0, 0} (NLA.IE23.lpNorm 4 y) 4) (∑ i, HPow.hPow.{0, 0, 0} (norm.{0} (y i)) 4)) ∧
+              ∀ (y : NLA.IE23.Vec 2),
+                LE.le.{0} (NLA.IE23.euclideanNorm y) (HMul.hMul.{0, 0, 0} NLA.IE23.witnessNorm (NLA.IE23.lpNorm 4 y))
+'NLA.IE23.fourth_power_norm_control' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.witness_action_identities : (∀ (y : NLA.IE23.Vec 2),
+    Eq.{1}
+      (HAdd.hAdd.{0, 0, 0}
+        (HPow.hPow.{0, 0, 0} (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} NLA.IE23.witnessB y)) 2)
+        (HDiv.hDiv.{0, 0, 0} (Complex.normSq (HAdd.hAdd.{0, 0, 0} (y 0) (y 1))) 3))
+      (HPow.hPow.{0, 0, 0} (NLA.IE23.euclideanNorm y) 2)) ∧
+  (∀ (y : NLA.IE23.Vec 2),
+      Eq.{1} (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} NLA.IE23.witnessX y)) (NLA.IE23.euclideanNorm y)) ∧
+    ∀ (Y : NLA.IE23.Mat 3 2),
+      NLA.IE23.IsRightInverse NLA.IE23.witnessA Y →
+        Eq.{1} (HPow.hPow.{0, 0, 0} (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} Y NLA.IE23.normingVector)) 2)
+          (HAdd.hAdd.{0, 0, 0} 2
+            (HMul.hMul.{0, 0, 0} 3 (Complex.normSq (Matrix.mulVec.{0, 0, 0} Y NLA.IE23.normingVector 0))))
+'NLA.IE23.witness_action_identities' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.witness_attainment : Ne.{1} NLA.IE23.normingVector 0 ∧
+  Eq.{1} (NLA.IE23.lpNorm 4 NLA.IE23.normingVector) NLA.IE23.witnessNorm ∧
+    Eq.{1} (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} NLA.IE23.witnessB NLA.IE23.normingVector)) √2 ∧
+      Eq.{1} (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} NLA.IE23.witnessX NLA.IE23.normingVector)) √2 ∧
+        Eq.{1}
+            (HDiv.hDiv.{0, 0, 0}
+              (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} NLA.IE23.witnessB NLA.IE23.normingVector))
+              (NLA.IE23.lpNorm 4 NLA.IE23.normingVector))
+            NLA.IE23.witnessNorm ∧
+          Eq.{1}
+            (HDiv.hDiv.{0, 0, 0}
+              (NLA.IE23.euclideanNorm (Matrix.mulVec.{0, 0, 0} NLA.IE23.witnessX NLA.IE23.normingVector))
+              (NLA.IE23.lpNorm 4 NLA.IE23.normingVector))
+            NLA.IE23.witnessNorm
+'NLA.IE23.witness_attainment' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.witness_norms : Eq.{1} (NLA.IE23.inducedNorm 4 NLA.IE23.witnessB) NLA.IE23.witnessNorm ∧
+  Eq.{1} (NLA.IE23.inducedNorm 4 NLA.IE23.witnessX) NLA.IE23.witnessNorm
+'NLA.IE23.witness_norms' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.witness_global_minimizers : NLA.IE23.IsNormMinimizer NLA.IE23.witnessA 4 NLA.IE23.witnessB ∧
+  NLA.IE23.IsNormMinimizer NLA.IE23.witnessA 4 NLA.IE23.witnessX ∧
+    IsLeast.{0} (NLA.IE23.rightInverseNorms NLA.IE23.witnessA 4) NLA.IE23.witnessNorm
+'NLA.IE23.witness_global_minimizers' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+NLA.IE23.not_rightInverseUniqueConjecture : ¬NLA.IE23.RightInverseUniqueConjecture
+'NLA.IE23.not_rightInverseUniqueConjecture' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

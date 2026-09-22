@@ -1,0 +1,239 @@
+{
+  "verdict": "PASS",
+  "phase": "statement only before proof inspection",
+  "reviewer": "/root/iv06_statement_referee_2 (independent AI agent)",
+  "preserved_source_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+  "observed_upstream_main_not_source_base": "ab754fabe3d48dc8d6eab6bcffce583e46d2b88f",
+  "source_hashes": {
+    "randomized-and-low-rank-approximation/RA-07/README.md": {
+      "sha256": "e4755c9dbf782088b57304489560483e6d5dd296758c6cc28aa4cffe9e273c33",
+      "bytes": 7751,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "docs/lean/REVIEW.md": {
+      "sha256": "d967ddce620d4e754e2f9c25548f30cb537f76f4ddcf8ecf2574945bcd332553",
+      "bytes": 3110,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/README.md": {
+      "sha256": "f58d599f2a5e13e5d2d792b45a71eb0abf4f174b6b887f0ea81e8a5769b88fe3",
+      "bytes": 9397,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/NUMERICAL_TARGETS.md": {
+      "sha256": "d608c6dd1b09a0c3425c740ca159bb317a4b5079dd4d128ad52239af6f8b4dcc",
+      "bytes": 8622,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/Challenge.lean": {
+      "sha256": "013fe0fd10b21a4e09260ea07477f8b6314e36df8cad9863274b486115de20cf",
+      "bytes": 2869,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/comparator.json": {
+      "sha256": "0f67b955d83b24f1b61c6a94dba831e4f5983f015441f1a87870e69a345514f4",
+      "bytes": 457,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/formalization.yaml": {
+      "sha256": "eb6e7476c4a7af7fb3ab8d0ee1dc3c53613cd58bfdca74bd8cffe66f1e1a2115",
+      "bytes": 12507,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/lean-toolchain": {
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/lake-manifest.json": {
+      "sha256": "290573ff8a547f02c5c87c593252c3883f4b59556b3a02400212f857c3c2f924",
+      "bytes": 3884,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/lakefile.toml": {
+      "sha256": "d47fda9861f0b1c86a144280ed31eac9c12334617f8e6e43035798cf97b7d384",
+      "bytes": 281,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "randomized-and-low-rank-approximation/RA-07/lean/NLA/RA07/Definitions.lean": {
+      "sha256": "5eb47e2450eefe5a83e583173ac1de48c67be502a73f52cb4856a26c3fffb9ff",
+      "bytes": 2518,
+      "read_method": "local source and immutable Git comparison"
+    },
+    "references/colbrook-transfer-2026-09-11/manuscripts/01_volume_sampling_convexity.tex": {
+      "sha256": "12d83b342f9f069cf1a623b4dffe6ee6d6abb1c5d0a9d001f4713777b5beef01",
+      "bytes": 10897,
+      "read_method": "local source and immutable Git comparison"
+    }
+  },
+  "actual_imported_semantics_sha256": {
+    "Algebra/Polynomial/Derivative.lean": "c5c69f84a52f6191b63c5c3baaf058bbc1586a2c50f3ef925ffb7c8cacecc8ff",
+    "RingTheory/MvPolynomial/Symmetric/Defs.lean": "ba070370c584d7bb748403346989c34403dc33e8b338d44f1bcd5a6016ca74e6",
+    "Analysis/Complex/Polynomial/GaussLucas.lean": "f02cb6c915ee9c3e1e311759b672ab7f43226fd36ec1fbc1e04858122e651852"
+  },
+  "exports": [
+    "NLA.RA07.elementary_values",
+    "NLA.RA07.generating_derivative_values",
+    "NLA.RA07.positive_derivative_factorization",
+    "NLA.RA07.power_sum_certificate",
+    "NLA.RA07.second_difference_certificate",
+    "NLA.RA07.errorSequence_convex"
+  ],
+  "numerical_diagnostics": {
+    "verdict": "PASS",
+    "independent_diagnostic_not_Lean_proof": true,
+    "exact_grid_values": [
+      "1/2",
+      "1",
+      "3"
+    ],
+    "dimensions_checked": "0 through 6",
+    "canonical_second_differences_checked": 3834,
+    "generic_certificate_samples": "positive denominator and exact s1*s3-s2^2 unordered pair identity at every sampled tuple of length >=2",
+    "endpoint_and_equal_tuple_examples": [
+      {
+        "lam": [],
+        "elementary": [
+          "1",
+          0
+        ],
+        "sequence": [
+          "0"
+        ]
+      },
+      {
+        "lam": [
+          "1/2",
+          "1/2"
+        ],
+        "elementary": [
+          "1",
+          "1",
+          "1/4",
+          0
+        ],
+        "sequence": [
+          "1",
+          "1/2",
+          "0"
+        ]
+      },
+      {
+        "lam": [
+          "1",
+          "1"
+        ],
+        "elementary": [
+          "1",
+          "2",
+          "1",
+          0
+        ],
+        "sequence": [
+          "2",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "lam": [
+          "3",
+          "3"
+        ],
+        "elementary": [
+          "1",
+          "6",
+          "9",
+          0
+        ],
+        "sequence": [
+          "6",
+          "3",
+          "0"
+        ]
+      },
+      {
+        "lam": [
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "elementary": [
+          "1",
+          "3/2",
+          "3/4",
+          "1/8",
+          0
+        ],
+        "sequence": [
+          "3/2",
+          "1",
+          "1/2",
+          "0"
+        ]
+      },
+      {
+        "lam": [
+          "1",
+          "1",
+          "1"
+        ],
+        "elementary": [
+          "1",
+          "3",
+          "3",
+          "1",
+          0
+        ],
+        "sequence": [
+          "3",
+          "2",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "lam": [
+          "3",
+          "3",
+          "3"
+        ],
+        "elementary": [
+          "1",
+          "9",
+          "27",
+          "27",
+          0
+        ],
+        "sequence": [
+          "9",
+          "6",
+          "3",
+          "0"
+        ]
+      }
+    ],
+    "limitation": "finite diagnostics are not universal proofs or evidence for derivative splitting; the full actual factorization is an unconditional Challenge obligation"
+  },
+  "numerical_evidence_sha256": "e4fd78db3018406cbc4a893c9495df929df2d1438319a25616554c240e6173e1",
+  "numerical_generator_sha256": "00e364ceb7f647526533cfc4c54c5b206609d5a10c9899626a0c5e33e28c2acb",
+  "coordinator_challenge_build": {
+    "target": "Challenge",
+    "command": [
+      "lake",
+      "build",
+      "Challenge"
+    ],
+    "cwd": "/private/tmp/nla-reverify-ra07/randomized-and-low-rank-approximation/RA-07/lean",
+    "runtime": "/private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin",
+    "platform": "macOS aarch64",
+    "scope": "development/source-typecheck; not Linux Comparator verification",
+    "upstream_base": "deb549fa9ddd6b119e6c59016f268237e645dfa2",
+    "exit_code": 0,
+    "elapsed_seconds": 32.752,
+    "log_sha256": "1ca444244489e854760345a8ea4fea966d9eebf1c0c33d8eb74abe7959f6adfc"
+  },
+  "coordinator_receipt_sha256": "411f1b739fafcc1f8dce10dbc6f39d6b714af4f84f8209f8c8489224d648ed4a",
+  "no_active_proof_or_solution_inspected": true,
+  "historical_metadata_claims_not_reaudited": true
+}

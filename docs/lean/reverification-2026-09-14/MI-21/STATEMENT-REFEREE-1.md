@@ -1,0 +1,27 @@
+# MI-21 independent statement referee 1 — 2026-09-14
+
+PASS — explicit approval of the exact statement boundary recorded below. No blocking fidelity, scope, numerical, denominator or vacuity finding.
+
+This is an independent AI-agent review under `docs/lean/REVIEW.md`, covering the relevant Tau Ceti fidelity, correctness, scope, generality, computation, reuse/API, documentation and attribution angles. It is not an official Tau Ceti verdict or external human peer review. This phase reads statements and complete informal sources only; no active Proof or Solution body was inspected.
+
+## Source provenance and scope review
+
+The authored project is preserved from `deb549fa9ddd6b119e6c59016f268237e645dfa2`, deliberately not observed older upstream main `ab754fabe3d48dc8d6eab6bcffce583e46d2b88f`. Both source and formalization authorship remain unchanged. I read the complete canonical page, complete informal proof, Definitions, Challenge, numerical targets, project README, Comparator and formalization manifest. Historical completed-status prose refers to prior executions, and stage-one prose is historical; neither is evidence of completion of this fresh campaign. The recorded old and preserved canonical target sections have the same mathematics with rendering/whitespace differences. No permanent ID or target is changed.
+
+The three exports retain the full original complex positive-definite matrix families, all positive m,n, every t∈[0,1], all real s,r,p>0 with sr≥1, and every unitarily invariant norm. The local norm predicate contains precisely nonnegativity, definiteness, triangle inequality, complex absolute homogeneity and independent left/right unitary invariance; it is not a spectral-norm-only restriction. Both unitary inverse identities are legitimate equivalent square-matrix conditions. The separate generic export must prove the actual Euclidean operator norm satisfies that entire class, including its harmless zero-dimensional extension.
+
+The spectral powers explicitly call the actual unital CFC.rpow under MatrixOrder. The matrix CFC is induced by the genuine spectral diagonalization, not pointwise powers. Positive-definite inputs justify negative half-powers and avoid off-domain fallback. Every order of multiplication in the weighted mean and the aggregate right side matches the canonical formula. The actual operator norm is that of toEuclideanCLM on complex Euclidean space, which applies by matrix-vector multiplication; the eigenvalue is only a required proved lower bound on that norm. The counterexample explicitly requires equality of the actual left expression to L and actual right expression to I for every p>0. These analytic bridges are not assumptions.
+
+My independent exact calculation verifies S=Sᵀ, S²=I, C²+E²=I, the positive leading minors, and both means' separate scaled Riccati certificates V X⁻¹ V=hY. The first has δ=5/3 and h=61697295/8682716; the second has δ=3/5 and h=111055131/43413580. Their squared candidates sum to exactly the stated L. Direct multiplication verifies L(1,−4)=1351000/1350907·(1,−4), with gap 93/1350907>0. Positive-square-root uniqueness must connect these rational identities to actual CFC means in the later proof audit; no arithmetic diagnostic certifies that connection by itself.
+
+All admissibility conditions and both aggregate identities are conclusions; s=t=1/2,r=2 gives sr=1, and a single p=1 specialization already suffices for the full negation. One scalar strict inequality and one nonzero eigenvector minimize computation. The other eigenvalue and known narrower positive parameter regimes are not claimed or contradicted. Colbrook retains mathematical authorship and Stepaniants formalization credit; no new authored proof or external human review is claimed.
+
+## Evidence and approval limits
+
+The reproducible [referee-1-precheck.py](referee-1-precheck.py), run independently by this referee with argument `MI-21`, exited 0; [referee-1-precheck.log](referee-1-precheck.log) records exact results. The script does not inspect authored proof bodies and does not replace a Lean proof.
+
+The coordinator's fresh macOS aarch64 `lake build Challenge` exited 0. I inspected its log and verified the recorded log digest: exactly 3 deliberate Challenge placeholders were reported. This was the coordinator's execution, not a second rebuild by this reviewer. Challenge compilation proves well-formedness only. Comparator selects all 3 reviewed signatures, no definition holes and exactly the standard three permitted axioms.
+
+Every read authored file is byte-identical to the preserved source. Exact source, boundary, relevant pinned-library, script, result and execution hashes are retained in [referee-1-statement-evidence.json](referee-1-statement-evidence.json), SHA-256 `5277c40581ab8d79c5511db5756dbe4391275e4f235bf88705e7856a5b56ee54`. The inspected Mathlib definitions and example proofs justify the semantic/API choices; LeanCert's point tactic has multiple proof-producing routes, so the actual later term must be inspected before claiming a particular numerical backend. RA-07 has no numerical backend requirement.
+
+I approve these exact statements for the subsequent gated proof audit. Actual proof correctness, transitive axioms, material certificate terms, final independent proof reviews and fresh Linux Comparator/default-kernel/sandbox checks remain unreviewed at this phase. No authored source, metadata or historical evidence was changed.

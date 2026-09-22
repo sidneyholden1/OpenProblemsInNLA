@@ -2,8 +2,8 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to the community  
-**Status:** Solved
-**Last checked:** 2026-09-11
+**Status:** Lean verified
+**Last checked:** 2026-09-14
 
 <!-- colbrook-recovered -->
 ## Independently reviewed resolution - 2026-09-11
@@ -16,6 +16,26 @@ The difficulty, importance and rating rationale below are historical assessments
 <!-- /colbrook-recovered -->
 
 **Rating rationale:** Challenging reflects monotonicity of an optimization-defined error along coupled Krylov iterates; community impact is a stopping and reliability guarantee for a widely used least-squares method.
+
+## Lean proof and verification evidence — 2026-09-14
+
+**Both original monotonicity claims have Lean-verified negative answers.** The complete pair of monotonicity claims is disproved by the exact first two nonzero iterates of undamped, zero-initial-guess LSMR on a real 4-by-3 system. The formalization proves the genuine minimum-length normal-residual minimizers over the Krylov spaces, the matrix-only spectral backward-error infimum and attainment, and the prescribed Moore–Penrose projector approximation. Both errors strictly increase; the right-hand side remains fixed.
+
+[Immutable formal proof](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/d45afc8a197ffeeff94abfca59ef93acda22efa5/linear-systems-and-elimination/IE-17/lean). The checked exports are
+`NLA.IE17.iterates`, `NLA.IE17.backward_increase`, `NLA.IE17.approximation_increase`, `NLA.IE17.counterexample`. Lean 4.33.1 uses pinned Mathlib `0df444a3` and LeanCert `621a43d7`;
+[complete pins and reproduction instructions](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie17/linear-systems-and-elimination/IE-17/lean/README.md) are retained.
+All four exported transitive axiom closures contain only `propext`,
+`Classical.choice` and `Quot.sound`.
+
+**Formalization:** Sidney Holden, Center for Computational Biology, Flatiron
+Institute, Simons Foundation, with OpenAI Codex assistance. Matthew J. Colbrook
+retains mathematical authorship. Two independent statement reviews preceded
+implementation, and two independent final proof reviews passed. Kernel-only
+LeanCert and [fresh isolated Linux Comparator and kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/34862174739)
+passed, including rejection controls. [Original artifact, exact checked inputs
+and independent operational audit](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/codex/lean-ie17/linear-systems-and-elimination/IE-17/lean/verification/linux-2026-09-14/OPERATIONAL-REVIEW.md)
+are retained. This is AI-assisted formal verification, not external human
+peer review or source-author endorsement.
 
 Let $`A\in\mathbb R^{m\times n}`$ and $`b\in\mathbb R^m`$. In exact arithmetic, start LSMR at $`x_0=0`$: equivalently, $`x_k`$ minimizes $`\|A^T(b-Ax)\|_2`$ over $`\mathcal K_k(A^TA,A^Tb)`$. Work up to its exact termination and use its minimum-length iterate if necessary. Let $`r=b-Ax`$ and define the matrix-only normwise backward error
 

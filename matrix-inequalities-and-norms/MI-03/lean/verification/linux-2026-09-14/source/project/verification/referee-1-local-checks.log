@@ -1,0 +1,27 @@
+Independent referee /root/iv06_statement_referee_1, 2026-09-14.
+Recorded transcript of independently executed checks.
+Pinned runtime PATH prefix: /private/tmp/nla-lean-runtime/lean-4.33.1-darwin_aarch64/bin
+
+$ lake env lean NLA/MI03/Proof.lean
+NLA/MI03/Proof.lean:145:82: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[Exit 0]
+
+$ lake env lean Solution.lean
+[No diagnostics; exit 0]
+
+$ lake env lean /private/tmp/mi03-referee1-audit.lean
+Audit source:
+import Solution
+#print axioms NLA.MI03.upper_bound
+#print axioms NLA.MI03.sharpness
+#print axioms NLA.MI03.sharp_constant
+#print axioms NLA.MI03.odd_sharp_constant
+
+Output:
+'NLA.MI03.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI03.sharpness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI03.sharp_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI03.odd_sharp_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+[Exit 0]

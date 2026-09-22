@@ -1,0 +1,209 @@
+DECL _private.NLA.MI06.Proof.0.NLA.MI06.scalar_squared_gap._proof_1_7 : LeanCert.Validity.checkStrictUpperBoundDyadicChecked
+    (LeanCert.Core.Expr.const (Rat.divInt 2 1)) (Rat.divInt 0 1) (Rat.divInt 0 1) (le_refl (Rat.divInt 0 1))
+    (Rat.divInt 9 4) (-53) 10 =
+  true := _inhabitedExprDummy
+DECL _private.NLA.MI06.Proof.0.NLA.MI06.scalar_squared_gap : 2 < 9 / 4 := _inhabitedExprDummy
+PANIC at Lean.ConstantInfo.value! Lean.Declaration:509:62: declaration with value expected
+backtrace:
+0   libleanshared.dylib                 0x0000000115df7ca4 _ZN4leanL15print_backtraceEb + 60
+1   libleanshared.dylib                 0x0000000115dee914 _ZN4leanL15lean_panic_implEPKcmb + 176
+2   libleanshared.dylib                 0x0000000115deea30 lean_panic_fn_borrowed + 64
+3   libleanshared.dylib                 0x0000000115bfa508 Lean.ConstantInfo.value! [boxed] + 24
+4   libleanshared.dylib                 0x0000000115ddbc4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 512
+5   libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+6   libleanshared.dylib                 0x0000000115ddbe4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 1024
+7   libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+8   libleanshared.dylib                 0x0000000115ddbe4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 1024
+9   libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+10  libleanshared.dylib                 0x0000000115ddd3a0 _ZN4lean2ir11interpreter6stub_mEPP11lean_object + 396
+11  libleanshared.dylib                 0x0000000115ddd034 _ZN4lean2ir11interpreter10stub_m_auxEPP11lean_object + 92
+12  libleanshared.dylib                 0x0000000115ddcde8 _ZN4lean2ir11interpreter11stub_12_auxEP11lean_objectS3_S3_S3_S3_S3_S3_S3_S3_S3_S3_S3_ + 68
+13  libleanshared.dylib                 0x0000000115e072dc <apply/7> + 2540
+14  libleanshared.dylib                 0x0000000110c4e3d4 Lean.Elab.withSavedPartialInfoContext [arity↓, private] spec at Lean.Elab.withSaveInfoContext spec at Lean.Elab.Command.liftTermElabM + 376
+15  libleanshared.dylib                 0x0000000110c4ee24 Lean.Elab.Command.liftTermElabM [λ, arity↓] + 76
+16  libleanshared.dylib                 0x0000000110c4f1fc Lean.Elab.Command.liftTermElabM [boxed, λ, arity↓] + 52
+17  libleanshared.dylib                 0x0000000115e07084 <apply/7> + 1940
+18  libleanshared.dylib                 0x0000000112e516ec Lean.Elab.Term.TermElabM.run [arity↓] + 456
+19  libleanshared.dylib                 0x0000000110c4f394 Lean.Elab.Command.liftTermElabM [λ, arity↓] + 88
+20  libleanshared.dylib                 0x0000000110c4f5a4 Lean.Elab.Command.liftTermElabM [boxed, λ, arity↓] + 36
+21  libleanshared.dylib                 0x0000000115dffed4 <apply/3> + 3280
+22  libleanshared.dylib                 0x0000000110bfae80 Lean.Elab.Command.runCore [arity↓, private] + 3220
+23  libleanshared.dylib                 0x0000000110c4f8dc Lean.Elab.Command.liftTermElabM [arity↓] + 652
+24  libleanshared.dylib                 0x0000000110c4fda4 Lean.Elab.Command.liftTermElabM [boxed, arity↓] + 28
+25  libleanshared.dylib                 0x0000000115ddbc4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 512
+26  libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+27  libleanshared.dylib                 0x0000000115ddbe4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 1024
+28  libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+29  libleanshared.dylib                 0x0000000115ddd3a0 _ZN4lean2ir11interpreter6stub_mEPP11lean_object + 396
+30  libleanshared.dylib                 0x0000000115dd6114 _ZN4lean2ir11interpreter16with_interpreterIP11lean_objectEET_RKNS_16elab_environmentERKNS_7optionsERKNS_4nameERKNSt3__18functionIFS5_RS1_EEE + 320
+31  libleanshared.dylib                 0x0000000115ddd034 _ZN4lean2ir11interpreter10stub_m_auxEPP11lean_object + 92
+32  libleanshared.dylib                 0x0000000115ddcb90 _ZN4lean2ir11interpreter10stub_6_auxEP11lean_objectS3_S3_S3_S3_S3_ + 48
+33  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+34  libleanshared.dylib                 0x0000000110b29630 Lean.Elab.Command.elabEvalCoreUnsafe._elam_0 [λ, arity↓] spec at Lean.Elab.Command.elabEvalCoreUnsafe[λ] spec at Lean.Elab.Command.elabEvalCoreUnsafe + 24
+35  libleanshared.dylib                 0x0000000115dffe60 <apply/3> + 3164
+36  libleanshared.dylib                 0x0000000110b36400 Lean.Elab.Command.elabEvalCoreUnsafe [λ] + 316
+37  libleanshared.dylib                 0x0000000115dffe60 <apply/3> + 3164
+38  libleanshared.dylib                 0x0000000110b36f24 IO.withStderr [arity↓] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 104
+39  libleanshared.dylib                 0x0000000110b37334 IO.withStderr [boxed] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 44
+40  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+41  libleanshared.dylib                 0x0000000110b37518 IO.withStdout [arity↓] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 104
+42  libleanshared.dylib                 0x0000000110b37928 IO.withStdout [boxed] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 44
+43  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+44  libleanshared.dylib                 0x0000000110b369d8 IO.withStdin [arity↓] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 104
+45  libleanshared.dylib                 0x0000000110b37ad0 IO.FS.withIsolatedStreams [arity↓] spec at Lean.Elab.Command.elabEvalCoreUnsafe + 304
+46  libleanshared.dylib                 0x0000000110b3a814 Lean.Elab.Command.elabEvalCoreUnsafe + 1208
+47  libleanshared.dylib                 0x0000000110b3f6d0 Lean.Elab.Command.elabRunCmd + 1332
+48  libleanshared.dylib                 0x0000000110b3faf0 Lean.Elab.Command.elabRunCmd [boxed] + 28
+49  libleanshared.dylib                 0x0000000115dffe60 <apply/3> + 3164
+50  libleanshared.dylib                 0x0000000110c28f9c Lean.Elab.withInfoTreeContext [arity↓] spec at Lean.Elab.Command.elabCommandUsing + 244
+51  libleanshared.dylib                 0x0000000110c2964c Lean.Elab.withInfoTreeContext [boxed] spec at Lean.Elab.Command.elabCommandUsing + 44
+52  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+53  libleanshared.dylib                 0x0000000110c2a428 Lean.Elab.Command.elabCommandUsing [private] + 632
+54  libleanshared.dylib                 0x0000000110c42364 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+55  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+56  libleanshared.dylib                 0x0000000110c2d8cc Lean.Elab.Command.elabCommand.go [λ, private] + 796
+57  libleanshared.dylib                 0x0000000110c2dfd8 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+58  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+59  libleanshared.dylib                 0x0000000110c2d39c Lean.Elab.withLogging spec at Lean.Elab.Command.elabCommand.go + 84
+60  libleanshared.dylib                 0x0000000110c35e98 Lean.Elab.Command.elabCommand + 32
+61  libleanshared.dylib                 0x0000000110c3f50c Array.foldlMUnsafe.fold [private] spec at Lean.Elab.Command.elabCommand.go + 180
+62  libleanshared.dylib                 0x0000000110c3f6c0 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 48
+63  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+64  libleanshared.dylib                 0x0000000110c42364 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+65  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+66  libleanshared.dylib                 0x0000000110c2d8cc Lean.Elab.Command.elabCommand.go [λ, private] + 796
+67  libleanshared.dylib                 0x0000000110c2dfd8 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+68  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+69  libleanshared.dylib                 0x0000000110c2d39c Lean.Elab.withLogging spec at Lean.Elab.Command.elabCommand.go + 84
+70  libleanshared.dylib                 0x0000000110c35e98 Lean.Elab.Command.elabCommand + 32
+71  libleanshared.dylib                 0x0000000110c3dc78 Lean.Elab.Command.elabCommand.go [λ, private] + 144
+72  libleanshared.dylib                 0x0000000110c3efec Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 48
+73  libleanshared.dylib                 0x0000000115e001b4 <apply/3> + 4016
+74  libleanshared.dylib                 0x0000000110c2afa4 Lean.Elab.Command.withMacroExpansion [boxed, λ, arity↓] + 24
+75  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+76  libleanshared.dylib                 0x0000000110c28f9c Lean.Elab.withInfoTreeContext [arity↓] spec at Lean.Elab.Command.elabCommandUsing + 244
+77  libleanshared.dylib                 0x0000000110c3f3e0 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 36
+78  libleanshared.dylib                 0x0000000115e0044c <apply/3> + 4680
+79  libleanshared.dylib                 0x0000000110c28f9c Lean.Elab.withInfoTreeContext [arity↓] spec at Lean.Elab.Command.elabCommandUsing + 244
+80  libleanshared.dylib                 0x0000000110c42364 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+81  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+82  libleanshared.dylib                 0x0000000110c2d8cc Lean.Elab.Command.elabCommand.go [λ, private] + 796
+83  libleanshared.dylib                 0x0000000110c2dfd8 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+84  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+85  libleanshared.dylib                 0x0000000110c2d39c Lean.Elab.withLogging spec at Lean.Elab.Command.elabCommand.go + 84
+86  libleanshared.dylib                 0x0000000110c35e98 Lean.Elab.Command.elabCommand + 32
+87  libleanshared.dylib                 0x0000000110c47190 Lean.Elab.Command.elabCommandTopLevel [λ] + 1028
+88  libleanshared.dylib                 0x0000000110c47958 Lean.Elab.Command.elabCommandTopLevel [boxed, λ] + 28
+89  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+90  libleanshared.dylib                 0x0000000110c44adc Lean.Elab.Command.withInitQuotContext + 1828
+91  libleanshared.dylib                 0x0000000110c48110 Lean.Elab.Command.elabCommandTopLevel [λ] + 1856
+92  libleanshared.dylib                 0x0000000110c48540 Lean.Elab.Command.elabCommandTopLevel [boxed, λ] + 36
+93  libleanshared.dylib                 0x0000000115dfb5ec <apply/1> + 3328
+94  libleanshared.dylib                 0x0000000115c43684 Lean.profileitIOUnsafe [λ, arity↓] + 20
+95  libleanshared.dylib                 0x0000000115dfb588 <apply/1> + 3228
+96  libleanshared.dylib                 0x0000000115dfb588 <apply/1> + 3228
+97  libleanshared.dylib                 0x0000000115dd0c14 lean_profileit + 128
+98  libleanshared.dylib                 0x0000000115c4388c Lean.profileitIOUnsafe [arity↓] + 156
+99  libleanshared.dylib                 0x0000000110c489a0 Lean.Elab.Command.elabCommandTopLevel + 944
+PANIC at Lean.ConstantInfo.value! Lean.Declaration:509:62: declaration with value expected
+backtrace:
+0   libleanshared.dylib                 0x0000000115df7ca4 _ZN4leanL15print_backtraceEb + 60
+1   libleanshared.dylib                 0x0000000115dee914 _ZN4leanL15lean_panic_implEPKcmb + 176
+2   libleanshared.dylib                 0x0000000115deea30 lean_panic_fn_borrowed + 64
+3   libleanshared.dylib                 0x0000000115bfa508 Lean.ConstantInfo.value! [boxed] + 24
+4   libleanshared.dylib                 0x0000000115ddbc4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 512
+5   libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+6   libleanshared.dylib                 0x0000000115ddbe4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 1024
+7   libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+8   libleanshared.dylib                 0x0000000115ddbe4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 1024
+9   libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+10  libleanshared.dylib                 0x0000000115ddd3a0 _ZN4lean2ir11interpreter6stub_mEPP11lean_object + 396
+11  libleanshared.dylib                 0x0000000115ddd034 _ZN4lean2ir11interpreter10stub_m_auxEPP11lean_object + 92
+12  libleanshared.dylib                 0x0000000115ddcde8 _ZN4lean2ir11interpreter11stub_12_auxEP11lean_objectS3_S3_S3_S3_S3_S3_S3_S3_S3_S3_S3_ + 68
+13  libleanshared.dylib                 0x0000000115e072dc <apply/7> + 2540
+14  libleanshared.dylib                 0x0000000110c4e3d4 Lean.Elab.withSavedPartialInfoContext [arity↓, private] spec at Lean.Elab.withSaveInfoContext spec at Lean.Elab.Command.liftTermElabM + 376
+15  libleanshared.dylib                 0x0000000110c4ee24 Lean.Elab.Command.liftTermElabM [λ, arity↓] + 76
+16  libleanshared.dylib                 0x0000000110c4f1fc Lean.Elab.Command.liftTermElabM [boxed, λ, arity↓] + 52
+17  libleanshared.dylib                 0x0000000115e07084 <apply/7> + 1940
+18  libleanshared.dylib                 0x0000000112e516ec Lean.Elab.Term.TermElabM.run [arity↓] + 456
+19  libleanshared.dylib                 0x0000000110c4f394 Lean.Elab.Command.liftTermElabM [λ, arity↓] + 88
+20  libleanshared.dylib                 0x0000000110c4f5a4 Lean.Elab.Command.liftTermElabM [boxed, λ, arity↓] + 36
+21  libleanshared.dylib                 0x0000000115dffed4 <apply/3> + 3280
+22  libleanshared.dylib                 0x0000000110bfae80 Lean.Elab.Command.runCore [arity↓, private] + 3220
+23  libleanshared.dylib                 0x0000000110c4f8dc Lean.Elab.Command.liftTermElabM [arity↓] + 652
+24  libleanshared.dylib                 0x0000000110c4fda4 Lean.Elab.Command.liftTermElabM [boxed, arity↓] + 28
+25  libleanshared.dylib                 0x0000000115ddbc4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 512
+26  libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+27  libleanshared.dylib                 0x0000000115ddbe4c _ZN4lean2ir11interpreter4callERKNS_4nameERKNS_9array_refINS_10object_refEEE + 1024
+28  libleanshared.dylib                 0x0000000115dd9f60 _ZN4lean2ir11interpreter9eval_bodyERKNS_10object_refE + 1784
+29  libleanshared.dylib                 0x0000000115ddd3a0 _ZN4lean2ir11interpreter6stub_mEPP11lean_object + 396
+30  libleanshared.dylib                 0x0000000115dd6114 _ZN4lean2ir11interpreter16with_interpreterIP11lean_objectEET_RKNS_16elab_environmentERKNS_7optionsERKNS_4nameERKNSt3__18functionIFS5_RS1_EEE + 320
+31  libleanshared.dylib                 0x0000000115ddd034 _ZN4lean2ir11interpreter10stub_m_auxEPP11lean_object + 92
+32  libleanshared.dylib                 0x0000000115ddcb90 _ZN4lean2ir11interpreter10stub_6_auxEP11lean_objectS3_S3_S3_S3_S3_ + 48
+33  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+34  libleanshared.dylib                 0x0000000110b29630 Lean.Elab.Command.elabEvalCoreUnsafe._elam_0 [λ, arity↓] spec at Lean.Elab.Command.elabEvalCoreUnsafe[λ] spec at Lean.Elab.Command.elabEvalCoreUnsafe + 24
+35  libleanshared.dylib                 0x0000000115dffe60 <apply/3> + 3164
+36  libleanshared.dylib                 0x0000000110b36400 Lean.Elab.Command.elabEvalCoreUnsafe [λ] + 316
+37  libleanshared.dylib                 0x0000000115dffe60 <apply/3> + 3164
+38  libleanshared.dylib                 0x0000000110b36f24 IO.withStderr [arity↓] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 104
+39  libleanshared.dylib                 0x0000000110b37334 IO.withStderr [boxed] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 44
+40  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+41  libleanshared.dylib                 0x0000000110b37518 IO.withStdout [arity↓] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 104
+42  libleanshared.dylib                 0x0000000110b37928 IO.withStdout [boxed] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 44
+43  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+44  libleanshared.dylib                 0x0000000110b369d8 IO.withStdin [arity↓] spec at IO.FS.withIsolatedStreams spec at Lean.Elab.Command.elabEvalCoreUnsafe + 104
+45  libleanshared.dylib                 0x0000000110b37ad0 IO.FS.withIsolatedStreams [arity↓] spec at Lean.Elab.Command.elabEvalCoreUnsafe + 304
+46  libleanshared.dylib                 0x0000000110b3a814 Lean.Elab.Command.elabEvalCoreUnsafe + 1208
+47  libleanshared.dylib                 0x0000000110b3f6d0 Lean.Elab.Command.elabRunCmd + 1332
+48  libleanshared.dylib                 0x0000000110b3faf0 Lean.Elab.Command.elabRunCmd [boxed] + 28
+49  libleanshared.dylib                 0x0000000115dffe60 <apply/3> + 3164
+50  libleanshared.dylib                 0x0000000110c28f9c Lean.Elab.withInfoTreeContext [arity↓] spec at Lean.Elab.Command.elabCommandUsing + 244
+51  libleanshared.dylib                 0x0000000110c2964c Lean.Elab.withInfoTreeContext [boxed] spec at Lean.Elab.Command.elabCommandUsing + 44
+52  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+53  libleanshared.dylib                 0x0000000110c2a428 Lean.Elab.Command.elabCommandUsing [private] + 632
+54  libleanshared.dylib                 0x0000000110c42364 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+55  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+56  libleanshared.dylib                 0x0000000110c2d8cc Lean.Elab.Command.elabCommand.go [λ, private] + 796
+57  libleanshared.dylib                 0x0000000110c2dfd8 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+58  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+59  libleanshared.dylib                 0x0000000110c2d39c Lean.Elab.withLogging spec at Lean.Elab.Command.elabCommand.go + 84
+60  libleanshared.dylib                 0x0000000110c35e98 Lean.Elab.Command.elabCommand + 32
+61  libleanshared.dylib                 0x0000000110c3f50c Array.foldlMUnsafe.fold [private] spec at Lean.Elab.Command.elabCommand.go + 180
+62  libleanshared.dylib                 0x0000000110c3f6c0 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 48
+63  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+64  libleanshared.dylib                 0x0000000110c42364 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+65  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+66  libleanshared.dylib                 0x0000000110c2d8cc Lean.Elab.Command.elabCommand.go [λ, private] + 796
+67  libleanshared.dylib                 0x0000000110c2dfd8 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+68  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+69  libleanshared.dylib                 0x0000000110c2d39c Lean.Elab.withLogging spec at Lean.Elab.Command.elabCommand.go + 84
+70  libleanshared.dylib                 0x0000000110c35e98 Lean.Elab.Command.elabCommand + 32
+71  libleanshared.dylib                 0x0000000110c3dc78 Lean.Elab.Command.elabCommand.go [λ, private] + 144
+72  libleanshared.dylib                 0x0000000110c3efec Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 48
+73  libleanshared.dylib                 0x0000000115e001b4 <apply/3> + 4016
+74  libleanshared.dylib                 0x0000000110c2afa4 Lean.Elab.Command.withMacroExpansion [boxed, λ, arity↓] + 24
+75  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+76  libleanshared.dylib                 0x0000000110c28f9c Lean.Elab.withInfoTreeContext [arity↓] spec at Lean.Elab.Command.elabCommandUsing + 244
+77  libleanshared.dylib                 0x0000000110c3f3e0 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 36
+78  libleanshared.dylib                 0x0000000115e0044c <apply/3> + 4680
+79  libleanshared.dylib                 0x0000000110c28f9c Lean.Elab.withInfoTreeContext [arity↓] spec at Lean.Elab.Command.elabCommandUsing + 244
+80  libleanshared.dylib                 0x0000000110c42364 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+81  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+82  libleanshared.dylib                 0x0000000110c2d8cc Lean.Elab.Command.elabCommand.go [λ, private] + 796
+83  libleanshared.dylib                 0x0000000110c2dfd8 Lean.Elab.Command.elabCommand.go [boxed, λ, private] + 28
+84  libleanshared.dylib                 0x0000000115dffc40 <apply/3> + 2620
+85  libleanshared.dylib                 0x0000000110c2d39c Lean.Elab.withLogging spec at Lean.Elab.Command.elabCommand.go + 84
+86  libleanshared.dylib                 0x0000000110c35e98 Lean.Elab.Command.elabCommand + 32
+87  libleanshared.dylib                 0x0000000110c47190 Lean.Elab.Command.elabCommandTopLevel [λ] + 1028
+88  libleanshared.dylib                 0x0000000110c47958 Lean.Elab.Command.elabCommandTopLevel [boxed, λ] + 28
+89  libleanshared.dylib                 0x0000000115dffcb0 <apply/3> + 2732
+90  libleanshared.dylib                 0x0000000110c44adc Lean.Elab.Command.withInitQuotContext + 1828
+91  libleanshared.dylib                 0x0000000110c48110 Lean.Elab.Command.elabCommandTopLevel [λ] + 1856
+92  libleanshared.dylib                 0x0000000110c48540 Lean.Elab.Command.elabCommandTopLevel [boxed, λ] + 36
+93  libleanshared.dylib                 0x0000000115dfb5ec <apply/1> + 3328
+94  libleanshared.dylib                 0x0000000115c43684 Lean.profileitIOUnsafe [λ, arity↓] + 20
+95  libleanshared.dylib                 0x0000000115dfb588 <apply/1> + 3228
+96  libleanshared.dylib                 0x0000000115dfb588 <apply/1> + 3228
+97  libleanshared.dylib                 0x0000000115dd0c14 lean_profileit + 128
+98  libleanshared.dylib                 0x0000000115c4388c Lean.profileitIOUnsafe [arity↓] + 156
+99  libleanshared.dylib                 0x0000000110c489a0 Lean.Elab.Command.elabCommandTopLevel + 944

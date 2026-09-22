@@ -1,0 +1,7 @@
+✔ [3027/3029] Built NLA.MI03.Definitions (11s)
+⚠ [3028/3029] Built Challenge (4.5s)
+warning: Challenge.lean:8:8: declaration uses `sorry`
+warning: Challenge.lean:11:8: declaration uses `sorry`
+warning: Challenge.lean:16:8: declaration uses `sorry`
+warning: Challenge.lean:21:8: declaration uses `sorry`
+Build completed successfully (3029 jobs).

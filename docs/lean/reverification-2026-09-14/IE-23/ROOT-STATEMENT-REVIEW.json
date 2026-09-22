@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root coordinator, not an independent referee",
+  "verdict": "Statement boundary accepted by coordinator pending two independent reviews",
+  "scope": "Full all-dimension complex full-row-rank all finite p>2 direct induced norm uniqueness target retained. sSup nonemptiness/boundedness and true real-power denominator are conclusions; p=4 witness and all competing complex right inverses prove full negation without all-p minimizer classification.",
+  "reviewed_boundary_sha256": {
+    "linear-systems-and-elimination/IE-23/lean/NUMERICAL_TARGETS.md": "eb49c0b56617ab749184cef753d22ec461eef982a68d46b352187d1843b60d28",
+    "linear-systems-and-elimination/IE-23/lean/Challenge.lean": "faf9ae407be25d4fded2737a4dd4ef41a329a3cc25e194c0d06159b6a788319d",
+    "linear-systems-and-elimination/IE-23/lean/NLA/IE23/Definitions.lean": "1af986f21059b5b9862decf09366d3ea8dba0c965a5b8550b8d9a0fcc41af33f",
+    "linear-systems-and-elimination/IE-23/lean/formalization.yaml": "4de2f2d6a60d2d949ef3eeb5df003845e172adee3b171dd25ba35801e890b0b8",
+    "linear-systems-and-elimination/IE-23/lean/comparator.json": "8a02cee6a555e2bd658cb2daa22bfaba515027d787d570846aae21aaac2e26cb",
+    "linear-systems-and-elimination/IE-23/README.md": "6a7730c3e21be039e80329e88a2c03904047200b836b4debce56b3c9aa851a8d"
+  },
+  "original_full_manuscript_read": true,
+  "proof_inspection_started": false
+}

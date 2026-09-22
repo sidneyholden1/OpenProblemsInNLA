@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.MI08.fixed_sign_equivalence",
+    "NLA.MI08.design_obstructions",
+    "NLA.MI08.hadamard_twelve",
+    "NLA.MI08.finite_minimums"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

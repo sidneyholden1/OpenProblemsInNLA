@@ -1,0 +1,136 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IS-02: negative spectral-uniqueness locus theorem'
+  description: An exact real order-four symmetric stochastic witness is spectrally unique but outside
+    the proposed extreme-point segment locus.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IS-02 — Where a symmetric stochastic matrix can be spectrally unique
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/eigenvalues-and-inverse-problems/IS-02/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'IS-02: A counterexample to the spectral-uniqueness locus condition'
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/eigenvalues-and-inverse-problems/IS-02/solution.md
+  type: manuscript
+  location: Theorem IS-02 and Sections 1–2
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: 'Mathematical counterexample: Matthew J. Colbrook, University of Cambridge; AI provenance retained.'
+- title: On the symmetric doubly stochastic matrices that are determined by their spectra
+  authors:
+  - Bassam Mourad
+  - Hassan Abbas
+  id: https://arxiv.org/abs/1310.1273
+  type: preprint
+  location: Definitions pp. 1–2; Conjecture 5.1, p. 10
+  relationship: formalizes
+  author_endorsement: not-contacted
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust point inequalities and all-export
+      trust audits; separate statement and solution environments; two independent statement referees before
+      implementation. Local builds share a pinned dependency cache; committed dependencies are exact HTTPS
+      git pins.
+    prompting_notes: Freeze statements after two independent source reviews. Use exact finite algebra
+      on six nonnegative off-diagonal entries; spanning-tree products classify all 64 supports. No spectral
+      root intervals or interval subdivision.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: Complete local Lean 4.33.1 kernel build passes (3582 jobs), including all four export trust checks.
+    Both independent frozen-statement reviews and both independent final proof reviews PASS. Actual isolated
+    Linux Comparator/default-kernel replay with rejection controls remains pending; canonical status unchanged.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IS02.witness_certificates
+    file: NLA/IS02/Proof.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IS02.spectral_uniqueness
+    file: NLA/IS02/Proof.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IS02.locus_exclusion
+    file: NLA/IS02/Proof.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IS02.counterexample
+    file: NLA/IS02/Proof.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+fidelity:
+  divergences: Order four refutes the original all-dimensions implication. Equal actual characteristic
+    polynomials encode equal eigenvalues with algebraic multiplicities; simultaneous Equiv.Perm submatrix
+    reindexing encodes permutation similarity. Actual real segments and extreme points include all endpoints
+    and every vertex. The finite algebra proof replaces the source graph argument without restricting
+    competing matrices.
+review:
+  status: statement-and-proof-agent-reviewed; isolated-linux-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: 'Both independent statement referees approved the frozen boundary before implementation at 4e9976ff.
+    Both final referees independently replayed the completed proof and audited all four exported axiom
+    closures; PASS reports and evidence are retained. Reviewed proof revision: 4beade02. Original statement
+    metadata and final-review metadata are preserved in reviews/statement-review-snapshot and reviews/proof-review-snapshot
+    respectively, so the original hash manifests remain reproducible. Four intentional Challenge placeholders
+    remain confined to the statement environment. Actual isolated Linux Comparator remains required before
+    canonical promotion.'
+alignment:
+- source: Exact source witness, characteristic polynomial and positive trace
+  declarations:
+  - NLA.IS02.witness_certificates
+- source: Complete spectral uniqueness among all admissible competitors
+  declarations:
+  - NLA.IS02.spectral_uniqueness
+- source: Nonvertex midpoint and exclusion from every proposed segment
+  declarations:
+  - NLA.IS02.locus_exclusion
+- source: Full original universal conjecture negation
+  declarations:
+  - NLA.IS02.counterexample
+acknowledgements: Mathematical counterexample by Matthew J. Colbrook; original conjecture by Bassam Mourad
+  and Hassan Abbas. Formalization by Sidney Holden with OpenAI Codex assistance. Mathlib, LeanCert, Comparator
+  and formalization.yaml retain credit and licenses.

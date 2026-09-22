@@ -1,0 +1,125 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-17: both LSMR backward errors can increase'
+  description: Exact real full-column-rank counterexample for both the optimal spectral backward error
+    and the projected-residual approximation along successive exact LSMR iterates.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-17 — Monotonicity of LSMR backward errors
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-17/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Both original questions by David Chin-Lung Fong and Michael A. Saunders.
+- title: A counterexample to both LSMR backward-error monotonicity questions
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/references/colbrook-recovered-2026-09-11/manuscripts/IE-17.tex
+  type: manuscript
+  location: Complete counterexample and exact certificates
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Mathematical proof by Matthew J. Colbrook, University of Cambridge; source AI-assistance disclosures
+    retained.
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1; pinned Mathlib and LeanCert; kernel-trust point inequalities and all-export
+      trust audits; separate statement and solution environments; two independent statement referees before
+      implementation. Local builds share a pinned dependency cache; committed dependencies are exact HTTPS
+      git pins.
+    prompting_notes: Reviewed statement boundary frozen before proof. Exact rational LDL and weighted
+      sum-of-squares certificates avoid eigenvalue computation and interval subdivision; block-matrix
+      identities reduce the actual projector to three scalar rational terms. Study IE-23, MI-03 and MI-29
+      norms/order and trust examples.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: The complete pair of monotonicity claims is disproved by the exact first two nonzero iterates
+    of undamped, zero-initial-guess LSMR on a real 4-by-3 system. The formalization proves the genuine
+    minimum-length normal-residual minimizers over the Krylov spaces, the matrix-only spectral backward-error
+    infimum and attainment, and the prescribed Moore–Penrose projector approximation. Both errors strictly
+    increase; the right-hand side remains fixed. All four exports passed fresh isolated Linux Comparator
+    and default-kernel checks, rejection controls, local kernel build, and both independent review phases.
+    Original evidence and independent operational audit retained.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IE17.iterates
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms: &id001
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IE17.backward_increase
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms: *id001
+  - declaration: NLA.IE17.approximation_increase
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms: *id001
+  - declaration: NLA.IE17.counterexample
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms: *id001
+  axioms: *id001
+fidelity:
+  divergences: Exact real arithmetic, zero initial guess, no damping, minimum-length tie convention, fixed
+    right-hand side, actual Euclidean operator norm. The spectral backward error is an actual infimum
+    with explicit attainment targets. Moore–Penrose identities are explicit targets. A nonstrict lower
+    bound at sqrt(99/100) suffices for the strict increase; no stronger source bound is claimed.
+review:
+  status: statement-and-proof-agent-reviewed; isolated-linux-verified
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_1
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  notes: Both independent statement reviews passed before proof implementation; both independent final
+    reviewers replayed the proof and checked its full declared scope, source hashes and all four exported
+    axiom closures. Actual isolated Linux Comparator/default-kernel verification and rejection controls
+    passed at d45afc8a197ffeeff94abfca59ef93acda22efa5 in run 34862174739. The original artifact, exact
+    tested inputs and independent operational PASS report are retained in verification/linux-2026-09-14.
+    Historical statement and proof-review metadata remain unchanged in their archived snapshots. No human
+    review or author endorsement is asserted. The complete original target is covered.
+alignment:
+- source: Exact successive nonzero LSMR iterates and full column rank
+  declarations:
+  - NLA.IE17.iterates
+- source: Attained optimal spectral backward errors increase
+  declarations:
+  - NLA.IE17.backward_increase
+- source: Actual projected approximation increases, with Moore–Penrose certificates
+  declarations:
+  - NLA.IE17.approximation_increase
+- source: Separate negative answers to both original questions
+  declarations:
+  - NLA.IE17.counterexample
+acknowledgements: Mathematical counterexample by Matthew J. Colbrook; original questions by Fong and Saunders.
+  Formalization by Sidney Holden with OpenAI Codex assistance. Mathlib, LeanCert, Lean Comparator and
+  formalization.yaml retain implementation credit and licenses.
