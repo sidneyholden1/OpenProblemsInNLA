@@ -1,0 +1,255 @@
+{
+  "verdict": "APPROVE",
+  "phase": "independent final mathematical/source review; Linux gate separate",
+  "reviewer": "OpenAI Codex /root/iv06_statement_referee_1, independent nonauthor AI agent",
+  "timestamp_utc": "2026-09-22T08:56:42.382469+00:00",
+  "no_candidate_edits": true,
+  "proof_snapshot_sha256": "16f5cf856c99687db4bab3cca8414d98b2bb62f9262cb745d810de25f9a40608",
+  "verified_snapshot_count": 45,
+  "verified_original_statement_count": 23,
+  "active_closure": [
+    {
+      "path": "NLA/MF22/ActualGreen.lean",
+      "sha256": "bace543e4a0f963a9ce3d7d97de85d4d97e5e37a72c6c150b1f17adfe2650213"
+    },
+    {
+      "path": "NLA/MF22/ActualSpectral.lean",
+      "sha256": "364d6315b07008b961550179a35b095104f306aaca68586db42188d3d7d8bfa3"
+    },
+    {
+      "path": "NLA/MF22/BoundaryGreen.lean",
+      "sha256": "22badb7e865a7f59561fff0c3e5920e0f01b6fe75c231c5b9586eaa531d106a8"
+    },
+    {
+      "path": "NLA/MF22/Cayley.lean",
+      "sha256": "67861ea7b7c177d8e1c926c7823376fa6edbd1acfdc28b16f574d2b9d03bd98f"
+    },
+    {
+      "path": "NLA/MF22/Coprime.lean",
+      "sha256": "184bb6b46ec162d8f1c23febb42993af632bf89daa5111660cc4eb0874fbadb9"
+    },
+    {
+      "path": "NLA/MF22/CubicRoots.lean",
+      "sha256": "51b4e784214b85ca95854d9efb3abeb170b085aff5fb7c53ebcefb1092e514ae"
+    },
+    {
+      "path": "NLA/MF22/Decomposition.lean",
+      "sha256": "ffde95e6492e6caa0e424bde248328d9dcb1f47badb539e66eb865a1cbb84bf5"
+    },
+    {
+      "path": "NLA/MF22/Definitions.lean",
+      "sha256": "98133016660b6feba3877f0765a7d9cab04aebe6d97bc3bf4c2dcb413302fe7a"
+    },
+    {
+      "path": "NLA/MF22/FinalBounds.lean",
+      "sha256": "960bf8ab194a331600ece11258cad41a53156a1e5210c90f265dc2f39b55ebd9"
+    },
+    {
+      "path": "NLA/MF22/GreenBounds.lean",
+      "sha256": "2cb7851ab25fecab931ad9abd60bc9a0d62da794a3efc60dfb17b6f9ec4ca2d8"
+    },
+    {
+      "path": "NLA/MF22/GrowthDenominator.lean",
+      "sha256": "64842436dffab3259055c01e97375104c7edaae35543a9051557f2529fd91eec"
+    },
+    {
+      "path": "NLA/MF22/InverseConstruction.lean",
+      "sha256": "d72437018dc568dae00927cc2b3620f4cb28614c308766155b8a27115229444e"
+    },
+    {
+      "path": "NLA/MF22/NormBounds.lean",
+      "sha256": "e709c672acfcf1c69f66b6c8ebcf980907a5eb3e0af5ce43deab72ab256af6b9"
+    },
+    {
+      "path": "NLA/MF22/Roots.lean",
+      "sha256": "faf888bee3866c0e2e05490a493d4637e3d7a659f0790052b156c248f29eb5cf"
+    },
+    {
+      "path": "NLA/MF22/Scalar.lean",
+      "sha256": "229f9d2280bc3064f46ca66f1e94fed8548886a50ff0024f528ba0a4beba6963"
+    },
+    {
+      "path": "NLA/MF22/Spectral.lean",
+      "sha256": "8a59a1356315c27d12aa6c8325d161659e2654b84c00bc5bc530b0e74f3085e3"
+    },
+    {
+      "path": "NLA/MF22/SpectralAdjugate.lean",
+      "sha256": "4833b8e0bc1e0565f4e106c56dbccc6d686beeb521fe5ba3ae5f6f7aa1c372f5"
+    },
+    {
+      "path": "NLA/MF22/SpectralBasis.lean",
+      "sha256": "ca5fce4b41cec37b610ec68e06916f5bfa97d11ba5f7adecc3066655d7a0e65b"
+    },
+    {
+      "path": "NLA/MF22/StateReconstruction.lean",
+      "sha256": "8cf09fa1ea17185ff5970895c18b6c1d83a4cb45a422d27b31b27fbbedb619f4"
+    },
+    {
+      "path": "NLA/MF22/ToeplitzRows.lean",
+      "sha256": "b41e23a8a29ad298d1f4547e031e9e23850d3e1ba7ea01ae778383c9a8836e4c"
+    },
+    {
+      "path": "NLA/MF22/Transfer.lean",
+      "sha256": "ff16f6bc1fc7fcee68bad7aacc9f6992d358a5a85d9b1f6ca61d96a0b8acf67a"
+    },
+    {
+      "path": "NLA/MF22/TransferEquations.lean",
+      "sha256": "667fad3d83cf82e9e5a5f1122e8ee7aeb41beda2f6b918f1f4670ee79f9f682b"
+    },
+    {
+      "path": "NLA/MF22/UniformNorm.lean",
+      "sha256": "939cfe13dc9d174c30a1dddd77c255c173c080938a6c0490a625e09cefd41b4a"
+    },
+    {
+      "path": "Solution.lean",
+      "sha256": "bb8f82a4164e161a69694dc5eec0378074a294d27ff5b1b706ccd9464171bac7"
+    }
+  ],
+  "proof_snapshot_hashes": {
+    "NLA/MF22/ActualGreen.lean": "bace543e4a0f963a9ce3d7d97de85d4d97e5e37a72c6c150b1f17adfe2650213",
+    "NLA/MF22/ActualSpectral.lean": "364d6315b07008b961550179a35b095104f306aaca68586db42188d3d7d8bfa3",
+    "NLA/MF22/BoundaryGreen.lean": "22badb7e865a7f59561fff0c3e5920e0f01b6fe75c231c5b9586eaa531d106a8",
+    "NLA/MF22/Cayley.lean": "67861ea7b7c177d8e1c926c7823376fa6edbd1acfdc28b16f574d2b9d03bd98f",
+    "NLA/MF22/Coprime.lean": "184bb6b46ec162d8f1c23febb42993af632bf89daa5111660cc4eb0874fbadb9",
+    "NLA/MF22/CubicRoots.lean": "51b4e784214b85ca95854d9efb3abeb170b085aff5fb7c53ebcefb1092e514ae",
+    "NLA/MF22/Decomposition.lean": "ffde95e6492e6caa0e424bde248328d9dcb1f47badb539e66eb865a1cbb84bf5",
+    "NLA/MF22/Definitions.lean": "98133016660b6feba3877f0765a7d9cab04aebe6d97bc3bf4c2dcb413302fe7a",
+    "NLA/MF22/FinalBounds.lean": "960bf8ab194a331600ece11258cad41a53156a1e5210c90f265dc2f39b55ebd9",
+    "NLA/MF22/GreenBounds.lean": "2cb7851ab25fecab931ad9abd60bc9a0d62da794a3efc60dfb17b6f9ec4ca2d8",
+    "NLA/MF22/GrowthDenominator.lean": "64842436dffab3259055c01e97375104c7edaae35543a9051557f2529fd91eec",
+    "NLA/MF22/InverseConstruction.lean": "d72437018dc568dae00927cc2b3620f4cb28614c308766155b8a27115229444e",
+    "NLA/MF22/NormBounds.lean": "e709c672acfcf1c69f66b6c8ebcf980907a5eb3e0af5ce43deab72ab256af6b9",
+    "NLA/MF22/Roots.lean": "faf888bee3866c0e2e05490a493d4637e3d7a659f0790052b156c248f29eb5cf",
+    "NLA/MF22/Scalar.lean": "229f9d2280bc3064f46ca66f1e94fed8548886a50ff0024f528ba0a4beba6963",
+    "NLA/MF22/Spectral.lean": "8a59a1356315c27d12aa6c8325d161659e2654b84c00bc5bc530b0e74f3085e3",
+    "NLA/MF22/SpectralAdjugate.lean": "4833b8e0bc1e0565f4e106c56dbccc6d686beeb521fe5ba3ae5f6f7aa1c372f5",
+    "NLA/MF22/SpectralBasis.lean": "ca5fce4b41cec37b610ec68e06916f5bfa97d11ba5f7adecc3066655d7a0e65b",
+    "NLA/MF22/StateReconstruction.lean": "8cf09fa1ea17185ff5970895c18b6c1d83a4cb45a422d27b31b27fbbedb619f4",
+    "NLA/MF22/ToeplitzRows.lean": "b41e23a8a29ad298d1f4547e031e9e23850d3e1ba7ea01ae778383c9a8836e4c",
+    "NLA/MF22/Transfer.lean": "ff16f6bc1fc7fcee68bad7aacc9f6992d358a5a85d9b1f6ca61d96a0b8acf67a",
+    "NLA/MF22/TransferEquations.lean": "667fad3d83cf82e9e5a5f1122e8ee7aeb41beda2f6b918f1f4670ee79f9f682b",
+    "NLA/MF22/UniformNorm.lean": "939cfe13dc9d174c30a1dddd77c255c173c080938a6c0490a625e09cefd41b4a",
+    "Solution.lean": "bb8f82a4164e161a69694dc5eec0378074a294d27ff5b1b706ccd9464171bac7",
+    "Challenge.lean": "3a244f409ad58bc4bb6ccfa23b2cf4a6d2eb2acc9680b16b82aacc91e079f4dd",
+    "NUMERICAL_TARGETS.md": "d5a9a7ab670ff5840f5f9072a29674baed1f0bc5179422c5daccae9b4ef85c91",
+    "README.md": "53d27996d0428c4a623ebc95986f21c250acccaf9fc9dad9d7e0539e33064b34",
+    "formalization.yaml": "0823bba9756193e559d192f32c1c0e5001dbd3a875f2873d48577abf6197b2b0",
+    "ANALYTIC_PROOF_NOTES.md": "b20d89b12ae698d31465354c8318174ad3411682f8ad9c9bab174a3a2267a8aa",
+    "PROOF_NOTES.md": "b0d8b0cc4a3aae2f6b8eb9c18ed21d277e25147ae3f23062272f7b5600e9b6ec",
+    "verification/author-local-completion.json": "fbc0d34ea4f123ee8a30ad76d4f9ff92c1c147b649b22ffbd2fe84bc34071d37",
+    "verification/analytic-author-receipt.json": "44c465674c8c81a77f7741159b2848ce40935f18846d4ebbf5e0c4aadcc6726a",
+    "verification/AnalyticAuthorAudit.lean": "788fcd88159539f30b83e8d2deb8caf2f1135f181acb7b4a398dc3c3fdeea284",
+    "verification/analytic-author-audit.log": "8c58a79ba29f98ffb3b9bcbe54aa1e4dee1c862b6f14a8974fadfe1fbeb0ab7f",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "fb18e7627e77ce25f39f8338156645cfc227ec7d2741a8e576c789162e3cf297",
+    "lake-manifest.json": "4c7c3442ac169d85bec540343b63bc31425f9aa750757608102d2d6fc8e536f3",
+    "comparator.json": "31e8f527df59cae0fb7a4a59db55a64f63a743ec47460616ec2035fe498ff182",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "verification/solution-build-final.log": "887c19ca60591fa227e5618b03816855f2d4d36aede366312e071e4a28252c60",
+    "verification/AuthorAudit.lean": "56e8f890a13f115833f58417cc6f69ba71e72aa5cecfebb52e26ea6e01c9859a",
+    "verification/author-audit.log": "919e2c3bf42d50e5a7178832bbc8dd7be82281de7a3738a5b05e92e442d44423",
+    "verification/metadata-local-complete.log": "7a33f55448f93a778c1b0aea180aa8c9f26bd8822a6ebfdf12491bc1808ff7ee",
+    "verification/metadata-local-complete.json": "fb75f40ab5d9b70770c95bac8b6941e6a1a186c952e7a86c95ab0a2fa39c19e1",
+    "verification/finish_local_proof.py": "b246510e6b6f3e4c1fde10b37802a4706b9a372bd5fbedc67c593838b266bdba"
+  },
+  "boundary_hashes": {
+    "NLA/MF22/Definitions.lean": "98133016660b6feba3877f0765a7d9cab04aebe6d97bc3bf4c2dcb413302fe7a",
+    "Challenge.lean": "3a244f409ad58bc4bb6ccfa23b2cf4a6d2eb2acc9680b16b82aacc91e079f4dd",
+    "NUMERICAL_TARGETS.md": "d5a9a7ab670ff5840f5f9072a29674baed1f0bc5179422c5daccae9b4ef85c91",
+    "README.md": "2c904e3f141aeb32c33e5b41d1ce7e52e9c52ba638db4231a437fb9e8081da6d",
+    "formalization.yaml": "f2860f0f81e1e208b66c33d4a343435fea62fc23899d9010736e8d07c8595e74",
+    "comparator.json": "31e8f527df59cae0fb7a4a59db55a64f63a743ec47460616ec2035fe498ff182",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "fb18e7627e77ce25f39f8338156645cfc227ec7d2741a8e576c789162e3cf297",
+    "lake-manifest.json": "4c7c3442ac169d85bec540343b63bc31425f9aa750757608102d2d6fc8e536f3",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "../README.md": "1e47aed8795445d4b2fd7736d4ec0420dee5460f1fd12de37097f58d3d752eda",
+    "../solution.md": "a274a6401b27037bb5034cbffe87f02204fdcb663c40a9a7adfe033a19283edb",
+    "../solution.tex": "1456bf2df421bb039f33bf32a6f7670975e724a89dd3e885dc946ffe024dd5b7",
+    "../../../references/stepaniants-mf22-2026-09-11/verification/MF-22-independent-review.md": "256c61373b594db549bf5aef4c62a0f996b3d812d4b797cb47a7a8122e5fd1d8",
+    "verification/statement-build-final.log": "0f757960675277c1750bd526e10f21cd7e0acecc2ff952326f4e6131fed2d009",
+    "verification/statement-local.json": "d4b983dfe27eb7fc3226f6f648fab3d0bec1106a44768fedf8f6f84b26ab1c36",
+    "verification/DefinitionsProbe.lean": "88111453d492b28d4723b9cebd3ecd1335f882e36b26c6df8dde612c1a299b66",
+    "verification/definitions-probe.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/check_draft_metadata.py": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4",
+    "verification/metadata-draft.log": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8",
+    "verification/source_exact_check.py": "d3fb077f0562a75efc7aeab8c974fe64f2739b08bf52cbee93dbd5bfb21946a6",
+    "verification/source-exact-check.json": "6241d238f0535d7279f6415212b761b3fd3cbf7267ba846c5f9d03d4badb0553",
+    "verification/source-exact-check.log": "1d15868e91eb8338150c2e8b179a64d566b542b3da4e2a4c88060bda0fdb8285"
+  },
+  "boundary_retention_map": {
+    "NLA/MF22/Definitions.lean": "NLA/MF22/Definitions.lean",
+    "Challenge.lean": "Challenge.lean",
+    "NUMERICAL_TARGETS.md": "NUMERICAL_TARGETS.md",
+    "README.md": "reviews/statement-original/README.md",
+    "formalization.yaml": "reviews/statement-original/formalization.yaml",
+    "comparator.json": "comparator.json",
+    "lean-toolchain": "lean-toolchain",
+    "lakefile.toml": "lakefile.toml",
+    "lake-manifest.json": "lake-manifest.json",
+    "LICENSE": "LICENSE",
+    "../README.md": "../README.md",
+    "../solution.md": "../solution.md",
+    "../solution.tex": "../solution.tex",
+    "../../../references/stepaniants-mf22-2026-09-11/verification/MF-22-independent-review.md": "../../../references/stepaniants-mf22-2026-09-11/verification/MF-22-independent-review.md",
+    "verification/statement-build-final.log": "verification/statement-build-final.log",
+    "verification/statement-local.json": "verification/statement-local.json",
+    "verification/DefinitionsProbe.lean": "verification/DefinitionsProbe.lean",
+    "verification/definitions-probe.log": "verification/definitions-probe.log",
+    "verification/check_draft_metadata.py": "verification/check_draft_metadata.py",
+    "verification/metadata-draft.log": "verification/metadata-draft.log",
+    "verification/source_exact_check.py": "verification/source_exact_check.py",
+    "verification/source-exact-check.json": "verification/source-exact-check.json",
+    "verification/source-exact-check.log": "verification/source-exact-check.log"
+  },
+  "library_api_hashes": {
+    "Mathlib/Analysis/CStarAlgebra/Matrix.lean": "79518c9e51c4d0cf4083ab69a9ac7a2817305b48db1fe6f25ae1d678e12ce223",
+    "Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880",
+    "Mathlib/Algebra/CubicDiscriminant.lean": "ca5bc03b0bf418b60f8b828c598304e348d56b14635909f29ba0706ef9b546ec",
+    "Mathlib/LinearAlgebra/FiniteDimensional/Lemmas.lean": "2b383a91a6e4566f630b2c682506d4305a0098d9d085387e9e3bdb1d3126f129"
+  },
+  "leancert_trust_api": {
+    "path": "LeanCert/Tactic/Verification.lean",
+    "sha256": "2c576708b528acdde17796b0b715b83079f9cad377182dbd87c248323ff0a58c",
+    "actual_use": "#assert_trust kernel transitive axiom audit, no interval numeric certificate used or needed by the exact algebraic proof"
+  },
+  "own_execution": {
+    "verdict": "PASS",
+    "reviewer": "OpenAI Codex /root/iv06_statement_referee_1, independent nonauthor AI agent",
+    "command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee1FinalConsumer.lean",
+    "exit_code": 0,
+    "exports": [
+      "NLA.MF22.uniform_norm_bound",
+      "NLA.MF22.eventual_inverse_entry_bound",
+      "NLA.MF22.linear_condition_bound",
+      "NLA.MF22.original_target"
+    ],
+    "checks": "Four literal approved signatures consumed, four LeanCert kernel assertions, actual four axiom closures printed, actual L2 forward/inverse norm equalities by rfl, singular condition equals infinity.",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "consumer_sha256": "e6f08dd839b9a4629e5fc4ed0e0cbd0c0ecfa97bf1553f84902cbd4230fffcbe",
+    "log_sha256": "b88fa5ffec85960f83b36d7823a761b2ade5315edb3d7d0de7ca632525a6a0ea"
+  },
+  "evidence_hashes": {
+    "verification/referee-1-final-consumer.json": "5dcf91c8d8834ad31044f97efc90755f28c0217791bd3aaf09949c24460dbfbd",
+    "verification/referee-1-final-consumer.log": "b88fa5ffec85960f83b36d7823a761b2ade5315edb3d7d0de7ca632525a6a0ea",
+    "verification/Referee1FinalConsumer.lean": "e6f08dd839b9a4629e5fc4ed0e0cbd0c0ecfa97bf1553f84902cbd4230fffcbe",
+    "verification/local-proof-20260922.json": "07812115450a0044b26ab5cb9731ea58853ee0f48664e482770d7cc3aaf93195",
+    "verification/solution-build-final.log": "887c19ca60591fa227e5618b03816855f2d4d36aede366312e071e4a28252c60",
+    "verification/author-audit.log": "919e2c3bf42d50e5a7178832bbc8dd7be82281de7a3738a5b05e92e442d44423",
+    "verification/metadata-local-complete.log": "7a33f55448f93a778c1b0aea180aa8c9f26bd8822a6ebfdf12491bc1808ff7ee",
+    "reviews/statement-gate.json": "6c3bbacaa45095cdc88100c8e6b12006f90b2c0c2707a7b5a8f08388c30dd639",
+    "reviews/statement-referee-1.md": "fa7c5c865fb6a833041b1549de008e1b6e4c8063aaa7bf53e076e1ee0c2e2256",
+    "reviews/referee-1-statement-evidence.json": "6ab1f1af67b3bd9fc4d38026ec2c84021043122f1ac82f5ebda4fe0fb299ae72"
+  },
+  "execution_provenance": "Full Solution3432 build and official metadata validation were performed by authors and their final logs were inspected. Reviewer separately ran its own exact-type/kernel/axiom/norm consumer; no duplicate full build, no Linux run by reviewer.",
+  "material_findings": [],
+  "limits": [
+    "No actual Linux Comparator acceptance claimed.",
+    "AI-agent review, not external human peer review.",
+    "Uniform in integer dimension for each fixed rho; not uniform in rho and not every small n."
+  ]
+}

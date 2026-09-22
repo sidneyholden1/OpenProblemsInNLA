@@ -1,0 +1,32 @@
+{
+  "verdict": "PASS, actual scalar/spectral/Green modules only",
+  "author": "OpenAI Codex /root/new_target_screen",
+  "independent_review": false,
+  "audit_exit_code": 0,
+  "kernel_assertions": 4,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "all_23_frozen_statement_hashes_match": true,
+  "hashes": {
+    "NLA/MF22/Scalar.lean": "229f9d2280bc3064f46ca66f1e94fed8548886a50ff0024f528ba0a4beba6963",
+    "NLA/MF22/Coprime.lean": "184bb6b46ec162d8f1c23febb42993af632bf89daa5111660cc4eb0874fbadb9",
+    "NLA/MF22/CubicRoots.lean": "51b4e784214b85ca95854d9efb3abeb170b085aff5fb7c53ebcefb1092e514ae",
+    "NLA/MF22/Cayley.lean": "67861ea7b7c177d8e1c926c7823376fa6edbd1acfdc28b16f574d2b9d03bd98f",
+    "NLA/MF22/Roots.lean": "faf888bee3866c0e2e05490a493d4637e3d7a659f0790052b156c248f29eb5cf",
+    "NLA/MF22/SpectralBasis.lean": "ca5fce4b41cec37b610ec68e06916f5bfa97d11ba5f7adecc3066655d7a0e65b",
+    "NLA/MF22/SpectralAdjugate.lean": "4833b8e0bc1e0565f4e106c56dbccc6d686beeb521fe5ba3ae5f6f7aa1c372f5",
+    "NLA/MF22/Decomposition.lean": "ffde95e6492e6caa0e424bde248328d9dcb1f47badb539e66eb865a1cbb84bf5",
+    "NLA/MF22/Spectral.lean": "8a59a1356315c27d12aa6c8325d161659e2654b84c00bc5bc530b0e74f3085e3",
+    "NLA/MF22/ActualSpectral.lean": "364d6315b07008b961550179a35b095104f306aaca68586db42188d3d7d8bfa3",
+    "NLA/MF22/GrowthDenominator.lean": "64842436dffab3259055c01e97375104c7edaae35543a9051557f2529fd91eec",
+    "NLA/MF22/GreenBounds.lean": "2cb7851ab25fecab931ad9abd60bc9a0d62da794a3efc60dfb17b6f9ec4ca2d8",
+    "NLA/MF22/ActualGreen.lean": "bace543e4a0f963a9ce3d7d97de85d4d97e5e37a72c6c150b1f17adfe2650213",
+    "ANALYTIC_PROOF_NOTES.md": "b20d89b12ae698d31465354c8318174ad3411682f8ad9c9bab174a3a2267a8aa",
+    "verification/AnalyticAuthorAudit.lean": "788fcd88159539f30b83e8d2deb8caf2f1135f181acb7b4a398dc3c3fdeea284",
+    "verification/analytic-author-audit.log": "8c58a79ba29f98ffb3b9bcbe54aa1e4dee1c862b6f14a8974fadfe1fbeb0ab7f",
+    "verification/actual-green-build.log": "2f1b4add93ad69a93346800f0ebebba1cd11094446cb325bc1137dbc582f4fc1"
+  }
+}

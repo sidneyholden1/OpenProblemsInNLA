@@ -1,0 +1,65 @@
+✖ [3104/3104] Building NLA.MF22.SpectralBasis (4.8s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/SpectralBasis.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/SpectralBasis.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/SpectralBasis.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/SpectralBasis.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/SpectralBasis.setup.json --json
+error: NLA/MF22/SpectralBasis.lean:21:11: failed to synthesize instance of type class
+  Decidable (Nonempty (Fin 4))
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: NLA/MF22/SpectralBasis.lean:24:25: Type mismatch
+  congrFun (coe_basisOfPiSpaceOfLinearIndependent hli) i
+has type
+  (basisOfPiSpaceOfLinearIndependent hli) i = v i
+but is expected to have type
+  b i = v i
+error: NLA/MF22/SpectralBasis.lean:39:16: unsolved goals
+case succ
+T : Matrix (Fin 4) (Fin 4) ℂ
+ev : Fin 4 → ℂ
+b : Module.Basis (Fin 4) ℂ (Fin 4 → ℂ)
+he : ∀ (a : Fin 4), T *ᵥ b a = ev a • b a
+k : ℕ
+i j a : Fin 4
+m : ℕ
+ih : T ^ m *ᵥ b a = ev a ^ m • b a
+⊢ (ev a ^ m * ev a) • b a = (ev a * ev a ^ m) • b a
+error: NLA/MF22/SpectralBasis.lean:46:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  MulOpposite.op 1 • (T ^ k) i j
+in the target expression
+  (T ^ k) i j = ∑ a, ev a ^ k * basisProjector b a i j
+
+T : Matrix (Fin 4) (Fin 4) ℂ
+ev : Fin 4 → ℂ
+b : Module.Basis (Fin 4) ℂ (Fin 4 → ℂ)
+he : ∀ (a : Fin 4), T *ᵥ b a = ev a • b a
+k : ℕ
+i j : Fin 4
+hp : ∀ (m : ℕ) (a : Fin 4), T ^ m *ᵥ b a = ev a ^ m • b a
+hs : ∑ i, (b.repr (Pi.single j 1)) i • b i = Pi.single j 1
+ha : ∑ x, (b.repr (Pi.single j 1)) x * (ev x ^ k * b x i) = MulOpposite.op 1 • (T ^ k) i j
+⊢ (T ^ k) i j = ∑ a, ev a ^ k * basisProjector b a i j
+
+Note: The target expression is not type-correct under the `implicit` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  function expected
+    (T ^ k) i
+warning: NLA/MF22/SpectralBasis.lean:44:51: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mulVec_sum, Matrix.mulVec_smul, hp, Finset.sum_apply, Pi.smul_apply, smul_eq_mul,
+    Matrix.mulVec_single] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/SpectralBasis.lean:45:13: This simp argument is unused:
+  one_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.col_apply] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: NLA/MF22/SpectralBasis.lean:58:21: #assert_trust: 'NLA.MF22.eigenbasis_exists' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.SpectralBasis
+error: build failed

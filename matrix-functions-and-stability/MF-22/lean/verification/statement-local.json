@@ -1,0 +1,17 @@
+{
+  "phase": "statements only; no proof implementation",
+  "base_commit": "45c59bce549bbd90aef325901a9ebeefc270a1c0",
+  "fresh_https_main_at_setup": "45c59bce549bbd90aef325901a9ebeefc270a1c0",
+  "build_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake build Challenge",
+  "build_exit_code": 0,
+  "build_jobs": 2401,
+  "expected_challenge_placeholders": 4,
+  "definition_probe_exit_code": 0,
+  "metadata_draft_exit_code": 0,
+  "source_diagnostic_exit_code": 0,
+  "source_diagnostic_checks": 31,
+  "source_diagnostic_attribution": "Rerun of retained independent source Gaussian-integer polynomial checker, with source/output paths adapted; not newly independent authorship and not a Lean proof.",
+  "build_log_sha256": "0f757960675277c1750bd526e10f21cd7e0acecc2ff952326f4e6131fed2d009",
+  "definitions_probe_sha256": "88111453d492b28d4723b9cebd3ecd1335f882e36b26c6df8dde612c1a299b66",
+  "limitations": "Original failed Definitions notation diagnostic retained in statement-build.log; final corrected boundary passes. No Solution implementation, final review or Linux Comparator claim."
+}

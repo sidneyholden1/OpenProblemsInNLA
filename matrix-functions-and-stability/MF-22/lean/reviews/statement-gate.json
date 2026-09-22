@@ -1,0 +1,32 @@
+{
+  "verdict": "PASS; proof implementation may begin",
+  "date_utc": "2026-09-22T08:19:48.512993+00:00",
+  "coordinator": "OpenAI Codex /root",
+  "statement_snapshot_sha256": "4cea46439c2562c3ffa1387e88ba2e0f03f0cd8b6a467ef2ee3ea917b94ff975",
+  "frozen_input_count": 23,
+  "all_frozen_inputs_recomputed": true,
+  "independent_nonauthor_reviewers": [
+    "OpenAI Codex /root",
+    "OpenAI Codex /root/iv06_statement_referee_1"
+  ],
+  "authors_excluded_as_referees": [
+    "OpenAI Codex /root/iv06_statement_referee_2",
+    "OpenAI Codex /root/new_target_screen"
+  ],
+  "both_actual_reports_read_in_full": true,
+  "reports_and_evidence_sha256": {
+    "statement-referee-root.md": "66c8a8a52371cfb7d2e205881957bf1ed40050d58288f152951a979e6af6f538",
+    "statement-referee-1.md": "fa7c5c865fb6a833041b1549de008e1b6e4c8063aaa7bf53e076e1ee0c2e2256",
+    "root-statement-evidence.json": "d376b60f931b7d7515f13b6215ed6bbacbf27b7b199825ef3d64466c2aa4cda8",
+    "referee-1-statement-evidence.json": "6ab1f1af67b3bd9fc4d38026ec2c84021043122f1ac82f5ebda4fe0fb299ae72"
+  },
+  "Challenge_elaboration": "PASS2401jobs, four intentional placeholders",
+  "Solution_absent_at_gate": true,
+  "no_mathematical_proof_modules_at_gate": true,
+  "remaining_gates": [
+    "full exact proof",
+    "two independent nonauthor final reviews",
+    "actual Linux Comparator/default kernel and rejection/isolation controls",
+    "truthful official manifest and publication checks"
+  ]
+}

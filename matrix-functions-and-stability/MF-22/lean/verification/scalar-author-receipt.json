@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS, bounded scalar/root modules only",
+  "author": "OpenAI Codex /root/new_target_screen",
+  "independent_review": false,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "kernel_assertions": 2,
+  "audit_exit_code": 0,
+  "all_23_frozen_statement_bytes_unchanged": true,
+  "hashes": {
+    "NLA/MF22/Scalar.lean": "229f9d2280bc3064f46ca66f1e94fed8548886a50ff0024f528ba0a4beba6963",
+    "NLA/MF22/Coprime.lean": "184bb6b46ec162d8f1c23febb42993af632bf89daa5111660cc4eb0874fbadb9",
+    "NLA/MF22/CubicRoots.lean": "51b4e784214b85ca95854d9efb3abeb170b085aff5fb7c53ebcefb1092e514ae",
+    "NLA/MF22/Cayley.lean": "67861ea7b7c177d8e1c926c7823376fa6edbd1acfdc28b16f574d2b9d03bd98f",
+    "NLA/MF22/Roots.lean": "faf888bee3866c0e2e05490a493d4637e3d7a659f0790052b156c248f29eb5cf",
+    "verification/scalar-build.log": "25fe8cfac98329f053251be82fbb3e2fa55ed3033369938197cda14a443330a1",
+    "verification/coprime-build.log": "30ba3ced8c13fd1b0cd7db5902ae0686e02a4f5951506d15ef8f656ddf8dd627",
+    "verification/roots-build.log": "15d9526c74e2346241cbafce5f2bbf72372acb84056afd813ad38b71964f28bb",
+    "verification/ScalarAuthorAudit.lean": "d37a71cc492faf15236710391a61224af7d2037b36baa28d8a72e8b00bd5c173",
+    "verification/scalar-author-audit.log": "c28f7bb9bb79b47a3aefd6046cee1a8e4207cff769a07b93b5ad16afbf15073c"
+  }
+}

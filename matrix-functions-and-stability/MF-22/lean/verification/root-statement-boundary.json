@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "reviewer": "OpenAI Codex /root, independent prospective nonauthor MF22 statement referee",
+  "scope": "Exact integer symbolic coefficient diagnostic of literal 80H against all source recurrence entries for n=1..8; finite transcription/boundary check, not proof of arbitrary-size theorem",
+  "scalar_convention": "tuple(real constant, imaginary constant, real rho coefficient, imaginary rho coefficient); integer equality only",
+  "results": [
+    {
+      "block_order": 1,
+      "scalar_entries_checked": 4,
+      "PASS": true
+    },
+    {
+      "block_order": 2,
+      "scalar_entries_checked": 16,
+      "PASS": true
+    },
+    {
+      "block_order": 3,
+      "scalar_entries_checked": 36,
+      "PASS": true
+    },
+    {
+      "block_order": 4,
+      "scalar_entries_checked": 64,
+      "PASS": true
+    },
+    {
+      "block_order": 5,
+      "scalar_entries_checked": 100,
+      "PASS": true
+    },
+    {
+      "block_order": 6,
+      "scalar_entries_checked": 144,
+      "PASS": true
+    },
+    {
+      "block_order": 7,
+      "scalar_entries_checked": 196,
+      "PASS": true
+    },
+    {
+      "block_order": 8,
+      "scalar_entries_checked": 256,
+      "PASS": true
+    }
+  ],
+  "total_entries": 816,
+  "source_sha256": {
+    "README.md": "1e47aed8795445d4b2fd7736d4ec0420dee5460f1fd12de37097f58d3d752eda",
+    "solution.md": "a274a6401b27037bb5034cbffe87f02204fdcb663c40a9a7adfe033a19283edb",
+    "solution.tex": "1456bf2df421bb039f33bf32a6f7670975e724a89dd3e885dc946ffe024dd5b7",
+    "lean/NLA/MF22/Definitions.lean": "98133016660b6feba3877f0765a7d9cab04aebe6d97bc3bf4c2dcb413302fe7a",
+    "lean/Challenge.lean": "3a244f409ad58bc4bb6ccfa23b2cf4a6d2eb2acc9680b16b82aacc91e079f4dd"
+  },
+  "limits": "Candidate may still be unfrozen; final approval must bind fresh exact statement snapshot. No candidate source changed."
+}

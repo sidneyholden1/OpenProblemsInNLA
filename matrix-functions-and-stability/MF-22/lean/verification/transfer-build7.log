@@ -1,0 +1,491 @@
+⚠ [3403/3404] Replayed NLA.MF22.Scalar
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✖ [3404/3404] Building NLA.MF22.Transfer (15s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/Transfer.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Transfer.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Transfer.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Transfer.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Transfer.setup.json --json
+warning: NLA/MF22/Transfer.lean:35:30: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: NLA/MF22/Transfer.lean:52:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: NLA/MF22/Transfer.lean:41:61: unsolved goals
+a b c d e f g h z : ℂ
+h0 : Fin.succAbove 0 = ![1, 2, 3]
+h1 : Fin.succAbove 1 = ![0, 2, 3]
+h2 : Fin.succAbove 2 = ![0, 1, 3]
+h3 : Fin.succAbove 3 = ![0, 1, 2]
+hs : Fin.succ = ![1, 2, 3]
+⊢ (((((((((((((((((((((((⋯ - ⋯ - ⋯ * ⋯ + ⋯ * ⋯ * Matrix.vecCons (z * e) ⋯ ⋯ +
+                                                                                                ⋯ * ⋯ *
+                                                                                                    Matrix.vecCons
+                                                                                                      (z * a) ⋯ 2 *
+                                                                                                  if ⋯ = ⋯ then 1
+                                                                                                  else 0) -
+                                                                                              (Matrix.vecCons (z * b) ⋯
+                                                                                                      ⋯ *
+                                                                                                    if ⋯ then 1
+                                                                                                    else 0) *
+                                                                                                  ![z * a, z * b, z * c,
+                                                                                                      z * d]
+                                                                                                    2 *
+                                                                                                ![z * e, z * f, z * g,
+                                                                                                    z * h]
+                                                                                                  (Matrix.vecCons 0
+                                                                                                    (Matrix.vecCons 1 ⋯)
+                                                                                                    2) -
+                                                                                            (Matrix.vecCons (z * b)
+                                                                                                    (fun i => ⋯)
+                                                                                                    (Matrix.vecCons 1 ⋯
+                                                                                                      2) *
+                                                                                                  if ⋯ = 0 then 1
+                                                                                                  else 0) *
+                                                                                                ![z * a, z * b, z * c,
+                                                                                                    z * d]
+                                                                                                  3 *
+                                                                                              if
+                                                                                                  1 =
+                                                                                                    Matrix.vecCons 0
+                                                                                                      (Matrix.vecCons 1
+                                                                                                        ⋯)
+                                                                                                      2 then
+                                                                                                1
+                                                                                              else 0) +
+                                                                                          (Matrix.vecCons (z * b)
+                                                                                                  (fun i =>
+                                                                                                    Matrix.vecCons
+                                                                                                      (z * f)
+                                                                                                      (fun i =>
+                                                                                                        Matrix.vecCons 0
+                                                                                                          (fun i => z)
+                                                                                                          i)
+                                                                                                      i)
+                                                                                                  (Matrix.vecCons 1
+                                                                                                    (Matrix.vecCons 2 ⋯)
+                                                                                                    2) *
+                                                                                                if 2 = 0 then 1
+                                                                                                else 0) *
+                                                                                              ![z * a, z * b, z * c,
+                                                                                                  z * d]
+                                                                                                3 *
+                                                                                            ![z * e, z * f, z * g,
+                                                                                                z * h]
+                                                                                              (![0, 1, 2] 2) +
+                                                                                        ((Matrix.vecCons (z * b)
+                                                                                                (fun i =>
+                                                                                                  Matrix.vecCons (z * f)
+                                                                                                    (fun i =>
+                                                                                                      Matrix.vecCons 0
+                                                                                                        (fun i => z) i)
+                                                                                                    i)
+                                                                                                (![1, 2, 3] 2) *
+                                                                                              if 2 = 0 then 1 else 0) *
+                                                                                            if 0 = 3 then 1 else 0) *
+                                                                                          if 1 = ![0, 1, 2] 2 then 1
+                                                                                          else 0) -
+                                                                                      ((Matrix.vecCons (z * b)
+                                                                                              (fun i =>
+                                                                                                Matrix.vecCons (z * f)
+                                                                                                  (fun i =>
+                                                                                                    Matrix.vecCons 0
+                                                                                                      (fun i => z) i)
+                                                                                                  i)
+                                                                                              (![1, 2, 3] 2) *
+                                                                                            if 2 = 0 then 1 else 0) *
+                                                                                          if 0 = 3 then 1 else 0) *
+                                                                                        ![z * e, z * f, z * g, z * h]
+                                                                                          (![0, 1, 2] 2) +
+                                                                                    (Matrix.vecCons (z * b)
+                                                                                            (fun i =>
+                                                                                              Matrix.vecCons (z * f)
+                                                                                                (fun i =>
+                                                                                                  Matrix.vecCons 0
+                                                                                                    (fun i => z) i)
+                                                                                                i)
+                                                                                            (![1, 2, 3] 2) *
+                                                                                          Matrix.vecCons (z * a)
+                                                                                            (fun i =>
+                                                                                              Matrix.vecCons (z * e)
+                                                                                                (fun i =>
+                                                                                                  Matrix.vecCons z
+                                                                                                    (fun i => 0) i)
+                                                                                                i)
+                                                                                            2 *
+                                                                                        if 0 = 2 then 1 else 0) *
+                                                                                      if 1 = ![0, 1, 3] 2 then 1
+                                                                                      else 0) -
+                                                                                  (Matrix.vecCons (z * b)
+                                                                                          (fun i =>
+                                                                                            Matrix.vecCons (z * f)
+                                                                                              (fun i =>
+                                                                                                Matrix.vecCons 0
+                                                                                                  (fun i => z) i)
+                                                                                              i)
+                                                                                          (![1, 2, 3] 2) *
+                                                                                        Matrix.vecCons (z * a)
+                                                                                          (fun i =>
+                                                                                            Matrix.vecCons (z * e)
+                                                                                              (fun i =>
+                                                                                                Matrix.vecCons z
+                                                                                                  (fun i => 0) i)
+                                                                                              i)
+                                                                                          2 *
+                                                                                      if 0 = 2 then 1 else 0) *
+                                                                                    ![z * e, z * f, z * g, z * h]
+                                                                                      (![0, 1, 3] 2) -
+                                                                                Matrix.vecCons (z * b)
+                                                                                        (fun i =>
+                                                                                          Matrix.vecCons (z * f)
+                                                                                            (fun i =>
+                                                                                              Matrix.vecCons 0
+                                                                                                (fun i => z) i)
+                                                                                            i)
+                                                                                        (![1, 2, 3] 2) *
+                                                                                      Matrix.vecCons (z * a)
+                                                                                        (fun i =>
+                                                                                          Matrix.vecCons (z * e)
+                                                                                            (fun i =>
+                                                                                              Matrix.vecCons z
+                                                                                                (fun i => 0) i)
+                                                                                            i)
+                                                                                        2 *
+                                                                                    ![z * a, z * b, z * c, z * d] 2 *
+                                                                                  if 1 = ![0, 1, 3] 2 then 1 else 0) +
+                                                                              Matrix.vecCons (z * b)
+                                                                                      (fun i =>
+                                                                                        Matrix.vecCons (z * f)
+                                                                                          (fun i =>
+                                                                                            Matrix.vecCons 0
+                                                                                              (fun i => z) i)
+                                                                                          i)
+                                                                                      (![1, 2, 3] 2) *
+                                                                                    Matrix.vecCons (z * a)
+                                                                                      (fun i =>
+                                                                                        Matrix.vecCons (z * e)
+                                                                                          (fun i =>
+                                                                                            Matrix.vecCons z
+                                                                                              (fun i => 0) i)
+                                                                                          i)
+                                                                                      2 *
+                                                                                  ![z * a, z * b, z * c, z * d] 2 *
+                                                                                ![z * e, z * f, z * g, z * h]
+                                                                                  (![0, 1, 3] 2) +
+                                                                            Matrix.vecCons (z * b)
+                                                                                    (fun i =>
+                                                                                      Matrix.vecCons (z * f)
+                                                                                        (fun i =>
+                                                                                          Matrix.vecCons 0 (fun i => z)
+                                                                                            i)
+                                                                                        i)
+                                                                                    (![1, 2, 3] 2) *
+                                                                                  Matrix.vecCons (z * a)
+                                                                                    (fun i =>
+                                                                                      Matrix.vecCons (z * e)
+                                                                                        (fun i =>
+                                                                                          Matrix.vecCons z (fun i => 0)
+                                                                                            i)
+                                                                                        i)
+                                                                                    2 *
+                                                                                ![z * a, z * b, z * c, z * d] 3 *
+                                                                              if 1 = ![0, 1, 2] 2 then 1 else 0) -
+                                                                          Matrix.vecCons (z * b)
+                                                                                  (fun i =>
+                                                                                    Matrix.vecCons (z * f)
+                                                                                      (fun i =>
+                                                                                        Matrix.vecCons 0 (fun i => z) i)
+                                                                                      i)
+                                                                                  (![1, 2, 3] 2) *
+                                                                                Matrix.vecCons (z * a)
+                                                                                  (fun i =>
+                                                                                    Matrix.vecCons (z * e)
+                                                                                      (fun i =>
+                                                                                        Matrix.vecCons z (fun i => 0) i)
+                                                                                      i)
+                                                                                  2 *
+                                                                              ![z * a, z * b, z * c, z * d] 3 *
+                                                                            ![z * e, z * f, z * g, z * h]
+                                                                              (![0, 1, 2] 2) -
+                                                                        (Matrix.vecCons (z * b)
+                                                                                (fun i =>
+                                                                                  Matrix.vecCons (z * f)
+                                                                                    (fun i =>
+                                                                                      Matrix.vecCons 0 (fun i => z) i)
+                                                                                    i)
+                                                                                (![1, 2, 3] 2) *
+                                                                              Matrix.vecCons (z * a)
+                                                                                (fun i =>
+                                                                                  Matrix.vecCons (z * e)
+                                                                                    (fun i =>
+                                                                                      Matrix.vecCons z (fun i => 0) i)
+                                                                                    i)
+                                                                                2 *
+                                                                            if 0 = 3 then 1 else 0) *
+                                                                          if 1 = ![0, 1, 2] 2 then 1 else 0) +
+                                                                      (Matrix.vecCons (z * b)
+                                                                              (fun i =>
+                                                                                Matrix.vecCons (z * f)
+                                                                                  (fun i =>
+                                                                                    Matrix.vecCons 0 (fun i => z) i)
+                                                                                  i)
+                                                                              (![1, 2, 3] 2) *
+                                                                            Matrix.vecCons (z * a)
+                                                                              (fun i =>
+                                                                                Matrix.vecCons (z * e)
+                                                                                  (fun i =>
+                                                                                    Matrix.vecCons z (fun i => 0) i)
+                                                                                  i)
+                                                                              2 *
+                                                                          if 0 = 3 then 1 else 0) *
+                                                                        ![z * e, z * f, z * g, z * h] (![0, 1, 2] 2) -
+                                                                    ((if 2 = 0 then 1 else 0) *
+                                                                        if 0 = 2 then 1 else 0) *
+                                                                      if ![1, 2, 3] 2 = ![0, 1, 3] 2 then 1 else 0) +
+                                                                  ((if 2 = 0 then 1 else 0) * if 0 = 2 then 1 else 0) *
+                                                                    Matrix.vecCons
+                                                                      (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                                                                      (fun i =>
+                                                                        Matrix.vecCons
+                                                                          (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                                                                          (fun i =>
+                                                                            Matrix.vecCons
+                                                                              (![z, 0, 0, 0] (![0, 1, 3] 2))
+                                                                              (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                                                                          i)
+                                                                      (![1, 2, 3] 2) +
+                                                                (if 2 = 0 then 1 else 0) *
+                                                                    ![z * a, z * b, z * c, z * d] 2 *
+                                                                  if ![1, 2, 3] 2 = ![0, 1, 3] 2 then 1 else 0) -
+                                                              (if 2 = 0 then 1 else 0) *
+                                                                  ![z * a, z * b, z * c, z * d] 2 *
+                                                                Matrix.vecCons
+                                                                  (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                                                                  (fun i =>
+                                                                    Matrix.vecCons
+                                                                      (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                                                                      (fun i =>
+                                                                        Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2))
+                                                                          (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                                                                      i)
+                                                                  (![1, 2, 3] 2) -
+                                                            (if 2 = 0 then 1 else 0) * ![z * a, z * b, z * c, z * d] 3 *
+                                                              if ![1, 2, 3] 2 = ![0, 1, 2] 2 then 1 else 0) +
+                                                          (if 2 = 0 then 1 else 0) * ![z * a, z * b, z * c, z * d] 3 *
+                                                            Matrix.vecCons
+                                                              (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+                                                              (fun i =>
+                                                                Matrix.vecCons
+                                                                  (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                                                                  (fun i =>
+                                                                    Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2))
+                                                                      (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i)
+                                                                  i)
+                                                              (![1, 2, 3] 2) +
+                                                        ((if 2 = 0 then 1 else 0) * if 0 = 3 then 1 else 0) *
+                                                          if ![1, 2, 3] 2 = ![0, 1, 2] 2 then 1 else 0) -
+                                                      ((if 2 = 0 then 1 else 0) * if 0 = 3 then 1 else 0) *
+                                                        Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+                                                          (fun i =>
+                                                            Matrix.vecCons
+                                                              (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                                                              (fun i =>
+                                                                Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2))
+                                                                  (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i)
+                                                              i)
+                                                          (![1, 2, 3] 2) +
+                                                    (Matrix.vecCons (z * a)
+                                                          (fun i =>
+                                                            Matrix.vecCons (z * e)
+                                                              (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                                          2 *
+                                                        if 0 = 2 then 1 else 0) *
+                                                      if ![1, 2, 3] 2 = ![0, 1, 3] 2 then 1 else 0) -
+                                                  (Matrix.vecCons (z * a)
+                                                        (fun i =>
+                                                          Matrix.vecCons (z * e)
+                                                            (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                                        2 *
+                                                      if 0 = 2 then 1 else 0) *
+                                                    Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                                                      (fun i =>
+                                                        Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                                                          (fun i =>
+                                                            Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2))
+                                                              (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                                                          i)
+                                                      (![1, 2, 3] 2) -
+                                                Matrix.vecCons (z * a)
+                                                      (fun i =>
+                                                        Matrix.vecCons (z * e)
+                                                          (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                                      2 *
+                                                    ![z * a, z * b, z * c, z * d] 2 *
+                                                  if ![1, 2, 3] 2 = ![0, 1, 3] 2 then 1 else 0) +
+                                              Matrix.vecCons (z * a)
+                                                    (fun i =>
+                                                      Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i)
+                                                        i)
+                                                    2 *
+                                                  ![z * a, z * b, z * c, z * d] 2 *
+                                                Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                                                  (fun i =>
+                                                    Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                                                      (fun i =>
+                                                        Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2))
+                                                          (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                                                      i)
+                                                  (![1, 2, 3] 2) +
+                                            Matrix.vecCons (z * a)
+                                                  (fun i =>
+                                                    Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                                  2 *
+                                                ![z * a, z * b, z * c, z * d] 3 *
+                                              if ![1, 2, 3] 2 = ![0, 1, 2] 2 then 1 else 0) -
+                                          Matrix.vecCons (z * a)
+                                                (fun i =>
+                                                  Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                                2 *
+                                              ![z * a, z * b, z * c, z * d] 3 *
+                                            Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+                                              (fun i =>
+                                                Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                                                  (fun i =>
+                                                    Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2))
+                                                      (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i)
+                                                  i)
+                                              (![1, 2, 3] 2) -
+                                        (Matrix.vecCons (z * a)
+                                              (fun i =>
+                                                Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                              2 *
+                                            if 0 = 3 then 1 else 0) *
+                                          if ![1, 2, 3] 2 = ![0, 1, 2] 2 then 1 else 0) +
+                                      (Matrix.vecCons (z * a)
+                                            (fun i =>
+                                              Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                                            2 *
+                                          if 0 = 3 then 1 else 0) *
+                                        Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+                                          (fun i =>
+                                            Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                                              (fun i =>
+                                                Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2))
+                                                  (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i)
+                                              i)
+                                          (![1, 2, 3] 2) +
+                                    ((if ![1, 2, 3] 2 = 0 then 1 else 0) * if 0 = 2 then 1 else 0) *
+                                      if 2 = ![0, 1, 3] 2 then 1 else 0) -
+                                  ((if ![1, 2, 3] 2 = 0 then 1 else 0) * if 0 = 2 then 1 else 0) *
+                                    Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                                      (fun i =>
+                                        Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                                          (fun i =>
+                                            Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2))
+                                              (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                                          i)
+                                      2 -
+                                (if ![1, 2, 3] 2 = 0 then 1 else 0) * ![z * a, z * b, z * c, z * d] 2 *
+                                  if 2 = ![0, 1, 3] 2 then 1 else 0) +
+                              (if ![1, 2, 3] 2 = 0 then 1 else 0) * ![z * a, z * b, z * c, z * d] 2 *
+                                Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                                  (fun i =>
+                                    Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                                      (fun i =>
+                                        Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2))
+                                          (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                                      i)
+                                  2 +
+                            (if ![1, 2, 3] 2 = 0 then 1 else 0) * ![z * a, z * b, z * c, z * d] 3 *
+                              if 2 = ![0, 1, 2] 2 then 1 else 0) -
+                          (if ![1, 2, 3] 2 = 0 then 1 else 0) * ![z * a, z * b, z * c, z * d] 3 *
+                            Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+                              (fun i =>
+                                Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                                  (fun i =>
+                                    Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2))
+                                      (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i)
+                                  i)
+                              2 -
+                        ((if ![1, 2, 3] 2 = 0 then 1 else 0) * if 0 = 3 then 1 else 0) *
+                          if 2 = ![0, 1, 2] 2 then 1 else 0) +
+                      ((if ![1, 2, 3] 2 = 0 then 1 else 0) * if 0 = 3 then 1 else 0) *
+                        Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+                          (fun i =>
+                            Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                              (fun i =>
+                                Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2)) (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i)
+                              i)
+                          2 -
+                    (Matrix.vecCons (z * a)
+                          (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                          (![1, 2, 3] 2) *
+                        if 0 = 2 then 1 else 0) *
+                      if 2 = ![0, 1, 3] 2 then 1 else 0) +
+                  (Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                        (![1, 2, 3] 2) *
+                      if 0 = 2 then 1 else 0) *
+                    Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                      (fun i =>
+                        Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                          (fun i =>
+                            Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2)) (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                          i)
+                      2 +
+                Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                      (![1, 2, 3] 2) *
+                    ![z * a, z * b, z * c, z * d] 2 *
+                  if 2 = ![0, 1, 3] 2 then 1 else 0) -
+              Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                    (![1, 2, 3] 2) *
+                  ![z * a, z * b, z * c, z * d] 2 *
+                Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 3] 2))
+                  (fun i =>
+                    Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 3] 2))
+                      (fun i => Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 3] 2)) (fun i => ![0, z, 0, 0] (![0, 1, 3] 2)) i)
+                      i)
+                  2 -
+            Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                  (![1, 2, 3] 2) *
+                ![z * a, z * b, z * c, z * d] 3 *
+              if 2 = ![0, 1, 2] 2 then 1 else 0) +
+          Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+                (![1, 2, 3] 2) *
+              ![z * a, z * b, z * c, z * d] 3 *
+            Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+              (fun i =>
+                Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+                  (fun i => Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2)) (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i) i)
+              2 +
+        (Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+              (![1, 2, 3] 2) *
+            if 0 = 3 then 1 else 0) *
+          if 2 = ![0, 1, 2] 2 then 1 else 0) -
+      (Matrix.vecCons (z * a) (fun i => Matrix.vecCons (z * e) (fun i => Matrix.vecCons z (fun i => 0) i) i)
+            (![1, 2, 3] 2) *
+          if 0 = 3 then 1 else 0) *
+        Matrix.vecCons (![z * a, z * b, z * c, z * d] (![0, 1, 2] 2))
+          (fun i =>
+            Matrix.vecCons (![z * e, z * f, z * g, z * h] (![0, 1, 2] 2))
+              (fun i => Matrix.vecCons (![z, 0, 0, 0] (![0, 1, 2] 2)) (fun i => ![0, z, 0, 0] (![0, 1, 2] 2)) i) i)
+          2 =
+    1 - z * a - z * f + z ^ 2 * a * f - z ^ 2 * b * e - z ^ 2 * c - z ^ 2 * h + z ^ 3 * a * h + z ^ 3 * f * c -
+            z ^ 3 * b * g -
+          z ^ 3 * d * e +
+        z ^ 4 * c * h -
+      z ^ 4 * d * g
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.Transfer
+error: build failed

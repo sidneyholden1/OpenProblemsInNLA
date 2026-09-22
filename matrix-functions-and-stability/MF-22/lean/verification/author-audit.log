@@ -1,0 +1,4 @@
+'NLA.MF22.uniform_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF22.eventual_inverse_entry_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF22.linear_condition_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF22.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]

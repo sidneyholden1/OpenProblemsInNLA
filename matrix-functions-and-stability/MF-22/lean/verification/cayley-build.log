@@ -1,0 +1,605 @@
+⚠ [3403/3404] Replayed NLA.MF22.Scalar
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✖ [3404/3404] Building NLA.MF22.Cayley (5.9s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/NLA/MF22/Cayley.lean -o /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Cayley.olean -i /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/lib/lean/NLA/MF22/Cayley.ilean -c /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Cayley.c --setup /private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/.lake/build/ir/NLA/MF22/Cayley.setup.json --json
+info: NLA/MF22/Cayley.lean:53:87: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: NLA/MF22/Cayley.lean:53:87: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: NLA/MF22/Cayley.lean:50:61: unsolved goals
+case a
+r : ℝ
+x : ℂ
+hx : x ≠ -I
+⊢ -30 - x.im * 90 - x.im * x.re * r * 60 +
+                                                  x.im * x.re *
+                                                      (I * x * ↑r ^ 2 *
+                                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                                43 -
+                                                                              I * x *
+                                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                                330 +
+                                                                            I * ↑r *
+                                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                    I ^ 3 * x ^ 3)⁻¹ *
+                                                                              130 -
+                                                                          I ^ 2 * x * ↑r *
+                                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                  I ^ 3 * x ^ 3)⁻¹ *
+                                                                            30 -
+                                                                        I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                I ^ 3 * x ^ 3)⁻¹ *
+                                                                          3 +
+                                                                      I ^ 2 * x ^ 2 *
+                                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                              I ^ 3 * x ^ 3)⁻¹ *
+                                                                        90 -
+                                                                    I ^ 3 * x ^ 2 * ↑r *
+                                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                            I ^ 3 * x ^ 3)⁻¹ *
+                                                                      170 -
+                                                                  I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                          I ^ 3 * x ^ 3)⁻¹ *
+                                                                    47 +
+                                                                I ^ 3 * x ^ 3 *
+                                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                        I ^ 3 * x ^ 3)⁻¹ *
+                                                                  450 -
+                                                              I ^ 4 * x ^ 3 * ↑r *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                10 -
+                                                            ↑r ^ 2 *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            30).im *
+                                                    6 +
+                                                x.im * x.re ^ 2 * 90 -
+                                              x.im * x.re ^ 2 *
+                                                  (I * x * ↑r ^ 2 *
+                                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                  I ^ 3 * x ^ 3)⁻¹ *
+                                                                            43 -
+                                                                          I * x *
+                                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                  I ^ 3 * x ^ 3)⁻¹ *
+                                                                            330 +
+                                                                        I * ↑r *
+                                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                I ^ 3 * x ^ 3)⁻¹ *
+                                                                          130 -
+                                                                      I ^ 2 * x * ↑r *
+                                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                              I ^ 3 * x ^ 3)⁻¹ *
+                                                                        30 -
+                                                                    I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                            I ^ 3 * x ^ 3)⁻¹ *
+                                                                      3 +
+                                                                  I ^ 2 * x ^ 2 *
+                                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                          I ^ 3 * x ^ 3)⁻¹ *
+                                                                    90 -
+                                                                I ^ 3 * x ^ 2 * ↑r *
+                                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                        I ^ 3 * x ^ 3)⁻¹ *
+                                                                  170 -
+                                                              I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                47 +
+                                                            I ^ 3 * x ^ 3 *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              450 -
+                                                          I ^ 4 * x ^ 3 * ↑r *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            10 -
+                                                        ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                                                3 -
+                                            x.im * x.re ^ 2 * r ^ 2 * 3 +
+                                          x.im *
+                                              (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                                        43 -
+                                                                      I * x *
+                                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                              I ^ 3 * x ^ 3)⁻¹ *
+                                                                        330 +
+                                                                    I * ↑r *
+                                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                            I ^ 3 * x ^ 3)⁻¹ *
+                                                                      130 -
+                                                                  I ^ 2 * x * ↑r *
+                                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                          I ^ 3 * x ^ 3)⁻¹ *
+                                                                    30 -
+                                                                I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                        I ^ 3 * x ^ 3)⁻¹ *
+                                                                  3 +
+                                                              I ^ 2 * x ^ 2 *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                90 -
+                                                            I ^ 3 * x ^ 2 * ↑r *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              170 -
+                                                          I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            47 +
+                                                        I ^ 3 * x ^ 3 *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                          450 -
+                                                      I ^ 4 * x ^ 3 * ↑r *
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        10 -
+                                                    ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                                            3 +
+                                        x.im * r ^ 2 * 3 -
+                                      x.im ^ 2 * 90 -
+                                    x.im ^ 2 * x.re * r * 30 +
+                                  x.im ^ 2 * x.re *
+                                      (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                              I * x *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                330 +
+                                                            I * ↑r *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              130 -
+                                                          I ^ 2 * x * ↑r *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            30 -
+                                                        I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                          3 +
+                                                      I ^ 2 * x ^ 2 *
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        90 -
+                                                    I ^ 3 * x ^ 2 * ↑r *
+                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                      170 -
+                                                  I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                    47 +
+                                                I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                  450 -
+                                              I ^ 4 * x ^ 3 * ↑r *
+                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                10 -
+                                            ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im *
+                                    3 +
+                                x.im ^ 2 *
+                                    (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                            I * x *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              330 +
+                                                          I * ↑r *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            130 -
+                                                        I ^ 2 * x * ↑r *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                          30 -
+                                                      I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        3 +
+                                                    I ^ 2 * x ^ 2 *
+                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                      90 -
+                                                  I ^ 3 * x ^ 2 * ↑r *
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                    170 -
+                                                I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                  47 +
+                                              I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                450 -
+                                            I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                              10 -
+                                          ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                                  3 +
+                              x.im ^ 2 * r ^ 2 * 3 -
+                            x.im ^ 3 * 30 +
+                          x.im ^ 3 *
+                            (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                    I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                      330 +
+                                                  I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                                I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                  30 -
+                                              I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                3 +
+                                            I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                                          I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                            170 -
+                                        I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                          47 +
+                                      I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                                    I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                                  ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re +
+                        x.im ^ 3 * r ^ 2 -
+                      x.re * r * 30 +
+                    x.re *
+                        (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                                              I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                            I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                              30 -
+                                          I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                            3 +
+                                        I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                                      I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                                    I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                      47 +
+                                  I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                                I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                              ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im *
+                      3 +
+                  x.re ^ 2 * 90 -
+                x.re ^ 2 *
+                    (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                            I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                                          I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                        I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30 -
+                                      I ^ 2 * x ^ 2 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                        3 +
+                                    I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                                  I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                                I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 47 +
+                              I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                            I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                          ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                  3 -
+              x.re ^ 2 * r ^ 2 * 3 +
+            x.re ^ 3 * r * 10 -
+          x.re ^ 3 *
+            (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                    I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                                  I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30 -
+                              I ^ 2 * x ^ 2 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 3 +
+                            I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                          I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                        I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 47 +
+                      I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                    I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                  ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im +
+        (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                              I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                            I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30 -
+                          I ^ 2 * x ^ 2 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 3 +
+                        I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                      I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                    I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 47 +
+                  I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+              ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re +
+      r ^ 2 =
+    x.im * 240 - x.im * x.re * r * 400 + x.im * x.re ^ 2 * 1440 - x.im * x.re ^ 2 * r ^ 2 * 144 - x.im * r ^ 2 * 40 -
+        x.im ^ 3 * 480 +
+      x.im ^ 3 * r ^ 2 * 48
+
+case a
+r : ℝ
+x : ℂ
+hx : x ≠ -I
+⊢ x.im * x.re * 180 - x.im * x.re * r ^ 2 * 6 -
+                                                x.im * x.re *
+                                                    (I * x * ↑r ^ 2 *
+                                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                    I ^ 3 * x ^ 3)⁻¹ *
+                                                                              43 -
+                                                                            I * x *
+                                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                    I ^ 3 * x ^ 3)⁻¹ *
+                                                                              330 +
+                                                                          I * ↑r *
+                                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                  I ^ 3 * x ^ 3)⁻¹ *
+                                                                            130 -
+                                                                        I ^ 2 * x * ↑r *
+                                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                I ^ 3 * x ^ 3)⁻¹ *
+                                                                          30 -
+                                                                      I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                              I ^ 3 * x ^ 3)⁻¹ *
+                                                                        3 +
+                                                                    I ^ 2 * x ^ 2 *
+                                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                            I ^ 3 * x ^ 3)⁻¹ *
+                                                                      90 -
+                                                                  I ^ 3 * x ^ 2 * ↑r *
+                                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                          I ^ 3 * x ^ 3)⁻¹ *
+                                                                    170 -
+                                                                I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                        I ^ 3 * x ^ 3)⁻¹ *
+                                                                  47 +
+                                                              I ^ 3 * x ^ 3 *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                450 -
+                                                            I ^ 4 * x ^ 3 * ↑r *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              10 -
+                                                          ↑r ^ 2 *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                                                  6 -
+                                              x.im * x.re ^ 2 *
+                                                  (I * x * ↑r ^ 2 *
+                                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                  I ^ 3 * x ^ 3)⁻¹ *
+                                                                            43 -
+                                                                          I * x *
+                                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                  I ^ 3 * x ^ 3)⁻¹ *
+                                                                            330 +
+                                                                        I * ↑r *
+                                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                                I ^ 3 * x ^ 3)⁻¹ *
+                                                                          130 -
+                                                                      I ^ 2 * x * ↑r *
+                                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                              I ^ 3 * x ^ 3)⁻¹ *
+                                                                        30 -
+                                                                    I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                            I ^ 3 * x ^ 3)⁻¹ *
+                                                                      3 +
+                                                                  I ^ 2 * x ^ 2 *
+                                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                          I ^ 3 * x ^ 3)⁻¹ *
+                                                                    90 -
+                                                                I ^ 3 * x ^ 2 * ↑r *
+                                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                        I ^ 3 * x ^ 3)⁻¹ *
+                                                                  170 -
+                                                              I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                47 +
+                                                            I ^ 3 * x ^ 3 *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              450 -
+                                                          I ^ 4 * x ^ 3 * ↑r *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            10 -
+                                                        ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im *
+                                                3 +
+                                            x.im * x.re ^ 2 * r * 30 +
+                                          x.im *
+                                              (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                                        43 -
+                                                                      I * x *
+                                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                              I ^ 3 * x ^ 3)⁻¹ *
+                                                                        330 +
+                                                                    I * ↑r *
+                                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                            I ^ 3 * x ^ 3)⁻¹ *
+                                                                      130 -
+                                                                  I ^ 2 * x * ↑r *
+                                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                          I ^ 3 * x ^ 3)⁻¹ *
+                                                                    30 -
+                                                                I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                        I ^ 3 * x ^ 3)⁻¹ *
+                                                                  3 +
+                                                              I ^ 2 * x ^ 2 *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                90 -
+                                                            I ^ 3 * x ^ 2 * ↑r *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              170 -
+                                                          I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            47 +
+                                                        I ^ 3 * x ^ 3 *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                          450 -
+                                                      I ^ 4 * x ^ 3 * ↑r *
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        10 -
+                                                    ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im *
+                                            3 -
+                                        x.im * r * 30 +
+                                      x.im ^ 2 * x.re * 90 -
+                                    x.im ^ 2 * x.re * r ^ 2 * 3 -
+                                  x.im ^ 2 * x.re *
+                                      (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                              I * x *
+                                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 -
+                                                                      I ^ 3 * x ^ 3)⁻¹ *
+                                                                330 +
+                                                            I * ↑r *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              130 -
+                                                          I ^ 2 * x * ↑r *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            30 -
+                                                        I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                          3 +
+                                                      I ^ 2 * x ^ 2 *
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        90 -
+                                                    I ^ 3 * x ^ 2 * ↑r *
+                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                      170 -
+                                                  I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                    47 +
+                                                I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                  450 -
+                                              I ^ 4 * x ^ 3 * ↑r *
+                                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                10 -
+                                            ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                                    3 +
+                                x.im ^ 2 *
+                                    (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                            I * x *
+                                                                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                              330 +
+                                                          I * ↑r *
+                                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                            130 -
+                                                        I ^ 2 * x * ↑r *
+                                                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                          30 -
+                                                      I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        3 +
+                                                    I ^ 2 * x ^ 2 *
+                                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                      90 -
+                                                  I ^ 3 * x ^ 2 * ↑r *
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                    170 -
+                                                I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                  47 +
+                                              I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                450 -
+                                            I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                              10 -
+                                          ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                        (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im *
+                                  3 -
+                              x.im ^ 2 * r * 30 +
+                            x.im ^ 3 *
+                              (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                      I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                        330 +
+                                                    I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                      130 -
+                                                  I ^ 2 * x * ↑r *
+                                                      (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                    30 -
+                                                I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                                    (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                  3 +
+                                              I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                                90 -
+                                            I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                              170 -
+                                          I ^ 3 * x ^ 3 * ↑r ^ 2 *
+                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                            47 +
+                                        I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                                      I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                                    ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                                  (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im -
+                          x.im ^ 3 * r * 10 +
+                        x.re * 90 -
+                      x.re * r ^ 2 * 3 -
+                    x.re *
+                        (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                                I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                                              I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                            I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                              30 -
+                                          I ^ 2 * x ^ 2 * ↑r ^ 2 *
+                                              (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                            3 +
+                                        I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                                      I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                                    I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                      47 +
+                                  I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                                I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                              ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re *
+                      3 -
+                  x.re ^ 2 *
+                      (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                              I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                                            I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                          I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30 -
+                                        I ^ 2 * x ^ 2 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ *
+                                          3 +
+                                      I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                                    I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                                  I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 47 +
+                                I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                              I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                            ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                          (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im *
+                    3 +
+                x.re ^ 2 * r * 30 -
+              x.re ^ 3 * 30 +
+            x.re ^ 3 * r ^ 2 +
+          x.re ^ 3 *
+            (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                    I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                                  I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                                I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30 -
+                              I ^ 2 * x ^ 2 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 3 +
+                            I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                          I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                        I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 47 +
+                      I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                    I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+                  ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+                (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).re +
+        (I * x * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 43 -
+                                I * x * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 330 +
+                              I * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 130 -
+                            I ^ 2 * x * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30 -
+                          I ^ 2 * x ^ 2 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 3 +
+                        I ^ 2 * x ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 90 -
+                      I ^ 3 * x ^ 2 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 170 -
+                    I ^ 3 * x ^ 3 * ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 47 +
+                  I ^ 3 * x ^ 3 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 450 -
+                I ^ 4 * x ^ 3 * ↑r * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 10 -
+              ↑r ^ 2 * (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ +
+            (1 - I * x * 3 + I ^ 2 * x ^ 2 * 3 - I ^ 3 * x ^ 3)⁻¹ * 30).im -
+      r * 10 =
+    x.im ^ 2 * x.re * 1440 - x.im ^ 2 * x.re * r ^ 2 * 144 - x.im ^ 2 * r * 200 - x.re * 240 + x.re * r ^ 2 * 40 +
+            x.re ^ 2 * r * 200 -
+          x.re ^ 3 * 480 +
+        x.re ^ 3 * r ^ 2 * 48 +
+      r * 120
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.MF22.Cayley
+error: build failed

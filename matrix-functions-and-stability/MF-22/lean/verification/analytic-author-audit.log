@@ -1,0 +1,4 @@
+'NLA.MF22.roots_classified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF22.numerator_ne_zero_of_denominator_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF22.transfer_spectral_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF22.transfer_green_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]

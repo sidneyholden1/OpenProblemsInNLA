@@ -1,0 +1,11 @@
+{
+  "verdict": "PASS",
+  "schema": "official pinned v0.4",
+  "exports": 4,
+  "validator_exit_code": 0,
+  "command": [
+    "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+    "/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean/../../../tools/lean/validate_manifest.py",
+    "/private/tmp/nla-20260922-mf22/matrix-functions-and-stability/MF-22/lean"
+  ]
+}

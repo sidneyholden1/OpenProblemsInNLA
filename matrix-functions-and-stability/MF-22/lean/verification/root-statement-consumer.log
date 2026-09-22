@@ -1,0 +1,7 @@
+uniform_norm_bound : ∀ (ρ : ℝ), 0 < ρ → ∃ D, 0 < D ∧ ∀ (n : ℕ), 1 ≤ n → ‖H ρ n‖ ≤ D
+eventual_inverse_entry_bound : ∀ (ρ : ℝ),
+  0 < ρ → ∃ C, 0 < C ∧ ∃ N, 1 ≤ N ∧ ∀ (n : ℕ), N ≤ n → Matrix.det (H ρ n) ≠ 0 ∧ ∀ (i j : Ix n), ‖(H ρ n)⁻¹ i j‖ ≤ C
+linear_condition_bound : ∀ (ρ : ℝ),
+  0 < ρ → ∃ K, 0 < K ∧ ∃ N, 1 ≤ N ∧ ∀ (n : ℕ), N ≤ n → Matrix.det (H ρ n) ≠ 0 ∧ ‖H ρ n‖ * ‖(H ρ n)⁻¹‖ ≤ K * ↑n
+original_target : ∀ (ρ : ℝ),
+  0 < ρ → ∃ K α, 0 < K ∧ 0 ≤ α ∧ ∃ N, 1 ≤ N ∧ ∀ (n : ℕ), N ≤ n → conditionNumber ρ n ≤ ENNReal.ofReal (K * ↑n ^ α)
