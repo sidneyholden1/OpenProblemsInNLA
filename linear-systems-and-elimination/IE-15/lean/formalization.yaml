@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'IE-15: sharp rook-pivoting growth in orders three and four'
+  description: Full original sharp rook-pivoting constants 3 and 14/3 for all real nonsingular inputs,
+    every admissible path and tie, and every intermediate entry; complete kernel-checked implementation
+    with independent source reviews and isolated Linux verification.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: IE-15 — Exact small-order growth factors for rook pivoting
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-15/README.md
+  type: web-post
+  location: Problem statement
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: 'IE-15: exact rook-pivoting growth factors in orders three and four'
+  authors:
+  - George Stepaniants
+  id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/linear-systems-and-elimination/IE-15/solution.md
+  type: manuscript
+  location: Theorem 1 and Sections 1–5
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Mathematical resolution by George Stepaniants, Department of Computing and Mathematical Sciences,
+    California Institute of Technology; AI assistance disclosed.
+related_formalizations:
+- id: https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/9777c86853b40206f70438c92a47a7dec9bc66ae/matrix-inequalities-and-norms/MI-29/lean
+  relationship: other
+  note: Repository layout, exact-certificate and kernel-only LeanCert point-inequality examples studied.
+    Toolchain and dependency pins reused; no MI-29 mathematical result assumed.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared pinned Comparator reproduction workflow, credited in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Independent Challenge and Solution modules;
+      kernel trust assertions for all four exports, exact rational witnesses and analytic scalar inequalities.
+      Local macOS replay with retained shared package cache.
+    prompting_notes: Statements before proof and two independent reviews. Exact rational witnesses, actual
+      arbitrary-path normalization and analytic scalar reductions before kernel LeanCert.
+  notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
+    peer review or source-author endorsement is claimed.
+status:
+  scope: 'Complete original target: both orders, all real nonsingular inputs, arbitrary rook paths and
+    ties, every intermediate entry, exact attained witnesses, genuine nonempty bounded real suprema. Four
+    exports accepted by isolated Linux Comparator and default kernel at proof revision 1ada36c90a34f5567902c4ae306c01e392a8bac9;
+    later publication checks separate.'
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.IE15.witness_certificates
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IE15.upper_three
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IE15.upper_four
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.IE15.sharp_constants
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+fidelity:
+  divergences: Padded matrices perform the actual row and column swaps and Schur complements. A proved
+    future-permutation transformation transports every arbitrary rook path to diagonal order. Actual sign
+    changes and positive scaling produce normalized coordinates and transport every entry back. The source
+    scalar monotonicity and separate-convexity steps are replaced by exact algebra and bilinear interpolation.
+    The actual last diagonal entry is retained, bounded by one; no replacement assumption is introduced.
+    Both original sizes and genuine nonempty bounded real suprema are proved.
+review:
+  status: two-statement-and-two-independent-final-reviews-approved; Linux-accepted
+  reviewers:
+  - OpenAI Codex /root/iv06_statement_referee_1, independent AI statement/final/operational referee
+  - OpenAI Codex /root/iv06_statement_referee_2, independent AI statement referee before proof implementation
+  - OpenAI Codex /root, independent AI final referee, nonauthor of IE15 proof
+  notes: Both final reviewers are nonauthors. Exact source hashes and reports are retained in reviews/.
+    Actual Linux run 35691581091 accepted all four exports with default-kernel replay, standard-three axioms
+    and per-project negative/sandbox controls. Original proof-review snapshots remain immutable; metadata
+    publication updates do not change mathematical bytes. No human review or endorsement claimed.
+alignment:
+- source: Source Section 5 exact attained witnesses
+  declarations:
+  - NLA.IE15.witness_certificates
+- source: All-path order-three upper bound
+  declarations:
+  - NLA.IE15.upper_three
+- source: All-path order-four upper bound
+  declarations:
+  - NLA.IE15.upper_four
+- source: Full original pair of exact suprema
+  declarations:
+  - NLA.IE15.sharp_constants
+acknowledgements: Mathematical resolution by George Stepaniants, Caltech; original question by Nicholas
+  J. Higham. Formalization by Sidney Holden with OpenAI Codex assistance. IE-05 active-path layout studied.
+  Mathlib, LeanCert, Comparator and formalization.yaml retain credit and licenses.

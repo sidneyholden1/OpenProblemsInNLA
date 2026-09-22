@@ -1,0 +1,2 @@
+'NLA.IE15.normalized_three_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE15.normalized_four_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NLA.IE15.witness_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE15.upper_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE15.upper_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE15.sharp_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
