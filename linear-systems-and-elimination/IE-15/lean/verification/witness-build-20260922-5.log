@@ -1,0 +1,13 @@
+✖ [3078/3078] Building NLA.IE15.Witnesses (11s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie15/linear-systems-and-elimination/IE-15/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie15/linear-systems-and-elimination/IE-15/lean/NLA/IE15/Witnesses.lean -o /private/tmp/nla-20260922-ie15/linear-systems-and-elimination/IE-15/lean/.lake/build/lib/lean/NLA/IE15/Witnesses.olean -i /private/tmp/nla-20260922-ie15/linear-systems-and-elimination/IE-15/lean/.lake/build/lib/lean/NLA/IE15/Witnesses.ilean -c /private/tmp/nla-20260922-ie15/linear-systems-and-elimination/IE-15/lean/.lake/build/ir/NLA/IE15/Witnesses.c --setup /private/tmp/nla-20260922-ie15/linear-systems-and-elimination/IE-15/lean/.lake/build/ir/NLA/IE15/Witnesses.setup.json --json
+error: NLA/IE15/Witnesses.lean:14:2: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+error: NLA/IE15/Witnesses.lean:92:21: #assert_trust: 'NLA.IE15.witness_certificates_proved' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE15.Witnesses
+error: build failed

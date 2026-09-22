@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.IE15.witness_certificates",
+    "NLA.IE15.upper_three",
+    "NLA.IE15.upper_four",
+    "NLA.IE15.sharp_constants"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

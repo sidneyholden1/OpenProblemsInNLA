@@ -1,0 +1,3 @@
+n=3: det=3, diagonal pivots=['1', '1', '3'], stage maxima=['1', '2', '3'], growth=3; all 14 admissible witness paths also enumerated, maximum=3; PASS.
+n=4: det=70/9, diagonal pivots=['1', '1', '5/3', '14/3'], stage maxima=['1', '2', '3', '14/3'], growth=14/3; all 56 admissible witness paths also enumerated, maximum=14/3; PASS.
+Rational diagnostics only. Universal arbitrary-input bounds are NOT established by this script.

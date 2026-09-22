@@ -1,0 +1,108 @@
+{
+  "verdict": "PASS",
+  "phase": "independent final mathematical/source review and local export consumption",
+  "reviewer": "/root/iv06_statement_referee_1",
+  "reviewer_is_ai": true,
+  "independence": "No IE15 proof implementation authored by this referee. Original statement review is distinct from proof authorship.",
+  "date": "2026-09-22",
+  "base_commit": "2f84bb4d1f357a693762d684e67fcd29da9b343c",
+  "active_closure": [
+    {
+      "path": "Solution.lean",
+      "sha256": "f2bc6dea43fae4603652dbe315f9aee46a72357602cb017ca7dc413a5e6579ae"
+    },
+    {
+      "path": "NLA/IE15/Bounds.lean",
+      "sha256": "cb3befd5285cd7021ed77eb2f381eb2019860456d5600aca5e7ebfd6ee317ced"
+    },
+    {
+      "path": "NLA/IE15/Definitions.lean",
+      "sha256": "f63b4ac19b98baad4db5941b35bd6ed5cc99f6b4d9c646cbd82523c5612b4ccf"
+    },
+    {
+      "path": "NLA/IE15/NormalizedProof.lean",
+      "sha256": "77d033d74dabf42a1bdf2aa50e2400865f99604a1543a4cf676f73529c141a39"
+    },
+    {
+      "path": "NLA/IE15/PathBounds.lean",
+      "sha256": "1f9a2ea718e8f1173b892e2de34c6e0848d8db59cc708dc7fdf7ffac9bc5e326"
+    },
+    {
+      "path": "NLA/IE15/PathReduction.lean",
+      "sha256": "9dfa7b62fb7af76333248facb94e07c416a9ef93a273d700d7a4117bc2179ca5"
+    },
+    {
+      "path": "NLA/IE15/Scalar.lean",
+      "sha256": "adbf3658839170cb7f2d2eccb400ac2056cdce77bae98705e2ca46eaed995567"
+    },
+    {
+      "path": "NLA/IE15/ScalarFour.lean",
+      "sha256": "4b6ca9835997292da9a2a47c1f41ff62879f9a11e2bbf6fdb35c92a41e1a2b1c"
+    },
+    {
+      "path": "NLA/IE15/SignScaling.lean",
+      "sha256": "0395e39523450f635de4c8f66f93f5e38295bbb699ed3b51bbe35b4126f6b20e"
+    },
+    {
+      "path": "NLA/IE15/Supremum.lean",
+      "sha256": "114b43b1df9e6a575dbfaae582f75d064b96c33c56912bc9d69c68ff041e1129"
+    },
+    {
+      "path": "NLA/IE15/Witnesses.lean",
+      "sha256": "8afae06810da482d34b27812f7460a9604079c9fac01d0aff469c8156dfca73a"
+    }
+  ],
+  "boundary_hashes": {
+    "Challenge.lean": "a16d4575337e754f6dcb2cf36481ea5b7532b0fed0dd0d7416cd96fd50c7237f",
+    "NLA/IE15/Definitions.lean": "f63b4ac19b98baad4db5941b35bd6ed5cc99f6b4d9c646cbd82523c5612b4ccf",
+    "NUMERICAL_TARGETS.md": "cf55f7b8b6bd898b2eae37dbe5e39c82f9b772603894f158ad97340947570273",
+    "comparator.json": "944d5c2688bcfeae2fb73510a8595fad6dc55c34d83b67974cb11d392c50eeac",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "2dd26d1f3978d85910a8572d3cf0d62ef98f01a82b1d3674117dad62ea2962bb",
+    "lake-manifest.json": "84d8f7719040dade88e1d169389aa9a9b937686ce5782ec5063d8cc0fa726c08"
+  },
+  "source_hashes": {
+    "../README.md": "15d158615000f0f121540d2d0bad95487e5d1b4dc26c17a2876ab56c8e0be4d1",
+    "../solution.md": "abe560be8d00a2a98fb4a11619d5e77926649172fbb07828e747500139e97620",
+    "README.md": "787f18c6c36c7eada3d39ab2c1c96ec42182d776535e27553da5153ded0090a8",
+    "formalization.yaml": "eb8c693972b0a78b273a0fc5db1827b5cff402b96f57347116d42c12bbb5debe"
+  },
+  "library_hashes": {
+    ".lake/packages/mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+    ".lake/packages/mathlib/Mathlib/Order/ConditionallyCompleteLattice/Basic.lean": "4e4c9abe9993f2334c389d6cb4b75b31b44bb66bb87b65a95b3abac2dbd9fcc8",
+    ".lake/packages/leancert/LeanCert/Tactic/Verification.lean": "2c576708b528acdde17796b0b715b83079f9cad377182dbd87c248323ff0a58c"
+  },
+  "evidence_hashes": {
+    "reviews/proof-source-hashes.json": "46dc961b5feeea90138b0c8849cee1969c5d66068b10c0531cc6789b7da1d1e2",
+    "reviews/statement-gate-20260922.json": "f87942a7d326c68edb07431336e406642e1484fa22774f0b46672d5eee434fde",
+    "verification/local-proof-20260922.json": "e9cdc7fc548c2f2a2b2f82f45c5cf036808f7f9fd8c9d7e7e551ac4bc7b1a38d",
+    "verification/solution-build-20260922.log": "932503855bd3de92e4fe6076051863dc049d444649e4400a9cdb80b479f31c9d",
+    "verification/metadata-20260922.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+    "verification/Referee1Consumer20260922.lean": "40dd0e810a6cbcb6a77de28a2f31beecc9bb4e411e9c8ebe2d1038f048a3bdc5",
+    "verification/referee-1-consumer-20260922.log": "ccc8aa53b774100d2640ffed9415a6db869dcf0fa9e5b8a5609a2827485a018a"
+  },
+  "snapshot_all_22_hashes_match": true,
+  "boundary_git_diff_exit_code": 0,
+  "own_consumer": {
+    "command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee1Consumer20260922.lean",
+    "exit_code": 0,
+    "exports": 4,
+    "signature_source": "Current unchanged Challenge.lean; theorem signatures copied as anonymous examples, proof bodies replaced with exact Solution exports.",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "coordinator_build": {
+    "attribution": "Proof-author/coordinator run; independently read log and verified its hash, not rerun by referee",
+    "jobs": 3087,
+    "exit_code": 0
+  },
+  "lean_cert_route": "Actual #assert_trust kernel uses collectAxioms. No interval/evaluation certificate is needed or claimed: numerical witnesses and scalar inequalities use kernel checked rational algebra.",
+  "limits": [
+    "No isolated Linux Comparator run performed or approved in this review.",
+    "Imported local oleans consumed; complete 3087-job build belongs to coordinator.",
+    "Canonical source not promoted by local review."
+  ]
+}
