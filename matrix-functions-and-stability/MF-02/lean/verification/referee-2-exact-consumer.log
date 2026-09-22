@@ -1,0 +1,7 @@
+'NLA.MF02.error_sets_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF02.register_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF02.degree_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF02.cubic_bounds_and_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF02.stages_computable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF02.genuine_stage_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MF02.stage_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

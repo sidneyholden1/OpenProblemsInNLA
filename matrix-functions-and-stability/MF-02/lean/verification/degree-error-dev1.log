@@ -1,0 +1,12 @@
+NLA/MF02/DegreeError.lean:30:8: error: typeclass instance problem is stuck
+  Preorder ?m.40
+
+Note: Lean will not try to resolve this typeclass instance problem because the type argument to `Preorder` is a metavariable. This argument must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+NLA/MF02/DegreeError.lean:51:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  |-1 + -eval x (oddPart p)| ≤ uniformError δ p
+but is expected to have type
+  |eval x (oddPart p) + 1| ≤ uniformError δ p

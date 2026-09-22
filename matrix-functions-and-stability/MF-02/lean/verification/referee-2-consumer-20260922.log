@@ -1,0 +1,59 @@
+NLA.MF02.error_sets_valid : ∀ (δ : ℝ),
+  0 < δ →
+    δ < 1 →
+      (∀ (p : ℝ[X]),
+          (NLA.MF02.pointErrors δ p).Nonempty ∧
+            BddAbove (NLA.MF02.pointErrors δ p) ∧ NLA.MF02.uniformError δ p ∈ NLA.MF02.pointErrors δ p) ∧
+        (∀ (m : ℕ), (NLA.MF02.unrestrictedErrors m δ).Nonempty ∧ BddBelow (NLA.MF02.unrestrictedErrors m δ)) ∧
+          ∀ (T : ℕ), (NLA.MF02.cubicErrors T δ).Nonempty ∧ BddBelow (NLA.MF02.cubicErrors T δ)
+'NLA.MF02.error_sets_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF02.register_degree_bound : ∀ (m : ℕ) (p : ℝ[X]), NLA.MF02.computable m p → p.natDegree ≤ 2 ^ m
+'NLA.MF02.register_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF02.degree_error_bound : ∀ (δ : ℝ),
+  0 < δ → δ < 1 → ∀ (D : ℕ), 1 ≤ D → ∀ (p : ℝ[X]), p.natDegree ≤ D → NLA.MF02.gapRatio δ ^ D ≤ NLA.MF02.uniformError δ p
+'NLA.MF02.degree_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF02.cubic_bounds_and_strict : ∀ (δ : ℝ),
+  0 < δ →
+    δ < 1 →
+      (∀ (T : ℕ), NLA.MF02.gapRatio δ ^ 3 ^ T ≤ NLA.MF02.cubicError T δ) ∧
+        (∀ (T : ℕ), 1 ≤ T → NLA.MF02.cubicError T δ ≤ NLA.MF02.gapRatio δ ^ 2 ^ T) ∧
+          StrictAnti fun T => NLA.MF02.cubicError T δ
+'NLA.MF02.cubic_bounds_and_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF02.stages_computable : ∀ (cs : List (ℝ × ℝ)), NLA.MF02.computable (2 * cs.length) (NLA.MF02.composeCubics cs)
+'NLA.MF02.stages_computable' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF02.genuine_stage_minimum : ∀ (m : ℕ) (δ : ℝ),
+  0 < δ →
+    δ < 1 →
+      (NLA.MF02.feasibleStages m δ).Nonempty ∧
+        NLA.MF02.minimumStages m δ ∈ NLA.MF02.feasibleStages m δ ∧
+          ∀ T ∈ NLA.MF02.feasibleStages m δ, NLA.MF02.minimumStages m δ ≤ T
+'NLA.MF02.genuine_stage_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+NLA.MF02.stage_bounds : ∀ (δ : ℝ),
+  0 < δ →
+    δ < 1 →
+      NLA.MF02.minimumStages 0 δ = 1 ∧
+        NLA.MF02.minimumStages 1 δ = 1 ∧
+          (∀ (m : ℕ), 2 ≤ m → m / 2 ≤ NLA.MF02.minimumStages m δ ∧ NLA.MF02.minimumStages m δ ≤ m) ∧
+            ∀ (m : ℕ), (↑m + 1) / 4 ≤ ↑(NLA.MF02.minimumStages m δ) ∧ ↑(NLA.MF02.minimumStages m δ) ≤ ↑m + 1
+'NLA.MF02.stage_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem NLA.MF02.degree_error_bound : ∀ (δ : ℝ),
+  0 < δ →
+    δ < 1 → ∀ (D : ℕ), 1 ≤ D → ∀ (p : ℝ[X]), p.natDegree ≤ D → NLA.MF02.gapRatio δ ^ D ≤ NLA.MF02.uniformError δ p :=
+fun δ hδ hδ1 D hD p hp => NLA.MF02.degree_error_bound_proved δ hδ hδ1 D hD p hp
+theorem NLA.MF02.cubic_bounds_and_strict : ∀ (δ : ℝ),
+  0 < δ →
+    δ < 1 →
+      (∀ (T : ℕ), NLA.MF02.gapRatio δ ^ 3 ^ T ≤ NLA.MF02.cubicError T δ) ∧
+        (∀ (T : ℕ), 1 ≤ T → NLA.MF02.cubicError T δ ≤ NLA.MF02.gapRatio δ ^ 2 ^ T) ∧
+          StrictAnti fun T => NLA.MF02.cubicError T δ :=
+fun δ hδ hδ1 =>
+  have hd := NLA.MF02.degree_error_bound_proved δ hδ hδ1;
+  ⟨NLA.MF02.cubic_lower δ hδ hδ1 hd, ⟨NLA.MF02.cubic_upper δ hδ hδ1 hd, NLA.MF02.cubic_strict δ hδ hδ1 hd⟩⟩
+theorem NLA.MF02.stage_bounds : ∀ (δ : ℝ),
+  0 < δ →
+    δ < 1 →
+      NLA.MF02.minimumStages 0 δ = 1 ∧
+        NLA.MF02.minimumStages 1 δ = 1 ∧
+          (∀ (m : ℕ), 2 ≤ m → m / 2 ≤ NLA.MF02.minimumStages m δ ∧ NLA.MF02.minimumStages m δ ≤ m) ∧
+            ∀ (m : ℕ), (↑m + 1) / 4 ≤ ↑(NLA.MF02.minimumStages m δ) ∧ ↑(NLA.MF02.minimumStages m δ) ≤ ↑m + 1 :=
+fun δ hδ hδ1 => NLA.MF02.stage_bounds_from_degree δ hδ hδ1 (NLA.MF02.degree_error_bound_proved δ hδ hδ1)
