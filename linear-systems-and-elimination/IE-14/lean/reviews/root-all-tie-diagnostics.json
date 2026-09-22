@@ -1,0 +1,43 @@
+{
+  "reviewer": "OpenAI Codex root, independent nonauthor",
+  "scope": "Finite rational diagnostics on all GEPP tie paths of the source witness for n=4..8; not a universal proof",
+  "source_sha256": "4c20c2c20e6d05945911883682bc823096ef0ff1011cbd31bf941fd1f309b869",
+  "results": [
+    {
+      "n": 4,
+      "paths": 6,
+      "maximum": "6",
+      "minimum": "2",
+      "sharp_bound": 6
+    },
+    {
+      "n": 5,
+      "paths": 8,
+      "maximum": "9",
+      "minimum": "9/5",
+      "sharp_bound": 9
+    },
+    {
+      "n": 6,
+      "paths": 10,
+      "maximum": "14",
+      "minimum": "7/4",
+      "sharp_bound": 14
+    },
+    {
+      "n": 7,
+      "paths": 12,
+      "maximum": "22",
+      "minimum": "22/13",
+      "sharp_bound": 22
+    },
+    {
+      "n": 8,
+      "paths": 14,
+      "maximum": "35",
+      "minimum": "5/3",
+      "sharp_bound": 35
+    }
+  ],
+  "verdict": "PASS"
+}

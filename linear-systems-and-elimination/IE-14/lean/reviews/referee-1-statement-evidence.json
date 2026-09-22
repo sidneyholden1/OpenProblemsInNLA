@@ -1,0 +1,92 @@
+{
+  "phase": "statement review before proof",
+  "reviewer": "OpenAI Codex AI agent /root/iv06_statement_referee_1",
+  "independent_nonauthor": true,
+  "verdict": "APPROVE",
+  "date_utc": "2026-09-22T07:05:45.499265+00:00",
+  "source_base": "2eef31b5e5d33279ef2922a090f105c20e1b03fb",
+  "source_hashes": {
+    "NLA/IE14/Definitions.lean": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202",
+    "Challenge.lean": "dcaaf1807039dda04a53329ff333580ca3670a445693df0f8dceac0e6f280b32",
+    "NUMERICAL_TARGETS.md": "c034b8725c90f6771299b439b73ac0c490d452bed3e01aa3890c50a9458c587d",
+    "README.md": "04cc7f98f5971819d3cd1306a259a4c3487824f9aea789946e1cbf70f95542fb",
+    "formalization.yaml": "0dfc94f298778b26ef949f5ed4a445413745527935a014d7072012634bbc4df8",
+    "comparator.json": "74c736e28e1befa52dffe4bafbe6785339f59b9a3784348d9dda74aad0e277e5",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "c68beeb54b136053439a6887f1064be96bed00e652f86272e62cbde79f1082fa",
+    "lake-manifest.json": "b86bf12ffe55dd432cb556dfb3dfa91ab11da248eee4db7ae53ea00b00c8d58c",
+    "../README.md": "ebbd61a71ba0aa17f4bd076f1f2408e5db63aa3426247b4e4db0bcb0b582d869",
+    "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-14.tex": "4c20c2c20e6d05945911883682bc823096ef0ff1011cbd31bf941fd1f309b869",
+    "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-14-review.md": "409539b6cf58b4bf627c52bb6df6ad2f8833be4a43beb88e591c2fa6b815728c",
+    "verification/statement-build-final.log": "d7a57be13df74e5c9fc4c8f1666d8f6a13487557580d0986824e671445ef0e8a",
+    "verification/statement-local.json": "263aff907d32d950b63e4632db022e730dbf9cd46ce0797f57257311a0eed99f",
+    "verification/check_draft_metadata.py": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4",
+    "verification/metadata-draft.log": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8"
+  },
+  "library_hashes": {
+    ".lake/packages/mathlib/Mathlib/Analysis/Complex/Norm.lean": "815efa05d2282b0b234139eac16d614f1128d69e39cf02249df887934ccc9741",
+    ".lake/packages/mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+    ".lake/packages/mathlib/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean": "1ee785b6ebd213ad2ed971bf3c804afee8cc6ce52be69e63572b4cf1bdb5e880",
+    ".lake/packages/mathlib/Mathlib/Order/ConditionallyCompleteLattice/Basic.lean": "4e4c9abe9993f2334c389d6cb4b75b31b44bb66bb87b65a95b3abac2dbd9fcc8",
+    ".lake/packages/mathlib/Mathlib/Data/Nat/Fib/Basic.lean": "7dfe6ccc390046773b2d4305ee89a6d753fc4d5608057da20e0a9526c6d60680"
+  },
+  "evidence_hashes": {
+    "verification/referee_1_statement_diagnostics.py": "c336e6dfbceb14e7e4b3f2747f1c0924ac491a795261205719ff0ff4a5fca3bd",
+    "verification/referee-1-statement-diagnostics.json": "87eb9b8ea3a978a98f8cbbf40e5fc825fb5edd6e3a4af3a1ce8c67ab874ccce1",
+    "verification/Referee1StatementProbe.lean": "0d1c423e08549bd04cc37fbcb6614c357493c5c6acc919c0f7b072b0b04a4560",
+    "verification/referee-1-statement-probe.log": "a587c20dd9789e83c94e847d41e2bfcef09432585be2f9890b5e61b18d750782",
+    "verification/Referee1StatementProbeInitial.lean": "b20f8dea20ea7eed94e4a888798408077cbae9eb94bb021e5d58a03a5f648440",
+    "verification/referee-1-statement-probe-initial.log": "f2383e32767cce9b04a45f514c46008b947abe7f957a5cbffdd276a5e38a388d",
+    "reviews/statement-source-hashes.json": "177ff97d0a6f92aa58708cc24bbe20f38fa0ab8b88dea10589d4ba6771502c7c"
+  },
+  "diagnostics": {
+    "exact_witness_dimensions": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "all_tie_paths_for_witness": {
+      "4": 6,
+      "5": 8,
+      "6": 10
+    },
+    "exit_code": 0,
+    "limits": "Finite rational transcription checks only, not universal upper-bound or all-order proof."
+  },
+  "definitions_probe": {
+    "exit_code": 0,
+    "command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee1StatementProbe.lean",
+    "initial_attempt": "Retained two unknown-name lookup errors, corrected to actual Matrix.isUnit_iff_isUnit_det and IsLUB.csSup_eq without boundary edits."
+  },
+  "challenge_build": {
+    "execution": "Author run inspected, not independently rerun",
+    "jobs": 2382,
+    "exit_code": 0,
+    "intentional_placeholders": 4
+  },
+  "scope": "Full original complex all-order cyclic tridiagonal GEPP target, every allowed tie path and every active entry, exact rational attainment and genuine real supremum.",
+  "unresolved_findings": [],
+  "limits": [
+    "Statements only; no active proof body inspected or implemented.",
+    "Universal proof, final independent reviews, default-kernel Comparator and Linux isolation controls remain future gates.",
+    "AI review, not external human review or Tau Ceti endorsement."
+  ]
+}

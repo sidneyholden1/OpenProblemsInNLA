@@ -1,0 +1,15 @@
+{
+  "phase": "local-proof metadata update",
+  "verdict": "PASS",
+  "review_claim": "Author operation only, not independent referee approval",
+  "all_16_statement_inputs_preserved": true,
+  "original_metadata_directory": "reviews/statement-original",
+  "active_metadata_status": "local proof complete; final reviews and Linux pending",
+  "hashes": {
+    "README.md": "e5e7d96f0d7a523ea409c043f820d48258eac15efdb4a1edf059c779ec85c64b",
+    "formalization.yaml": "390d2b5332231a5d324c7281039059145592935a9ba4feb05cd88c2a880cd216",
+    "verification/complete_metadata.py": "a36da3bdbcfddce242a4b427d8cabbfc03407c43c04743773125a9483f64a827",
+    "verification/metadata-local-complete.log": "ec81c04258673a75fd2e053ac1cc87f9e52013e0cf117ed8e5936495b2d0d02e",
+    "verification/solution-build-final.log": "42cc8ebc8019ab9c3867c4b5a5305c1f5ca83f8c6cc7a8ec8ccf1ed431af6066"
+  }
+}

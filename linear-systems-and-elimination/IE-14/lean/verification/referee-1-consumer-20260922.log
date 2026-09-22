@@ -1,0 +1,4 @@
+'NLA.IE14.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE14.rational_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE14.sharp_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE14.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]

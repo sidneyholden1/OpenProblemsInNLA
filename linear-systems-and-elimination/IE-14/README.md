@@ -6,8 +6,16 @@
 
 **Difficulty:** challenging  
 **Importance:** interesting to specialist  
-**Status:** Solved
-**Last checked:** 2026-09-11
+**Status:** Lean verified
+**Last checked:** 2026-09-22
+
+## Lean verification — 22 September 2026
+
+The complete original target is formally proved: for every $`n\ge4`$, the sharp growth factor is $`c_n=F_{n+1}+1`$. The upper bound covers every nonsingular complex cyclic tridiagonal input with both cyclic corners nonzero, every permitted GEPP tie path, and every active Schur entry in the original ordering. The explicit rational family attains the bound through actual row swaps. The nonempty bounded growth set, its greatest member and its genuine real supremum are all proved.
+
+All four exports passed LeanCert kernel audits, two independent nonauthor final reviews, and [isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35700510972) with actual rejection and sandbox controls. [Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-14/lean/README.md) · [Immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/9a0117aa8ed40a73b285772b3b1c13864782e95d/linear-systems-and-elimination/IE-14/lean) · [Retained evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/IE-14/README.md).
+
+Mathematics: Matthew J. Colbrook; Higham retains original-problem credit. Formalization: Sidney Holden with OpenAI Codex assistance. No symmetry, diagonal dominance, real-only restriction or deterministic tie rule is substituted. No novelty, source-author endorsement or external human peer review is claimed. The complete original target and earlier source record remain below.
 
 <!-- colbrook-recovered -->
 ## Independently reviewed resolution - 2026-09-11

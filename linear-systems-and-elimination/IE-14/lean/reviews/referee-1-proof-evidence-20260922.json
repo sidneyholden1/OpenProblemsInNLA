@@ -1,0 +1,135 @@
+{
+  "verdict": "PASS",
+  "phase": "final independent mathematical/source proof review",
+  "date_utc": "2026-09-22T07:35:28.461563+00:00",
+  "reviewer": "OpenAI Codex AI agent /root/iv06_statement_referee_1",
+  "independent_nonauthor": true,
+  "active_closure": {
+    "NLA/IE14/Base.lean": "c819f4efef6a3990c7d410b78ca53c09f30e368cd74036b619c0625cd8d81f51",
+    "NLA/IE14/ColumnBounds.lean": "337bf9f7976f617dc824463da1bcdf13a67f9d80ac002b09ea02398c40cd6e73",
+    "NLA/IE14/Definitions.lean": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202",
+    "NLA/IE14/Front.lean": "59d4985e1f577a046c51ee7dc1dae59a0da07f910345291160a249540c229c6f",
+    "NLA/IE14/PairBounds.lean": "6ad077f67ef8d9086ae15947593e7c6fd847a0a93683b97280320d9a82101e2e",
+    "NLA/IE14/Proof.lean": "fa478a667ec0dfc6ae71cc32adaf12d69b1159533df90713261a65f25f5c733a",
+    "NLA/IE14/Upper.lean": "c86e368a0d1ee4a0c8899893e9febe53dfe5e3cb21d4a0492b0b3859d4e0df72",
+    "NLA/IE14/WitnessInput.lean": "a1718b92101ed3ccc695230e9850f96f34b2dd59453070026848efd5e73b99bb",
+    "NLA/IE14/WitnessPath.lean": "723a4ad8914bf184676a1405621b89e91802d2c776d0698b7efc70504b8bb170",
+    "Solution.lean": "c848e962decbfa53fc8594b85805d5bfee5dcd14dfc0445c2885693c83af92ca"
+  },
+  "boundary_hashes": {
+    "NLA/IE14/Definitions.lean": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202",
+    "Challenge.lean": "dcaaf1807039dda04a53329ff333580ca3670a445693df0f8dceac0e6f280b32",
+    "NUMERICAL_TARGETS.md": "c034b8725c90f6771299b439b73ac0c490d452bed3e01aa3890c50a9458c587d",
+    "README.md": "04cc7f98f5971819d3cd1306a259a4c3487824f9aea789946e1cbf70f95542fb",
+    "formalization.yaml": "0dfc94f298778b26ef949f5ed4a445413745527935a014d7072012634bbc4df8",
+    "comparator.json": "74c736e28e1befa52dffe4bafbe6785339f59b9a3784348d9dda74aad0e277e5",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "c68beeb54b136053439a6887f1064be96bed00e652f86272e62cbde79f1082fa",
+    "lake-manifest.json": "b86bf12ffe55dd432cb556dfb3dfa91ab11da248eee4db7ae53ea00b00c8d58c",
+    "../README.md": "ebbd61a71ba0aa17f4bd076f1f2408e5db63aa3426247b4e4db0bcb0b582d869",
+    "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-14.tex": "4c20c2c20e6d05945911883682bc823096ef0ff1011cbd31bf941fd1f309b869",
+    "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-14-review.md": "409539b6cf58b4bf627c52bb6df6ad2f8833be4a43beb88e591c2fa6b815728c",
+    "verification/statement-build-final.log": "d7a57be13df74e5c9fc4c8f1666d8f6a13487557580d0986824e671445ef0e8a",
+    "verification/statement-local.json": "263aff907d32d950b63e4632db022e730dbf9cd46ce0797f57257311a0eed99f",
+    "verification/check_draft_metadata.py": "6db3b597583944454f68e828f12418c4c0765dc04d9a353bc20c132c78a6d0f4",
+    "verification/metadata-draft.log": "9fbeafb55c2bf4b0f49cf14aaf4e938178906852195e38d449bb64269f0c3ce8"
+  },
+  "preserved_boundary_paths": {
+    "NLA/IE14/Definitions.lean": "NLA/IE14/Definitions.lean",
+    "Challenge.lean": "Challenge.lean",
+    "NUMERICAL_TARGETS.md": "NUMERICAL_TARGETS.md",
+    "README.md": "reviews/statement-original/README.md",
+    "formalization.yaml": "reviews/statement-original/formalization.yaml",
+    "comparator.json": "comparator.json",
+    "lean-toolchain": "lean-toolchain",
+    "lakefile.toml": "lakefile.toml",
+    "lake-manifest.json": "lake-manifest.json",
+    "../README.md": "../README.md",
+    "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-14.tex": "../../../references/colbrook-recovered-2026-09-11/manuscripts/IE-14.tex",
+    "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-14-review.md": "../../../references/colbrook-recovered-2026-09-11/verification/reviews/IE-14-review.md",
+    "verification/statement-build-final.log": "verification/statement-build-final.log",
+    "verification/statement-local.json": "verification/statement-local.json",
+    "verification/check_draft_metadata.py": "verification/check_draft_metadata.py",
+    "verification/metadata-draft.log": "verification/metadata-draft.log"
+  },
+  "candidate_hashes": {
+    "NLA/IE14/Base.lean": "c819f4efef6a3990c7d410b78ca53c09f30e368cd74036b619c0625cd8d81f51",
+    "NLA/IE14/ColumnBounds.lean": "337bf9f7976f617dc824463da1bcdf13a67f9d80ac002b09ea02398c40cd6e73",
+    "NLA/IE14/Definitions.lean": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202",
+    "NLA/IE14/Front.lean": "59d4985e1f577a046c51ee7dc1dae59a0da07f910345291160a249540c229c6f",
+    "NLA/IE14/PairBounds.lean": "6ad077f67ef8d9086ae15947593e7c6fd847a0a93683b97280320d9a82101e2e",
+    "NLA/IE14/Proof.lean": "fa478a667ec0dfc6ae71cc32adaf12d69b1159533df90713261a65f25f5c733a",
+    "NLA/IE14/Upper.lean": "c86e368a0d1ee4a0c8899893e9febe53dfe5e3cb21d4a0492b0b3859d4e0df72",
+    "NLA/IE14/WitnessInput.lean": "a1718b92101ed3ccc695230e9850f96f34b2dd59453070026848efd5e73b99bb",
+    "NLA/IE14/WitnessPath.lean": "723a4ad8914bf184676a1405621b89e91802d2c776d0698b7efc70504b8bb170",
+    "Solution.lean": "c848e962decbfa53fc8594b85805d5bfee5dcd14dfc0445c2885693c83af92ca",
+    "Challenge.lean": "dcaaf1807039dda04a53329ff333580ca3670a445693df0f8dceac0e6f280b32",
+    "NUMERICAL_TARGETS.md": "c034b8725c90f6771299b439b73ac0c490d452bed3e01aa3890c50a9458c587d",
+    "README.md": "e5e7d96f0d7a523ea409c043f820d48258eac15efdb4a1edf059c779ec85c64b",
+    "formalization.yaml": "390d2b5332231a5d324c7281039059145592935a9ba4feb05cd88c2a880cd216",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "c68beeb54b136053439a6887f1064be96bed00e652f86272e62cbde79f1082fa",
+    "lake-manifest.json": "b86bf12ffe55dd432cb556dfb3dfa91ab11da248eee4db7ae53ea00b00c8d58c",
+    "comparator.json": "74c736e28e1befa52dffe4bafbe6785339f59b9a3784348d9dda74aad0e277e5",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "verification/solution-build-final.log": "42cc8ebc8019ab9c3867c4b5a5305c1f5ca83f8c6cc7a8ec8ccf1ed431af6066",
+    "verification/AuthorAudit.lean": "e2bd96f10d945e089061cb9e73ecfb0714dda4652a87076e27ab1a91cf5c4088",
+    "verification/axioms.log": "e1dec2098b0040d3c7b2322fbcc7b5bdffd1c54e438778160a0ffa62b5cea840",
+    "verification/metadata-local-complete.log": "ec81c04258673a75fd2e053ac1cc87f9e52013e0cf117ed8e5936495b2d0d02e",
+    "verification/metadata-local-complete.json": "b196ea85eb12177459069dcc298e8430be3a3cc3d91532d1f4386fccdf0e062c",
+    "verification/freeze_local_proof.py": "b2176e40eab2724f2c9ae09087fc777ebd600c1aaa2a98ee02716be1445853ac"
+  },
+  "library_hashes": {
+    ".lake/packages/mathlib/Mathlib/Analysis/Complex/Norm.lean": "815efa05d2282b0b234139eac16d614f1128d69e39cf02249df887934ccc9741",
+    ".lake/packages/mathlib/Mathlib/Data/Finset/Lattice/Fold.lean": "79b80dd5aa12886d31c582ab00585627dc4e7f1d7607c7b707484f38d95ce2f4",
+    ".lake/packages/mathlib/Mathlib/LinearAlgebra/Matrix/Determinant/Basic.lean": "37646a248748fd65e37c20a21b4a20fea11539d4312aae4f277e4faef8ed2b87",
+    ".lake/packages/mathlib/Mathlib/Order/ConditionallyCompleteLattice/Basic.lean": "4e4c9abe9993f2334c389d6cb4b75b31b44bb66bb87b65a95b3abac2dbd9fcc8",
+    ".lake/packages/mathlib/Mathlib/Data/Nat/Fib/Basic.lean": "7dfe6ccc390046773b2d4305ee89a6d753fc4d5608057da20e0a9526c6d60680",
+    ".lake/packages/LeanCert/LeanCert/Tactic/Verification.lean": "2c576708b528acdde17796b0b715b83079f9cad377182dbd87c248323ff0a58c"
+  },
+  "evidence_hashes": {
+    "reviews/proof-source-hashes.json": "01160ab473019fa5939a9fdeba4bb9a1aac5c35da4ad478f1c1058dde5f9d40c",
+    "reviews/statement-gate.json": "055e3be8e763e58d05333ae9184be7b666772067e43eba06aaa330f5be6d4ed7",
+    "reviews/upper-prereview-referee-1.md": "c969635f00b43a28b4f8c8bd01f52e0de800aa25025d89bd1087757a203534fc",
+    "reviews/upper-prereview-referee-1.json": "d3d1205a9203f3f034d8762cee68552d07390332557908af213c69fcf2b57d57",
+    "verification/local-proof-20260922.json": "9169fca0c84d7ce3a29af786aeae607f03835470f79866f862d45237eda38a53",
+    "verification/solution-build-final.log": "42cc8ebc8019ab9c3867c4b5a5305c1f5ca83f8c6cc7a8ec8ccf1ed431af6066",
+    "verification/axioms.log": "e1dec2098b0040d3c7b2322fbcc7b5bdffd1c54e438778160a0ffa62b5cea840",
+    "verification/metadata-local-complete.log": "ec81c04258673a75fd2e053ac1cc87f9e52013e0cf117ed8e5936495b2d0d02e",
+    "verification/Referee1Consumer20260922.lean": "105ae50b35624b67b6573acaa13ff59d90cd34c3eca53d8802691cd12ea122be",
+    "verification/referee-1-consumer-20260922.log": "e1dec2098b0040d3c7b2322fbcc7b5bdffd1c54e438778160a0ffa62b5cea840"
+  },
+  "independent_consumer": {
+    "exit_code": 0,
+    "exact_challenge_signatures": 4,
+    "kernel_assertions": 4,
+    "exports": [
+      "NLA.IE14.upper_bound",
+      "NLA.IE14.rational_attainment",
+      "NLA.IE14.sharp_maximum",
+      "NLA.IE14.original_target"
+    ],
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake env lean verification/Referee1Consumer20260922.lean"
+  },
+  "execution_provenance": {
+    "full_build": "Author execution inspected: solution-build-final.log, PASS3086. Did not duplicate full build.",
+    "own_execution": "Independent exact-four-statement consumer and exported transitive axiom/LeanCert kernel checks, exit0.",
+    "earlier_failed_logs": "Historical development attempts including solution-build.log are retained; they are not current acceptance evidence.",
+    "LeanCert_role": "Actual transitive foundational-axiom/kernel audit. Exact symbolic algebra and finite Fibonacci induction; no interval certificate claimed."
+  },
+  "scope": "Complete original complex all-orders n\u22654, all-tie GEPP target with exact rational actual-path attainment and genuine real supremum.",
+  "upper_prereview_delta": "Only Base.lean first-line attribution changed from IE-05 adapted bounds to IE-15 studied patterns; exact reverse substitution reproduces the prior SHA. All mathematical bytes and other upper-closure files unchanged.",
+  "unresolved_findings": [],
+  "nonblocking_findings": [
+    "Current author build has unnecessary-sequencing/unused-binding lint warnings; no mathematical source correction requested."
+  ],
+  "limits": [
+    "AI nonauthor review, not external human peer review or Tau Ceti endorsement.",
+    "Fresh isolated Linux Comparator/default-kernel and operational controls remain separate pending gates."
+  ]
+}

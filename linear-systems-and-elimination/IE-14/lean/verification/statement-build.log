@@ -1,0 +1,64 @@
+✖ [2380/2382] Building NLA.IE14.Definitions (9.5s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/NLA/IE14/Definitions.lean -o /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Definitions.olean -i /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Definitions.ilean -c /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Definitions.c --setup /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Definitions.setup.json --json
+error: NLA/IE14/Definitions.lean:19:24: Application type mismatch: The argument
+  ↑j
+has type
+  ℕ
+but is expected to have type
+  Prop
+in the application
+  ↑i ≤ ↑j + 1 ∧ ↑j
+error: NLA/IE14/Definitions.lean:19:8: failed to synthesize instance of type class
+  LT (?m.13 + 1)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: NLA/IE14/Definitions.lean:19:31: Invalid dotted identifier notation: The expected type of `.val` could not be determined
+
+Hint: Using one of these would be unambiguous:
+  [apply] `AddUnits.val`
+  [apply] `Char.val`
+  [apply] `DerivedWanted.val`
+  [apply] `Fin.val`
+  [apply] `Finset.val`
+  [apply] `NonScalar.val`
+  [apply] `PNat.val`
+  [apply] `Subalgebra.val`
+  [apply] `SubalgebraClass.val`
+  [apply] `Subtype.val`
+  [apply] `Units.val`
+  [apply] `ZMod.val`
+  [apply] `Array.Mem.val`
+  [apply] `Lean.ExprStructEq.val`
+  [apply] `OrderHom.Subtype.val`
+  [apply] `ST.Out.val`
+  [apply] `Vector.Mem.val`
+  [apply] `Lean.Doc.Parser.val`
+  [apply] `Lean.Doc.WithSyntax.val`
+  [apply] `Lean.Elab.FieldInfo.val`
+  [apply] `Lean.Language.DynamicSnapshot.val`
+  [apply] `Lean.Language.SyntaxGuarded.val`
+  [apply] `Lean.Meta.InstanceEntry.val`
+  [apply] `Lean.Server.WithRpcRef.val`
+  [apply] `Std.Time.Timestamp.val`
+  [apply] `Std.Time.WallTime.val`
+  [apply] `Batteries.BinomialHeap.Imp.FindMin.val`
+  [apply] `Lean.Elab.ComputedFields.Context.val`
+  [apply] `Lean.Elab.Term.LetRecToLift.val`
+  [apply] `Lean.Elab.Term.NamedArg.val`
+  [apply] `Lean.Meta.Match.Example.val`
+  [apply] `Lean.Meta.Match.Pattern.val`
+  [apply] `Lean.Meta.Sym.BitVecValue.val`
+  [apply] `Lean.Meta.Sym.FinValue.val`
+  [apply] `Lean.Meta.SynthInstance.Instance.val`
+  [apply] `Std.Time.Internal.UnitVal.val`
+  [apply] `Lean.Meta.Try.Collector.InductionCandidate.val`
+  [apply] `Mathlib.Tactic.Ring.Common.Result.val`
+  [apply] `Lean.Meta.Grind.Arith.Cutsat.SymbolicBound.val`
+error: NLA/IE14/Definitions.lean:31:8: unexpected token '∧'; expected term
+error: NLA/IE14/Definitions.lean:39:21: unexpected token '→'; expected term
+error: NLA/IE14/Definitions.lean:75:33: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE14.Definitions
+error: build failed

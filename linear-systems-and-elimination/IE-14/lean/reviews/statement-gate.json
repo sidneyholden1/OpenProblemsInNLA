@@ -1,0 +1,12 @@
+{
+  "verdict": "PASS",
+  "phase": "statement-gate-before-proof",
+  "snapshot_sha256": "177ff97d0a6f92aa58708cc24bbe20f38fa0ab8b88dea10589d4ba6771502c7c",
+  "all_frozen_inputs_match": true,
+  "independent_nonauthor_approvals": {
+    "reviews/statement-referee-root.md": "3085e09b4921f0125c3ac99f73a65b19806e34608ba0585d03426683979b0f34",
+    "reviews/statement-referee-1.md": "fa988afb0d915fdd2f65cd13d02b2463eea9c3dde921266201f0525c39380200"
+  },
+  "build_receipt_sha256": "263aff907d32d950b63e4632db022e730dbf9cd46ce0797f57257311a0eed99f",
+  "no_mathematical_proof_files_present": true
+}

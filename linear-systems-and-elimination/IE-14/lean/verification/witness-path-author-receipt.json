@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS",
+  "author": "OpenAI Codex /root/new_target_screen assisting Sidney Holden",
+  "scope": "Author proof/build and kernel audit, not independent mathematical review",
+  "build_jobs": 3078,
+  "kernel_checks": 4,
+  "standard_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "proof_scope": "Every n\u22654: exact residual LU formula for actual swapped and padded Schur states; all legal pivots; final pivot fib(n+1)+1",
+  "hashes": {
+    "NLA/IE14/WitnessPath.lean": "723a4ad8914bf184676a1405621b89e91802d2c776d0698b7efc70504b8bb170",
+    "verification/witness-path-build.log": "c910cfe5e7c4c1789ca2e38af5d2d3ff6e8719dafd46dd11e130f7efa42de1a8",
+    "verification/WitnessPathAuthorAudit.lean": "d22a567efd26fe1b434d35f90e42226a64e774f645e98cb6d499c0004cb278f7",
+    "verification/witness-path-author-audit.log": "65fa2f786d8edbf52f55a025d5cc2893b1c39496337e460026418247854bf7d0",
+    "verification/witness-precheck-independent.py": "915336b2295b183b779200fac06eca5206a1d83474e1c0521239b65722739b36",
+    "verification/witness-precheck-independent.json": "427b1d0c3396ab8009b9b57d29670476a8e03604bb37a8ea28a8017281b82b34"
+  }
+}

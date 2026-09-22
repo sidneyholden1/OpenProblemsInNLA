@@ -1,0 +1,90 @@
+✖ [3078/3078] Building NLA.IE14.WitnessInput (5.7s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/NLA/IE14/WitnessInput.lean -o /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/WitnessInput.olean -i /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/WitnessInput.ilean -c /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/WitnessInput.c --setup /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/WitnessInput.setup.json --json
+warning: NLA/IE14/WitnessInput.lean:58:14: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [g, h1, factorRow, hn0, hnn, show 1 < n by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:90:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE14/WitnessInput.lean:102:38: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/IE14/WitnessInput.lean:130:28: This simp argument is unused:
+  he0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h0, h1, h2, h3, hi1, hi2, he1, he2, show i.val - 1 ≠ 0 by omega, show i.val - 1 ≠ 1 by omega,
+    show i.val - 2 ≠ 0 by omega, show i.val - 2 ≠ 1 by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:130:32: This simp argument is unused:
+  he1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h0, h1, h2, h3, hi1, hi2, he0, he2, show i.val - 1 ≠ 0 by omega, show i.val - 1 ≠ 1 by omega,
+    show i.val - 2 ≠ 0 by omega, show i.val - 2 ≠ 1 by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:130:36: This simp argument is unused:
+  he2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h0, h1, h2, h3, hi1, hi2, he0, he1, show i.val - 1 ≠ 0 by omega, show i.val - 1 ≠ 1 by omega,
+    show i.val - 2 ≠ 0 by omega, show i.val - 2 ≠ 1 by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:147:38: This simp argument is unused:
+  if_pos
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hi1, hi2, hm1, hm2, if_false, Fin.val_mk, e1, e2, h0, h1, false_or]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:147:45: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hi1, hi2, hm1, hm2, if_false, if_pos, e1, e2, h0, h1, false_or]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessInput.lean:154:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+error: NLA/IE14/WitnessInput.lean:166:36: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 3
+  b ≥ 1
+  b - c ≤ -2
+  a ≥ 0
+  a - c ≤ 0
+where
+ a := ↑(if ↑i = 0 then 0 else if ↑i + 1 < n then ↑i + 1 else 1)
+ b := ↑↑i
+ c := ↑↑j
+error: NLA/IE14/WitnessInput.lean:178:36: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 2
+  b ≥ 0
+  b - c ≤ -1
+  a ≥ 4
+  a - b ≥ 1
+  a ≥ 1
+  a - c ≥ 2
+where
+ a := ↑n
+ b := ↑(if ↑i = 0 then 0 else if ↑i + 1 < n then ↑i + 1 else 1)
+ c := ↑↑j
+error: NLA/IE14/WitnessInput.lean:223:21: #assert_trust: 'NLA.IE14.witness_cyclic' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE14.WitnessInput
+error: build failed

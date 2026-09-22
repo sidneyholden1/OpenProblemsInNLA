@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "build_jobs": 2382,
+  "intentional_placeholders": 4,
+  "log": "verification/statement-build-final.log",
+  "log_sha256": "d7a57be13df74e5c9fc4c8f1666d8f6a13487557580d0986824e671445ef0e8a",
+  "base": "2eef31b5e5d33279ef2922a090f105c20e1b03fb",
+  "proof_implementation_present": false
+}

@@ -1,0 +1,2 @@
+'NLA.IE14.witness_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.IE14.witness_final_pivot' depends on axioms: [propext, Classical.choice, Quot.sound]

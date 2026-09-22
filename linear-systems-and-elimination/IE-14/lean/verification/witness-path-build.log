@@ -1,0 +1,12 @@
+⚠ [3078/3078] Built NLA.IE14.WitnessPath (17s)
+warning: NLA/IE14/WitnessPath.lean:106:67: This simp argument is unused:
+  hkN
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witnessPivot, hk0, stageFactor, Equiv.swap_apply_right, hk, show ¬n - 1 + 1 < n by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessPath.lean:127:95: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3078 jobs).

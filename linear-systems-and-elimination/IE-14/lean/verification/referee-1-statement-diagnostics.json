@@ -1,0 +1,147 @@
+{
+  "verdict": "PASS",
+  "scope": "Finite exact witness/padding and tie-path diagnostics only; not proof for arbitrary inputs or all dimensions.",
+  "witness_cases": [
+    {
+      "n": 4,
+      "growth": "6",
+      "det": "3",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 5,
+      "growth": "9",
+      "det": "-9/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 6,
+      "growth": "14",
+      "det": "7",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 7,
+      "growth": "22",
+      "det": "-11",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 8,
+      "growth": "35",
+      "det": "35/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 9,
+      "growth": "56",
+      "det": "-28",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 10,
+      "growth": "90",
+      "det": "45",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 11,
+      "growth": "145",
+      "det": "-145/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 12,
+      "growth": "234",
+      "det": "117",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 13,
+      "growth": "378",
+      "det": "-189",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 14,
+      "growth": "611",
+      "det": "611/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 15,
+      "growth": "988",
+      "det": "-494",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 16,
+      "growth": "1598",
+      "det": "799",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 17,
+      "growth": "2585",
+      "det": "-2585/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 18,
+      "growth": "4182",
+      "det": "2091",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 19,
+      "growth": "6766",
+      "det": "-3383",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 20,
+      "growth": "10947",
+      "det": "10947/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 21,
+      "growth": "17712",
+      "det": "-8856",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 22,
+      "growth": "28658",
+      "det": "14329",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 23,
+      "growth": "46369",
+      "det": "-46369/2",
+      "all_padding_matches_compact": true
+    },
+    {
+      "n": 24,
+      "growth": "75026",
+      "det": "37513",
+      "all_padding_matches_compact": true
+    }
+  ],
+  "exhaustive_witness_ties": {
+    "4": {
+      "all_tie_paths": 6,
+      "maximum_growth": "6"
+    },
+    "5": {
+      "all_tie_paths": 8,
+      "maximum_growth": "9"
+    },
+    "6": {
+      "all_tie_paths": 10,
+      "maximum_growth": "14"
+    }
+  },
+  "script_sha256": "c336e6dfbceb14e7e4b3f2747f1c0924ac491a795261205719ff0ff4a5fca3bd"
+}

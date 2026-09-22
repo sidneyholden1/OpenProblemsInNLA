@@ -1,0 +1,15 @@
+✖ [3077/3078] Building NLA.IE14.Base (4.8s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/NLA/IE14/Base.lean -o /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Base.olean -i /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/lib/lean/NLA/IE14/Base.ilean -c /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Base.c --setup /private/tmp/nla-20260922-ie14/linear-systems-and-elimination/IE-14/lean/.lake/build/ir/NLA/IE14/Base.setup.json --json
+error: NLA/IE14/Base.lean:97:6: Type mismatch
+  add_le_add_left
+    (mul_le_of_le_one_left (norm_nonneg (S (↑k) (r k) j)) (path_multiplier A S r hp k ((Equiv.swap k (r k)) i) hswap))
+    ?m.170
+has type
+  ‖S (↑k) ((Equiv.swap k (r k)) i) k / S (↑k) (r k) k‖ * ‖S (↑k) (r k) j‖ + ?m.170 ≤ ‖S (↑k) (r k) j‖ + ?m.170
+but is expected to have type
+  ‖S (↑k) ((Equiv.swap k (r k)) i) j‖ + ‖S (↑k) ((Equiv.swap k (r k)) i) k / S (↑k) (r k) k‖ * ‖S (↑k) (r k) j‖ ≤
+    ‖S (↑k) ((Equiv.swap k (r k)) i) j‖ + ‖S (↑k) (r k) j‖
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.IE14.Base
+error: build failed

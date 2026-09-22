@@ -1,0 +1,191 @@
+{
+  "scope": "Exact finite diagnostics only; not universal formal proof",
+  "author": "OpenAI Codex /root/new_target_screen",
+  "checks": [
+    {
+      "n": 4,
+      "growth": 6,
+      "verdict": "PASS"
+    },
+    {
+      "n": 5,
+      "growth": 9,
+      "verdict": "PASS"
+    },
+    {
+      "n": 6,
+      "growth": 14,
+      "verdict": "PASS"
+    },
+    {
+      "n": 7,
+      "growth": 22,
+      "verdict": "PASS"
+    },
+    {
+      "n": 8,
+      "growth": 35,
+      "verdict": "PASS"
+    },
+    {
+      "n": 9,
+      "growth": 56,
+      "verdict": "PASS"
+    },
+    {
+      "n": 10,
+      "growth": 90,
+      "verdict": "PASS"
+    },
+    {
+      "n": 11,
+      "growth": 145,
+      "verdict": "PASS"
+    },
+    {
+      "n": 12,
+      "growth": 234,
+      "verdict": "PASS"
+    },
+    {
+      "n": 13,
+      "growth": 378,
+      "verdict": "PASS"
+    },
+    {
+      "n": 14,
+      "growth": 611,
+      "verdict": "PASS"
+    },
+    {
+      "n": 15,
+      "growth": 988,
+      "verdict": "PASS"
+    },
+    {
+      "n": 16,
+      "growth": 1598,
+      "verdict": "PASS"
+    },
+    {
+      "n": 17,
+      "growth": 2585,
+      "verdict": "PASS"
+    },
+    {
+      "n": 18,
+      "growth": 4182,
+      "verdict": "PASS"
+    },
+    {
+      "n": 19,
+      "growth": 6766,
+      "verdict": "PASS"
+    },
+    {
+      "n": 20,
+      "growth": 10947,
+      "verdict": "PASS"
+    },
+    {
+      "n": 21,
+      "growth": 17712,
+      "verdict": "PASS"
+    },
+    {
+      "n": 22,
+      "growth": 28658,
+      "verdict": "PASS"
+    },
+    {
+      "n": 23,
+      "growth": 46369,
+      "verdict": "PASS"
+    },
+    {
+      "n": 24,
+      "growth": 75026,
+      "verdict": "PASS"
+    },
+    {
+      "n": 25,
+      "growth": 121394,
+      "verdict": "PASS"
+    },
+    {
+      "n": 26,
+      "growth": 196419,
+      "verdict": "PASS"
+    },
+    {
+      "n": 27,
+      "growth": 317812,
+      "verdict": "PASS"
+    },
+    {
+      "n": 28,
+      "growth": 514230,
+      "verdict": "PASS"
+    },
+    {
+      "n": 29,
+      "growth": 832041,
+      "verdict": "PASS"
+    },
+    {
+      "n": 30,
+      "growth": 1346270,
+      "verdict": "PASS"
+    },
+    {
+      "n": 31,
+      "growth": 2178310,
+      "verdict": "PASS"
+    },
+    {
+      "n": 32,
+      "growth": 3524579,
+      "verdict": "PASS"
+    },
+    {
+      "n": 33,
+      "growth": 5702888,
+      "verdict": "PASS"
+    },
+    {
+      "n": 34,
+      "growth": 9227466,
+      "verdict": "PASS"
+    },
+    {
+      "n": 35,
+      "growth": 14930353,
+      "verdict": "PASS"
+    },
+    {
+      "n": 36,
+      "growth": 24157818,
+      "verdict": "PASS"
+    },
+    {
+      "n": 37,
+      "growth": 39088170,
+      "verdict": "PASS"
+    },
+    {
+      "n": 38,
+      "growth": 63245987,
+      "verdict": "PASS"
+    },
+    {
+      "n": 39,
+      "growth": 102334156,
+      "verdict": "PASS"
+    },
+    {
+      "n": 40,
+      "growth": 165580142,
+      "verdict": "PASS"
+    }
+  ]
+}

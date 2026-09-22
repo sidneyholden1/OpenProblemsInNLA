@@ -34,7 +34,7 @@ matrices},pdfauthor={Open Problems in Numerical Linear Algebra}}
 \fancyhf{}
 \fancyhead[L]{\sffamily\footnotesize\color{muted}OPEN PROBLEMS IN NUMERICAL LINEAR ALGEBRA}
 \fancyhead[R]{\sffamily\bfseries\footnotesize\color{accent}IE-14}
-\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-11}}
+\fancyfoot[L]{\parbox[b]{0.9\textwidth}{\sffamily\fontsize{8}{10}\selectfont\color{muted}Editorial ratings; a bounded search cannot certify that a problem remains unsolved.\\Literature check: 2026-09-22}}
 \fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
@@ -51,10 +51,40 @@ growth for cyclic tridiagonal matrices\par}
 \vspace{7pt}
 {\sffamily\small\textbf{Difficulty:} challenging\quad\textbf{Importance:} interesting
 to specialist\par}
-{\sffamily\small\bfseries\color{accent}Status: Solved\par}
+{\sffamily\small\bfseries\color{accent}Status: Lean verified\par}
 \vspace{4pt}
 {\color{accent}\hrule height 0.8pt}
 \vspace{6pt}
+\subsection{Lean verification --- 22 September
+2026}\label{lean-verification-22-september-2026}
+
+The complete original target is formally proved: for every \(n\ge4\),
+the sharp growth factor is \(c_n=F_{n+1}+1\). The upper bound covers
+every nonsingular complex cyclic tridiagonal input with both cyclic
+corners nonzero, every permitted GEPP tie path, and every active Schur
+entry in the original ordering. The explicit rational family attains the
+bound through actual row swaps. The nonempty bounded growth set, its
+greatest member and its genuine real supremum are all proved.
+
+All four exports passed LeanCert kernel audits, two independent
+nonauthor final reviews, and
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35700510972}{isolated
+Linux Comparator/default-kernel verification} with actual rejection and
+sandbox controls.
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/linear-systems-and-elimination/IE-14/lean/README.md}{Proof
+and reviews} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/tree/9a0117aa8ed40a73b285772b3b1c13864782e95d/linear-systems-and-elimination/IE-14/lean}{Immutable
+proof revision} ·
+\href{https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/IE-14/README.md}{Retained
+evidence}.
+
+Mathematics: Matthew J. Colbrook; Higham retains original-problem
+credit. Formalization: Sidney Holden with OpenAI Codex assistance. No
+symmetry, diagonal dominance, real-only restriction or deterministic tie
+rule is substituted. No novelty, source-author endorsement or external
+human peer review is claimed. The complete original target and earlier
+source record remain below.
+
 \subsection{Independently reviewed resolution -
 2026-09-11}\label{independently-reviewed-resolution---2026-09-11}
 
@@ -85,6 +115,7 @@ problem in which the two corner entries change elimination fill;
 specialist impact is a precise stability bound for cyclic tridiagonal
 systems.
 
+\newpage
 \subsection{Problem statement}\label{problem-statement}
 
 For each \(n\ge4\), let \(\mathcal C_n\) consist of the nonsingular
@@ -103,10 +134,9 @@ first column, interchange its row with the active first row, and form
 the trailing Schur complement. For an admissible path \(\pi\), let
 \(S_1=A,\ldots,S_n\) denote the active matrices. Define
 
-\[
-\rho(A,\pi)=\frac{\max_{1\le k\le n}\|S_k\|_{\max}}{\|A\|_{\max}},
-\qquad \|M\|_{\max}=\max_{i,j}|m_{ij}|,
-\]
+\[\rho(A,\pi)=\frac{\max_{1\le k\le n}\|S_k\|_{\max}}{\|A\|_{\max}},
+\qquad \|M\|_{\max}=\max_{i,j}|m_{ij}|,\]
+
 \[c_n=\sup_{A\in\mathcal C_n}\ \sup_{\pi\text{ permitted by GEPP}}\rho(A,\pi).\]
 
 Determine \(c_n\) for every \(n\ge4\), with matching upper bounds and
@@ -120,7 +150,6 @@ isolates the effect of the two corner entries on partial-pivoting
 stability. Unlike the fixed-bandwidth problem IE-13, the corner offsets
 grow with \(n\).
 
-\newpage
 \subsection{Reference}\label{reference}
 
 N. J. Higham,

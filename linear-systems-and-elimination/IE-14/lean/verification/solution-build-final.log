@@ -1,0 +1,26 @@
+✔ [3077/3086] Built NLA.IE14.Base (4.8s)
+⚠ [3082/3086] Replayed NLA.IE14.WitnessPath
+warning: NLA/IE14/WitnessPath.lean:106:67: This simp argument is unused:
+  hkN
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [witnessPivot, hk0, stageFactor, Equiv.swap_apply_right, hk, show ¬n - 1 + 1 < n by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/IE14/WitnessPath.lean:127:95: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3083/3086] Built NLA.IE14.WitnessInput (5.5s)
+warning: NLA/IE14/WitnessInput.lean:90:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/IE14/WitnessInput.lean:151:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3084/3086] Built NLA.IE14.Proof (6.9s)
+ℹ [3085/3086] Built Solution (6.6s)
+info: Solution.lean:29:0: 'NLA.IE14.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:30:0: 'NLA.IE14.rational_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:31:0: 'NLA.IE14.sharp_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:32:0: 'NLA.IE14.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3086 jobs).

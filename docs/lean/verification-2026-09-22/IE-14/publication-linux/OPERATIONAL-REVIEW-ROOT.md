@@ -1,0 +1,9 @@
+# IE-14 publication Linux evidence audit — PASS
+
+Coordinator /root, a nonauthor of IE-14's mathematical proof, adapted, executed and inspected the collector and the original evidence for Linux run 35701874332, attempt 1. This operational audit is separate from both independent mathematical reviews and the earlier proof-head audit.
+
+Publication/event head: 868aaf5a6a03a727ab9a3c5856d42ab6ce22f122. Actual tested PR merge: 75a93cb57a4cf83efde88637420bd8ae478506c1. All 97 tracked project input names and hashes match their exact Git blobs. The project tree is identical between the event head and tested merge. The harness, source lock, toolchain directory and workflow match proof revision 9a0117aa8ed40a73b285772b3b1c13864782e95d.
+
+The original artifact archive matches its GitHub API digest and passes CRC/path checks. Actual Comparator logs show fresh Challenge and Solution builds, exactly the four configured exports, permitted-axiom checking, and successful default-kernel acceptance. Raw invalid-proof and quotient-mismatch controls, five Comparator regressions, sorry/native rejections, and both build/export isolation modes all produce their required results. Namespace, capability, host-process/network and filesystem-write denials were inspected individually; only designated build-cache writes are allowed. Exact result/log hashes are retained in AUDIT-RESULTS.json.
+
+The active mathematical bytes still match the two final reviews. Publication changes only project metadata and preserves its reviewed originals. The source manuscript and original canonical target are unchanged; both regenerated PDF pages were visually inspected; all required repository, permanent-ID and renderer checks pass. This source-bound run supplies publication acceptance. Canceled duplicate runs are not represented as passes. No external human review or endorsement is claimed.
