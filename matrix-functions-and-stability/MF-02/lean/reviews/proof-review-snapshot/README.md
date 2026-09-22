@@ -32,19 +32,13 @@ subdivision. See NUMERICAL_TARGETS.md for the frozen contracts and verification
 for build receipts. The independent Challenge retains seven intentional holes;
 the completed Solution must have none.
 
-Acceptance, 2026-09-22: complete local Solution PASS3023; all seven LeanCert
-kernel assertions and transitive axiom audits use exactly propext,
-Classical.choice, Quot.sound. Both independent nonauthor final reviews pass:
-[agent2](reviews/final-referee-agent2.md) and
-[new-target referee](reviews/final-referee-2.md).
-[Fresh isolated Linux Comparator/default-kernel acceptance](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693827256)
-checks all seven exports and actual rejection/isolation controls at immutable
-proof revision 9aba1c7fed69ad95023b217a28cb486a7b9983ef. [Retained source-bound evidence](../../../docs/lean/verification-2026-09-22/MF-02/README.md)
-includes original archive digest and every tracked input hash. The operational
-artifact audit is by a proof author and is separate from both independent
-mathematical reviews. Reviewed documentation is preserved under
-reviews/proof-review-snapshot. AI assistance is disclosed; no external human
-peer review or source-author endorsement is claimed.
+Status, 2026-09-22: complete local Solution build PASS (3023 jobs), all seven
+LeanCert kernel assertions PASS and all transitive axiom closures exactly
+propext, Classical.choice, Quot.sound. Two independent nonauthor final reviews
+and isolated Linux Comparator/default-kernel and negative/isolation controls
+are required before canonical promotion. These
+are AI-assisted checks, not external human peer review. Source canonical target,
+permanent ID and status remain unchanged during this gate.
 
 Shared verification provenance is in tools/lean/NOTICE.md. Existing IE-15 project
 organization and kernel audit layout and pinned Mathlib APIs supplied examples.

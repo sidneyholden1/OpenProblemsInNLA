@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-22",
+  "proof_revision": "9aba1c7fed69ad95023b217a28cb486a7b9983ef",
+  "proof_run": 35693827256,
+  "all22_reviewed_hashes_match_with_metadata_snapshots": true,
+  "original_target_and_manuscript_unchanged": true,
+  "repository_tests": "PASS77 including renderer/Pandoc cases",
+  "pdf": "PASS; both final pages visually inspected, no clipping or overlap; complete target on page2",
+  "permanent_ids": 217,
+  "catalog_counts": {
+    "Lean verified": 39,
+    "Solved": 52,
+    "Partially resolved": 69,
+    "Open": 57
+  },
+  "publication_ci": "pending fresh publication commit; separate from accepted proof",
+  "stacked_on": "SP05 publication, PR4 retarget main after PR3 merge"
+}

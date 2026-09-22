@@ -7,8 +7,14 @@
 **Difficulty:** challenging  
 **Importance:** interesting to the community  
 **Rating rationale:** Challenging because optimal cubic compositions must be compared with unrestricted evaluation programs; community impact comes from reusable matrix-sign iterations.  
-**Status:** Solved  
-**Last checked:** 2026-09-12  
+**Status:** Lean verified  
+**Last checked:** 2026-09-22  
+
+## Lean verification — 22 September 2026
+
+The full canonical uniform stage bound is formally proved for every multiplication budget and every real gap in (0,1), including both small-budget endpoints. Seven exports establish actual register-program costs, genuine approximation errors and least feasible stage counts. They passed LeanCert kernel audits, two independent nonauthor final reviews, and [fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693827256) with rejection and sandbox controls.
+
+[Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/matrix-functions-and-stability/MF-02/lean/README.md) · [Immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/9aba1c7fed69ad95023b217a28cb486a7b9983ef/matrix-functions-and-stability/MF-02/lean) · [Retained Linux evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/MF-02/README.md). Exposition: George Stepaniants; prior asymptotic order: Cheon–Kim–Kim; cubic construction: Chen–Chow. Formalization: Sidney Holden with OpenAI Codex assistance. This verifies the stated uniform asymptotic order; no novelty, exact optimum, same-budget optimality or external human peer review is claimed.
 
 ## Resolution - uniform constant-factor asymptotic order
 

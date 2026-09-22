@@ -49,10 +49,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Full original uniform asymptotic stage bound proved for every natural multiplication budget and
-    every gap in (0,1), including actual register reuse, genuine error infima, strict cubic improvement,
-    nonempty feasible least stages and both endpoint cases. Seven exports accepted by fresh isolated Linux
-    Comparator/default-kernel with all rejection/isolation controls.
+  scope: Complete full-target implementation proved locally, including actual register programs, all error-set
+    guards, polynomial degree obstruction, constructive strict cubic improvement, genuine stage minima
+    and all uniform bounds. Local Solution PASS3023 and all seven kernel/standard-axiom checks pass. Two
+    nonauthor reviews and isolated Linux Comparator remain pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -132,14 +132,14 @@ fidelity:
     every gap and multiplication budget, including zero and one; no finite samples or abstract assumed
     approximation bounds.
 review:
-  status: Two independent nonauthor final reviews passed; Linux acceptance complete
+  status: two-statement-approvals; final-proof-reviews-and-Linux-pending
   reviewers:
-  - OpenAI Codex agent /root/iv06_statement_referee_2
+  - OpenAI Codex agent /root/iv06_statement_referee_1
   - OpenAI Codex agent /root/new_target_screen
-  notes: Two hash-bound statement approvals preceded proof implementation. Both independent nonauthor
-    exact-seven-signature consumers and trust checks pass. Immutable proof 9aba1c7fed69ad95023b217a28cb486a7b9983ef,
-    Linux run 35693827256. Operational artifact audit by a proof author is separately labeled. Reviewed
-    source and documentation snapshots retained; no external human review claimed.
+  notes: Two independent hash-bound statement approvals preceded proof work. Statement snapshots preserved;
+    exact mathematical boundary unchanged. Final nonauthor proof reviews and Linux Comparator are separate
+    required gates. Local Solution build PASS3023; all seven kernel assertions pass with exactly the standard
+    three axioms.
 alignment:
 - source: Full actual error sets and uniform approximation model
   declarations:
