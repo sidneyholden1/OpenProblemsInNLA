@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "date": "2026-09-22",
+  "reviewer": "/root",
+  "role": "independent nonauthor final referee",
+  "frozen_manifest_sha256": "487b968c277b84a09616a3d485d152c3998262fce52003e7267dde363310806f",
+  "all_24_frozen_hashes_match": true,
+  "consumer_exit_code": 0,
+  "exports": 4,
+  "kernel_assertions": 4,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "files": {
+    "reviews/root-exact-consumer.lean": "fb02322525f11ea3a29ed0b702c8e32bf03374fd23133dac8d172e4e685e4135",
+    "verification/root-final-consumer.log": "6369c4151e84875a50e85ec87f483e0a6301a3e21db25eeb0e1cb49f3bc7a5b0",
+    "verification/root-final-consumer-initial-diagnostic.log": "a15d75a7022c81bc9d96f498f47e1f8b3db770d7f2ec2eb3d315d31794c2956a",
+    "reviews/final-referee-root.md": "640efeb6e6e15de007ad2ce9c5b5219ec35d091130605150b43ddb8ebdb58822"
+  }
+}

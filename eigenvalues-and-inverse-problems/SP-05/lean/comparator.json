@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "NLA.SP05.vectorization",
+    "NLA.SP05.psd_minimizer",
+    "NLA.SP05.sector_minima_attained",
+    "NLA.SP05.symmetric_skew_minimum"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

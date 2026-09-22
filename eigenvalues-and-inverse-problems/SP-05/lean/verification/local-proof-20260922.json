@@ -1,0 +1,28 @@
+{
+  "verdict": "PASS",
+  "date": "2026-09-22",
+  "build_command": "PATH=/private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin:$PATH lake build Solution",
+  "build_exit_code": 0,
+  "build_jobs": 3532,
+  "build_log": "verification/solution-build-2.log",
+  "build_log_sha256": "9119456ed8a60f0fc30511f4bdb61638e6cdff90a09180919eb14185070dc932",
+  "exports": [
+    "NLA.SP05.vectorization",
+    "NLA.SP05.psd_minimizer",
+    "NLA.SP05.sector_minima_attained",
+    "NLA.SP05.symmetric_skew_minimum"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "all_four_kernel_assertions": true,
+  "all_frozen_statement_bytes_unchanged": true,
+  "reviewed_documentation_snapshot": "reviews/statement-review-snapshot",
+  "source_hash_manifest_sha256": "487b968c277b84a09616a3d485d152c3998262fce52003e7267dde363310806f",
+  "metadata_validation_exit_code": 0,
+  "final_nonauthor_reviews": "pending",
+  "linux_comparator": "pending",
+  "role": "local implementation verification; not an independent final referee"
+}

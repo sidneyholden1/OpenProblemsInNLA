@@ -1,0 +1,19 @@
+✖ [3249/3249] Building NLA.SP05.InverseOperator (8.3s)
+trace: .> LEAN_PATH=/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/sholden/Projects/OpenProblemsInNLA/intervals-and-absolute-value-equations/IV-06/lean/.lake/packages/leancert/.lake/build/lib/lean:/private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean /private/tmp/nla-20260922-runtime/lean-4.33.1-darwin_aarch64/bin/lean /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/NLA/SP05/InverseOperator.lean -o /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/InverseOperator.olean -i /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/lib/lean/NLA/SP05/InverseOperator.ilean -c /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/InverseOperator.c --setup /private/tmp/nla-20260922-sp05/eigenvalues-and-inverse-problems/SP-05/lean/.lake/build/ir/NLA/SP05/InverseOperator.setup.json --json
+error: NLA/SP05/InverseOperator.lean:41:32: Unknown constant `Matrix.isUnit_iff_isUnit_det.mp`
+error: NLA/SP05/InverseOperator.lean:37:39: unsolved goals
+n : ℕ
+A B Y : CMat n
+hA : Matrix.PosDef A
+hB : Matrix.PosDef B
+⊢ (cJordan A B * (cJordan A B)⁻¹) *ᵥ vecM Y = vecM Y
+error: NLA/SP05/InverseOperator.lean:78:21: #assert_trust: 'NLA.SP05.inverseMap_right' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: NLA/SP05/InverseOperator.lean:79:21: #assert_trust: 'NLA.SP05.inverseMap_isHermitian' depends on sorry or unrecognized axioms
+  foundational: propext, Classical.choice, Quot.sound
+  sorryAx: sorryAx
+error: Lean exited with code 1
+Some required targets logged failures:
+- NLA.SP05.InverseOperator
+error: build failed
