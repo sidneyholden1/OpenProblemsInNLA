@@ -1,0 +1,83 @@
+{
+  "conclusion": "",
+  "headSha": "8596dc32d33c931de352aace53df8f02a67602ce",
+  "jobs": [
+    {
+      "completedAt": "0001-01-01T00:00:00Z",
+      "conclusion": "",
+      "databaseId": 106634896446,
+      "name": "select",
+      "startedAt": "2026-09-22T06:08:44Z",
+      "status": "in_progress",
+      "steps": [
+        {
+          "completedAt": "2026-09-22T06:08:45Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-09-22T06:08:45Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-09-22T06:08:53Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "number": 2,
+          "startedAt": "2026-09-22T06:08:45Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-09-22T06:08:57Z",
+          "conclusion": "success",
+          "name": "Install metadata validators",
+          "number": 3,
+          "startedAt": "2026-09-22T06:08:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-09-22T06:08:58Z",
+          "conclusion": "success",
+          "name": "Test project selection and metadata gates",
+          "number": 4,
+          "startedAt": "2026-09-22T06:08:57Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-09-22T06:08:58Z",
+          "conclusion": "success",
+          "name": "Test pinned harness gates",
+          "number": 5,
+          "startedAt": "2026-09-22T06:08:58Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-09-22T06:08:59Z",
+          "conclusion": "success",
+          "name": "Select changed projects",
+          "number": 6,
+          "startedAt": "2026-09-22T06:08:58Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-09-22T06:08:59Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "number": 12,
+          "startedAt": "2026-09-22T06:08:59Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "name": "Complete job",
+          "number": 13,
+          "startedAt": "2026-09-22T06:08:59Z",
+          "status": "in_progress"
+        }
+      ],
+      "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693379965/job/106634896446"
+    }
+  ],
+  "status": "in_progress",
+  "url": "https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693379965"
+}

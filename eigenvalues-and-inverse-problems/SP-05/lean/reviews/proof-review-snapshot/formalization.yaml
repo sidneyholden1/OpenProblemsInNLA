@@ -49,9 +49,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: Full original SP-05 inequality; four complete Solution exports with genuine PSD global minimizer
-    and both attained sector minima. Fresh isolated Linux Comparator/default-kernel acceptance and all
-    rejection/isolation controls passed.
+  scope: Complete local proof of the full original inequality for every dimension at least two and every
+    real symmetric positive-definite pair, including a nonzero PSD eigenmatrix attaining the global Jordan
+    minimum and genuine nonempty bounded attained sector infima. Two final nonauthor reviews and isolated
+    Linux Comparator verification pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -104,13 +105,14 @@ fidelity:
     CFC positive/negative parts, spectral maximum and reciprocal eigenvalue lower bound are derived rather
     than assumed. Complex PSD minimizers return to real PSD matrices via real parts and positive trace.
 review:
-  status: Two independent nonauthor final reviews passed; Linux acceptance complete
+  status: two-statement-reviews-approved; final-proof-reviews-and-Linux-pending
   reviewers:
-  - OpenAI Codex independent nonauthor referee 1
-  - OpenAI Codex independent nonauthor coordinator referee
-  notes: Two statement approvals preceded implementation; immutable proof 8596dc32d33c931de352aace53df8f02a67602ce,
-    Linux run 35693379965. Full reports and reviewed bytes retained. Independent operational artifact
-    audit by nonauthor coordinator, separately labeled. No external human review.
+  - OpenAI Codex agent /root
+  - OpenAI Codex agent /root/new_target_screen
+  notes: Two independent hash-bound statement approvals preceded implementation; see reviews/statement-gate.json.
+    Original reviewed README and metadata are preserved under reviews/statement-review-snapshot. Full
+    local Solution build passes 3532 jobs and all four kernel/axiom checks. Two nonauthor final reviews
+    and isolated Linux Comparator remain pending.
 alignment:
 - source: Column vectorization and actual commutation/Jordan identities
   declarations:

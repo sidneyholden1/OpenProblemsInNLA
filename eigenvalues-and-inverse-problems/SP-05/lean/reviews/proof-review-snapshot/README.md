@@ -12,18 +12,13 @@ sectors use the actual Kronecker Rayleigh quotient; their genuine real infima
 are nonempty, bounded below and attained. No commutativity, rank or simple
 spectrum restriction is imposed.
 
-Acceptance, 2026-09-22: complete Solution build PASS (3532 jobs). All four
-LeanCert kernel checks use only `propext`, `Classical.choice`, and `Quot.sound`.
-Two independent nonauthor final reviews passed: [referee 1](reviews/final-referee-1.md)
-and [coordinator referee](reviews/final-referee-root.md).
-[Fresh isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35693379965)
-accepted all four exports at immutable proof revision `8596dc32d33c931de352aace53df8f02a67602ce`, with actual
-rejection and sandbox controls. [Retained source-bound evidence](../../../docs/lean/verification-2026-09-22/SP-05/README.md)
-records the original archive digest and every input hash. The operational evidence
-audit is by the coordinator, a nonauthor of the SP-05 proofs, separately from
-the two independent mathematical reviews. The reviewed README/metadata snapshot is retained under
-`reviews/proof-review-snapshot`. AI assistance is disclosed; no external human
-peer review or source-author endorsement is claimed.
+Local status, 2026-09-22: complete Solution build PASS (3532 jobs). All four
+LeanCert `#assert_trust kernel` checks pass; each transitive axiom closure is
+exactly `propext`, `Classical.choice`, and `Quot.sound`. Two independent
+nonauthor final reviews and actual isolated Linux Comparator/default-kernel
+verification are pending. The canonical page is not promoted by this local
+result. These are AI-assisted checks, not external human peer review or
+source-author endorsement.
 
 Two independent statement approvals preceded implementation. The
 [statement gate](reviews/statement-gate.json) binds all reviewed inputs;
