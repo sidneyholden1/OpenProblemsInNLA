@@ -1,0 +1,46 @@
+{
+  "verdict": "PASS",
+  "phase": "publication source/catalog/PDF checks; publication-head Linux pending",
+  "actual_proof_head": "5596784dc81e22ed625650bca71d4a1435896cef",
+  "actual_proof_linux_run": 35707732163,
+  "checks": {
+    "ids": 0,
+    "catalog": 0,
+    "id-tests": 0,
+    "manifest": 0,
+    "math-format": 0,
+    "mf22-render-first": 0,
+    "repository-tests": 0
+  },
+  "test_counts": {
+    "repository": 77,
+    "permanent_id_tests": 17,
+    "permanent_ids": 217,
+    "manifest_exports": 4
+  },
+  "pdf_pages": 2,
+  "all_pages_visually_reviewed_by": "OpenAI Codex /root",
+  "visual_result": "Both pages inspected at1500px; equations, coefficients, source/acceptance/credit, links and page breaks legible; no overlap or missing mathematical content. No renderer change needed.",
+  "frozen_completed_proof_inputs_preserved": 45,
+  "original_statement_inputs_preserved": 23,
+  "canonical_original_suffix": "byte-identical",
+  "whitespace_note": "Original raw diagnostic logs retain their actual whitespace; all other new proof source passed git whitespace check.",
+  "sha256": {
+    "matrix-functions-and-stability/MF-22/README.md": "bf1689ffb04f584163d61b1f95a5922b85d03ef0b3478e46ff7631ed22b2c039",
+    "matrix-functions-and-stability/MF-22/problem.pdf": "c14fc3e695ddd0d53968684ac8758a0485280ecf1e2e412365b4b5906097dd26",
+    "matrix-functions-and-stability/MF-22/problem.tex": "46db69c4a701c6a722f12ac41730c852618283b797eada46bb66b26e1ef78e9f",
+    "problem_ids.json": "d7f9925a483d40030ef266917bc8e413dac6d45530ad5515da506ffe9583e763",
+    "CATALOG.md": "eafc075a28132fcdefe7882f4b2578a0951b64ac4e50d459c260e48f7443a36d",
+    "README.md": "f8ef54e6159b13dfd8ae1ca2862bbf2465b05128932cfdc64189b5981c3a8ae7",
+    "RESOLVED.md": "27e3b624c1fd78459f8b42e5ab14d09b955cc532d90aebe2adf8b03d8bc20e8b"
+  },
+  "log_sha256": {
+    "ids.log": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0",
+    "repository-tests.log": "a0cf11fa863f3ae8aee65107c88bb26bfa711607a63ba48c6fc22cc406a5e291",
+    "id-tests.log": "a60f6449d73d65c7ac7de9b40f4d254c02af0a5f3c9d4215272e3db94e87b559",
+    "mf22-render-first.log": "480059aa35ca0476e01e7a21e739b64f3fa379edf947403fd5f958532c0b2582",
+    "manifest.log": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa",
+    "catalog.log": "64b0c85368f359423fb3f669d3bd630fa2c2179f1d9cbd388657592c4315e840",
+    "math-format.log": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c"
+  }
+}

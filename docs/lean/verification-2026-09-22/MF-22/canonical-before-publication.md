@@ -7,19 +7,11 @@
 **Topic:** Block Toeplitz systems and discretization stability  
 **Difficulty:** hard  
 **Importance:** interesting to specialist  
-**Status:** Lean verified  
-**Last checked:** 2026-09-22
+**Status:** Solved  
+**Last checked:** 2026-09-11
 
 **Rating rationale:** Historical ratings retained. The fixed explicit band structure makes this a hard asymptotic question, but available symbol criteria leave the relevant regime undecided; its immediate importance is to specialists in structured discretization stability.
 
-
-## Lean verification — 22 September 2026
-
-For every fixed real $`\rho>0`$, the exact uncorrected complex $`2n\times2n`$ Toeplitz family is nonsingular for all sufficiently large integer sizes and satisfies $`\kappa_2(H_n)\le K_\rho n`$. Constants and the size threshold may depend on the parameter, but not on the size. The exceptional parameter $`\rho^2=10`$ is included. Norms are the genuine induced Euclidean operator norms, and the inverse is the actual matrix inverse; singular matrices have infinite extended condition number. This proves the complete original polynomial-growth target with exponent one. The proof also establishes a dimension-independent forward norm bound and eventual uniform bounds on every inverse entry.
-
-All four exports passed LeanCert kernel audits, two independent nonauthor final reviews and [actual isolated Linux Comparator/default-kernel verification](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35707732163), including rejection and sandbox controls. [Proof and reviews](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/matrix-functions-and-stability/MF-22/lean/README.md) · [Immutable proof revision](https://github.com/sidneyholden1/OpenProblemsInNLA/tree/5596784dc81e22ed625650bca71d4a1435896cef/matrix-functions-and-stability/MF-22/lean) · [Retained evidence](https://github.com/sidneyholden1/OpenProblemsInNLA/blob/main/docs/lean/verification-2026-09-22/MF-22/README.md).
-
-Mathematics: George Stepaniants, Caltech, with source-disclosed AI assistance. Bogoya, Böttcher, Ferrari, Grudsky and Serra-Capizzano retain original family/question credit. Formalization: Sidney Holden with OpenAI Codex assistance. No novelty, source-author endorsement or external human peer review is claimed. The complete original statement, earlier resolution and source record remain below unchanged.
 
 ## Resolution: affirmative, 11 September 2026
 

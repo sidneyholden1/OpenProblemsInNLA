@@ -1,0 +1,218 @@
+$ systemd-run --user --quiet --wait --pipe --collect -p 'RestrictAddressFamilies=~AF_UNIX' --working-directory /home/runner/work/_temp/nla-lean-tools/.verification-tmp/nla-fresh-proof-9zv43ju3/project /usr/bin/env -i PATH=/home/runner/.elan/toolchains/leanprover--lean4---v4.33.1/bin:/home/runner/.elan/bin:/home/runner/go/bin:/opt/hostedtoolcache/go/1.27.1/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin HOME=/home/runner LANG=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1001 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus GIT_TERMINAL_PROMPT=0 GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null COMPARATOR_BIN=/home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator COMPARATOR_LEAN4EXPORT=/home/runner/work/_temp/nla-lean-tools/.tools/lean4export/.lake/build/bin/lean4export COMPARATOR_LANDRUN=/home/runner/work/_temp/nla-lean-tools/scripts/strict_landrun.py XDG_CACHE_HOME=/home/runner/work/_temp/nla-lean-tools/.tools/cache TMPDIR=/home/runner/work/_temp/nla-lean-tools/.verification-tmp lake env /home/runner/work/_temp/nla-lean-tools/.tools/comparator/.lake/build/bin/comparator comparator.json
+Building Challenge
+✔ [2399/2401] Built NLA.MF22.Definitions (2.1s)
+⚠ [2400/2401] Built Challenge (1.9s)
+warning: Challenge.lean:7:8: declaration uses `sorry`
+warning: Challenge.lean:10:8: declaration uses `sorry`
+warning: Challenge.lean:14:8: declaration uses `sorry`
+warning: Challenge.lean:18:8: declaration uses `sorry`
+Build completed successfully (2401 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.MF22.uniform_norm_bound, NLA.MF22.eventual_inverse_entry_bound, NLA.MF22.linear_condition_bound, NLA.MF22.original_target, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+✔ [3408/3432] Built LeanCert.Tactic.Verification (2.4s)
+⚠ [3409/3432] Built NLA.MF22.SpectralBasis (3.5s)
+warning: NLA/MF22/SpectralBasis.lean:46:51: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mulVec_sum, Matrix.mulVec_smul, hp, Finset.sum_apply, Pi.smul_apply, smul_eq_mul,
+    Matrix.mulVec_single] at ha
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3410/3432] Built NLA.MF22.NormBounds (5.6s)
+⚠ [3411/3432] Built NLA.MF22.Scalar (6.8s)
+warning: NLA/MF22/Scalar.lean:63:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Scalar.lean:70:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MF22/Scalar.lean:70:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3412/3432] Built NLA.MF22.SpectralAdjugate (4.7s)
+warning: NLA/MF22/SpectralAdjugate.lean:57:33: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.one_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/SpectralAdjugate.lean:57:55: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3413/3432] Built NLA.MF22.UniformNorm (5.3s)
+✔ [3414/3432] Built NLA.MF22.Coprime (10s)
+⚠ [3415/3432] Built NLA.MF22.Transfer (10s)
+warning: NLA/MF22/Transfer.lean:35:30: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF22/Transfer.lean:78:17: This simp argument is unused:
+  sD
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sA, sB, sC, sE, sF, numerator, coefA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Transfer.lean:78:23: This simp argument is unused:
+  sF
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sA, sB, sC, sD, sE, numerator, coefA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3416/3432] Built NLA.MF22.Cayley (9.5s)
+⚠ [3417/3432] Built NLA.MF22.CubicRoots (9.0s)
+warning: NLA/MF22/CubicRoots.lean:14:14: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3418/3432] Built NLA.MF22.Decomposition (4.2s)
+warning: NLA/MF22/Decomposition.lean:24:15: This simp argument is unused:
+  Matrix.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, smul_eq_mul, R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Decomposition.lean:24:32: This simp argument is unused:
+  Matrix.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply, smul_eq_mul, R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Decomposition.lean:24:50: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.add_apply, Matrix.smul_apply, R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3419/3432] Built NLA.MF22.ToeplitzRows (6.6s)
+⚠ [3420/3432] Built NLA.MF22.TransferEquations (7.1s)
+warning: NLA/MF22/TransferEquations.lean:13:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/TransferEquations.lean:25:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/TransferEquations.lean:34:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/TransferEquations.lean:37:8: This simp argument is unused:
+  Matrix.mulVec
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [dotProduct, Fin.sum_univ_four, Fin.sum_univ_two, transfer, forcing]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3421/3432] Built NLA.MF22.Roots (6.0s)
+warning: NLA/MF22/Roots.lean:12:25: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cayleyPolynomial, map_sub, map_mul, map_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Roots.lean:12:33: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cayleyPolynomial, map_add, map_mul, map_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Roots.lean:12:41: This simp argument is unused:
+  map_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cayleyPolynomial, map_add, map_sub, map_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Roots.lean:12:49: This simp argument is unused:
+  map_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cayleyPolynomial, map_add, map_sub, map_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/Roots.lean:36:43: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: NLA/MF22/Roots.lean:84:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MF22/Roots.lean:111:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3422/3432] Built NLA.MF22.GrowthDenominator (5.6s)
+warning: NLA/MF22/GrowthDenominator.lean:10:13: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3423/3432] Built NLA.MF22.StateReconstruction (4.4s)
+✔ [3424/3432] Built NLA.MF22.Spectral (3.3s)
+✔ [3425/3432] Built NLA.MF22.GreenBounds (4.4s)
+✔ [3426/3432] Built NLA.MF22.ActualSpectral (2.7s)
+⚠ [3427/3432] Built NLA.MF22.BoundaryGreen (2.9s)
+warning: NLA/MF22/BoundaryGreen.lean:49:19: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [greenEntry, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [3428/3432] Built NLA.MF22.ActualGreen (2.7s)
+info: NLA/MF22/ActualGreen.lean:15:0: 'NLA.MF22.transfer_green_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3429/3432] Built NLA.MF22.InverseConstruction (2.9s)
+warning: NLA/MF22/InverseConstruction.lean:25:65: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceImpulse, h, Matrix.mulVec, dotProduct, responseState]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MF22/InverseConstruction.lean:41:46: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sourceImpulse, Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: NLA/MF22/InverseConstruction.lean:97:0: 'NLA.MF22.eventual_inverse_entry_bound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3430/3432] Built NLA.MF22.FinalBounds (2.8s)
+ℹ [3431/3432] Built Solution (2.5s)
+info: Solution.lean:28:0: 'NLA.MF22.uniform_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:30:0: 'NLA.MF22.eventual_inverse_entry_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:32:0: 'NLA.MF22.linear_condition_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:34:0: 'NLA.MF22.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3432 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, NLA.MF22.uniform_norm_bound, NLA.MF22.eventual_inverse_entry_bound, NLA.MF22.linear_condition_bound, NLA.MF22.original_target, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+
+EXIT_STATUS=0

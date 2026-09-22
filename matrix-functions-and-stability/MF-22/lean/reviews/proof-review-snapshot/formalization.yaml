@@ -49,11 +49,12 @@ automation:
   notes: AI-assisted formalization requested by Sidney Holden. No measured monetary cost, external human
     review or source-author endorsement claimed.
 status:
-  scope: Complete original polynomial-conditioning target and stronger eventual linear spectral bound
-    for every fixed real rho>0, including rho²=10, on the exact uncorrected complex Toeplitz family. Eventual
-    nonsingularity, uniformly bounded actual inverse entries and genuine induced Euclidean norms are proved.
-    All four exports accepted by actual isolated Linux Comparator/default-kernel with rejection and isolation
-    controls.
+  scope: Complete local kernel proof of the original polynomial conditioning question and stronger linear
+    bound for every fixed real rho>0, including rho²=10, for the exact uncorrected complex 2n-by-2n Toeplitz
+    truncations. Eventual nonsingularity, actual uniformly bounded inverse entries and genuine induced
+    Euclidean operator norms are proved. All spectral, noncancellation, boundary and inverse bridges are
+    discharged. Two independent statement approvals preceded proof. Independent final reviews and actual
+    isolated Linux Comparator remain pending; canonical status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -105,16 +106,14 @@ fidelity:
     assertion. The source linear bound strengthens the original unspecified polynomial exponent. Root/spectral/transfer
     assertions are obligations, not public assumptions.
 review:
-  status: Two independent nonauthor final reviews passed; Linux acceptance complete
+  status: final-review-pending
   reviewers:
   - OpenAI Codex agent /root
   - OpenAI Codex agent /root/iv06_statement_referee_1
-  notes: 'Two independent hash-bound statement approvals preceded proof. Independent nonauthor final reports:
-    final-referee-root.md, final-referee-1.md. Immutable proof 5596784dc81e22ed625650bca71d4a1435896cef;
-    actual Linux run 35707732163, attempt 1, original artifact/API/input-hash audit and actual default-kernel/rejection/isolation
-    controls passed. Authors /root/iv06_statement_referee_2 and /root/new_target_screen are not counted
-    as independent mathematical referees. Statement and proof-review metadata snapshots retained. No external
-    human review or source-author endorsement claimed.'
+  notes: Two independent nonauthor statement approvals were frozen before proof. Authors /root/iv06_statement_referee_2
+    and /root/new_target_screen are excluded as independent final referees. Local complete Solution and
+    separate exact four-signature consumers passed LeanCert kernel assertions with only standard-three
+    axioms. Independent final reviews and actual isolated Linux Comparator remain pending.
 alignment:
 - source: Dimension-independent spectral norm of the exact Toeplitz matrices
   declarations:
