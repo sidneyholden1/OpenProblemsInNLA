@@ -1,0 +1,79 @@
+NLA/MI04/Arrow.lean:50:62: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.sub_apply, arrowTop, diagonal_apply_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:52:48: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_diagonal, arrowCross, conjTranspose_apply, ite_true, zero_mul, ofReal_zero, star_mul,
+    Complex.star_def, Complex.conj_ofReal, ofReal_sub, ofReal_one, ofReal_mul, ofReal_pow, rowWeight, ofReal_sum,
+    ofReal_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:66:57: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk, Ne.symm hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:67:57: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:69:59: warning: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:84:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+NLA/MI04/Arrow.lean:89:49: error: mod_cast has type
+  (0 : ℂ) ≤ if True then ↑(1 - s ^ 2 * rowWeight X i e) else ↑(2 - e i)
+but is expected to have type
+  (0 : ℝ) ≤ 1 - s ^ 2 * rowWeight X i e
+NLA/MI04/Arrow.lean:88:32: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [diagonal_apply_eq] at hd
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Arrow.lean:96:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+NLA/MI04/Arrow.lean:127:47: error: `fun_prop` was unable to prove `Continuous fun a => (if val✝¹ = i then ↑s else ↑(a * s)) * X val✝¹ val✝`
+
+Issues:
+  No theorems found for `ite` in order to prove `Continuous fun x4 => if val✝¹ = i then ↑s else x4`
+  No theorems found for `ite` in order to prove `Continuous fun x => if val✝¹ = i then ↑s else ↑(x * s)`
+NLA/MI04/Arrow.lean:127:47: error: `fun_prop` was unable to prove `Continuous fun a => star ((if val✝ = i then ↑s else ↑(a * s)) * X val✝ val✝¹)`
+
+Issues:
+  No theorems found for `ite` in order to prove `Continuous fun x4 => if val✝ = i then ↑s else x4`
+  No theorems found for `ite` in order to prove `Continuous fun x => if val✝ = i then ↑s else ↑(x * s)`
+NLA/MI04/Arrow.lean:127:47: error: `fun_prop` was unable to prove `Continuous fun a => if val✝¹ = val✝ then if val✝¹ = i then ↑(2 - a ^ 2) else ↑(e val✝¹) else 0`
+
+Issues:
+  No theorems found for `ite` in order to prove `Continuous fun a3 => if val✝¹ = val✝ then a3 else 0`
+  No theorems found for `ite` in order to prove `Continuous fun a => if val✝¹ = val✝ then if val✝¹ = i then ↑(2 - a ^ 2) else ↑(e val✝¹) else 0`

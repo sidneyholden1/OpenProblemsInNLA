@@ -1,0 +1,6 @@
+NLA/MI04/WeightedComparison.lean:60:78: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+NLA/MI04/WeightedComparison.lean:60:78: warning: Unused tactic linter: `contradiction` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

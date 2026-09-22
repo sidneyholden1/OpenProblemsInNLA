@@ -1,0 +1,49 @@
+NLA/MI04/Rescaling.lean:31:50: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Rescaling.lean:31:64: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Rescaling.lean:31:54: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Rescaling.lean:71:34: warning: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.one_apply, hji, Complex.real_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Rescaling.lean:71:56: warning: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.diagonal_apply, hji, Complex.real_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Rescaling.lean:73:32: warning: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.one_apply, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Rescaling.lean:73:54: warning: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.diagonal_apply, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+NLA/MI04/Rescaling.lean:72:31: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+NLA/MI04/Rescaling.lean:72:45: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+NLA/MI04/Rescaling.lean:72:31: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Rescaling.lean:72:45: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS for six owned prerequisite modules, not yet full-project acceptance",
+  "author": "OpenAI Codex /root/iv06_statement_referee_1; not independent reviewer",
+  "direct_compilation_exit_codes": {
+    "Preservation": 0,
+    "PositiveLimit": 0,
+    "Reflection": 0,
+    "Arrow": 0,
+    "Rescaling": 0,
+    "Threshold": 0
+  },
+  "audit_exit_code": 0,
+  "axiom_closure": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "owned_source_hashes": {
+    "NLA/MI04/Preservation.lean": "b54b5fca2b1fcd8f56674e487081edba72501bbfbd805f640d898246d9084bdc",
+    "NLA/MI04/PositiveLimit.lean": "7f95f4da930c018757f7c37b4ebaefda2b54941a3386fee8e22a070f59ecfbda",
+    "NLA/MI04/Reflection.lean": "e0639c6629fddeccb7a304015a0afd392c3952d24ea933ab36903041fe28926f",
+    "NLA/MI04/Arrow.lean": "b641a83bf921f1a5a32cd6337a9e4689718be973320ac52de591816980a47aaf",
+    "NLA/MI04/Rescaling.lean": "ccd18ca5e25f29c005b0a31964ee4692b84b9a2670075b82b32e1bc070c2f049",
+    "NLA/MI04/Threshold.lean": "c81991724a16c20012746fa0fea4d23bacd35d833f83f81ca1f869ddc903a422"
+  },
+  "evidence_hashes": {
+    "verification/preservation-final.log": "7476ecc782e492a30860055eadf45b2bbb503c56b9d6bf3a3038a80a8b1f4956",
+    "verification/positive-limit-dev4.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/reflection-dev2.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/arrow-final.log": "998ee49ed5068e84937b468ae95e87209b2e70cee8c39d6f4c8889e830d2a177",
+    "verification/rescaling-dev2.log": "41c13e15036a9f6ce1129ddb397003d6010e609cf2602ffdf380e3b893178742",
+    "verification/threshold-dev1.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/author-1-audit.log": "30aa1571ad2d4bcb09058424c03d0d82a2453a5dce3ab4b996a2bf6e9c75d432",
+    "verification/Author1Audit.lean": "bb89c936112e2a89da4af23679b95c6676831f676a7504294b94870021b1f8bd",
+    "RESCALING_PROOF_NOTES.md": "f02a09dadcc71e654944c3073448345aba661664519185165be7574a52f12c12"
+  },
+  "execution": "Direct pinned Lean4.33.1 through lake env lean, actual olean emitted for every module; no full Lake or Linux run claimed here.",
+  "limits": "Remaining project assembly, normal full build, two nonauthor final reviews and actual Linux gates are separate."
+}

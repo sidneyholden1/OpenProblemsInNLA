@@ -1,0 +1,295 @@
+⚠ [3523/3537] Built NLA.MI04.BasisTransport (8.0s)
+warning: NLA/MI04/BasisTransport.lean:50:4: This simp argument is unused:
+  OrthonormalBasis.coe_toBasis_repr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, Matrix.conjTranspose_apply, Module.Basis.toMatrix_apply,
+    OrthonormalBasis.repr_apply_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/BasisTransport.lean:50:39: This simp argument is unused:
+  OrthonormalBasis.repr_apply_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, Matrix.conjTranspose_apply, Module.Basis.toMatrix_apply,
+    OrthonormalBasis.coe_toBasis_repr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/BasisTransport.lean:51:8: This simp argument is unused:
+  EuclideanSpace.inner_single_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [EuclideanSpace.basisFun_apply, PiLp.inner_apply, Matrix.ofLp_toEuclideanCLM, Matrix.mulVec, dotProduct,
+    Finset.mul_sum, Finset.sum_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/BasisTransport.lean:51:42: This simp argument is unused:
+  EuclideanSpace.basisFun_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [EuclideanSpace.inner_single_left, PiLp.inner_apply, Matrix.ofLp_toEuclideanCLM, Matrix.mulVec,
+    dotProduct, Finset.mul_sum, Finset.sum_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/BasisTransport.lean:53:4: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [EuclideanSpace.inner_single_left, EuclideanSpace.basisFun_apply, PiLp.inner_apply,
+    Matrix.ofLp_toEuclideanCLM, Matrix.mulVec, dotProduct, Finset.sum_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3524/3537] Built NLA.MI04.PairGeometry (8.4s)
+warning: NLA/MI04/PairGeometry.lean:21:0: automatically included section variable(s) unused in theorem `NLA.MI04.pair_symmetry_orthogonal`:
+  [FiniteDimensional ℂ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℂ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: NLA/MI04/PairGeometry.lean:31:44: This simp argument is unused:
+  abs_of_nonneg (norm_nonneg u)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Complex.norm_real, hun]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/PairGeometry.lean:32:44: This simp argument is unused:
+  abs_of_nonneg (norm_nonneg v)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Complex.norm_real, hvn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/PairGeometry.lean:34:53: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_smul, inner_smul_left, inner_smul_right] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/PairGeometry.lean:69:44: This simp argument is unused:
+  abs_of_nonneg (norm_nonneg u)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Complex.norm_real, hun]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3525/3537] Built NLA.MI04.PositiveLimit (8.7s)
+⚠ [3526/3537] Built NLA.MI04.Preservation (8.8s)
+warning: NLA/MI04/Preservation.lean:26:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3527/3537] Built NLA.MI04.ScalarGeometry (8.9s)
+warning: NLA/MI04/ScalarGeometry.lean:13:37: This simp argument is unused:
+  Complex.div_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [omega, Complex.div_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/ScalarGeometry.lean:13:53: This simp argument is unused:
+  Complex.div_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [omega, Complex.div_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/ScalarGeometry.lean:20:4: This simp argument is unused:
+  Complex.div_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.normSq_apply, omega, Complex.mul_re, Complex.mul_im, Complex.div_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/ScalarGeometry.lean:20:19: This simp argument is unused:
+  Complex.div_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.normSq_apply, omega, Complex.mul_re, Complex.mul_im, Complex.div_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3528/3537] Built NLA.MI04.WeightedComparison (9.0s)
+warning: NLA/MI04/WeightedComparison.lean:60:78: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MI04/WeightedComparison.lean:60:78: Unused tactic linter: `contradiction` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [3529/3537] Built NLA.MI04.Reflection (8.4s)
+⚠ [3530/3537] Built NLA.MI04.Arrow (8.6s)
+warning: NLA/MI04/Arrow.lean:50:62: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.sub_apply, arrowTop, diagonal_apply_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Arrow.lean:52:48: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_diagonal, arrowCross, conjTranspose_apply, ite_true, zero_mul, ofReal_zero, star_mul,
+    Complex.star_def, Complex.conj_ofReal, ofReal_sub, ofReal_one, ofReal_mul, ofReal_pow, rowWeight, ofReal_sum,
+    ofReal_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Arrow.lean:66:57: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk, Ne.symm hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Arrow.lean:67:57: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Arrow.lean:69:59: This simp argument is unused:
+  mul_diagonal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [arrowTop, arrowCross, Matrix.sub_apply, mul_apply, conjTranspose_apply, hj, hk, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Arrow.lean:84:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: NLA/MI04/Arrow.lean:96:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3531/3537] Built NLA.MI04.SpectralGeometry (8.7s)
+warning: NLA/MI04/SpectralGeometry.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: NLA/MI04/SpectralGeometry.lean:15:0: automatically included section variable(s) unused in theorem `NLA.MI04.normal_sub_scalar`:
+  [FiniteDimensional ℂ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℂ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: NLA/MI04/SpectralGeometry.lean:67:6: This simp argument is unused:
+  inner_smul_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_add, map_smul, hTu, hTv, hTw, inner_add_left, inner_add_right, inner_smul_right,
+    inner_self_eq_norm_sq_to_K, hu, hv, hw, huv, huw, hvw, hvu, hwu, hwv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/SpectralGeometry.lean:71:18: This simp argument is unused:
+  map_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_add, hTu, hTv, hTw, inner_add_left, inner_add_right, inner_smul_left, inner_smul_right,
+    inner_self_eq_norm_sq_to_K, hu, hv, hw, huv, huw, hvw, hvu, hwu, hwv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/SpectralGeometry.lean:87:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3532/3537] Built NLA.MI04.Rescaling (8.4s)
+warning: NLA/MI04/Rescaling.lean:31:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MI04/Rescaling.lean:31:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: NLA/MI04/Rescaling.lean:31:54: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: NLA/MI04/Rescaling.lean:71:34: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.one_apply, hji, Complex.real_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Rescaling.lean:71:56: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.diagonal_apply, hji, Complex.real_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Rescaling.lean:73:32: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.one_apply, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Rescaling.lean:73:54: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [scaledTop, arrowBottom, Matrix.diagonal_apply, hjk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NLA/MI04/Rescaling.lean:72:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MI04/Rescaling.lean:72:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: NLA/MI04/Rescaling.lean:72:31: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: NLA/MI04/Rescaling.lean:72:45: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3533/3537] Built NLA.MI04.AffineHermitian (9.4s)
+warning: NLA/MI04/AffineHermitian.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: NLA/MI04/AffineHermitian.lean:43:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: NLA/MI04/AffineHermitian.lean:86:0: 'NLA.MI04.pair_implies_essential' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3534/3537] Built NLA.MI04.Threshold (4.7s)
+ℹ [3535/3537] Built NLA.MI04.Coordinate (5.4s)
+info: NLA/MI04/Coordinate.lean:39:0: 'NLA.MI04.universal_pair_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3536/3537] Built Solution (5.2s)
+warning: Solution.lean:11:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: Solution.lean:20:0: 'NLA.MI04.universal_pair_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:21:0: 'NLA.MI04.original_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3537 jobs).

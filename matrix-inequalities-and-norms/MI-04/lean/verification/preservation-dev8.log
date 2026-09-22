@@ -1,0 +1,15 @@
+unitary: PSD transported
+NLA/MI04/Preservation.lean:26:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Preservation.lean:28:2: warning: Unused tactic linter: `trace "unitary: PSD transported"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+unitary: exact block identity completed
+unitary: PSD transported
+unitary: block norm transported
+NLA/MI04/Preservation.lean:60:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (1000000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

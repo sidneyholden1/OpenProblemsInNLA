@@ -1,0 +1,2 @@
+NLA/MI04/PositiveLimit.lean:15:27: error(lean.unknownIdentifier): Unknown identifier `CFC.exists_pos_algebraMap_le_iff`
+NLA/MI04/PositiveLimit.lean:15:9: error: Tactic `rcases` failed: `x✝ : ?m.30` is not an inductive datatype

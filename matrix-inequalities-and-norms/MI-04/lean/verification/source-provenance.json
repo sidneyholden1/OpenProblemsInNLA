@@ -1,0 +1,40 @@
+{
+  "base_commit": "3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0",
+  "https_fetched_main_commit": "3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0",
+  "source_credit": "Matthew J. Colbrook, Cambridge; original question Bourin\u2013Lee, Hayashi background",
+  "source_files": [
+    {
+      "path": "../README.md",
+      "git_path": "matrix-inequalities-and-norms/MI-04/README.md",
+      "sha256": "22adf3cb0275c044c912eca496d13fbce98f83a35c6ee1184162cef379711bdc",
+      "matches_base": true
+    },
+    {
+      "path": "../solution.md",
+      "git_path": "matrix-inequalities-and-norms/MI-04/solution.md",
+      "sha256": "edfd1ddc69018997eb9709880d4ff5d3066eff4459bf39e7b402eacc1f390eb8",
+      "matches_base": true
+    },
+    {
+      "path": "../solution.tex",
+      "git_path": "matrix-inequalities-and-norms/MI-04/solution.tex",
+      "sha256": "5e2c6b910f17ffebfcb8e2be76577ba2e8a8f55bd2551271430d77b8aa6fc230",
+      "matches_base": true
+    },
+    {
+      "path": "../../../references/colbrook-matrix-2026-09-11/original-proofs/MI-04.tex",
+      "git_path": "references/colbrook-matrix-2026-09-11/original-proofs/MI-04.tex",
+      "sha256": "8363d460f59fba544577ba6453e44cec51f9b546a01875515361df352321fb7c",
+      "matches_base": true
+    },
+    {
+      "path": "../../../references/colbrook-matrix-2026-09-11/verification/reviews/MI-04-review.md",
+      "git_path": "references/colbrook-matrix-2026-09-11/verification/reviews/MI-04-review.md",
+      "sha256": "7493c546f894fb6dd62bb1870cd4b18a20eaad3777d643c7ea32a9394452f645",
+      "matches_base": true
+    }
+  ],
+  "mathlib_head": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "leancert_head": "621a43d7cf21f87872392a01e874f2f1dbddc926",
+  "adaptation": "Exact PSD reflection/rescaling route replaces source eigenvalue perturbation; no target weakening and no verbatim-source claim."
+}

@@ -1,0 +1,11 @@
+{
+  "verdict": "PASS",
+  "exports": 2,
+  "official_schema": "pinned v0.4",
+  "validator_exit_code": 0,
+  "command": [
+    "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+    "/private/tmp/nla-20260922-mi04/matrix-inequalities-and-norms/MI-04/lean/../../../tools/lean/validate_manifest.py",
+    "/private/tmp/nla-20260922-mi04/matrix-inequalities-and-norms/MI-04/lean"
+  ]
+}

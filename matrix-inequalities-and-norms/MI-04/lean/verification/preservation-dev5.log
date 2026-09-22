@@ -1,0 +1,27 @@
+NLA/MI04/Preservation.lean:24:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Preservation.lean:74:4: error: Tactic `rfl` failed: The left-hand side
+  fromBlocks (↑U * (A * star ↑U)) X (star X) (↑U * (B * star ↑U))
+is not definitionally equal to the right-hand side
+  fromBlocks A' X (star X) B'
+
+n : ℕ
+X : Mat n
+hX : UniversalBlockNorm X
+U : ↥(unitary (Mat n))
+A B : Mat n
+hA : IsHermitian A
+hB : IsHermitian B
+hP : (fromBlocks A (star ↑U * X * ↑U) (star ↑U * X * ↑U)ᴴ B).PosSemidef
+A' : Matrix (Fin n) (Fin n) ℂ := ↑U * A * star ↑U
+B' : Matrix (Fin n) (Fin n) ℂ := ↑U * B * star ↑U
+hA' : A'.IsHermitian
+hB' : B'.IsHermitian
+hu : ↑U * star ↑U = 1
+⊢ fromBlocks (↑U * (A * star ↑U)) X (star X) (↑U * (B * star ↑U)) = fromBlocks A' X (star X) B'
+NLA/MI04/Preservation.lean:56:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

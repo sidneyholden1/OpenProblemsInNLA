@@ -1,0 +1,4 @@
+'NLA.MI04.universal_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI04.scalar_sum_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI04.arrow_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NLA.MI04.weighted_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,59 @@
+NLA/MI04/Rescaling.lean:31:50: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Rescaling.lean:31:64: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Rescaling.lean:31:54: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+NLA/MI04/Rescaling.lean:50:8: error(lean.unknownIdentifier): Unknown constant `Matrix.isUnit_iff_isUnit_det.mpr`
+NLA/MI04/Rescaling.lean:51:6: error: No goals to be solved
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+NLA/MI04/Rescaling.lean:66:63: error: unsolved goals
+case pos
+n : ℕ
+i : Fin n
+e : Fin n → ℝ
+t : ℝ
+j k : Fin n
+hjk : j = k
+hji : j = i
+⊢ ((if k = i then ↑t ^ 2 else 2 - ↑(e k)) + if k = i then 2 - ↑t ^ 2 else ↑(e k)) = 2
+
+case neg
+n : ℕ
+i : Fin n
+e : Fin n → ℝ
+t : ℝ
+j k : Fin n
+hjk : j = k
+hji : ¬j = i
+⊢ ((if k = i then ↑t ^ 2 else 2 - ↑(e k)) + if k = i then 2 - ↑t ^ 2 else ↑(e k)) = 2
+
+case pos
+n : ℕ
+i : Fin n
+e : Fin n → ℝ
+t : ℝ
+j k : Fin n
+hjk : ¬j = k
+hji : j = i
+⊢ ((if i = k then ↑t ^ 2 else 0) + if i = k then 2 - ↑t ^ 2 else 0) = if i = k then 2 else 0

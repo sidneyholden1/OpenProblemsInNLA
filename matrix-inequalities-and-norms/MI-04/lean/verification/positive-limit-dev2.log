@@ -1,0 +1,19 @@
+NLA/MI04/PositiveLimit.lean:21:43: error(lean.invalidField): Invalid field `neg_algebraMap_norm_le_self`: The environment does not contain `Eq.neg_algebraMap_norm_le_self`, so it is not possible to project the field `neg_algebraMap_norm_le_self` from an expression
+  IsHermitian.sub (hH t) (PosDef.isHermitian h0)
+of type `(f t - f 0)ᴴ = f t - f 0`
+NLA/MI04/PositiveLimit.lean:15:43: error: unsolved goals
+ι : Type u_1
+inst✝² : Fintype ι
+inst✝¹ : DecidableEq ι
+inst✝ : Nonempty ι
+f : ℝ → Matrix ι ι ℂ
+hf : ContinuousAt f 0
+hH : ∀ (t : ℝ), (f t).IsHermitian
+h0 : (f 0).PosDef
+ε : ℝ
+hε : ε > 0
+hgap : (algebraMap ℝ (Matrix ι ι ℂ)) ε ≤ f 0
+hsmall : ∀ᶠ (t : ℝ) in 𝓝 0, ‖f t - f 0‖ < ε
+t : ℝ
+ht : ‖f t - f 0‖ < ε
+⊢ (f t).PosSemidef

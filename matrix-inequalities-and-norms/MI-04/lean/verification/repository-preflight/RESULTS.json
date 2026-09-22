@@ -1,0 +1,12 @@
+{
+  "ids": 0,
+  "format": 0,
+  "harness": 0,
+  "initial_harness_invocation": {
+    "exit_code": 1,
+    "reason": "Incorrect unittest discovery path tools/lean/tests; corrected to actual tools/lean/test_harness.py. No project test failed."
+  },
+  "repository-tests": 0,
+  "manifest": 0,
+  "repository-tests-after-integration": 0
+}

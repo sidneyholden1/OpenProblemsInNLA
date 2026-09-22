@@ -1,0 +1,27 @@
+NLA/MI04/Preservation.lean:24:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+NLA/MI04/Preservation.lean:72:4: error: Tactic `rfl` failed: The left-hand side
+  fromBlocks (↑U * A * star ↑U) X (↑U * (star ↑U * (star X * ↑U)) * star ↑U) (↑U * B * star ↑U)
+is not definitionally equal to the right-hand side
+  fromBlocks A' X (star X) B'
+
+n : ℕ
+X : Mat n
+hX : UniversalBlockNorm X
+U : ↥(unitary (Mat n))
+A B : Mat n
+hA : IsHermitian A
+hB : IsHermitian B
+hP : (fromBlocks A (star ↑U * X * ↑U) (star ↑U * X * ↑U)ᴴ B).PosSemidef
+A' : Matrix (Fin n) (Fin n) ℂ := ↑U * A * star ↑U
+B' : Matrix (Fin n) (Fin n) ℂ := ↑U * B * star ↑U
+hA' : A'.IsHermitian
+hB' : B'.IsHermitian
+⊢ fromBlocks (↑U * A * star ↑U) X (↑U * (star ↑U * (star X * ↑U)) * star ↑U) (↑U * B * star ↑U) =
+    fromBlocks A' X (star X) B'
+NLA/MI04/Preservation.lean:74:9: error(lean.invalidField): Invalid field notation: Type of
+  (fromBlocks ?m.207 0 0 ?m.212)ᴴ * ?m.214 * ?m.216
+is not known; cannot resolve field `PosSemidef`
+
+Hint: Consider replacing the field projection `.PosSemidef` with a call to the function `PosSemidef`.

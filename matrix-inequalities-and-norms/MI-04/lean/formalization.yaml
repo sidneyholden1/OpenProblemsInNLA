@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: 'MI-04: the full universal block-norm implication'
+  description: Every complex finite-dimensional matrix with the universal positive-block spectral norm
+    property is essentially Hermitian.
+  authors:
+  - Sidney Holden
+  affiliations:
+    Sidney Holden: Center for Computational Biology, Flatiron Institute, Simons Foundation
+  responsible_maintainers:
+  - Sidney Holden
+  license: Apache-2.0
+sources:
+- title: MI-04 — A universal block-norm characterization of essentially Hermitian matrices
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0/matrix-inequalities-and-norms/MI-04/README.md
+  type: web-post
+  location: Complete canonical original implication
+  relationship: formalizes
+  author_endorsement: not-contacted
+- title: MI-04 complete proof
+  authors:
+  - Matthew J. Colbrook
+  id: https://github.com/sidneyholden1/OpenProblemsInNLA/blob/3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0/matrix-inequalities-and-norms/MI-04/solution.tex
+  type: manuscript
+  location: Necessity direction of Theorem 1.1, complete source proof read
+  relationship: formalizes
+  author_endorsement: not-contacted
+  note: Colbrook, Cambridge; source discloses AI assistance. Bourin–Lee original question and Hayashi
+    background retained. PSD rescaling replaces the source eigenvalue perturbation step; it is a formal-proof
+    adaptation.
+related_formalizations:
+- id: https://github.com/sidneyholden1/OpenProblemsInNLA/tree/3212647d7b16dd1fc5bf33ed5c2b07a4b156dbf0/matrix-inequalities-and-norms/MI-03/lean
+  relationship: other
+  note: Existing matrix CStar/L2 norm and kernel trust workflow studied; no cross-project theorem import.
+- id: https://github.com/sgstepaniants/Forsythe/tree/8d1b0c0545a77b40245e84705aa7d273e6c81e62/lean-proof
+  relationship: other
+  note: Shared Comparator reproduction workflow; credit retained in tools/lean/NOTICE.md.
+automation:
+  methods:
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean 4.33.1, exact pinned Mathlib/LeanCert HTTPS dependencies, separate frozen Challenge
+      and complete Solution, actual transitive kernel trust audit. Full build explicitly targets Solution;
+      the frozen default target remains Challenge.
+    prompting_notes: Full all-dimensional complex statements fixed before proof and two independent nonauthor
+      approvals. Exact scalar-sum PSD reflection, polynomial rescaling, Schur complements, closed positivity
+      and CFC geometry. No spectral-perturbation black box as an assumption.
+  notes: AI-assisted formalization requested by Sidney Holden. No measured monetary cost, external human
+    review or source-author endorsement claimed.
+status:
+  scope: Complete local kernel proof of the original universal positive-block norm implication for every
+    finite n>=1 and arbitrary complex X, plus orthonormal-pair modulus symmetry. Actual Euclidean operator
+    norms, literal PSD block matrices and all Hermitian A,B are retained. No invertibility, spectral simplicity,
+    normality, perturbation or central bridge is an extra assumption. Optional converse, numerical-range
+    theorem and four-way equivalence are excluded. Independent final reviews and actual isolated Linux
+    Comparator remain pending; canonical status unchanged.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  main_results:
+  - declaration: NLA.MI04.universal_pair_symmetry
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  - declaration: NLA.MI04.original_target
+    file: Solution.lean
+    sorry_count: 0
+    comparator_config: comparator.json
+    literature_dependencies: []
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+fidelity:
+  divergences: No weakening of canonical necessity. Literal fromBlocks PSD condition and genuine induced
+    Euclidean matrix norms, all Hermitian A,B and all complex X in each n>=1. Pair symmetry uses actual
+    Euclidean inner products and matrix action. Alpha=0 allowed. PSD rescaling is an alternative proof
+    adaptation; no inverse, simple spectrum, normality or central-bridge assumption is imposed. Source
+    converse/equivalences are not advertised.
+review:
+  status: final-review-pending
+  reviewers:
+  - OpenAI Codex agent /root/iv06_statement_referee_2
+  - OpenAI Codex agent /root/new_target_screen
+  notes: Two independent nonauthor statement approvals were hash-bound before proof. Authors /root and
+    /root/iv06_statement_referee_1 are excluded as final referees; independent final reviewers are /root/iv06_statement_referee_2
+    and /root/new_target_screen. Full local Solution and separate literal two-signature author consumer
+    pass kernel trust checks with standard-three axioms. Final reviews and actual Linux gates remain pending.
+alignment:
+- source: Weighted row/column comparison for every orthonormal pair
+  declarations:
+  - NLA.MI04.universal_pair_symmetry
+- source: Complete canonical essentially-Hermitian conclusion
+  declarations:
+  - NLA.MI04.original_target
+acknowledgements: 'Mathematics: Matthew J. Colbrook, Cambridge, with source-disclosed AI assistance. Original
+  question: Bourin–Lee; Hayashi background. Formalization: Sidney Holden with OpenAI Codex assistance.
+  Mathlib, LeanCert, Comparator and formalization.yaml credit retained; no novelty, external human review
+  or source-author endorsement claim.'
