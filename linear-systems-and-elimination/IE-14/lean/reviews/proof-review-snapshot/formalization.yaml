@@ -42,8 +42,7 @@ automation:
     framework: OpenAI Codex
     tool_setup: Lean 4.33.1, pinned Mathlib and LeanCert. Separate trusted Challenge and completed Solution;
       exact finite complex algebra and Fibonacci recurrence proofs, kernel trust only. Shared local dependency
-      cache; isolated Linux Comparator and default-kernel acceptance completed with actual rejection and
-      isolation controls.
+      cache; isolated Linux Comparator remains pending.
     prompting_notes: Full numerical statements first, two independent nonauthor approvals before proof,
       derive the two-row front from actual sparsity and row labels, minimize computation using exact complex
       triangle inequalities and Fibonacci recurrences. LeanCert kernel audits; no unnecessary interval
@@ -51,10 +50,10 @@ automation:
   notes: AI-assisted formalization at Sidney Holden’s request. No measured monetary cost, external human
     peer review or source-author endorsement is claimed.
 status:
-  scope: 'Complete canonical complex GEPP target for every n≥4: all nonsingular cyclic tridiagonal inputs
-    with both corners nonzero, all admissible column-maximal pivot ties, every active entry, explicit
-    rational attainment and genuine nonempty bounded sharp supremum F(n+1)+1. Four exports accepted by
-    isolated Linux Comparator/default-kernel with actual rejection and isolation controls.'
+  scope: Complete local proof of all four original exports, including every complex all-tie GEPP path,
+    exact rational attainment and genuine sharp supremum. Solution compiles and all four LeanCert kernel
+    checks pass with only the standard three axioms. Independent nonauthor final reviews and isolated
+    Linux Comparator remain pending; canonical publication status unchanged.
   sorry_count: 0
   sorry_in_definitions: 0
   main_results:
@@ -86,15 +85,14 @@ fidelity:
     nonemptiness, boundedness and exact attainment. No front, realness, normalization or deterministic-tie
     assumption is inserted.
 review:
-  status: Two independent nonauthor final reviews passed; Linux acceptance complete
+  status: local-proof-complete-final-review-pending
   reviewers:
   - OpenAI Codex agent /root
   - OpenAI Codex agent /root/iv06_statement_referee_1
-  notes: Two hash-bound statement approvals preceded proofs. Both final exact-four-signature consumers
-    and LeanCert kernel checks pass. Immutable proof 9a0117aa8ed40a73b285772b3b1c13864782e95d; Linux run
-    35700510972, attempt 1. Coordinator operational audit (proof nonauthor) verifies original archive
-    digests, all tracked inputs and actual default-kernel/rejection/sandbox controls. Original statement
-    and final-review metadata snapshots retained. No external human review claimed.
+  notes: Two independent nonauthor statement approvals and successful Challenge elaboration preceded proofs;
+    exact statement gate and original README/YAML snapshots retained. Local full Solution and all four
+    kernel audits pass. Root and iv06_statement_referee_1 are nonauthor final referees; final reviews
+    and isolated Linux Comparator are pending. Authors do not self-review independently.
 alignment:
 - source: Universal complex all-path upper bound
   declarations:

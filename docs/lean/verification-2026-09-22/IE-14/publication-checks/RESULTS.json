@@ -1,0 +1,55 @@
+{
+  "verdict": "PASS",
+  "role": "Author/packager publication checks, not independent mathematical review",
+  "base_ref": "origin/main",
+  "base_commit": "85490781eb0ca01c4545ded776117d7cb4cf9f52",
+  "proof_commit": "9a0117aa8ed40a73b285772b3b1c13864782e95d",
+  "python": "/private/tmp/nla-20260922-runtime/metadata/bin/python",
+  "counts": {
+    "total": 217,
+    "Lean verified": 41,
+    "Solved": 50,
+    "Open": 57,
+    "Partially resolved": 69
+  },
+  "problem_id_tests": 17,
+  "repository_tests": 77,
+  "manifest_exports": 4,
+  "math_pages_needing_formatting": 0,
+  "all25_reviewed_inputs_preserved": true,
+  "pdf_rendering_or_visual_review": "Not performed by this agent; coordinator owns it",
+  "commit_or_push": "Not performed in this publication task",
+  "checks": {
+    "ids.log": {
+      "command": "python tools/validate_problem_ids.py --base-ref origin/main",
+      "exit_code": 0,
+      "sha256": "44cc74bfe8f011df4389835465a6043310e12828a092e8c74d318f50d26da3a0"
+    },
+    "catalog.log": {
+      "command": "python tools/update_catalog.py --base-ref origin/main",
+      "exit_code": 0,
+      "sha256": "ffcefd3a24ee1574e2aa4e8885015007e17725f78cf3958abccfb78ed332b6a7"
+    },
+    "problem-id-tests.log": {
+      "command": "python -m unittest discover -s tests -p 'test_problem_ids.py' -v",
+      "exit_code": 0,
+      "sha256": "c96f50b86533fde4860ffab407cb6a069826bd0bef9e48460682306798d566ce"
+    },
+    "repository-tests.log": {
+      "command": "PATH=pandoc-3.11-arm64/bin:/Library/TeX/texbin:$PATH python -m unittest discover -s tests -p 'test_*.py' -v",
+      "exit_code": 0,
+      "sha256": "3cdf4b6b02a22f3f60c5a26f6fc2ada09a90a7614baf97c6e5980eb0265bf6c3"
+    },
+    "math-format.log": {
+      "command": "python tools/format_math.py --check",
+      "exit_code": 0,
+      "sha256": "a79bf13b65bde7baa6900939f581282565799e78e47c9e2426f83b5b4ccb5a9c"
+    },
+    "manifest.log": {
+      "command": "python tools/lean/validate_manifest.py linear-systems-and-elimination/IE-14/lean",
+      "exit_code": 0,
+      "sha256": "2f098846a37bb19950be25f79de1cbee488b36f4ce9e1c6fb134fb5963f567aa"
+    }
+  },
+  "frozen_proof_receipt_sha256": "43629d952b25b71767cf6c00c15b5518d2b79c04e0d668b01fa5021aa6aa9e9e"
+}

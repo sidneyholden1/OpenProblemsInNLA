@@ -1,0 +1,40 @@
+{
+  "verdict": "PASS",
+  "phase": "publication local checks",
+  "date_utc": "2026-09-22T07:52:20.463735+00:00",
+  "proof_head": "9a0117aa8ed40a73b285772b3b1c13864782e95d",
+  "proof_linux_run": 35700510972,
+  "tests": {
+    "repository": 77,
+    "permanent_ids": 17,
+    "render_after_layout_adjustment": 11
+  },
+  "permanent_ids": 217,
+  "catalog_counts": {
+    "total": 217,
+    "Lean verified": 41,
+    "Solved": 50,
+    "Open": 57,
+    "Partially resolved": 69
+  },
+  "source_manuscript_and_target_unchanged": true,
+  "all_25_reviewed_inputs_preserved": true,
+  "visual_pdf_review": {
+    "reviewer": "OpenAI Codex /root",
+    "pages": 2,
+    "both_pages_rendered_and_inspected": true,
+    "result": "PASS; complete original target on page2 with references and historical audits, no missing symbols/clipping/overlap. IE14-specific renderer page-break adjustment removes a largely empty intermediate page."
+  },
+  "file_sha256": {
+    "linear-systems-and-elimination/IE-14/README.md": "a01fd98ba78de84f92de2674522b1c807cb5f262565531080c17861488aa26da",
+    "linear-systems-and-elimination/IE-14/problem.pdf": "6097adaa12ac4d87452fe49f0b03c2bea3f29f4ab520c3f363788cbbc9c0795d",
+    "linear-systems-and-elimination/IE-14/problem.tex": "bb32a23470335e102371bf342fbd855813d9aa95d7c380526affa218e51d94bf",
+    "tools/render_problems.py": "b745c80708b686b1dd012eb81149c9759589de5bb63ad1ba55c3bdb4730aa0a5",
+    "docs/lean/verification-2026-09-22/IE-14/publication-checks/RESULTS.json": "10d4ea1266fc9257137c24ea9f1a8b76d9b87a12e33574b2ac00d262541a28aa",
+    "docs/lean/verification-2026-09-22/IE-14/publication-checks/ie14-render-final.log": "0a187cc0e3da2c928b875ec0a06d730df74e151bab58a30fc0262e339f87d1dd",
+    "docs/lean/verification-2026-09-22/IE-14/publication-checks/ie14-render-tests.log": "0aea2bf5e93f57a88a67c80a3ec09069984b7c8c701f75da78314b0474e3cce2",
+    "docs/lean/verification-2026-09-22/IE-14/publication-checks/pdf-page-1.png": "35358a3fd732176cbbb7a1ef0b8d9e7286d9fce7c1cb073d8905f39dc5a11edb",
+    "docs/lean/verification-2026-09-22/IE-14/publication-checks/pdf-page-2.png": "2b3ce94fa79f9eee1d05422f98ae0d78aa426518d6a9b40ba2aa5521d84bed91"
+  },
+  "publication_head_linux": "pending; must pass before merge"
+}

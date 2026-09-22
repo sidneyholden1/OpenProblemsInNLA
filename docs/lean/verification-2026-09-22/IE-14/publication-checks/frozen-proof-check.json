@@ -1,0 +1,108 @@
+{
+  "verdict": "PASS",
+  "role": "author/packager check, not independent mathematical review",
+  "all25_reviewed_inputs_preserved": true,
+  "proof_commit": "9a0117aa8ed40a73b285772b3b1c13864782e95d",
+  "matches": {
+    "NLA/IE14/Base.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/Base.lean",
+      "sha256": "c819f4efef6a3990c7d410b78ca53c09f30e368cd74036b619c0625cd8d81f51"
+    },
+    "NLA/IE14/ColumnBounds.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/ColumnBounds.lean",
+      "sha256": "337bf9f7976f617dc824463da1bcdf13a67f9d80ac002b09ea02398c40cd6e73"
+    },
+    "NLA/IE14/Definitions.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/Definitions.lean",
+      "sha256": "f8de5dfd03707340479aea91c66f30ab667a9439b89f9371e70dc890755c1202"
+    },
+    "NLA/IE14/Front.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/Front.lean",
+      "sha256": "59d4985e1f577a046c51ee7dc1dae59a0da07f910345291160a249540c229c6f"
+    },
+    "NLA/IE14/PairBounds.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/PairBounds.lean",
+      "sha256": "6ad077f67ef8d9086ae15947593e7c6fd847a0a93683b97280320d9a82101e2e"
+    },
+    "NLA/IE14/Proof.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/Proof.lean",
+      "sha256": "fa478a667ec0dfc6ae71cc32adaf12d69b1159533df90713261a65f25f5c733a"
+    },
+    "NLA/IE14/Upper.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/Upper.lean",
+      "sha256": "c86e368a0d1ee4a0c8899893e9febe53dfe5e3cb21d4a0492b0b3859d4e0df72"
+    },
+    "NLA/IE14/WitnessInput.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/WitnessInput.lean",
+      "sha256": "a1718b92101ed3ccc695230e9850f96f34b2dd59453070026848efd5e73b99bb"
+    },
+    "NLA/IE14/WitnessPath.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NLA/IE14/WitnessPath.lean",
+      "sha256": "723a4ad8914bf184676a1405621b89e91802d2c776d0698b7efc70504b8bb170"
+    },
+    "Solution.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/Solution.lean",
+      "sha256": "c848e962decbfa53fc8594b85805d5bfee5dcd14dfc0445c2885693c83af92ca"
+    },
+    "Challenge.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/Challenge.lean",
+      "sha256": "dcaaf1807039dda04a53329ff333580ca3670a445693df0f8dceac0e6f280b32"
+    },
+    "NUMERICAL_TARGETS.md": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/NUMERICAL_TARGETS.md",
+      "sha256": "c034b8725c90f6771299b439b73ac0c490d452bed3e01aa3890c50a9458c587d"
+    },
+    "README.md": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/reviews/proof-review-snapshot/README.md",
+      "sha256": "e5e7d96f0d7a523ea409c043f820d48258eac15efdb4a1edf059c779ec85c64b"
+    },
+    "formalization.yaml": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/reviews/proof-review-snapshot/formalization.yaml",
+      "sha256": "390d2b5332231a5d324c7281039059145592935a9ba4feb05cd88c2a880cd216"
+    },
+    "lean-toolchain": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    "lakefile.toml": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/lakefile.toml",
+      "sha256": "c68beeb54b136053439a6887f1064be96bed00e652f86272e62cbde79f1082fa"
+    },
+    "lake-manifest.json": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/lake-manifest.json",
+      "sha256": "b86bf12ffe55dd432cb556dfb3dfa91ab11da248eee4db7ae53ea00b00c8d58c"
+    },
+    "comparator.json": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/comparator.json",
+      "sha256": "74c736e28e1befa52dffe4bafbe6785339f59b9a3784348d9dda74aad0e277e5"
+    },
+    "LICENSE": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "verification/solution-build-final.log": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/verification/solution-build-final.log",
+      "sha256": "42cc8ebc8019ab9c3867c4b5a5305c1f5ca83f8c6cc7a8ec8ccf1ed431af6066"
+    },
+    "verification/AuthorAudit.lean": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/verification/AuthorAudit.lean",
+      "sha256": "e2bd96f10d945e089061cb9e73ecfb0714dda4652a87076e27ab1a91cf5c4088"
+    },
+    "verification/axioms.log": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/verification/axioms.log",
+      "sha256": "e1dec2098b0040d3c7b2322fbcc7b5bdffd1c54e438778160a0ffa62b5cea840"
+    },
+    "verification/metadata-local-complete.log": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/verification/metadata-local-complete.log",
+      "sha256": "ec81c04258673a75fd2e053ac1cc87f9e52013e0cf117ed8e5936495b2d0d02e"
+    },
+    "verification/metadata-local-complete.json": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/verification/metadata-local-complete.json",
+      "sha256": "b196ea85eb12177459069dcc298e8430be3a3cc3d91532d1f4386fccdf0e062c"
+    },
+    "verification/freeze_local_proof.py": {
+      "retained_path": "linear-systems-and-elimination/IE-14/lean/verification/freeze_local_proof.py",
+      "sha256": "b2176e40eab2724f2c9ae09087fc777ebd600c1aaa2a98ee02716be1445853ac"
+    }
+  }
+}

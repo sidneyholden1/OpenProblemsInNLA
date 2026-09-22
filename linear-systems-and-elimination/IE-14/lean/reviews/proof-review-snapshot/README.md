@@ -1,26 +1,17 @@
 # IE-14 Lean verification
 
-The complete accepted proof establishes the sharp growth factor F_(n+1)+1 for
+The complete local proof establishes the sharp growth factor F_(n+1)+1 for
 every order n≥4. It covers arbitrary complex nonsingular cyclic tridiagonal
 inputs with both corners nonzero, every permitted GEPP tie, and every active
 Schur entry in the original ordering. The explicit rational family attains
 the bound through the literal row-swap elimination path. Nonemptiness,
 boundedness, the greatest element and the genuine real supremum are proved.
 
-**Accepted proof, 2026-09-22:** the complete local Solution builds (3,086 jobs).
-All four LeanCert kernel assertions and transitive axiom audits pass using only
-`propext`, `Classical.choice`, and `Quot.sound`. Both independent nonauthor final
-reviews pass: [root](reviews/final-referee-root.md) and
-[referee 1](reviews/final-referee-1.md).
-[Isolated Linux Comparator/default-kernel acceptance](https://github.com/sidneyholden1/OpenProblemsInNLA/actions/runs/35700510972)
-checks all four frozen statements plus actual rejection and isolation controls
-at immutable proof revision `9a0117aa8ed40a73b285772b3b1c13864782e95d`. The coordinator, a nonauthor of the
-mathematical proof, audited original ZIP/API digests and all tracked source
-hashes; [retained evidence](../../../docs/lean/verification-2026-09-22/IE-14/README.md).
-The active proof contains no placeholders. Four intentional placeholders remain
-only in the trusted Challenge, which Solution does not import. Reviewed proof
-metadata is preserved under `reviews/proof-review-snapshot`; original statement
-metadata remains under `reviews/statement-original`.
+**Local status:** Solution compiles; all four advertised exports pass LeanCert
+kernel checks with only propext, Classical.choice and Quot.sound. The proof
+implementation contains no placeholders. Challenge retains its four intentional
+statement placeholders. Independent nonauthor final reviews and isolated Linux
+Comparator checks are pending. No publication or Linux-success claim is made.
 
 ## Proof structure
 
@@ -55,8 +46,8 @@ the required isolated Linux Comparator and rejection controls.
 
 See [NUMERICAL_TARGETS.md](NUMERICAL_TARGETS.md) for exact contracts and the
 source-to-formalization plan. All four results are listed in formalization.yaml
-and comparator.json. The mathematical reviews and accepted proof-run evidence
-are retained separately from subsequent publication checks.
+and comparator.json. Final independent reviews and Linux artifacts must be added
+before describing this as fully accepted and published.
 
 ## Attribution
 
